@@ -35,7 +35,14 @@ def get_samples():
 def get_isbns():
     return jsonify(bitmap_manager.extract_isbns())
 
+@app.route("/api/global_view", methods=["GET"])
+def get_global_view():
+    grid_width = 1000  # Width of the global view grid
+    grid_height = 800  # Height of the global view grid
+    scale = 2500  # Scale factor for aggregating ISBNs
 
+    global_view_data = bitmap_manager.generate_global_view(grid_width, grid_height, scale)
+    return jsonify(global_view_data)
 
 if __name__ == "__main__":
     app.run(debug=True)

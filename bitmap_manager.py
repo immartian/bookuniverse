@@ -1,5 +1,7 @@
 import struct
 import isbnlib
+import numpy as np
+
 
 class BitmapManager:
     def __init__(self, packed_isbns_binary, start_isbn=978000000000):
@@ -50,6 +52,27 @@ class BitmapManager:
             streak_flag = not streak_flag
 
         return False
+    
+    def generate_global_view(self, grid_width, grid_height, scale):
+        """Generate a grid for the global view."""
+        grid = np.zeros((grid_height, grid_width, 3), dtype=int)  # RGB channels
+        position = 0
+        isbn_streak = True
+
+        for value in self.packed_isbns_ints:
+            if isbn_streak:
+                for _ in range(value):
+                    x = (position // scale) % grid_width
+                    y = (position // scale) // grid_width
+                    grid[y, x, 1] += 1  # Green for artifacts
+                    position += 1
+            else:
+                position += value  # Gaps
+            isbn_streak = not isbn_streak
+
+        # Normalize values for visualization (0-255)
+        grid = (grid / grid.max() * 255).astype(int)
+        return grid.tolist()
 
     def __len__(self):
         return len(self.extract_isbns())
