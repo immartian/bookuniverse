@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISBN Draggable Diagram</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+        }
+        svg {
+            border: 1px solid #ccc;
+            background-color: white;
+        }
+        .node {
+            cursor: grab;
+        }
+        .node:hover {
+            fill: orange;
+        }
+    </style>
+</head>
+<body>
+    <h1>ISBN Draggable Diagram</h1>
+    <svg id="diagram" width="800" height="600"></svg>
+
+    <script>
+        // Fetch the data from the server
+        fetch('/api/samples')
+    .then(response => response.json())
+    .then(data => {
+        // Transform the data into objects with `x` and `y` properties
+        const nodesData = data.map(isbn => ({ id: isbn, x: Math.random() * 800, y: Math.random() * 600 }));
+
+        const width = 800;
+        const height = 600;
+
+        const svg = d3.select("#diagram");
+
+        // Create a simulation for dragging
+        const simulation = d3.forceSimulation(nodesData)
+            .force("charge", d3.forceManyBody().strength(-100))
+            .force("center", d3.forceCenter(width / 2, height / 2))
+            .force("collision", d3.forceCollide(50));
+
+        // Create nodes for each ISBN
+        const nodes = svg.selectAll("g")
+            .data(nodesData)
+            .enter()
+            .append("g")
+            .attr("class", "node")
+            .call(d3.drag()
+                .on("start", dragStarted)
+                .on("drag", dragged)
+                .on("end", dragEnded)
+            );
+
+        // Add circles for visualization
+        nodes.append("circle")
+            .attr("r", 20)
+            .attr("fill", "lightblue")
+            .attr("stroke", "#333")
+            .attr("stroke-width", 1.5);
+
+        // Add ISBN labels
+        nodes.append("text")
+            .text(d => d.id)
+            .attr("text-anchor", "middle")
+            .attr("dy", ".3em")
+            .attr("font-size", "10px");
+
+        // Update node positions on tick
+        simulation.nodes(nodesData)
+            .on("tick", () => {
+                nodes.attr("transform", d => `translate(${d.x}, ${d.y})`);
+            });
+
+        // Drag event handlers
+        function dragStarted(event, d) {
+            if (!event.active) simulation.alphaTarget(0.3).restart();
+            d.fx = d.x;
+            d.fy = d.y;
+        }
+
+        function dragged(event, d) {
+            d.fx = event.x;
+            d.fy = event.y;
+        }
+
+        function dragEnded(event, d) {
+            if (!event.active) simulation.alphaTarget(0);
+            d.fx = null;
+            d.fy = null;
+        }
+    });
+    </script>
+</body>
+</html>

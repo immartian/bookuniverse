@@ -1,0 +1,6 @@
+requests
+zstandard
+bencodepy
+isbnlib
+flask
+flask_cors
