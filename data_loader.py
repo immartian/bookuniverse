@@ -26,7 +26,9 @@ def decompress_data(input_filename):
 def load_bitmap_manager(input_filename, start_isbn):
     decompressed_data = decompress_data(input_filename)
     isbn_data = bencodepy.decode(decompressed_data)
+    ## [b'cadal_ssno', b'cerlalc', b'duxiu_ssid', b'edsebk', b'gbooks', b'goodreads', b'ia', b'isbndb', b'isbngrp', b'libby', b'md5', b'nexusstc', b'nexusstc_download', b'oclc', b'ol', b'rgb', b'trantor']
     packed_isbns_binary = isbn_data[b'md5']
+    packed_isbns_binary = isbn_data[b'gbooks']
     from bitmap_manager import BitmapManager
     return BitmapManager(packed_isbns_binary, start_isbn)
 

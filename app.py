@@ -25,10 +25,10 @@ def get_isbn(isbn):
     else:
         return jsonify({"status": "unavailable"})
     
-# get 1000 samples of the data
-@app.route("/api/samples", methods=["GET"])
-def get_samples():
-    return jsonify(bitmap_manager.extract_isbns(n=1000))
+# get n samples of the data
+@app.route("/api/samples/<int:n>", methods=["GET"])
+def get_n_samples(n):
+    return jsonify(bitmap_manager.extract_isbns(n=n))
 
     
 @app.route("/api/isbns", methods=["GET"])
@@ -43,6 +43,37 @@ def get_global_view():
 
     global_view_data = bitmap_manager.generate_global_view(grid_width, grid_height, scale)
     return jsonify(global_view_data)
+
+
+@app.route("/api/cluster_view", methods=["GET"])
+def get_cluster_view():
+    # Fetch the base ISBN from query parameters
+    base_isbn = request.args.get("base_isbn", default=None, type=str)
+    n = 2500  # Number of ISBNs for cluster view
+
+    if base_isbn:
+        cluster_data = bitmap_manager.check_isbns_from(start_isbn=base_isbn, n=n)
+    else:
+        # Default behavior: start from the beginning
+        cluster_data = bitmap_manager.check_isbns(n=n)
+
+    return jsonify(cluster_data)
+
+
+@app.route("/api/detail_view", methods=["GET"])
+def get_detail_view():
+    # Fetch the base ISBN from query parameters
+    base_isbn = request.args.get("base_isbn", default=None, type=str)
+    n = 100  # Number of ISBNs for detail view
+
+    if base_isbn:
+        detail_data = bitmap_manager.check_isbns_from(start_isbn=base_isbn, n=n)
+    else:
+        # Default behavior: start from the beginning
+        detail_data = bitmap_manager.check_isbns(n=n)
+
+    return jsonify(detail_data)
+
 
 if __name__ == "__main__":
     app.run(debug=True)

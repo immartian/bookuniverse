@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ISBN Global View</title>
+    <title>ISBN Visualization</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -26,7 +26,7 @@
     </style>
 </head>
 <body>
-    <h1>ISBN Global View</h1>
+    <h1>ISBN Visualization</h1>
     <canvas id="visualization" width="800" height="1000"></canvas>
     <div class="tooltip" id="tooltip"></div>
 
@@ -35,60 +35,87 @@
         const ctx = canvas.getContext("2d");
         const tooltip = document.getElementById("tooltip");
 
-        let cellWidth, cellHeight, gridData;
+        let currentView = "global"; // Tracks the current view
+        let gridData, clusterData, detailData; // Stores data for each view
+
+        // Event listener for zooming (mouse wheel scroll)
+        canvas.addEventListener("wheel", (event) => {
+            event.preventDefault();
+
+            // Calculate base ISBN from mouse position (example logic)
+            const rect = canvas.getBoundingClientRect();
+            const mouseX = event.clientX - rect.left;
+            const mouseY = event.clientY - rect.top;
+
+            if (currentView === "global" && gridData) {
+                const cellWidth = canvas.width / gridData[0].length;
+                const cellHeight = canvas.height / gridData.length;
+
+                const col = Math.floor(mouseX / cellWidth);
+                const row = Math.floor(mouseY / cellHeight);
+                const basePosition = row * gridData[0].length + col;
+                const baseIsbn = (basePosition * 2500 + 978000000000).toString();
+
+                if (event.deltaY < 0) { // Zooming in
+                    zoomToClusterView(baseIsbn);
+                }
+            } else if (currentView === "cluster" && clusterData) {
+                const rectWidth = 16;
+                const rectHeight = 20;
+
+                const col = Math.floor(mouseX / rectWidth);
+                const row = Math.floor(mouseY / rectHeight);
+                const baseIndex = row * 50 + col;
+                const baseIsbn = clusterData[baseIndex]?.isbn;
+
+                if (event.deltaY < 0) { // Zooming in
+                    zoomToDetailView(baseIsbn);
+                } else if (event.deltaY > 0) { // Zooming out
+                    drawGlobalView();
+                }
+            } else if (currentView === "detail" && detailData) {
+                if (event.deltaY > 0) { // Zooming out
+                    zoomToClusterView();
+                }
+            }
+        });
 
 
+        // Mouse move event for showing tooltips
+        canvas.addEventListener("mousemove", (event) => {
+            const rect = canvas.getBoundingClientRect();
+            const mouseX = event.clientX - rect.left;
+            const mouseY = event.clientY - rect.top;
 
+            if (currentView === "global" && gridData) {
+                showGlobalTooltip(mouseX, mouseY);
+            } else if (currentView === "cluster" && clusterData) {
+                showClusterTooltip(mouseX, mouseY);
+            } else if (currentView === "detail" && detailData) {
+                showDetailTooltip(mouseX, mouseY);
+            }
+        });
+
+        // Hide tooltip when the mouse leaves the canvas
+        canvas.addEventListener("mouseleave", () => {
+            tooltip.style.display = "none";
+        });
+
+        // Fetch and render the global view
         fetch('/api/global_view')
             .then(response => response.json())
             .then(data => {
                 gridData = data;
-
-                // Calculate cell dimensions
-                cellWidth = canvas.width / gridData[0].length;
-                cellHeight = canvas.height / gridData.length;
-
-                // Render the grid
-                drawGrid();
-
-                // Add mousemove event for tooltip
-                canvas.addEventListener("mousemove", (event) => {
-                    const rect = canvas.getBoundingClientRect();
-                    const mouseX = event.clientX - rect.left;
-                    const mouseY = event.clientY - rect.top;
-
-                    // Calculate grid cell
-                    const col = Math.floor(mouseX / cellWidth);
-                    const row = Math.floor(mouseY / cellHeight);
-
-                    if (gridData[row] && gridData[row][col]) {
-
-                        const color = gridData[row][col];
-                        const colorString = `rgb(${color[0]}, ${color[1]}, ${color[2]})`;
-                        
-                        // Calculate ISBN range for the cell
-                        const rangeStart = (row * gridData[0].length + col) * 2500 + 978000000000;
-                        const rangeEnd = rangeStart + 2500 - 1;
-
-                        // Update tooltip content and position
-                        tooltip.innerText = `2500 ISBNs: \n-------\n${rangeStart}x \n    ~   \n${rangeEnd}x`;
-                        tooltip.style.left = `${event.clientX + 10}px`;
-                        tooltip.style.top = `${event.clientY + 10}px`;
-                        tooltip.style.backgroundColor = colorString; // Set tooltip background color
-                        tooltip.style.color = getTextColor(color); // Adjust text color for contrast
-                        tooltip.style.display = "block";
-                    } else {
-                        tooltip.style.display = "none";
-                    }
-                });
-
-                // Hide tooltip when mouse leaves canvas
-                canvas.addEventListener("mouseleave", () => {
-                    tooltip.style.display = "none";
-                });
+                drawGlobalView();
             });
 
-        function drawGrid() {
+        // Draw the global view
+        function drawGlobalView() {
+            currentView = "global";
+            const cellWidth = canvas.width / gridData[0].length;
+            const cellHeight = canvas.height / gridData.length;
+
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
             gridData.forEach((row, y) => {
                 row.forEach((color, x) => {
                     ctx.fillStyle = `rgb(${color[0]}, ${color[1]}, ${color[2]})`;
@@ -97,13 +124,150 @@
             });
         }
 
-        //helper
-        function getTextColor(rgb) {
-            // Calculate brightness using the luminance formula
-            const brightness = 0.299 * rgb[0] + 0.587 * rgb[1] + 0.114 * rgb[2];
-            return brightness > 128 ? "black" : "white"; // Use black for bright backgrounds, white for dark
+        // Fetch and render the cluster view
+        function zoomToClusterView(baseIsbn = null) {
+            const url = baseIsbn ? `/api/cluster_view?base_isbn=${baseIsbn}` : "/api/cluster_view";
+            fetch(url)
+                .then(response => response.json())
+                .then(data => {
+                    clusterData = data;
+                    drawClusterView();
+                });
         }
 
+
+        // Draw the cluster view
+        function drawClusterView() {
+            currentView = "cluster";
+            const rectWidth = 16;
+            const rectHeight = 20;
+
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            clusterData.forEach((item, index) => {
+                const x = (index % 50) * rectWidth;
+                const y = Math.floor(index / 50) * rectHeight;
+                ctx.fillStyle = item.exists ? "green" : "black";
+                ctx.fillRect(x, y, rectWidth, rectHeight);
+            });
+        }
+
+        // Fetch and render the detail view
+        function zoomToDetailView(baseIsbn = null) {
+            const url = baseIsbn ? `/api/detail_view?base_isbn=${baseIsbn}` : "/api/detail_view";
+            fetch(url)
+                .then(response => response.json())
+                .then(data => {
+                    detailData = data;
+                    drawDetailView();
+                });
+        }
+
+
+        // Draw the detail view
+        function drawDetailView() {
+            currentView = "detail";
+            const rectWidth = 80;
+            const rectHeight = 100;
+
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            detailData.forEach((item, index) => {
+                const x = (index % 10) * rectWidth;
+                const y = Math.floor(index / 10) * rectHeight;
+
+                if (item.exists) {
+                    // Extract parts of the ISBN for the image path
+                    const isbn = item.isbn;
+                    const part1 = isbn.slice(-4, -2); // Last 4th and 3rd digits
+                    const part2 = isbn.slice(-2, ); // Last 2nd and 1st digits
+
+                    // Image URL pattern
+                    const imageUrl = `https://images.isbndb.com/covers/${part1}/${part2}/${isbn}.jpg`;
+                    console.log(imageUrl);
+                    // Load and draw the image
+                    const img = new Image();
+                    img.onload = () => {
+                        ctx.drawImage(img, x, y, rectWidth, rectHeight);
+                    };
+                    img.onerror = () => {
+                        // If the image fails to load, use a fallback color
+                        ctx.fillStyle = "green";
+                        ctx.fillRect(x, y, rectWidth, rectHeight);
+                    };
+                    img.src = imageUrl;
+                } else {
+                    // Draw a placeholder rectangle for non-existent ISBNs
+                    ctx.fillStyle = "black";
+                    ctx.fillRect(x, y, rectWidth, rectHeight);
+                }
+
+                // Add ISBN text
+                ctx.fillStyle = "black";
+                ctx.font = "10px Arial";
+                ctx.fillText(item.isbn, x + 5, y + rectHeight - 10);
+            });
+        }
+
+        // Tooltip for global view
+        function showGlobalTooltip(mouseX, mouseY) {
+            const cellWidth = canvas.width / gridData[0].length;
+            const cellHeight = canvas.height / gridData.length;
+
+            const col = Math.floor(mouseX / cellWidth);
+            const row = Math.floor(mouseY / cellHeight);
+
+            if (gridData[row] && gridData[row][col]) {
+                const rangeStart = (row * gridData[0].length + col) * 2500 + 978000000000;
+                const rangeEnd = rangeStart + 2500 - 1;
+
+                tooltip.innerText = `ISBNs: ${rangeStart} - ${rangeEnd}`;
+                tooltip.style.left = `${mouseX + 10}px`;
+                tooltip.style.top = `${mouseY + 10}px`;
+                tooltip.style.backgroundColor = `rgb(${gridData[row][col][0]}, ${gridData[row][col][1]}, ${gridData[row][col][2]})`;
+                tooltip.style.display = "block";
+            } else {
+                tooltip.style.display = "none";
+            }
+        }
+
+        // Tooltip for cluster view
+        function showClusterTooltip(mouseX, mouseY) {
+            const rectWidth = 16;
+            const rectHeight = 20;
+
+            const col = Math.floor(mouseX / rectWidth);
+            const row = Math.floor(mouseY / rectHeight);
+            const index = row * 50 + col;
+
+            if (clusterData[index]) {
+                tooltip.innerText = `ISBN: ${clusterData[index].isbn}`;
+                tooltip.style.left = `${mouseX + 10}px`;
+                tooltip.style.top = `${mouseY + 10}px`;
+                tooltip.style.backgroundColor = clusterData[index].exists ? "green" : "black";
+                tooltip.style.display = "block";
+            } else {
+                tooltip.style.display = "none";
+            }
+        }
+
+        // Tooltip for detail view
+        function showDetailTooltip(mouseX, mouseY) {
+            const rectWidth = 80;
+            const rectHeight = 100;
+
+            const col = Math.floor(mouseX / rectWidth);
+            const row = Math.floor(mouseY / rectHeight);
+            const index = row * 10 + col;
+
+            if (detailData[index]) {
+                tooltip.innerText = `ISBN: ${detailData[index].isbn}\nExists: ${detailData[index].exists}`;
+                tooltip.style.left = `${mouseX + 10}px`;
+                tooltip.style.top = `${mouseY + 10}px`;
+                tooltip.style.backgroundColor = detailData[index].exists ? "green" : "red";
+                tooltip.style.display = "block";
+            } else {
+                tooltip.style.display = "none";
+            }
+        }
     </script>
 </body>
 </html>
