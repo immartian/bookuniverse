@@ -83,23 +83,47 @@
 
         // Mouse move event for showing tooltips
         canvas.addEventListener("mousemove", (event) => {
-            const rect = canvas.getBoundingClientRect();
-            const mouseX = event.clientX - rect.left;
-            const mouseY = event.clientY - rect.top;
+                const rect = canvas.getBoundingClientRect();
+                const mouseX = event.clientX - rect.left;
+                const mouseY = event.clientY - rect.top;
 
-            if (currentView === "global" && gridData) {
-                showGlobalTooltip(mouseX, mouseY);
-            } else if (currentView === "cluster" && clusterData) {
-                showClusterTooltip(mouseX, mouseY);
-            } else if (currentView === "detail" && detailData) {
-                showDetailTooltip(mouseX, mouseY);
-            }
-        });
+                if (currentView === "global" && gridData) {
+                    showGlobalTooltip(mouseX, mouseY);
+                } else if (currentView === "cluster" && clusterData) {
+                    showClusterTooltip(mouseX, mouseY);
+                } else if (currentView === "detail" && detailData) {
+                    showDetailTooltip(mouseX, mouseY);
+                }
+            });
 
         // Hide tooltip when the mouse leaves the canvas
         canvas.addEventListener("mouseleave", () => {
             tooltip.style.display = "none";
         });
+
+        canvas.addEventListener("dblclick", (event) => {
+            if (currentView === "detail" && detailData) {
+                const rectWidth = 80;
+                const rectHeight = 100;
+
+                // Calculate which rectangle the user clicked
+                const rect = canvas.getBoundingClientRect();
+                const mouseX = event.clientX - rect.left;
+                const mouseY = event.clientY - rect.top;
+
+                const col = Math.floor(mouseX / rectWidth);
+                const row = Math.floor(mouseY / rectHeight);
+                const index = row * 10 + col;
+
+                // Get the ISBN of the clicked rectangle
+                const clickedItem = detailData[index];
+                if (clickedItem) {
+                    const searchUrl = `https://annas-archive.org/search?index=meta&q=${clickedItem.isbn}`;
+                    window.open(searchUrl, "_blank"); // Open the search page in a new tab
+                }
+            }
+        });
+
 
         // Fetch and render the global view
         fetch('/api/global_view')
