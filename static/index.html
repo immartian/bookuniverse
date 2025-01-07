@@ -27,7 +27,7 @@
 </head>
 <body>
     <h1>ISBN Visualization</h1>
-    <canvas id="visualization" width="800" height="1000"></canvas>
+    <canvas id="visualization" width="800" height="1200"></canvas>
     <div class="tooltip" id="tooltip"></div>
 
     <script>
@@ -61,7 +61,7 @@
                 }
             } else if (currentView === "cluster" && clusterData) {
                 const rectWidth = 16;
-                const rectHeight = 20;
+                const rectHeight = 24;
 
                 const col = Math.floor(mouseX / rectWidth);
                 const row = Math.floor(mouseY / rectHeight);
@@ -104,7 +104,7 @@
         canvas.addEventListener("dblclick", (event) => {
             if (currentView === "detail" && detailData) {
                 const rectWidth = 80;
-                const rectHeight = 100;
+                const rectHeight = 120;
 
                 // Calculate which rectangle the user clicked
                 const rect = canvas.getBoundingClientRect();
@@ -164,7 +164,7 @@
         function drawClusterView() {
             currentView = "cluster";
             const rectWidth = 16;
-            const rectHeight = 20;
+            const rectHeight = 24;
 
             ctx.clearRect(0, 0, canvas.width, canvas.height);
             clusterData.forEach((item, index) => {
@@ -191,7 +191,7 @@
         function drawDetailView() {
             currentView = "detail";
             const rectWidth = 80;
-            const rectHeight = 100;
+            const rectHeight = 120;
 
             ctx.clearRect(0, 0, canvas.width, canvas.height);
             detailData.forEach((item, index) => {
@@ -242,7 +242,7 @@
                 const rangeStart = (row * gridData[0].length + col) * 2500 + 978000000000;
                 const rangeEnd = rangeStart + 2500 - 1;
 
-                tooltip.innerText = `ISBNs: ${rangeStart} - ${rangeEnd}`;
+                tooltip.innerText = `ISBNs: ${rangeStart}x - ${rangeEnd}x`;
                 tooltip.style.left = `${mouseX + 10}px`;
                 tooltip.style.top = `${mouseY + 10}px`;
                 tooltip.style.backgroundColor = `rgb(${gridData[row][col][0]}, ${gridData[row][col][1]}, ${gridData[row][col][2]})`;
@@ -255,7 +255,7 @@
         // Tooltip for cluster view
         function showClusterTooltip(mouseX, mouseY) {
             const rectWidth = 16;
-            const rectHeight = 20;
+            const rectHeight = 24;
 
             const col = Math.floor(mouseX / rectWidth);
             const row = Math.floor(mouseY / rectHeight);
@@ -275,7 +275,7 @@
         // Tooltip for detail view
         function showDetailTooltip(mouseX, mouseY) {
             const rectWidth = 80;
-            const rectHeight = 100;
+            const rectHeight = 120;
 
             const col = Math.floor(mouseX / rectWidth);
             const row = Math.floor(mouseY / rectHeight);
@@ -285,12 +285,116 @@
                 tooltip.innerText = `ISBN: ${detailData[index].isbn}\nExists: ${detailData[index].exists}`;
                 tooltip.style.left = `${mouseX + 10}px`;
                 tooltip.style.top = `${mouseY + 10}px`;
-                tooltip.style.backgroundColor = detailData[index].exists ? "green" : "red";
+                tooltip.style.backgroundColor = detailData[index].exists ? "green" : "black";
                 tooltip.style.display = "block";
             } else {
                 tooltip.style.display = "none";
             }
         }
+
+        let isDragging = false;
+let startX, startY;
+let dragOffsetX = 0, dragOffsetY = 0;
+
+canvas.addEventListener("mousedown", (event) => {
+    if (currentView === "detail") {
+        isDragging = true;
+        const rect = canvas.getBoundingClientRect();
+        startX = event.clientX - rect.left;
+        startY = event.clientY - rect.top;
+    }
+});
+
+canvas.addEventListener("mousemove", (event) => {
+    if (isDragging && currentView === "detail") {
+        const rect = canvas.getBoundingClientRect();
+        const mouseX = event.clientX - rect.left;
+        const mouseY = event.clientY - rect.top;
+
+        // Calculate drag offset
+        dragOffsetX = mouseX - startX;
+        dragOffsetY = mouseY - startY;
+
+        // Redraw with temporary offset for smooth feedback
+        drawDetailViewWithOffset(dragOffsetX, dragOffsetY);
+    }
+});
+
+canvas.addEventListener("mouseup", () => {
+    if (isDragging && currentView === "detail") {
+        isDragging = false;
+
+        // Determine the shift in grid rows and columns
+        const rectWidth = 80;
+        const rectHeight = 120;
+        const shiftCols = Math.round(dragOffsetX / rectWidth);
+        const shiftRows = Math.round(dragOffsetY / rectHeight);
+
+        // Calculate new base ISBN position
+        const currentBaseIndex = parseInt(detailData[0].isbn.slice(-6), 10); // Extract numeric part
+        const newBaseIndex = currentBaseIndex - shiftRows * 10 - shiftCols; // Adjust for opposite direction
+
+        const newBaseIsbn = `978${String(newBaseIndex).padStart(10, "0")}`;
+
+
+        // Fetch new data
+        zoomToDetailView(newBaseIsbn);
+
+        // Reset drag offset
+        dragOffsetX = 0;
+        dragOffsetY = 0;
+    }
+});
+
+// // Optional: Handle mouse leave to cancel dragging
+// canvas.addEventListener("mouseleave", () => {
+//     if (isDragging && currentView === "detail") {
+//         isDragging = false;
+//         dragOffsetX = 0;
+//         dragOffsetY = 0;
+//         drawDetailView(); // Reset to original view
+//     }
+// });
+
+// Temporary redraw with offset during drag
+function drawDetailViewWithOffset(offsetX, offsetY) {
+    const rectWidth = 80;
+    const rectHeight = 100;
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    detailData.forEach((item, index) => {
+        const x = (index % 10) * rectWidth + offsetX;
+        const y = Math.floor(index / 10) * rectHeight + offsetY;
+
+        if (item.exists) {
+            // Image URL logic
+            const isbn = item.isbn;
+            const part1 = isbn.slice(-6, -4);
+            const part2 = isbn.slice(-4, -2);
+            const imageUrl = `https://images.isbndb.com/covers/${part1}/${part2}/${isbn}.jpg`;
+
+            const img = new Image();
+            img.onload = () => {
+                ctx.drawImage(img, x, y, rectWidth, rectHeight);
+            };
+            img.onerror = () => {
+                ctx.fillStyle = "green";
+                ctx.fillRect(x, y, rectWidth, rectHeight);
+            };
+            img.src = imageUrl;
+        } else {
+            ctx.fillStyle = "red";
+            ctx.fillRect(x, y, rectWidth, rectHeight);
+        }
+
+        // Add ISBN text
+        ctx.fillStyle = "black";
+        ctx.font = "10px Arial";
+        ctx.fillText(item.isbn, x + 5, y + rectHeight - 10);
+    });
+}
+
     </script>
 </body>
 </html>
