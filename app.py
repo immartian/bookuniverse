@@ -4,7 +4,7 @@ from flask_cors import CORS
 
 from bitmap_manager import BitmapManager
 import data_loader
-
+import json
 
 
 app = Flask(__name__)
@@ -41,7 +41,16 @@ def get_global_view():
     grid_height = 800  # Height of the global view grid
     scale = 2500  # Scale factor for aggregating ISBNs
 
-    global_view_data = bitmap_manager.generate_global_view(grid_width, grid_height, scale)
+    # check if global view data is already generated
+    try:
+        with open("global_view_data.json", "r") as f:
+            global_view_data = json.load(f)
+    except FileNotFoundError:
+        global_view_data = bitmap_manager.generate_global_view(grid_width, grid_height, scale)
+        #save global view data for later use
+        with open("global_view_data.json", "w") as f:
+            json.dump(global_view_data, f)
+
     return jsonify(global_view_data)
 
 

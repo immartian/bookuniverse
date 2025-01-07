@@ -108,43 +108,54 @@ class BitmapManager:
         return results
 
     def check_isbns_from(self, start_isbn, n=0):
-            """
-            Check the existence of `n` ISBNs starting from `start_isbn`.
-            """
-            isbn_streak = True
-            position = 0
-            results = []
-            count = 0
+        """
+        Check the existence of `n` ISBNs starting from `start_isbn`.
+        """
+        isbn_streak = True
+        position = 0
+        results = []
+        count = 0
 
-            # Calculate the relative position of `start_isbn`
-            relative_position = int(start_isbn[:-1]) - self.start_isbn  # Exclude check digit
+        # Calculate the relative position of `start_isbn`
+        try:
+            new_start_isbn = start_isbn[:-1] if len(start_isbn) == 13 else start_isbn
+            relative_position = int(new_start_isbn) - self.start_isbn  # Exclude check digit
+        except ValueError:
+            raise ValueError(f"Invalid start ISBN: {start_isbn}")
 
-            for value in self.packed_isbns_ints:
-                if isbn_streak:  # Reading `isbn_streak`
-                    for _ in range(value):
-                        if position >= relative_position:
-                            isbn13_without_check = str(self.start_isbn + position)
-                            check_digit = isbnlib.check_digit13(isbn13_without_check)
-                            isbn13 = f"{isbn13_without_check}{check_digit}"
-                            results.append({"isbn": isbn13, "exists": True})
-                            count += 1
-                            if count == n:
-                                return results
-                        position += 1
-                else:  # Reading `gap_size`
-                    for _ in range(value):
-                        if position >= relative_position:
-                            isbn13_without_check = str(self.start_isbn + position)
-                            check_digit = isbnlib.check_digit13(isbn13_without_check)
-                            isbn13 = f"{isbn13_without_check}{check_digit}"
-                            results.append({"isbn": isbn13, "exists": False})
-                            count += 1
-                            if count == n:
-                                return results
-                        position += 1
+        for value in self.packed_isbns_ints:
+            if position + value <= relative_position:
+                # Skip this streak or gap entirely
+                position += value
                 isbn_streak = not isbn_streak
+                continue
 
-            return results
+            if isbn_streak:  # Reading `isbn_streak`
+                for _ in range(value):
+                    if position >= relative_position:
+                        isbn13_without_check = str(self.start_isbn + position)
+                        check_digit = isbnlib.check_digit13(isbn13_without_check)
+                        isbn13 = f"{isbn13_without_check}{check_digit}"
+                        results.append({"isbn": isbn13, "exists": True})
+                        count += 1
+                        if count == n:  # Stop once we've collected `n` ISBNs
+                            return results
+                    position += 1
+            else:  # Reading `gap_size`
+                for _ in range(value):
+                    if position >= relative_position:
+                        isbn13_without_check = str(self.start_isbn + position)
+                        check_digit = isbnlib.check_digit13(isbn13_without_check)
+                        isbn13 = f"{isbn13_without_check}{check_digit}"
+                        results.append({"isbn": isbn13, "exists": False})
+                        count += 1
+                        if count == n:  # Stop once we've collected `n` ISBNs
+                            return results
+                    position += 1
+
+            isbn_streak = not isbn_streak
+
+        return results
 
 
     def __len__(self):
