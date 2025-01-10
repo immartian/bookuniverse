@@ -18,6 +18,10 @@ bitmap_manager = data_loader.load_bitmap_manager("aa_isbn13_codes_20241204T18533
 def index():
     return app.send_static_file("index.html")
 
+@app.route("/gen")
+def gen():
+    return app.send_static_file("gen.html")
+
 @app.route("/api/isbn/<isbn>", methods=["GET"])
 def get_isbn(isbn):
     if bitmap_manager.is_available(isbn):
@@ -56,17 +60,20 @@ def get_global_view():
 
 @app.route("/api/cluster_view", methods=["GET"])
 def get_cluster_view():
-    # Fetch the base ISBN from query parameters
     base_isbn = request.args.get("base_isbn", default=None, type=str)
-    n = 2500  # Number of ISBNs for cluster view
+    n = 800000  # Number of ISBNs for cluster view
 
+    # Fetch ISBN existence data
     if base_isbn:
         cluster_data = bitmap_manager.check_isbns_from(start_isbn=base_isbn, n=n)
     else:
-        # Default behavior: start from the beginning
         cluster_data = bitmap_manager.check_isbns(n=n)
 
-    return jsonify(cluster_data)
+    # Convert to a compact array for the frontend
+    compact_data = [1 if item["exists"] else 0 for item in cluster_data]
+
+    return jsonify(compact_data)
+
 
 
 @app.route("/api/detail_view", methods=["GET"])

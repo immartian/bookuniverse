@@ -3,16 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ISBN Visualization</title>
+    <title>Interactive ISBN Visualization</title>
     <style>
         body {
+            margin: 0;
             font-family: Arial, sans-serif;
+            background-color: #1e1e1e;
+            color: white;
+            padding: 20px;
         }
-        canvas {
-            border: 1px solid #ccc;
-            display: block;
+
+        .content {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .canvas-container {
+            position: relative;
             margin: 20px auto;
+            width: 1000px;
+            height: 800px;
+            border: 1px solid #444;
         }
+
+        canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        #globalViewCanvas {
+            z-index: 1;
+        }
+
+        #overlayCanvas {
+            background-color: transparent;
+            z-index: 2;
+            pointer-events: none; /* Prevent the overlay from blocking interactions */
+        }
+        #newOverlayCanvas {
+            z-index: 3;
+            pointer-events: none; /* Prevent the overlay from blocking interactions */
+            display: none;
+        }
+
+        .toolbar {  /*make the tool bar plain and simple*/
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+            line-height: 1.6;
+        }
+
+        .toolbar .collection-item {
+            /* font being bold */
+            font-weight: bold;
+            cursor: pointer;
+            padding: 5px 10px;
+            border-radius: 5px;
+            background-color: #2e2e2e;
+            transition: background-color 0.3s;
+        }
+
+        .toolbar .collection-item.all {
+            color : black; 
+            background-color: #cccccc;
+        }
+
+        .toolbar .collection-item:hover {
+            background-color: green;
+        }
+        .toolbar .collection-item.all:hover {
+            background-color: #eeeeee;
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #aaa;
+        }
+
         .tooltip {
             position: absolute;
             background-color: rgba(0, 0, 0, 0.7);
@@ -22,379 +93,209 @@
             pointer-events: none;
             font-size: 12px;
             display: none;
+            z-index: 100;
         }
     </style>
 </head>
 <body>
-    <h1>ISBN Visualization</h1>
-    <canvas id="visualization" width="800" height="1200"></canvas>
-    <div class="tooltip" id="tooltip"></div>
-
+    <div class="content">
+        <h1>Welcome to the ISBN Universe</h1>
+        <p>
+            This project offers an interactive visualization of the entire ISBN universe. Each pixel on the canvas
+            represents a range of ISBNs, providing a comprehensive view of global book metadata collections.
+        </p>
+        <p>
+            Hover over the collection options to explore how different datasets contribute to the ISBN universe.
+            Our visualization demonstrates the scope of book metadata across sources such as Anna's Archive, Google Books, and more.
+        </p><hr/>
+        <span class="toolbar">
+            <span class="collection-item all" data-collection="all">All (background)</span>
+            <span class="collection-item" data-collection="md5">Files in Anna's Archive</span>
+            <span class="collection-item" data-collection="cadal_ssno">CADAL SSNOs</span>
+            <span class="collection-item" data-collection="cerlalc">CERLALC data leak</span>
+            <span class="collection-item" data-collection="duxiu_ssid">DuXiu SSIDs</span>
+            <span class="collection-item" data-collection="edsebk">EBSCOhost's eBook Index</span>            
+            <span class="collection-item" data-collection="gbooks">Google Books</span>
+            <span class="collection-item" data-collection="goodreads">Goodreads</span>
+            <span class="collection-item" data-collection="ia">Internet Archive</span>
+            <span class="collection-item" data-collection="isbngrp">ISBN Global Register of Publishers</span>
+            <span class="collection-item" data-collection="libby">Libby</span>
+            <span class="collection-item" data-collection="nexusstc">Nexus/STC</span>
+            <span class="collection-item" data-collection="oclc">OCLC/Worldcat</span>
+            <span class="collection-item" data-collection="ol">OpenLibrary</span>
+            <span class="collection-item" data-collection="rgb">Russian State Library</span>
+            <span class="collection-item" data-collection="trantor">Imperial Library of Trantor</span>
+            
+        </span>
+        <div class="canvas-container">
+            <canvas id="globalViewCanvas" width="1000" height="800"></canvas>
+            <canvas id="overlayCanvas" width="1000" height="800"></canvas>
+            <!-- <canvas id="newOverlayCanvas" width="1000" height="800"></canvas> -->
+        </div>
+        <p>
+            As you explore, you'll notice the interplay between different datasets. The light green pixels represent
+            the base dataset, and hovering over additional collections will overlay their unique contributions in varying colors.
+        </p>
+    </div>
+    <footer>
+        © 2025 ISBN Visualization Project. All rights reserved.
+    </footer>
     <script>
-        const canvas = document.getElementById("visualization");
-        const ctx = canvas.getContext("2d");
-        const tooltip = document.getElementById("tooltip");
+        const globalCanvas = document.getElementById("globalViewCanvas");
+        const globalCtx = globalCanvas.getContext("2d");
+        const overlayCanvas = document.getElementById("overlayCanvas");
+        const overlayCtx = overlayCanvas.getContext("2d");
+        // const newOverlayCanvas = document.getElementById("newOverlayCanvas");
+        // const newOverlayCtx = newOverlayCanvas.getContext("2d");
+        const tooltip = document.createElement("div");
+    
+        // Tooltip styling
+        tooltip.className = "tooltip"; 
+        document.body.appendChild(tooltip);
+    
+        // Load base layer
+        const baseLayer = new Image();
+        baseLayer.src = "/static/globals/all_isbns_smaller.png";
+        baseLayer.onload = () => {
+            globalCtx.drawImage(baseLayer, 0, 0, globalCanvas.width, globalCanvas.height);
+        };
 
-        let currentView = "global"; // Tracks the current view
-        let gridData, clusterData, detailData; // Stores data for each view
-
-        // Event listener for zooming (mouse wheel scroll)
-        canvas.addEventListener("wheel", (event) => {
-            event.preventDefault();
-
-            // Calculate base ISBN from mouse position (example logic)
-            const rect = canvas.getBoundingClientRect();
+        
+   
+        // Function to overlay non-black parts
+        function loadOverlay(collection) {
+            const overlayImage = new Image();
+            overlayImage.src = `/static/globals/${collection}_isbns_smaller.png`;
+    
+            overlayImage.onload = () => {
+                overlayCtx.clearRect(0, 0, overlayCanvas.width, overlayCanvas.height);
+    
+                const offscreenCanvas = document.createElement("canvas");
+                const offscreenCtx = offscreenCanvas.getContext("2d");
+                offscreenCanvas.width = overlayImage.width;
+                offscreenCanvas.height = overlayImage.height;
+    
+                offscreenCtx.drawImage(overlayImage, 0, 0);
+    
+                const imageData = offscreenCtx.getImageData(0, 0, overlayImage.width, overlayImage.height);
+                const data = imageData.data;
+    
+                for (let y = 0; y < overlayCanvas.height; y++) {
+                    for (let x = 0; x < overlayCanvas.width; x++) {
+                        const index = (y * overlayImage.width + x) * 4;
+    
+                        const r = data[index];
+                        const g = data[index + 1];
+                        const b = data[index + 2];
+    
+                        if (r !== 0 || g !== 0 || b !== 0) {
+                            overlayCtx.fillStyle = `rgba(${r}, ${g}, ${b}, 0.7)`;
+                            overlayCtx.fillRect(x, y, 1, 1);
+                        }
+                    }
+                }
+            };
+        }
+        // Add hover listeners for overlays
+        document.querySelectorAll(".collection-item").forEach(item => {
+            item.addEventListener("mouseover", (event) => {
+                const collection = event.target.dataset.collection;
+                loadOverlay(collection);
+            });
+    
+            item.addEventListener("mouseleave", () => {
+                overlayCtx.clearRect(0, 0, overlayCanvas.width, overlayCanvas.height);
+            });
+        });
+        
+        // Tooltip display for global view
+        globalCanvas.addEventListener("mousemove", (event) => {
+            const rect = globalCanvas.getBoundingClientRect();
             const mouseX = event.clientX - rect.left;
             const mouseY = event.clientY - rect.top;
-
-            if (currentView === "global" && gridData) {
-                const cellWidth = canvas.width / gridData[0].length;
-                const cellHeight = canvas.height / gridData.length;
-
-                const col = Math.floor(mouseX / cellWidth);
-                const row = Math.floor(mouseY / cellHeight);
-                const basePosition = row * gridData[0].length + col;
-                const baseIsbn = (basePosition * 2500 + 978000000000).toString();
-
-                if (event.deltaY < 0) { // Zooming in
-                    zoomToClusterView(baseIsbn);
-                }
-            } else if (currentView === "cluster" && clusterData) {
-                const rectWidth = 16;
-                const rectHeight = 24;
-
-                const col = Math.floor(mouseX / rectWidth);
-                const row = Math.floor(mouseY / rectHeight);
-                const baseIndex = row * 50 + col;
-                const baseIsbn = clusterData[baseIndex]?.isbn;
-
-                if (event.deltaY < 0) { // Zooming in
-                    zoomToDetailView(baseIsbn);
-                } else if (event.deltaY > 0) { // Zooming out
-                    drawGlobalView();
-                }
-            } else if (currentView === "detail" && detailData) {
-                if (event.deltaY > 0) { // Zooming out
-                    zoomToClusterView();
-                }
-            }
+    
+            const cellWidth = globalCanvas.width / 1000; // Assuming 1000x800 grid
+            const cellHeight = globalCanvas.height / 800;
+    
+            const col = Math.floor(mouseX / cellWidth);
+            const row = Math.floor(mouseY / cellHeight);
+    
+            const baseIsbnStart = (row * 1000 + col) * 2500 + 978000000000;
+            const baseIsbnEnd = baseIsbnStart + 2499;
+    
+            tooltip.innerText = `ISBNs: ${baseIsbnStart} - ${baseIsbnEnd}`;
+            tooltip.style.left = `${event.pageX + 10}px`;
+            tooltip.style.top = `${event.pageY + 10}px`;
+            tooltip.style.display = "block";
         });
-
-
-        // Mouse move event for showing tooltips
-        canvas.addEventListener("mousemove", (event) => {
-                const rect = canvas.getBoundingClientRect();
-                const mouseX = event.clientX - rect.left;
-                const mouseY = event.clientY - rect.top;
-
-                if (currentView === "global" && gridData) {
-                    showGlobalTooltip(mouseX, mouseY);
-                } else if (currentView === "cluster" && clusterData) {
-                    showClusterTooltip(mouseX, mouseY);
-                } else if (currentView === "detail" && detailData) {
-                    showDetailTooltip(mouseX, mouseY);
-                }
-            });
+    
 
         // Hide tooltip when the mouse leaves the canvas
-        canvas.addEventListener("mouseleave", () => {
+        globalCanvas.addEventListener("mouseleave", () => {
             tooltip.style.display = "none";
         });
 
-        canvas.addEventListener("dblclick", (event) => {
-            if (currentView === "detail" && detailData) {
-                const rectWidth = 80;
-                const rectHeight = 120;
+        globalCanvas.addEventListener("dblclick", (event) => {
+            const rect = globalCanvas.getBoundingClientRect();
+            const mouseX = event.clientX - rect.left;
+            const mouseY = event.clientY - rect.top;
 
-                // Calculate which rectangle the user clicked
-                const rect = canvas.getBoundingClientRect();
-                const mouseX = event.clientX - rect.left;
-                const mouseY = event.clientY - rect.top;
-
-                const col = Math.floor(mouseX / rectWidth);
-                const row = Math.floor(mouseY / rectHeight);
-                const index = row * 10 + col;
-
-                // Get the ISBN of the clicked rectangle
-                const clickedItem = detailData[index];
-                if (clickedItem) {
-                    const searchUrl = `https://annas-archive.org/search?index=meta&q=${clickedItem.isbn}`;
-                    window.open(searchUrl, "_blank"); // Open the search page in a new tab
-                }
-            }
+            const clusterX = Math.floor(mouseX / (globalCanvas.width / 1000));
+            const clusterY = Math.floor(mouseY / (globalCanvas.height / 800));
+            
+            loadClusterView(clusterX, clusterY);
         });
 
 
-        // Fetch and render the global view
-        fetch('/api/global_view')
-            .then(response => response.json())
-            .then(data => {
-                gridData = data;
-                drawGlobalView();
-            });
 
-        // Draw the global view
-        function drawGlobalView() {
-            currentView = "global";
-            const cellWidth = canvas.width / gridData[0].length;
-            const cellHeight = canvas.height / gridData.length;
+        async function loadClusterView(clusterX, clusterY) {
 
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-            gridData.forEach((row, y) => {
-                row.forEach((color, x) => {
-                    ctx.fillStyle = `rgb(${color[0]}, ${color[1]}, ${color[2]})`;
-                    ctx.fillRect(x * cellWidth, y * cellHeight, cellWidth, cellHeight);
-                });
-            });
-        }
+            // newOverlayCanvas.width = globalCanvas.width;
+            // newOverlayCanvas.height = globalCanvas.height;
+            // newOverlayCanvas.style.position = "absolute";
+            // newOverlayCanvas.style.top = `${globalCanvas.offsetTop}px`;
+            // newOverlayCanvas.style.left = `${globalCanvas.offsetLeft}px`;
+            // newOverlayCanvas.style.zIndex = "10";
 
-        // Fetch and render the cluster view
-        function zoomToClusterView(baseIsbn = null) {
-            const url = baseIsbn ? `/api/cluster_view?base_isbn=${baseIsbn}` : "/api/cluster_view";
-            fetch(url)
-                .then(response => response.json())
-                .then(data => {
-                    clusterData = data;
-                    drawClusterView();
-                });
-        }
-
-
-        // Draw the cluster view
-        function drawClusterView() {
-            currentView = "cluster";
-            const rectWidth = 16;
-            const rectHeight = 24;
-
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-            clusterData.forEach((item, index) => {
-                const x = (index % 50) * rectWidth;
-                const y = Math.floor(index / 50) * rectHeight;
-                ctx.fillStyle = item.exists ? "green" : "black";
-                ctx.fillRect(x, y, rectWidth, rectHeight);
-            });
-        }
-
-        // Fetch and render the detail view
-        function zoomToDetailView(baseIsbn = null) {
-            const url = baseIsbn ? `/api/detail_view?base_isbn=${baseIsbn}` : "/api/detail_view";
-            fetch(url)
-                .then(response => response.json())
-                .then(data => {
-                    detailData = data;
-                    drawDetailView();
-                });
-        }
-
-
-        // Draw the detail view
-        function drawDetailView() {
-            currentView = "detail";
-            const rectWidth = 80;
-            const rectHeight = 120;
-
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-            detailData.forEach((item, index) => {
-                const x = (index % 10) * rectWidth;
-                const y = Math.floor(index / 10) * rectHeight;
-
-                if (item.exists) {
-                    // Extract parts of the ISBN for the image path
-                    const isbn = item.isbn;
-                    const part1 = isbn.slice(-4, -2); // Last 4th and 3rd digits
-                    const part2 = isbn.slice(-2, ); // Last 2nd and 1st digits
-
-                    // Image URL pattern
-                    const imageUrl = `https://images.isbndb.com/covers/${part1}/${part2}/${isbn}.jpg`;
-                    // Load and draw the image
-                    const img = new Image();
-                    img.onload = () => {
-                        ctx.drawImage(img, x, y, rectWidth, rectHeight);
-                    };
-                    img.onerror = () => {
-                        // If the image fails to load, use a fallback color
-                        ctx.fillStyle = "green";
-                        ctx.fillRect(x, y, rectWidth, rectHeight);
-                    };
-                    img.src = imageUrl;
-                } else {
-                    // Draw a placeholder rectangle for non-existent ISBNs
-                    ctx.fillStyle = "black";
-                    ctx.fillRect(x, y, rectWidth, rectHeight);
-                }
-
-                // Add ISBN text
-                ctx.fillStyle = "black";
-                ctx.font = "10px Arial";
-                ctx.fillText(item.isbn, x + 5, y + rectHeight - 10);
-            });
-        }
-
-        // Tooltip for global view
-        function showGlobalTooltip(mouseX, mouseY) {
-            const cellWidth = canvas.width / gridData[0].length;
-            const cellHeight = canvas.height / gridData.length;
-
-            const col = Math.floor(mouseX / cellWidth);
-            const row = Math.floor(mouseY / cellHeight);
-
-            if (gridData[row] && gridData[row][col]) {
-                const rangeStart = (row * gridData[0].length + col) * 2500 + 978000000000;
-                const rangeEnd = rangeStart + 2500 - 1;
-
-                tooltip.innerText = `ISBNs: ${rangeStart}x - ${rangeEnd}x`;
-                tooltip.style.left = `${mouseX + 10}px`;
-                tooltip.style.top = `${mouseY + 10}px`;
-                tooltip.style.backgroundColor = `rgb(${gridData[row][col][0]}, ${gridData[row][col][1]}, ${gridData[row][col][2]})`;
-                tooltip.style.display = "block";
-            } else {
-                tooltip.style.display = "none";
-            }
-        }
-
-        // Tooltip for cluster view
-        function showClusterTooltip(mouseX, mouseY) {
-            const rectWidth = 16;
-            const rectHeight = 24;
-
-            const col = Math.floor(mouseX / rectWidth);
-            const row = Math.floor(mouseY / rectHeight);
-            const index = row * 50 + col;
-
-            if (clusterData[index]) {
-                tooltip.innerText = `ISBN: ${clusterData[index].isbn}`;
-                tooltip.style.left = `${mouseX + 10}px`;
-                tooltip.style.top = `${mouseY + 10}px`;
-                tooltip.style.backgroundColor = clusterData[index].exists ? "green" : "black";
-                tooltip.style.display = "block";
-            } else {
-                tooltip.style.display = "none";
-            }
-        }
-
-        // Tooltip for detail view
-        function showDetailTooltip(mouseX, mouseY) {
-            const rectWidth = 80;
-            const rectHeight = 120;
-
-            const col = Math.floor(mouseX / rectWidth);
-            const row = Math.floor(mouseY / rectHeight);
-            const index = row * 10 + col;
-
-            if (detailData[index]) {
-                tooltip.innerText = `ISBN: ${detailData[index].isbn}\nExists: ${detailData[index].exists}`;
-                tooltip.style.left = `${mouseX + 10}px`;
-                tooltip.style.top = `${mouseY + 10}px`;
-                tooltip.style.backgroundColor = detailData[index].exists ? "green" : "black";
-                tooltip.style.display = "block";
-            } else {
-                tooltip.style.display = "none";
-            }
-        }
-
-        let isDragging = false;
-let startX, startY;
-let dragOffsetX = 0, dragOffsetY = 0;
-
-canvas.addEventListener("mousedown", (event) => {
-    if (currentView === "detail") {
-        isDragging = true;
-        const rect = canvas.getBoundingClientRect();
-        startX = event.clientX - rect.left;
-        startY = event.clientY - rect.top;
-    }
-});
-
-canvas.addEventListener("mousemove", (event) => {
-    if (isDragging && currentView === "detail") {
-        const rect = canvas.getBoundingClientRect();
-        const mouseX = event.clientX - rect.left;
-        const mouseY = event.clientY - rect.top;
-
-        // Calculate drag offset
-        dragOffsetX = mouseX - startX;
-        dragOffsetY = mouseY - startY;
-
-        // Redraw with temporary offset for smooth feedback
-        drawDetailViewWithOffset(dragOffsetX, dragOffsetY);
-    }
-});
-
-canvas.addEventListener("mouseup", () => {
-    if (isDragging && currentView === "detail") {
-        isDragging = false;
-
-        // Determine the shift in grid rows and columns
-        const rectWidth = 80;
-        const rectHeight = 120;
-        const shiftCols = Math.round(dragOffsetX / rectWidth);
-        const shiftRows = Math.round(dragOffsetY / rectHeight);
-
-        // Calculate new base ISBN position
-        const currentBaseIndex = parseInt(detailData[0].isbn.slice(-6), 10); // Extract numeric part
-        const newBaseIndex = currentBaseIndex - shiftRows * 10 - shiftCols; // Adjust for opposite direction
-
-        const newBaseIsbn = `978${String(newBaseIndex).padStart(10, "0")}`;
-
-
-        // Fetch new data
-        zoomToDetailView(newBaseIsbn);
-
-        // Reset drag offset
-        dragOffsetX = 0;
-        dragOffsetY = 0;
-    }
-});
-
-// // Optional: Handle mouse leave to cancel dragging
-// canvas.addEventListener("mouseleave", () => {
-//     if (isDragging && currentView === "detail") {
-//         isDragging = false;
-//         dragOffsetX = 0;
-//         dragOffsetY = 0;
-//         drawDetailView(); // Reset to original view
-//     }
-// });
-
-// Temporary redraw with offset during drag
-function drawDetailViewWithOffset(offsetX, offsetY) {
-    const rectWidth = 80;
-    const rectHeight = 100;
-
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-    detailData.forEach((item, index) => {
-        const x = (index % 10) * rectWidth + offsetX;
-        const y = Math.floor(index / 10) * rectHeight + offsetY;
-
-        if (item.exists) {
-            // Image URL logic
-            const isbn = item.isbn;
-            const part1 = isbn.slice(-6, -4);
-            const part2 = isbn.slice(-4, -2);
-            const imageUrl = `https://images.isbndb.com/covers/${part1}/${part2}/${isbn}.jpg`;
-
+            const clusterId = `${clusterX}_${clusterY}`;
+            const response = await fetch(`/static/cluster/isbnxxxyyy.png`);
+            const blob = await response.blob();
             const img = new Image();
-            img.onload = () => {
-                ctx.drawImage(img, x, y, rectWidth, rectHeight);
-            };
-            img.onerror = () => {
-                ctx.fillStyle = "green";
-                ctx.fillRect(x, y, rectWidth, rectHeight);
-            };
-            img.src = imageUrl;
-        } else {
-            ctx.fillStyle = "red";
-            ctx.fillRect(x, y, rectWidth, rectHeight);
+            img.src = URL.createObjectURL(blob);
+
+            // 
+            img.onload = ()  => animateZoomIn(img, clusterX, clusterY);
+
         }
 
-        // Add ISBN text
-        ctx.fillStyle = "black";
-        ctx.font = "10px Arial";
-        ctx.fillText(item.isbn, x + 5, y + rectHeight - 10);
-    });
-}
+        function animateZoomIn(img, clusterX, clusterY) {
+            let scale = 0.1; // Start with a small scale
+            const centerX = clusterX * (globalCanvas.width / 1000);
+            const centerY = clusterY * (globalCanvas.height / 800);
+
+            const interval = setInterval(() => {
+                overlayCtx.clearRect(0, 0, overlayCanvas.width, overlayCanvas.height);
+                overlayCtx.save();
+                overlayCtx.translate(centerX, centerY);
+                overlayCtx.scale(scale, scale);
+                overlayCtx.drawImage(img, -img.width / 2, -img.height / 2, img.width, img.height);
+                overlayCtx.restore();
+
+                scale += 0.05; // Increment scale
+                if (scale >= 1) {
+                    clearInterval(interval);
+                    document.body.removeChild(overlayCanvas); // Remove third canvas
+                    renderClusterView(img); // Replace global canvas with cluster view
+                }
+            }, 16); // 60 FPS animation
+        }
+
+        function renderClusterView(img) {
+            globalCtx.clearRect(0, 0, globalCanvas.width, globalCanvas.height);
+            globalCtx.drawImage(img, 0, 0, globalCanvas.width, globalCanvas.height);
+        }
 
     </script>
+    
 </body>
 </html>
