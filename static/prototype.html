@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tile Roaming Prototype</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Tile Roaming Prototype</h1>
+    <canvas id="roamingCanvas" width="1000" height="800"></canvas>
+    <script type="text/javascript">
+        const TILE_METADATA = {
+            tileWidth: 1000, // Width of a single tile
+            tileHeight: 800, // Height of a single tile
+            gridWidth: 50, // Total number of tiles horizontally
+            gridHeight: 50, // Total number of tiles vertically
+            tileDir: "/static/tiles/" // Directory where tiles are stored
+        };
+
+        // State variables
+        let offsetX = 0;
+        let offsetY = 0;
+        let isDragging = false;
+        let startDragX = 0;
+        let startDragY = 0;
+
+        const canvas = document.getElementById("roamingCanvas");
+        const ctx = canvas.getContext("2d");
+
+        // Loaded tile cache
+        const loadedTiles = {};
+
+        // Load a single tile dynamically
+        function loadTile(x, y) {
+            return new Promise((resolve, reject) => {
+                const img = new Image();
+                const tileKey = `${x}_${y}`;
+                img.src = `${TILE_METADATA.tileDir}tile_${tileKey}.png`;
+                img.onload = () => {
+                    loadedTiles[tileKey] = img;
+                    resolve();
+                };
+                img.onerror = () => {
+                    reject(`Failed to load tile at (${x}, ${y})`);
+                };
+            });
+        }
+
+        // Load visible tiles dynamically
+        async function loadVisibleTiles() {
+            const visibleTiles = getVisibleTiles();
+            const loadPromises = [];
+
+            visibleTiles.forEach(([x, y]) => {
+                const tileKey = `${x}_${y}`;
+                if (!loadedTiles[tileKey]) {
+                    loadPromises.push(loadTile(x, y));
+                }
+            });
+
+            await Promise.all(loadPromises);
+            drawCanvas();
+        }
+
+        // Calculate visible tiles
+        function getVisibleTiles() {
+            const startTileX = Math.floor(offsetX / TILE_METADATA.tileWidth);
+            const startTileY = Math.floor(offsetY / TILE_METADATA.tileHeight);
+            const endTileX = Math.ceil((offsetX + canvas.width) / TILE_METADATA.tileWidth);
+            const endTileY = Math.ceil((offsetY + canvas.height) / TILE_METADATA.tileHeight);
+
+            const visibleTiles = [];
+            for (let x = startTileX; x <= endTileX; x++) {
+                for (let y = startTileY; y <= endTileY; y++) {
+                    if (x >= 0 && x < TILE_METADATA.gridWidth && y >= 0 && y < TILE_METADATA.gridHeight) {
+                        visibleTiles.push([x, y]);
+                    }
+                }
+            }
+            return visibleTiles;
+        }
+
+        // Draw the visible canvas area
+        function drawCanvas() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            const visibleTiles = getVisibleTiles();
+            visibleTiles.forEach(([x, y]) => {
+                const tileKey = `${x}_${y}`;
+                const img = loadedTiles[tileKey];
+                if (img) {
+                    const tileCanvasX = x * TILE_METADATA.tileWidth - offsetX;
+                    const tileCanvasY = y * TILE_METADATA.tileHeight - offsetY;
+
+                    ctx.drawImage(
+                        img,
+                        tileCanvasX,
+                        tileCanvasY,
+                        TILE_METADATA.tileWidth,
+                        TILE_METADATA.tileHeight
+                    );
+                }
+            });
+        }
+
+        // Mouse event handlers for panning
+        canvas.addEventListener("mousedown", (event) => {
+            isDragging = true;
+            startDragX = event.clientX;
+            startDragY = event.clientY;
+        });
+
+        canvas.addEventListener("mousemove", (event) => {
+            if (!isDragging) return;
+
+            const deltaX = event.clientX - startDragX;
+            const deltaY = event.clientY - startDragY;
+
+            offsetX = Math.max(
+                0,
+                Math.min(offsetX - deltaX, TILE_METADATA.gridWidth * TILE_METADATA.tileWidth - canvas.width)
+            );
+            offsetY = Math.max(
+                0,
+                Math.min(offsetY - deltaY, TILE_METADATA.gridHeight * TILE_METADATA.tileHeight - canvas.height)
+            );
+
+            startDragX = event.clientX;
+            startDragY = event.clientY;
+
+            loadVisibleTiles();
+        });
+
+        canvas.addEventListener("mouseup", () => {
+            isDragging = false;
+        });
+
+        canvas.addEventListener("mouseleave", () => {
+            isDragging = false;
+        });
+
+        // Initial tile loading and render
+        loadVisibleTiles();
+    </script>
+</body>
+</html>

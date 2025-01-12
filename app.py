@@ -22,6 +22,10 @@ def index():
 def gen():
     return app.send_static_file("gen.html")
 
+@app.route("/prototype")
+def prototype():
+    return app.send_static_file("prototype.html")
+
 @app.route("/api/isbn/<isbn>", methods=["GET"])
 def get_isbn(isbn):
     if bitmap_manager.is_available(isbn):
@@ -73,6 +77,36 @@ def get_cluster_view():
     compact_data = [1 if item["exists"] else 0 for item in cluster_data]
 
     return jsonify(compact_data)
+
+@app.route("/api/get_tile", methods=["GET"])
+def get_tile():
+    """
+    Serve a specific 1000x1000 tile of the global ISBN universe.
+    """
+    tile_x = request.args.get("tile_x", type=int)
+    tile_y = request.args.get("tile_y", type=int)
+    tile_size = 1000  # Tile dimensions
+
+    if tile_x is None or tile_y is None:
+        return jsonify({"error": "tile_x and tile_y are required"}), 400
+
+    # Calculate the base ISBN for the requested tile
+    # base_isbn = (
+    #     tile_y * 2500 * tile_size  # Rows of 2500 blocks
+    #     + tile_x * tile_size
+    #     + 978000000000  # Global starting ISBN
+    # )
+    base_isbn = "9798217294478" # hardcoded for now
+    # Fetch ISBN data for this tile
+    cluster_data = bitmap_manager.check_isbns_from(start_isbn=base_isbn, n=tile_size * tile_size)
+
+    # Format the data as a 1000x1000 grid
+    compact_data = [
+        [1 if item["exists"] else 0 for item in cluster_data[row : row + tile_size]]
+        for row in range(0, len(cluster_data), tile_size)
+    ]
+
+    return jsonify({"tile_x": tile_x, "tile_y": tile_y, "data": compact_data})
 
 
 

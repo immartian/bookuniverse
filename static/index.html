@@ -110,15 +110,15 @@
         </p><hr/>
         <span class="toolbar">
             <span class="collection-item all" data-collection="all">All (background)</span>
-            <span class="collection-item" data-collection="md5">Files in Anna's Archive</span>
-            <span class="collection-item" data-collection="cadal_ssno">CADAL SSNOs</span>
-            <span class="collection-item" data-collection="cerlalc">CERLALC data leak</span>
-            <span class="collection-item" data-collection="duxiu_ssid">DuXiu SSIDs</span>
-            <span class="collection-item" data-collection="edsebk">EBSCOhost's eBook Index</span>            
+            <span class="collection-item" data-collection="md5">Anna's Archive</span>
+            <span class="collection-item" data-collection="cadal_ssno">CADAL</span>
+            <span class="collection-item" data-collection="cerlalc">CERLALC</span>
+            <span class="collection-item" data-collection="duxiu_ssid">DuXiu</span>
+            <span class="collection-item" data-collection="edsebk">EBSCOhost</span>            
             <span class="collection-item" data-collection="gbooks">Google Books</span>
             <span class="collection-item" data-collection="goodreads">Goodreads</span>
             <span class="collection-item" data-collection="ia">Internet Archive</span>
-            <span class="collection-item" data-collection="isbngrp">ISBN Global Register of Publishers</span>
+            <span class="collection-item" data-collection="isbngrp">ISBN Global Register</span>
             <span class="collection-item" data-collection="libby">Libby</span>
             <span class="collection-item" data-collection="nexusstc">Nexus/STC</span>
             <span class="collection-item" data-collection="oclc">OCLC/Worldcat</span>
@@ -240,8 +240,8 @@
             const mouseX = event.clientX - rect.left;
             const mouseY = event.clientY - rect.top;
 
-            const clusterX = Math.floor(mouseX / (globalCanvas.width / 1000));
-            const clusterY = Math.floor(mouseY / (globalCanvas.height / 800));
+            const clusterX = Math.floor(mouseX / 50);
+            const clusterY = Math.floor(mouseY / 50);
             
             loadClusterView(clusterX, clusterY);
         });
@@ -258,7 +258,8 @@
             // newOverlayCanvas.style.zIndex = "10";
 
             const clusterId = `${clusterX}_${clusterY}`;
-            const response = await fetch(`/static/cluster/isbnxxxyyy.png`);
+            //construct the .png file path
+            const response = await fetch(`/static/tiles/tile_${clusterId}.png`);
             const blob = await response.blob();
             const img = new Image();
             img.src = URL.createObjectURL(blob);
@@ -270,29 +271,29 @@
 
         function animateZoomIn(img, clusterX, clusterY) {
             let scale = 0.1; // Start with a small scale
-            const centerX = clusterX * (globalCanvas.width / 1000);
-            const centerY = clusterY * (globalCanvas.height / 800);
+            const startX = clusterX * 50;
+            const startY = clusterY * 50;
 
             const interval = setInterval(() => {
-                overlayCtx.clearRect(0, 0, overlayCanvas.width, overlayCanvas.height);
-                overlayCtx.save();
-                overlayCtx.translate(centerX, centerY);
-                overlayCtx.scale(scale, scale);
-                overlayCtx.drawImage(img, -img.width / 2, -img.height / 2, img.width, img.height);
-                overlayCtx.restore();
+            overlayCtx.clearRect(0, 0, overlayCanvas.width, overlayCanvas.height);
+            overlayCtx.save();
+            overlayCtx.translate(startX, startY);
+            overlayCtx.scale(scale, scale);
+            overlayCtx.translate(-startX, -startY);
+            overlayCtx.drawImage(img, 0, 0, globalCanvas.width, globalCanvas.height);
+            overlayCtx.restore();
 
-                scale += 0.05; // Increment scale
-                if (scale >= 1) {
-                    clearInterval(interval);
-                    document.body.removeChild(overlayCanvas); // Remove third canvas
-                    renderClusterView(img); // Replace global canvas with cluster view
-                }
+            scale += 0.05; // Increment scale
+            if (scale >= 1) {
+                clearInterval(interval);
+                renderClusterView(img); // Replace global canvas with cluster view
+            }
             }, 16); // 60 FPS animation
         }
 
         function renderClusterView(img) {
-            globalCtx.clearRect(0, 0, globalCanvas.width, globalCanvas.height);
-            globalCtx.drawImage(img, 0, 0, globalCanvas.width, globalCanvas.height);
+            overlayCtx.clearRect(0, 0, globalCanvas.width, globalCanvas.height);
+            overlayCtx.drawImage(img, 0, 0, globalCanvas.width, globalCanvas.height);
         }
 
     </script>

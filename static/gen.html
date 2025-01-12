@@ -175,9 +175,9 @@
             clusterData.forEach((value, index) => {
                 const pixelIndex = index * 4; // Each pixel uses 4 array elements (R, G, B, A)
                 if (value === 1) { // ISBN exists
-                    data[pixelIndex] = 0;       // Red
+                    data[pixelIndex] = 255;       // Red
                     data[pixelIndex + 1] = 255; // Green
-                    data[pixelIndex + 2] = 0;   // Blue
+                    data[pixelIndex + 2] = 255;   // Blue
                     data[pixelIndex + 3] = 255; // Alpha (fully opaque)
                 } else { // ISBN does not exist
                     data[pixelIndex] = 0;       // Red
