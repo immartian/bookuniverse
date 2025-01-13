@@ -141,6 +141,10 @@
         © 2025 ISBN Visualization Project. All rights reserved.
     </footer>
     <script>
+        const TILE_RATIO = 50; // Global canvas divided into 50x50 tiles
+        const CUE_WIDTH = 20;  // Width of rectangle cue
+        const CUE_HEIGHT = 16; // Height of rectangle cue
+
         const globalCanvas = document.getElementById("globalViewCanvas");
         const globalCtx = globalCanvas.getContext("2d");
         const overlayCanvas = document.getElementById("overlayCanvas");
@@ -208,56 +212,64 @@
             });
         });
         
-        // Tooltip display for global view
         globalCanvas.addEventListener("mousemove", (event) => {
             const rect = globalCanvas.getBoundingClientRect();
             const mouseX = event.clientX - rect.left;
             const mouseY = event.clientY - rect.top;
-    
+
             const cellWidth = globalCanvas.width / 1000; // Assuming 1000x800 grid
             const cellHeight = globalCanvas.height / 800;
-    
+
             const col = Math.floor(mouseX / cellWidth);
             const row = Math.floor(mouseY / cellHeight);
-    
+
+            const startX = col * cellWidth;
+            const startY = row * cellHeight;
+
+            const tileX = Math.floor(mouseX / CUE_WIDTH);
+            const tileY = Math.floor(mouseY / CUE_HEIGHT);
+
+            // Clear previous cue
+            overlayCtx.clearRect(0, 0, overlayCanvas.width, overlayCanvas.height);
+
+            // Draw rectangle cue
+            overlayCtx.strokeStyle = "red";
+            overlayCtx.lineWidth = 2;
+            overlayCtx.strokeRect(tileX * CUE_WIDTH, tileY * CUE_HEIGHT, CUE_WIDTH, CUE_HEIGHT);
+
+            // Tooltip for ISBN range
             const baseIsbnStart = (row * 1000 + col) * 2500 + 978000000000;
             const baseIsbnEnd = baseIsbnStart + 2499;
-    
-            tooltip.innerText = `ISBNs: ${baseIsbnStart} - ${baseIsbnEnd}`;
+
+            tooltip.innerText = `Tile: ${tileX} - ${tileY}`;
             tooltip.style.left = `${event.pageX + 10}px`;
             tooltip.style.top = `${event.pageY + 10}px`;
             tooltip.style.display = "block";
         });
-    
 
-        // Hide tooltip when the mouse leaves the canvas
+        // Hide tooltip and highlight when leaving the canvas
         globalCanvas.addEventListener("mouseleave", () => {
             tooltip.style.display = "none";
+            overlayCtx.clearRect(0, 0, overlayCanvas.width, overlayCanvas.height);
         });
+
 
         globalCanvas.addEventListener("dblclick", (event) => {
             const rect = globalCanvas.getBoundingClientRect();
             const mouseX = event.clientX - rect.left;
             const mouseY = event.clientY - rect.top;
 
-            const clusterX = Math.floor(mouseX / 50);
-            const clusterY = Math.floor(mouseY / 50);
+            const tileX = Math.floor(mouseX / 50);
+            const tileY = Math.floor(mouseY / 50);
             
-            loadClusterView(clusterX, clusterY);
+            renderTileView(tileX, tileY);
         });
 
 
 
-        async function loadClusterView(clusterX, clusterY) {
+        async function renderTileView(tileX, tileY) {
 
-            // newOverlayCanvas.width = globalCanvas.width;
-            // newOverlayCanvas.height = globalCanvas.height;
-            // newOverlayCanvas.style.position = "absolute";
-            // newOverlayCanvas.style.top = `${globalCanvas.offsetTop}px`;
-            // newOverlayCanvas.style.left = `${globalCanvas.offsetLeft}px`;
-            // newOverlayCanvas.style.zIndex = "10";
-
-            const clusterId = `${clusterX}_${clusterY}`;
+            const clusterId = `${tileX}_${tileY}`;
             //construct the .png file path
             const response = await fetch(`/static/tiles/tile_${clusterId}.png`);
             const blob = await response.blob();
@@ -265,14 +277,14 @@
             img.src = URL.createObjectURL(blob);
 
             // 
-            img.onload = ()  => animateZoomIn(img, clusterX, clusterY);
+            img.onload = ()  => animateZoomIn(img, tileX, tileY);
 
         }
 
-        function animateZoomIn(img, clusterX, clusterY) {
+        function animateZoomIn(img, tileX, tileY) {
             let scale = 0.1; // Start with a small scale
-            const startX = clusterX * 50;
-            const startY = clusterY * 50;
+            const startX = tileX * 50;
+            const startY = tileY * 50;
 
             const interval = setInterval(() => {
             overlayCtx.clearRect(0, 0, overlayCanvas.width, overlayCanvas.height);
