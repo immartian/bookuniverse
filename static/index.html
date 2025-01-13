@@ -43,9 +43,9 @@
             z-index: 2;
             pointer-events: none; /* Prevent the overlay from blocking interactions */
         }
-        #newOverlayCanvas {
+        #tileCanvas {
             z-index: 3;
-            pointer-events: none; /* Prevent the overlay from blocking interactions */
+            /* pointer-events: none; Prevent the overlay from blocking interactions */
             display: none;
         }
 
@@ -63,7 +63,6 @@
             padding: 5px 10px;
             border-radius: 5px;
             background-color: #2e2e2e;
-            transition: background-color 0.3s;
         }
 
         .toolbar .collection-item.all {
@@ -130,6 +129,7 @@
         <div class="canvas-container">
             <canvas id="globalViewCanvas" width="1000" height="800"></canvas>
             <canvas id="overlayCanvas" width="1000" height="800"></canvas>
+            <canvas id="tileCanvas" width="1000" height="800"></canvas>
             <!-- <canvas id="newOverlayCanvas" width="1000" height="800"></canvas> -->
         </div>
         <p>
@@ -144,11 +144,32 @@
         const TILE_RATIO = 50; // Global canvas divided into 50x50 tiles
         const CUE_WIDTH = 20;  // Width of rectangle cue
         const CUE_HEIGHT = 16; // Height of rectangle cue
+        
+        const TILE_METADATA = {
+            tileWidth: 1000, // Width of a single tile
+            tileHeight: 800, // Height of a single tile
+            gridWidth: 50, // Total number of tiles horizontally
+            gridHeight: 50, // Total number of tiles vertically
+            tileDir: "/static/tiles/" // Directory where tiles are stored
+        };
+
+        // State variables
+        let offsetX = 0;
+        let offsetY = 0;
+        let isDragging = false;
+        let startDragX = 0;
+        let startDragY = 0;
+
+        // Loaded tile cache
+        const loadedTiles = {};
 
         const globalCanvas = document.getElementById("globalViewCanvas");
         const globalCtx = globalCanvas.getContext("2d");
         const overlayCanvas = document.getElementById("overlayCanvas");
         const overlayCtx = overlayCanvas.getContext("2d");
+        const tileCanvas = document.getElementById("tileCanvas");
+        const tileCtx = tileCanvas.getContext("2d");
+
         // const newOverlayCanvas = document.getElementById("newOverlayCanvas");
         // const newOverlayCtx = newOverlayCanvas.getContext("2d");
         const tooltip = document.createElement("div");
@@ -262,51 +283,179 @@
             const tileX = Math.floor(mouseX / 50);
             const tileY = Math.floor(mouseY / 50);
             
-            renderTileView(tileX, tileY);
+            // Set offsets
+            offsetX = tileX * TILE_METADATA.tileWidth;
+            offsetY = tileY * TILE_METADATA.tileHeight;
+
+            // Animate zoom in, then load tiles after animation completes
+            animateZoomIn(tileX, tileY).then(() => {
+                loadVisibleTiles();
+            });
         });
 
+        function animateZoomIn(tileX, tileY) {
+            return new Promise((resolve) => {
+                const img = new Image();
+                img.src = `${TILE_METADATA.tileDir}tile_${tileX}_${tileY}.png`;
 
+                img.onload = () => {
+                    let scale = 0.1; // Start with a small scale
+                    const startX = tileX * 50;
+                    const startY = tileY * 50;
 
-        async function renderTileView(tileX, tileY) {
+                    const interval = setInterval(() => {
+                        overlayCtx.clearRect(0, 0, overlayCanvas.width, overlayCanvas.height);
+                        overlayCtx.save();
+                        overlayCtx.translate(startX, startY);
+                        overlayCtx.scale(scale, scale);
+                        overlayCtx.translate(-startX, -startY);
+                        overlayCtx.drawImage(img, 0, 0, globalCanvas.width, globalCanvas.height);
+                        overlayCtx.restore();
 
-            const clusterId = `${tileX}_${tileY}`;
-            //construct the .png file path
-            const response = await fetch(`/static/tiles/tile_${clusterId}.png`);
-            const blob = await response.blob();
-            const img = new Image();
-            img.src = URL.createObjectURL(blob);
-
-            // 
-            img.onload = ()  => animateZoomIn(img, tileX, tileY);
-
+                        scale += 0.05; // Increment scale
+                        if (scale >= 1) {
+                            clearInterval(interval);
+                            overlayCtx.clearRect(0, 0, globalCanvas.width, globalCanvas.height);
+                            overlayCtx.drawImage(img, 0, 0, globalCanvas.width, globalCanvas.height);
+                            resolve(); // Animation complete
+                        }
+                    }, 16); // 60 FPS animation
+                };
+            });
         }
 
-        function animateZoomIn(img, tileX, tileY) {
-            let scale = 0.1; // Start with a small scale
-            const startX = tileX * 50;
-            const startY = tileY * 50;
 
-            const interval = setInterval(() => {
-            overlayCtx.clearRect(0, 0, overlayCanvas.width, overlayCanvas.height);
-            overlayCtx.save();
-            overlayCtx.translate(startX, startY);
-            overlayCtx.scale(scale, scale);
-            overlayCtx.translate(-startX, -startY);
-            overlayCtx.drawImage(img, 0, 0, globalCanvas.width, globalCanvas.height);
-            overlayCtx.restore();
 
-            scale += 0.05; // Increment scale
-            if (scale >= 1) {
-                clearInterval(interval);
-                renderClusterView(img); // Replace global canvas with cluster view
+        // Load a single tile dynamically
+        function loadTile(x, y) {
+            return new Promise((resolve, reject) => {
+                const img = new Image();
+                const tileKey = `${x}_${y}`;
+                img.src = `${TILE_METADATA.tileDir}tile_${tileKey}.png`;
+                img.onload = () => {
+                    loadedTiles[tileKey] = img;
+                    resolve();
+                };
+                img.onerror = () => {
+                    reject(`Failed to load tile at (${x}, ${y})`);
+                };
+            });
+        }
+
+        // Load visible tiles dynamically
+        async function loadVisibleTiles() {
+            const visibleTiles = getVisibleTiles();
+            const loadPromises = [];
+
+            visibleTiles.forEach(([x, y]) => {
+                const tileKey = `${x}_${y}`;
+                if (!loadedTiles[tileKey]) {
+                    loadPromises.push(loadTile(x, y));
+                }
+            });
+
+            await Promise.all(loadPromises);
+            drawTiles();
+        }
+
+        // Calculate visible tiles
+        function getVisibleTiles() {
+            const startTileX = Math.floor(offsetX / TILE_METADATA.tileWidth);
+            const startTileY = Math.floor(offsetY / TILE_METADATA.tileHeight);
+            const endTileX = Math.ceil((offsetX + tileCanvas.width) / TILE_METADATA.tileWidth);
+            const endTileY = Math.ceil((offsetY + tileCanvas.height) / TILE_METADATA.tileHeight);
+
+            const visibleTiles = [];
+            for (let x = startTileX; x <= endTileX; x++) {
+                for (let y = startTileY; y <= endTileY; y++) {
+                    if (x >= 0 && x < TILE_METADATA.gridWidth && y >= 0 && y < TILE_METADATA.gridHeight) {
+                        visibleTiles.push([x, y]);
+                    }
+                }
             }
-            }, 16); // 60 FPS animation
+            return visibleTiles;
         }
 
-        function renderClusterView(img) {
-            overlayCtx.clearRect(0, 0, globalCanvas.width, globalCanvas.height);
-            overlayCtx.drawImage(img, 0, 0, globalCanvas.width, globalCanvas.height);
+        // Draw the visible canvas area
+        function drawTiles() {
+            tileCanvas.style.display = "block";
+            tileCtx.clearRect(0, 0, tileCanvas.width, tileCanvas.height);
+
+            const visibleTiles = getVisibleTiles();
+            visibleTiles.forEach(([x, y]) => {
+                const tileKey = `${x}_${y}`;
+                const img = loadedTiles[tileKey];
+                if (img) {
+                    const tileCanvasX = x * TILE_METADATA.tileWidth - offsetX;
+                    const tileCanvasY = y * TILE_METADATA.tileHeight - offsetY;
+
+                    tileCtx.drawImage(
+                        img,
+                        tileCanvasX,
+                        tileCanvasY,
+                        TILE_METADATA.tileWidth,
+                        TILE_METADATA.tileHeight
+                    );
+                }
+            });
         }
+
+        // Mouse event handlers for panning
+        tileCanvas.addEventListener("mousedown", (event) => {
+            isDragging = true;
+            startDragX = event.clientX;
+            startDragY = event.clientY;
+        });
+
+        tileCanvas.addEventListener("mousemove", (event) => {
+            if (!isDragging) return;
+
+            const deltaX = event.clientX - startDragX;
+            const deltaY = event.clientY - startDragY;
+
+            offsetX = Math.max(
+                0,
+                Math.min(offsetX - deltaX, TILE_METADATA.gridWidth * TILE_METADATA.tileWidth - tileCanvas.width)
+            );
+            offsetY = Math.max(
+                0,
+                Math.min(offsetY - deltaY, TILE_METADATA.gridHeight * TILE_METADATA.tileHeight - tileCanvas.height)
+            );
+
+            startDragX = event.clientX;
+            startDragY = event.clientY;
+
+            loadVisibleTiles();
+        });
+
+        tileCanvas.addEventListener("mouseup", () => {
+            isDragging = false;
+        });
+
+        tileCanvas.addEventListener("mouseleave", () => {
+            isDragging = false;
+        });
+        
+        // zoom out of tile view to global view with mouse wheel
+        tileCanvas.addEventListener("wheel", (event) => {
+            //disable the default scroll behavior
+            event.preventDefault();
+            if (event.deltaY < 0) {
+                // Zoom in to detail view by centering with the isbn under mouse
+                const rect = tileCanvas.getBoundingClientRect();
+                const mouseX = event.clientX - rect.left;
+                const mouseY = event.clientY - rect.top;
+                // Calculate the ISBN under the mouse
+                const cellWidth = tileCanvas.width / 1000; // Assuming 1000x800 grid
+                const cellHeight = tileCanvas.height / 800;
+                // draw detail view 
+                //renderTileView();
+            } else {
+                // Zoom out
+                tileCanvas.style.display = "none";
+            }
+        });
+
 
     </script>
     
