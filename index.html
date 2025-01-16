@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISBN Visualization</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="content">
+        <h1>Welcome to the ISBN Universe</h1>
+        <p>
+            This project offers an interactive visualization of the entire ISBN universe. Each pixel on the canvas
+            represents a range of ISBNs, providing a comprehensive view of global book metadata collections.
+        </p>
+        <p>
+            Hover over the collection options to explore how different datasets contribute to the ISBN universe.
+            Our visualization demonstrates the scope of book metadata across sources such as Anna's Archive, Google Books, and more.
+        </p>
+        <div class="canvas-container">
+            <canvas id="mainCanvas" width="1000" height="800"></canvas>
+            <canvas id="overlayCanvas" width="1000" height="800"></canvas>
+        </div>
+    </div>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>`;

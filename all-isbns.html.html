@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive ISBN Visualization</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1e1e1e;
+            color: white;
+            padding: 20px;
+        }
+
+        .content {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .canvas-container {
+            position: relative;
+            margin: 20px auto;
+            width: 1000px;
+            height: 800px;
+            border: 1px solid #444;
+        }
+
+        canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        #globalViewCanvas {
+            z-index: 1;
+        }
+
+        #overlayCanvas {
+            background-color: transparent;
+            z-index: 3;
+            pointer-events: none; /* Prevent the overlay from blocking interactions */
+        }
+        #tileCanvas {
+            z-index: 2;
+            /* pointer-events: none; Prevent the overlay from blocking interactions */
+            display: none;
+            cursor: move; 
+        }
+
+        .toolbar {  /*make the tool bar plain and simple*/
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+            line-height: 1.6;
+        }
+
+        .toolbar .collection-item {
+            /* font being bold */
+            font-weight: bold;
+            cursor: pointer;
+            padding: 5px 10px;
+            border-radius: 5px;
+            background-color: #2e2e2e;
+        }
+
+        .toolbar .collection-item.all {
+            color : black; 
+            background-color: #cccccc;
+        }
+
+        .toolbar .collection-item:hover {
+            background-color: green;
+        }
+        .toolbar .collection-item.all:hover {
+            background-color: #eeeeee;
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #aaa;
+        }
+
+        .tooltip {
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 5px;
+            border-radius: 3px;
+            pointer-events: none;
+            font-size: 12px;
+            display: none;
+            z-index: 100;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Welcome to the ISBN Universe</h1>
+        <p>
+            This project offers an interactive visualization of the entire ISBN universe. Each pixel on the canvas
+            represents a range of ISBNs, providing a comprehensive view of global book metadata collections.
+        </p>
+        <p>
+            Hover over the collection options to explore how different datasets contribute to the ISBN universe.
+            Our visualization demonstrates the scope of book metadata across sources such as Anna's Archive, Google Books, and more.
+        </p><hr/>
+        <span class="toolbar">
+            <span class="collection-item all" data-collection="all">All (background)</span>
+            <span class="collection-item" data-collection="md5">Anna's Archive</span>
+            <span class="collection-item" data-collection="cadal_ssno">CADAL</span>
+            <span class="collection-item" data-collection="cerlalc">CERLALC</span>
+            <span class="collection-item" data-collection="duxiu_ssid">DuXiu</span>
+            <span class="collection-item" data-collection="edsebk">EBSCOhost</span>            
+            <span class="collection-item" data-collection="gbooks">Google Books</span>
+            <span class="collection-item" data-collection="goodreads">Goodreads</span>
+            <span class="collection-item" data-collection="ia">Internet Archive</span>
+            <span class="collection-item" data-collection="isbngrp">ISBN Global Register</span>
+            <span class="collection-item" data-collection="libby">Libby</span>
+            <span class="collection-item" data-collection="nexusstc">Nexus/STC</span>
+            <span class="collection-item" data-collection="oclc">OCLC/Worldcat</span>
+            <span class="collection-item" data-collection="ol">OpenLibrary</span>
+            <span class="collection-item" data-collection="rgb">Russian State Library</span>
+            <span class="collection-item" data-collection="trantor">Imperial Library of Trantor</span>
+            
+        </span>
+        <div class="canvas-container">
+            <canvas id="globalViewCanvas" width="1000" height="800"></canvas>
+            <canvas id="overlayCanvas" width="1000" height="800"></canvas>
+            <canvas id="tileCanvas" width="1000" height="800"></canvas>
+            <!-- <canvas id="newOverlayCanvas" width="1000" height="800"></canvas> -->
+        </div>
+        <p>
+            As you explore, you'll notice the interplay between different datasets. The light green pixels represent
+            the base dataset, and hovering over additional collections will overlay their unique contributions in varying colors.
+        </p>
+    </div>
+    <footer>
+        © 2025 ISBN Visualization Project. All rights reserved.
+    </footer>
+    <script>
+        const TILE_RATIO = 50; // Global canvas divided into 50x50 tiles
+        const CUE_WIDTH = 20;  // Width of rectangle cue
+        const CUE_HEIGHT = 16; // Height of rectangle cue
+        
+        const TILE_METADATA = {
+            tileWidth: 1000, // Width of a single tile
+            tileHeight: 800, // Height of a single tile
+            gridWidth: 50, // Total number of tiles horizontally
+            gridHeight: 50, // Total number of tiles vertically
+            tileDir: "./tiles/" // Directory where tiles are stored
+        };
+
+        // State variables
+        let offsetX = 0;
+        let offsetY = 0;
+        let isDragging = false;
+        let startDragX = 0;
+        let startDragY = 0;
+
+        // Loaded tile cache
+        const loadedTiles = {};
+
+        const globalCanvas = document.getElementById("globalViewCanvas");
+        const globalCtx = globalCanvas.getContext("2d");
+        const overlayCanvas = document.getElementById("overlayCanvas");
+        const overlayCtx = overlayCanvas.getContext("2d");
+        const tileCanvas = document.getElementById("tileCanvas");
+        const tileCtx = tileCanvas.getContext("2d");
+
+        // const newOverlayCanvas = document.getElementById("newOverlayCanvas");
+        // const newOverlayCtx = newOverlayCanvas.getContext("2d");
+        const tooltip = document.createElement("div");
+    
+        // Tooltip styling
+        tooltip.className = "tooltip"; 
+        document.body.appendChild(tooltip);
+    
+        // Load base layer
+        const baseLayer = new Image();
+        baseLayer.src = "isbn_images/all_isbns_smaller.png";
+        baseLayer.onload = () => {
+            globalCtx.drawImage(baseLayer, 0, 0, globalCanvas.width, globalCanvas.height);
+        };
+
+        
+   
+        // Function to overlay non-black parts
+        function loadOverlay(collection) {
+            const overlayImage = new Image();
+            overlayImage.src = `./isbn_images/${collection}_isbns_smaller.png`;
+            overlayImage.src = "isbn_images/all_isbns_smaller.png";
+
+            overlayImage.onload = () => {
+                overlayCtx.clearRect(0, 0, overlayCanvas.width, overlayCanvas.height);
+    
+                const offscreenCanvas = document.createElement("canvas");
+                const offscreenCtx = offscreenCanvas.getContext("2d");
+                offscreenCanvas.width = overlayImage.width;
+                offscreenCanvas.height = overlayImage.height;
+    
+                offscreenCtx.drawImage(overlayImage, 0, 0);
+    
+                const imageData = offscreenCtx.getImageData(0, 0, overlayImage.width, overlayImage.height);
+                const data = imageData.data;
+    
+                for (let y = 0; y < overlayCanvas.height; y++) {
+                    for (let x = 0; x < overlayCanvas.width; x++) {
+                        const index = (y * overlayImage.width + x) * 4;
+    
+                        const r = data[index];
+                        const g = data[index + 1];
+                        const b = data[index + 2];
+    
+                        if (r !== 0 || g !== 0 || b !== 0) {
+                            overlayCtx.fillStyle = `rgba(${r}, ${g}, ${b}, 0.7)`;
+                            overlayCtx.fillRect(x, y, 1, 1);
+                        }
+                    }
+                }
+            };
+        }
+        // Add hover listeners for overlays
+        document.querySelectorAll(".collection-item").forEach(item => {
+            item.addEventListener("mouseover", (event) => {
+                const collection = event.target.dataset.collection;
+                loadOverlay(collection);
+            });
+    
+            item.addEventListener("mouseleave", () => {
+                overlayCtx.clearRect(0, 0, overlayCanvas.width, overlayCanvas.height);
+            });
+        });
+        
+        globalCanvas.addEventListener("mousemove", (event) => {
+            const rect = globalCanvas.getBoundingClientRect();
+            const mouseX = event.clientX - rect.left;
+            const mouseY = event.clientY - rect.top;
+
+            const cellWidth = globalCanvas.width / 1000; // Assuming 1000x800 grid
+            const cellHeight = globalCanvas.height / 800;
+
+            const col = Math.floor(mouseX / cellWidth);
+            const row = Math.floor(mouseY / cellHeight);
+
+            const startX = col * cellWidth;
+            const startY = row * cellHeight;
+
+            const tileX = Math.floor(mouseX / CUE_WIDTH);
+            const tileY = Math.floor(mouseY / CUE_HEIGHT);
+
+            // Clear previous cue
+            overlayCtx.clearRect(0, 0, overlayCanvas.width, overlayCanvas.height);
+
+            // Draw rectangle cue
+            overlayCtx.strokeStyle = "red";
+            overlayCtx.lineWidth = 2;
+            overlayCtx.strokeRect(tileX * CUE_WIDTH, tileY * CUE_HEIGHT, CUE_WIDTH, CUE_HEIGHT);
+
+            // Tooltip for ISBN range
+            const baseIsbnStart = (row * 1000 + col) * 2500 + 978000000000;
+            const baseIsbnEnd = baseIsbnStart + 2499;
+
+            tooltip.innerText = `Tile: ${tileX} - ${tileY}`;
+            tooltip.style.left = `${event.pageX + 10}px`;
+            tooltip.style.top = `${event.pageY + 10}px`;
+            tooltip.style.display = "block";
+        });
+
+        // Hide tooltip and highlight when leaving the canvas
+        globalCanvas.addEventListener("mouseleave", () => {
+            tooltip.style.display = "none";
+            overlayCtx.clearRect(0, 0, overlayCanvas.width, overlayCanvas.height);
+        });
+
+
+        globalCanvas.addEventListener("dblclick", (event) => {
+            const rect = globalCanvas.getBoundingClientRect();
+            const mouseX = event.clientX - rect.left;
+            const mouseY = event.clientY - rect.top;
+
+            const tileX = Math.floor(mouseX / 50);
+            const tileY = Math.floor(mouseY / 50);
+            
+            // Set offsets
+            offsetX = tileX * TILE_METADATA.tileWidth;
+            offsetY = tileY * TILE_METADATA.tileHeight;
+
+            // Animate zoom in, then load tiles after animation completes
+            animateZoomIn(tileX, tileY).then(() => {
+                loadVisibleTiles();
+            });
+        });
+
+        function animateZoomIn(tileX, tileY) {
+            return new Promise((resolve) => {
+                const img = new Image();
+                img.src = `${TILE_METADATA.tileDir}tile_${tileX}_${tileY}.png`;
+
+                img.onload = () => {
+                    let scale = 0.1; // Start with a small scale
+                    const startX = tileX * 50;
+                    const startY = tileY * 50;
+
+                    const interval = setInterval(() => {
+                        overlayCtx.clearRect(0, 0, overlayCanvas.width, overlayCanvas.height);
+                        overlayCtx.save();
+                        overlayCtx.translate(startX, startY);
+                        overlayCtx.scale(scale, scale);
+                        overlayCtx.translate(-startX, -startY);
+                        overlayCtx.drawImage(img, 0, 0, globalCanvas.width, globalCanvas.height);
+                        overlayCtx.restore();
+
+                        scale += 0.05; // Increment scale
+                        if (scale >= 1) {
+                            clearInterval(interval);
+                            overlayCtx.clearRect(0, 0, globalCanvas.width, globalCanvas.height);
+                            overlayCtx.drawImage(img, 0, 0, globalCanvas.width, globalCanvas.height);
+                            resolve(); // Animation complete
+                        }
+                    }, 16); // 60 FPS animation
+                };
+            });
+        }
+
+
+
+
+
+//////////////////////////////// Tile View //////////////////////////////////////
+
+        // Load a single tile dynamically
+        function loadTile(x, y) {
+            return new Promise((resolve, reject) => {
+                const img = new Image();
+                const tileKey = `${x}_${y}`;
+                img.src = `${TILE_METADATA.tileDir}tile_${tileKey}.png`;
+                img.onload = () => {
+                    loadedTiles[tileKey] = img;
+                    resolve();
+                };
+                img.onerror = () => {
+                    reject(`Failed to load tile at (${x}, ${y})`);
+                };
+            });
+        }
+
+        // Load visible tiles dynamically
+        async function loadVisibleTiles() {
+            const visibleTiles = getVisibleTiles();
+            const loadPromises = [];
+
+            visibleTiles.forEach(([x, y]) => {
+                const tileKey = `${x}_${y}`;
+                if (!loadedTiles[tileKey]) {
+                    loadPromises.push(loadTile(x, y));
+                }
+            });
+
+            await Promise.all(loadPromises);
+            drawTiles();
+        }
+
+        // Calculate visible tiles
+        function getVisibleTiles() {
+            const startTileX = Math.floor(offsetX / TILE_METADATA.tileWidth);
+            const startTileY = Math.floor(offsetY / TILE_METADATA.tileHeight);
+            const endTileX = Math.ceil((offsetX + tileCanvas.width) / TILE_METADATA.tileWidth);
+            const endTileY = Math.ceil((offsetY + tileCanvas.height) / TILE_METADATA.tileHeight);
+
+            const visibleTiles = [];
+            for (let x = startTileX; x <= endTileX; x++) {
+                for (let y = startTileY; y <= endTileY; y++) {
+                    if (x >= 0 && x < TILE_METADATA.gridWidth && y >= 0 && y < TILE_METADATA.gridHeight) {
+                        visibleTiles.push([x, y]);
+                    }
+                }
+            }
+            return visibleTiles;
+        }
+
+        // Draw the visible canvas area
+        function drawTiles() {
+            tileCanvas.style.display = "block";
+            tileCtx.clearRect(0, 0, tileCanvas.width, tileCanvas.height);
+
+            const visibleTiles = getVisibleTiles();
+            visibleTiles.forEach(([x, y]) => {
+                const tileKey = `${x}_${y}`;
+                const img = loadedTiles[tileKey];
+                if (img) {
+                    const tileCanvasX = x * TILE_METADATA.tileWidth - offsetX;
+                    const tileCanvasY = y * TILE_METADATA.tileHeight - offsetY;
+
+                    tileCtx.drawImage(
+                        img,
+                        tileCanvasX,
+                        tileCanvasY,
+                        TILE_METADATA.tileWidth,
+                        TILE_METADATA.tileHeight
+                    );
+                }
+            });
+        }
+
+        // Mouse event handlers for panning
+        tileCanvas.addEventListener("mousedown", (event) => {
+            isDragging = true;
+            startDragX = event.clientX;
+            startDragY = event.clientY;
+        });
+
+        tileCanvas.addEventListener("mousemove", (event) => {
+            if (!isDragging) return;
+
+            const deltaX = event.clientX - startDragX;
+            const deltaY = event.clientY - startDragY;
+
+            offsetX = Math.max(
+                0,
+                Math.min(offsetX - deltaX, TILE_METADATA.gridWidth * TILE_METADATA.tileWidth - tileCanvas.width)
+            );
+            offsetY = Math.max(
+                0,
+                Math.min(offsetY - deltaY, TILE_METADATA.gridHeight * TILE_METADATA.tileHeight - tileCanvas.height)
+            );
+
+            startDragX = event.clientX;
+            startDragY = event.clientY;
+
+            loadVisibleTiles();
+        });
+
+        tileCanvas.addEventListener("mouseup", () => {
+            isDragging = false;
+        });
+
+        tileCanvas.addEventListener("mouseleave", () => {
+            isDragging = false;
+        });
+        
+        // zoom out of tile view to global view with mouse wheel
+        tileCanvas.addEventListener("wheel", (event) => {
+            //disable the default scroll behavior
+            event.preventDefault();
+            if (event.deltaY < 0) {
+                // Zoom in to detail view by centering with the isbn under mouse
+                const rect = tileCanvas.getBoundingClientRect();
+                const mouseX = event.clientX - rect.left;
+                const mouseY = event.clientY - rect.top;
+                // Calculate the ISBN under the mouse
+                const cellWidth = tileCanvas.width / 1000; // Assuming 1000x800 grid
+                const cellHeight = tileCanvas.height / 800;
+                // draw detail view 
+                //renderTileView();
+            } else {
+                // Zoom out
+                tileCanvas.style.display = "none";
+            }
+        });
+
+//////////////////////////  utility functions  ////////////////////////////
+
+function addChecksum(isbn12) {
+    let sum = 0;
+    for (let i = 0; i < 12; i++) {
+        const digit = parseInt(isbn12[i], 10);
+        sum += (i % 2 === 0) ? digit : digit * 3;
+    }
+    return isbn12 + ((10 - (sum % 10)) % 10); // Append checksum
+}
+
+
+///////////////////////////  book cover from tile view  //////////////////////////////
+// Tile ISBN Base
+const BASE_ISBN = 978000000000;
+const BOOK_COVER_WIDTH = 80;
+const BOOK_COVER_HEIGHT = 120;
+
+// Tooltip element for displaying book cover and information
+
+tileCanvas.addEventListener("mousemove", (event) => {
+
+    const rect = tileCanvas.getBoundingClientRect();
+    const mouseX = event.clientX - rect.left;
+    const mouseY = event.clientY - rect.top;
+
+    // Determine which cell the mouse is hovering over
+    const col = Math.floor((offsetX + mouseX) );
+    const row = Math.floor((offsetY + mouseY) );
+    const tileIndex = row * TILE_METADATA.gridWidth + col;
+
+    // debug all information
+    console.log(`col: ${col}, row: ${row}, tileIndex: ${tileIndex}, offsetX: ${offsetX}, offsetY: ${offsetY}, mouseX: ${mouseX}, mouseY: ${mouseY}`);
+
+    const isbn12 = BASE_ISBN + tileIndex;
+    const isbn13 = addChecksum(isbn12.toString());
+    const part1 = isbn13.slice(-4, -2);
+    const part2 = isbn13.slice(-2);
+    const imageUrl = `https://images.isbndb.com/covers/${part1}/${part2}/${isbn13}.jpg`;
+
+    // Check if the book cover exists
+    const img = new Image();
+    img.src = imageUrl;
+
+    img.onload = () => {
+        // Show the tooltip with the book cover
+        tooltip.innerHTML = `<img src="${imageUrl}" alt="Book Cover" style="width: 60px; height: 90px;" /> ISBN: ${isbn13}`;
+        tooltip.style.display = "block";
+        tooltip.style.left = `${event.pageX + 10}px`;
+        tooltip.style.top = `${event.pageY + 10}px`;
+    };
+
+    img.onerror = () => {
+        // Show placeholder if cover not available
+        tooltip.innerHTML = `No cover available<br>ISBN: ${isbn13}`;
+        tooltip.style.display = "block";
+        tooltip.style.left = `${event.pageX + 10}px`;
+        tooltip.style.top = `${event.pageY + 10}px`;
+    };
+});
+
+tileCanvas.addEventListener("mouseleave", () => {
+    tooltip.style.display = "none";
+});
+
+// Double-click to open Anna’s Archive
+tileCanvas.addEventListener("dblclick", (event) => {
+
+    const rect = tileCanvas.getBoundingClientRect();
+    const mouseX = event.clientX - rect.left;
+    const mouseY = event.clientY - rect.top;
+
+    // Determine which cell the mouse is in
+    const col = Math.floor((offsetX + mouseX) / TILE_METADATA.tileWidth);
+    const row = Math.floor((offsetY + mouseY) / TILE_METADATA.tileHeight);
+    const tileIndex = row * TILE_METADATA.gridWidth + col;
+
+    const isbn12 = BASE_ISBN + tileIndex * BOOKS_PER_TILE;
+    const isbn13 = addChecksum(isbn12.toString());
+
+    // Redirect to Anna's Archive
+    const searchUrl = `https://annas-archive.org/search?index=meta&q=${isbn13}`;
+    window.open(searchUrl, "_blank");
+});
+
+
+
+    </script>
+    
+</body>
+</html>

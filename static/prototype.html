@@ -14,8 +14,11 @@
 </head>
 <body>
     <h1 style="text-align: center;">Tile Roaming Prototype</h1>
-    <canvas id="roamingCanvas" width="1000" height="800"></canvas>
+    <canvas id="tileCanvas" width="1000" height="800"></canvas>
     <script type="text/javascript">
+        const tileCanvas = document.getElementById("tileCanvas");
+        const tileCtx = tileCanvas.getContext("2d");
+        
         const TILE_METADATA = {
             tileWidth: 1000, // Width of a single tile
             tileHeight: 800, // Height of a single tile
@@ -30,9 +33,6 @@
         let isDragging = false;
         let startDragX = 0;
         let startDragY = 0;
-
-        const canvas = document.getElementById("roamingCanvas");
-        const ctx = canvas.getContext("2d");
 
         // Loaded tile cache
         const loadedTiles = {};
@@ -73,8 +73,8 @@
         function getVisibleTiles() {
             const startTileX = Math.floor(offsetX / TILE_METADATA.tileWidth);
             const startTileY = Math.floor(offsetY / TILE_METADATA.tileHeight);
-            const endTileX = Math.ceil((offsetX + canvas.width) / TILE_METADATA.tileWidth);
-            const endTileY = Math.ceil((offsetY + canvas.height) / TILE_METADATA.tileHeight);
+            const endTileX = Math.ceil((offsetX + tileCanvas.width) / TILE_METADATA.tileWidth);
+            const endTileY = Math.ceil((offsetY + tileCanvas.height) / TILE_METADATA.tileHeight);
 
             const visibleTiles = [];
             for (let x = startTileX; x <= endTileX; x++) {
@@ -89,7 +89,7 @@
 
         // Draw the visible canvas area
         function drawCanvas() {
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            tileCtx.clearRect(0, 0, tileCanvas.width, tileCanvas.height);
 
             const visibleTiles = getVisibleTiles();
             visibleTiles.forEach(([x, y]) => {
@@ -99,7 +99,7 @@
                     const tileCanvasX = x * TILE_METADATA.tileWidth - offsetX;
                     const tileCanvasY = y * TILE_METADATA.tileHeight - offsetY;
 
-                    ctx.drawImage(
+                    tileCtx.drawImage(
                         img,
                         tileCanvasX,
                         tileCanvasY,
@@ -111,13 +111,13 @@
         }
 
         // Mouse event handlers for panning
-        canvas.addEventListener("mousedown", (event) => {
+        tileCanvas.addEventListener("mousedown", (event) => {
             isDragging = true;
             startDragX = event.clientX;
             startDragY = event.clientY;
         });
 
-        canvas.addEventListener("mousemove", (event) => {
+        tileCanvas.addEventListener("mousemove", (event) => {
             if (!isDragging) return;
 
             const deltaX = event.clientX - startDragX;
@@ -125,11 +125,11 @@
 
             offsetX = Math.max(
                 0,
-                Math.min(offsetX - deltaX, TILE_METADATA.gridWidth * TILE_METADATA.tileWidth - canvas.width)
+                Math.min(offsetX - deltaX, TILE_METADATA.gridWidth * TILE_METADATA.tileWidth - tileCanvas.width)
             );
             offsetY = Math.max(
                 0,
-                Math.min(offsetY - deltaY, TILE_METADATA.gridHeight * TILE_METADATA.tileHeight - canvas.height)
+                Math.min(offsetY - deltaY, TILE_METADATA.gridHeight * TILE_METADATA.tileHeight - tileCanvas.height)
             );
 
             startDragX = event.clientX;
@@ -138,11 +138,11 @@
             loadVisibleTiles();
         });
 
-        canvas.addEventListener("mouseup", () => {
+        tileCanvas.addEventListener("mouseup", () => {
             isDragging = false;
         });
 
-        canvas.addEventListener("mouseleave", () => {
+        tileCanvas.addEventListener("mouseleave", () => {
             isDragging = false;
         });
 

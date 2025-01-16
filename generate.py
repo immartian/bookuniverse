@@ -127,8 +127,8 @@ generate_multiple_tiles(
     grid_width=50000,
     grid_height=40000,
     tile_size=1000,
-    num_tiles_x=5,
-    num_tiles_y=5,
+    num_tiles_x=50,
+    num_tiles_y=50,
     cache_dir="static/tiles"
 )
 
