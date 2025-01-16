@@ -352,89 +352,90 @@
             return null; // No match found
         }
 
-// Helper function to pad the prefix to 12 digits
-function padToISBN(prefix, padChar) {
-    const basePrefix = prefix.replace("-", ""); // Remove the hyphen
-    const paddingLength = 12 - basePrefix.length; // Calculate the required padding
-    return parseInt(basePrefix + padChar.repeat(paddingLength), 10); // Pad and convert to number
-}
+        // Helper function to pad the prefix to 12 digits
+        function padToISBN(prefix, padChar) {
+            const basePrefix = prefix.replace("-", ""); // Remove the hyphen
+            const paddingLength = 12 - basePrefix.length; // Calculate the required padding
+            return parseInt(basePrefix + padChar.repeat(paddingLength), 10); // Pad and convert to number
+        }
 
         function highlightCountryOverlay() {
-    overlayCtx.clearRect(0, 0, canvasWidth, canvasHeight); // Clear overlay canvas
+            overlayCtx.clearRect(0, 0, canvasWidth, canvasHeight); // Clear overlay canvas
 
-    const cursorX = event.offsetX; // Mouse cursor position relative to canvas
-    const cursorY = event.offsetY;
+            const cursorX = event.offsetX; // Mouse cursor position relative to canvas
+            const cursorY = event.offsetY;
 
-    // Map cursor position to image space
-    const imageX = Math.floor((cursorX / canvasWidth) * imageWidth) + offsetX;
-    const imageY = Math.floor((cursorY / canvasHeight) * imageHeight) + offsetY;
+            // Map cursor position to image space
+            const imageX = Math.floor((cursorX / canvasWidth) * imageWidth) + offsetX;
+            const imageY = Math.floor((cursorY / canvasHeight) * imageHeight) + offsetY;
 
-    const isbn = calculateISBN(cursorX + offsetX, cursorY + offsetY); 
-    const countryData = getCountryForISBN(isbn);
+            const isbn = calculateISBN(cursorX + offsetX, cursorY + offsetY); 
+            const countryData = getCountryForISBN(isbn);
 
-    if (countryData) {
-        const prefix = countryData.prefix;
+            if (countryData) {
+                const prefix = countryData.prefix;
 
-        // Calculate the start and end ISBNs for the country range
-        const countryStartISBN = padToISBN(prefix, "0"); // Pad with zeros for the start
-        const countryEndISBN = padToISBN(prefix, "9");   // Pad with nines for the end
+                // Calculate the start and end ISBNs for the country range
+                const countryStartISBN = padToISBN(prefix, "0"); // Pad with zeros for the start
+                const countryEndISBN = padToISBN(prefix, "9");   // Pad with nines for the end
 
-        // Calculate start and end rows in image space
-        const countryStartRow = Math.floor((countryStartISBN - 978000000000) / isbnPerPixel / imageWidth);
-        const countryEndRow = Math.floor((countryEndISBN - 978000000000) / isbnPerPixel / imageWidth);
+                // for English, let's count both ""978-0": "English language", and "978-1": "English language",\
+                let countryStartRow, countryEndRow;
+                if (prefix === "9780" || prefix === "9781") {
+                    countryStartRow = Math.floor((padToISBN("978-0", "0") - 978000000000) / isbnPerPixel / imageWidth);
+                    countryEndRow = Math.floor((padToISBN("978-1", "9") - 978000000000) / isbnPerPixel / imageWidth);
+                }
+                else
+                {
+                    countryStartRow = Math.floor((countryStartISBN - 978000000000) / isbnPerPixel / imageWidth);
+                    countryEndRow = Math.floor((countryEndISBN - 978000000000) / isbnPerPixel / imageWidth);
+                }
+                // Directly map and clamp the range to canvas space considering offsetY
+                const clampedStartRow = Math.max(
+                    0,
+                    Math.min(
+                        canvasHeight,
+                        countryStartRow - offsetY
+                    )
+                );
 
-        // Directly map and clamp the range to canvas space considering offsetY
-        const clampedStartRow = Math.max(
-            0,
-            Math.min(
-                canvasHeight,
-                countryStartRow - offsetY
-            )
-        );
-
-        const clampedEndRow = Math.max(
-            0,
-            Math.min(
-                canvasHeight,
-                countryEndRow - offsetY 
-            )
-        );
-
-        // Debugging: Log dimensions
-        console.log("Country Range:", {
-            countryStartISBN,
-            countryEndISBN,
-            countryStartRow,
-            countryEndRow,
-            clampedStartRow,
-            clampedEndRow,
-        });
+                const clampedEndRow = Math.max(
+                    0,
+                    Math.min(
+                        canvasHeight,
+                        countryEndRow - offsetY 
+                    )
+                );
+                // Draw rectangles
+                overlayCtx.globalAlpha = 0.4; // Set transparency
+                height = clampedEndRow - clampedStartRow;
+                // if height < 2 make it lighter or, just keep lightgray
+                if (height < 2) {
+                    overlayCtx.fillStyle = "yellow";
+                } else {
+                    overlayCtx.fillStyle = "gray";
+                }
+                overlayCtx.fillRect(0, clampedStartRow, canvasWidth, clampedEndRow - clampedStartRow);
 
 
-        // Draw rectangles
-        overlayCtx.globalAlpha = 0.4; // Set transparency
-        overlayCtx.fillStyle = "yellow";
-        overlayCtx.fillRect(0, clampedStartRow, canvasWidth, clampedEndRow - clampedStartRow);
-
-
-        // Draw the country/language info near the mouse cursor with a highlight background
-        const textWidth = countryData.country.length * 8; // Calculate text width dynamically
-        overlayCtx.fillStyle = "yellow";
-        overlayCtx.fillRect(cursorX + 12, cursorY - 10, textWidth, 24); // Highlight background
-        overlayCtx.fillStyle = "black";
-        overlayCtx.globalAlpha = 1; // Reset transparency
-        overlayCtx.font = "16px Arial";
-        overlayCtx.fillText(countryData.country, cursorX + 16, cursorY + 10);
-    }
-}
+                // Draw the country/language info near the mouse cursor with a highlight background
+                const textWidth = countryData.country.length * 8; // Calculate text width dynamically
+                overlayCtx.fillStyle = "yellow";
+                //overlayCtx.fillRect(cursorX + 12, cursorY - 10, textWidth, 24); // Highlight background
+                overlayCtx.fillStyle = "lightgray";
+                overlayCtx.globalAlpha = 1; // Reset transparency
+                overlayCtx.font = "16px Arial";
+                overlayCtx.fillText(countryData.country, cursorX + 16, cursorY + 10);
+            }
+        }
 
 
 
         // Handle mouse down for dragging
         mainCanvas.addEventListener('mousedown', (e) => {
             dragging = true;
-            startX = e.offsetX - offsetX;
-            startY = e.offsetY - offsetY;
+            startX = e.offsetX + offsetX;
+            startY = e.offsetY + offsetY;
         });
 
         // Handle mouse move for dragging (move image with mouse)
@@ -444,8 +445,8 @@ function padToISBN(prefix, padChar) {
                 const dy = e.clientY - startY;
 
                 // Move image in the same direction as the mouse movement
-                offsetX = dx;
-                offsetY = dy;
+                offsetX = -dx;
+                offsetY = -dy;
 
                 // Boundary check to prevent going out of bounds horizontally
                 if (offsetX < 0) offsetX = 0;
