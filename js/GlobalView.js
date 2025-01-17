@@ -19,9 +19,10 @@ export class GlobalView extends View {
     drawOverlay() {
         const ctx = this.overlayCtx;
         ctx.clearRect(0, 0, this.overlayCanvas.width, this.overlayCanvas.height);
-        ctx.fillStyle = 'white';
-        ctx.font = '20px Arial';
-        ctx.fillText('Global books(1:50)', 50, 50);
+
+        this.drawTitle(ctx, 'All Books(32,022,03)');
+        this.drawMapScale(ctx, 10, this.overlayCanvas.height-20, 100, "5000 📚")
+
     }
 
     handleHover({ x, y }) {

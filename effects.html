@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISBN Visualization</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="content">
+        <h1>Effects</h1>
+
+        <div class="canvas-container">
+            <canvas id="mainCanvas" width="1000" height="800"></canvas>
+            <canvas id="overlayCanvas" width="1000" height="800"></canvas>
+
+        </div>
+        <div id="tooltip"></div>
+
+    </div>
+    <script>
+    const mainCanvas = document.getElementById("mainCanvas");
+    const mainCtx = mainCanvas.getContext("2d");
+    const image = new Image();
+    image.src = "./images/global_view.png"; // Replace with your image URL
+
+    let scale = 1; // Current scale level
+    let offsetX = 0; // Translation offset in X
+    let offsetY = 0; // Translation offset in Y
+    const ZOOM_FACTOR = 2; // Scale up 4 times when zooming
+
+    // Wait for the image to load
+    image.onload = () => {
+        mainCtx.drawImage(image, 0, 0, mainCanvas.width, mainCanvas.height);
+    };
+
+    mainCanvas.addEventListener("wheel", (event) => {
+        event.preventDefault();
+
+        // Get mouse position relative to the canvas
+        const rect = mainCanvas.getBoundingClientRect();
+        const mouseX = event.clientX - rect.left;
+        const mouseY = event.clientY - rect.top;
+
+        // Get scale direction (zoom in or out)
+        const zoomIn = event.deltaY < 0;
+
+        // Compute the new scale
+        const newScale = zoomIn ? scale * ZOOM_FACTOR : scale / ZOOM_FACTOR;
+
+        // Compute the translation to keep the mouse in place
+        const zoomRatio = newScale / scale;
+        offsetX = mouseX - zoomRatio * (mouseX - offsetX);
+        offsetY = mouseY - zoomRatio * (mouseY - offsetY);
+
+        // Update the scale
+        scale = newScale;
+
+        // Redraw the canvas
+        redrawCanvas();
+    });
+
+    function redrawCanvas() {
+        // Clear the canvas
+        mainCtx.clearRect(0, 0, mainCanvas.width, mainCanvas.height);
+
+        // Apply transformations
+        mainCtx.setTransform(scale, 0, 0, scale, offsetX, offsetY);
+
+        // Redraw the image
+        mainCtx.drawImage(image, 0, 0, mainCanvas.width, mainCanvas.height);
+
+        // Reset transformations for next operations
+        mainCtx.setTransform(1, 0, 0, 1, 0, 0);
+    }
+
+    const overlayCanvas = document.getElementById('overlayCanvas');
+    const overlayCtx = overlayCanvas.getContext('2d');
+    const tooltip = document.getElementById('tooltip');
+
+const labels = [
+    { text: "Label 1", x: 50, y: 50, width: 100, height: 20 },
+    { text: "Label 2", x: 200, y: 100, width: 100, height: 20 },
+    { text: "Label 3", x: 100, y: 200, width: 100, height: 20 },
+];
+
+// Draw labels on the canvas
+function drawLabels() {
+    overlayCtx.clearRect(0, 0, overlayCanvas.width, overlayCanvas.height);
+    labels.forEach(label => {
+        overlayCtx.fillStyle = "black";
+        overlayCtx.font = "16px Arial";
+        overlayCtx.fillText(label.text, label.x, label.y);
+    });
+}
+
+// Check if mouse is over a label
+function getLabelUnderMouse(x, y) {
+    return labels.find(label => 
+        x >= label.x && x <= label.x + label.width &&
+        y >= label.y - label.height && y <= label.y
+    );
+}
+
+// Add mousemove event listener
+mainCanvas.addEventListener('mousemove', (e) => {
+    const rect = mainCanvas.getBoundingClientRect();
+    const mouseX = e.clientX - rect.left;
+    const mouseY = e.clientY - rect.top;
+
+    const hoveredLabel = getLabelUnderMouse(mouseX, mouseY);
+    if (hoveredLabel) {
+        // Highlight label
+        drawLabels();
+        mainCtx.fillStyle = "rgba(0, 0, 255, 0.3)";
+        mainCtx.fillRect(hoveredLabel.x, hoveredLabel.y - 16, hoveredLabel.width, hoveredLabel.height);
+        
+        // // Show tooltip
+        // tooltip.style.left = `${e.clientX + 10}px`;
+        // tooltip.style.top = `${e.clientY + 10}px`;
+        // tooltip.style.display = 'block';
+        // tooltip.textContent = hoveredLabel.text;
+    } else {
+        // Reset canvas and hide tooltip
+        drawLabels();
+        tooltip.style.display = 'none';
+    }
+});
+
+// Draw labels initially
+drawLabels();
+
+</script>
+
+</body>
+</html>`;

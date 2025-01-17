@@ -14,8 +14,15 @@ export class InputManager {
 
     initEvents() {
         this.canvas.addEventListener('wheel', (event) => {
+            event.preventDefault(); // Prevent the page from scrolling
+
             const delta = Math.sign(event.deltaY);
-            this.callback('zoom', { delta, x: event.offsetX, y: event.offsetY });
+            // try to peiceive larger scroll as zoom
+            // console.log(event.deltaY);
+            if (Math.abs(event.deltaY) > 100) {
+                this.callback('zoom', { delta: delta * 10, x: event.offsetX, y: event.offsetY });
+                return;            
+            }
         });
 
         this.canvas.addEventListener('mousemove', (event) => {
