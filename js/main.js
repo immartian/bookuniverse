@@ -39,15 +39,17 @@ const tooltip = new Tooltip();
 // Register views
 viewManager.registerView(new GlobalView(baseCanvas, overlayCanvas, tooltip));
 viewManager.registerView(new ZoneView(baseCanvas, overlayCanvas));
-viewManager.registerView(new SocietalView(baseCanvas, overlayCanvas));
-viewManager.registerView(new BookshelfView(baseCanvas, overlayCanvas));
+const societalView = new SocietalView(baseCanvas, overlayCanvas, {
+    tileDir: './tiles/',
+    tileWidth: 1000,
+    tileHeight: 800,
+    gridWidth: 50,
+    gridHeight: 50,
+});
+viewManager.registerView(societalView);
+viewManager.registerView(new BookshelfView(baseCanvas, overlayCanvas, 15, 8));
 
 
 // Start rendering loop
 viewManager.switchView('Global');
 
-function render() {
-    viewManager.render();
-    requestAnimationFrame(render);
-}
-render();

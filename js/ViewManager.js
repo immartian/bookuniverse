@@ -11,10 +11,15 @@ export class ViewManager {
     }
 
     switchView(viewName, options = {}) {
-        if (this.currentView) this.currentView.onExit();
+        if (this.currentView) {
+            this.currentView.stopRendering(); // Stop the current view's animation
+            this.currentView.onExit();
+        }
+    
         this.currentView = this.views[viewName];
         this.currentView.onEnter(options);
     }
+    
 
     handleZoom(data) {
         if (data.delta < 0) {
@@ -68,10 +73,4 @@ export class ViewManager {
         }
     }
 
-    render() {
-        if (this.currentView) {
-            this.currentView.drawBase();
-            this.currentView.drawOverlay();
-        }
-    }
 }

@@ -6,23 +6,22 @@ export class ZoneView extends View {
         super('Zone', baseCanvas, overlayCanvas);
         this.zoneHandler = new ISBNCountyHandler(100, 5000);
         this.imageData = new Image(); // Pre-rendered image for the zone view
-        this.imageData.src = './all_isbns_smaller10x.png';
         this.offsetX = 0;
         this.offsetY = 0;
         this.highlightedZone = null;
-
+        
+        this.imageData.src = './all_isbns_smaller10x.png';
         this.imageData.onload = () => {
             this.drawBase(); // Draw the image once it is loaded
         };
     }
-
     onEnter() {
         console.log('Entering Zone View');
-        this.drawBase();
+        this.startRendering(); // Start the new view's animation
     }
 
     onExit() {
-        console.log('Exiting Zone View');
+        console.log('Exiting this Zone View');
         this.clearCanvas();
         this.highlightedZone = null;
     }
@@ -107,8 +106,4 @@ export class ZoneView extends View {
         // Optionally, handle logic for when panning ends
     }
 
-    clearCanvas() {
-        this.baseCtx.clearRect(0, 0, this.baseCanvas.width, this.baseCanvas.height);
-        this.overlayCtx.clearRect(0, 0, this.overlayCanvas.width, this.overlayCanvas.height);
-    }
 }

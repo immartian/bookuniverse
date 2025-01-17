@@ -6,6 +6,8 @@ export class View {
         this.overlayCanvas = overlayCanvas;
         this.baseCtx = baseCanvas.getContext('2d');
         this.overlayCtx = overlayCanvas.getContext('2d');
+    
+        this.animationFrameId = null; // To track the requestAnimationFrame ID
     }
 
     onEnter(options = {}) {
@@ -13,7 +15,9 @@ export class View {
     }
 
     onExit() {
-        console.log(`${this.name} view exited`);
+        console.log(`highlevel: Exiting ${this.name} View`);
+        this.stopRendering(); 
+        this.clearCanvas();
     }
 
     drawBase() {
@@ -58,5 +62,28 @@ export class View {
         // Add text marker
         const textWidth = ctx.measureText(text).width;
         ctx.fillText(text, x + (length - textWidth) / 2, y - 8);
+    }
+
+    clearCanvas() {
+        this.baseCtx.clearRect(0, 0, this.baseCanvas.width, this.baseCanvas.height);
+        this.overlayCtx.clearRect(0, 0, this.overlayCanvas.width, this.overlayCanvas.height);
+    }
+
+    startRendering() {
+        if (!this.animationFrameId) {
+            const render = () => {
+                this.drawBase();
+                this.drawOverlay();
+                this.animationFrameId = requestAnimationFrame(render); // Save the ID
+            };
+            render();
+        }
+    }
+
+    stopRendering() {
+        if (this.animationFrameId) {
+            cancelAnimationFrame(this.animationFrameId); // Cancel the animation frame
+            this.animationFrameId = null; // Clear the ID
+        }
     }
 }

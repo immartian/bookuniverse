@@ -4,10 +4,14 @@ export class GlobalView extends View {
         super('Global', baseCanvas, overlayCanvas);
         this.tooltip = tooltip;
         this.image = new Image();
-        this.image.src = 'images/global_view.png'; // Replace with the actual path to your image
+        this.image.src = 'images/global_view.png'; 
         this.image.onload = () => {
             this.drawBase();
         };
+    }
+    onEnter() {
+        console.log('Entering Global View');
+        this.startRendering(); // Start the new view's animation
     }
 
     drawBase() {
@@ -20,11 +24,11 @@ export class GlobalView extends View {
         const ctx = this.overlayCtx;
         ctx.clearRect(0, 0, this.overlayCanvas.width, this.overlayCanvas.height);
 
-        this.drawTitle(ctx, 'All Books(32,022,03)');
+        this.drawTitle(ctx, 'All Books(32,022,039)');
         this.drawMapScale(ctx, 10, this.overlayCanvas.height-20, 100, "5000 📚")
 
     }
-
+ 
     handleHover({ x, y }) {
         const region = this.getRegionFromCoordinates(x, y);
         if (region) {
