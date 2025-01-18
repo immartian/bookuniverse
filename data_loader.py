@@ -23,7 +23,7 @@ def decompress_data(input_filename):
         with decompressor.stream_reader(zst_file) as stream:
             return stream.read()
 
-def load_bitmap_manager(input_filename, start_isbn):
+def load_bitmap_manager(input_filename, start_isbn, dataset=b"gbooks"):
     decompressed_data = decompress_data(input_filename)
     isbn_data = bencodepy.decode(decompressed_data)
     ## [b'cadal_ssno', b'cerlalc', b'duxiu_ssid', b'edsebk', b'gbooks', b'goodreads', b'ia', b'isbndb', b'isbngrp', b'libby', b'md5', b'nexusstc', b'nexusstc_download', b'oclc', b'ol', b'rgb', b'trantor']
@@ -31,7 +31,7 @@ def load_bitmap_manager(input_filename, start_isbn):
     # packed_isbns_binary = isbn_data[b'cerlalc']
     # packed_isbns_binary = isbn_data[b'duxiu_ssid']
     # packed_isbns_binary = isbn_data[b'edsebk']
-    packed_isbns_binary = isbn_data[b'gbooks']
+    packed_isbns_binary = isbn_data[dataset]
     # packed_isbns_binary = isbn_data[b'goodreads']
     # packed_isbns_binary = isbn_data[b'ia']
     # packed_isbns_binary = isbn_data[b'isbndb']
@@ -46,6 +46,8 @@ def load_bitmap_manager(input_filename, start_isbn):
     # packed_isbns_binary = isbn_data[b'trantor']
     from bitmap_manager import BitmapManager
     return BitmapManager(packed_isbns_binary, start_isbn)
+
+
 
 if __name__ == "__main__":
     url = "https://software.annas-archive.li/AnnaArchivist/annas-archive/-/raw/main/isbn_images/aa_isbn13_codes_20241204T185335Z.benc.zst?inline=false"

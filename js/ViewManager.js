@@ -73,4 +73,10 @@ export class ViewManager {
         }
     }
 
+    handleDoubleClick(data) {
+        if (this.currentView && this.currentView.handleDoubleClick) {
+            this.currentView.handleDoubleClick(data);
+        }
+    }
+
 }

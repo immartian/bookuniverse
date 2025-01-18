@@ -63,5 +63,8 @@ export class InputManager {
                 this.callback('panEnd');
             }
         });
+        this.canvas.addEventListener('dblclick', (event) => {
+            this.callback('doubleClick', { delta: 10, x: event.offsetX, y: event.offsetY });
+        });
     }
 }

@@ -6,6 +6,7 @@ import numpy as np
 class BitmapManager:
     def __init__(self, packed_isbns_binary, start_isbn=978000000000):
         # Decode the binary data into integers
+        self.packed_isbns_binary = packed_isbns_binary
         self.packed_isbns_ints = struct.unpack(f'{len(packed_isbns_binary) // 4}I', packed_isbns_binary)
         self.start_isbn = start_isbn
 

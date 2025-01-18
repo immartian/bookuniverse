@@ -31,6 +31,9 @@ const inputManager = new InputManager(baseCanvas, (gesture, data) => {
         case 'panEnd':
             viewManager.handlePanEnd(data);
             break;
+        case 'doubleClick':
+            viewManager.handleDoubleClick(data);
+            break;
     }
 });
 // Register tooltip

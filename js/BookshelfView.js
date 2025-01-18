@@ -1,4 +1,5 @@
 import { View } from './View.js';
+import { ISBN } from './ISBN.js';
 
 export class BookshelfView extends View {
     constructor(baseCanvas, overlayCanvas, gridWidth, gridHeight) {
@@ -18,7 +19,7 @@ export class BookshelfView extends View {
 
     onEnter() {
         console.log('Lowlevel: Entering Bookshelf View');
-        this.drawBase();
+        // this.drawBase();
         this.drawOverlay();
 
     }
@@ -55,12 +56,12 @@ export class BookshelfView extends View {
         const ctx = this.overlayCtx;
         ctx.clearRect(0, 0, this.overlayCanvas.width, this.overlayCanvas.height);
         // draw a black background first
-        ctx.fillStyle = 'black';
-        ctx.fillRect(0, 0, this.overlayCanvas.width, this.overlayCanvas.height);
+        // ctx.fillStyle = 'black';
+        // ctx.fillRect(0, 0, this.overlayCanvas.width, this.overlayCanvas.height);
         // draw a centeralized text
-        ctx.fillStyle = 'white';
-        ctx.font = '20px Arial';
-        ctx.fillText('Bookshelf View', this.overlayCanvas.width / 2, this.overlayCanvas.height / 2);
+        // ctx.fillStyle = 'white';
+        // ctx.font = '20px Arial';
+        // ctx.fillText('Bookshelf View', this.overlayCanvas.width / 2, this.overlayCanvas.height / 2);
 
         // Draw book covers on the overlay canvas
         for (let row = 0; row < this.gridHeight; row++) {
@@ -75,7 +76,7 @@ export class BookshelfView extends View {
 
                 const tileIndex = this.offsetY*50000 + this.offsetX + row*this.gridWidth + col;
                 const isbn12 = this.baseISBN + tileIndex;
-                const isbn13 = this.addChecksum(isbn12.toString());
+                const isbn13 = ISBN.addChecksum(isbn12.toString());
                 // const imageUrl = this.getBookCoverUrl(isbn13);
                 const part1 = isbn13.slice(-4, -2);
                 const part2 = isbn13.slice(-2);
@@ -109,17 +110,23 @@ export class BookshelfView extends View {
         this.offsetY = Math.max(0, this.offsetY + data.deltaY);
 
         // Redraw both base and overlay canvases
-        this.drawBase();
         this.drawOverlay();
     }
 
-    addChecksum(isbn12) {
-        let sum = 0;
-        for (let i = 0; i < isbn12.length; i++) {
-            const digit = parseInt(isbn12[i], 10);
-            sum += i % 2 === 0 ? digit : digit * 3;
-        }
-        const checksum = (10 - (sum % 10)) % 10;
-        return isbn12 + checksum;
+
+
+    handleDoubleClick(data) {
+        console.log('Double click at:', data.x, data.y);
+        const col = Math.floor(data.x / this.cellWidth);
+        const row = Math.floor(data.y / this.cellHeight);
+
+        //get the ISBN number
+        const tileIndex = this.offsetY*50000 + this.offsetX + row*this.gridWidth + col;
+        const isbn12 = this.baseISBN + tileIndex;
+        const isbn13 = ISBN.addChecksum(isbn12.toString());
+        // jump to Annas-archive
+
+        const searchUrl = `https://annas-archive.org/search?index=meta&q=${isbn13}`;
+        window.open(searchUrl, "_blank");
     }
 }

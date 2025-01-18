@@ -1,33 +1,30 @@
-import data_loader
-
+import data_loader as D
+from bitmap_manager import BitmapManager
 import numpy as np
 import os
-from PIL import Image, ImageDraw
+import PIL.Image
+import PIL.ImageChops
+import struct
 
-
-
-# let's create a several 1000x1000 clusters image from the bitmap data with given scale, numbers, and starting isbn
-CACHE_DIR = "static/tiles"  # Base directory for cached tiles
-TILE_SIZE =   10                                                                                                                                                                        # Each tile is 2500x2500 pixels
-ISBN_START = 978000000000  # Starting ISBN
-
-bitmap_manager = data_loader.load_bitmap_manager("aa_isbn13_codes_20241204T185335Z.benc.zst", 978000000000)
-
-print(f"Total dataset positions: {len(bitmap_manager.packed_isbns_ints)}")
 
 import numpy as np
 from PIL import Image
 import os
 
-def generate_aspect_ratio_tile(
-    bitmap_manager,
-    grid_width,
-    tile_width,
-    tile_height,
-    tile_x,
-    tile_y,
-    cache_dir="static/tiles"
-):
+# let's create a several 1000x1000 clusters image from the bitmap data with given scale, numbers, and starting isbn
+ISBN_START = 978000000000  # Starting ISBN
+
+decompressed_data = D.decompress_data("aa_isbn13_codes_20241204T185335Z.benc.zst")
+isbn_data = D.bencodepy.decode(decompressed_data)
+
+# print all data sets names
+print(isbn_data.keys())
+
+
+# print(f"Total dataset positions: {len(bitmap_manager.packed_isbns_ints)}")
+
+
+def generate_aspect_ratio_tile(dataset=b'gbooks', color = [255, 0, 0],  grid_width=50000, tile_width=1000, tile_height=800, tile_x=0, tile_y=0, cache_dir="static/tiles"):
     """
     Generate and save a single tile with mapped used ISBNs.
 
@@ -48,18 +45,19 @@ def generate_aspect_ratio_tile(
     start_col = tile_x * tile_width
     end_col = start_col + tile_width
 
-    print(f"Generating tile ({tile_x}, {tile_y})...")
-    print(f"Global range: Rows {start_row}-{end_row}, Cols {start_col}-{end_col}")
-
-    # Initialize the tile as a blank image
-    tile_data = np.zeros((tile_height, tile_width), dtype=np.uint8)
+    # Initialize the tile as a blank image, with RGB channels
+    # tile_data = np.zeros((tile_height, tile_width), dtype=np.uint8)
+    tile_data = np.zeros((tile_height, tile_width, 3), dtype=np.uint8)
 
     # Iterate through used ISBN positions
     position = 0
     isbn_streak = True
     data_points_added = 0
 
-    for value in bitmap_manager.packed_isbns_ints:
+    packed_isbns_binary = isbn_data[dataset]  # Use the 'gbooks' dataset
+    packed_isbns_ints = struct.unpack(f'{len(packed_isbns_binary) // 4}I', packed_isbns_binary)
+
+    for value in packed_isbns_ints:
         if isbn_streak:
             # Process streaks (used ISBNs)
             for _ in range(value):
@@ -70,7 +68,7 @@ def generate_aspect_ratio_tile(
                 if start_row <= global_row < end_row and start_col <= global_col < end_col:
                     local_row = global_row - start_row
                     local_col = global_col - start_col
-                    tile_data[local_row, local_col] = 255  # Mark the position as used
+                    tile_data[local_row, local_col] = color  # Mark existing ISBNs as red
                     data_points_added += 1
 
                 position += 1
@@ -83,7 +81,7 @@ def generate_aspect_ratio_tile(
     print(f"Data points added to tile ({tile_x}, {tile_y}): {data_points_added}")
 
     # Save the tile as an image
-    img = Image.fromarray(tile_data, mode="L")
+    img = Image.fromarray(tile_data, mode="RGB")
     tile_path = os.path.join(cache_dir, f"tile_{tile_x}_{tile_y}.png")
     img.save(tile_path)
     print(f"Tile ({tile_x}, {tile_y}) saved at: {tile_path}")
@@ -95,8 +93,91 @@ def generate_aspect_ratio_tile(
     }
 
 
+
+def generate_global_tile(tile_x=0, tile_y=0, tile_width=1000, tile_height=800, cache_dir="static/tiles"):
+    """
+    enumerate all datasets and generate one images overlayed each other, all in red color but leaving "md5" green to process at last
+    """
+    os.makedirs(cache_dir, exist_ok=True)
+    
+    tile_data = np.zeros((tile_height, tile_width, 3), dtype=np.uint8)
+
+    for prefix, packed_isbns_binary in isbn_data.items():
+        if prefix == b'md5':
+            continue
+        
+        start_row = tile_y * tile_height
+        end_row = start_row + tile_height
+        start_col = tile_x * tile_width
+        end_col = start_col + tile_width
+
+        packed_isbns_ints = struct.unpack(f'{len(packed_isbns_binary) // 4}I', packed_isbns_binary)
+        position = 0
+        isbn_streak = True
+        data_points_added = 0
+
+        for value in packed_isbns_ints:
+            if isbn_streak:
+                for _ in range(value):
+                    global_row = position // 50000
+                    global_col = position % 50000
+
+                    if start_row <= global_row < end_row and start_col <= global_col < end_col:
+                        local_row = global_row - start_row
+                        local_col = global_col - start_col
+                        tile_data[local_row, local_col] = [255, 0, 0]
+                        data_points_added += 1
+
+                    position += 1
+            else:
+                position += value
+
+            isbn_streak = not isbn_streak
+
+        print(f"All data points except md5 added to tile ({tile_x}, {tile_y}): {data_points_added}")
+
+    # now it's time to deal with md5 with same logic
+    prefix = b'md5'
+    packed_isbns_binary = isbn_data[prefix]
+    start_row = tile_y * tile_height
+    end_row = start_row + tile_height
+    start_col = tile_x * tile_width
+    end_col = start_col + tile_width
+
+    packed_isbns_ints = struct.unpack(f'{len(packed_isbns_binary) // 4}I', packed_isbns_binary)
+    position = 0
+    isbn_streak = True
+    data_points_added = 0
+
+    for value in packed_isbns_ints:
+        if isbn_streak:
+            for _ in range(value):
+                global_row = position // 50000
+                global_col = position % 50000
+
+                if start_row <= global_row < end_row and start_col <= global_col < end_col:
+                    local_row = global_row - start_row
+                    local_col = global_col - start_col
+                    tile_data[local_row, local_col] = [0, 255, 0]
+                    data_points_added += 1
+
+                position += 1
+        else:
+            position += value
+
+        isbn_streak = not isbn_streak
+
+    print(f"Data points of md5 added to tile ({tile_x}, {tile_y}): {data_points_added}")
+
+    # Save the tile as an image
+    img = Image.fromarray(tile_data, mode="RGB")
+    tile_path = os.path.join("test_tiles", f"tile_{tile_x}_{tile_y}.png")
+    img.save(tile_path)
+    print(f"Tile ({tile_x}, {tile_y}) saved at: {tile_path}")
+
+
 # Generate multiple tiles
-def generate_multiple_tiles(bitmap_manager, grid_width, grid_height, tile_size, num_tiles_x, num_tiles_y, cache_dir="static/tiles"):
+def generate_multiple_tiles(num_tiles_x, num_tiles_y, cache_dir="test_tiles"):
     """
     Generate and save multiple tiles.
 
@@ -111,24 +192,26 @@ def generate_multiple_tiles(bitmap_manager, grid_width, grid_height, tile_size, 
     """
     for tile_y in range(num_tiles_y):
         for tile_x in range(num_tiles_x):
-            generate_aspect_ratio_tile(
-                bitmap_manager=bitmap_manager,
-                grid_width=grid_width,
-                tile_width=tile_size,
-                tile_height=int(tile_size * (grid_height / grid_width)),
-                tile_x=tile_x,
-                tile_y=tile_y,
-                cache_dir=cache_dir
-            )
+            generate_global_tile(tile_x, tile_y, 1000, 800, cache_dir)
 
-# Example Usage
-generate_multiple_tiles(
-    bitmap_manager=bitmap_manager,
-    grid_width=50000,
-    grid_height=40000,
-    tile_size=1000,
-    num_tiles_x=50,
-    num_tiles_y=50,
-    cache_dir="static/tiles"
-)
+# generate one tile
 
+
+# generate_aspect_ratio_tile(
+#     dataset=b'gbooks',
+#     color=[0, 255, 0],
+#     grid_width=50000,
+#     tile_width=1000,
+#     tile_height=800,
+#     tile_x=0,
+#     tile_y=0,
+#     cache_dir="test_tiles"
+# )
+
+
+
+# Genearte a single global tile
+#generate_global_tile(tile_x=0, tile_y=0, tile_width=1000, tile_height=800)
+
+# Generate multiple tiles
+generate_multiple_tiles(50, 50, "tiles")

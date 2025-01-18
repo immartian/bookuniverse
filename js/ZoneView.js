@@ -61,7 +61,7 @@ export class ZoneView extends View {
             ctx.font = '16px Arial';
             ctx.fillText(country, 50, clampedStartRow + 20);
         }
-        this.drawTitle(ctx, 'Books in view (233,002)');
+        //this.drawTitle(ctx, 'Books in view (233,002)');
         this.drawMapScale(ctx, 10, this.overlayCanvas.height-20, 100, "1000 📚")
     }
 

@@ -25,7 +25,7 @@ export class SocietalView extends View {
         const ctx = this.overlayCtx;
         ctx.clearRect(0, 0, this.overlayCanvas.width, this.overlayCanvas.height);
 
-        this.drawTitle(ctx, 'Societal View');
+        //this.drawTitle(ctx, 'Societal View');
         this.drawMapScale(ctx, 10, this.overlayCanvas.height - 20, 100, '100 📚');
     }
 
@@ -38,7 +38,7 @@ export class SocietalView extends View {
         this.offsetX = Math.max(
             0,
             Math.min(
-                this.offsetX + data.deltaX,
+                this.offsetX - data.deltaX,
                 this.tileManager.tileMetadata.gridWidth * this.tileManager.tileMetadata.tileWidth - this.baseCanvas.width
             )
         );
@@ -46,7 +46,7 @@ export class SocietalView extends View {
         this.offsetY = Math.max(
             0,
             Math.min(
-                this.offsetY + data.deltaY,
+                this.offsetY - data.deltaY,
                 this.tileManager.tileMetadata.gridHeight * this.tileManager.tileMetadata.tileHeight - this.baseCanvas.height
             )
         );
