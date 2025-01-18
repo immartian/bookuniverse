@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 
 from bitmap_manager import BitmapManager
-import data_loader
+import tools.data_loader as data_loader
 import json
 
 

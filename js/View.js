@@ -1,6 +1,8 @@
+import { ISBN } from "./ISBN.js";
 export class View {
     constructor(name, baseCanvas, overlayCanvas, scale) {
         this.name = name;
+        this.ISBN = new ISBN();
         this.scale = scale; 
         this.baseCanvas = baseCanvas;
         this.overlayCanvas = overlayCanvas;
@@ -34,7 +36,39 @@ export class View {
         ctx.fontWeight = 'bold';
         ctx.fillText(text, x, y);
     }
-    drawMapScale(ctx, x, y, length, text) {
+
+    draw_map_thumbnail(ctx, x=null, y = null, width= null, height=null) {
+        // draw a 100x80 black rectangle with half-transparency, and put and generally at the top right corner
+        if (x === null)
+            x = this.overlayCanvas.width - 110;
+        if (y === null)
+            y = 10;
+        if (width === null)
+            width = 100;
+        if (height === null)
+            height = 80;
+        ctx.fillStyle = 'lightgray';
+        ctx.globalAlpha = 0.5;
+        ctx.fillRect(x, y, width, height);
+        
+        ctx.globalAlpha = 1;
+
+    }
+
+    drawMapScale(ctx, text, x=null, y=null, length=100) {
+        // default set to left bottom corner
+        if (x === null)
+            x = 20;
+        if (y === null)
+            y = this.overlayCanvas.height - 20;
+
+
+        // draw a background with half-transparency
+        ctx.fillStyle = 'black';
+        ctx.globalAlpha = 0.8;
+        ctx.fillRect(x-5, y - 20, length+10, 20);
+        ctx.globalAlpha = 1;
+        
         // Set up basic styling
         ctx.strokeStyle = 'lightgray';
         ctx.fillStyle = 'lightgray';
@@ -65,6 +99,8 @@ export class View {
     }
 
     clearCanvas() {
+        this.baseCtx.setTransform(1, 0, 0, 1, 0, 0); // reset transformation
+        this.baseCtx.scale(1, 1);  // reset scale
         this.baseCtx.clearRect(0, 0, this.baseCanvas.width, this.baseCanvas.height);
         this.overlayCtx.clearRect(0, 0, this.overlayCanvas.width, this.overlayCanvas.height);
     }

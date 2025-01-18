@@ -25,8 +25,8 @@ export class SocietalView extends View {
         const ctx = this.overlayCtx;
         ctx.clearRect(0, 0, this.overlayCanvas.width, this.overlayCanvas.height);
 
-        //this.drawTitle(ctx, 'Societal View');
-        this.drawMapScale(ctx, 10, this.overlayCanvas.height - 20, 100, '100 📚');
+        this.draw_map_thumbnail(ctx);
+        this.drawMapScale(ctx, '100 📚');
     }
 
     handlePanStart(data) {

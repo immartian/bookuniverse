@@ -24,9 +24,13 @@ export class ViewManager {
     handleZoom(data) {
         if (data.delta < 0) {
             if (this.currentView?.name === 'Global') {
-            console.log('Switching to Zone View');
-            this.switchView('Zone');
-            } else if (this.currentView?.name === 'Zone') {
+            console.log('Zooming from Global to Zone');
+            this.currentView.zoom(data, 2);
+            if (this.currentView.scale >= 5) {
+                this.currentView.scale = 1;
+                this.switchView('Zone');
+            }
+        } else if (this.currentView?.name === 'Zone') {
             console.log('Switching to Societal View');
             this.switchView('Societal');
             } else if (this.currentView?.name === 'Societal') {

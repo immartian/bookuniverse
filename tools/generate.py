@@ -134,7 +134,7 @@ def generate_global_tile(tile_x=0, tile_y=0, tile_width=1000, tile_height=800, c
 
             isbn_streak = not isbn_streak
 
-        print(f"All data points except md5 added to tile ({tile_x}, {tile_y}): {data_points_added}")
+        print(f"{prefix} added to tile ({tile_x}, {tile_y}): {data_points_added}")
 
     # now it's time to deal with md5 with same logic
     prefix = b'md5'
@@ -171,7 +171,7 @@ def generate_global_tile(tile_x=0, tile_y=0, tile_width=1000, tile_height=800, c
 
     # Save the tile as an image
     img = Image.fromarray(tile_data, mode="RGB")
-    tile_path = os.path.join("test_tiles", f"tile_{tile_x}_{tile_y}.png")
+    tile_path = os.path.join(cache_dir, f"tile_{tile_x}_{tile_y}.png")
     img.save(tile_path)
     print(f"Tile ({tile_x}, {tile_y}) saved at: {tile_path}")
 
@@ -214,4 +214,15 @@ def generate_multiple_tiles(num_tiles_x, num_tiles_y, cache_dir="test_tiles"):
 #generate_global_tile(tile_x=0, tile_y=0, tile_width=1000, tile_height=800)
 
 # Generate multiple tiles
-generate_multiple_tiles(50, 50, "tiles")
+#generate_multiple_tiles(50, 50, "./tiles")
+
+# generate_global_tile(18, 18, 1000, 800)
+# generating multile tiles start from (18, 18) to (49, 49) 
+
+# for i in range(19, 50):
+#     generate_global_tile(i, 18, 1000, 800, "tiles")
+
+# # the rest from 19 to 49 
+for i in range(0, 50):
+    for j in range(19, 50):
+        generate_global_tile(i, j, 1000, 800, "../tiles")

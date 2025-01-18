@@ -4,6 +4,7 @@ import PIL.ImageChops
 import struct
 import tqdm
 import zstandard
+import os
 
 # Get the latest from the `codes_benc` directory in `aa_derived_mirror_metadata`:
 # https://annas-archive.org/torrents#aa_derived_mirror_metadata
@@ -52,6 +53,7 @@ def generate_global_view(grid_width, grid_height, scale):
 
 
 def tiles(image, tile_width, tile_height, cache_dir="static/tiles"):
+    # not so efficient for some reason
     os.makedirs(cache_dir, exist_ok=True)
     for tile_x in range(0, image.width // tile_width):
         for tile_y in range(0, image.height // tile_height):
@@ -65,4 +67,9 @@ def tiles(image, tile_width, tile_height, cache_dir="static/tiles"):
                     tile_data.putpixel((x - start_col, y - start_row), image.getpixel((x, y)))
             tile_data.save(f"{cache_dir}/tile_{tile_x}_{tile_y}.png")
 
-generate_global_view(50000, 40000, 10)
+
+# generate_global_view(50000, 40000, 50)      # 1: 50
+generate_global_view(50000, 40000, 25)    # 1: 25
+# generate_global_view(50000, 40000, 10)    # 1: 10
+
+# other resolution leave for another tool to generate
