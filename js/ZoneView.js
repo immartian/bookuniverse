@@ -6,12 +6,13 @@ export class ZoneView extends View {
         this.imageData = new Image(); // Pre-rendered image for the zone view
         this.offsetX = 0;
         this.offsetY = 0;
+        this.scale = 10;
         this.highlightedZone = null;
         
         this.isbnPerPixel = 100;
         this.imageWidth = 5000;
-
-        this.imageData.src = './all_isbns_smaller10x.png';
+        this.zoom = 1;
+        this.imageData.src = './images/all_isbns_1_10.png';
         this.imageData.onload = () => {
             this.drawBase(); // Draw the image once it is loaded
         };
@@ -68,10 +69,10 @@ export class ZoneView extends View {
             ctx.fillStyle = 'white';
             ctx.font = '16px Arial';
  
-            ctx.fillText(country, this.overlayCanvas.width / 2, (clampedStartRow + clampedEndRow) / 2);
             
+            ctx.fillText(country, this.overlayCanvas.width / 2, (clampedStartRow + clampedEndRow) / 2);
         }
-        this.draw_map_thumbnail(ctx);
+        this.draw_map_thumbnail(ctx, this.scale, this.offsetX, this.offsetY);
         this.drawMapScale(ctx, "1000 📚")
     }
 

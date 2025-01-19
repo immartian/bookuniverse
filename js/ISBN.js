@@ -277,7 +277,6 @@ export class ISBN {
     }
 
     calculateISBN(isbnIndex) {
-        console.log(this.baseISBN + isbnIndex);
         return this.baseISBN + isbnIndex;
     }
 

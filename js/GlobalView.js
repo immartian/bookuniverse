@@ -4,7 +4,7 @@ export class GlobalView extends View {
         super('Global', baseCanvas, overlayCanvas);
         this.tooltip = tooltip;
         this.image = new Image();
-        this.scale = 1;
+        this.zoom = 1;
         this.image.src = 'images/global_view.png'; 
         this.image.onload = () => {
             this.drawBase();
@@ -31,37 +31,6 @@ export class GlobalView extends View {
 
     }
 
-    zoom(data, ZOOM_FACTOR = 1) {
-        const ctx = this.baseCtx;
-        // setTranform effect from current mouse position 
-        let offsetX = 0; // Translation offset in X
-        let offsetY = 0; // Translation offset in Y
-
-        // Update scale level
-        this.scale += ZOOM_FACTOR;
-        // Update translation
-        const x = data.x;
-        const y = data.y;
-
-        offsetX = (offsetX - x) * (ZOOM_FACTOR - 1);
-        offsetY = (offsetY - y) * (ZOOM_FACTOR - 1);
-        
-        // Apply the transformation
-        console.log('mockup zooming in', this.scale, offsetX, offsetY);
-        ctx.scale(this.scale, this.scale);
-        ctx.translate(offsetX, offsetY);
-
-        // console.log('Zooming in', this.scale, offsetX, offsetY);    
-        // // Apply transformations
-        // ctx.setTransform(this.scale, 0, 0, this.scale, offsetX, offsetY);
-
-        // // Redraw the image
-        // ctx.drawImage(this.image, 0, 0, mainCanvas.width, mainCanvas.height);
-
-        // // Reset transformations for next operations
-        // ctx.setTransform(1, 0, 0, 1, 0, 0);
-
-    }
  
     handleHover({ x, y }) {
         const region = this.getRegionFromCoordinates(x, y);

@@ -8,6 +8,8 @@ export class SocietalView extends View {
         this.tileManager = new TileManager(tileMetadata);
         this.offsetX = 0;
         this.offsetY = 0;
+        this.scale = 1
+        this.rare = []; 
     }
  
     async onEnter() {
@@ -25,8 +27,22 @@ export class SocietalView extends View {
         const ctx = this.overlayCtx;
         ctx.clearRect(0, 0, this.overlayCanvas.width, this.overlayCanvas.height);
 
-        this.draw_map_thumbnail(ctx);
+        this.draw_map_thumbnail(ctx, this.scale, this.offsetX, this.offsetY);
         this.drawMapScale(ctx, '100 📚');
+
+        // draw some random star emojis to illustarte rare books
+        this.rare = [];
+        for (let i = 0; i < 5; i++) {
+            const x = Math.random() * this.overlayCanvas.width;
+            const y = Math.random() * this.overlayCanvas.height;
+            this.rare.push([x, y]);
+        }
+        for (const [x, y] of this.rare) {
+            ctx.font = '20px Arial';
+            ctx.fillText('⭐', x, y);
+        }
+
+        
     }
 
     handlePanStart(data) {

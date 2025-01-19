@@ -219,10 +219,15 @@ def generate_multiple_tiles(num_tiles_x, num_tiles_y, cache_dir="test_tiles"):
 # generate_global_tile(18, 18, 1000, 800)
 # generating multile tiles start from (18, 18) to (49, 49) 
 
-# for i in range(19, 50):
-#     generate_global_tile(i, 18, 1000, 800, "tiles")
+# for y in range(45, 50):
+#     generate_global_tile(13, y, 1000, 800, "tiles")
 
-# # the rest from 19 to 49 
-for i in range(0, 50):
-    for j in range(19, 50):
+# # the rest from 19 to 49
+path = "../tiles" 
+for i in range(1, 50):
+    for j in range(1, 50):
+        # if file exist already, skip 
+        if os.path.exists(f"{path}/tile_{i}_{j}.png"):
+            print(f"tile_{i}_{j}.png already exists, skipping...")
+            continue
         generate_global_tile(i, j, 1000, 800, "../tiles")

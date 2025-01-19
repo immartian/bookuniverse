@@ -4,6 +4,7 @@ export class View {
         this.name = name;
         this.ISBN = new ISBN();
         this.scale = scale; 
+        this.zoom = 1; 
         this.baseCanvas = baseCanvas;
         this.overlayCanvas = overlayCanvas;
         this.baseCtx = baseCanvas.getContext('2d');
@@ -37,20 +38,23 @@ export class View {
         ctx.fillText(text, x, y);
     }
 
-    draw_map_thumbnail(ctx, x=null, y = null, width= null, height=null) {
+    draw_map_thumbnail(ctx, scale, offsetX, offsetY) {
         // draw a 100x80 black rectangle with half-transparency, and put and generally at the top right corner
-        if (x === null)
-            x = this.overlayCanvas.width - 110;
-        if (y === null)
-            y = 10;
-        if (width === null)
-            width = 100;
-        if (height === null)
-            height = 80;
+        let x = this.overlayCanvas.width - 110;
+        let y = 10;
+        const width = 100;
+        const height = 80;
         ctx.fillStyle = 'lightgray';
         ctx.globalAlpha = 0.5;
         ctx.fillRect(x, y, width, height);
-        
+
+        // draw a 2x2 yellow rectangle at the position relative to the total map (50000x40000) based on the offsets to this thumbnail box
+        ctx.fillStyle = 'yellow';
+        ctx.globalAlpha = 1;
+        x = Math.floor(offsetX / 50000 * width *scale) + this.overlayCanvas.width - 110;
+        y = Math.floor(offsetY / 40000 * height*scale) + 10;
+        ctx.fillRect(x, y, 2*scale, 2*Math.round(0.75*scale));
+
         ctx.globalAlpha = 1;
 
     }
@@ -121,5 +125,39 @@ export class View {
             cancelAnimationFrame(this.animationFrameId); // Cancel the animation frame
             this.animationFrameId = null; // Clear the ID
         }
+    }
+
+
+    zoom_effect(data, ZOOM_FACTOR = 1) {
+        this.zoom += ZOOM_FACTOR;
+        return 
+        const ctx = this.baseCtx;
+        // setTranform effect from current mouse position 
+        let offsetX = 0; // Translation offset in X
+        let offsetY = 0; // Translation offset in Y
+
+        // Update scale level
+        // Update translation
+        const x = data.x;
+        const y = data.y;
+
+        offsetX = (offsetX - x) * (ZOOM_FACTOR - 1);
+        offsetY = (offsetY - y) * (ZOOM_FACTOR - 1);
+        
+        // Apply the transformation
+        console.log('mockup zooming in', this.zoom, offsetX, offsetY);
+        ctx.scale(this.zoom_effect, this.zoom);
+        ctx.translate(offsetX, offsetY);
+
+        // console.log('Zooming in', this.scale, offsetX, offsetY);    
+        // // Apply transformations
+        // ctx.setTransform(this.scale, 0, 0, this.scale, offsetX, offsetY);
+
+        // // Redraw the image
+        // ctx.drawImage(this.image, 0, 0, mainCanvas.width, mainCanvas.height);
+
+        // // Reset transformations for next operations
+        // ctx.setTransform(1, 0, 0, 1, 0, 0);
+
     }
 }

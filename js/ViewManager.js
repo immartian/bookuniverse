@@ -25,9 +25,9 @@ export class ViewManager {
         if (data.delta < 0) {
             if (this.currentView?.name === 'Global') {
             console.log('Zooming from Global to Zone');
-            this.currentView.zoom(data, 2);
-            if (this.currentView.scale >= 5) {
-                this.currentView.scale = 1;
+            this.currentView.zoom_effect(data, 2);
+            if (this.currentView.zoom >= 5) {
+                this.currentView.zoom = 1;
                 this.switchView('Zone');
             }
         } else if (this.currentView?.name === 'Zone') {
