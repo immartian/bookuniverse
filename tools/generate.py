@@ -21,6 +21,24 @@ isbn_data = D.bencodepy.decode(decompressed_data)
 print(isbn_data.keys())
 
 
+def calculate_titles():
+    # read all the data set and put into a json file to indicate how many books are in each dataset, e.g. {"gbooks": 123456, "worldcat": 123456}
+    all_books = {}
+    for prefix, packed_isbns_binary in isbn_data.items():
+        packed_isbns_ints = struct.unpack(f'{len(packed_isbns_binary) // 4}I', packed_isbns_binary)
+        position = 0
+        isbn_streak = True
+        data_points_added = 0
+        for value in packed_isbns_ints:
+            if isbn_streak:
+                for _ in range(value):
+                    position += 1
+            else:
+                position += value
+            isbn_streak = not isbn_streak
+        all_books[prefix.decode()] = position
+        print(f"{prefix.decode()} has {position} books")
+    return all_books
 # print(f"Total dataset positions: {len(bitmap_manager.packed_isbns_ints)}")
 
 

@@ -1,0 +1,98 @@
+[
+  {
+    "prefix": "all",
+    "name": "All books",
+    "color": "rgb(128,0,0)",
+    "count": 232723474
+  },
+  {
+    "prefix": "md5",
+    "name": "Anna's Archive",
+    "color": "green",
+    "count": 37720393
+  },
+  {
+    "prefix": "cadal_ssno",
+    "name": "CADAL",
+    "color": "blue",
+    "count": 23343433
+  },
+  {
+    "prefix": "cerlalc",
+    "name": "CERLALC",
+    "color": "yellow",
+    "count": 1523433
+  },
+  {
+    "prefix": "duxiu_ssid",
+    "name": "DuXiu",
+    "color": "purple",
+    "count": 2912343
+  },
+  {
+    "prefix": "edsebk",
+    "name": "EBSCOhost",
+    "color": "orange",
+    "count": 3134343
+  },
+  {
+    "prefix": "gbooks",
+    "name": "Google Books",
+    "color": "pink",
+    "count": 45234343
+  },
+  {
+    "prefix": "goodreads",
+    "name": "Goodreads",
+    "color": "brown",
+    "count": 18234433
+  },
+  {
+    "prefix": "ia",
+    "name": "Internet Archive",
+    "color": "cyan",
+    "count": 272343
+  },
+  {
+    "prefix": "isbngrp",
+    "name": "ISBN Global Register",
+    "color": "magenta",
+    "count": 22234324
+  },
+  {
+    "prefix": "libby",
+    "name": "Libby",
+    "color": "indigo",
+    "count": 342342343
+  },
+  {
+    "prefix": "nexusstc",
+    "name": "Nexus/STC",
+    "color": "teal",
+    "count": 1923434
+  },
+  {
+    "prefix": "oclc",
+    "name": "OCLC/Worldcat",
+    "color": "navy",
+    "count": 282343
+  },
+  {
+    "prefix": "ol",
+    "name": "OpenLibrary",
+    "color": "maroon",
+    "count": 332343
+  },
+  {
+    "prefix": "rgb",
+    "name": "Russian State Library",
+    "color": "olive",
+    "count": 212343
+  },
+  {
+    "prefix": "trantor",
+    "name": "Imperial Library of Trantor",
+    "color": "silver",
+    "count": 2623433
+  }
+]

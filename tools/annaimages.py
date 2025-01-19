@@ -52,20 +52,22 @@ def generate_global_view(grid_width, grid_height, scale):
     print("done")
 
 
-def tiles(image, tile_width, tile_height, cache_dir="static/tiles"):
-    # not so efficient for some reason
-    os.makedirs(cache_dir, exist_ok=True)
-    for tile_x in range(0, image.width // tile_width):
-        for tile_y in range(0, image.height // tile_height):
-            start_row = tile_y * tile_height
-            end_row = start_row + tile_height
-            start_col = tile_x * tile_width
-            end_col = start_col + tile_width
-            tile_data = PIL.Image.new("RGB", (tile_width, tile_height), 0)
-            for x in range(start_col, end_col):
-                for y in range(start_row, end_row):
-                    tile_data.putpixel((x - start_col, y - start_row), image.getpixel((x, y)))
-            tile_data.save(f"{cache_dir}/tile_{tile_x}_{tile_y}.png")
+# def tiles(image, tile_width, tile_height, cache_dir="static/tiles"):
+#     # not so efficient for some reason
+#     os.makedirs(cache_dir, exist_ok=True)
+#     for tile_x in range(0, image.width // tile_width):
+#         for tile_y in range(0, image.height // tile_height):
+#             start_row = tile_y * tile_height
+#             end_row = start_row + tile_height
+#             start_col = tile_x * tile_width
+#             end_col = start_col + tile_width
+#             tile_data = PIL.Image.new("RGB", (tile_width, tile_height), 0)
+#             for x in range(start_col, end_col):
+#                 for y in range(start_row, end_row):
+#                     tile_data.putpixel((x - start_col, y - start_row), image.getpixel((x, y)))
+#             tile_data.save(f"{cache_dir}/tile_{tile_x}_{tile_y}.png")
+
+
 
 
 # generate_global_view(50000, 40000, 50)      # 1: 50

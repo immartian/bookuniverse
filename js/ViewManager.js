@@ -30,18 +30,20 @@ export class ViewManager {
                 this.currentView.zoom = 1;
                 this.switchView('Zone');
             }
-        } else if (this.currentView?.name === 'Zone') {
+            } else if (this.currentView?.name === 'Zone') {
             console.log('Switching to Societal View');
             this.switchView('Societal');
-            } else if (this.currentView?.name === 'Societal') {
-            console.log('Switching to Bookshelf View');
-            this.switchView('Bookshelf');
-            }
+            } 
+            // else if (this.currentView?.name === 'Societal') {
+            // console.log('Switching to Bookshelf View');
+            // this.switchView('Bookshelf');
+            // }
         } else if (data.delta > 0) {
-            if (this.currentView?.name === 'Bookshelf') {
-            console.log('Switching to Societal View');
-            this.switchView('Societal');
-            } else if (this.currentView?.name === 'Societal') {
+            // if (this.currentView?.name === 'Bookshelf') {
+            // console.log('Switching to Societal View');
+            // this.switchView('Societal');
+            // } else 
+            if (this.currentView?.name === 'Societal') {
             console.log('Switching to Zone View');
             this.switchView('Zone');
             } else if (this.currentView?.name === 'Zone') {
@@ -57,6 +59,8 @@ export class ViewManager {
 
     handlePanStart(data) {
         if (this.currentView && this.currentView.handlePanStart) {
+            // change mouse cursor to grabbing
+            this.baseCanvas.style.cursor = 'grabbing';
             this.currentView.handlePanStart(data);
         }
     }
@@ -67,6 +71,8 @@ export class ViewManager {
     }
     handlePanEnd(data) {
         if (this.currentView && this.currentView.handlePanEnd) {
+            // change mouse cursor back to normal
+            this.baseCanvas.style.cursor = 'default';
             this.currentView.handlePanEnd(data);
         }
     }

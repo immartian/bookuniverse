@@ -44,8 +44,8 @@ export class View {
         let y = 10;
         const width = 100;
         const height = 80;
-        ctx.fillStyle = 'lightgray';
-        ctx.globalAlpha = 0.5;
+        ctx.fillStyle = 'gray';
+        ctx.globalAlpha = 0.7;
         ctx.fillRect(x, y, width, height);
 
         // draw a 2x2 yellow rectangle at the position relative to the total map (50000x40000) based on the offsets to this thumbnail box
@@ -53,7 +53,7 @@ export class View {
         ctx.globalAlpha = 1;
         x = Math.floor(offsetX / 50000 * width *scale) + this.overlayCanvas.width - 110;
         y = Math.floor(offsetY / 40000 * height*scale) + 10;
-        ctx.fillRect(x, y, 2*scale, 2*Math.round(0.75*scale));
+        ctx.fillRect(x, y, Math.max(4, 2*scale), Math.max(4, 2*Math.round(0.75*scale)));
 
         ctx.globalAlpha = 1;
 
