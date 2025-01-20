@@ -2,97 +2,83 @@
   {
     "prefix": "all",
     "name": "All books",
-    "color": "rgb(128,0,0)",
+    "color": "red",
     "count": 232723474
   },
   {
     "prefix": "md5",
     "name": "Anna's Archive",
     "color": "green",
-    "count": 37720393
+    "count": 13845075
   },
   {
     "prefix": "cadal_ssno",
     "name": "CADAL",
-    "color": "blue",
-    "count": 23343433
+    "count": 796805
   },
   {
     "prefix": "cerlalc",
     "name": "CERLALC",
-    "color": "yellow",
-    "count": 1523433
+    "count": 34521
   },
   {
     "prefix": "duxiu_ssid",
     "name": "DuXiu",
-    "color": "purple",
-    "count": 2912343
+    "count": 1801779
   },
   {
     "prefix": "edsebk",
     "name": "EBSCOhost",
-    "color": "orange",
-    "count": 3134343
+    "count": 3887719
   },
   {
     "prefix": "gbooks",
     "name": "Google Books",
-    "color": "pink",
-    "count": 45234343
+    "count": 44814789
   },
   {
     "prefix": "goodreads",
     "name": "Goodreads",
-    "color": "brown",
-    "count": 18234433
+    "count": 9901483
   },
   {
     "prefix": "ia",
     "name": "Internet Archive",
-    "color": "cyan",
-    "count": 272343
+    "count": 344801
   },
   {
     "prefix": "isbngrp",
     "name": "ISBN Global Register",
-    "color": "magenta",
-    "count": 22234324
+    "count": 63525
   },
   {
     "prefix": "libby",
     "name": "Libby",
-    "color": "indigo",
-    "count": 342342343
+    "count": 5088297
   },
   {
     "prefix": "nexusstc",
     "name": "Nexus/STC",
-    "color": "teal",
-    "count": 1923434
+    "count": 5106171
   },
   {
     "prefix": "oclc",
     "name": "OCLC/Worldcat",
-    "color": "navy",
-    "count": 282343
+    "count": 29445635
   },
   {
     "prefix": "ol",
     "name": "OpenLibrary",
-    "color": "maroon",
-    "count": 332343
+    "count": 26957973
   },
   {
     "prefix": "rgb",
     "name": "Russian State Library",
-    "color": "olive",
-    "count": 212343
+    "count": 1510857
   },
   {
     "prefix": "trantor",
     "name": "Imperial Library of Trantor",
-    "color": "silver",
-    "count": 2623433
+    "count": 382847
   }
 ]

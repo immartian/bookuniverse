@@ -5,6 +5,7 @@ import struct
 import tqdm
 import zstandard
 import os
+import json
 
 # Get the latest from the `codes_benc` directory in `aa_derived_mirror_metadata`:
 # https://annas-archive.org/torrents#aa_derived_mirror_metadata
@@ -51,27 +52,105 @@ def generate_global_view(grid_width, grid_height, scale):
 
     print("done")
 
+def generate_global_view_overlay(grid_width, grid_height, scale):
+    """
+      generating overlay images for each prefix over the whole image
+        also update the json file including all numbers of each prefix entry at "../all_books.json", 
+        e.g. { "prefix": "cerlalc", "name": "CERLALC", "count": 1523433}
+    """
 
-# def tiles(image, tile_width, tile_height, cache_dir="static/tiles"):
-#     # not so efficient for some reason
-#     os.makedirs(cache_dir, exist_ok=True)
-#     for tile_x in range(0, image.width // tile_width):
-#         for tile_y in range(0, image.height // tile_height):
-#             start_row = tile_y * tile_height
-#             end_row = start_row + tile_height
-#             start_col = tile_x * tile_width
-#             end_col = start_col + tile_width
-#             tile_data = PIL.Image.new("RGB", (tile_width, tile_height), 0)
-#             for x in range(start_col, end_col):
-#                 for y in range(start_row, end_row):
-#                     tile_data.putpixel((x - start_col, y - start_row), image.getpixel((x, y)))
-#             tile_data.save(f"{cache_dir}/tile_{tile_x}_{tile_y}.png")
+    # read the json out
+    import json
+    all_books = {}
+    try:
+        with open("./datasets.json", "r") as f:
+            datasets = json.load(f)
+    except:
+        pass
+
+    print(f"### Generating 1:{scale} image...")
+    all_isbns_png_smaller_red = PIL.Image.new("F", (50000//scale, 40000//scale), 0.0)
+    for prefix, packed_isbns_binary in isbn_data.items():
+        print(f"Adding {prefix.decode()} to images of all")
+        color_image(all_isbns_png_smaller_red, packed_isbns_binary, addcolor=1.0/float(scale*scale), scale=(scale*scale))
+
+    for prefix, packed_isbns_binary in isbn_data.items():
+        all_isbns_png_smaller_green = PIL.Image.new("F", (50000//scale, 40000//scale), 0.0)
+        # make a copy for all_isbns_png_smaller_red
+        prefix_decoded = prefix.decode()
+        datasets[prefix_decoded] = len(packed_isbns_binary) // 4
+        all_isbns_png_smaller_red_copy = all_isbns_png_smaller_red.copy()
+        print(f"Adding {prefix} to images/all_isbns_{prefix}_1_{scale}.png")
+        color_image(all_isbns_png_smaller_green, isbn_data[prefix], addcolor=1.0/float(scale*scale), scale=(scale*scale))
+        PIL.Image.merge('RGB', (
+            PIL.ImageChops.subtract(all_isbns_png_smaller_red_copy.point(lambda x: x * 255).convert("L"), all_isbns_png_smaller_green.point(lambda x: x * 255).convert("L")),
+            all_isbns_png_smaller_green.point(lambda x: x * 255).convert("L"),
+            PIL.Image.new('L', all_isbns_png_smaller_red.size, 0),
+        )).save(f"all_isbns_{prefix_decoded}_1_{scale}.png")
 
 
+    with open("./datasets.json", "w") as f:
+        json.dump(datasets, f, indent=4)
+    # also update the list of records in the json file of "../all_books.json" which is not dictionary but list of records
+    update_all_books(datasets)
+
+    print("done")
 
 
+def update_all_books(new_data):
+    # Load the existing all_books.json file
+    with open('../all_books.json', 'r') as f:
+        all_books = json.load(f)
+
+    # Update the count for each matching prefix
+    for book in all_books:
+        prefix = book['prefix']
+        if prefix in new_data:
+            book['count'] = new_data[prefix]
+
+    # Save the updated data back to all_books.json
+    with open('../all_books.json', 'w') as f:
+        json.dump(all_books, f, indent=2)
+
+    print("all_books.json has been updated.")
+
+def isbn_generator(packed_isbns_binary):
+    base_isbn = 978000000000
+    packed_isbns_ints = struct.unpack(f'{len(packed_isbns_binary) // 4}I', packed_isbns_binary)
+    position = 0
+    isbn_streak = True
+
+    for value in packed_isbns_ints:
+        if isbn_streak:
+            for _ in range(value):
+                yield base_isbn + position
+                position += 1
+        else:
+            position += value
+        isbn_streak = not isbn_streak
+
+def process_large_dataset(file_path):
+    with open(file_path, 'rb') as f:
+        decompressor = zstandard.ZstdDecompressor()
+        data = bencodepy.decode(decompressor.stream_reader(f).read())
+
+        unique_isbns = set()
+        for prefix, packed_isbns_binary in data.items():
+            if prefix == b'md5':
+                continue
+            for isbn in isbn_generator(packed_isbns_binary):
+                unique_isbns.add(isbn)
+
+    print(f"Total unique ISBNs: {len(unique_isbns)}")
+
+process_large_dataset(input_filename)
 # generate_global_view(50000, 40000, 50)      # 1: 50
-generate_global_view(50000, 40000, 25)    # 1: 25
+# generate_global_view(50000, 40000, 25)    # 1: 25
 # generate_global_view(50000, 40000, 10)    # 1: 10
 
 # other resolution leave for another tool to generate
+
+
+# all prefixes in the data: [b'cadal_ssno', b'cerlalc', b'duxiu_ssid', b'edsebk', b'gbooks', b'goodreads', b'ia', b'isbndb', b'isbngrp', b'libby', b'md5', b'nexusstc', b'nexusstc_download', b'oclc', b'ol', b'rgb', b'trantor']
+# generate_global_view_overlay(50000, 40000, 50)      # 1: 10
+

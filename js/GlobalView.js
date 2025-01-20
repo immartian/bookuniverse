@@ -94,17 +94,20 @@ export class GlobalView extends View {
             dataset.width = width;
             dataset.height = height;
 
-            overlayCtx.fillStyle = index < 2 ? dataset.color : "rgb(40, 40, 40)";
+            overlayCtx.fillStyle = index < 2 ? dataset.color : "rgb(40, 40, 40)";  // Set background color
             if (highlightedLabel) {
-                if (highlightedLabel === dataset.prefix) overlayCtx.fillStyle =  "green" //dataset.color;
+                if (highlightedLabel === dataset.prefix) overlayCtx.fillStyle =  "green" // ignore dataset color to prevent busy
                 // cancel md5 's background color
-                if (index ==1) overlayCtx.fillStyle = "rgb(40, 40, 40)";
+                if (hilightindex ==1) overlayCtx.fillStyle = "rgb(40, 40, 40)";
+                
             }
-            
             overlayCtx.fillRect(dataset.x, dataset.y - 16, dataset.width+10, dataset.height+5);
             
-
-            overlayCtx.fillStyle = "lightgray";
+            overlayCtx.fillStyle = "gray";
+            if (index <2) overlayCtx.fillStyle = "lightgray";
+            if (highlightedLabel && highlightedLabel === dataset.prefix) {
+                overlayCtx.fillStyle = "white";
+            }
             overlayCtx.fillText(text, dataset.x+5, dataset.y);
 
             
