@@ -114,36 +114,8 @@ def update_all_books(new_data):
 
     print("all_books.json has been updated.")
 
-def isbn_generator(packed_isbns_binary):
-    base_isbn = 978000000000
-    packed_isbns_ints = struct.unpack(f'{len(packed_isbns_binary) // 4}I', packed_isbns_binary)
-    position = 0
-    isbn_streak = True
 
-    for value in packed_isbns_ints:
-        if isbn_streak:
-            for _ in range(value):
-                yield base_isbn + position
-                position += 1
-        else:
-            position += value
-        isbn_streak = not isbn_streak
 
-def process_large_dataset(file_path):
-    with open(file_path, 'rb') as f:
-        decompressor = zstandard.ZstdDecompressor()
-        data = bencodepy.decode(decompressor.stream_reader(f).read())
-
-        unique_isbns = set()
-        for prefix, packed_isbns_binary in data.items():
-            if prefix == b'md5':
-                continue
-            for isbn in isbn_generator(packed_isbns_binary):
-                unique_isbns.add(isbn)
-
-    print(f"Total unique ISBNs: {len(unique_isbns)}")
-
-process_large_dataset(input_filename)
 # generate_global_view(50000, 40000, 50)      # 1: 50
 # generate_global_view(50000, 40000, 25)    # 1: 25
 # generate_global_view(50000, 40000, 10)    # 1: 10

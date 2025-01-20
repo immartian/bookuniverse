@@ -237,15 +237,27 @@ def generate_multiple_tiles(num_tiles_x, num_tiles_y, cache_dir="test_tiles"):
 # generate_global_tile(18, 18, 1000, 800)
 # generating multile tiles start from (18, 18) to (49, 49) 
 
-# for y in range(45, 50):
-#     generate_global_tile(13, y, 1000, 800, "tiles")
+### generate all tiles from (1, 1) to (50, 50)
+# path = "../tiles" 
+# for i in range(1, 50):
+#     for j in range(1, 50):
+#         # if file exist already, skip 
+#         if os.path.exists(f"{path}/tile_{i}_{j}.png"):
+#             print(f"tile_{i}_{j}.png already exists, skipping...")
+#             continue
+#         generate_global_tile(i, j, 1000, 800, "../tiles")
 
-# # the rest from 19 to 49
-path = "../tiles" 
-for i in range(1, 50):
-    for j in range(1, 50):
-        # if file exist already, skip 
-        if os.path.exists(f"{path}/tile_{i}_{j}.png"):
-            print(f"tile_{i}_{j}.png already exists, skipping...")
-            continue
-        generate_global_tile(i, j, 1000, 800, "../tiles")
+
+#### count the number of books in all tiles ##########
+def count_books_in_tiles():
+    total_books = 0
+    for i in range(1, 50):
+        for j in range(1, 50):
+            tile_path = f"../tiles/tile_{i}_{j}.png"
+            if os.path.exists(tile_path):
+                img = Image.open(tile_path)
+                img_data = np.array(img)
+                total_books += np.count_nonzero(img_data)
+    print(f"Total books in all tiles: {total_books}")
+
+count_books_in_tiles()

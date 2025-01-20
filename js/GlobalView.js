@@ -5,23 +5,23 @@ export class GlobalView extends View {
         this.tooltip = tooltip;
         this.image = new Image();
         this.zoom = 1;
-        this.image.src = 'images/global_view.png'; 
+        this.highlighted = "md5";
+        this.all_books = [];
+        fetch('./all_books.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok ' + response.statusText);
+            }
+            return response.json();
+        })
+        .then(data => {
+            this.all_books = data;
+        })
+        .catch(error => console.error('Error loading all_books.json:', error));
+        
         this.image.onload = () => {
             this.drawBase();
         };
-
-        this.all_books = [];
-        fetch('./all_books.json')
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Network response was not ok ' + response.statusText);
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    this.all_books = data;
-                })
-                .catch(error => console.error('Error loading all_books.json:', error));
     }
     onEnter() {
         console.log('Entering Global View');
@@ -30,17 +30,24 @@ export class GlobalView extends View {
 
     drawBase() {
         const ctx = this.baseCtx;
-        ctx.clearRect(0, 0, this.baseCanvas.width, this.baseCanvas.height);
-        ctx.drawImage(this.image, 0, 0, this.baseCanvas.width, this.baseCanvas.height);
+        this.image.onload = () => {
+            ctx.clearRect(0, 0, this.baseCanvas.width, this.baseCanvas.height);
+            ctx.drawImage(this.image, 0, 0, this.baseCanvas.width, this.baseCanvas.height);
+            console.log('Image loaded and drawn for:', this.highlighted);
+        };
+    
+        if (this.image.src !== `images/all_isbns_${this.highlighted}_1_50.png`) {
+            this.image.src = `images/all_isbns_${this.highlighted}_1_50.png`;
+        }    
     }
 
-    drawOverlay(highlighted) {
+    drawOverlay() {
         const ctx = this.overlayCtx;
         ctx.clearRect(0, 0, this.overlayCanvas.width, this.overlayCanvas.height);
 
         //this.drawTitle(ctx, 'All Books(32,022,039)');
         // this.draw_map_thumbnail(ctx);
-        this.drawLabels(this.highlighted);
+        this.drawLabels();
         this.drawMapScale(ctx, "5000 📚")
     }
 
@@ -51,11 +58,13 @@ export class GlobalView extends View {
             x >= label.x && x <= label.x + label.width &&
             y >= label.y - label.height && y <= label.y
         )?.prefix;
-    
+        if (!this.highlighted) this.highlighted = "md5";
+        this.image.src = `images/all_isbns_${this.highlighted || 'md5'}_1_50.png`;
+
     }
     
     // Draw labels on the canvas
-    drawLabels(highlightedLabel) {
+    drawLabels() {
         const overlayCtx = this.overlayCtx;
 
         // arrange daataset positions and colors, "All books" and "Annas-Arive" are at first line(near middle of the canvas) next to each other based on count's text length, "All books" is in red and "Annas-Archive" is in green
@@ -95,17 +104,18 @@ export class GlobalView extends View {
             dataset.height = height;
 
             overlayCtx.fillStyle = index < 2 ? dataset.color : "rgb(40, 40, 40)";  // Set background color
-            if (highlightedLabel) {
-                if (highlightedLabel === dataset.prefix) overlayCtx.fillStyle =  "green" // ignore dataset color to prevent busy
-                // cancel md5 's background color
-                if (hilightindex ==1) overlayCtx.fillStyle = "rgb(40, 40, 40)";
+            if (this.highlighted) {
+                if (this.highlighted === dataset.prefix) {
+                    if (index!= 0) overlayCtx.fillStyle =  "green" // ignore dataset color to prevent busy
+                }
+                else if (index ==1) overlayCtx.fillStyle = "rgb(40, 40, 40)";
                 
             }
             overlayCtx.fillRect(dataset.x, dataset.y - 16, dataset.width+10, dataset.height+5);
             
             overlayCtx.fillStyle = "gray";
             if (index <2) overlayCtx.fillStyle = "lightgray";
-            if (highlightedLabel && highlightedLabel === dataset.prefix) {
+            if (this.highlighted && this.highlighted === dataset.prefix) {
                 overlayCtx.fillStyle = "white";
             }
             overlayCtx.fillText(text, dataset.x+5, dataset.y);
