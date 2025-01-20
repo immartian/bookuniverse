@@ -1,10 +1,10 @@
 import { View } from './View.js';
 export class GlobalView extends View {
-    constructor(baseCanvas, overlayCanvas, tooltip) {
+    constructor(baseCanvas, overlayCanvas) {
         super('Global', baseCanvas, overlayCanvas);
-        this.tooltip = tooltip;
         this.image = new Image();
         this.zoom = 1;
+        this.tooltipX = this.tooltipY = 0;
         this.highlighted = "md5";
         this.all_books = [];
         fetch('./all_books.json')
@@ -33,7 +33,6 @@ export class GlobalView extends View {
         this.image.onload = () => {
             ctx.clearRect(0, 0, this.baseCanvas.width, this.baseCanvas.height);
             ctx.drawImage(this.image, 0, 0, this.baseCanvas.width, this.baseCanvas.height);
-            console.log('Image loaded and drawn for:', this.highlighted);
         };
     
         if (this.image.src !== `images/all_isbns_${this.highlighted}_1_50.png`) {
@@ -52,8 +51,15 @@ export class GlobalView extends View {
     }
 
  
-    handleHover({ x, y }) {
+    handleHover(data) {
         // Check if mouse is over a label
+        const x = data.x;
+        const y = data.y;
+        const rect = this.baseCanvas.getBoundingClientRect();
+
+        this.tooltipX =  data.x + rect.left;
+        this.tooltipY =  data.y + rect.top;
+
         this.highlighted =  this.all_books.find(label => 
             x >= label.x && x <= label.x + label.width &&
             y >= label.y - label.height && y <= label.y
@@ -89,7 +95,9 @@ export class GlobalView extends View {
             } else {
                 y = this.all_books[index-1].y;
             }
-            let text = index <2 ? dataset.name + "(" + String(dataset.count) + ")": dataset.name; 
+            // get count in thougands comma separated
+            const count = dataset.count.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            let text = index <2 ? dataset.name + "(" + count + ")": dataset.name; 
             const width = overlayCtx.measureText(text).width;
 
             // Check if the label overflows the canvas width
@@ -107,8 +115,13 @@ export class GlobalView extends View {
             if (this.highlighted) {
                 if (this.highlighted === dataset.prefix) {
                     if (index!= 0) overlayCtx.fillStyle =  "green" // ignore dataset color to prevent busy
+                    // show tooltip of counts, near mouse cursor 
+                    if (index !=1) 
+                        this.tooltip.show(count, this.tooltipX, this.tooltipY);
+                    else 
+                        this.tooltip.hide();
                 }
-                else if (index ==1) overlayCtx.fillStyle = "rgb(40, 40, 40)";
+                else if (index ===1) overlayCtx.fillStyle = "rgb(40, 40, 40)";
                 
             }
             overlayCtx.fillRect(dataset.x, dataset.y - 16, dataset.width+10, dataset.height+5);

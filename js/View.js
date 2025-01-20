@@ -1,4 +1,5 @@
 import { ISBN } from "./ISBN.js";
+import { Tooltip } from "./Tooltip.js";
 export class View {
     constructor(name, baseCanvas, overlayCanvas, scale) {
         this.name = name;
@@ -9,7 +10,8 @@ export class View {
         this.overlayCanvas = overlayCanvas;
         this.baseCtx = baseCanvas.getContext('2d');
         this.overlayCtx = overlayCanvas.getContext('2d');
-    
+        this.tooltip = new Tooltip();
+        
         this.animationFrameId = null; // To track the requestAnimationFrame ID
     }
 

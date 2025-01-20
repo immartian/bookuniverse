@@ -36,11 +36,9 @@ const inputManager = new InputManager(baseCanvas, (gesture, data) => {
             break;
     }
 });
-// Register tooltip
-const tooltip = new Tooltip();
 
 // Register views
-viewManager.registerView(new GlobalView(baseCanvas, overlayCanvas, tooltip));
+viewManager.registerView(new GlobalView(baseCanvas, overlayCanvas));
 viewManager.registerView(new ZoneView(baseCanvas, overlayCanvas));
 const societalView = new SocietalView(baseCanvas, overlayCanvas, {
     tileDir: './tiles/',
