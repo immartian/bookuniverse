@@ -50,6 +50,7 @@ export class GlobalView extends View {
         // this.draw_map_thumbnail(ctx);
         this.drawLabels();
         this.drawMapScale(ctx, "5000 📚")
+        this.drawISBN();
     }
 
  
@@ -59,13 +60,13 @@ export class GlobalView extends View {
         const y = data.y;
         const rect = this.baseCanvas.getBoundingClientRect();
         
-        this.isbnIndex = (x + (y * this.scaleWidth* this.scale)*this.scale);
+        this.isbnIndex = (x + (y * this.scaleWidth*this.scale))* this.scale;
 
-        this.tooltip.x =  data.clientX + rect.left;
-        this.tooltip.y =  data.clientY + 10 + rect.top;
+        this.tooltip.x =  data.clientX ;
+        this.tooltip.y =  data.clientY ;
 
         // default tool tip is the isbn number
-        this.tooltip.show("ISBN: " + (this.ISBN.baseISBN + this.isbnIndex));
+        this.tooltip.show("Scrool/Pinch to zoom in");   
 
         // Check if the mouse is over a label
         this.highlighted =  this.all_books.find(label => 
