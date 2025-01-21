@@ -28,9 +28,9 @@ export class ZoneView extends View {
 
     onExit() {
         console.log('Exiting this Zone View');
-        this.clearCanvas();
-        this.tooltip.hide();
         this.highlightedZone = null;
+        this.tooltip.hide();
+        this.clearCanvas();
     }
 
     drawBase() {

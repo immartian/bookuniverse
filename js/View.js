@@ -13,7 +13,7 @@ export class View {
         this.baseCtx = baseCanvas.getContext('2d');
         this.overlayCtx = overlayCanvas.getContext('2d');
         this.tooltip = new Tooltip(); this.tooltipX = this.tooltipY = 0;
-        
+
         this.animationFrameId = null; // To track the requestAnimationFrame ID
     }
 

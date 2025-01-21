@@ -97,22 +97,41 @@ def generate_global_view_overlay(grid_width, grid_height, scale):
     print("done")
 
 
-def update_all_books(new_data):
-    # Load the existing all_books.json file
+def count_total_isbns(isbn_data):
+    with open('./datasets.json', 'r') as f:
+        datasets = json.load(f)
+
+    for prefix, packed_isbns_binary in isbn_data.items():
+        dataset_count = 0
+        packed_isbns_ints = struct.unpack(f'{len(packed_isbns_binary) // 4}I', packed_isbns_binary)
+        isbn_streak = True  # Toggle between counting and skipping
+
+        for value in tqdm.tqdm(packed_isbns_ints):
+            if isbn_streak:
+                dataset_count += value  # Add to the total count
+            # Switch between counting ISBNs and skipping gaps
+            isbn_streak = not isbn_streak
+        print (f"Total ISBNs for {prefix.decode()}: {dataset_count}")
+        datasets[prefix.decode()] = dataset_count
+
+    with open('./datasets.json', 'w') as f:
+        json.dump(datasets, f, indent=4)
+
     with open('../all_books.json', 'r') as f:
         all_books = json.load(f)
 
     # Update the count for each matching prefix
     for book in all_books:
         prefix = book['prefix']
-        if prefix in new_data:
-            book['count'] = new_data[prefix]
+        if prefix in datasets:
+            book['count'] = datasets[prefix]
 
     # Save the updated data back to all_books.json
     with open('../all_books.json', 'w') as f:
         json.dump(all_books, f, indent=2)
 
     print("all_books.json has been updated.")
+
 
 
 
@@ -126,3 +145,5 @@ def update_all_books(new_data):
 # all prefixes in the data: [b'cadal_ssno', b'cerlalc', b'duxiu_ssid', b'edsebk', b'gbooks', b'goodreads', b'ia', b'isbndb', b'isbngrp', b'libby', b'md5', b'nexusstc', b'nexusstc_download', b'oclc', b'ol', b'rgb', b'trantor']
 # generate_global_view_overlay(50000, 40000, 50)      # 1: 10
 
+#count_total_isbns(isbn_data)
+count_total_isbns(isbn_data)

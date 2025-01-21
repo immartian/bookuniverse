@@ -9,76 +9,76 @@
     "prefix": "md5",
     "name": "Anna's Archive",
     "color": "green",
-    "count": 13845075
+    "count": 16033219
   },
   {
     "prefix": "cadal_ssno",
     "name": "CADAL",
-    "count": 796805
+    "count": 605053
   },
   {
     "prefix": "cerlalc",
     "name": "CERLALC",
-    "count": 34521
+    "count": 740788
   },
   {
     "prefix": "duxiu_ssid",
     "name": "DuXiu",
-    "count": 1801779
+    "count": 2883971
   },
   {
     "prefix": "edsebk",
     "name": "EBSCOhost",
-    "count": 3887719
+    "count": 5669915
   },
   {
     "prefix": "gbooks",
     "name": "Google Books",
-    "count": 44814789
+    "count": 45026225
   },
   {
     "prefix": "goodreads",
     "name": "Goodreads",
-    "count": 9901483
+    "count": 6858911
   },
   {
     "prefix": "ia",
     "name": "Internet Archive",
-    "count": 344801
+    "count": 215653
   },
   {
     "prefix": "isbngrp",
     "name": "ISBN Global Register",
-    "count": 63525
+    "count": 2036507
   },
   {
     "prefix": "libby",
     "name": "Libby",
-    "count": 5088297
+    "count": 4991062
   },
   {
     "prefix": "nexusstc",
     "name": "Nexus/STC",
-    "count": 5106171
+    "count": 4804283
   },
   {
     "prefix": "oclc",
     "name": "OCLC/Worldcat",
-    "count": 29445635
+    "count": 58539887
   },
   {
     "prefix": "ol",
     "name": "OpenLibrary",
-    "count": 26957973
+    "count": 31093721
   },
   {
     "prefix": "rgb",
     "name": "Russian State Library",
-    "count": 1510857
+    "count": 2353879
   },
   {
     "prefix": "trantor",
     "name": "Imperial Library of Trantor",
-    "count": 382847
+    "count": 236895
   }
 ]

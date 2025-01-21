@@ -19,11 +19,16 @@ export class SocietalView extends View {
         this.offsetX = Math.floor((this.isbnIndex % (this.scaleWidth * this.scale)) / this.scale);-data.x
         this.offsetY = Math.floor(this.isbnIndex / this.scaleWidth/this.scale/this.scale)- data.y;
         
-        await this.tileManager.loadVisibleTiles(this.offsetX, this.offsetY, this.baseCanvas.width, this.baseCanvas.height);
+        //await this.tileManager.loadVisibleTiles(this.offsetX, this.offsetY, this.baseCanvas.width, this.baseCanvas.height);
         this.startRendering(); // Start the new view's animation
     }
 
     async drawBase() {
+        // draw background to prevent flickering
+        const ctx = this.baseCtx;
+        ctx.fillStyle = 'black';
+        ctx.fillRect(0, 0, this.baseCanvas.width, this.baseCanvas.height);
+
         await this.tileManager.loadVisibleTiles(this.offsetX, this.offsetY, this.baseCanvas.width, this.baseCanvas.height);
         this.tileManager.drawTiles(this.baseCtx, this.offsetX, this.offsetY, this.baseCanvas.width, this.baseCanvas.height);
     }
