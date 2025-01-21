@@ -43,6 +43,17 @@ export class View {
         ctx.fillText(text, x, y);
     }
 
+    drawISBN() {
+        // draw current isbn on screen at the right bottom corner
+        const ctx = this.overlayCtx;
+        ctx.fillStyle = 'black';
+        ctx.globalAlpha = 0.8;
+        ctx.fillRect(this.overlayCanvas.width - 200, this.overlayCanvas.height - 40, 200, 40);
+        ctx.fillStyle = 'lightgray';
+        ctx.font = '16px Arial';
+        ctx.fillText(`ISBN: ${this.ISBN.calculateISBN(this.isbnIndex, true)}`, this.overlayCanvas.width - 180, this.overlayCanvas.height - 20);
+        ctx.globalAlpha = 1;
+    }
     draw_map_thumbnail(ctx, scale, offsetX, offsetY) {
         // draw a 100x80 black rectangle with half-transparency, and put and generally at the top right corner
         let x = this.overlayCanvas.width - 110;

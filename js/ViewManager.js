@@ -10,33 +10,32 @@ export class ViewManager {
         this.views[view.name] = view;
     }
 
-    switchView(viewName, options = {}) {
+    switchView(viewName, data) {
         let currentISBN = 0; 
         if (this.currentView) {
             this.currentView.stopRendering(); // Stop the current view's animation
             this.currentView.onExit();
             currentISBN = this.currentView.isbnIndex;
         }
-        console.log(`passing isbn: ${currentISBN}`);
     
         this.currentView = this.views[viewName];
         this.currentView.isbnIndex = currentISBN; // Pass the current ISBN index to the new view
-        this.currentView.onEnter(options);
+        this.currentView.onEnter(data);
     }
     
 
     handleZoom(data) {
         if (data.delta < 0) {
             if (this.currentView?.name === 'Global') {
-            console.log('Zooming from Global to Zone');
+            console.log(`Zooming from Global to Zone: ${data.x}, ${data.y}`);
             this.currentView.zoom_effect(data, 2);
             if (this.currentView.zoom >= 5) {
                 this.currentView.zoom = 1;
-                this.switchView('Zone');
+                this.switchView('Zone', data);
             }
             } else if (this.currentView?.name === 'Zone') {
             console.log('Switching to Societal View');
-            this.switchView('Societal');
+            this.switchView('Societal', data);
             } 
             // else if (this.currentView?.name === 'Societal') {
             // console.log('Switching to Bookshelf View');
@@ -49,10 +48,10 @@ export class ViewManager {
             // } else 
             if (this.currentView?.name === 'Societal') {
             console.log('Switching to Zone View');
-            this.switchView('Zone');
+            this.switchView('Zone', data);
             } else if (this.currentView?.name === 'Zone') {
             console.log('Switching to Global View');
-            this.switchView('Global');
+            this.switchView('Global', data);
             }
         }
         

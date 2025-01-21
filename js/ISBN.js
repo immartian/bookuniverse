@@ -276,8 +276,12 @@ export class ISBN {
         this.baseISBN = baseISBN;
     }
 
-    calculateISBN(isbnIndex) {
-        return this.baseISBN + isbnIndex;
+    calculateISBN(isbnIndex, digits_13 = false) {
+        const isbnSum = this.baseISBN + isbnIndex;
+        if (digits_13) {
+            return parseInt(ISBN.addChecksum(isbnSum.toString()), 10);
+        }
+        return isbnSum;
     }
 
     getCountryForISBN(isbn) {

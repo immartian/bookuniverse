@@ -61,13 +61,36 @@ export class GlobalView extends View {
         const rect = this.baseCanvas.getBoundingClientRect();
         
         this.isbnIndex = (x + (y * this.scaleWidth*this.scale))* this.scale;
+        const isbn = this.ISBN.calculateISBN(this.isbnIndex);
+
+        const countryData = this.ISBN.getCountryForISBN(isbn);
+        if (countryData) {
+            const { prefix, country } = countryData;
+            const { startRow, endRow, startCol, endCol} = this.getZoneRange(prefix);
+
+            this.highlightedZone = {
+                startRow,
+                endRow,
+                startCol,
+                endCol,
+                country,
+            };
+        } else {
+            this.highlightedZone = null;
+        }
+
 
         this.tooltip.x =  data.clientX ;
         this.tooltip.y =  data.clientY ;
 
         // default tool tip is the isbn number
-        this.tooltip.show("Scrool/Pinch to zoom in");   
-
+        if (this.highlightedZone) {
+            this.tooltip.show(`Scroll/Pinch to zoom in to: \n\n${this.highlightedZone.country}`);
+        }
+        else {
+            this.tooltip.show("Scroll/Pinch to zoom in to: 1:10 view");
+        }
+        
         // Check if the mouse is over a label
         this.highlighted =  this.all_books.find(label => 
             x >= label.x && x <= label.x + label.width &&
@@ -125,9 +148,8 @@ export class GlobalView extends View {
                 if (this.highlighted === dataset.prefix) {
                     if (index!= 0) overlayCtx.fillStyle =  "green" // ignore dataset color to prevent busy
                     // show tooltip of counts, near mouse cursor 
-                    if (index != 0 && index != 1) ;
-                        //text = dataset.name + "(" + count + " 📚)"; 
-                        //this.tooltip.show(String(count) + " 📚", this.tooltipX, this.tooltipY);
+                    if (index != 0 && index != 1) 
+                        this.tooltip.show(String(count) + " 📚", this.tooltipX, this.tooltipY);
                     // else 
                     //     this.tooltip.hide();
                 }

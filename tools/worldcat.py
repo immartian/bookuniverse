@@ -1,127 +1,105 @@
-
 import zstandard as zstd
 import json
-from collections import defaultdict
-import os
+import logging
+from tqdm import tqdm
 
-# Path to the compressed jsonl file
-input_filename = 'annas_archive_meta__aacid__worldcat__20241230T203056Z--20241230T203056Z.jsonl.seekable.zst'
+# Setup logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
 
-# Read and decompress the file incrementally
-def read_lines_from_zst(file_path, num_lines):
-    with open(file_path, 'rb') as zst_file:
-        decompressor = zstd.ZstdDecompressor()
-        with decompressor.stream_reader(zst_file) as stream:
-            lines = []
-            buffer = b""
-            while len(lines) < num_lines:
-                chunk = stream.read(65536)  # Read in 64 KB chunks
-                if not chunk:
-                    break  # End of file reached
+# Configuration
+RARITY_THRESHOLD = 10  # Books with fewer than 10 holdings
+OUTPUT_FILE = "rare_books.jsonl"
+INPUT_FILE = "annas_archive_meta__aacid__worldcat__20241230T203056Z--20241230T203056Z.jsonl.seekable.zst"
+
+def extract_holdings(data, parent_key=""):
+    """
+    Recursively search for 'totalHoldingCount' in nested JSON structures.
+    Returns the lowest count found, or None if not present.
+    """
+    if isinstance(data, dict):
+        for key, value in data.items():
+            if key == "totalHoldingCount" and isinstance(value, int):
+                return value
+            result = extract_holdings(value, parent_key + "." + key)
+            if result is not None:
+                return result
+    elif isinstance(data, list):
+        for idx, item in enumerate(data):
+            result = extract_holdings(item, parent_key + f"[{idx}]")
+            if result is not None:
+                return result
+    return None
+
+def process_zst_file(input_file, output_file):
+    """ Process the compressed .zst file to extract rare books with nested holdings. """
+    record_count = 0
+    rare_count = 0
+
+    try:
+        with open(input_file, 'rb') as zst_file, open(output_file, 'w') as out_file:
+            decompressor = zstd.ZstdDecompressor()
+            with decompressor.stream_reader(zst_file) as stream:
+                buffer = b""
                 
-                buffer += chunk
-                while b'\n' in buffer:
-                    line, buffer = buffer.split(b'\n', 1)
-                    lines.append(line.decode('utf-8'))
-                    if len(lines) == num_lines:
+                # Use tqdm for progress tracking
+                pbar = tqdm(total=None, unit=" lines", desc="Processing")
+
+                while True:
+                    chunk = stream.read(65536)
+                    if not chunk:
                         break
-            return lines
 
-# Read the first 100 lines
-lines = read_lines_from_zst(input_filename, 100)
+                    buffer += chunk
+                    while b'\n' in buffer:
+                        line, buffer = buffer.split(b'\n', 1)
+                        if not line.strip():
+                            continue
 
-# Print the lines
-for line in lines:
-    print(line)
+                        try:
+                            record = json.loads(line)
+                            metadata = record.get("metadata", {})
+                            record_data = metadata.get("record", {})
 
+                            # Extract holdings using recursive function
+                            total_holdings = extract_holdings(record_data)
+                            title = record_data.get("title", "Unknown Title")
+                            isbns = record_data.get("isbns", [])
 
-def process_chunk(chunk, editions, holdings, libraries):
-    """
-    Process a chunk of lines from the JSONL file and update editions, holdings, and libraries.
-    """
-    for line in chunk:
-        record = json.loads(line)
-        record_type = record.get("type") or record.get("other_meta_type")
-        if record_type == "briefrecords_json":
-            oclc_number = record["metadata"]["oclc_number"]
-            editions[oclc_number] = record["metadata"].get("from_filenames", [])
-        elif record_type == "search_holdings_all_editions_response":
-            oclc_number = record["oclc_number"]
-            holdings[oclc_number] = {
-                "totalHoldingCount": record["record"]["totalHoldingCount"],
-                "holdings": record["record"]["holdings"],
-                "numPublicLibraries": record["record"]["numPublicLibraries"],
-            }
-        elif record_type == "library":
-            registry_id = int(record["record"]["registryId"])
-            libraries[registry_id] = record["record"]
+                            # Filter rare books with valid ISBNs
+                            if total_holdings is not None and total_holdings < RARITY_THRESHOLD and isbns:
+                                rare_count += 1
+                                rare_book_entry = {
+                                    "title": title,
+                                    "isbns": isbns,
+                                    "holdings": total_holdings
+                                }
+                                out_file.write(json.dumps(rare_book_entry) + "\n")
+                                logging.info(f"Rare book found: '{title}', ISBNs: {isbns}, Holdings: {total_holdings}")
 
-def load_and_process_zst(file_path, chunk_size=10000):
-    """
-    Load and process a .zst-compressed JSONL file incrementally.
-    """
-    editions = defaultdict(list)
-    holdings = {}
-    libraries = {}
-    processed_lines = 0
+                            record_count += 1
+                            pbar.update(1)
 
-    with open(file_path, "rb") as zst_file:
-        decompressor = zstd.ZstdDecompressor()
-        with decompressor.stream_reader(zst_file) as stream:
-            buffer = b""
-            chunk = []
-            while True:
-                chunk_data = stream.read(65536)  # Read in 64 KB chunks
-                if not chunk_data:
-                    break  # End of file reached
-                
-                buffer += chunk_data
-                while b"\n" in buffer:
-                    line, buffer = buffer.split(b"\n", 1)
-                    if line.strip():
-                        chunk.append(line.decode("utf-8"))
-                
-                # Process chunk when it reaches the specified size
-                if len(chunk) >= chunk_size:
-                    process_chunk(chunk, editions, holdings, libraries)
-                    chunk = []  # Reset the chunk
-                    processed_lines += chunk_size
-                    print(f"Processed {processed_lines} lines...")
+                        except json.JSONDecodeError:
+                            logging.warning("Skipping invalid JSON line.")
+                        except Exception as e:
+                            logging.error(f"Error processing record: {str(e)}")
 
-            # Process any remaining lines
-            if chunk:
-                process_chunk(chunk, editions, holdings, libraries)
-                processed_lines += len(chunk)
-                print(f"Processed {processed_lines} lines (final)...")
+                pbar.close()
 
-    return editions, holdings, libraries
+    except FileNotFoundError:
+        logging.error(f"File not found: {input_file}")
+    except Exception as e:
+        logging.error(f"Error reading file: {str(e)}")
 
-def save_progressive_results(editions, holdings, libraries, output_dir):
-    """
-    Save intermediate results to disk.
-    """
-    os.makedirs(output_dir, exist_ok=True)
-    with open(os.path.join(output_dir, "editions.json"), "w") as f:
-        json.dump(editions, f, indent=4)
-    with open(os.path.join(output_dir, "holdings.json"), "w") as f:
-        json.dump(holdings, f, indent=4)
-    with open(os.path.join(output_dir, "libraries.json"), "w") as f:
-        json.dump(libraries, f, indent=4)
+    logging.info(f"Processing complete. Total records processed: {record_count}, Rare books found: {rare_count}")
+    return rare_count
 
-def main():
-    # Input and output paths
-    input_filename = 'annas_archive_meta__aacid__worldcat__20241230T203056Z--20241230T203056Z.jsonl.seekable.zst'
-    output_dir = "progressive_results"
-    chunk_size = 100  # Adjust based on memory and performance needs
-
-    # Step 1: Load and process the file incrementally
-    print("Starting progressive processing...")
-    editions, holdings, libraries = load_and_process_zst(input_filename, chunk_size=chunk_size)
-
-    # Step 2: Save intermediate results
-    print("Saving results...")
-    save_progressive_results(editions, holdings, libraries, output_dir)
-    print("Processing complete!")
 
 if __name__ == "__main__":
-    main()
+    logging.info("Starting full processing of rare books with nested holdings handling...")
+    rare_books_count = process_zst_file(INPUT_FILE, OUTPUT_FILE)
+    logging.info(f"Total rare books saved: {rare_books_count}")
+    logging.info(f"Rare books saved to '{OUTPUT_FILE}'")

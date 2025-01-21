@@ -14,11 +14,11 @@ export class SocietalView extends View {
 
     }
  
-    async onEnter() {
+    async onEnter(data) {
         console.log('Entering Societal View');
-        this.offsetX = this.isbnIndex % this.scaleWidth;
-        this.offsetY = Math.floor(this.isbnIndex / this.scaleWidth);
-        console.log('offsetX', this.offsetX, 'offsetY', this.offsetY, this.isbnIndex);
+        this.offsetX = Math.floor((this.isbnIndex % (this.scaleWidth * this.scale)) / this.scale);-data.x
+        this.offsetY = Math.floor(this.isbnIndex / this.scaleWidth/this.scale/this.scale)- data.y;
+        
         await this.tileManager.loadVisibleTiles(this.offsetX, this.offsetY, this.baseCanvas.width, this.baseCanvas.height);
         this.startRendering(); // Start the new view's animation
     }
@@ -33,14 +33,21 @@ export class SocietalView extends View {
         ctx.clearRect(0, 0, this.overlayCanvas.width, this.overlayCanvas.height);
 
         // draw the highlighted zone if it's not as height as the cavnas
+        let hightlighted_country; 
         if (this.highlightedZone ) {
-            const { startRow, endRow, startCol, endCol } = this.highlightedZone;
+            const { startRow, endRow, startCol, endCol, country } = this.highlightedZone;
+            hightlighted_country = country;
             const clampedStartRow = Math.max(0, startRow - this.offsetY);
+            const clampedStartCol = Math.max(0, startCol - this.offsetX);
+            const clampedEndCol = Math.min(this.overlayCanvas.width, endCol - this.offsetX);
             const clampedEndRow = Math.min(this.overlayCanvas.height, endRow - this.offsetY);
-            if (clampedEndRow - clampedStartRow < this.overlayCanvas.height-20) {
+            const height = clampedEndRow - clampedStartRow;
+
+            if (height < this.overlayCanvas.height-20) {
                 ctx.globalAlpha = 0.2;
+                if (height <= 2)     ctx.globalAlpha = 0.8;
                 ctx.fillStyle = 'yellow';
-                ctx.fillRect(0, clampedStartRow, this.overlayCanvas.width, clampedEndRow - clampedStartRow);
+                ctx.fillRect(clampedStartCol, clampedStartRow, clampedEndCol - clampedStartCol, height > 0 ? height : 1);
                 ctx.globalAlpha = 1;
             }
         }
@@ -67,6 +74,10 @@ export class SocietalView extends View {
                 continue;
             } else if (height <= 20) {
                 fontSize = '16px Arial';  // Smaller font for smaller areas
+                if (hightlighted_country === country) {
+                    ctx.fillStyle = 'yellow';
+                    fontSize = '20px Arial';  // Larger font for highlighted areas
+                }
             } else {
                 fontSize = '30px Arial';  // Larger font for bigger areas
             }
@@ -82,11 +93,16 @@ export class SocietalView extends View {
             const width = ctx.measureText(country).width;
             const adjustedX = (index % 13)* 83 + clampedStartCol;
             ctx.font = '12px Arial';            
+            if (hightlighted_country === country) {
+                ctx.fillStyle = 'yellow';
+                ctx.font = '20px Arial';            
+            }
             ctx.fillText(country, adjustedX, clampedStartRow);
         }
 
 
         // draw the map thumbnail and scale indicator
+        this.drawISBN();
         this.draw_map_thumbnail(ctx, this.scale, this.offsetX, this.offsetY);
         this.drawMapScale(ctx, '100 📚');
 
@@ -98,7 +114,9 @@ export class SocietalView extends View {
             const color = exist ? 'green' : 'red';
             ctx.font = '20px Arial';
             ctx.fillStyle = color;
-            ctx.fillText('⭐', x, y);
+            if(exist) ctx.fillText('📗', x, y);
+            else ctx.fillText('📕', x, y);
+            //ctx.fillText('⭐', x, y);
             // // Or use the hollow star "☆"
             // ctx.fillText('☆', 200, 50); ⭐ ★
         }
@@ -108,12 +126,12 @@ export class SocietalView extends View {
     handleHover(data) {
         const x = data.x + this.offsetX;
         const y = data.y + this.offsetY;
-        this.isbnIndex = (x + (y * this.scaleWidth* this.scale));
+        this.isbnIndex = (x + (y * this.scaleWidth*this.scale))* this.scale;
         
         // Show the ISBN number in the tooltip
         this.tooltip.x = data.clientX;
         this.tooltip.y = data.clientY;
-        this.tooltip.show("ISBN: " + (this.ISBN.baseISBN + this.isbnIndex));
+        this.tooltip.show("Scrool/Pinch to zoom out");   
 
 
         const isbn = this.ISBN.calculateISBN(this.isbnIndex);

@@ -16,11 +16,11 @@ export class ZoneView extends View {
             this.drawBase(); // Draw the image once it is loaded
         };
     }
-    onEnter() {
+    onEnter(data) {
         console.log('Entering Zone View');
         // calculate the offset based on the current isbnIndex
-        this.offsetX = Math.floor((this.isbnIndex % (this.scaleWidth * this.scale)) / this.scale);
-        this.offsetY = Math.floor(this.isbnIndex / this.scaleWidth/this.scale/this.scale);
+        this.offsetX = Math.floor((this.isbnIndex % (this.scaleWidth * this.scale)) / this.scale);-data.x
+        this.offsetY = Math.floor(this.isbnIndex / this.scaleWidth/this.scale/this.scale)- data.y;
         console.log('offsetX', this.offsetX, 'offsetY', this.offsetY, this.isbnIndex);
 
         this.startRendering(); // Start the new view's animation
@@ -54,10 +54,6 @@ export class ZoneView extends View {
         const ctx = this.overlayCtx;
         ctx.clearRect(0, 0, this.overlayCanvas.width, this.overlayCanvas.height);
         // defautl tooltip show the isbn number
-        ctx.fillStyle = 'white';
-        ctx.font = '16px Arial';
-        ctx.fillText('ISBN: 9780000000000', 10, 20);
-
 
         if (this.highlightedZone) {
             const { startRow, endRow, country } = this.highlightedZone;
@@ -83,6 +79,7 @@ export class ZoneView extends View {
             
             ctx.fillText(country, this.overlayCanvas.width / 2, (clampedStartRow + clampedEndRow) / 2);
         }
+        this.drawISBN();
         this.draw_map_thumbnail(ctx, this.scale, this.offsetX, this.offsetY);
         this.drawMapScale(ctx, "1000 📚")
     }
@@ -90,11 +87,11 @@ export class ZoneView extends View {
         const x = data.x + this.offsetX;
         const y = data.y + this.offsetY;
         
-        this.isbnIndex = (x + (y * this.scaleWidth)) * this.scale * this.scale;
+        this.isbnIndex = (x + (y * this.scaleWidth*this.scale))* this.scale;
 
         this.tooltip.x = data.clientX;
         this.tooltip.y = data.clientY;
-        this.tooltip.show("ISBN: " + this.ISBN.calculateISBN(this.isbnIndex));
+        this.tooltip.show("Scroll/Pinch to zoom in/out");
 
         const isbn = this.ISBN.calculateISBN(this.isbnIndex);
         
