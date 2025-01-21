@@ -80,7 +80,7 @@ export class SocietalView extends View {
             
             ctx.fillStyle = 'lightgray';
             const width = ctx.measureText(country).width;
-            const adjustedX = (index % 9)* width + clampedStartCol;
+            const adjustedX = (index % 13)* 83 + clampedStartCol;
             ctx.font = '12px Arial';            
             ctx.fillText(country, adjustedX, clampedStartRow);
         }
