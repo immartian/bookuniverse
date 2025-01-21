@@ -41,7 +41,7 @@ export class InputManager {
                 }
             } else {
                 // Hover callback
-                this.callback('hover', { x: event.offsetX, y: event.offsetY });
+                this.callback('hover', { x: event.offsetX, y: event.offsetY, clientX: event.clientX, clientY: event.clientY });
             }
         });
 

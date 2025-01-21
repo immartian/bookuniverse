@@ -8,9 +8,8 @@ export class ZoneView extends View {
         this.offsetY = 0;
         this.scale = 10;
         this.highlightedZone = null;
-        
-        this.isbnPerPixel = 100;
-        this.imageWidth = 5000;
+        this.scale * this.scale;
+        this.scaleWidth = 50000/this.scale;
         this.zoom = 1;
         this.imageData.src = './images/all_isbns_1_10.png';
         this.imageData.onload = () => {
@@ -19,12 +18,18 @@ export class ZoneView extends View {
     }
     onEnter() {
         console.log('Entering Zone View');
+        // calculate the offset based on the current isbnIndex
+        this.offsetX = Math.floor((this.isbnIndex % (this.scaleWidth * this.scale)) / this.scale);
+        this.offsetY = Math.floor(this.isbnIndex / this.scaleWidth/this.scale/this.scale);
+        console.log('offsetX', this.offsetX, 'offsetY', this.offsetY, this.isbnIndex);
+
         this.startRendering(); // Start the new view's animation
     }
 
     onExit() {
         console.log('Exiting this Zone View');
         this.clearCanvas();
+        this.tooltip.hide();
         this.highlightedZone = null;
     }
 
@@ -48,6 +53,12 @@ export class ZoneView extends View {
     drawOverlay() {
         const ctx = this.overlayCtx;
         ctx.clearRect(0, 0, this.overlayCanvas.width, this.overlayCanvas.height);
+        // defautl tooltip show the isbn number
+        ctx.fillStyle = 'white';
+        ctx.font = '16px Arial';
+        ctx.fillText('ISBN: 9780000000000', 10, 20);
+
+
         if (this.highlightedZone) {
             const { startRow, endRow, country } = this.highlightedZone;
             const clampedStartRow = Math.max(0, startRow - this.offsetY);
@@ -75,39 +86,17 @@ export class ZoneView extends View {
         this.draw_map_thumbnail(ctx, this.scale, this.offsetX, this.offsetY);
         this.drawMapScale(ctx, "1000 📚")
     }
-
-    getZoneRange(prefix) {
-        const startISBN = this.ISBN.padToISBN(prefix, "0");
-        const endISBN = this.ISBN.padToISBN(prefix, "9");
-        // const startRow = Math.floor((startISBN - this.baseISBN) / this.isbnPerPixel / this.imageWidth);
-        // const endRow = Math.floor((endISBN - this.baseISBN) / this.isbnPerPixel / this.imageWidth);
-
-        let startRow, endRow;  
-        let startCol = 0, endCol = this.imageWidth
-        /// special case for 978-0 and 978-1 
-        if (prefix === "9780" || prefix === "9781") {
-            startRow = Math.floor((this.ISBN.padToISBN("978-0", "0") - this.ISBN.baseISBN) / this.isbnPerPixel / this.imageWidth);
-            endRow = Math.floor((this.ISBN.padToISBN("978-1", "9") - this.ISBN.baseISBN) / this.isbnPerPixel / this.imageWidth);
-        }
-        else
-        {
-            startRow = Math.floor((startISBN - this.ISBN.baseISBN) / this.isbnPerPixel / this.imageWidth);
-            endRow = Math.floor((endISBN - this.ISBN.baseISBN) / this.isbnPerPixel / this.imageWidth);
-            // there are some small countries that won't cover a full row
-            // so we need to adjust the start and end columns
-            startCol = (startISBN - this.ISBN.baseISBN) / this.isbnPerPixel % this.imageWidth;
-            endCol = (endISBN - this.ISBN.baseISBN) / this.isbnPerPixel % this.imageWidth;
-        }
-
-        return { startRow, endRow, startCol, endCol };
-    }
-
     handleHover(data) {
         const x = data.x + this.offsetX;
         const y = data.y + this.offsetY;
-        const isbnIndex = (x + (y * this.imageWidth)) * this.isbnPerPixel;
+        
+        this.isbnIndex = (x + (y * this.scaleWidth)) * this.scale * this.scale;
 
-        const isbn = this.ISBN.calculateISBN(isbnIndex);
+        this.tooltip.x = data.clientX;
+        this.tooltip.y = data.clientY;
+        this.tooltip.show("ISBN: " + this.ISBN.calculateISBN(this.isbnIndex));
+
+        const isbn = this.ISBN.calculateISBN(this.isbnIndex);
         
         const countryData = this.ISBN.getCountryForISBN(isbn);
         if (countryData) {
@@ -148,6 +137,7 @@ export class ZoneView extends View {
 
     handlePanEnd() {
         // Optionally, handle logic for when panning ends
+        console.log("Pan ended", this.offsetX, this.offsetY);
     }
 
 }

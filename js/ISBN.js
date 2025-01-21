@@ -297,7 +297,14 @@ export class ISBN {
         return parseInt(basePrefix + padChar.repeat(paddingLength), 10);
     }
 
-   
+    getAllPrefixes() {
+        return Object.keys(this.countries);
+    }
+
+    getCountryForPrefix(prefix) {
+        return this.countries[prefix];
+    }
+    
     static addChecksum(isbn12) {
         let sum = 0;
         for (let i = 0; i < isbn12.length; i++) {

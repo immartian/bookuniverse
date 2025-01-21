@@ -4,13 +4,15 @@ export class View {
     constructor(name, baseCanvas, overlayCanvas, scale) {
         this.name = name;
         this.ISBN = new ISBN();
+        this.isbnIndex = 0;
         this.scale = scale; 
+        this.scaleWidth = 50000/this.scale;
         this.zoom = 1; 
         this.baseCanvas = baseCanvas;
         this.overlayCanvas = overlayCanvas;
         this.baseCtx = baseCanvas.getContext('2d');
         this.overlayCtx = overlayCanvas.getContext('2d');
-        this.tooltip = new Tooltip();
+        this.tooltip = new Tooltip(); this.tooltipX = this.tooltipY = 0;
         
         this.animationFrameId = null; // To track the requestAnimationFrame ID
     }
@@ -23,6 +25,7 @@ export class View {
         console.log(`highlevel: Exiting ${this.name} View`);
         this.stopRendering(); 
         this.clearCanvas();
+        this.tooltip.hide();
     }
 
     drawBase() {
@@ -162,4 +165,57 @@ export class View {
         // ctx.setTransform(1, 0, 0, 1, 0, 0);
 
     }
+
+    // Get the countries that are currently in view
+    getZoneRange(prefix) {
+        const startISBN = this.ISBN.padToISBN(prefix, "0");
+        const endISBN = this.ISBN.padToISBN(prefix, "9");
+        // const startRow = Math.floor((startISBN - this.baseISBN) / 50000;
+        // const endRow = Math.floor((endISBN - this.baseISBN) / 50000;
+
+        let startRow, endRow;  
+        let startCol = 0, endCol = this.baseCanvas.width
+        /// special case for 978-0 and 978-1 
+        if (prefix === "9780" || prefix === "9781") {
+            startRow = Math.floor((this.ISBN.padToISBN("978-0", "0") - this.ISBN.baseISBN) / (50000*this.scale));
+            endRow = Math.floor((this.ISBN.padToISBN("978-1", "9") - this.ISBN.baseISBN) / (50000*this.scale));
+        }
+        else
+        {
+            startRow = Math.floor((startISBN - this.ISBN.baseISBN) / (50000*this.scale));
+            endRow = Math.floor((endISBN - this.ISBN.baseISBN) / (50000*this.scale));
+            // there are some small countries that won't cover a full row
+            // so we need to adjust the start and end columns
+            startCol = Math.floor((startISBN - this.ISBN.baseISBN) % (50000*this.scale));
+            endCol = Math.floor((endISBN - this.ISBN.baseISBN) % (50000*this.scale));
+        }
+        return { startRow, endRow, startCol, endCol };
+    }
+
+    // Get the countries that are currently in view
+    getCountriesInView() {
+        const countriesInView = [];
+        const visibleStartRow = this.offsetY;
+        const visibleEndRow = this.offsetY + this.baseCanvas.height;
+        
+        for (const prefix of this.ISBN.getAllPrefixes()) {
+            const cleanPrefix = prefix.replace("-", "");
+            const { startRow, endRow, startCol, endCol } = this.getZoneRange(cleanPrefix);
+            if (endRow >= visibleStartRow && startRow <= visibleEndRow) {
+                const countryData = this.ISBN.getCountryForPrefix(prefix);
+                if (countryData) {
+                    countriesInView.push({
+                        country: countryData,
+                        startRow,
+                        endRow,
+                        startCol,
+                        endCol,
+                    });
+                }
+            }
+        }
+        
+        return countriesInView;
+    }
+
 }

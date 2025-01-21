@@ -3,6 +3,8 @@ export class GlobalView extends View {
     constructor(baseCanvas, overlayCanvas) {
         super('Global', baseCanvas, overlayCanvas);
         this.image = new Image();
+        this.scale = 50;
+        this.scaleWidth = 50000/this.scale;
         this.zoom = 1;
         this.tooltipX = this.tooltipY = 0;
         this.highlighted = "md5";
@@ -56,10 +58,16 @@ export class GlobalView extends View {
         const x = data.x;
         const y = data.y;
         const rect = this.baseCanvas.getBoundingClientRect();
+        
+        this.isbnIndex = (x + (y * this.scaleWidth* this.scale)*this.scale);
 
-        this.tooltipX =  data.x + rect.left;
-        this.tooltipY =  data.y + rect.top;
+        this.tooltip.x =  data.clientX + rect.left;
+        this.tooltip.y =  data.clientY + 10 + rect.top;
 
+        // default tool tip is the isbn number
+        this.tooltip.show("ISBN: " + (this.ISBN.baseISBN + this.isbnIndex));
+
+        // Check if the mouse is over a label
         this.highlighted =  this.all_books.find(label => 
             x >= label.x && x <= label.x + label.width &&
             y >= label.y - label.height && y <= label.y
@@ -97,7 +105,7 @@ export class GlobalView extends View {
             }
             // get count in thougands comma separated
             const count = dataset.count.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-            let text = index <2 ? dataset.name + "(" + count + ")": dataset.name; 
+            let text = index <2 ? dataset.name + " (" + count + " 📚)": dataset.name; 
             const width = overlayCtx.measureText(text).width;
 
             // Check if the label overflows the canvas width
@@ -116,10 +124,11 @@ export class GlobalView extends View {
                 if (this.highlighted === dataset.prefix) {
                     if (index!= 0) overlayCtx.fillStyle =  "green" // ignore dataset color to prevent busy
                     // show tooltip of counts, near mouse cursor 
-                    if (index !=1) 
-                        this.tooltip.show(count, this.tooltipX, this.tooltipY);
-                    else 
-                        this.tooltip.hide();
+                    if (index != 0 && index != 1) ;
+                        //text = dataset.name + "(" + count + " 📚)"; 
+                        //this.tooltip.show(String(count) + " 📚", this.tooltipX, this.tooltipY);
+                    // else 
+                    //     this.tooltip.hide();
                 }
                 else if (index ===1) overlayCtx.fillStyle = "rgb(40, 40, 40)";
                 

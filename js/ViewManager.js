@@ -11,12 +11,16 @@ export class ViewManager {
     }
 
     switchView(viewName, options = {}) {
+        let currentISBN = 0; 
         if (this.currentView) {
             this.currentView.stopRendering(); // Stop the current view's animation
             this.currentView.onExit();
+            currentISBN = this.currentView.isbnIndex;
         }
+        console.log(`passing isbn: ${currentISBN}`);
     
         this.currentView = this.views[viewName];
+        this.currentView.isbnIndex = currentISBN; // Pass the current ISBN index to the new view
         this.currentView.onEnter(options);
     }
     
