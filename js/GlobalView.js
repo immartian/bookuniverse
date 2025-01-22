@@ -33,7 +33,6 @@ export class GlobalView extends View {
     drawBase() {
         const ctx = this.baseCtx;
         this.image.onload = () => {
-            ctx.clearRect(0, 0, this.baseCanvas.width, this.baseCanvas.height);
             ctx.drawImage(this.image, 0, 0, this.baseCanvas.width, this.baseCanvas.height);
         };
     

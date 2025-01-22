@@ -7,177 +7,96 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="content">
-        <h1>Effects</h1>
-
-        <div class="canvas-container">
-            <canvas id="mainCanvas" width="1000" height="800"></canvas>
-            <canvas id="overlayCanvas" width="1000" height="800"></canvas>
-
-        </div>
-        <div id="tooltip"></div>
-
-    </div>
+    <canvas id="zoomCanvas" width="1000" height="800"></canvas>
     <script>
-    const mainCanvas = document.getElementById("mainCanvas");
-    const mainCtx = mainCanvas.getContext("2d");
-    const image = new Image();
-    image.src = "./images/global_view.png"; // Replace with your image URL
-
-    let scale = 1; // Current scale level
-    let offsetX = 0; // Translation offset in X
-    let offsetY = 0; // Translation offset in Y
-    const ZOOM_FACTOR = 2; // Scale up 4 times when zooming
-
-    // Wait for the image to load
-    image.onload = () => {
-        mainCtx.drawImage(image, 0, 0, mainCanvas.width, mainCanvas.height);
-    };
-
-    mainCanvas.addEventListener("wheel", (event) => {
-        event.preventDefault();
-
-        // Get mouse position relative to the canvas
-        const rect = mainCanvas.getBoundingClientRect();
-        const mouseX = event.clientX - rect.left;
-        const mouseY = event.clientY - rect.top;
-
-        // Get scale direction (zoom in or out)
-        const zoomIn = event.deltaY < 0;
-
-        // Compute the new scale
-        const newScale = zoomIn ? scale * ZOOM_FACTOR : scale / ZOOM_FACTOR;
-
-        // Compute the translation to keep the mouse in place
-        const zoomRatio = newScale / scale;
-        offsetX = mouseX - zoomRatio * (mouseX - offsetX);
-        offsetY = mouseY - zoomRatio * (mouseY - offsetY);
-
-        // Update the scale
-        scale = newScale;
-
-        // Redraw the canvas
-        redrawCanvas();
-    });
-
-    function redrawCanvas() {
-        // Clear the canvas
-        mainCtx.clearRect(0, 0, mainCanvas.width, mainCanvas.height);
-
-        // Apply transformations
-        mainCtx.setTransform(scale, 0, 0, scale, offsetX, offsetY);
-
-        // Redraw the image
-        mainCtx.drawImage(image, 0, 0, mainCanvas.width, mainCanvas.height);
-
-        // Reset transformations for next operations
-        mainCtx.setTransform(1, 0, 0, 1, 0, 0);
-    }
-
-    const overlayCanvas = document.getElementById('overlayCanvas');
-    const overlayCtx = overlayCanvas.getContext('2d');
-    const tooltip = document.getElementById('tooltip');
-
-    // local all_books from a local json file called all_books.json
-    // Fetch all_books from a local JSON file
-    let all_books = [];
-    fetch('./all_books.json')
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Network response was not ok ' + response.statusText);
-                }
-                return response.json();
-            })
-            .then(data => {
-                all_books = data;
-            })
-            .catch(error => console.error('Error loading all_books.json:', error));
-
-
-// Draw labels on the canvas
-function drawLabels(highlightedLabel) {
-    overlayCtx.clearRect(0, 0, overlayCanvas.width, overlayCanvas.height);
-
-    // arrange daataset positions and colors, "All books" and "Annas-Arive" are at first line(near middle of the canvas) next to each other based on count's text length, "All books" is in red and "Annas-Archive" is in green
-    // all other dataset are in the second line next to each other with different colors, if the line is going to overflow, add one more line below with same linespace
-    const startX = 20, startY = 560;
-    const linespace =  40;
-    overlayCtx.font = "16px Arial";
-    const height = 16;
-    const maxWidth = overlayCanvas.width - 40; // Maximum width for labels in a line
-
-    // Compute the position of each label
-    all_books.forEach((dataset, index) => {
+      const canvas = document.getElementById("zoomCanvas");
+      const ctx = canvas.getContext("2d");
+    
+      // Image sources
+      const images = [
+        { src: "./images/all_isbns_1_50.png", scale: 50 },  // 1:50 view
+        { src: "./images/all_isbns_1_25.png", scale: 25 },  // 1:10 view
+        { src: "./images/all_isbns_1_10.png", scale: 10 }     // 1:1 view
+      ];
+    
+      let currentImageIndex = 0;
+      let zoomFactor = 1;
+      let targetZoom = 1;
+      let mouseX = 0, mouseY = 0;
+    
+      // Load images
+      let loadedImages = [];
+    
+      function loadImages() {
+        let loadedCount = 0;
+        images.forEach((image, index) => {
+          const img = new Image();
+          img.src = image.src;
+          img.onload = () => {
+            loadedImages[index] = img;
+            loadedCount++;
+            if (loadedCount === images.length) {
+              drawImage();
+            }
+          };
+        });
+      }
+    
+      function drawImage() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
         
-        let x = index < 2 ? (index === 0 ? 20 : all_books[index - 1].x + all_books[index - 1].width + 20) : (index === 2 ? startX : all_books[index - 1].x + all_books[index - 1].width + 20);
-
-        if (index < 2) {
-            y = startY;
-        } else if (index ===2)
-        {
-            y = all_books[0].y +linespace;
+        let img = loadedImages[currentImageIndex];
+        let scale = images[currentImageIndex].scale;
+    
+        // Calculate position to zoom to mouse cursor
+        let offsetX = (mouseX / canvas.width) * (img.width - canvas.width * zoomFactor);
+        let offsetY = (mouseY / canvas.height) * (img.height - canvas.height * zoomFactor);
+    
+        ctx.drawImage(
+          img,
+          offsetX, offsetY,                             // Crop start position (top-left)
+          canvas.width * zoomFactor, canvas.height * zoomFactor,  // Crop size
+          0, 0,                                         // Draw position on canvas
+          canvas.width, canvas.height                   // Canvas size
+        );
+    
+        if (Math.abs(targetZoom - zoomFactor) > 0.01) {
+          zoomFactor += (targetZoom - zoomFactor) * 0.1;  // Smooth interpolation
+          requestAnimationFrame(drawImage);
+        }
+      }
+    
+      // Handle mouse move to update cursor position
+      canvas.addEventListener("mousemove", (event) => {
+        const rect = canvas.getBoundingClientRect();
+        mouseX = event.clientX - rect.left;
+        mouseY = event.clientY - rect.top;
+      });
+    
+      // Handle zooming via mouse wheel
+      canvas.addEventListener("wheel", (event) => {
+        if (event.deltaY < 0) {
+          // Zoom in to the next image level
+          if (currentImageIndex < images.length - 1) {
+            currentImageIndex++;
+            targetZoom = images[currentImageIndex].scale / images[currentImageIndex - 1].scale;
+            zoomFactor = 1;
+            drawImage();
+          }
         } else {
-            y = all_books[index-1].y;
+          // Zoom out to the previous image level
+          if (currentImageIndex > 0) {
+            currentImageIndex--;
+            targetZoom = images[currentImageIndex].scale / images[currentImageIndex + 1].scale;
+            zoomFactor = 1;
+            drawImage();
+          }
         }
-        let text = index <2 ? dataset.name + "(" + String(dataset.count) + ")": dataset.name; 
-        const width = overlayCtx.measureText(text).width;
-
-        // Check if the label overflows the canvas width
-        if (x + width > maxWidth) {
-            y = all_books[index-1].y +linespace; // Move to the next line
-            x = startX; // Reset startX for the new line
-        }
-
-        dataset.x = x;
-        dataset.y = y;
-        dataset.width = width;
-        dataset.height = height;
-
-        overlayCtx.fillStyle = index < 2 ? dataset.color : "rgb(40, 40, 40)";
-        if (highlightedLabel) {
-            if (highlightedLabel === dataset.prefix) overlayCtx.fillStyle =  "green" //dataset.color;
-            // cancel md5 's background color
-            if (index ==1) overlayCtx.fillStyle = "rgb(40, 40, 40)";
-        }
-        
-        overlayCtx.fillRect(dataset.x, dataset.y - 16, dataset.width+10, dataset.height+5);
-        
-
-        overlayCtx.fillStyle = "lightgray";
-        overlayCtx.fillText(text, dataset.x+5, dataset.y);
-
-        
-    });
-}
-
-// Check if mouse is over a label
-function getLabelUnderMouse(x, y) {
-    return all_books.find(label => 
-        x >= label.x && x <= label.x + label.width &&
-        y >= label.y - label.height && y <= label.y
-    )?.prefix;
-}
-
-// Add mousemove event listener
-mainCanvas.addEventListener('mousemove', (e) => {
-    const rect = mainCanvas.getBoundingClientRect();
-    const mouseX = e.clientX - rect.left;
-    const mouseY = e.clientY - rect.top;
-
-    const hoveredLabel = getLabelUnderMouse(mouseX, mouseY);
-    if (hoveredLabel) {
-        // Highlight label
-        drawLabels(hoveredLabel);
-    } else {
-        // Reset canvas and hide tooltip
-        drawLabels();
-    }
-});
-
-// Draw labels initially
-drawLabels();
-
-</script>
-
+        event.preventDefault();
+      });
+    
+      loadImages();
+    </script>
+    
 </body>
 </html>`;

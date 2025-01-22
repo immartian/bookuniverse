@@ -3,7 +3,7 @@ import { View } from './View.js';
 export class ZoneView extends View {
     constructor(baseCanvas, overlayCanvas) {
         super('Zone', baseCanvas, overlayCanvas);
-        this.imageData = new Image(); // Pre-rendered image for the zone view
+        this.image = new Image(); // Pre-rendered image for the zone view
         this.offsetX = 0;
         this.offsetY = 0;
         this.scale = 10;
@@ -11,8 +11,8 @@ export class ZoneView extends View {
         this.scale * this.scale;
         this.scaleWidth = 50000/this.scale;
         this.zoom = 1;
-        this.imageData.src = './images/all_isbns_1_10.png';
-        this.imageData.onload = () => {
+        this.image.src = './images/all_isbns_1_10.png';
+        this.image.onload = () => {
             this.drawBase(); // Draw the image once it is loaded
         };
     }
@@ -21,7 +21,7 @@ export class ZoneView extends View {
         // calculate the offset based on the current isbnIndex
         this.offsetX = Math.floor((this.isbnIndex % (this.scaleWidth * this.scale)) / this.scale);-data.x
         if (this.offsetX < 0) this.offsetX = 0;
-        if (this.offsetX > this.baseCanvas.width) this.offsetX = this.scaleWidth - this.baseCanvas.width;
+        if (this.offsetX > this.scaleWidth- this.baseCanvas.width) this.offsetX = this.scaleWidth - this.baseCanvas.width;
         this.offsetY = Math.floor(this.isbnIndex / this.scaleWidth/this.scale/this.scale)- data.y;
         console.log('offsetX', this.offsetX, 'offsetY', this.offsetY, this.isbnIndex);
 
@@ -38,10 +38,10 @@ export class ZoneView extends View {
     drawBase() {
         const ctx = this.baseCtx;
 
-        if (this.imageData.complete) {
+        if (this.image.complete) {
             ctx.clearRect(0, 0, this.baseCanvas.width, this.baseCanvas.height);
             ctx.drawImage(
-                this.imageData,
+                this.image,
                 this.offsetX, this.offsetY,
                 this.baseCanvas.width, this.baseCanvas.height,
                 0, 0,
@@ -126,8 +126,8 @@ export class ZoneView extends View {
         this.offsetY -= data.deltaY;
 
         // Clamp offsets to stay within image boundaries
-        this.offsetX = Math.max(0, Math.min(this.offsetX, this.imageData.width - this.baseCanvas.width));
-        this.offsetY = Math.max(0, Math.min(this.offsetY, this.imageData.height - this.baseCanvas.height));
+        this.offsetX = Math.max(0, Math.min(this.offsetX, this.image.width - this.baseCanvas.width));
+        this.offsetY = Math.max(0, Math.min(this.offsetY, this.image.height - this.baseCanvas.height));
 
         // Redraw the base canvas and overlay
         this.drawBase();
@@ -136,7 +136,7 @@ export class ZoneView extends View {
 
     handlePanEnd() {
         // Optionally, handle logic for when panning ends
-        console.log("Pan ended", this.offsetX, this.offsetY);
+        // console.log("Pan ended", this.offsetX, this.offsetY);
     }
 
 }

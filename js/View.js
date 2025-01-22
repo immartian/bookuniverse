@@ -145,39 +145,54 @@ export class View {
         }
     }
 
-
-    zoom_effect(data, ZOOM_FACTOR = 1) {
-        this.zoom += ZOOM_FACTOR;
-        return 
-        const ctx = this.baseCtx;
-        // setTranform effect from current mouse position 
-        let offsetX = 0; // Translation offset in X
-        let offsetY = 0; // Translation offset in Y
-
-        // Update scale level
-        // Update translation
-        const x = data.x;
-        const y = data.y;
-
-        offsetX = (offsetX - x) * (ZOOM_FACTOR - 1);
-        offsetY = (offsetY - y) * (ZOOM_FACTOR - 1);
-        
-        // Apply the transformation
-        console.log('mockup zooming in', this.zoom, offsetX, offsetY);
-        ctx.scale(this.zoom_effect, this.zoom);
-        ctx.translate(offsetX, offsetY);
-
-        // console.log('Zooming in', this.scale, offsetX, offsetY);    
-        // // Apply transformations
-        // ctx.setTransform(this.scale, 0, 0, this.scale, offsetX, offsetY);
-
-        // // Redraw the image
-        // ctx.drawImage(this.image, 0, 0, mainCanvas.width, mainCanvas.height);
-
-        // // Reset transformations for next operations
-        // ctx.setTransform(1, 0, 0, 1, 0, 0);
-
+    zoom_effect(data) {
+        return new Promise((resolve) => {
+            if (this.zooming) {
+                return;
+            }
+            this.zooming = true;
+    
+            let { x, y } = data;  // Mouse position
+            const targetZoom = 10;  // Target zoom level for next view
+            const smoothFactor = 0.1;  // Controls the speed of zooming
+    
+            // Convert mouse position to global ISBN position
+            const globalX = x  ;
+            const globalY = y ;
+    
+            // Calculate the initial and target offsets to ensure smooth zooming centered on the cursor
+            let startOffsetX = 0;
+            let startOffsetY = 0;
+            let targetOffsetX = globalX - (this.baseCanvas.width / 2 / targetZoom);
+            let targetOffsetY = globalY - (this.baseCanvas.height / 2 / targetZoom);
+    
+            const animateZoom = () => {
+                if (Math.abs(this.zoom - targetZoom) > 0.01) {
+                    this.zoom += (targetZoom - this.zoom) * smoothFactor;
+                    this.clearCanvas();
+    
+                    // Smooth transition of offsets
+                    let currentOffsetX = startOffsetX + (targetOffsetX - startOffsetX) * (this.zoom / targetZoom);
+                    let currentOffsetY = startOffsetY + (targetOffsetY - startOffsetY) * (this.zoom / targetZoom);
+    
+                    // Apply transformation to zoom into the cursor position
+                    this.baseCtx.setTransform(this.zoom, 0, 0, this.zoom, -currentOffsetX * this.zoom, -currentOffsetY * this.zoom);
+                    
+                    this.baseCtx.drawImage(this.image, 0, 0, this.baseCanvas.width, this.baseCanvas.height);
+    
+                    requestAnimationFrame(animateZoom);
+                } else {
+                    this.zoom = 1;  // Lock final zoom level
+                    this.zooming = false;  // Reset flag
+                    resolve();  // Resolve the promise after completion
+                }
+            };
+    
+            animateZoom();
+        });
     }
+    
+    
 
     // Get the countries that are currently in view
     getZoneRange(prefix) {

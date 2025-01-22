@@ -19,7 +19,7 @@ export class SocietalView extends View {
         this.offsetX = Math.floor((this.isbnIndex % (this.scaleWidth * this.scale)) / this.scale);-data.x
         this.offsetY = Math.floor(this.isbnIndex / this.scaleWidth/this.scale/this.scale)- data.y;
         if (this.offsetX < 0) this.offsetX = 0;
-        if (this.offsetX > this.baseCanvas.width) this.offsetX = this.scaleWidth - this.baseCanvas.width;
+        if (this.offsetX > this.scaleWidth- this.baseCanvas.width) this.offsetX = this.scaleWidth - this.baseCanvas.width;
         //await this.tileManager.loadVisibleTiles(this.offsetX, this.offsetY, this.baseCanvas.width, this.baseCanvas.height);
         this.startRendering(); // Start the new view's animation
     }
@@ -223,6 +223,6 @@ export class SocietalView extends View {
     }
 
     handlePanEnd() {
-        console.log("Pan ended with offsets:", this.offsetX, this.offsetY);
+        // console.log("Pan ended with offsets:", this.offsetX, this.offsetY);
     }
 }

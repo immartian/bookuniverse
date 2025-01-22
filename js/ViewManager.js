@@ -24,18 +24,16 @@ export class ViewManager {
     }
     
 
-    handleZoom(data) {
+    async handleZoom(data) {
         if (data.delta < 0) {
             if (this.currentView?.name === 'Global') {
-            console.log(`Zooming from Global to Zone: ${data.x}, ${data.y}`);
-            this.currentView.zoom_effect(data, 2);
-            if (this.currentView.zoom >= 5) {
-                this.currentView.zoom = 1;
+                await this.currentView.zoom_effect(data);  // Wait for zoom to complete
                 this.switchView('Zone', data);
-            }
+                
+                
             } else if (this.currentView?.name === 'Zone') {
-            console.log('Switching to Societal View');
-            this.switchView('Societal', data);
+                await this.currentView.zoom_effect(data);  // Wait for zoom to complete
+                this.switchView('Societal', data);
             } 
             // else if (this.currentView?.name === 'Societal') {
             // console.log('Switching to Bookshelf View');
@@ -54,9 +52,6 @@ export class ViewManager {
             this.switchView('Global', data);
             }
         }
-        
-        // Clean overlay canvas
-        this.overlayCanvas.getContext('2d').clearRect(0, 0, this.overlayCanvas.width, this.overlayCanvas.height);
         
     }
 
