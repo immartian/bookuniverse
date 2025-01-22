@@ -85,7 +85,7 @@ export class GlobalView extends View {
 
         // default tool tip is the isbn number
         if (this.highlightedZone) {
-            this.tooltip.show(`Scroll/Pinch to zoom in to: \n\n${this.highlightedZone.country}`);
+            this.tooltip.show(`Scroll/Pinch to zoom in to: <br> ${this.highlightedZone.country}`);
         }
         else {
             this.tooltip.show("Scroll/Pinch to zoom in to: 1:10 view");

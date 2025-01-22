@@ -20,6 +20,8 @@ export class ZoneView extends View {
         console.log('Entering Zone View');
         // calculate the offset based on the current isbnIndex
         this.offsetX = Math.floor((this.isbnIndex % (this.scaleWidth * this.scale)) / this.scale);-data.x
+        if (this.offsetX < 0) this.offsetX = 0;
+        if (this.offsetX > this.baseCanvas.width) this.offsetX = this.scaleWidth - this.baseCanvas.width;
         this.offsetY = Math.floor(this.isbnIndex / this.scaleWidth/this.scale/this.scale)- data.y;
         console.log('offsetX', this.offsetX, 'offsetY', this.offsetY, this.isbnIndex);
 

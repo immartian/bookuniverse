@@ -5,6 +5,7 @@ export class View {
         this.name = name;
         this.ISBN = new ISBN();
         this.isbnIndex = 0;
+        this.isbn_color = 'black';
         this.scale = scale; 
         this.scaleWidth = 50000/this.scale;
         this.zoom = 1; 
@@ -46,10 +47,11 @@ export class View {
     drawISBN() {
         // draw current isbn on screen at the right bottom corner
         const ctx = this.overlayCtx;
-        ctx.fillStyle = 'black';
-        ctx.globalAlpha = 0.8;
-        ctx.fillRect(this.overlayCanvas.width - 200, this.overlayCanvas.height - 40, 200, 40);
-        ctx.fillStyle = 'lightgray';
+        ctx.fillStyle = this.isbn_color;
+        ctx.globalAlpha = 0.5;
+        ctx.fillRect(this.overlayCanvas.width - 200, this.overlayCanvas.height - 40, 190, 30);
+        ctx.globalAlpha = 1;
+        ctx.fillStyle = 'white';
         ctx.font = '16px Arial';
         ctx.fillText(`ISBN: ${this.ISBN.calculateISBN(this.isbnIndex, true)}`, this.overlayCanvas.width - 180, this.overlayCanvas.height - 20);
         ctx.globalAlpha = 1;

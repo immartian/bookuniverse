@@ -11,14 +11,15 @@ export class SocietalView extends View {
         this.scale = 1
         this.scaleWidth = 50000/this.scale;
         this.rare = []; 
-
+        this.rare_one = null;
     }
  
     async onEnter(data) {
         console.log('Entering Societal View');
         this.offsetX = Math.floor((this.isbnIndex % (this.scaleWidth * this.scale)) / this.scale);-data.x
         this.offsetY = Math.floor(this.isbnIndex / this.scaleWidth/this.scale/this.scale)- data.y;
-        
+        if (this.offsetX < 0) this.offsetX = 0;
+        if (this.offsetX > this.baseCanvas.width) this.offsetX = this.scaleWidth - this.baseCanvas.width;
         //await this.tileManager.loadVisibleTiles(this.offsetX, this.offsetY, this.baseCanvas.width, this.baseCanvas.height);
         this.startRendering(); // Start the new view's animation
     }
@@ -118,6 +119,9 @@ export class SocietalView extends View {
 
             const color = exist ? 'green' : 'red';
             ctx.font = '20px Arial';
+ 
+            if (this.rare_one )
+                ctx.font = '30px Arial';
             ctx.fillStyle = color;
             if(exist) ctx.fillText('📗', x, y);
             else ctx.fillText('📕', x, y);
@@ -138,7 +142,7 @@ export class SocietalView extends View {
         this.tooltip.y = data.clientY;
         this.tooltip.show("Scrool/Pinch to zoom out");   
 
-
+        // prepare the zone if the mouse is over a country
         const isbn = this.ISBN.calculateISBN(this.isbnIndex);
         
         const countryData = this.ISBN.getCountryForISBN(isbn);
@@ -149,6 +153,40 @@ export class SocietalView extends View {
             this.highlightedZone = { startRow, endRow, startCol, endCol, country };
             this.drawOverlay();
         }
+
+        // prepare the rare book which is under the mouse
+        this.rare_one = this.rare.find(([x1, y1, exist]) => {
+            const x = data.x;
+            const y = data.y;
+            return x >= x1 && x <= x1 + 20 && y >= y1 - 20 && y <= y1;
+        }     
+        );
+        
+        // get the color under the mouse from baseCanvas
+        const ctx = this.baseCtx;
+        const pixel = ctx.getImageData(data.x, data.y, 1, 1);
+        const c = pixel.data;
+        
+        // data is an array with [R, G, B, A] values
+        const red = c[0];
+        const green = c[1];
+        const blue = c[2];
+        const alpha = c[3];
+        
+        // Convert to color string if needed
+        this.isbn_color = `rgb(${red}, ${green}, ${blue})`;
+        
+    }
+
+    handleDoubleClick(data) {
+        //get the isbn with 13 digits
+        const x = data.x + this.offsetX;
+        const y = data.y + this.offsetY;
+        this.isbnIndex = (x + (y * this.scaleWidth*this.scale))* this.scale;
+        const isbn = this.ISBN.calculateISBN(this.isbnIndex, true);
+        // open annas-archive page to search it
+        const searchUrl = `https://annas-archive.org/isbndb/${isbn}`;
+        window.open(searchUrl, "_blank");
     }
 
     handlePanStart(data) {
