@@ -153,30 +153,28 @@ export class View {
             this.zooming = true;
     
             let { x, y } = data;  // Mouse position
-            const targetZoom = 10;  // Target zoom level for next view
-            const smoothFactor = 0.1;  // Controls the speed of zooming
+            const targetZoom = 5;  // Target zoom level for next view
+            const smoothFactor = 0.5;  // Controls the speed of zooming
     
             // Convert mouse position to global ISBN position
             const globalX = x  ;
             const globalY = y ;
     
             // Calculate the initial and target offsets to ensure smooth zooming centered on the cursor
-            let startOffsetX = 0;
-            let startOffsetY = 0;
             let targetOffsetX = globalX - (this.baseCanvas.width / 2 / targetZoom);
             let targetOffsetY = globalY - (this.baseCanvas.height / 2 / targetZoom);
     
             const animateZoom = () => {
                 if (Math.abs(this.zoom - targetZoom) > 0.01) {
-                    this.zoom += (targetZoom - this.zoom) * smoothFactor;
+                    this.zoom +=  smoothFactor;
                     this.clearCanvas();
     
-                    // Smooth transition of offsets
-                    let currentOffsetX = startOffsetX + (targetOffsetX - startOffsetX) * (this.zoom / targetZoom);
-                    let currentOffsetY = startOffsetY + (targetOffsetY - startOffsetY) * (this.zoom / targetZoom);
+                    // // Smooth transition of offsets
+                    // let currentOffsetX = startOffsetX + (targetOffsetX - startOffsetX) * (this.zoom / targetZoom);
+                    // let currentOffsetY = startOffsetY + (targetOffsetY - startOffsetY) * (this.zoom / targetZoom);
     
                     // Apply transformation to zoom into the cursor position
-                    this.baseCtx.setTransform(this.zoom, 0, 0, this.zoom, -currentOffsetX * this.zoom, -currentOffsetY * this.zoom);
+                    this.baseCtx.setTransform(this.zoom, 0, 0, this.zoom, -targetOffsetX * this.zoom, -targetOffsetY * this.zoom);
                     
                     this.baseCtx.drawImage(this.image, 0, 0, this.baseCanvas.width, this.baseCanvas.height);
     

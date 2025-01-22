@@ -29,8 +29,6 @@ export class ViewManager {
             if (this.currentView?.name === 'Global') {
                 await this.currentView.zoom_effect(data);  // Wait for zoom to complete
                 this.switchView('Zone', data);
-                
-                
             } else if (this.currentView?.name === 'Zone') {
                 await this.currentView.zoom_effect(data);  // Wait for zoom to complete
                 this.switchView('Societal', data);
