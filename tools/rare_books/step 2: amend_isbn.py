@@ -12,7 +12,6 @@ logging.basicConfig(
 )
 
 DB_FILE = "rare_books.db"
-OCLC_HOLDINGS_FILE = "samples_oclc_holdings.jsonl"
 ZST_FILE = "annas_archive_meta__aacid__worldcat__20241230T203056Z--20241230T203056Z.jsonl.seekable.zst"
 
 
@@ -99,17 +98,6 @@ def process_zst_file(number_of_lines=None):
         conn.close()
         logging.info("ZST file processing complete.")
 
-
-
-# --- Main execution workflow ---
-def main():
-    # Step 1: Initialize the database and load OCLC holdings
-    init_db()
-
-    # Step 2: Process the .zst file and update records with ISBNs
-    process_zst_file(100000)
-
-
-
 if __name__ == "__main__":
-    main()
+    # Process the .zst file and update records with ISBNs
+    process_zst_file(100000)

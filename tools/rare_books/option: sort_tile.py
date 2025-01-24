@@ -7,7 +7,7 @@ from pathlib import Path
 DB_FILE = "rare_books.db"
 OUTPUT_DIR = "tiles"
 BATCH_SIZE = 10000  # Process batch of records at a time
-BASE_ISBN = 978000000000  # 12-digit base ISBN
+BASE_ISBN = 978000000000  # 12-digit base ISBN on map
 TOTAL_WIDTH = 50000
 TOTAL_HEIGHT = 40000
 TILE_WIDTH = 1000
@@ -51,7 +51,7 @@ def fetch_isbns_in_batches():
                 SELECT isbn_13, title, total_holding_count
                 FROM oclc_holdings
                 WHERE isbn_13 IS NOT NULL AND
-                total_holding_count <= ?
+                total_holding_count < ?
                 ORDER BY isbn_13 ASC
                 LIMIT ? OFFSET ?
             """, (RARE_THRESHOLD, BATCH_SIZE, offset))
@@ -71,7 +71,7 @@ def fetch_isbns_in_batches():
                         tile_data[tile_key] = []
 
                     tile_data[tile_key].append({
-                        "i": str(isbn),  # Convert to string for JSON
+                        "i": isbn,  # Keep as integer
                         "t": title,  # Title
                         "h": holdings  # Holdings count
                     })

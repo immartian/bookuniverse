@@ -235,6 +235,7 @@ export class SocietalView extends View {
         );
 
         // get a new list of rare books for current view
+        console.log(this.tileManager.visibleTiles)
         fetch('./rarebooks.json').then(response => response.json())
         .then(data => {
             this.rarebooks = data;

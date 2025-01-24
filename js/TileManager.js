@@ -50,11 +50,11 @@ export class TileManager {
 
     drawTiles(ctx, offsetX, offsetY, canvasWidth, canvasHeight) {
         const { tileWidth, tileHeight } = this.tileMetadata;
-        const visibleTiles = this.getVisibleTiles(offsetX, offsetY, canvasWidth, canvasHeight);
+        this.visibleTiles = this.getVisibleTiles(offsetX, offsetY, canvasWidth, canvasHeight);
 
         ctx.clearRect(0, 0, canvasWidth, canvasHeight);
 
-        visibleTiles.forEach(([x, y]) => {
+        this.visibleTiles.forEach(([x, y]) => {
             const tileKey = `${x}_${y}`;
             const img = this.loadedTiles[tileKey];
             if (img) {
