@@ -1,107 +1,174 @@
 import sqlite3
 import json
+import zstandard as zstd
+import isbnlib
 import logging
-import math
-from pathlib import Path
+from tqdm import tqdm
+
+# Setup logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
 
 DB_FILE = "isbn_holdings.db"
-OUTPUT_DIR = "tiles"
-BATCH_SIZE = 10000  # Process batch of records at a time
-BASE_ISBN = 978000000000  # 12-digit base ISBN
-TOTAL_WIDTH = 50000
-TOTAL_HEIGHT = 40000
-TILE_WIDTH = 1000
-TILE_HEIGHT = 800
+OCLC_HOLDINGS_FILE = "samples_oclc_holdings.jsonl"
+ZST_FILE = "annas_archive_meta__aacid__worldcat__20241230T203056Z--20241230T203056Z.jsonl.seekable.zst"
 
-RARE_THRESHOLD = 4
-# Setup logging
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
-
-def calculate_tile_position(isbn_13):
-    """
-    Calculate the tile position (x, y) using the first 12 digits of ISBN-13.
-    """
-    isbn12 = isbn_13 // 10  # Remove the last digit to get the 12-digit base
-    isbn_offset = isbn12 - BASE_ISBN  # Calculate offset from base ISBN
-
-    if isbn_offset < 0:
-        raise ValueError(f"Invalid ISBN-13 offset calculation: {isbn_13}")
-
-    # Compute tile positions
-    tile_x = (isbn_offset % TOTAL_WIDTH) // TILE_WIDTH
-    tile_y = (isbn_offset // (TOTAL_WIDTH * TILE_HEIGHT))
-
-    return tile_x, tile_y
-
-def fetch_isbns_in_batches():
-    """
-    Fetch ISBN records progressively in ascending order and process them in batches.
-    """
-    conn = sqlite3.connect(DB_FILE, timeout=10)  # Set timeout to avoid locking issues
+# --- Step 1: Load OCLC holdings into the database ---
+def init_db():
+    """Initialize the SQLite database."""
+    conn = sqlite3.connect(DB_FILE)
     cursor = conn.cursor()
-    offset = 0
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS oclc_holdings (
+            oclc_number TEXT PRIMARY KEY,
+            total_holding_count INTEGER,
+            isbn_13 INTEGER,
+            title TEXT
+        )
+    """)
+    conn.commit()
+    conn.close()
+    logging.info("Database initialized.")
 
-    Path(OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
+def load_oclc_holdings():
+    """Load OCLC holdings from JSONL into the SQLite database."""
+    conn = sqlite3.connect(DB_FILE)
+    cursor = conn.cursor()
+
+    with open(OCLC_HOLDINGS_FILE, "r") as infile:
+        for line in infile:
+            try:
+                record = json.loads(line.strip())
+                cursor.execute("""
+                    INSERT OR IGNORE INTO oclc_holdings (oclc_number, total_holding_count)
+                    VALUES (?, ?)
+                """, (record["oclc_number"], record["total_holding_count"]))
+            except json.JSONDecodeError:
+                logging.warning(f"Skipping invalid JSON: {line.strip()}")
+    
+    conn.commit()
+    conn.close()
+    logging.info("OCLC holdings loaded into the database.")
+
+
+# --- Step 2: Process the .zst file and match ISBNs ---
+def normalize_oclc(oclc):
+    if isinstance(oclc, str):
+        return oclc.lstrip("0")
+    return str(oclc)
+
+def normalize_isbn(isbn):
+    """Normalize ISBN to 13-digit integer."""
+    try:
+        clean_isbn = isbnlib.canonical(isbn)
+        if isbnlib.is_isbn10(clean_isbn):
+            clean_isbn = isbnlib.to_isbn13(clean_isbn)
+        if isbnlib.is_isbn13(clean_isbn):
+            return int(clean_isbn)  # Convert to integer for storage
+    except Exception:
+        return None
+    return None
+
+def process_zst_file(number_of_lines=None):
+    """Scan the .zst file and match ISBNs to OCLC records."""
+    conn = sqlite3.connect(DB_FILE)
+    cursor = conn.cursor()
+    line_counter = 0    
 
     try:
-        while True:
-            logging.info(f"Fetching batch from offset {offset}...")
+        with open(ZST_FILE, 'rb') as zst_file:
+            decompressor = zstd.ZstdDecompressor()
+            with decompressor.stream_reader(zst_file) as stream, tqdm(desc="Scanning ISBNs", unit="line") as pbar:
+                buffer = b""
+                
+                while True:
+                    chunk = stream.read(65536)
+                    if not chunk:
+                        break
 
-            cursor.execute("""
-                SELECT isbn_13, title, total_holding_count
-                FROM oclc_holdings
-                WHERE isbn_13 IS NOT NULL AND
-                total_holding_count < ?      
-                ORDER BY isbn_13 ASC
-                LIMIT ? OFFSET ?
-            """, (RARE_THRESHOLD, BATCH_SIZE, offset))
+                    buffer += chunk
+                    while b'\n' in buffer:
+                        line, buffer = buffer.split(b'\n', 1)
+                        if not line.strip():
+                            continue
 
-            rows = cursor.fetchall()
-            if not rows:
-                break  # No more records to process
+                        try:
+                            record = json.loads(line)
+                            metadata = record.get("metadata", {})
+                            record_data = metadata.get("record", {})
 
-            # Process and write each record to the respective tile file
-            tile_data = {}
-            for isbn, title, holdings in rows:
-                try:
-                    tile_x, tile_y = calculate_tile_position(isbn)
+                            oclc_number = metadata.get("oclc_number") or record_data.get("oclcNumber")
+                            isbns = record_data.get("isbns", [])
+                            title = record_data.get("title", "Unknown Title")
 
-                    tile_key = f"tile_{tile_x}_{tile_y}"
-                    if tile_key not in tile_data:
-                        tile_data[tile_key] = []
+                            if oclc_number and isbns:
+                                for isbn in isbns:
+                                    normalized_isbn = normalize_isbn(isbn)
+                                    if normalized_isbn:
+                                        normalized_oclc = normalize_oclc(oclc_number)
+                                        # Check if the OCLC record exists in DB and isbn is not None
+                                        cursor.execute("""
+                                            SELECT COUNT(*) FROM oclc_holdings WHERE oclc_number = ? AND isbn_13 IS NOT NULL
+                                        """, (normalized_oclc,))
+                                        exists = cursor.fetchone()[0]
 
-                    tile_data[tile_key].append({
-                        "i": str(isbn),  # Convert to string for JSON
-                        "t": title,  # Title
-                        "h": holdings  # Holdings count
-                    })
+                                        if exists:
+                                            cursor.execute("""
+                                                UPDATE oclc_holdings
+                                                SET isbn_13 = ?, title = ?
+                                                WHERE oclc_number = ?
+                                            """, (normalized_isbn, title, normalized_oclc))
+                                            logging.info(f"Matched ISBN {normalized_isbn} to OCLC record {oclc_number}")
 
-                except ValueError as e:
-                    logging.error(f"Error processing ISBN {isbn}: {e}")
+                            line_counter += 1
+                            if number_of_lines and line_counter >= number_of_lines:
+                                conn.commit()
+                                return 
 
-            # Write collected tile data incrementally
-            for tile_key, records in tile_data.items():
-                tile_file = Path(OUTPUT_DIR) / f"{tile_key}.json"
-                if tile_file.exists():
-                    with tile_file.open("r+") as f:
-                        existing_data = json.load(f)
-                        existing_data.extend(records)
-                        f.seek(0)
-                        json.dump(existing_data, f, indent=2)
-                else:
-                    with tile_file.open("w") as f:
-                        json.dump(records, f, indent=2)
-
-                logging.info(f"Updated {len(records)} records in {tile_key}.json")
-
-            offset += BATCH_SIZE  # Move to the next batch
-
-    except sqlite3.OperationalError as e:
-        logging.error(f"Database error: {e}")
+                        except json.JSONDecodeError:
+                            logging.warning("Skipping invalid JSON line.")
+                        pbar.update(1)
+                    conn.commit()
+    except Exception as e:
+        logging.error(f"Error processing file: {str(e)}")
     finally:
         conn.close()
+        logging.info("ZST file processing complete.")
 
-    logging.info("Processing complete.")
+# --- Step 3: Export processed data to JSONL ---
+def export_to_jsonl(output_file="isbn_holdings_final.jsonl", number_of_books=100):
+    """Export processed ISBN holdings to a JSONL file."""
+    conn = sqlite3.connect(DB_FILE)
+    cursor = conn.cursor()
+    # export only number of books
+    cursor.execute("SELECT isbn_13, title, total_holding_count FROM oclc_holdings WHERE isbn_13 IS NOT NULL LIMIT ?", (number_of_books,))
+#    cursor.execute("SELECT isbn_13, title, total_holding_count FROM oclc_holdings WHERE isbn_13 IS NOT NULL")
+
+    with open(output_file, "w") as outfile:
+        for row in cursor.fetchall():
+            json.dump({
+                "i": row[0],  # ISBN 13-digit integer
+                "t": row[1],  # Title
+                "h": row[2]   # Holdings
+            }, outfile)
+            outfile.write("\n")
+
+    conn.close()
+    logging.info(f"Exported matched ISBNs to {output_file}")
+
+# --- Main execution workflow ---
+def main():
+    # Step 1: Initialize the database and load OCLC holdings
+    init_db()
+    load_oclc_holdings()
+
+    # Step 2: Process the .zst file and update records with ISBNs
+    process_zst_file(100000)
+
+    # Step 3: Export the final results
+    export_to_jsonl()
 
 if __name__ == "__main__":
-    fetch_isbns_in_batches()
+    main()
