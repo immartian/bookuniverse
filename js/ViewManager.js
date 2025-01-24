@@ -27,10 +27,10 @@ export class ViewManager {
     async handleZoom(data) {
         if (data.delta < 0) {
             if (this.currentView?.name === 'Global') {
-                await this.currentView.zoom_effect(data);  // Wait for zoom to complete
+                await this.currentView.zoom_effect(data, 5);  // Wait for zoom to complete
                 this.switchView('Zone', data);
             } else if (this.currentView?.name === 'Zone') {
-                await this.currentView.zoom_effect(data);  // Wait for zoom to complete
+                await this.currentView.zoom_effect(data, 10);  // Wait for zoom to complete
                 this.switchView('Societal', data);
             } 
             // else if (this.currentView?.name === 'Societal') {
@@ -43,11 +43,11 @@ export class ViewManager {
             // this.switchView('Societal');
             // } else 
             if (this.currentView?.name === 'Societal') {
-            console.log('Switching to Zone View');
-            this.switchView('Zone', data);
+                //await this.currentView.zoom_effect(data, 1/5);  
+                this.switchView('Zone', data);
             } else if (this.currentView?.name === 'Zone') {
-            console.log('Switching to Global View');
-            this.switchView('Global', data);
+                //await this.currentView.zoom_effect(data, 1/10);  
+                this.switchView('Global', data);
             }
         }
         

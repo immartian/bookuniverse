@@ -49,11 +49,11 @@ export class View {
         const ctx = this.overlayCtx;
         ctx.fillStyle = this.isbn_color;
         ctx.globalAlpha = 0.5;
-        ctx.fillRect(this.overlayCanvas.width - 200, this.overlayCanvas.height - 40, 190, 30);
+        ctx.fillRect(this.overlayCanvas.width - 400, this.overlayCanvas.height - 40, 190, 30);
         ctx.globalAlpha = 1;
         ctx.fillStyle = 'white';
         ctx.font = '16px Arial';
-        ctx.fillText(`ISBN: ${this.ISBN.calculateISBN(this.isbnIndex, true)}`, this.overlayCanvas.width - 180, this.overlayCanvas.height - 20);
+        ctx.fillText(`ISBN: ${this.ISBN.calculateISBN(this.isbnIndex, true)}`, this.overlayCanvas.width - 380, this.overlayCanvas.height - 20);
         ctx.globalAlpha = 1;
     }
     draw_map_thumbnail(ctx, scale, offsetX, offsetY) {
@@ -69,18 +69,16 @@ export class View {
         // draw a 2x2 yellow rectangle at the position relative to the total map (50000x40000) based on the offsets to this thumbnail box
         ctx.fillStyle = 'yellow';
         ctx.globalAlpha = 1;
-        x = Math.floor(offsetX / 50000 * width *scale) + this.overlayCanvas.width - 110;
-        y = Math.floor(offsetY / 40000 * height*scale) + 10;
-        ctx.fillRect(x, y, Math.max(4, 2*scale), Math.max(4, 2*Math.round(0.75*scale)));
-
-        ctx.globalAlpha = 1;
+        const map_x = Math.floor(offsetX / 50000 * width *scale) + x;
+        const map_y = Math.floor(offsetY / 40000 * height*scale) + y;
+        ctx.fillRect(map_x, map_y, Math.max(4, 2*scale), Math.max(4, 2*Math.round(0.75*scale)));
 
     }
 
     drawMapScale(ctx, text, x=null, y=null, length=100) {
-        // default set to left bottom corner
+        // default set to right bottom corner
         if (x === null)
-            x = 20;
+            x = this.overlayCanvas.width - 110;
         if (y === null)
             y = this.overlayCanvas.height - 20;
 

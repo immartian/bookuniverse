@@ -10,7 +10,7 @@ export class SocietalView extends View {
         this.offsetY = 0;
         this.scale = 1
         this.scaleWidth = 50000/this.scale;
-        this.rare = []; 
+        this.rarebooks = []; 
         this.rare_one = null;
     }
  
@@ -112,24 +112,21 @@ export class SocietalView extends View {
         this.draw_map_thumbnail(ctx, this.scale, this.offsetX, this.offsetY);
         this.drawMapScale(ctx, '100 📚');
 
+        // draw the rare books
+        this.rarebooks.forEach((book) => {
+                const color = 'green'; //exist ? 'green' : 'red';
+                ctx.font = '20px Arial';
 
-        // draw some random star emojis to illustarte rare books
-
-        for (const [x, y, exist] of this.rare) {
-
-            const color = exist ? 'green' : 'red';
-            ctx.font = '20px Arial';
- 
-            if (this.rare_one )
-                ctx.font = '30px Arial';
-            ctx.fillStyle = color;
-            if(exist) ctx.fillText('📗', x, y);
-            else ctx.fillText('📕', x, y);
-            //ctx.fillText('⭐', x, y);
-            // // Or use the hollow star "☆"
-            // ctx.fillText('☆', 200, 50); ⭐ ★
-        }
-        
+                if (this.rare_one)
+                    ctx.font = '30px Arial';
+                ctx.fillStyle = color;
+                // if (exist) ctx.fillText('📗', x, y);
+                // else ctx.fillText('📕', x, y);
+                ctx.fillText('⭐', book["x"], book["y"]);
+                // // Or use the hollow star "☆"
+                // ctx.fillText('☆', 200, 50); ⭐ ★
+            }
+        );        
     }
 
     handleHover(data) {
@@ -137,11 +134,6 @@ export class SocietalView extends View {
         const y = data.y + this.offsetY;
         this.isbnIndex = (x + (y * this.scaleWidth*this.scale))* this.scale;
         
-        // Show the ISBN number in the tooltip
-        this.tooltip.x = data.clientX;
-        this.tooltip.y = data.clientY;
-        this.tooltip.show("Scrool/Pinch to zoom out");   
-
         // prepare the zone if the mouse is over a country
         const isbn = this.ISBN.calculateISBN(this.isbnIndex);
         
@@ -155,10 +147,41 @@ export class SocietalView extends View {
         }
 
         // prepare the rare book which is under the mouse
-        this.rare_one = this.rare.find(([x1, y1, exist]) => {
+        this.rare_one = this.rarebooks.find((book) => {
             const x = data.x;
             const y = data.y;
-            return x >= x1 && x <= x1 + 20 && y >= y1 - 20 && y <= y1;
+            const title = book["t"];
+            const holdings = book["h"];
+            const rare_touch = x >= book["x"] && x <= book["x"] + 20 && y >= book["y"] - 20 && y <= book["y"];
+            if(rare_touch){
+                        // Show the ISBN number in the tooltip
+                this.tooltip.x = data.clientX;
+                this.tooltip.y = data.clientY;
+                // show the isbn cover image in tooltip
+                const isbn13 = book["i"];  //this.ISBN.calculateISBN(this.isbnIndex, true);
+                const part1 = String(isbn13).slice(-4, -2);
+                const part2 = String(isbn13).slice(-2);
+                                // Image URL pattern
+                const imageUrl = `https://images.isbndb.com/covers/${part1}/${part2}/${isbn13}.jpg`;
+
+                // make a tooltip with the bookcard style
+                const innerHTML = "<div class='book-card'><img src='"+imageUrl+"' alt='Book Cover' class='book-cover'>"+
+                "<div class='book-details'>"+
+                "<div class='book-title'>"+title+"</div>"+
+                "<div class='book-isbn'>"+isbn13+"</div>"+
+                "<div class='book-copies'>"+
+                "<span class='rare-icon'>"+( holdings)+"</span>"+ 
+                    //exist ? '🐾' : '📕')+"</span>"+
+                // (exist ? 'Rare' : 'Not Rare')+
+                "</div>"+
+                "</div>";
+                this.tooltip.show(innerHTML);
+
+            }
+            else
+                this.tooltip.hide();
+            
+            return rare_touch
         }     
         );
         
@@ -211,12 +234,17 @@ export class SocietalView extends View {
             )
         );
 
-        // get a new list of rare books
-        this.rare = [];
-        for (let i = 0; i < 2; i++) {
-            // random existing between true / false 
-            this.rare.push([Math.random() * this.baseCanvas.width, Math.random() * this.baseCanvas.height,  Math.random() < 0.5 ? true : false]);  
-        }
+        // get a new list of rare books for current view
+        fetch('./rarebooks.json').then(response => response.json())
+        .then(data => {
+            this.rarebooks = data;
+            // randomize a logcation for each book in this.rare as place holders along with existing "i"(isbn), "t"(title), and "h"(holdings)
+            this.rarebooks.forEach((book) => {
+                book["x"] = Math.random() * this.baseCanvas.width; 
+                book["y"] = Math.random() * this.baseCanvas.height;   
+            })
+        })
+
 
         this.drawBase();
         this.drawOverlay();

@@ -108,6 +108,7 @@ footer {
     flex-grow: 1;
 }
 .book-title {
+    color: #333;
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 5px;

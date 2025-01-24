@@ -4,7 +4,7 @@ import logging
 import math
 from pathlib import Path
 
-DB_FILE = "isbn_holdings.db"
+DB_FILE = "rare_books.db"
 OUTPUT_DIR = "tiles"
 BATCH_SIZE = 10000  # Process batch of records at a time
 BASE_ISBN = 978000000000  # 12-digit base ISBN
@@ -12,6 +12,7 @@ TOTAL_WIDTH = 50000
 TOTAL_HEIGHT = 40000
 TILE_WIDTH = 1000
 TILE_HEIGHT = 800
+RARE_THRESHOLD = 4
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
@@ -49,10 +50,11 @@ def fetch_isbns_in_batches():
             cursor.execute("""
                 SELECT isbn_13, title, total_holding_count
                 FROM oclc_holdings
-                WHERE isbn_13 IS NOT NULL
+                WHERE isbn_13 IS NOT NULL AND
+                total_holding_count <= ?
                 ORDER BY isbn_13 ASC
                 LIMIT ? OFFSET ?
-            """, (BATCH_SIZE, offset))
+            """, (RARE_THRESHOLD, BATCH_SIZE, offset))
 
             rows = cursor.fetchall()
             if not rows:

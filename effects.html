@@ -2,101 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ISBN Visualization</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .book-card {
+            display: flex;
+            width: 280px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 15px;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .book-cover {
+            width: 100px;
+            height: 150px;
+            object-fit: cover;
+            margin-right: 15px;
+            border-radius: 4px;
+        }
+        .book-details {
+            flex-grow: 1;
+        }
+        .book-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .book-isbn {
+            color: #666;
+            margin-bottom: 10px;
+        }
+        .book-copies {
+            display: flex;
+            align-items: center;
+            color: #333;
+        }
+        .rare-icon {
+            color: green;
+            margin-right: 8px;
+        }
+    </style>
 </head>
 <body>
-    <canvas id="zoomCanvas" width="1000" height="800"></canvas>
-    <script>
-      const canvas = document.getElementById("zoomCanvas");
-      const ctx = canvas.getContext("2d");
-    
-      // Image sources
-      const images = [
-        { src: "./images/all_isbns_1_50.png", scale: 50 },  // 1:50 view
-        { src: "./images/all_isbns_1_25.png", scale: 25 },  // 1:10 view
-        { src: "./images/all_isbns_1_10.png", scale: 10 }     // 1:1 view
-      ];
-    
-      let currentImageIndex = 0;
-      let zoomFactor = 1;
-      let targetZoom = 1;
-      let mouseX = 0, mouseY = 0;
-    
-      // Load images
-      let loadedImages = [];
-    
-      function loadImages() {
-        let loadedCount = 0;
-        images.forEach((image, index) => {
-          const img = new Image();
-          img.src = image.src;
-          img.onload = () => {
-            loadedImages[index] = img;
-            loadedCount++;
-            if (loadedCount === images.length) {
-              drawImage();
-            }
-          };
-        });
-      }
-    
-      function drawImage() {
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
-        
-        let img = loadedImages[currentImageIndex];
-        let scale = images[currentImageIndex].scale;
-    
-        // Calculate position to zoom to mouse cursor
-        let offsetX = (mouseX / canvas.width) * (img.width - canvas.width * zoomFactor);
-        let offsetY = (mouseY / canvas.height) * (img.height - canvas.height * zoomFactor);
-    
-        ctx.drawImage(
-          img,
-          offsetX, offsetY,                             // Crop start position (top-left)
-          canvas.width * zoomFactor, canvas.height * zoomFactor,  // Crop size
-          0, 0,                                         // Draw position on canvas
-          canvas.width, canvas.height                   // Canvas size
-        );
-    
-        if (Math.abs(targetZoom - zoomFactor) > 0.01) {
-          zoomFactor += (targetZoom - zoomFactor) * 0.1;  // Smooth interpolation
-          requestAnimationFrame(drawImage);
-        }
-      }
-    
-      // Handle mouse move to update cursor position
-      canvas.addEventListener("mousemove", (event) => {
-        const rect = canvas.getBoundingClientRect();
-        mouseX = event.clientX - rect.left;
-        mouseY = event.clientY - rect.top;
-      });
-    
-      // Handle zooming via mouse wheel
-      canvas.addEventListener("wheel", (event) => {
-        if (event.deltaY < 0) {
-          // Zoom in to the next image level
-          if (currentImageIndex < images.length - 1) {
-            currentImageIndex++;
-            targetZoom = images[currentImageIndex].scale / images[currentImageIndex - 1].scale;
-            zoomFactor = 1;
-            drawImage();
-          }
-        } else {
-          // Zoom out to the previous image level
-          if (currentImageIndex > 0) {
-            currentImageIndex--;
-            targetZoom = images[currentImageIndex].scale / images[currentImageIndex + 1].scale;
-            zoomFactor = 1;
-            drawImage();
-          }
-        }
-        event.preventDefault();
-      });
-    
-      loadImages();
-    </script>
-    
+    <div class="book-card">
+        <img src="https://s3proxy.cdn-zlib.sk//covers299/collections/userbooks/30faddc37ac544116a51a3551d92f2ca451432e6e8f21beb9550ae4b78682ef1.jpg" alt="Book Cover" class="book-cover">
+        <div class="book-details">
+            <div class="book-title">Diary of a Young Girl Anne Frank (Penguin Readers Audio Pack 4)</div>
+            <div class="book-isbn">ISBN: 9780582402317</div>
+            <div class="book-copies">
+                <span class="rare-icon">🐾</span>
+                3 copies
+            </div>
+        </div>
+    </div>
 </body>
-</html>`;
+</html>
