@@ -1,0 +1,482 @@
+[
+  {
+    "i": 9781493949168,
+    "t": "Bridgette : bridge made easy",
+    "h": 1
+  },
+  {
+    "i": 9781550940015,
+    "t": "WATCOM C library reference for QNX",
+    "h": 1
+  },
+  {
+    "i": 9781550940046,
+    "t": "Waterloo JANET network installation instructions",
+    "h": 1
+  },
+  {
+    "i": 9781550940244,
+    "t": "WATCOM C/386 : Windows programming guide for 32-bit applications",
+    "h": 1
+  },
+  {
+    "i": 9781550940282,
+    "t": "WATCOM C/386 : DOS programming guide for 32-bit applications",
+    "h": 1
+  },
+  {
+    "i": 9781551440101,
+    "t": "Colours",
+    "h": 1
+  },
+  {
+    "i": 9781551440156,
+    "t": "Goodnight, baby",
+    "h": 1
+  },
+  {
+    "i": 9781551440187,
+    "t": "Funny faces",
+    "h": 1
+  },
+  {
+    "i": 9781551440514,
+    "t": "Who's my baby?",
+    "h": 1
+  },
+  {
+    "i": 9781551440538,
+    "t": "Who's who at the zoo?",
+    "h": 1
+  },
+  {
+    "i": 9781551441436,
+    "t": "Sticker fun colors",
+    "h": 1
+  },
+  {
+    "i": 9781551441450,
+    "t": "Christmas carols stickers",
+    "h": 1
+  },
+  {
+    "i": 9781551441467,
+    "t": "Car",
+    "h": 1
+  },
+  {
+    "i": 9781555440107,
+    "t": "Introduction to the SAS System : building your basic skills, student workbook",
+    "h": 1
+  },
+  {
+    "i": 9781555440770,
+    "t": "Supplement for the SAS/CX compiler, release 3.1",
+    "h": 1
+  },
+  {
+    "i": 9781555440824,
+    "t": "Changes and enhancements to the version 5 SAS system under VSE",
+    "h": 1
+  },
+  {
+    "i": 9781555441005,
+    "t": "Getting started with System 2000 DBMS : an introductory user's guide",
+    "h": 1
+  },
+  {
+    "i": 9781555441265,
+    "t": "System 2000 DBMS interactive report writing with Genius",
+    "h": 1
+  },
+  {
+    "i": 9781555441487,
+    "t": "System 2000 DBMS, [Sperry 1100 series computers]",
+    "h": 1
+  },
+  {
+    "i": 9781555441524,
+    "t": "System 2000",
+    "h": 1
+  },
+  {
+    "i": 9781555441562,
+    "t": "System 2000 : introductory guide for SAS software users, IBM, OS and CMS",
+    "h": 1
+  },
+  {
+    "i": 9781555441616,
+    "t": "Changes and enhancements to System 2000 software, release 5.0 for Unisys 1100 and 2200 series computers",
+    "h": 1
+  },
+  {
+    "i": 9781555441777,
+    "t": "System 2000 introductory guide for SAS software users",
+    "h": 1
+  },
+  {
+    "i": 9781555441845,
+    "t": "System 2000 PLEX manual, version 12",
+    "h": 1
+  },
+  {
+    "i": 9781555441869,
+    "t": "System 2000 : CMS supplement",
+    "h": 1
+  },
+  {
+    "i": 9781555443030,
+    "t": "Data entry and retrieval with SAS/FSP software : student workbook",
+    "h": 1
+  },
+  {
+    "i": 9781555443047,
+    "t": "SAS views : SAS software for information center applications",
+    "h": 1
+  },
+  {
+    "i": 9781555443092,
+    "t": "The Generalized operating system interface for the SAS/C compiler run-time system, version 3.01",
+    "h": 1
+  },
+  {
+    "i": 9781555443139,
+    "t": "SAS basics : advanced topics",
+    "h": 1
+  },
+  {
+    "i": 9781555443368,
+    "t": "Changes and enhancements to the SAS system : release 5.18, under AOS/VS and PRIMOS",
+    "h": 1
+  },
+  {
+    "i": 9781555443399,
+    "t": "A guide for the SAS/C compiler consultant",
+    "h": 1
+  },
+  {
+    "i": 9781555443481,
+    "t": "A Guide to the SAS Notes, Sample Library, and online customer support facility : release 5.18",
+    "h": 1
+  },
+  {
+    "i": 9781555443665,
+    "t": "JMP : statistical visualization for the Apple Macintosh",
+    "h": 1
+  },
+  {
+    "i": 9781555443665,
+    "t": "JMP user's guide",
+    "h": 1
+  },
+  {
+    "i": 9781555443665,
+    "t": "JMP in : statistical visualization for the Apple Macintosh",
+    "h": 1
+  },
+  {
+    "i": 9781555443801,
+    "t": "Using the SAS micro-to-host link under VSE",
+    "h": 1
+  },
+  {
+    "i": 9781555443832,
+    "t": "A Guide to the SAS notes, sample library, and online customer support facility : release 6.06",
+    "h": 1
+  },
+  {
+    "i": 9781555443948,
+    "t": "Fundamentals of the SAS system",
+    "h": 1
+  },
+  {
+    "i": 9781555444426,
+    "t": "SAS/C CICS user's guide : release 5.00",
+    "h": 1
+  },
+  {
+    "i": 9781555444907,
+    "t": "SAS/PH-clinical software : your clinical data review system",
+    "h": 1
+  },
+  {
+    "i": 9781555445102,
+    "t": "SAS/NVISION software : menu guide, version 6",
+    "h": 1
+  },
+  {
+    "i": 9781555445140,
+    "t": "SAS/ACCESS interface to AS/400 data",
+    "h": 1
+  },
+  {
+    "i": 9781555445294,
+    "t": "SAS/ACCESS interface to OS/2 database manager : usage and rference : version 6",
+    "h": 1
+  },
+  {
+    "i": 9781555445737,
+    "t": "SAS/PH-Clinical software : administrator's reference, changes, and enhancements : releases 6.08 and 6.09",
+    "h": 1
+  },
+  {
+    "i": 9781555446246,
+    "t": "SAS/C technical report : SAS/C cross-platform compiler, usage, and reference : release 5.50",
+    "h": 1
+  },
+  {
+    "i": 9781555446543,
+    "t": "InfoTap software",
+    "h": 1
+  },
+  {
+    "i": 9781555447397,
+    "t": "SAS/CPE software for MVS : getting started with IBM RMF data and IBM DCOLLECT data",
+    "h": 1
+  },
+  {
+    "i": 9781555447403,
+    "t": "SAS/CPE software for open systems : getting started with HP OpenView network node manager data",
+    "h": 1
+  },
+  {
+    "i": 9781555447496,
+    "t": "Engineering statistics using JMP software",
+    "h": 1
+  },
+  {
+    "i": 9781555447502,
+    "t": "Selected SAS documentation : advanced topics in marketing research (spring 1996)",
+    "h": 1
+  },
+  {
+    "i": 9781555448097,
+    "t": "SAS/CPE software for open systems : getting started with HP OpenView network node manager data, IBM NetView for AIX data, and Cabletron systems SPECTRUM data",
+    "h": 1
+  },
+  {
+    "i": 9781555448301,
+    "t": "Selected SAS documentation : experimental research in marketing (fall 1996)",
+    "h": 1
+  },
+  {
+    "i": 9781555448844,
+    "t": "Selected SAS documentation for getting started with SAS software (1996-1997)",
+    "h": 1
+  },
+  {
+    "i": 9781555448998,
+    "t": "Selected SAS documentation : statistical computing with SAS software (spring 1997)",
+    "h": 1
+  },
+  {
+    "i": 9781556440038,
+    "t": "Jerome Charyn reads \"Secret Isaac\" : (excerpts)",
+    "h": 1
+  },
+  {
+    "i": 9781556440229,
+    "t": "Speer Morgan interview with Kay Bonetti",
+    "h": 1
+  },
+  {
+    "i": 9781556440649,
+    "t": "Helen Barolini reads Umbertina : (excerpts)",
+    "h": 1
+  },
+  {
+    "i": 9781556441042,
+    "t": "Interview",
+    "h": 1
+  },
+  {
+    "i": 9781556441073,
+    "t": "William Kennedy reads Legs, Billy Phelan's greatest game, and Ironweed : excerpts ; William Kennedy reads Ironweed and The ink truck : excerpts",
+    "h": 1
+  },
+  {
+    "i": 9781556441516,
+    "t": "Richard Ford reads The sportswriter : (first chapter) ; Richard Ford reads \"Rock Springs\" : (short story)",
+    "h": 1
+  },
+  {
+    "i": 9781556443824,
+    "t": "Paulette Jiles reads Cousins, Blackwater, and A manual of etiquette for young ladies crossing Canada by train",
+    "h": 1
+  },
+  {
+    "i": 9781556443831,
+    "t": "Paulette Jiles interview with Kay Bonetti",
+    "h": 1
+  },
+  {
+    "i": 9781556444111,
+    "t": "Larry Brown",
+    "h": 1
+  },
+  {
+    "i": 9781558940895,
+    "t": "The Bible on cassette. New Testament : King James Version",
+    "h": 1
+  },
+  {
+    "i": 9781558941144,
+    "t": "Santa's sleigh ride : 16 hit songs",
+    "h": 1
+  },
+  {
+    "i": 9781559947169,
+    "t": "Profiting from the bank and S & L crisis : [how anyone can find bargains at america's greatest garage sale]",
+    "h": 1
+  },
+  {
+    "i": 9781559948562,
+    "t": "The chronicles of Narnia. Tape one, The magician's nephew",
+    "h": 1
+  },
+  {
+    "i": 9781559948562,
+    "t": "The chronicles of Narnia. Tape four, Prince Caspian",
+    "h": 1
+  },
+  {
+    "i": 9781561444632,
+    "t": "Power Rangers combat evil : puzzles and mazes",
+    "h": 1
+  },
+  {
+    "i": 9781561446216,
+    "t": "Disney's Oliver & company : purr-fectly maddening mazes",
+    "h": 1
+  },
+  {
+    "i": 9781561448654,
+    "t": "Disney's the Lion King : circle of life mazes and puzzles",
+    "h": 1
+  },
+  {
+    "i": 9781562440770,
+    "t": "Who's who among American high school students, 1992-93. Vol. V. North Carolina, Tennessee : honoring tomorrow's leaders today",
+    "h": 1
+  },
+  {
+    "i": 9781562440824,
+    "t": "Who's who among American high school students, 1992-93. Vol. 10. Indiana, Michigan",
+    "h": 1
+  },
+  {
+    "i": 9781562943943,
+    "t": "Behind the scenes",
+    "h": 1
+  },
+  {
+    "i": 9781563443718,
+    "t": "Ma\u0301s alla\u0301 del dolor : el amor de Ebudesa puesto a prueba",
+    "h": 1
+  },
+  {
+    "i": 9781564440105,
+    "t": "HyperChem",
+    "h": 1
+  },
+  {
+    "i": 9781566940795,
+    "t": "Agano Jipya",
+    "h": 1
+  },
+  {
+    "i": 9781567443844,
+    "t": "Short suras for prayers with arabic text, English translation and transliteration",
+    "h": 1
+  },
+  {
+    "i": 9781567940343,
+    "t": "Standing to change/Changing to stand : guidelines for unity in the body of Christ",
+    "h": 1
+  },
+  {
+    "i": 9781568440491,
+    "t": "Literal Lee and his very own self",
+    "h": 1
+  },
+  {
+    "i": 9781568940397,
+    "t": "Native America : the art of Karl Bodmer circa 1833 : 1995 calendar",
+    "h": 1
+  },
+  {
+    "i": 9781569440308,
+    "t": "Branson : America's live entertainment show capital",
+    "h": 1
+  },
+  {
+    "i": 9781571440051,
+    "t": "The new American library of quotes",
+    "h": 1
+  },
+  {
+    "i": 9781571440099,
+    "t": "Symptoms & illnesses",
+    "h": 1
+  },
+  {
+    "i": 9781571940155,
+    "t": "Multimedia starter pak",
+    "h": 1
+  },
+  {
+    "i": 9781572940086,
+    "t": "Getting the most from Lotus 1-2-3",
+    "h": 1
+  },
+  {
+    "i": 9781572940727,
+    "t": "Managing your time and priorities",
+    "h": 1
+  },
+  {
+    "i": 9781572940871,
+    "t": "How top develop & maintain empowered teams.",
+    "h": 1
+  },
+  {
+    "i": 9781575940885,
+    "t": "Elementary science : the human body",
+    "h": 1
+  },
+  {
+    "i": 9781578440238,
+    "t": "Privacy and intellectual freedom in the digital library",
+    "h": 1
+  },
+  {
+    "i": 9781578440252,
+    "t": "Who holds the keys? : cryptography & control : national security vs. personal privacy",
+    "h": 1
+  },
+  {
+    "i": 9781578440283,
+    "t": "Freedom & privacy in the information society : a European perspective",
+    "h": 1
+  },
+  {
+    "i": 9781578440399,
+    "t": "China and the Internet",
+    "h": 1
+  },
+  {
+    "i": 9781578440405,
+    "t": "Casino economics and the new world disorder",
+    "h": 1
+  },
+  {
+    "i": 9781579440190,
+    "t": "1810 Rutherford, Sampson, Warren Cos., NC",
+    "h": 1
+  },
+  {
+    "i": 9781579440244,
+    "t": "Family history : Connecticut genealogies",
+    "h": 1
+  }
+]

@@ -1,0 +1,782 @@
+[
+  {
+    "i": 9788070110133,
+    "t": "Autokempinky C\u030cSSR = [Kempingi] = Autocampings = Campingpla\u0308tze",
+    "h": 1
+  },
+  {
+    "i": 9788070110232,
+    "t": "Rostlinstvo a zvi\u0301r\u030cena Zeme\u030c",
+    "h": 1
+  },
+  {
+    "i": 9788070110409,
+    "t": "SSSR, evropska\u0301 c\u030ca\u0301st 1:2 000 000, automapa",
+    "h": 1
+  },
+  {
+    "i": 9788070110508,
+    "t": "Gdan\u030cske\u0301 pobr\u030cez\u030ci\u0301 1:220 000",
+    "h": 1
+  },
+  {
+    "i": 9788070110942,
+    "t": "London, town plan = Pla\u0301n me\u030csta",
+    "h": 1
+  },
+  {
+    "i": 9788070110997,
+    "t": "Jugosla\u0301vie, Alba\u0301nie, automapa 1:750 000 = Jugoslavija, Albanija, autokarta = Yugoslavia, Albania, road map",
+    "h": 1
+  },
+  {
+    "i": 9788070111017,
+    "t": "Autokempinky CS = Autocampings = Campingpla\u0308tze = [Kempingi]",
+    "h": 1
+  },
+  {
+    "i": 9788070111024,
+    "t": "Skandina\u0301vie, automapa 1:1 800 000 = Skandinavien, bilkort = Scandinavia, road map",
+    "h": 1
+  },
+  {
+    "i": 9788070111031,
+    "t": "S\u030cvy\u0301carsko, automapa 1:400 000 = Schweiz, Autokarte = Switzerland, road map",
+    "h": 1
+  },
+  {
+    "i": 9788070111079,
+    "t": "Moskva, pla\u0301n me\u030csta = [Moskva, plan goroda] = Town plan",
+    "h": 1
+  },
+  {
+    "i": 9788070111130,
+    "t": "S\u030cpane\u030clsko, Portugalsko, automapa 1:1 500 000",
+    "h": 1
+  },
+  {
+    "i": 9788070111147,
+    "t": "Paris, pla\u0301n me\u030csta = Plan de la ville = Town plan",
+    "h": 1
+  },
+  {
+    "i": 9788070111222,
+    "t": "Ne\u030cmecko a sta\u0301ty Beneluxu, automapa 1:1 500 000",
+    "h": 1
+  },
+  {
+    "i": 9788070111284,
+    "t": "Wien & Vi\u0301den\u030c, pla\u0301n str\u030cedu me\u030csta",
+    "h": 1
+  },
+  {
+    "i": 9788070111420,
+    "t": "R\u030ci\u0301m, pla\u0301n str\u030cedu me\u030csta = Roma",
+    "h": 1
+  },
+  {
+    "i": 9788070111789,
+    "t": "K\u00f8benhavn = Kodan\u030c, pla\u0301n me\u030csta : s textem a mapou okoli\u0301",
+    "h": 1
+  },
+  {
+    "i": 9788070111796,
+    "t": "Stockholm, pla\u0301n me\u030csta : s textem a mapou okoli\u0301",
+    "h": 1
+  },
+  {
+    "i": 9788070111802,
+    "t": "Bruxelles = Brusel, pla\u0301n me\u030csta : s textem a mapou okoli\u0301",
+    "h": 1
+  },
+  {
+    "i": 9788070111871,
+    "t": "Turisticka\u0301 mapa 1:50,000 : [C\u030ceska\u0301 republika] = Wanderkarte : [Tschechische Republik]",
+    "h": 1
+  },
+  {
+    "i": 9788070112069,
+    "t": "Ita\u0301lie 1:1 000 000, automapa : nejzaji\u0301mave\u030cjs\u030ci\u0301 turisticke\u0301 ci\u0301le = Carta stradale = Road map",
+    "h": 1
+  },
+  {
+    "i": 9788070112175,
+    "t": "Czechoslovakia roads & rails : this kit contains--Road map 1:500,000, official rail map, map of European rails",
+    "h": 1
+  },
+  {
+    "i": 9788070112182,
+    "t": "Praha v noci : v noci = In der Nacht = At night = Della notte",
+    "h": 1
+  },
+  {
+    "i": 9788070112403,
+    "t": "Amsterdam = Amsterodam, pla\u0301n str\u030cedu me\u030csta : s textem a pla\u0301nkem okoli\u0301",
+    "h": 1
+  },
+  {
+    "i": 9788070112489,
+    "t": "Evropa, politicka\u0301 mapa : 1:6 000 000",
+    "h": 1
+  },
+  {
+    "i": 9788070112557,
+    "t": "Athi\u0301na, pla\u0301n me\u030csta : s rejstr\u030ci\u0301kem ulic = Athe\u0301ny",
+    "h": 1
+  },
+  {
+    "i": 9788070112564,
+    "t": "Paris = Par\u030ci\u0301z\u030c, pla\u0301n me\u030csta : s rejstr\u030ci\u0301kem ulic",
+    "h": 1
+  },
+  {
+    "i": 9788070112571,
+    "t": "Venezia = Bena\u0301tky, pla\u0301n me\u030csta : s rejstr\u030ci\u0301kem ulic",
+    "h": 1
+  },
+  {
+    "i": 9788070112588,
+    "t": "Firenze = Florencie, pla\u0301n me\u030csta : s rejstr\u030ci\u0301kem ulic",
+    "h": 1
+  },
+  {
+    "i": 9788070113158,
+    "t": "Belgie, Nizozemsko, Lucembursko 1:750 000, automapa : rejstr\u030ci\u0301k vs\u030cech na\u0301zvu\u030a = Wegenkaart = Road map",
+    "h": 1
+  },
+  {
+    "i": 9788070113219,
+    "t": "Slovinsko, Chorvatsko, Istrie 1:750 000, automapa : nejzaji\u0301mave\u030cjs\u030ci\u0301 turisticke\u0301 ci\u0301le = Avtokarta = Road map",
+    "h": 1
+  },
+  {
+    "i": 9788070113363,
+    "t": "Velky\u0301 autoatlas - C\u030ceska\u0301 republika - Slovenska\u0301 republika - 6.vyda\u0301ni",
+    "h": 1
+  },
+  {
+    "i": 9788070114025,
+    "t": "Autokempinky C\u030ceske\u0301 republiky 1:800 000, automapa : voda\u0301cka\u0301 ta\u0301bor\u030cis\u030cte\u030c = Autokarte = Road map",
+    "h": 1
+  },
+  {
+    "i": 9788070114476,
+    "t": "C\u030ceskosaske\u0301 S\u030cvy\u0301carsko 1:50 000",
+    "h": 1
+  },
+  {
+    "i": 9788085111262,
+    "t": "Seznam podnikovy\u0301ch norem",
+    "h": 1
+  },
+  {
+    "i": 9788085111279,
+    "t": "Seznam c\u030cesky\u0301ch norem : stav k 1.1.1996",
+    "h": 1
+  },
+  {
+    "i": 9788085111293,
+    "t": "Dodatek k seznamu c\u030cesky\u0301ch norem platny\u0301ch k 31. 12. 1993",
+    "h": 1
+  },
+  {
+    "i": 9788085111330,
+    "t": "Seznam mezina\u0301rodni\u0301ch a evropsky\u0301ch norem a dokumentu\u030a zapracovany\u0301ch do C\u030cSN : stav k 30. 6. 1994",
+    "h": 1
+  },
+  {
+    "i": 9788085111347,
+    "t": "Seznam c\u030cesky\u0301ch norem : stav k 1. 1. 1995",
+    "h": 1
+  },
+  {
+    "i": 9788085111354,
+    "t": "Rejstr\u030ci\u0301k c\u030cesky\u0301ch norem tr\u030ci\u0301de\u030cny\u0301 podle c\u030ceske\u0301 klasifikace C\u030cSN a mezina\u0301rodni\u0301 klasifikace ICS",
+    "h": 1
+  },
+  {
+    "i": 9788085111392,
+    "t": "Stavba vozovek",
+    "h": 1
+  },
+  {
+    "i": 9788085111408,
+    "t": "Zdravotni\u0301 instalace budov : (plyn, voda, kanalizace)",
+    "h": 1
+  },
+  {
+    "i": 9788085111439,
+    "t": "Maltovinova\u0301 pojiva",
+    "h": 1
+  },
+  {
+    "i": 9788085111460,
+    "t": "Spojovaci\u0301 souc\u030ca\u0301sti : vy\u0301be\u030cr z norem. Di\u0301l 1, S\u030crouby a matice",
+    "h": 1
+  },
+  {
+    "i": 9788085112184,
+    "t": "Pardubicke\u0301 valy 95 : slovens\u030cti\u0301 sochar\u030ci : vy\u0301stava soch 25. c\u030cervna - 10. za\u0301r\u030ci\u0301 1995",
+    "h": 1
+  },
+  {
+    "i": 9788085113518,
+    "t": "Agrochemie",
+    "h": 1
+  },
+  {
+    "i": 9788085113587,
+    "t": "Ochrana a tvorba krajiny : Urc\u030ceno pro u\u0301c\u030castni\u0301ky distanc\u030cni\u0301ho vzde\u030cla\u0301va\u0301ni\u0301 v oboru u\u0301zemni\u0301 spra\u0301vy",
+    "h": 1
+  },
+  {
+    "i": 9788085113679,
+    "t": "Ekonomika a r\u030ci\u0301zeni\u0301 tvorby a ochrany z\u030civotni\u0301ho prostr\u030cedi\u0301 : vybrane\u0301 kapitoly",
+    "h": 1
+  },
+  {
+    "i": 9788085113686,
+    "t": "Ekoanaly\u0301za",
+    "h": 1
+  },
+  {
+    "i": 9788085113778,
+    "t": "Sborni\u0301k ve\u030cdecky\u0301ch praci\u0301 - Vysoka\u0301 s\u030ckola chemicko-technologicka\u0301 Pardubice = Scientific Papers - University of Chemical Technology Pardubice. 57 (1994)",
+    "h": 1
+  },
+  {
+    "i": 9788085113884,
+    "t": "Operac\u030cni\u0301 vy\u0301zkum III",
+    "h": 1
+  },
+  {
+    "i": 9788085113891,
+    "t": "Zvys\u030cova\u0301ni\u0301 z\u030civotnosti dopravni\u0301ch zar\u030ci\u0301zeni\u0301 : Urc\u030ceno pro posl. Dopravni\u0301 fak. Jana Pernera Univ. Pardubice",
+    "h": 1
+  },
+  {
+    "i": 9788085113938,
+    "t": "Identifikace a stanoveni\u0301 cizorody\u0301ch, toxikologicky vy\u0301znamny\u0301ch organicky\u0301ch la\u0301tek v materia\u0301lech a prostr\u030cedi\u0301. 6, Mikrobiologicka\u0301 kontrola v klinicke\u0301 a technicke\u0301 praxi. Obecna\u0301 c\u030ca\u0301st",
+    "h": 1
+  },
+  {
+    "i": 9788085113976,
+    "t": "Matematika III",
+    "h": 1
+  },
+  {
+    "i": 9788085113983,
+    "t": "Vybrane\u0301 rovnice z Fyziky I",
+    "h": 1
+  },
+  {
+    "i": 9788085118230,
+    "t": "Kam na s\u030ckolu, kam do uc\u030ceni\u0301? : vzde\u030cla\u0301vaci\u0301 nabi\u0301dka pro s\u030ckolni\u0301 rok 1997-1998",
+    "h": 1
+  },
+  {
+    "i": 9788085118254,
+    "t": "Spolupra\u0301ce s\u030ckol a podniku\u030a v profesni\u0301 pr\u030ci\u0301prave\u030c : sborni\u0301k refera\u0301tu\u030a ze 4. mezina\u0301rodni\u0301ho kongresu konane\u0301ho v Krome\u030cr\u030ci\u0301z\u030ci ve dnech 20.-22. kve\u030ctna 1997",
+    "h": 1
+  },
+  {
+    "i": 9788085611311,
+    "t": "Zorro - C\u030cerny\u0301 jezdec",
+    "h": 1
+  },
+  {
+    "i": 9788085611441,
+    "t": "Biggles v jiz\u030cni\u0301ch mor\u030ci\u0301ch",
+    "h": 1
+  },
+  {
+    "i": 9788085611465,
+    "t": "Pr\u030ci\u0301pad nastraz\u030cene\u0301 na\u0301vnady",
+    "h": 1
+  },
+  {
+    "i": 9788085612639,
+    "t": "Odpus\u030cte\u030cni\u0301 : odva\u0301z\u030cna\u0301 volba k dosaz\u030ceni\u0301 klidu v srdci",
+    "h": 1
+  },
+  {
+    "i": 9788085612912,
+    "t": "Blanko, pr\u030cedstav si- : di\u0301vc\u030ci\u0301 roma\u0301n",
+    "h": 1
+  },
+  {
+    "i": 9788085612936,
+    "t": "Osteoporo\u0301za : rady le\u0301kar\u030ce nemocny\u0301m osteoporo\u0301zou (pror\u030ci\u0301dnuti\u0301m kosti\u0301)",
+    "h": 1
+  },
+  {
+    "i": 9788085614381,
+    "t": "Podej mi ruku, Radko!",
+    "h": 1
+  },
+  {
+    "i": 9788085615333,
+    "t": "9. European congress of lepidopterology = 9. Europa\u0308ischer Kongress fu\u0308r Lepidopterologie = 9. Congre\u0300s europe\u0301en de le\u0301pidopte\u0301rologie = 9. evropsky\u0301 lepidopterologicky\u0301 kongres : Lednice 5-9 september 1994",
+    "h": 1
+  },
+  {
+    "i": 9788085615494,
+    "t": "Prof. MUDr. et. MVDr. h.c. Edward Baba\u0301k : (1873-1926) : na pame\u030ct\u030c 70. vy\u0301roc\u030ci\u0301 smrti zakladatele Veterina\u0301rni\u0301 a farmaceuticke\u0301 univerzity Brno",
+    "h": 1
+  },
+  {
+    "i": 9788085617702,
+    "t": "Jedena\u0301ct japonsky\u0301ch tank",
+    "h": 1
+  },
+  {
+    "i": 9788085617917,
+    "t": "Dobrodruz\u030cne\u0301 lovy",
+    "h": 1
+  },
+  {
+    "i": 9788086111018,
+    "t": "Poz\u030ca\u0301rni\u0301 ochrana '97 : sborni\u0301k pr\u030cedna\u0301s\u030cek konference s mezina\u0301rodni\u0301 u\u0301c\u030casti\u0301 : [Ostrava 27.-28. srpna 1997]",
+    "h": 1
+  },
+  {
+    "i": 9788086117041,
+    "t": "Bez li\u0301tosti",
+    "h": 1
+  },
+  {
+    "i": 9788090110328,
+    "t": "Vy\u0301be\u030crova\u0301 osame\u030clost : povi\u0301dky",
+    "h": 1
+  },
+  {
+    "i": 9788090112285,
+    "t": "C\u030cerna\u0301 R\u030ceka - Sophienthal : 1795-1995",
+    "h": 1
+  },
+  {
+    "i": 9788090112957,
+    "t": "Hovory s lamou Ole Nydahlem",
+    "h": 1
+  },
+  {
+    "i": 9788090113053,
+    "t": "Nove\u0301 za\u0301kony : pri soukrome\u0301m podnika\u0301ni\u0301",
+    "h": 1
+  },
+  {
+    "i": 9788090115200,
+    "t": "Semena\u0301rstvo poln\u0315y\u0301ch plodi\u0301n",
+    "h": 1
+  },
+  {
+    "i": 9788090116078,
+    "t": "Kl\u0313u\u0301c\u030c do sveta : anglic\u030ctina",
+    "h": 1
+  },
+  {
+    "i": 9788090116740,
+    "t": "Lesni\u0301ctvo a vy\u0301skum v meniacich sa ekologicky\u0301ch a ekonomicky\u0301ch podmienkach v Slovenskej republike : jubilejna\u0301 konferencia",
+    "h": 1
+  },
+  {
+    "i": 9788090117334,
+    "t": "Pravidla\u0301 cestnej prema\u0301vky : a d\u0315als\u030cie su\u0301visiace predpisy : dopravne\u0301 znac\u030cky, podmienky preva\u0301dzky vozidiel, dopravne\u0301 situa\u0301cie, testy",
+    "h": 1
+  },
+  {
+    "i": 9788090118584,
+    "t": "Za\u0301kladni\u0301 pra\u0301vni\u0301 pr\u030cedpisy III : Pr\u030cedpisy pracovni\u0301ho pra\u0301va a socia\u0301lni\u0301ho zabezpec\u030ceni\u0301. [Di\u0301l] 2",
+    "h": 1
+  },
+  {
+    "i": 9788090118652,
+    "t": "Vedeni\u0301 lidi\u0301 k vys\u030cs\u030ci\u0301 vy\u0301konnosti",
+    "h": 1
+  },
+  {
+    "i": 9788090118690,
+    "t": "Ume\u030cni\u0301 z\u030ci\u0301t",
+    "h": 1
+  },
+  {
+    "i": 9788090118997,
+    "t": "Novy\u0301 Za\u0301kon : kristologie",
+    "h": 1
+  },
+  {
+    "i": 9788090119307,
+    "t": "Trosky",
+    "h": 1
+  },
+  {
+    "i": 9788122110043,
+    "t": "Thuthung Thar, Sam le Thuvarhai",
+    "h": 1
+  },
+  {
+    "i": 9788122110890,
+    "t": "Tabme Anosaijan",
+    "h": 1
+  },
+  {
+    "i": 9788122113518,
+    "t": "Pathian Lehkhabu thianghlim : Thuthlung Hlui leh Thuthlung Thar",
+    "h": 1
+  },
+  {
+    "i": 9788122114768,
+    "t": "Thuthlung Thar, Sa\u0302m nih Thuva\u0302rhei",
+    "h": 1
+  },
+  {
+    "i": 9788122116823,
+    "t": "I hukdampa leh lalpa Jesu Krista Thuthung Thak",
+    "h": 1
+  },
+  {
+    "i": 9788170110545,
+    "t": "Hama\u0304re par\u0323osi\u0304",
+    "h": 1
+  },
+  {
+    "i": 9788170112464,
+    "t": "Amara Katha\u0304em\u0323",
+    "h": 1
+  },
+  {
+    "i": 9788170113102,
+    "t": "Apaharan\u0323a",
+    "h": 1
+  },
+  {
+    "i": 9788170113195,
+    "t": "Hama\u0304re Vaijna\u0304nika",
+    "h": 1
+  },
+  {
+    "i": 9788170113232,
+    "t": "Pratis\u0301odha",
+    "h": 1
+  },
+  {
+    "i": 9788170113256,
+    "t": "Kuku\u0304 ghav\u0323i\u0304",
+    "h": 1
+  },
+  {
+    "i": 9788170113348,
+    "t": "\u0917\u094b\u092e\u094d\u092a\u093e \u0915\u0947 \u0905\u092e\u0942\u0932\u094d\u092f \u0939\u093e\u0930 \u0915\u093e \u0930\u0939\u0938\u094d\u092f",
+    "h": 1
+  },
+  {
+    "i": 9788170113447,
+    "t": "Apu\u0304rva Sa\u0304hasa",
+    "h": 1
+  },
+  {
+    "i": 9788170114352,
+    "t": "\u0915\u092e\u094d\u092a\u094d\u092f\u0942\u091f\u0930 \u0915\u0947 \u091c\u093e\u0932 \u092e\u0947\u0902",
+    "h": 1
+  },
+  {
+    "i": 9788170114772,
+    "t": "Kha\u0304i\u0304 ke usa pa\u0304ra",
+    "h": 1
+  },
+  {
+    "i": 9788170114819,
+    "t": "Apara\u0304jita\u0304",
+    "h": 1
+  },
+  {
+    "i": 9788170115502,
+    "t": "Abhinava kaha\u0304niya\u0304n",
+    "h": 1
+  },
+  {
+    "i": 9788171110025,
+    "t": "Code of civil procedure : a commentary on Act-V of 1908, as amended up-to-date alongwith state amendments",
+    "h": 1
+  },
+  {
+    "i": 9788171611881,
+    "t": "\u091a\u093e\u0923\u0915\u094d\u092f",
+    "h": 1
+  },
+  {
+    "i": 9788171612420,
+    "t": "Rucira\u0304",
+    "h": 1
+  },
+  {
+    "i": 9788172110222,
+    "t": "Limitation of balance sheet",
+    "h": 1
+  },
+  {
+    "i": 9788185613963,
+    "t": "Natural environment of India : (resources, planning and management)",
+    "h": 1
+  },
+  {
+    "i": 9788202111779,
+    "t": "Liv Haug : norsk misjon\u00e6r, ordf\u00f8rer og anleggsbas i Amazonas-jungelen",
+    "h": 1
+  },
+  {
+    "i": 9788202111939,
+    "t": "Kasteballer og ballkastere",
+    "h": 1
+  },
+  {
+    "i": 9788202113353,
+    "t": "Gode venner : om Petter og Kari og vesle Brumle--og Marit og Ola-Ola Heia",
+    "h": 1
+  },
+  {
+    "i": 9788202113384,
+    "t": "Hun som samlet skatter : og andre historier av afrikanske kvinner",
+    "h": 1
+  },
+  {
+    "i": 9788202116613,
+    "t": "Drucker om ledelse",
+    "h": 1
+  },
+  {
+    "i": 9788202118235,
+    "t": "Erling Andersen og halve kongeriket : eit skodespel",
+    "h": 1
+  },
+  {
+    "i": 9788203111853,
+    "t": "Flagget til topps",
+    "h": 1
+  },
+  {
+    "i": 9788203112157,
+    "t": "Den Store barnesangboka",
+    "h": 1
+  },
+  {
+    "i": 9788203114519,
+    "t": "Barn og jobb : hvordan klarer bi det?",
+    "h": 1
+  },
+  {
+    "i": 9788203118234,
+    "t": "Fantasi og f\u00f8lelser : praktisk mentalhygiene i hverdagen",
+    "h": 1
+  },
+  {
+    "i": 9788205110151,
+    "t": "Jegerliv pa\u030a Holleia og i A\u030adalsskogene",
+    "h": 1
+  },
+  {
+    "i": 9788205112810,
+    "t": "Vi ma\u030a sta\u030a sammen",
+    "h": 1
+  },
+  {
+    "i": 9788205113152,
+    "t": "Gode a\u030ar som pensjonist",
+    "h": 1
+  },
+  {
+    "i": 9788205113916,
+    "t": "Mitt \u00d8dipuskompleks og andre noveller",
+    "h": 1
+  },
+  {
+    "i": 9788205115811,
+    "t": "Lovsang pa\u030a en bla\u030amandag : en ung prests m\u00f8te med drabantbyen",
+    "h": 1
+  },
+  {
+    "i": 9788205116573,
+    "t": "Sverd i Lankhmar",
+    "h": 1
+  },
+  {
+    "i": 9788205117372,
+    "t": "Innover i parken",
+    "h": 1
+  },
+  {
+    "i": 9788205117556,
+    "t": "Fra\u030a Breheim til Mj\u00f8sstrand",
+    "h": 1
+  },
+  {
+    "i": 9788205118027,
+    "t": "Dronning Orakel : roman",
+    "h": 1
+  },
+  {
+    "i": 9788205118348,
+    "t": "Nordiske drikkeviser",
+    "h": 1
+  },
+  {
+    "i": 9788205118478,
+    "t": "A\u030arets rytme : vi lager va\u030ar egen primstav",
+    "h": 1
+  },
+  {
+    "i": 9788205119635,
+    "t": "Det store manneoppr\u00f8ret",
+    "h": 1
+  },
+  {
+    "i": 9788251614245,
+    "t": "De glade 50-a\u030arene",
+    "h": 1
+  },
+  {
+    "i": 9788251615402,
+    "t": "\u00d8stmarka naturreservat : Oslos siste villmark",
+    "h": 1
+  },
+  {
+    "i": 9788251616409,
+    "t": "Hvem er hvem i norsk idrett?",
+    "h": 1
+  },
+  {
+    "i": 9788273110046,
+    "t": "Herrens glade trubadur : Broder Aage",
+    "h": 1
+  },
+  {
+    "i": 9788276110050,
+    "t": "Hvordan arbeide med Nytestamentlige tekster : innf\u00f8ring i bibelfaglig metode",
+    "h": 1
+  },
+  {
+    "i": 9788276610147,
+    "t": "Helsetkalenderen : skrivekunne i Volda pa\u030a 1700-talet",
+    "h": 1
+  },
+  {
+    "i": 9788290115222,
+    "t": "Bilen kommer til Norge",
+    "h": 1
+  },
+  {
+    "i": 9788290117073,
+    "t": "Ga\u030arden Tande og dens slekter",
+    "h": 1
+  },
+  {
+    "i": 9788290117110,
+    "t": "Gausdal, 100 a\u030ar pa\u030a fjellet : fra Gausdal sanatorium 1876 til Gausdal h\u00f8ifjellshotell 1976",
+    "h": 1
+  },
+  {
+    "i": 9788299110822,
+    "t": "Hvem gj\u00f8r hva? : oversikt over offentlige kontorer, institusjoner, foreninger, fritidsklubber, tidsskrifter, radiostasjoner med tilknytning til innvandrere",
+    "h": 1
+  },
+  {
+    "i": 9788299118026,
+    "t": "Norske illustrerte b\u00f8ker, 1933-1983",
+    "h": 1
+  },
+  {
+    "i": 9788299118507,
+    "t": "Jernutvinning pa\u030a Hovden",
+    "h": 1
+  },
+  {
+    "i": 9788299118606,
+    "t": "Sell\u00e6gslekta : Peder Halvorsen Sell\u00e6gs etterslekt 1711-1978",
+    "h": 1
+  },
+  {
+    "i": 9788299118798,
+    "t": "Fast i fisken? : en analyse av fiskerin\u00e6ringens markedsmuligheter, styringsproblemer og innovasjonsevne",
+    "h": 1
+  },
+  {
+    "i": 9788299119610,
+    "t": "Velbekomme",
+    "h": 1
+  },
+  {
+    "i": 9788299119702,
+    "t": "Botnedalen",
+    "h": 1
+  },
+  {
+    "i": 9788305117104,
+    "t": "Wyspa pinguino\u0301w",
+    "h": 1
+  },
+  {
+    "i": 9788370110390,
+    "t": "Statystyka ekonomicznych zjawisk z\u0142oz\u0307onych, wykrywanie i analiza niejednorodnych rozk\u0142ado\u0301w wielowymiarowych",
+    "h": 1
+  },
+  {
+    "i": 9788370110512,
+    "t": "Relacje--wydajnos\u0301c\u0301 pracy, p\u0142ace w przemys\u0301le uspo\u0142ecznionym w latach 1978-1985",
+    "h": 1
+  },
+  {
+    "i": 9788370110567,
+    "t": "Wp\u0142yw ro\u0301z\u0307nych sposobo\u0301w sterowania, szczego\u0301lnie regulacji pH, na stabilnos\u0301c\u0301 procesu i efektywnos\u0301c\u0301 hodowli cia\u0328g\u0142ej droz\u0307dz\u0307y paszowych Candida utilis",
+    "h": 1
+  },
+  {
+    "i": 9788370110604,
+    "t": "Rynkowe uwarunkowania zachowan\u0301 komsumpcyjnych gospodarstw domowych",
+    "h": 1
+  },
+  {
+    "i": 9788370110871,
+    "t": "Zmiany w zatrudnieniu w rolnictwie makroregionu po\u0142udniowo-zachodniego",
+    "h": 1
+  },
+  {
+    "i": 9788370110895,
+    "t": "Rachunek wyniko\u0301w i jego funkcjonowanie w podmiocie gospodarczym",
+    "h": 1
+  },
+  {
+    "i": 9788370110901,
+    "t": "Podejmowanie decyzji w warunkach niepewnos\u0301ci",
+    "h": 1
+  },
+  {
+    "i": 9788370110956,
+    "t": "Finansowe aspekty dzia\u0142alnos\u0301ci pan\u0301stwa w ochronie s\u0301rodowiska",
+    "h": 1
+  },
+  {
+    "i": 9788370110963,
+    "t": "Ekonometryczne modelowanie proceso\u0301w gospodarczych : modele ze zmiennymi i losowymi parametrami",
+    "h": 1
+  },
+  {
+    "i": 9788370111052,
+    "t": "Regionalne i lokalne rynki pracy na Dolnym S\u0301la\u0328sku",
+    "h": 1
+  },
+  {
+    "i": 9788370111397,
+    "t": "Integracja wschodnioeuropejska : powstanie, funkcjonowanie i upadek",
+    "h": 1
+  },
+  {
+    "i": 9788370111670,
+    "t": "Bibliografia publikacji pracowniko\u0301w Akademii Ekonomicznej imienia Oskara Langego we Wroc\u0142awiu za lata 1990-1991",
+    "h": 1
+  },
+  {
+    "i": 9788390114910,
+    "t": "Warszawa, przewodnik, plan miasta",
+    "h": 1
+  }
+]

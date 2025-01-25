@@ -1,0 +1,512 @@
+[
+  {
+    "i": 9782550130079,
+    "t": "Remblayage des approches d'un pont",
+    "h": 1
+  },
+  {
+    "i": 9782550130086,
+    "t": "Rechaussement de fondations",
+    "h": 1
+  },
+  {
+    "i": 9782550130093,
+    "t": "Fosse\u0301s, selon la me\u0301thode transversale",
+    "h": 1
+  },
+  {
+    "i": 9782550130109,
+    "t": "Routes droites avec fosse\u0301s",
+    "h": 1
+  },
+  {
+    "i": 9782550130116,
+    "t": "Fosse\u0301s, selon la me\u0301thode longitudinale",
+    "h": 1
+  },
+  {
+    "i": 9782550130123,
+    "t": "Routes dans une pente",
+    "h": 1
+  },
+  {
+    "i": 9782550130130,
+    "t": "Sections de routes courbes avec fosse\u0301s",
+    "h": 1
+  },
+  {
+    "i": 9782550130147,
+    "t": "Croise\u0301es de routes, avec fosse\u0301s",
+    "h": 1
+  },
+  {
+    "i": 9782550130154,
+    "t": "Routes et fosse\u0301s avec courbes",
+    "h": 1
+  },
+  {
+    "i": 9782550130161,
+    "t": "Creusage d'excavations rectangulaires, en vue d'asseoir des fondations, avec entre\u0301e de garage",
+    "h": 1
+  },
+  {
+    "i": 9782550130178,
+    "t": "Creusage d'excavations aux contours irre\u0301guliers, en vue d'asseoir des fondations",
+    "h": 1
+  },
+  {
+    "i": 9782550130185,
+    "t": "Creusage d'excavations a\u0300 niveaux multiples, en vue d'asseoir des fondations",
+    "h": 1
+  },
+  {
+    "i": 9782550130192,
+    "t": "Creusage d'excavations complexes, en vue d'asseoir des fondations",
+    "h": 1
+  },
+  {
+    "i": 9782550130208,
+    "t": "Excavations avec pentes",
+    "h": 1
+  },
+  {
+    "i": 9782550130215,
+    "t": "Nivelage de grandes surfaces",
+    "h": 1
+  },
+  {
+    "i": 9782550130222,
+    "t": "Conduite de la machine, e\u0301galisation, creusage, poussage, mise en tas et e\u0301pierrage",
+    "h": 1
+  },
+  {
+    "i": 9782550130239,
+    "t": "De\u0301boisement et poussage d'une de\u0301capeuse, avec un bouteur",
+    "h": 1
+  },
+  {
+    "i": 9782550130246,
+    "t": "\"De\u0301sembourbage\" du bouteur",
+    "h": 1
+  },
+  {
+    "i": 9782550130253,
+    "t": "Fardier",
+    "h": 1
+  },
+  {
+    "i": 9782550130345,
+    "t": "Pentes",
+    "h": 1
+  },
+  {
+    "i": 9782550130352,
+    "t": "Excavations",
+    "h": 1
+  },
+  {
+    "i": 9782550130369,
+    "t": "Chargement de camions",
+    "h": 1
+  },
+  {
+    "i": 9782550130376,
+    "t": "Conduite de la machine, creusage",
+    "h": 1
+  },
+  {
+    "i": 9782550130406,
+    "t": "Matelas",
+    "h": 1
+  },
+  {
+    "i": 9782550130505,
+    "t": "E\u0301chafaudages",
+    "h": 1
+  },
+  {
+    "i": 9782550130567,
+    "t": "Re\u0301fe\u0301rences sur le bois",
+    "h": 1
+  },
+  {
+    "i": 9782550130574,
+    "t": "Les attaches",
+    "h": 1
+  },
+  {
+    "i": 9782550130581,
+    "t": "Pre\u0301paration d'un chantier",
+    "h": 1
+  },
+  {
+    "i": 9782550130598,
+    "t": "Outillage",
+    "h": 1
+  },
+  {
+    "i": 9782550130604,
+    "t": "Soudage au gaz. Le brasage tendre et le brasage fort",
+    "h": 1
+  },
+  {
+    "i": 9782550130642,
+    "t": "Soudage au gaz. Se\u0301curite\u0301 relative au soudage oxyace\u0301tyle\u0301nique",
+    "h": 1
+  },
+  {
+    "i": 9782550130659,
+    "t": "Soudage au gaz. Les gaz industriels",
+    "h": 1
+  },
+  {
+    "i": 9782550130666,
+    "t": "Soudage au gaz. Appareils et accessoires propres au soudage oxy-gaz combustible",
+    "h": 1
+  },
+  {
+    "i": 9782550130673,
+    "t": "Soudage au gaz. Montage et essai d'un poste de soudage oxy-gaz combustible",
+    "h": 1
+  },
+  {
+    "i": 9782550130680,
+    "t": "Soudage au gaz. Le soudage autoge\u0300ne au gaz",
+    "h": 1
+  },
+  {
+    "i": 9782550130697,
+    "t": "Soudage au gaz. Le soudo-brasage",
+    "h": 1
+  },
+  {
+    "i": 9782550130703,
+    "t": "Soudage a\u0300 l'arc e\u0301lectrique avec e\u0301lectrodes enrobe\u0301es. Se\u0301curite\u0301 relative au soudage a\u0300 l'arc",
+    "h": 1
+  },
+  {
+    "i": 9782550130710,
+    "t": "Soudage a\u0300 l'arc e\u0301lectrique avec e\u0301lectrodes enrobe\u0301es. De\u0301po\u0302t de cordons de soudure et rechargement a\u0300 l'arc",
+    "h": 1
+  },
+  {
+    "i": 9782550130772,
+    "t": "Croquis et lecture de plans en soudage : les symboles de soudage",
+    "h": 1
+  },
+  {
+    "i": 9782550130802,
+    "t": "Fosse\u0301s a\u0300 pente aigue\u0308",
+    "h": 1
+  },
+  {
+    "i": 9782550130819,
+    "t": "Fosse\u0301s a\u0300 pente douce",
+    "h": 1
+  },
+  {
+    "i": 9782550130826,
+    "t": "Fosse\u0301s droits en \"V.\"",
+    "h": 1
+  },
+  {
+    "i": 9782550130833,
+    "t": "Fosse\u0301s courbes",
+    "h": 1
+  },
+  {
+    "i": 9782550130840,
+    "t": "Route droite simple",
+    "h": 1
+  },
+  {
+    "i": 9782550130857,
+    "t": "Entretien de routes et de fosse\u0301s",
+    "h": 1
+  },
+  {
+    "i": 9782550130864,
+    "t": "Routes courbes, avec fosse\u0301s et talus",
+    "h": 1
+  },
+  {
+    "i": 9782550130888,
+    "t": "Dressement de talus",
+    "h": 1
+  },
+  {
+    "i": 9782550130901,
+    "t": "Croise\u0301e de routes",
+    "h": 1
+  },
+  {
+    "i": 9782550130918,
+    "t": "De\u0301sembourbage de la niveleuse",
+    "h": 1
+  },
+  {
+    "i": 9782550130925,
+    "t": "Conduite de la machine, e\u0301galisation et remplissage",
+    "h": 1
+  },
+  {
+    "i": 9782550130932,
+    "t": "Nivelage avec plusieurs points d'e\u0301gouttement",
+    "h": 1
+  },
+  {
+    "i": 9782550130949,
+    "t": "Nivelage avec un point d'e\u0301gouttement",
+    "h": 1
+  },
+  {
+    "i": 9782550130956,
+    "t": "Nivelage pre\u0300s d'un mur",
+    "h": 1
+  },
+  {
+    "i": 9782550130987,
+    "t": "Mise en marche et arre\u0302t des moteurs",
+    "h": 1
+  },
+  {
+    "i": 9782550130994,
+    "t": "Changement d'attachement",
+    "h": 1
+  },
+  {
+    "i": 9782550131014,
+    "t": "Tranche\u0301es",
+    "h": 1
+  },
+  {
+    "i": 9782550131021,
+    "t": "Fosse\u0301s",
+    "h": 1
+  },
+  {
+    "i": 9782550131045,
+    "t": "E\u0301lectricite\u0301 applique\u0301e a\u0300 l'automobile (pour l'objectif E\u0301lectricite\u0301 de base I)",
+    "h": 1
+  },
+  {
+    "i": 9782550131052,
+    "t": "Syste\u0300me d'injection et turbo-compresseur",
+    "h": 1
+  },
+  {
+    "i": 9782550131069,
+    "t": "The\u0300me, re\u0301usinage de moteur",
+    "h": 1
+  },
+  {
+    "i": 9782550131793,
+    "t": "Indications physiques par unite\u0301 de formation",
+    "h": 1
+  },
+  {
+    "i": 9782550134169,
+    "t": "Mathematics, second cycle : booklet C, statistics and probability",
+    "h": 1
+  },
+  {
+    "i": 9782550135074,
+    "t": "Mathematics, second cycle : booklet A, arithmetic and algebra",
+    "h": 1
+  },
+  {
+    "i": 9782550135647,
+    "t": "Reorganization of the chemistry and physics programs : second cycle secondary school",
+    "h": 1
+  },
+  {
+    "i": 9782550135845,
+    "t": "Catalogue des logiciels subventionne\u0301s par le Ministe\u0300re de l'e\u0301ducation du Que\u0301bec (septembre 1984 a\u0300 juin 1987)",
+    "h": 1
+  },
+  {
+    "i": 9782550136057,
+    "t": "Secondary, physical science (physical environment)",
+    "h": 1
+  },
+  {
+    "i": 9782550136828,
+    "t": "Human biology",
+    "h": 1
+  },
+  {
+    "i": 9782550136835,
+    "t": "Mathematics, second cycle : booklet B, geometry",
+    "h": 1
+  },
+  {
+    "i": 9782550137238,
+    "t": "Programmes re\u0301ame\u0301nage\u0301s (de\u0301coupe\u0301s) par cours. Secteur meuble et construction, 255-000",
+    "h": 1
+  },
+  {
+    "i": 9782550138037,
+    "t": "Programmes des volets 1-2-3-4-5 : de\u0301veloppement personnel et social",
+    "h": 1
+  },
+  {
+    "i": 9782550138778,
+    "t": "Synthe\u0300se d'expe\u0301riences pe\u0301dagogiques ve\u0301cues et de mate\u0301riel didactique e\u0301labore\u0301 par les commissions scolaires du Que\u0301bec : classes multiprogrammes, pre\u0301scolaire et primaire",
+    "h": 1
+  },
+  {
+    "i": 9782551130009,
+    "t": "Courrier d'affaires III : formation a\u0300 distance",
+    "h": 1
+  },
+  {
+    "i": 9782551130306,
+    "t": "Savoir-re\u0301diger. 554. Guide d'e\u0301tudes",
+    "h": 1
+  },
+  {
+    "i": 9782551130993,
+    "t": "E\u0301ducation e\u0301conomique : guide d'e\u0301tude",
+    "h": 1
+  },
+  {
+    "i": 9782551131006,
+    "t": "E\u0301ducation e\u0301conomique : corrige\u0301 des activite\u0301s",
+    "h": 1
+  },
+  {
+    "i": 9782551131013,
+    "t": "E\u0301ducation e\u0301conomique : fascicule : les types d'e\u0301pargne et de placement et le marche\u0301 boursier",
+    "h": 1
+  },
+  {
+    "i": 9782551131167,
+    "t": "English for everyday, GAS-511",
+    "h": 1
+  },
+  {
+    "i": 9782551131174,
+    "t": "English for everyday, GAS-521",
+    "h": 1
+  },
+  {
+    "i": 9782551131198,
+    "t": "English for everyday, GAS-541",
+    "h": 1
+  },
+  {
+    "i": 9782551131358,
+    "t": "Rapports d'impo\u0302t",
+    "h": 1
+  },
+  {
+    "i": 9782551131457,
+    "t": "Tenue de livres II, 4047",
+    "h": 1
+  },
+  {
+    "i": 9782551131501,
+    "t": "L'agneau lourd de qualite\u0301, sa place et son avenir",
+    "h": 1
+  },
+  {
+    "i": 9782551131525,
+    "t": "Initiation au syste\u0300me d'apprentissage individualise\u0301 : 3200, GTG-152, guide d'apprentissage",
+    "h": 1
+  },
+  {
+    "i": 9782551131617,
+    "t": "GSM-201. The four operations on natural numbers",
+    "h": 1
+  },
+  {
+    "i": 9782551131822,
+    "t": "Strate\u0301gies d'e\u0301tude et de passation d'examen : 3201, GTG-154, guide d'apprentissage",
+    "h": 1
+  },
+  {
+    "i": 9782551131884,
+    "t": "English for every day : ANG-5054 (GAS-551) 0334",
+    "h": 1
+  },
+  {
+    "i": 9782551132584,
+    "t": "1er cycle : guide ge\u0301ne\u0301ral",
+    "h": 1
+  },
+  {
+    "i": 9782551132591,
+    "t": "2e cycle : guide ge\u0301ne\u0301ral",
+    "h": 1
+  },
+  {
+    "i": 9782551132652,
+    "t": "English 0109 : study guide for Quebec students",
+    "h": 1
+  },
+  {
+    "i": 9782551132904,
+    "t": "An introduction to individualized learning : 3300, GTG-252, learning guide",
+    "h": 1
+  },
+  {
+    "i": 9782551132935,
+    "t": "Recommended practice : recognition of conformity with standards : rules and procedures = Reconnaissance de conformite\u0301 aux normes : re\u0300gles et proce\u0301dures",
+    "h": 1
+  },
+  {
+    "i": 9782551133628,
+    "t": "Re\u0301pertoire des recherches",
+    "h": 1
+  },
+  {
+    "i": 9782551133628,
+    "t": "Re\u0301pertoire des recherches",
+    "h": 1
+  },
+  {
+    "i": 9782551135592,
+    "t": "SEAL, secondary English for adult learners : secondary 1[-4]. Student book",
+    "h": 1
+  },
+  {
+    "i": 9782551137039,
+    "t": "Code des professions : L.R.Q., chapitre C-26, a\u0300 jour au 8 fe\u0301vrier",
+    "h": 1
+  },
+  {
+    "i": 9782551138418,
+    "t": "Regulation respecting electrical installations : updated to 3 May 1994",
+    "h": 1
+  },
+  {
+    "i": 9782551138869,
+    "t": "Regulation respecting tourist establishments : updated to 17 May 1994",
+    "h": 1
+  },
+  {
+    "i": 9782551138982,
+    "t": "Cooperatives Act : R.S.Q., chapter C-67.2, updated to 3 May 1994",
+    "h": 1
+  },
+  {
+    "i": 9782760133914,
+    "t": "Mathe\u0301matiques 2000 : exercices, activite\u0301s et re\u0301sume\u0301s de cours, re\u0301solution de proble\u0300mes : nouveau programme. Maths 116 [216, 416-436, 516-536]",
+    "h": 1
+  },
+  {
+    "i": 9782760138865,
+    "t": "Le franc\u0327ais au fil des saisons : 2e[-3e] anne\u0301e. Guide d'enseignement et corrige\u0301 : the\u0300mes communs pour classe multiprogramme",
+    "h": 1
+  },
+  {
+    "i": 9782760138995,
+    "t": "La grammaire, c'est mon affaire. Corrige\u0301, 2e[-4e] anne\u0301e",
+    "h": 1
+  },
+  {
+    "i": 9782760139008,
+    "t": "La grammaire, c'est mon affaire. Cahier, 3e anne\u0301e /Colette Baillargeon",
+    "h": 1
+  }
+]
