@@ -2,16 +2,19 @@
   {
     "i": 9782732841212,
     "t": "A chaque plat son vin : guide du bon usage des vins",
-    "h": 1
+    "h": 1,
+    "e": 1
   },
   {
     "i": 9782760340589,
     "t": "Tanguer : texte en douze dessins, textures en douze poe\u0300mes",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782760840065,
     "t": "Dactylographie La Salle 6 : cours aux handicape\u0301s demi-voyants, me\u0301thode bilingue = La Salle typewriting 6 : course for the handicapped half-blind, bilingual method",
-    "h": 1
+    "h": 1,
+    "e": 0
   }
 ]

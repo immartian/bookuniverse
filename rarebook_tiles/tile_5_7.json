@@ -2,521 +2,625 @@
   {
     "i": 9782831551043,
     "t": "Berlitz Spain",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782840050049,
     "t": "Guidagenda. Canada",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782852050006,
     "t": "Webster's new encyclopedic dictionary",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782852050402,
     "t": "De\u0301pensez moins et vivez mieux : nouvelle encyclope\u0301die de la femme pratique",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782852055537,
     "t": "La sante\u0301 par l'astrologie me\u0301dicale",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782857550457,
     "t": "De\u0301termination de la proprete\u0301 des sables par les me\u0301thodes de l'essai d'e\u0301quivalent de sable et de l'essai au bleu de me\u0301thyle\u0300ne",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782857550464,
     "t": "Utilisation solaire des tuiles en be\u0301ton",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782857550532,
     "t": "Re\u0301flexions sur la se\u0301curite\u0301 relative au choix des produits en be\u0301ton manufacture\u0301",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782857550549,
     "t": "E\u0301tude du comportement me\u0301canique de mac\u0327onneries re\u0301alise\u0301es a\u0300 l'aide de blocs monte\u0301s traditionnellement et sans joints verticaux",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782863050194,
     "t": "Marcel Brun : gravures : 21 de\u0301cembre 1985-14 avril 1986, Muse\u0301e Bouset-Meaux",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782869050211,
     "t": "Catalogue des progiciels pour micro-ordinateurs",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782869050303,
     "t": "Les progiciels de comptabilite\u0301 pour grands et moyens syste\u0300mes",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782869050761,
     "t": "Les syste\u0300mes d'impression sans impact haut de gamme : le laser - la projection d'ions - la magne\u0301tographie",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782869050877,
     "t": "Gestion des ressources humaines sur grands syste\u0300mes : analyse et comparaison de progiciels",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782869050877,
     "t": "Gestion des ressources humaines : analyse et comparaison de progiciels sur micro-ordinateurs",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782869050884,
     "t": "Les Re\u0301seaux locaux pour micro-ordinateurs : analyse du marche\u0301 : comparaison d'offres compatibles MS/DOS",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782869050952,
     "t": "Me\u0301thodes, environnements et progiciels oriente\u0301s objet : pre\u0301sentation de l'e\u0301tat de l'art, analyse du marche\u0301 des syste\u0300mes de programmation oriente\u0301s objet",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782869051010,
     "t": "Gestion comptable sur mini et grands syste\u0300mes",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782869051041,
     "t": "De\u0301veloppement d'application : pour mini et grands syste\u0300mes",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782869051072,
     "t": "Gestion commerciale sur micro-ordinateurs",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782869051102,
     "t": "Gestion de tre\u0301sorerie : principes et progiciels",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782869051188,
     "t": "Les Progiciels sous Unix : application de gestion",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782869051195,
     "t": "La Communication micro-site central : typologie du marche\u0301 : comparaison de quelques logiciels",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782869051454,
     "t": "Paie gestion de personnel : sur mini et grands syste\u0300mes",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782869051508,
     "t": "Achats. Stocks. Logistique",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782869051515,
     "t": "Ventes. Marketing",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782869051621,
     "t": "Les SGBD re\u0301partis : analyse du marche\u0301, comparaison de progiciels",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782869051737,
     "t": "CAO-DAO : informatique graphique, cartographie ...",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782869051874,
     "t": "Immobilisations, consolidation : e\u0301tats fiscaux et remises en banque",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782869051898,
     "t": "Achats, stocks, logistique : e\u0301dition 1991",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782869051904,
     "t": "Outils d'aide a\u0300 la de\u0301cision",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782869051911,
     "t": "Paie et gestion de personnel : sur mini et grands syste\u0300mes",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782869051973,
     "t": "Ventes, marketing : e\u0301dition 1991",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782869051980,
     "t": "Gestion comptable sur mini et grands syste\u0300mes",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782869051997,
     "t": "Gestion comptable : sur micro-ordinateurs",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782869052017,
     "t": "Progiciels front office, banque, finance, tre\u0301sorerie, analyse",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782869052499,
     "t": "Gestion financie\u0300re : analyses, front office, tre\u0301sorerie, communication",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782869052772,
     "t": "Outils de de\u0301veloppement et gestion de donne\u0301es sous UNIX",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782869053533,
     "t": "Syste\u0300mes de pilotage : les technologies SIAD et EIS : guide comparatif",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782869551541,
     "t": "Le livre international de la paix",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782878050042,
     "t": "6th International Symposium on Genetics of Industrial Microorganisms : GIM 90 : abstract book",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782878050141,
     "t": "Troisie\u0300me congre\u0300s : 21, 22, 23, 24 avril 1992, Palais des Congre\u0300s Internationaux, Lyon",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782884550000,
     "t": "Guide d'auto-formation rapide et sans effort : Word 6 pour Windows",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782890052673,
     "t": "Gourmandise chronique : 80 bonnes tables",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782890550803,
     "t": "Les enjeux de la tarification des produits et services documentaires : actes du 14e Congre\u0300s tenu a\u0300 Sherbrooke du 15 au 18 octobre 1987 a\u0300 l'Ho\u0302tel Le Baron",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782891050197,
     "t": "B A S I C",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782891054508,
     "t": "Introduction to business",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782891056595,
     "t": "Enseigner aujourd'hui : des objectifs a\u0300 l'e\u0301valuation des habilete\u0301s et compe\u0301tences",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782892050004,
     "t": "Le livre des taches",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782892053258,
     "t": "Cirque du Soleil : tourne\u0301e 1987, Que\u0301bec/Californie : programme officiel = Quebec/California, tour '87 : official program",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782893050003,
     "t": "Grand livre : manuel d'utilisation",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782893050010,
     "t": "Calculs financiers : manuel d'utilisation",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782893050027,
     "t": "Fide\u0301icommis : manuel d'utilisation",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782893050034,
     "t": "Comptes a\u0300 recevoir : manuel d'utilisation",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782893050058,
     "t": "Comptes a\u0300 payer",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782893050065,
     "t": "Facturation : manuel d'utilisation",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782893050072,
     "t": "Inventaire : manuel d'utilisation",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782893050089,
     "t": "Suivi de dossiers : manuel d'utilisation",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782893050096,
     "t": "Comptes a\u0300 recevoir de\u0301taille\u0301s : manuel d'utilisation",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782893050102,
     "t": "General ledger : user's manual",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782893050102,
     "t": "Work in process : user's manual",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782893050119,
     "t": "Travaux en cours : pour architectes et inge\u0301nieurs : manuel d'utilisation",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782893050126,
     "t": "Guide d'installation",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782893050140,
     "t": "Gestion de projets : manuel d'utilisation",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782893050171,
     "t": "Aide-me\u0301moire : Microcode PLUS",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782900056172,
     "t": "E\u0301tudes portugaises et bre\u0301siliennes : nouvelle serie 4. 17",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782902559220,
     "t": "Saint-Martin des Lumie\u0300res : Tours",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782905053466,
     "t": "Recherches sur Diderot et sur l'Encyclope\u0301die : revue semestrielle. No. 3, Octobre 1987",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782905053572,
     "t": "Recherches sur Diderot et sur l'encyclope\u0301die : revue semestrielle. No. 4, Avril 1988",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782905054128,
     "t": "Dictionnaire franc\u0327ais-arabe = Al-Kanze Al-Wajize",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782905550187,
     "t": "VIIIe Colloque international sur la biologie, l'e\u0301cologie et la syste\u0301matique des mauvaises herbes : 14-16 Septembre 1988, Dijon (France)",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782908052039,
     "t": "Les Solutions du Cridon de Paris. II, No 133719 a\u0300 149168",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782909052427,
     "t": "La gloire de l'idole noire",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782910554125,
     "t": "Trois come\u0301dies",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782920052154,
     "t": "Let us celebrate his love : sacramental initiation of school age children, Penance and Eucharist. Guide book for catechists",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782920058538,
     "t": "Marcel H. Poirier",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782920554078,
     "t": "Formation en cours d'emploi sur le stress et la gestion du stress en milieu ambulancier",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782921055628,
     "t": "Un pied au paradis",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782921055680,
     "t": "Mon pays micmac",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782921552028,
     "t": "La ronde des mots : passe-temps pour toute la famille : mots niche\u0301s, mots croise\u0301s, mots a\u0300 re\u0301partir, mots en triangle, mots chiffre\u0301s, jeux culturels, pense\u0301es et proverbes, la parlure que\u0301be\u0301coise",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782921552110,
     "t": "Devenez naturiste, vivez jusqu'a\u0300 cent ans!",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782921552523,
     "t": "Censure! censure!",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782922053005,
     "t": "Re\u0301publique dominicaine",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782922053012,
     "t": "Antilles franc\u0327aises : Guadeloupe, Martinique, St Barthe\u0301le\u0301my, St Martin",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782922053029,
     "t": "Petites Antilles : Antigua, Aruba, Barbade, Bonaire, Curac\u0327ao, Ste Lucie",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782922053043,
     "t": "Ame\u0301rique centrale : Colombie, Costa Rica, Honduras, Nicaragua, Panama",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782922053050,
     "t": "Ve\u0301ne\u0301zuela, Margarita",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782922053067,
     "t": "Floride",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782922053074,
     "t": "Hawai",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782922053081,
     "t": "I\u0302les de l'Atlantique : Bahamas, Bermudes, Puerto Rico, Turks and Caicos",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782922053098,
     "t": "Jamaique",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782922053111,
     "t": "Afrique, Maroc, Tunisie",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782950052100,
     "t": "Approche des dieux",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782950055705,
     "t": "Livre de cave : pre\u0301cis a\u0300 l'usage de l'amateur e\u0301claire\u0301",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782950550040,
     "t": "The\u0301saurus bibliodent : banque de donne\u0301es bibliographiques francophone en odontostomatologie",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782950558206,
     "t": "Licence de chimie physique : annales de thermodynamique des e\u0301tats d'e\u0301quilibre, 1978-1993, sujets d'examen et proble\u0300mes corrige\u0301s",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782980052286,
     "t": "Re\u0301pertoire de l'Association des illustrateurs et illustratrices du Que\u0301bec, 1994-1995, 7",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782980052804,
     "t": "Ho\u0323c va\u0302\u0300n mau : ABC Vie\u0302\u0323t Nam",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782980053801,
     "t": "Films et vide\u0301ocassettes : catalogue 1986",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782980056505,
     "t": "Sce\u0301nario 3 : manuel d'instructions : version IBM PC",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782980553202,
     "t": "Initiation aux techniques de mai\u0302trise physique",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782980555008,
     "t": "Neuf dans une Plymouth : roman",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782980555015,
     "t": "Le trio : roman",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9783125551428,
     "t": "Schulische und ausserschulische Pra\u0308vention von Analphabetismus",
-    "h": 1
+    "h": 1,
+    "e": 0
   }
 ]

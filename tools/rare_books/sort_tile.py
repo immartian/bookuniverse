@@ -3,6 +3,8 @@ import json
 import logging
 import math
 from pathlib import Path
+from PIL import Image
+import numpy as np
 
 DB_FILE = "rare_books.db"
 OUTPUT_DIR = "tiles"
@@ -103,5 +105,37 @@ def fetch_isbns_in_batches():
 
     logging.info("Processing complete.")
 
+# read the rare book json files from another folder with exact tile names, and evalute the records in those files
+# in the format of {"i", "t", "h"} and add "e"(existence) to the record based on the tile image here,
+# if the same isbn exists(green) in the tile image, then add "e": 1, otherwise "e": 0, and save the record
+def existence_check():
+    for i in range(50):
+        # if i != 0: continue    # just test one file
+        for j in range(50):
+            # if j != 0: continue    # just test one file
+            rarebook_tile_path = Path(f"../../rarebook_tiles/tile_{i}_{j}.json")
+            if rarebook_tile_path.exists():
+                with rarebook_tile_path.open("r") as f:
+                    tile_data = json.load(f)
+                tile_path = Path(f"../../tiles/tile_{i}_{j}.png")
+                if tile_path.exists():
+                    img = Image.open(tile_path)
+                    img_data = np.array(img)
+                    for record in tile_data:
+                        isbn_index = record["i"] // 10 - BASE_ISBN
+                        global_row = isbn_index // TOTAL_WIDTH
+                        global_col = isbn_index % TOTAL_WIDTH
+                        local_row = global_row - j * TILE_HEIGHT
+                        local_col = global_col - i * TILE_WIDTH
+                        if img_data[local_row, local_col][1] == 255:
+                            record["e"] = 1
+                        else:
+                            record["e"] = 0
+                    with rarebook_tile_path.open("w") as f:
+                        json.dump(tile_data, f, indent=2)
+                    logging.info(f"Tile {i}, {j} done")
+
+
 if __name__ == "__main__":
-    fetch_isbns_in_batches()
+    #fetch_isbns_in_batches()
+    existence_check()

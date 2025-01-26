@@ -14,11 +14,11 @@ import os
 # let's create a several 1000x1000 clusters image from the bitmap data with given scale, numbers, and starting isbn
 ISBN_START = 978000000000  # Starting ISBN
 
-# # decompressed_data = D.decompress_data("aa_isbn13_codes_20241204T185335Z.benc.zst")
-# # isbn_data = D.bencodepy.decode(decompressed_data)
+decompressed_data = D.decompress_data("aa_isbn13_codes_20241204T185335Z.benc.zst")
+isbn_data = D.bencodepy.decode(decompressed_data)
 
-# # print all data sets names
-# print(isbn_data.keys())
+# print all data sets names
+print(isbn_data.keys())
 
 
 def calculate_titles():
@@ -260,37 +260,4 @@ def count_books_in_tiles():
                 total_books += np.count_nonzero(img_data)
     print(f"Total books in all tiles: {total_books}")
 
-#count_books_in_tiles()
-
-# read the rare book json files from another folder with exact tile names, and evalute the records in those files
-# in the format of {"i", "t", "h"} and add "e"(existence) to the record based on the tile image here,
-# if the same isbn exists(green) in the tile image, then add "e": 1, otherwise "e": 0, and save the record
-import json
-def existence_check():
-    for i in range(50):
-        if i != 0: continue    # just test one file
-        for j in range(50):
-            if j != 0: continue    # just test one file
-            tile_path = f"./tiles/tile_{i}_{j}.png"
-            if os.path.exists(tile_path):
-                img = Image.open(tile_path)
-                img_data = np.array(img)
-                tile_data = []
-                with open(f"./rarebook_tiles/tile_{i}_{j}.json", "r") as f:
-                    tile_data = json.load(f)
-                for record in tile_data:
-                    isbn_index = record["i"]//10 - ISBN_START
-                    global_row = isbn_index // 50000
-                    global_col = isbn_index % 50000
-                    local_row = global_row - j * 800
-                    local_col = global_col - i * 1000
-                    print(isbn_index, global_row, global_col, local_row, local_col)   
-                    if img_data[local_row, local_col][1] == 255:
-                        record["e"] = 1
-                    else:
-                        record["e"] = 0
-                with open(f"./rarebook_tiles/tile_{i}_{j}.json", "w") as f:
-                    json.dump(tile_data, f, indent=2)
-                print(f"Tile {i}, {j} done")
-
-existence_check()
+count_books_in_tiles()

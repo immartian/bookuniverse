@@ -178,7 +178,7 @@ export class SocietalView extends View {
                 "<div class='book-title'>"+title+"</div>"+
                 "<div class='book-isbn'>"+isbn13+"</div>"+
                 "<div class='book-copies'>"+
-                "<span class='rare-icon'>"+( holdings + (book.e ? '📗' : '📕') )+"</span>"+ 
+                "<span class='rare-icon'> Copies: "+( holdings + (book.e ? '<br>📗 In Annas-Archive' : '<br>📕 Not in Annas-Archive') )+"</span>"+ 
                 // (exist ? 'Rare' : 'Not Rare')+
                 "</div>"+
                 "</div>";

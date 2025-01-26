@@ -2,446 +2,535 @@
   {
     "i": 9784010171066,
     "t": "\u5b66\u7fd2\u81ea\u5728\u5c0f\u5b664 \u00b7 5 \u00b7 6-nen shakai",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784010670026,
     "t": "Rupan tai ho\u0304muzu : burondo no onna",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784010670118,
     "t": "Adamu to Ivu no nikki",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784034170601,
     "t": "Subarashii chokoku",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784041171028,
     "t": "\u5c71\u7f8a\u306e\u6b4c : \u4e2d\u539f\u4e2d\u4e5f\u8a69\u96c6",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784041671092,
     "t": "\u6f02\u6cca\u306e\u8857\u89d2",
-    "h": 1
+    "h": 1,
+    "e": 1
   },
   {
     "i": 9784061175907,
     "t": "\u674e\u671d\u306e\u6c11\u753b. \u4e0b\u5377",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784072176856,
     "t": "Ajia no kaze ni mi o makase : Ajia fuyu\u0304 kiko\u0304",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784079173650,
     "t": "\u56fd\u6c11\u65c5\u9928\u7279\u9078\u30ac\u30a4\u30c9 : \u5bb6\u65cf\u65c5\u884c\u306b\u6700\u9069\u306e\u6599\u91d1\u3068\u8a2d\u5099",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784079174480,
     "t": "\u672a\u751f\u6d41 : \u74f6\u82b1\u30fb\u76db\u82b1 ; \u6625/\u590f= Misho\u0304 school : heika & moribana style ; spring & summer",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784079176323,
     "t": "\u30ed\u30fc\u30e4\u30eb\u30bc\u30ea\u30fc\u9a5a\u7570\u306e R \u52b9\u679c",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784092170056,
     "t": "\u52d5\u7269\u306e\u56f3\u9451",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784092170087,
     "t": "\u4eba\u9593 : \u5fc3\u3068\u304b\u3089\u3060",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784092170100,
     "t": "\u5b87\u5b99 : \u661f\u3068\u89b3\u6e2c",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784092170124,
     "t": "\u822a\u7a7a : \u98db\u884c\u6a5f\u306e\u3042\u3086\u307f",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784092170131,
     "t": "\u81ea\u7136 : \u751f\u7269\u306e\u304f\u3089\u3057",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784092170148,
     "t": "\u81ea\u7531\u7814\u7a76 : \u89b3\u5bdf\u3068\u5de5\u4f5c",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784092170223,
     "t": "\u30a8\u30cd\u30eb\u30ae\u30fc : \u624b\u304b\u3089\u539f\u5b50\u529b\u307e\u3067",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784092170247,
     "t": "\u81ea\u52d5\u8eca",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784092170261,
     "t": "\u690d\u7269\u306e\u304f\u3089\u3057",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784092170285,
     "t": "\u6c34\u3079\u306e\u751f\u7269",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784092170292,
     "t": "\u5316\u77f3\u3068\u5ca9\u77f3\u30fb\u9271\u7269",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784092170308,
     "t": "\u751f\u304d\u3082\u306e\u306e\u89b3\u5bdf\u3068\u98fc\u80b2",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784092170322,
     "t": "\u7406\u79d1\u5de5\u4f5c : \u52d5\u304f\u304a\u3082\u3061\u3083",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784092170339,
     "t": "\u690d\u7269\u306e\u89b3\u5bdf\u3068\u80b2\u3066\u65b9",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784092170360,
     "t": "\u4e21\u751f\u30fb\u306f\u3061\u3085\u3046\u985e",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784092170377,
     "t": "\u7532\u866b\u306e\u304f\u3089\u3057",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784092170384,
     "t": "\u5b87\u5b99\u958b\u767a",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784092170391,
     "t": "\u65e5\u672c\u306e\u30c1\u30e7\u30a6",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784092170490,
     "t": "\u30af\u30ef\u30ac\u30bf\u30e0\u30b7",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784101177045,
     "t": "\u9375\u306e\u304b\u304b\u308b\u68fa. \u4e0b",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784101178042,
     "t": "\u9769\u547d\u5546\u4eba. \u4e0b\u5377",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784101179025,
     "t": "\u59ff\u4e09\u56db\u90ce. \u4e2d\u5377",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784102170052,
     "t": "Kaichu\u0304 mitsuyu ru\u0304to o sagure",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784102170076,
     "t": "\u5927\u7d71\u9818\u8a98\u62d0\u306e\u8b0e\u3092\u8ffd\u3048. \u4e0b\u5377",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784167178055,
     "t": "Eberesuto o koete",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784195672648,
     "t": "\u6b7b\u3051\u3072\u305d\u3084\u304b\u306b\u6b65\u304f",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784195674512,
     "t": "Kodoku na karera no osoroshisa",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784195675472,
     "t": "Tennyo razo\u0304",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784195676240,
     "t": "Kemono-tachi no shukuen",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784195677100,
     "t": "0\u756a\u7dda",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784195678503,
     "t": "Mayonaka no sairo\u0304",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784195678831,
     "t": "Tokuha kisha",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784195679784,
     "t": "Tsu\u0304shin kisha",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784254170535,
     "t": "Soshiki saibo\u0304 kagaku no gijutsu : ko\u0304so",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784254170603,
     "t": "Zusetsu men'eki seibutsugaku nyu\u0304mon",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784254170757,
     "t": "Saibo\u0304 tokishikoroji\u0304 shikenho\u0304",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784257170228,
     "t": "Jettoki jidai",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784257170365,
     "t": "Saigo no Zerosen",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784257170426,
     "t": "\u30ec\u30a4\u30c6\u6c96\u6d77\u6226. \u4e0a",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784257170433,
     "t": "\u30ec\u30a4\u30c6\u6c96\u6d77\u6226. \u4e0b",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784257171096,
     "t": "\u30b9\u30d1\u30a4\u5e1d\u56fd : CIA",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784258170210,
     "t": "\u767a\u5c55\u9014\u4e0a\u5730\u57df\u65e5\u672c\u8a9e\u6587\u732e\u76ee\u9304 1987 : \u30a2\u30b8\u30a2\u30a2\u30d5\u30ea\u30ab\u30e9\u30c6\u30f3\u30fb\u30a2\u30e1\u30ea\u30ab\u30aa\u30bb\u30a2\u30cb\u30a2 = Developing countries in Japanese writings 1987, an annual bibliography",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784258170234,
     "t": "\u767a\u5c55\u9014\u4e0a\u5730\u57df\u65e5\u672c\u8a9e\u6587\u732e\u76ee\u9304 1988 : \u30a2\u30b8\u30a2\u30a2\u30d5\u30ea\u30ab\u30e9\u30c6\u30f3\u30fb\u30a2\u30e1\u30ea\u30ab\u30aa\u30bb\u30a2\u30cb\u30a2 = Developing countries in Japanese writings 1988, an annual bibliography",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784260170185,
     "t": "Kansen, arerugi\u0304, men'ekibyo\u0304gaku",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784260170215,
     "t": "Seishin igaku",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784260170291,
     "t": "Rinsho\u0304 chiryo\u0304gaku : peishento mane\u0304jimento",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784260170307,
     "t": "Men'eki, arerugi\u0304 ryu\u0304machibyo\u0304gaku",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784260170345,
     "t": "Kansensho\u0304gaku",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784260172011,
     "t": "Shinkei",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784260172028,
     "t": "Kokyu\u0304",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784260175012,
     "t": "Kyo\u0304bu x-sen shashin no ABC : ichimai no firumu kara",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784260175036,
     "t": "To\u0304nyo\u0304byo\u0304 gairai shinryo\u0304 no pointo",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784260175043,
     "t": "Fukubu eko\u0304 no ABC",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784262170015,
     "t": "Taoru de tsukuru nuigurumi do\u0304butsu : hasami tsukawazu kantan hi dekiru",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784307170017,
     "t": "Sho\u0304ni sho\u0304kaki naishikyo\u0304 kensa no jissai : sono jitsugi to rinsho\u0304 o\u0304yo\u0304",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784307170055,
     "t": "Shinseiji no puraimari kea",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784307170109,
     "t": "Sho\u0304ni no ko\u0304do\u0304 ijo\u0304",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784307170116,
     "t": "Jitchi ika no tame no sho\u0304ni ibutsusho\u0304 no jissai",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784307170123,
     "t": "Sho\u0304ni to\u0304nyo\u0304byo\u0304 no chiryo\u0304 to shido\u0304",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784307170161,
     "t": "Sho\u0304ni haien no rinsho\u0304",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784307170178,
     "t": "Sho\u0304nika Q & A",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784307170208,
     "t": "Rinsho\u0304 sho\u0304nika handobukku",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784307170215,
     "t": "Zensokuji ryo\u0304yo\u0304 no tebiki",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784307170222,
     "t": "Sho\u0304ni no keiren : shindan to chiryo\u0304",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784307170246,
     "t": "NICU manyuaru = Manual of neonatal intensive care unit",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784307170253,
     "t": "Kihon sho\u0304ni gekagaku",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784307170284,
     "t": "Sho\u0304ni mansei shikkan kanja manyuaru : seikatsu kanri kara shakai tekio\u0304 made",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784307170291,
     "t": "Gakko\u0304 shinzo\u0304 kenshin manyuaru",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784307170307,
     "t": "Sho\u0304ni no kagaku ryo\u0304ho\u0304",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784307170314,
     "t": "Sho\u0304ni shokuji ryo\u0304ho\u0304 manyuaru",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784307170376,
     "t": "Sho\u0304nika yo\u0304goshu\u0304",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784330176819,
     "t": "Tettei kaimei To\u0304kyo\u0304 daijishin no hi",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784341170592,
     "t": "\u7537\u30cf\u30de\u30b3\u30fc\u306b\u3060\u307e\u3055\u308c\u308b\u306a",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784398170040,
     "t": "\u30cf\u30ef\u30a4 : free time guide",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784398170064,
     "t": "O\u0304sutoraria = Australia",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784398170118,
     "t": "Amerika nishi kaigan = U.S.A. West Coast",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784398170514,
     "t": "Amerika, Kanada",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9784398670014,
     "t": "\u6771\u4eac\u90fd 23\u533a",
-    "h": 1
+    "h": 1,
+    "e": 0
   }
 ]

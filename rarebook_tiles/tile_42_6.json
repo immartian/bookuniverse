@@ -2,31 +2,37 @@
   {
     "i": 9782707423795,
     "t": "Le poignard",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782712421014,
     "t": "Guide pratique de multiplan : [version 1] plus multiplan version 2",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782714423191,
     "t": "Poe\u0300mes choisis",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782738420329,
     "t": "Drogue et toxicomanie : e\u0301tudes et controverses",
-    "h": 1
+    "h": 1,
+    "e": 1
   },
   {
     "i": 9782738421937,
     "t": "Le Stylo sauvage : livre e\u0301crit par des jeunes de Marseille",
-    "h": 1
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782738427403,
     "t": "L'e\u0301trange marchand de Port de Bouc",
-    "h": 1
+    "h": 1,
+    "e": 0
   }
 ]
