@@ -1,6 +1,5 @@
 import { View } from './View.js';
 import { TileManager } from './TileManager.js';
-import { RarebookManager } from './RarebookManager.js';
 
 export class SocietalView extends View {
     constructor(baseCanvas, overlayCanvas, tileMetadata) {
@@ -11,19 +10,16 @@ export class SocietalView extends View {
         this.offsetY = 0;
         this.scale = 1
         this.scaleWidth = 50000/this.scale;
-        this.rarebooks = []; 
-        this.rare_one = null;
-        this.rarebookManager = new RarebookManager();
+
         
     }
  
     async onEnter(data) {
         console.log('Entering Societal View');
-        this.offsetX = Math.floor((this.isbnIndex % (this.scaleWidth * this.scale)) / this.scale);-data.x
+        this.offsetX = Math.floor((this.isbnIndex % (this.scaleWidth * this.scale)) / this.scale)-data.x;
         this.offsetY = Math.floor(this.isbnIndex / this.scaleWidth/this.scale/this.scale)- data.y;
         if (this.offsetX < 0) this.offsetX = 0;
         if (this.offsetX > this.scaleWidth- this.baseCanvas.width) this.offsetX = this.scaleWidth - this.baseCanvas.width;
-        this.rarebookManager.loadVisibleTiles(this.offsetX, this.offsetY)
         //await this.tileManager.loadVisibleTiles(this.offsetX, this.offsetY, this.baseCanvas.width, this.baseCanvas.height);
         this.startRendering(); // Start the new view's animation
     }
@@ -110,27 +106,6 @@ export class SocietalView extends View {
             ctx.fillText(country, adjustedX, clampedStartRow);
         }
 
-
-        
-        // get a new list of rare books for current view
-        this.rarebooks = this.rarebookManager.getBooksInView(this.offsetX, this.offsetY, this.baseCanvas.width, this.baseCanvas.height);
-        // get 20 of them only 
-        this.rarebooks = this.rarebooks.slice(0, 20);
-        // draw the rare books in the view
-        this.rarebooks.forEach(book => {
-           // calculate the x,y position based on isbn index
-            book.x = Math.round((((Math.floor(book.i / 10) - this.ISBN.baseISBN) % this.scaleWidth) * this.scale) - this.offsetX);           
-            book.y = Math.round((((Math.floor(book.i / 10) - this.ISBN.baseISBN) / this.scaleWidth) * this.scale) - this.offsetY);
-            // get the color of the pixel from baseCanvas
-            ctx.font = '24px Arial';
-            ctx.fillText(book.e ? '📗' : '📕', book.x, book.y);
-            
-                        
-            // ctx.fillText('⭐', book["x"], book["y"]);
-            // // Or use the hollow star "☆"
-            // ctx.fillText('☆', 200, 50); ⭐ ★
-        });    
-    // draw the map thumbnail and scale indicator
     this.drawISBN();
     this.draw_map_thumbnail(ctx, this.scale, this.offsetX, this.offsetY);
     this.drawMapScale(ctx, '100 📚');
@@ -154,44 +129,7 @@ export class SocietalView extends View {
             this.drawOverlay();
         }
 
-        // prepare the rare book which is under the mouse
-        this.rare_one = this.rarebooks.find((book) => {
-            const x = data.x;
-            const y = data.y;
-            const title = book["t"];
-            const holdings = book["h"];
-            const rare_touch = x >= book["x"] && x <= book["x"] + 20 && y >= book["y"] - 20 && y <= book["y"];
-            if(rare_touch){
-                        // Show the ISBN number in the tooltip
-                this.tooltip.x = data.clientX;
-                this.tooltip.y = data.clientY;
-                // show the isbn cover image in tooltip
-                const isbn13 = book["i"];  //this.ISBN.calculateISBN(this.isbnIndex, true);
-                const part1 = String(isbn13).slice(-4, -2);
-                const part2 = String(isbn13).slice(-2);
-                                // Image URL pattern
-                const imageUrl = `https://images.isbndb.com/covers/${part1}/${part2}/${isbn13}.jpg`;
-
-                // make a tooltip with the bookcard style
-                const innerHTML = "<div class='book-card'><img src='"+imageUrl+"' alt='Book Cover' class='book-cover'>"+
-                "<div class='book-details'>"+
-                "<div class='book-title'>"+title+"</div>"+
-                "<div class='book-isbn'>"+isbn13+"</div>"+
-                "<div class='book-copies'>"+
-                "<span class='rare-icon'> Copies: "+( holdings + (book.e ? '<br>📗 In Annas-Archive' : '<br>📕 Not in Annas-Archive') )+"</span>"+ 
-                // (exist ? 'Rare' : 'Not Rare')+
-                "</div>"+
-                "</div>";
-                this.tooltip.show(innerHTML);
-
-            }
-            else
-                this.tooltip.hide();
-            
-            return rare_touch
-        }     
-        );
-        
+                
         // get the color under the mouse from baseCanvas
         const ctx = this.baseCtx;
         const pixel = ctx.getImageData(data.x, data.y, 1, 1);

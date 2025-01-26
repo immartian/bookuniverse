@@ -40,15 +40,16 @@ const inputManager = new InputManager(baseCanvas, (gesture, data) => {
 // Register views
 viewManager.registerView(new GlobalView(baseCanvas, overlayCanvas));
 viewManager.registerView(new ZoneView(baseCanvas, overlayCanvas));
-const societalView = new SocietalView(baseCanvas, overlayCanvas, {
+const tiles_meta = {
     tileDir: './tiles/',
     tileWidth: 1000,
     tileHeight: 800,
     gridWidth: 50,
     gridHeight: 50,
-});
+}
+const societalView = new SocietalView(baseCanvas, overlayCanvas, tiles_meta);
 viewManager.registerView(societalView);
-viewManager.registerView(new BookshelfView(baseCanvas, overlayCanvas, 15, 8));
+viewManager.registerView(new BookshelfView(baseCanvas, overlayCanvas, tiles_meta));
 
 
 // Start rendering loop

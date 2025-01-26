@@ -33,10 +33,10 @@ export class ViewManager {
                 await this.currentView.zoom_effect(data, 10);  // Wait for zoom to complete
                 this.switchView('Societal', data);
             } 
-            // else if (this.currentView?.name === 'Societal') {
+            else if (this.currentView?.name === 'Societal') {
             // console.log('Switching to Bookshelf View');
-            // this.switchView('Bookshelf');
-            // }
+             this.switchView('Bookshelf');
+            }
         } else if (data.delta > 0) {
             // if (this.currentView?.name === 'Bookshelf') {
             // console.log('Switching to Societal View');
@@ -48,9 +48,12 @@ export class ViewManager {
             } else if (this.currentView?.name === 'Zone') {
                 //await this.currentView.zoom_effect(data, 1/10);  
                 this.switchView('Global', data);
+            } else if (this.currentView?.name === 'Bookshelf') {
+                this.switchView('Societal', data);
+                //await this.currentView.zoom_effect(data, 1/10);
             }
-        }
         
+        }
     }
 
     handlePanStart(data) {
