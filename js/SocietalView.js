@@ -1,5 +1,6 @@
 import { View } from './View.js';
 import { TileManager } from './TileManager.js';
+import { RarebookManager } from './RarebookManager.js';
 
 export class SocietalView extends View {
     constructor(baseCanvas, overlayCanvas, tileMetadata) {
@@ -12,6 +13,8 @@ export class SocietalView extends View {
         this.scaleWidth = 50000/this.scale;
         this.rarebooks = []; 
         this.rare_one = null;
+        this.rarebookManager = new RarebookManager();
+        
     }
  
     async onEnter(data) {
@@ -20,6 +23,7 @@ export class SocietalView extends View {
         this.offsetY = Math.floor(this.isbnIndex / this.scaleWidth/this.scale/this.scale)- data.y;
         if (this.offsetX < 0) this.offsetX = 0;
         if (this.offsetX > this.scaleWidth- this.baseCanvas.width) this.offsetX = this.scaleWidth - this.baseCanvas.width;
+        this.rarebookManager.loadVisibleTiles(this.offsetX, this.offsetY)
         //await this.tileManager.loadVisibleTiles(this.offsetX, this.offsetY, this.baseCanvas.width, this.baseCanvas.height);
         this.startRendering(); // Start the new view's animation
     }
@@ -107,27 +111,31 @@ export class SocietalView extends View {
         }
 
 
-        // draw the map thumbnail and scale indicator
-        this.drawISBN();
-        this.draw_map_thumbnail(ctx, this.scale, this.offsetX, this.offsetY);
-        this.drawMapScale(ctx, '100 📚');
+        
+        // get a new list of rare books for current view
+        this.rarebooks = this.rarebookManager.getBooksInView(this.offsetX, this.offsetY, this.baseCanvas.width, this.baseCanvas.height);
+        // get 20 of them only 
+        this.rarebooks = this.rarebooks.slice(0, 20);
+        // draw the rare books in the view
+        this.rarebooks.forEach(book => {
+           // calculate the x,y position based on isbn index
+            book.x = Math.round((((Math.floor(book.i / 10) - this.ISBN.baseISBN) % this.scaleWidth) * this.scale) - this.offsetX);           
+            book.y = Math.round((((Math.floor(book.i / 10) - this.ISBN.baseISBN) / this.scaleWidth) * this.scale) - this.offsetY);
+            // get the color of the pixel from baseCanvas
+            ctx.font = '24px Arial';
+            ctx.fillText(book.e ? '📗' : '📕', book.x, book.y);
+            
+                        
+            // ctx.fillText('⭐', book["x"], book["y"]);
+            // // Or use the hollow star "☆"
+            // ctx.fillText('☆', 200, 50); ⭐ ★
+        });    
+    // draw the map thumbnail and scale indicator
+    this.drawISBN();
+    this.draw_map_thumbnail(ctx, this.scale, this.offsetX, this.offsetY);
+    this.drawMapScale(ctx, '100 📚');
+}
 
-        // draw the rare books
-        this.rarebooks.forEach((book) => {
-                const color = 'green'; //exist ? 'green' : 'red';
-                ctx.font = '20px Arial';
-
-                if (this.rare_one)
-                    ctx.font = '30px Arial';
-                ctx.fillStyle = color;
-                // if (exist) ctx.fillText('📗', x, y);
-                // else ctx.fillText('📕', x, y);
-                ctx.fillText('⭐', book["x"], book["y"]);
-                // // Or use the hollow star "☆"
-                // ctx.fillText('☆', 200, 50); ⭐ ★
-            }
-        );        
-    }
 
     handleHover(data) {
         const x = data.x + this.offsetX;
@@ -170,8 +178,7 @@ export class SocietalView extends View {
                 "<div class='book-title'>"+title+"</div>"+
                 "<div class='book-isbn'>"+isbn13+"</div>"+
                 "<div class='book-copies'>"+
-                "<span class='rare-icon'>"+( holdings)+"</span>"+ 
-                    //exist ? '🐾' : '📕')+"</span>"+
+                "<span class='rare-icon'>"+( holdings + (book.e ? '📗' : '📕') )+"</span>"+ 
                 // (exist ? 'Rare' : 'Not Rare')+
                 "</div>"+
                 "</div>";
@@ -233,19 +240,6 @@ export class SocietalView extends View {
                 this.tileManager.tileMetadata.gridHeight * this.tileManager.tileMetadata.tileHeight - this.baseCanvas.height
             )
         );
-
-        // get a new list of rare books for current view
-        console.log(this.tileManager.visibleTiles)
-        fetch('./rarebooks.json').then(response => response.json())
-        .then(data => {
-            this.rarebooks = data;
-            // randomize a logcation for each book in this.rare as place holders along with existing "i"(isbn), "t"(title), and "h"(holdings)
-            this.rarebooks.forEach((book) => {
-                book["x"] = Math.random() * this.baseCanvas.width; 
-                book["y"] = Math.random() * this.baseCanvas.height;   
-            })
-        })
-
 
         this.drawBase();
         this.drawOverlay();

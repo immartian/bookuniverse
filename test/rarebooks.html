@@ -20,7 +20,7 @@
 
     <script>
         class RarebookManager {
-            constructor(tilePath = './rarebook_tiles/', gridSize = 50, tileWidth = 1000, tileHeight = 800) {
+            constructor(tilePath = '../rarebook_tiles/', gridSize = 50, tileWidth = 1000, tileHeight = 800) {
                 this.tilePath = tilePath;
                 this.gridSize = gridSize;
                 this.tileWidth = tileWidth;
@@ -111,6 +111,18 @@
             document.getElementById('canvas').innerHTML = books.length > 0 ? 
                 books.map(book => `<p>${book.t} (ISBN: ${book.i})</p>`).join('') : 
                 "No books in view.";
+            // draw canvas some background 
+            // draw books covers on canvas
+            ctx = document.getElementById('canvas').getContext('2d');
+            ctx.fillStyle = 'black';
+            ctx.fillRect(0, 0, 1000, 800);
+            books.forEach(book => {
+                const x = 300 +Math.random() * 100;
+                const y = 400 + Math.random() * 100;
+                ctx.fillStyle = 'black';
+                ctx.fillRect(x, y, 100, 150);
+            });
+
         }
 
         document.addEventListener('keydown', (e) => {

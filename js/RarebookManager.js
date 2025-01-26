@@ -1,8 +1,9 @@
-class RarebookManager {
-    constructor(tilePath = './rarebook_tiles/', gridSize = 50, tileSize = 1000) {
+export class RarebookManager {
+    constructor(tilePath = './rarebook_tiles/', gridSize = 50, tileWidth = 1000, tileHeight = 800) {
         this.tilePath = tilePath;
         this.gridSize = gridSize;
-        this.tileSize = tileSize;
+        this.tileWidth = tileWidth;
+        this.tileHeight = tileHeight;
         this.cache = new Map();
     }
 
@@ -11,12 +12,22 @@ class RarebookManager {
             return this.cache.get(`${x}_${y}`);
         }
         
-        const filePath = `${this.tilePath}rare_${x}_${y}.json`;
+        const filePath = `${this.tilePath}tile_${x}_${y}.json`;
         try {
             const response = await fetch(filePath);
             const data = await response.json();
             this.cache.set(`${x}_${y}`, data);
-            return data;
+            if (Array.isArray(data)) {
+                //console.log(`Tile (0,2) contains ${data.length} books.`);
+                data.forEach(book => {
+                    if (!book.i || !book.t || !book.h) {
+                        console.warn(`Invalid book entry:`, book);
+                    }
+                });
+            } else {
+                console.error(`Unexpected data format for tile (0,2):`, data);
+            }
+                                return data;
         } catch (error) {
             console.error(`Failed to load tile (${x}, ${y}):`, error);
             return null;
@@ -24,10 +35,10 @@ class RarebookManager {
     }
 
     async loadVisibleTiles(offsetX, offsetY, viewWidth = 1000, viewHeight = 800) {
-        const startX = Math.floor(offsetX / this.tileSize);
-        const startY = Math.floor(offsetY / this.tileSize);
-        const endX = Math.min(Math.ceil((offsetX + viewWidth) / this.tileSize), this.gridSize - 1);
-        const endY = Math.min(Math.ceil((offsetY + viewHeight) / this.tileSize), this.gridSize - 1);
+        const startX = Math.floor(offsetX / this.tileWidth);
+        const startY = Math.floor(offsetY / this.tileHeight);
+        const endX = Math.min(Math.ceil((offsetX + viewWidth) / this.tileWidth), this.gridSize - 1);
+        const endY = Math.min(Math.ceil((offsetY + viewHeight) / this.tileHeight), this.gridSize - 1);
 
         const promises = [];
         for (let x = startX - 1; x <= endX + 1; x++) {
@@ -37,18 +48,17 @@ class RarebookManager {
                 }
             }
         }
-
+    
         await Promise.all(promises);
     }
 
     getBooksInView(offsetX, offsetY, viewWidth = 1000, viewHeight = 800) {
-        const startX = Math.floor(offsetX / this.tileSize);
-        const startY = Math.floor(offsetY / this.tileSize);
-        const endX = Math.min(Math.ceil((offsetX + viewWidth) / this.tileSize), this.gridSize - 1);
-        const endY = Math.min(Math.ceil((offsetY + viewHeight) / this.tileSize), this.gridSize - 1);
+        const startX = Math.floor(offsetX / this.tileWidth);
+        const startY = Math.floor(offsetY / this.tileHeight);
+        const endX = Math.min(Math.ceil((offsetX + viewWidth) / this.tileWidth), this.gridSize - 1);
+        const endY = Math.min(Math.ceil((offsetY + viewHeight) / this.tileHeight), this.gridSize - 1);
 
         let booksInView = [];
-
         for (let x = startX; x <= endX; x++) {
             for (let y = startY; y <= endY; y++) {
                 const key = `${x}_${y}`;
@@ -58,24 +68,14 @@ class RarebookManager {
                 }
             }
         }
-
         return booksInView;
     }
 
     filterBooksByOffset(tileData, offsetX, offsetY, viewWidth, viewHeight) {
         return tileData.filter(book => 
-            book.x >= offsetX && book.x < offsetX + viewWidth &&
-            book.y >= offsetY && book.y < offsetY + viewHeight
+            // book.x >= offsetX && book.x < offsetX + viewWidth &&
+            // book.y >= offsetY && book.y < offsetY + viewHeight
+            true
         );
     }
 }
-
-// Example usage
-const manager = new RarebookManager();
-const offsetX = 5000, offsetY = 3000;  // Example offsets
-
-(async () => {
-    await manager.loadVisibleTiles(offsetX, offsetY);
-    const booksToDisplay = manager.getBooksInView(offsetX, offsetY);
-    console.log("Books in current view:", booksToDisplay);
-})();
