@@ -1,7 +1,241 @@
 [
   {
+    "i": 9782414137718,
+    "t": "Billets d'humeur de chasseur d'images spirituelles : les mots de l'espe\u0301rance",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782490132096,
+    "t": "Un re\u0302ve : anthologie poe\u0301tique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782490135127,
+    "t": "E\u0301tudes sur les Roland. Tome premier",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782490138883,
+    "t": "Le dernier message : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782490630196,
+    "t": "Menel Ara. Tome 2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782490636020,
+    "t": "Le gou\u0302t de la tempe\u0302te : Normandie douce-ame\u0300re : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782501134415,
+    "t": "Amour : quartz rose",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782501134422,
+    "t": "Calme & purification : ame\u0301thyste",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782501134439,
+    "t": "Chance : aventurine",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782501134446,
+    "t": "Protection : oeil-de-tigre",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782501139137,
+    "t": "Gou\u0302ter a\u0300 Londres",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782501139144,
+    "t": "Robot cuiseur super facile! : 68 recettes saines et cre\u0301atives",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782503630007,
+    "t": "Instrumenta lexicologica Latina. Ser. A, Formae, Fasc. 151, Adso Dervensis, Opera hagiographica, De ortu et tempore Antichristi",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503630007,
+    "t": "Instrumenta lexicologica Latina. Ser. A, Formae, Fasc. 147, Raimundus Lullus, opera latina 49-52, Liber de sancta Maria, Liber de passagio",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503630007,
+    "t": "Instrumenta lexicologica Latina. Ser. A, Formae, Fasc. 108, Raimundus Lullus, opera latina 101, 102, 105",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503630007,
+    "t": "Vitae Sanctae Katharinae / [Concordance] ; curante CETEDOC. [Formae]",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503630007,
+    "t": "Heirici Autissiodorensis Homiliae per circulum anni : instrumenta lexicologica Latina",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503630007,
+    "t": "Pascasius Radbertus De benedictionibus patriarcharum Iacob et Moysi / [Concordance] ; curante CETEDOC. [Formae]",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503630007,
+    "t": "Raimundus Lullus, opera Latina in Monte Pessulano et Ianuae annis MCCCIII-MCCCIV composita : instrumenta lexicologica Latina",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503630243,
+    "t": "Aelredi Rievallensis opera omnia. 2, Sermones I - XLVI : [Collectio Claraevallensis, prima et secunda]. Formae",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503631523,
+    "t": "Petrus Abaelardi opera theologica. [Concordance]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782503631929,
+    "t": "Christani Campililiensis opera poetica. Formae [zu 1-2]",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503631929,
+    "t": "Opera poetica",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503634722,
+    "t": "Sedulius Scottus : collectaneum miscellaneum / [Concordance]. [Formae]",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503635361,
+    "t": "Andreae de Sancto Victore opera. T. 3, Expositiones historicas in Libros Salomonis. Formae",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503636627,
+    "t": "Epistolae I - LVI : Guibertus Gemblacensis",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503637143,
+    "t": "Chronica Hispana saeculi XII. Ps. 2. Formae",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503637327,
+    "t": "Chronica Hispana saeculi XIII. Formae",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503637822,
+    "t": "Raimundus Lullus, Opera latina sive in linguam latinam translata, 190-200",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503638027,
+    "t": "Instrumenta Lexicologica Latina : Raimundus Lullus, Opera Latina, 208-212 / Series A, Formae",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503638027,
+    "t": "In civitate Maioricensi anno MCCCX111 composita",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503638263,
+    "t": "Summa de commendatione virtutum et extirpatione vitiorum / [Concordance]. [Formae]",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503638324,
+    "t": "Instrumenta lexicologica latina. Series A, fasc. 44, Petrus Cluniacensis Abbas. De miraculis libri dus",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503638522,
+    "t": "Pascasius Radbertus Exposito in lamentationes Hieremiae",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503638720,
+    "t": "Guillelmus a Sancto Theodorico. [Concordance]",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503639529,
+    "t": "Paulini Aquileiensis opera omnia. [Ps. 1], Contra Felicem. Formae",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503639925,
+    "t": "Balduinus de Forda Sermones de commendatione fidei",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503639925,
+    "t": "Sermones de commendatione fidei",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9782550130079,
     "t": "Remblayage des approches d'un pont",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550130079,
+    "t": "Conduite du bouteur. Guide d'apprentissage",
     "h": 1,
     "e": 0
   },
@@ -114,6 +348,30 @@
     "e": 0
   },
   {
+    "i": 9782550130277,
+    "t": "Organisation d'institution financie\u0300re, COI 151 : caissier d'institution financie\u0300re",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550130291,
+    "t": "Tenue de livres 520 : (caissier(e\u0300re) d'institution financie\u0300re) CTL 142",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550130307,
+    "t": "Activite\u0301s d'apprentissage sugge\u0301re\u0301es : techniques de caisse, CCF 151",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550130338,
+    "t": "Mathe\u0301matiques commerciales : (caissier(e\u0300re) d'institution financie\u0300re), CMC 143",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782550130345,
     "t": "Pentes",
     "h": 1,
@@ -140,6 +398,18 @@
   {
     "i": 9782550130406,
     "t": "Matelas",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550130444,
+    "t": "Techniques d'e\u0301pilation a\u0300 l'e\u0301lectricite\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550130451,
+    "t": "Maquillage I (ville-soir)",
     "h": 1,
     "e": 0
   },
@@ -236,6 +506,12 @@
   {
     "i": 9782550130802,
     "t": "Fosse\u0301s a\u0300 pente aigue\u0308",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550130802,
+    "t": "Conduite de la niveleuse. Guide d'apprentissage",
     "h": 1,
     "e": 0
   },
@@ -342,6 +618,12 @@
     "e": 0
   },
   {
+    "i": 9782550131038,
+    "t": "E\u0301lectronique applique\u0301e a\u0300 l'automobile (pour l'objectif E\u0301lectricite\u0301 de base II)",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782550131045,
     "t": "E\u0301lectricite\u0301 applique\u0301e a\u0300 l'automobile (pour l'objectif E\u0301lectricite\u0301 de base I)",
     "h": 1,
@@ -360,8 +642,218 @@
     "e": 0
   },
   {
+    "i": 9782550131083,
+    "t": "Die\u0301sel applique\u0301 a\u0300 l'automobile",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550131090,
+    "t": "Ope\u0301ration d'installations de traitement des eaux : OEU-151 : [e\u0301tangs d'oxydation]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550131120,
+    "t": "Ope\u0301ration d'installations de traitement des eaux : OEU-152 : [traitement biologique des eaux use\u0301es]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550131168,
+    "t": "Ope\u0301ration d'installations de traitement des eaux : OEU-153 : [disques biologiques]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550131212,
+    "t": "Ope\u0301ration d'installations de traitement des eaux : OEU-154 : [traitement primaire des eaux use\u0301es domestiques]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550131250,
+    "t": "Ope\u0301ration d'installations de traitement des eaux : OPR-141 : [lecture de plan me\u0301canique]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550131335,
+    "t": "Ope\u0301ration d'installations de traitement des eaux : OPR-143 : [notions de sciences applique\u0301es]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550131410,
+    "t": "Ope\u0301ration d'installations de traitement des eaux : OPR-144 : [notions sur le syste\u0300me international de mesure]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550131434,
+    "t": "Ope\u0301ration d'installations de traitement des eaux : OPR-145 : [principes de base d'e\u0301lectricite\u0301]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550131502,
+    "t": "Ope\u0301ration d'installations de traitement des eaux : OPR-147 : [groupe-secours]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550131571,
+    "t": "Ope\u0301ration d'installations de traitement des eaux : OPR-151 : [me\u0301canique d'entretien d'usine]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550131632,
+    "t": "Ope\u0301ration d'installations de traitement des eaux : OEP-151 : [captage de l'eau brute]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550131687,
+    "t": "Ope\u0301ration d'installations de traitement des eaux : OEU-149 : [e\u0301paississement des boues]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550131724,
+    "t": "Me\u0301canicien-to\u0302lier en ae\u0301ronautique : guide d'activite\u0301s d'apprentissage",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782550131793,
     "t": "Indications physiques par unite\u0301 de formation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550131823,
+    "t": "Initiation des femmes aux me\u0301tiers non traditionnels",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550131830,
+    "t": "Ope\u0301ration d'installations de traitement des eaux : OEP-155 : [filtration de l'eau]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550131953,
+    "t": "Ope\u0301ration d'installations de traitement des eaux : OEP-156 : [notions sur la chloration]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550131991,
+    "t": "Ope\u0301ration d'installations de traitement des eaux : OEP-157 : [addition de chlore gazeux ou de bioxyde de chlore a\u0300 l'eau]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550132103,
+    "t": "Ope\u0301ration d'installations de traitement des eaux : OEP-158 : [addition d'hypochlorite a\u0300 l'eau potable]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550132141,
+    "t": "Ope\u0301ration d'installations de traitement des eaux : OES-141 : [digestion des boues]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550132219,
+    "t": "Ope\u0301ration d'installations de traitement des eaux : OES-142 : [de\u0301shydratation des boues]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550132349,
+    "t": "Ope\u0301ration d'installations de traitement des eaux : OES-143 : [disposition des boues]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550132387,
+    "t": "Ope\u0301ration d'installations de traitement des eaux : OEU-141 : [caracte\u0301ristiques des eaux use\u0301es domestiques]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550132523,
+    "t": "Ope\u0301ration d'installations de traitement des eaux : OEU-142 : [re\u0301seaux et stations sure\u0301le\u0301vatrices]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550132653,
+    "t": "Ope\u0301ration d'installations de traitement des eaux : OEU-143 : [pre\u0301-traitement des eaux use\u0301es domestiques]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550132745,
+    "t": "Ope\u0301ration d'installations de traitement des eaux : OEU-144 : [chloration des eaux domestiques]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550132967,
+    "t": "Ope\u0301ration d'installations de traitement des eaux : OEU-145 : [traitement physico-chimique des eaux use\u0301es]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550133131,
+    "t": "Ope\u0301ration d'installations de traitement des eaux : OEU-146 : [adsorption]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550133209,
+    "t": "Ope\u0301ration d'installations de traitement des eaux : OEU-147 : [ozonation des eaux use\u0301es domestiques]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550133278,
+    "t": "Ope\u0301ration d'installations de traitement des eaux : OEU-148 : [pompage des boues]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550133681,
+    "t": "General guide for interpreting and implementing the curriculum for preschool education",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550133742,
+    "t": "Rencontre au XVIe sie\u0300cle : guide d'animation pe\u0301dagogique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550133759,
+    "t": "Le Retour de Franc\u0327ois, dit Le Blondin : guide d'animation pe\u0301dagogique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550133766,
+    "t": "De l'agora au forum : guide d'animation pe\u0301dagogique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550134114,
+    "t": "Paix sans frontie\u0300res guide d'utilisation pe\u0301dagogique",
     "h": 1,
     "e": 0
   },
@@ -372,8 +864,92 @@
     "e": 0
   },
   {
+    "i": 9782550134176,
+    "t": "Programme d'e\u0301tudes. Secondaire. Franc\u0327ais, langue seconde. Option 4e ou 5e anne\u0301es",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550134336,
+    "t": "L'e\u0301lectrotechnique de l'e\u0301lectron au microprocesseur : guide de l'e\u0301tudiant(e)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550134374,
+    "t": "Le Que\u0301bec :cartogramme des commissions scolaires",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782550135074,
     "t": "Mathematics, second cycle : booklet A, arithmetic and algebra",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550135258,
+    "t": "Bibliographie se\u0301lective commente\u0301e : mieux connai\u0302tre les Amerindiens et les Inuit en lisant avec les enfants",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550135319,
+    "t": "Entente concluded between on the one hand : the Comite\u0301 patronal de ne\u0301gociation pour les commissions scolaires pour catholiques, the Catholic Confessional School Boards and the Corporations of School Trustees for Catholics (CPNCC) and on the other hand : the Provincial Association of Catholic Teachers (PACT) on behalf of the teachers it represents",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550135340,
+    "t": "Entente intervenue entre d'une part : le Comite\u0301 patronal de ne\u0301gociation pour les commissions scolaires pour catholiques, les commissions scolaires confessionnelles catholiques et les corporations de syndics d'e\u0301coles pour catholiques (CPNCC) et d'autre part : le Syndicat canadien de la fonction publique (SCFP) affilie\u0301 a\u0300 la Fe\u0301de\u0301ration des travailleurs et travailleuses du Que\u0301bec (FTQ) pour le compte des syndicats repre\u0301sentant les employe\u0301s de soutien des commissions scolaires et commissions re\u0301gionales pour catholiques du Que\u0301bec",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550135357,
+    "t": "Entente concluded between on the one hand : the Comite\u0301 patronal de ne\u0301gociation pour les commissions scolaires pour catholiques, the Catholic Confessional School Boards and the Corporations of School Trustees for Catholics (CPNCC) and on the other hand : the Syndicat canadien de la fonction publique (SCFP) affiliated with the Fe\u0301de\u0301ration des travailleurs et travailleuses du Que\u0301bec on behalf of the unions representing the Support Staff of School Boards and Regional School Boards for Catholics of Que\u0301bec",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550135395,
+    "t": "Entente concluded between on the one hand : the Comite\u0301 patronal de ne\u0301gociation pour les commissions scolaires pour catholiques, the Catholic Confessional School Boards and the Corporations of School Trustees for Catholics (CPNCC) and on the other hand : the Union des employe\u0301-e-s de service, local 800, affiliated with the Fe\u0301de\u0301ration des travailleurs et travailleuses du Que\u0301bec (FTQ) on behalf of the unions representing the Support Staff of School Boards and Regional School Boards for Catholics of Que\u0301bec",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550135456,
+    "t": "Entente concluded between on the one hand : the Comite\u0301 patronal de ne\u0301gociation pour les commissions scolaires pour catholiques, the Catholic Confessional School Boards and the Corporations of School Trustees for Catholics (CPNCC) and on the other hand : the Fe\u0301de\u0301ration des employe\u0301es et employe\u0301s de services publics inc. (CSN), on behalf of the Unions of Support Staff of School Boards and Regional Boards for Catholics of Que\u0301bec wich [sic] it represents",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550135470,
+    "t": "List of teaching materials authorized by the Minister of education for general education at the secondary level, 1987-1988",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550135487,
+    "t": "List of teaching materials authorized by the minister of education for vocational education at the secondary level, 1987-1988",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550135500,
+    "t": "Enseignement moral et re\u0301ligieux catholique : fasc. 1 : de\u0301velop. de contenu : 4e anne\u0301e sec. : guide pe\u0301d.",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550135548,
+    "t": "Fran\u00e7ais, langue seconde : primaire, secondaire, 1er cycle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550135623,
+    "t": "Enseignement moral, 5e anne\u0301e secondaire : guide pe\u0301dagogique",
     "h": 1,
     "e": 0
   },
@@ -384,14 +960,110 @@
     "e": 0
   },
   {
+    "i": 9782550135647,
+    "t": "Reorganization of the chemistry and physics programs : Second cycle ; Secondary school",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550135777,
+    "t": "Version administrative de l'entente concernant les conditions de travail des enseignantes et enseignants de commissions scolaire (CEQ) [intervenue entre d'une part] : [le Comite\u0301 patronal de ne\u0301gociation pour les commissions scolaires pour catholiques, les commissions scolaires confessionnelles catholiques et les corporations de syndics d'e\u0301coles pour catholiques (CPNCC) et d'autre part : la Centrale de l'enseignement du Que\u0301bec pour le compte des syndicats d'enseignants qu'elle repre\u0301sente (CEQ)]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550135784,
+    "t": "Version administrative de l'entente concernant les conditions de travail des professionnelles et professionnels de commissions scolaires (CEQ) [intervenue entre d'une part] : [le Comite\u0301 patronal de ne\u0301gociation pour les commissions scolaires pour catholiques, les commissions scolaires confessionnelles catholiques et les corporations de syndics d'e\u0301coles pour catholiques (CPNCC) et d'autre part : la Centrale de l'enseignement du Que\u0301bec pour le compte des syndicats de professionnelles et professionnels re\u0301pre\u0301sente\u0301e par son agente ne\u0301gociatrice, la Fe\u0301de\u0301ration des syndicats de professionnelles et professionnels de commissions scolaires du Que\u0301bec]",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782550135845,
     "t": "Catalogue des logiciels subventionne\u0301s par le Ministe\u0300re de l'e\u0301ducation du Que\u0301bec (septembre 1984 a\u0300 juin 1987)",
     "h": 1,
     "e": 0
   },
   {
+    "i": 9782550135968,
+    "t": "Histoire ge\u0301ne\u0301rale",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782550136057,
     "t": "Secondary, physical science (physical environment)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550136125,
+    "t": "Guide d'ame\u0301nagement des classes-laboratoires de sciences physiques (sciences de l'environnement) : programme d'e\u0301tudes obligatoire de deuxie\u0300me secondaire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550136170,
+    "t": "L'e\u0301cole et les communaute\u0301s culturelles : la communaute\u0301 cambodgienne",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550136194,
+    "t": "L'e\u0301cole et les communaute\u0301s culturelles : la communaute\u0301 chilienne",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550136200,
+    "t": "L'e\u0301cole et les communaute\u0301s culturelles : la communaute\u0301 grecque",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550136217,
+    "t": "L'e\u0301cole et les communaute\u0301s culturelles : la communaute\u0301 hai\u0308tienne",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550136224,
+    "t": "L'e\u0301cole et les communaute\u0301s culturelles : la communaute\u0301 indienne",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550136255,
+    "t": "L'e\u0301cole et les communaute\u0301s culturelles : la communaute\u0301 libanaise",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550136262,
+    "t": "L'e\u0301cole et les communaute\u0301s culturelles : la communaute\u0301 polonaise",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550136279,
+    "t": "L'e\u0301cole et les communaute\u0301s culturelles : la communaute\u0301 portugaise",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550136286,
+    "t": "L'e\u0301cole et les communaute\u0301s culturelles : la communaute\u0301 salvadorienne",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550136293,
+    "t": "L'e\u0301cole et les communaute\u0301s culturelles : la communaute\u0301 vietnamienne",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550136781,
+    "t": "L'e\u0301cole et les communaute\u0301s culturelles : la communaute\u0301 juive",
     "h": 1,
     "e": 0
   },
@@ -408,8 +1080,50 @@
     "e": 0
   },
   {
+    "i": 9782550136873,
+    "t": "Relance au collegial : promotion 1984-1985 : situation au 31 mars 1986",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550136897,
+    "t": "Consultation sur la qualite\u0301 du franc\u0327ais e\u0301crit et parle\u0301 e\u0301coles prive\u0301es",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550136903,
+    "t": "Consultation sur la qualite\u0301 du franc\u0327ais e\u0301crit et parle\u0301 personnes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550136958,
+    "t": "The integration of microcomputing in education : a study of eight uses of \"applications software\"",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550137092,
+    "t": "Jeux d'apprentissage : guide sur l'inte\u0301gration du jeu en classe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550137221,
+    "t": "Programmes re\u0301ame\u0301nage\u0301s (de\u0301coupe\u0301s) par cours : secteur couture et habillement 425-000",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782550137238,
     "t": "Programmes re\u0301ame\u0301nage\u0301s (de\u0301coupe\u0301s) par cours. Secteur meuble et construction, 255-000",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550137290,
+    "t": "Programmes re\u0301ame\u0301nage\u0301s (de\u0301coupe\u0301s) par cours : secteur dessin technique 325-000",
     "h": 1,
     "e": 0
   },
@@ -422,6 +1136,72 @@
   {
     "i": 9782550138778,
     "t": "Synthe\u0300se d'expe\u0301riences pe\u0301dagogiques ve\u0301cues et de mate\u0301riel didactique e\u0301labore\u0301 par les commissions scolaires du Que\u0301bec : classes multiprogrammes, pre\u0301scolaire et primaire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550138785,
+    "t": "L'E\u0301ducation compose\u0301e a\u0300 la Direction de la classification des enseignants",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550631385,
+    "t": "Optimisation des services inte\u0301gre\u0301s en pe\u0301rinatalite\u0301 et pour la petite enfance (SIPPE) a\u0300 l'intention des familles vivant en contexte de vulne\u0301rabilite\u0301 : rapport du comite\u0301 conseil post-chantiers sur les SIPPE de\u0301pose\u0301 au ministe\u0300re de la sante\u0301 et des services sociaux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550631576,
+    "t": "Plan strategique 2011-2014",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550632481,
+    "t": "Les personnes pre\u0301venues confie\u0301es aux Services correctionnels",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550632504,
+    "t": "Les autochtones confie\u0301s aux Services correctionnels",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550632528,
+    "t": "Les personnes associe\u0301es aux gangs de rue confie\u0301es aux Services correctionnels",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550632542,
+    "t": "Les femmes confie\u0301es aux Services correctionnels",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550635734,
+    "t": "Plan d'action 2011-2012",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550636724,
+    "t": "Sommaire des modules du programme de formation CHARLIE : programme d'accueil et d'inte\u0301gration / intervenant",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550639220,
+    "t": "Plan quinquennal d'investissements universitaires et cadre de re\u0301fe\u0301rence pour la periode de 1er juin 2010 au 31 mai 2015",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550639244,
+    "t": "Statistiques sur les contrats des organismes publics du re\u0301seau de l'administration gouvernementale 2010-2011",
     "h": 1,
     "e": 0
   },
@@ -468,6 +1248,12 @@
     "e": 0
   },
   {
+    "i": 9782551131181,
+    "t": "English for everyday GAS-531, 0332",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782551131198,
     "t": "English for everyday, GAS-541",
     "h": 1,
@@ -476,6 +1262,12 @@
   {
     "i": 9782551131358,
     "t": "Rapports d'impo\u0302t",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551131396,
+    "t": "Carte des gi\u0302tes mine\u0301raux du centre nort de la Gaspe\u0301sie. feuillets 22A/12, 22A/13, 22A/14, 22B/16",
     "h": 1,
     "e": 0
   },
@@ -492,6 +1284,18 @@
     "e": 0
   },
   {
+    "i": 9782551131501,
+    "t": "Colloque sur le bien-e\u0302tre des animaux de ferme",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551131501,
+    "t": "\"Atteindre l'e\u0301quilibre\" : Symposium sur les bovins laitiers, le 28 octobre 1993, Auberge des Seigneurs, Saint-Hyacinthe",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782551131525,
     "t": "Initiation au syste\u0300me d'apprentissage individualise\u0301 : 3200, GTG-152, guide d'apprentissage",
     "h": 1,
@@ -500,6 +1304,12 @@
   {
     "i": 9782551131617,
     "t": "GSM-201. The four operations on natural numbers",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551131761,
+    "t": "E\u0301tablissement d'enseignement",
     "h": 1,
     "e": 0
   },
@@ -516,6 +1326,18 @@
     "e": 0
   },
   {
+    "i": 9782551131969,
+    "t": "Aventure de l'e\u0301criture. Ponctuation majuscule et minuscule",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551131983,
+    "t": "Exceptional mineral potential of Quebec : a reality yet to be discovered : Information seminar : Conference : Papers",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782551132584,
     "t": "1er cycle : guide ge\u0301ne\u0301ral",
     "h": 1,
@@ -524,6 +1346,12 @@
   {
     "i": 9782551132591,
     "t": "2e cycle : guide ge\u0301ne\u0301ral",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551132614,
+    "t": "Localisation et de\u0301placement",
     "h": 1,
     "e": 0
   },
@@ -558,8 +1386,116 @@
     "e": 0
   },
   {
+    "i": 9782551133796,
+    "t": "\"Ma mise en marche\u0301, je m'implique et j'innove\"",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551134144,
+    "t": "Ma force c'est la force de mon re\u0301seau les re\u0301seaux d'entreprises",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551134502,
+    "t": "Le Que\u0301bec chiffres en main, 1995",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551134557,
+    "t": "Guido Molinari, une r\u0165rospective Sandra Grant-Marchand avec la collaboration de Roald Nasgaard et Guido Molinari",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551134687,
+    "t": "Instructions pour la re\u0301alisation d'un mandat de re\u0301novation cadastrale : version 2.0",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551134731,
+    "t": "Lexiques pratiques de la construction : termes en usage au Que\u0301bec ; briquetage-mac\u0327onnerie, chauffage, e\u0301lectricite\u0301, me\u0301canique de protection-incendie, plomberie, re\u0301frige\u0301ration",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551134922,
+    "t": "Aventure de l'e\u0301criture. Participes passe\u0301s",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782551135592,
     "t": "SEAL, secondary English for adult learners : secondary 1[-4]. Student book",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551135592,
+    "t": "Language in everyday life : ENG-1015 (GEN-611) : secondary 1 : student book",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551135608,
+    "t": "Language and self-expression : ENG-1016 (GEN-612) : secondary 1 : student book",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551135622,
+    "t": "Language, media and communication : ENG-2016 (GEN-621) : secondary 2 : student book",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551135622,
+    "t": "Language for creativity : ENG-2013 (GEN-622) : secondary 2 : student book",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551135639,
+    "t": "Language for comment and persuasion : ENG-3018 (GEN-631) : secondary 3 : student book",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551135646,
+    "t": "Language to inform : ENG-3017 (GEN-632) : secondary 3 : student book",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551135653,
+    "t": "Language for enjoyment : ENG-4055 (GEN-641) : secondary 4 : student book",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551135660,
+    "t": "Interviews, re\u0301sume\u0301s, letters : how to get that job! : ENG-4043 (GEN-642) : secondary 4 : student book",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551135837,
+    "t": "Ge\u0301ologie de la re\u0301gion de Saint-Malachie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551136179,
+    "t": "Liste des lois refondues du Que\u0301bec : a\u0300 jour au 24 novembre 1993",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551136315,
+    "t": "Les relations du travail en 1993 : e\u0301tudes et recherches du ministe\u0300re du Travail",
     "h": 1,
     "e": 0
   },
@@ -588,14 +1524,1214 @@
     "e": 0
   },
   {
+    "i": 9782551139590,
+    "t": "Recueil des lois et re\u0300glements sur les affaires sociales",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551139910,
+    "t": "Securities Act : R.S.Q., chapter V-1.1, updated to 30 August 1994",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782701130378,
+    "t": "La presse d'entreprise franc\u0327aise au XXe sie\u0300cle : histoire d'un pouvoir",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782701130910,
+    "t": "Crinie\u0300res au vent d'Asie : 7500 km a\u0300 cheval a\u0300 travers la Turquie, l'Irak, l'Iran et l'Afghanistan",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782701131962,
+    "t": "Math 3e : tout en euros",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782701131979,
+    "t": "Math 5e : tout en euros",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782701131986,
+    "t": "Math 4e : tout en euros",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782701133300,
+    "t": "Psychologie du de\u0301veloppement : Enfance et adolescence",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782701133300,
+    "t": "Psychologie du de\u0301veloppement : enfance et adolescence",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782701133669,
+    "t": "Histoire de France / [9.] Revolution, consultat, empire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782701135786,
+    "t": "Un nom pour chaton : D'apre\u0300s un conte populaire vietnamien",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782701135847,
+    "t": "Histoire 1re L, ES",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782701135908,
+    "t": "Huit poe\u0300tes ne\u0301erlandais",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782701135908,
+    "t": "Huit poe\u0300tes ne\u0301erlandais",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782701135977,
+    "t": "Naples, le Ve\u0301suve et Pompe\u0301i",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782701136066,
+    "t": "La Chine ame\u0301ricaine : histoire de la sinologie ame\u0301ricaine de 1949 a\u0300 1979",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782701136387,
+    "t": "La paix dans le monde au XXe sie\u0300cle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782701136882,
+    "t": "Le ciel et la terre. Le monde construit par l'homme. La matie\u0300re : cycles 2 et 3",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782701136899,
+    "t": "Le monde du vivant. Le corps humain et la sante\u0301. L'environnement : cycles 2 et 3",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782701137414,
+    "t": "Territoires, l'ancrage des errances",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782701138091,
+    "t": "SES terminale ES",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782701138213,
+    "t": "Physique chimie seconde",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782701138534,
+    "t": "Lieutenants de police : concours administratifs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782701138824,
+    "t": "English for industry [Hauptbd.]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782701138831,
+    "t": "English for industry [...] Corrige/Key",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782701138893,
+    "t": "New wings 4e",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782701138909,
+    "t": "New wings 4e : fichier du professeur",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782702130094,
+    "t": "50 ans de Formule 1. 1, 1950-1978. 2, 1979-1999",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782702130339,
+    "t": "Histoire de la philosophie politique : T. 4 : Les critiques de la modernite politique",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782702131220,
+    "t": "Parcours : engagement et re\u0301sistance, une vie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782702131732,
+    "t": "La vie juive en Terre sainte sous les Turcs ottomans, 1517-1918",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782702132326,
+    "t": "La science a\u0300 l'usage des non-scientifiques",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782702132968,
+    "t": "Le moine, l'imam et le rabbn",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782702134764,
+    "t": "L'anne\u0301e du rugby. 2004",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782702136188,
+    "t": "Les guerriers de l'e\u0301ternite\u0301. 1, Le dernier gardien des re\u0302ves : roman",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782702136249,
+    "t": "La traverse\u0301e des flammes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782702136416,
+    "t": "Je vous e\u0301cris comme je vous aime : roman",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782702136980,
+    "t": "L'anne\u0301e du football 2006",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782702137352,
+    "t": "Transgressions. 04",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782702137581,
+    "t": "Notre part des te\u0301ne\u0300bres : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782702138663,
+    "t": "Kouchner vu par : Rony Brauman, Edith Cresson, Alain Deloche, et al. Sur une ide\u0301e originale d'Emmanuel Rubin",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782702139684,
+    "t": "Les a\u0302mes farde\u0301es : roman",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782707130419,
+    "t": "L'retour de l'ethnocentrisme : purifiquation ethnique versus universalisme cannibale",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782707130471,
+    "t": "Mouvements",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782707130471,
+    "t": "Le mode\u0300le franc\u0327ais de discrimination : un nouveau de\u0301fi pour l'antiracisme : E\u0301cole, travail, services publics, police, sante\u0301, statistiques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782707132963,
+    "t": "Mouvements : Hip-hop",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782707133038,
+    "t": "Ethique, architecture, urbain",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782707133267,
+    "t": "Etre e\u0301crivain : cre\u0301ation et identite\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782707133366,
+    "t": "Histoire sociale du cine\u0301ma franc\u0327ais",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782707134868,
+    "t": "La bourse",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782707135353,
+    "t": "L'Economie mondiale. 2002",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782707135391,
+    "t": "Le quotidien urbain : essais sur les temps des villes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782707136121,
+    "t": "\"80% au bac\"-- et apre\u0300s? : les enfants de la de\u0301mocratisation scolaire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782707136411,
+    "t": "L'economie sociale et solidaire: un projet politique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782707137081,
+    "t": "Le nouvel e\u0301tat du monde : les ide\u0301es-forces pour comprendre les nouveaux enjeux internationaux",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782707137579,
+    "t": "Langues et territoires",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782707137630,
+    "t": "L'Environnement en France",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782708130616,
+    "t": "Tout pour rater vos ventes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782708133945,
+    "t": "Pratique de finance : organisations sportives",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782708134607,
+    "t": "La se\u0301curite\u0301 professionnnelle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782708134621,
+    "t": "Management des personnes",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782708135055,
+    "t": "Premiers pas avec les e\u0301checs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782708136083,
+    "t": "Le grand guide de l'immobilier",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782708136861,
+    "t": "Contro\u0302le interne des risques cibler, e\u0301valuer, organiser, piloter, mai\u0302triser",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782708136915,
+    "t": "Guide pratique de la coproprie\u0301te\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782709630542,
+    "t": "Les rapines du duc de Guise : roman",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782709634175,
+    "t": "Les nouveaux myste\u0300res de Marseille. roman Le vampire de la rue des Pistoles",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782710131359,
+    "t": "Former l'esprit critique. 2, A\u0300 travers les disciplines : apprendre a\u0300 philosopher, s'exercer aux de\u0301bats scientifiques, re\u0301fle\u0301chir gra\u0302ce aux maths ...",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782710131403,
+    "t": "Ateliers D'\u00e9criture : Mode D'emploi : Guide Pratique De L'animateur 7E \u00c9d",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782711130719,
+    "t": "Code pe\u0301nal. 2000 : Textes a\u0300 jour au 1er septembre 1999",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711132317,
+    "t": "Code de commerce. 2001. [Textes a\u0300 jour au 12 aou\u0302t 2000]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711133147,
+    "t": "Code de l'urbanisme : commente\u0301 et annote\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711133833,
+    "t": "Des Concubinages : droit interne, droit international, droit compare\u0301 [",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711134120,
+    "t": "Code de l'e\u0301ducation. [Textes, commentaires, jurisprudence, conseils pratiques, bibliographie. Edition 2002-2003]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711134380,
+    "t": "La loi SRU et le droit de l'urbanisme",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782718136356,
+    "t": "Evolution et administration du Norique, de la Rhe\u0301tie, des Provinces alpestres, des Gaules, des Germanies, de la Bretagne et des Provinces hispaniques de 31 avant J.-C. a\u0300 235 apre\u0300s J.-C",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782718139487,
+    "t": "Analyse organique imme\u0301diate",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782724630008,
+    "t": "Les instruments de l'e\u0301largissement de l'union europe\u0301enne",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782724630183,
+    "t": "Crime et cha\u0302timent",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782724630275,
+    "t": "Les altermondialismes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782724630770,
+    "t": "Politiques de la psy",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782724631289,
+    "t": "L'inte\u0301gration par le sport?",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782724632194,
+    "t": "Variations",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782724634785,
+    "t": "Sciences et religions au 20e sie\u0300cle : dossier",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782724635003,
+    "t": "Entite\u0301s collectives",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782724636017,
+    "t": "L'archive europe\u0301enne",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782724637052,
+    "t": "Sante\u0301 au travail et sante\u0301 environnementale : une cause commune ?",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782725630946,
+    "t": "Yakawi au pays des aigles",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782725631783,
+    "t": "Devine, dessine et colorie : a\u0300 partir de 8 ans",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782725631875,
+    "t": "A l'e\u0301cole des albums : CP, se\u0301rie 2 : pack de 8 albums",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782725632391,
+    "t": "Histoire, CM2 USB, ressources multime\u0301dia : ressources vide\u0301oprojetables",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782725632445,
+    "t": "E\u0301paminondas",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782725632476,
+    "t": "Urashima et la princesse des mers",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782725632629,
+    "t": "Blanche-Neige",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782725632865,
+    "t": "15 se\u0301quences espace temps CP/CE1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782725633046,
+    "t": "15 se\u0301quences e\u0301ducation citoyenne & morale CP/CE1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782725633923,
+    "t": "Petites come\u0301dies a\u0300 jouer. / 2, 10-12 ans",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782725636009,
+    "t": "La boite a\u0300 outils : ba\u0302tisseurs de possibles cycles 2 et 3",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782725637297,
+    "t": "Les contes dans tous leurs \u00e9tats : cycle 3",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782725637983,
+    "t": "CLE\u0301O franc\u0327ais CE2 : guide pe\u0301dagogique du manuel, du fichier et du fichier DYS",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731630862,
+    "t": "John Lord, Be\u0302tes sauvages. Opus 3",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782736130701,
+    "t": "Le Platinium Visual Basic 6",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782736131258,
+    "t": "Flight simulator 95/98 ; Combat flight simulator",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782736132316,
+    "t": "Linux",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782736133344,
+    "t": "3D studio Max 2.5 f/x : animation et effets spe\u0301ciaux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782736133825,
+    "t": "Office 2000 : micro-re\u0301fe\u0301rence pour les nuls",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782736133894,
+    "t": "Astrologie 2000",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782736134341,
+    "t": "Access 2000 guide du developpeur : le platinium",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782736134839,
+    "t": "Abode InDesign",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782736134860,
+    "t": "Jeux de lettres",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782736134907,
+    "t": "Scriptoria",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782736632076,
+    "t": "<<Un>> bel apr\u00e8s-midi d'\u00e9t\u00e9",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782736632120,
+    "t": "L' oiseau du bonheur",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782736638115,
+    "t": "Animaux des bois",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782736638207,
+    "t": "Dans l'herbe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782738135124,
+    "t": "Nouvelle \u00e9conomie, nouvelle industrie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782744138751,
+    "t": "Boule & Bill. [Gags de Boule et Bill]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745130013,
+    "t": "#x98;ad-#x9C; Durr al-man\u1e6fu\u0304r fi\u0304 t-tafsi\u0304r al-ma'tu\u0304r wa-huwa muh\u032etas\u0323ar tafsi\u0304r tar\u01e7uma\u0304n al-qur'a\u0304n al-\u01e6uz a\u1e6f-\u1e6fa\u0304li\u1e6f #x98;al-#x9C; Muh\u0323tawa\u0304 min auwal su\u0304rat al-an\u02bfa\u0304m ila\u0304 a\u0304h\u032eir su\u0304rat Hu\u0304d",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745130099,
+    "t": "Faw\u0101t al-waf\u012by\u0101t",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745130136,
+    "t": "Dogme de la femme croyante : cultes, transactions",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745130327,
+    "t": "al-Tas\u0323awwuf al-s\u030car\u02bbi\u0304 allad\u0332i\u0304 yag\u030chaluhu kat\u0332i\u0304r min mudda\u02bbi\u0304h wa-muntaqidi\u0304h : muta\u0304ba\u02bba wa-dira\u0304sa k\u0332a\u0304t\u0323ifa h\u0323awl al-tas\u0323awwuf",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745130709,
+    "t": "Linguistic introduction to the History of the English language",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745131065,
+    "t": "\u0627\u0644\u0648\u0627\u0641\u064a \u0641\u064a \u0643\u064a\u0641\u064a\u0629 \u062a\u0631\u062a\u064a\u0644 \u0627\u0644\u0642\u0631\u0622\u0646 \u0627\u0644\u0643\u0631\u064a\u0645 \u0628\u0631\u0648\u0627\u064a\u0629 \u062d\u0641\u0635 \u0639\u0646 \u0639\u0627\u0635\u0645 \u0627\u0644\u0643\u0648\u0641\u064a : \u0634\u0631\u062d \u0648\u0627\u0641 \u0644\u0645\u062a\u0646\u064a \u0627\u0644\u062c\u0632\u0631\u064a\u0629 \u0648 \u062a\u062d\u0641\u0629 \u0627\u0644\u0623\u0637\u0641\u0627\u0644",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745131287,
+    "t": "S\u030carh\u0323 as\u030c-S\u030cifa\u0304 li-a\u0306l-Qa\u0304d\u0323i\u0304 \u02bbIya\u0304d\u0323",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745131423,
+    "t": "\u0627\u0644\u0634\u0639\u0631 \u0648\u0627\u0644\u0634\u0639\u0631\u0627\u0621 \u0623\u0648 \u0637\u0628\u0642\u0627\u062a \u0627\u0644\u0634\u0639\u0631\u0627\u0621",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745131614,
+    "t": "\u0627\u0644\u0627\u0634\u0628\u0627\u0647 \u0648\u0627\u0644\u0646\u0638\u0627\u0626\u0631 \u0641\u064a \u0641\u0642\u0647 \u0627\u0644\u0634\u0627\u0641\u0639\u064a\u0629",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745131690,
+    "t": "Ma\u02bba\u0304din al-g\u030cawa\u0304hir fi\u0304 fad\u0323l ad\u0332-d\u0332ikr wa-a\u0306d\u0332-d\u0332a\u0304kir",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745132093,
+    "t": "\u0646\u0633\u064a\u0645 \u0627\u0644\u0631\u064a\u0627\u0636 \u0641\u064a \u0634\u0631\u062d \u0634\u0641\u0627\u0621 \u0627\u0644\u0642\u0627\u0636\u064a \u0639\u064a\u0627\u0636. \u0627\u0644\u062c\u0632\u0621 \u0627\u0644\u062b\u0627\u0644\u062b",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745132352,
+    "t": "Tafsi\u0304r Su\u0304rat al-Fa\u0304tih\u0323ah min al-Bah\u0323r al-madi\u0304d fi\u0304 tafsi\u0304r al-Qur\u02bca\u0304n al-maji\u0304d",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745132383,
+    "t": "Al-H\u0323ani\u0304n bi-wad\u0323\u02bb h\u0323adi\u0304th al-ani\u0304n",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745132390,
+    "t": "al-Jinn wa-al-sih\u0323r fi\u0304 al-manz\u0323u\u0304r al-Isla\u0304mi\u0304",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745133090,
+    "t": "#x98;al-#x9C; Kala\u0304m \u02bfala\u0304 h\u0323in\u1e6f an-na\u0304si\u0304",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745133175,
+    "t": "\u0641\u0636\u0644 \u0627\u0644\u0644\u0647 \u0627\u0644\u0635\u0645\u062f \u0641\u064a \u062a\u0648\u0636\u064a\u062d \u0627\u0644\u0623\u062f\u0628 \u0627\u0644\u0645\u0641\u0631\u062f \u0644\u0623\u0628\u064a \u0639\u0628\u062f \u0627\u0644\u0644\u0647 \u0645\u062d\u0645\u062f \u0628\u0646 \u0625\u0633\u0645\u0627\u0639\u064a\u0644 \u0627\u0644\u0628\u062e\u0627\u0631\u064a",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745133212,
+    "t": "\u0641\u0647\u0627\u0631\u0633 \u0631\u0648\u062d \u0627\u0644\u0645\u0639\u0627\u0646\u064a \u0641\u064a \u062a\u0641\u0633\u064a\u0631 \u0627\u0644\u0642\u0631\u0627\u0646 \u0627\u0644\u0639\u0638\u064a\u0645 \u0648\u0627\u0644\u0633\u0628\u0639 \u0627\u0644\u0645\u062b\u0627\u0646\u064a",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745133267,
+    "t": "Ah\u0323ka\u0304m al-nisa\u0304\u02bc",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745133427,
+    "t": "\u062a\u0641\u0633\u064a\u0631 \u0627\u0644\u0642\u0631\u0622\u0646 \u0627\u0644\u0643\u0631\u064a\u0645",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745133557,
+    "t": "al-Tag\u030cwa\u0304l fi\u0304 kutub al-amt\u0332a\u0304l",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745134004,
+    "t": "al-Durar al-fara\u0304\u02bcid al-munaz\u0323z\u0323ama fi\u0304 ak\u0332ba\u0304r al-h\u0323a\u0304g\u030cg\u030c wa-t\u0323ari\u0304q Makka al-mu\u02bbaz\u0323z\u0323ama",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745134141,
+    "t": "\u062a\u062c\u0627\u0631\u0628 \u0627\u0644\u0645\u0645 \u0648\u062a\u0639\u0627\u0642\u0628 \u0627\u0644\u0647\u0645\u0645. \u0627\u0644\u062c\u0632\u0621 \u0627\u0644\u0623\u0648\u0644\u060c \u064a\u062d\u062a\u0648\u064a \u0639\u0644\u0649 \u0623\u062e\u0628\u0627\u0631 \u0645\u0644\u0648\u0643 \u0627\u0644\u0641\u0631\u0633 \u0627\u0644\u0633\u0627\u0628\u0642\u064a\u0646 \u0639\u0644\u0649 \u0627\u0644\u0625\u0633\u0644\u0627\u0645\u060c \u0648\u0639\u0644\u0649 \u0627\u0644\u062d\u0648\u0627\u062f\u062b \u0627\u0644\u0644\u062a\u064a \u062c\u0631\u062a \u0641\u064a \u0639\u0635\u0631 \u0627\u0644\u0646\u0628\u064a ... \u0648\u0627\u0644\u062e\u0644\u0641\u0627\u0621 \u0627\u0644\u0631\u0627\u0634\u062f\u064a\u0646\u060c \u062b\u0645 \u062e\u0644\u0627\u0641\u0629 \u0627\u0644\u062d\u0633\u0628\u0629 \u0628\u0646 \u0639\u0644\u064a",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745134141,
+    "t": "\u062a\u062c\u0627\u0631\u0628 \u0627\u0644\u0645\u0645 \u0648\u062a\u0639\u0627\u0642\u0628 \u0627\u0644\u0647\u0645\u0645. \u0627\u0644\u062c\u0632\u0621 \u0627\u0644\u062b\u0627\u0646\u064a\u060c \u064a\u062d\u062a\u0648\u064a \u0639\u0644\u0649 \u062d\u0648\u0627\u062f\u062b \u0627\u0644\u0639\u0635\u0631 \u0627\u0644\u0623\u0645\u0648\u064a \u0645\u0639 \u062e\u0644\u0627\u0641\u0629 \u0645\u0639\u0627\u0648\u064a\u0629 \u0628\u0646 \u0623\u0628\u064a \u0633\u0641\u064a\u0627\u0646 \u0625\u0644\u0649 \u0622\u062e\u0631 \u062e\u0644\u0627\u0641\u0629 \u0645\u0631\u0648\u0627\u0646 \u0628\u0646 \u0645\u062d\u0645\u062f",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745134141,
+    "t": "\u062a\u062c\u0627\u0631\u0628 \u0627\u0644\u0645\u0645 \u0648\u062a\u0639\u0627\u0642\u0628 \u0627\u0644\u0647\u0645\u0645. \u0627\u0644\u062c\u0632\u0621 \u0627\u0644\u0631\u0627\u0628\u0639\u060c \u064a\u062d\u062a\u0648\u064a \u0639\u0644\u0649 \u0627\u0644\u062d\u0648\u0627\u062f\u062b \u0627\u0644\u0644\u062a\u064a \u062c\u0631\u062a \u0645\u0646\u0630 \u062e\u0644\u0627\u0641\u0629 \u0627\u0644\u0645\u0639\u062a\u0635\u0645 \u0628\u0627\u0644\u0644\u0647 \u0627\u0644\u0639\u0628\u0627\u0633\u064a \u0633\u0646\u0629 218\u0647 \u062d\u062a\u0649 \u0646\u0647\u0627\u064a\u0629 \u0639\u0635\u0631 \u0627\u0644\u0645\u0643\u062a\u0641\u064a \u0628\u0627\u0644\u0644\u0647 \u0627\u0644\u0639\u0628\u0627\u0633\u064a \u0633\u0646\u0629 295\u0647",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745134561,
+    "t": "al-Insa\u0304n wa-al-Nafs fi\u0304 d\u0323aw\u02bc al-Kita\u0304b wa-al-H\u0323adi\u0304th",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745134646,
+    "t": "Mara\u0304fiq al-mawa\u0304fiq fi\u0304 al-wa\u02bbz\u0323 ; wa-yali\u0304hi Ru\u02bcu\u0304s al-qawa\u0304ri\u0304r : mag\u030ca\u0304lis \u02bbilmiyya",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745134837,
+    "t": "Talfi\u0304q al-akhba\u0304r wa-talqi\u0304h\u0323 al-a\u0304tha\u0304r fi\u0304 waqa\u0304yi\u02bb Qazza\u0304n wa-Bulgha\u0304r wa-mulu\u0304k al-Tata\u0304r",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745134837,
+    "t": "Talfi\u0304q al-akhba\u0304r wa-talqi\u0304h\u0323 al-a\u0304tha\u0304r fi\u0304 waqa\u0304yi\u02bb Qazza\u0304n wa-Bulgha\u0304r wa-mulu\u0304k al-Tata\u0304r",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745134943,
+    "t": "Kashf al-gha\u0304ya\u0304t fi\u0304 sharh\u0323 ma\u0304 iktanafat \u02bbalayhi al-Tajalli\u0304ya\u0304t : matn al-Tajalli\u0304ya\u0304t al-ila\u0304hi\u0304yah lil-Shaykh al-akbar Muh\u0323yi\u0304 al-Di\u0304n Ibn \u02bbArabi\u0304. Wa, al-sharh\u0323 lil-Shaykh \u02bbAbdal-Kari\u0304m al-Ji\u0304li\u0304. Wa ma\u02bbahu Ta\u02bbli\u0304qa\u0304t Ibn Su\u0304dki\u0304n",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745135087,
+    "t": "Kas\u030cf al-mus\u030ckil \u02bbala\u0304 s\u0323ah\u0323i\u0304h\u0323 al-Buha\u0304ri\u0304 / 8",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745135117,
+    "t": "\u0160ar\u1e25 Ibn-Ba\u1e6d\u1e6d\u0101l \u02bfal\u0101 \u1e62a\u1e25\u012b\u1e25 al-Bu\u1e2b\u0101r\u012b \u01e6uz\u02be 1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745135247,
+    "t": "\u0645\u062c\u0631\u0639 \u0627\u0644\u0637\u0644\u0627\u0628 \u0641\u064a \u0627\u0644\u0645\u0648\u0627\u0631\u064a\u062b \u0639\u0644\u0649 \u0627\u0644\u0645\u0630\u0647\u0628 \u0627\u0644\u0645\u0627\u0644\u0643\u064a : \u0643\u062a\u0627\u0628 \u062a\u0639\u0644\u064a\u0645\u064a \u0628\u0628\u062d\u062b \u0628\u0637\u0631\u064a\u0642\u0629 \u0645\u0641\u0635\u0644\u0629 \u0648\u0645\u0628\u0633\u0637\u0629 \u0627\u0628\u0648\u0627\u0628 \u0648\u0645\u0633\u0627\u0626\u0644 \u0627\u0644\u0645\u064a\u0631\u0627\u062b \u0639\u0644\u0649 \u0627\u0644\u0645\u0630\u0647\u0628 \u0627\u0644\u0645\u0627\u0644\u0643\u064a \u0648 \u0645\u062f\u0639\u0645\u0629 \u0628\u0627\u0644\u0627\u0645\u062b\u0644\u0629 \u0648\u0627\u0644\u062c\u0648\u0627\u0648\u0644 \u0627\u0644\u062a\u0648\u0636\u064a\u062d\u064a\u0629",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745135384,
+    "t": "al-Isla\u0304m bayna al-bada\u0304wah wa-al-h\u0323ad\u0323a\u0304rah : dirasah fi\u0304 h\u0323ad\u0323a\u0304rah al-Isla\u0304m al-insa\u0304ni\u0304yah",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745136107,
+    "t": "Basha\u0304rat al-mah\u0323bu\u0304b bi-ghufra\u0304n al-dhunu\u0304b",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745136305,
+    "t": "#x98;al#x9C;-Mau\u02bfiz\u0323a al-h\u0323asana bi-ma\u0304 yuh\u032etabu fi\u0304 s\u030cuhu\u0304r as-sana",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745136558,
+    "t": "G\u030ca\u0304mi\u02bb tara\u0304g\u030cim wa-masa\u0304ni\u0304d as\u0323-s\u0323ah\u0323a\u0304bi\u0304ya\u0304t al-muba\u0304yi\u02bba\u0304t. G\u030cuz\u02bc 2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745136671,
+    "t": "\u200f\u0627\u0644\u0642\u0627\u0645\u0648\u0633 :\u200f \u200f\u0627\u0646\u0643\u0644\u064a\u0632\u064a-\u0639\u0631\u0628\u064a : \u0642\u0627\u0645\u0648\u0633 \u0639\u0627\u0645 \u0644\u063a\u0648\u064a-\u0639\u0644\u0645\u064a /\u200f",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782745136701,
+    "t": "\u062a\u0639\u0644\u064a\u0645 \u0627\u0644\u0644\u063a\u0629 \u0627\u0644\u062a\u0631\u0643\u064a\u0629 \u0644\u0644\u0639\u0631\u0628 / \u0625\u0639\u062f\u0627\u062f \u0622\u0644\u0627\u0621 \u0639\u0628\u062f\u0627\u0644\u0644\u0647 \u0623\u0631\u0643\u0648\u0627\u0646",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745136831,
+    "t": "Les re\u0300gles concernants [sic] le nouveau-ne\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745136916,
+    "t": "\u0627\u0644\u0635\u0628\u062d \u0627\u0644\u0633\u0627\u0641\u0631 \u0641\u064a\u0645\u0627 \u064a\u062d\u062a\u0627\u062c \u0627\u0644\u064a\u0647 \u0627\u0644\u0645\u0633\u0627\u0641\u0631",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745136930,
+    "t": "\u0645\u0639\u062c\u0645 \u0627\u0644\u0634\u0639\u0631\u0627\u0621 : \u0645\u0646 \u0627\u0644\u0639\u0635\u0631 \u0627\u0644\u062c\u0627\u0647\u0644\u064a \u062d\u062a\u0649 \u0633\u0646\u0629 2002 \u0645. \u0627\u0644\u062c\u0632\u0621 \u0627\u0644\u062e\u0627\u0645\u0633\u060c \u0645\u062d\u0645\u062f \u0631\u0636\u0627 \u0628\u0646 \u0642\u0627\u0633\u0645 \u0628\u0646 \u0645\u062d\u0645\u062f- \u0645\u064a\u0629",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745136930,
+    "t": "\u0645\u0639\u062c\u0645 \u0627\u0644\u0634\u0639\u0631\u0627\u0621 : \u0645\u0646 \u0627\u0644\u0639\u0635\u0631 \u0627\u0644\u062c\u0627\u0647\u0644\u064a \u062d\u062a\u0649 \u0633\u0646\u0629 2002 \u0645. \u0627\u0644\u062c\u0632\u0621 \u0627\u0644\u0633\u0627\u062f\u0633\u060c \u0646\u0627\u0626\u0644\u0629 - \u064a\u0648\u0646\u0633 \u061b \u0641\u0647\u0631\u0633 \u0627\u0644\u0627\u062d\u0627\u0644\u0627\u062a \u0627\u0644\u0645\u0635\u0627\u062f\u0631 \u0648\u0627\u0644\u0645\u0631\u0627\u062c\u0639",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745137265,
+    "t": "Nisa\u0304\u02bc h\u0323awla al-Rasu\u0304l",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745137821,
+    "t": "al-Fitan wa-al-mih\u0323an wa-\u02bbala\u0304ma\u0304t al-sa\u0304\u02bbah",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745138248,
+    "t": "Majmu\u0304\u02bb musalsala\u0304t fi\u0304 al-H\u0323adi\u0304th",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745138798,
+    "t": "al-Ha\u0323yah\u0304 bad?a al-mawt : kitab\u0304 fih\u0304i dhikr al-ha\u0323yah\u0304 wa-al-mawt, wa-al-jannah wa-al-targhib\u0304 fih\u0304a, \u0304 wa-al-nar\u0304 wa-al-tarhib\u0304 min-ha, \u0304 wa-al-qabr wa-a?dhab\u0304uh min al-Qura\u02bcn\u0304 al-Karim\u0304 ..",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745138897,
+    "t": "Talq\u012bn al-wal\u012bd al-\u1e63agh\u012br / wa-yalayh\u0101 Wa\u1e63\u012byah / wa-yalayh\u0101 Ma\u02bbrifah rij\u0101l al-Bukh\u0101r\u012b alladh\u012b raw\u00e1 \u02bbanhim bi-asm\u0101\u02bchim wa-ans\u0101bhim wa-maw\u0101\u1e6dinhim \u02bbal\u00e1 \u1e25ur\u016bf al-mu\u02bbjam",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745139238,
+    "t": "\u02bbUmdat al-t\u0323a\u0304lib wa-muqni\u02bb al-ra\u0304ghib : al-maruf bi-Tanqi\u0304h\u0323 al-mushbi\u02bb fi\u0304 tah\u0323ri\u0304r al-Muqni\u02bb",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745139344,
+    "t": "S\u030carh\u0323 al-Qa\u0304s\u030ca\u0304ni\u0304 \u02bbala Fus\u0323u\u0304s\u0323 al-h\u0323ikam",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745139924,
+    "t": "al-Mishka\u0304h al-fath\u0323iyah \u02bbala\u0301 al-Sham\u02bbah al-mud\u0323i\u0304\u02bcah fi\u0304 \u02bbilm al-\u02bbArabi\u0304yah (\u02bbilm al-nah\u0323w al-\u02bbArabi\u0304) lil-Ima\u0304m Jala\u0304l al-Di\u0304n al-Suyu\u0304t\u0323i\u0304 (t. 911 H)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746630123,
+    "t": "Urmatt : le village et ses habitants des origines a\u0300 1900",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746630673,
+    "t": "Lettres ouvertes sur un amour : c'e\u0301tait notre destine\u0301e",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746631410,
+    "t": "Lettres ottomanes : les raideurs fous 2010",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746631984,
+    "t": "Les larmes du paradis",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746632141,
+    "t": "Formation apicole : notions de base, documents pe\u0301dagogiques. Brochure II, Mate\u0301riel, conduite de ruches, bibliographie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746632202,
+    "t": "Petit bout ... bourlingue",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746632233,
+    "t": "Soliloquence",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746632592,
+    "t": "Sept coeurs en marche : sur la route de projets solidaires, un tour du monde en famille",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746632998,
+    "t": "De l'e\u0301cole Violet a\u0300 l'EIGSI : l'histoire d'une e\u0301cole d'inge\u0301nieurs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746633766,
+    "t": "Autrefois, Ne\u0301grepelisse : des anne\u0301es 1900 aux anne\u0301es 1960",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746634039,
+    "t": "Les vrais amis re\u0301unis : une loge mac\u0327onnique carcassonnaise a\u0300 l'aube de ses 150 ans",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746634169,
+    "t": "Chemin vert : roman contemporain",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746634237,
+    "t": "Une vie, une passion : journal d'un pilote",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746635524,
+    "t": "Ateliers et chantiers de la Manche : plus d'un sie\u0300cle de construction navale, 1893-2007, re\u0301paration et me\u0301canique ge\u0301ne\u0301rale, chaudronnerie : le plus grand des petits chantiers",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746635784,
+    "t": "Photographies, 2006-2011",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746636118,
+    "t": "Jours d'e\u0301te\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746636248,
+    "t": "Passeur d'ombres",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746637559,
+    "t": "Le sacrifice d'Abraham : une the\u0301ologie du sacrifice a\u0300 rede\u0301couvrir",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746638198,
+    "t": "Duo d'une vie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746639324,
+    "t": "Scrabcolor : me\u0301thode d'apprentissage des mots avec lettres che\u0300res",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746639416,
+    "t": "Une fe\u0301e au dessus de ma te\u0302te",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746639621,
+    "t": "Gavarnie sans le cirque",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746639911,
+    "t": "Dix ans de chroniques patrimoine a\u0300 Saint-Laurent-en-Royans",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782748131901,
+    "t": "Les gens du pays de Smour",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760133082,
+    "t": "La force de l'amour. Guide du mai\u0302tre",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760133112,
+    "t": "Arc-en-ciel I-II-III : tire\u0301 a\u0300 part",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760133228,
+    "t": "Croisie\u0300res mathe\u0301matiques",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9782760133914,
     "t": "Mathe\u0301matiques 2000 : exercices, activite\u0301s et re\u0301sume\u0301s de cours, re\u0301solution de proble\u0300mes : nouveau programme. Maths 116 [216, 416-436, 516-536]",
     "h": 1,
     "e": 1
   },
   {
+    "i": 9782760133969,
+    "t": "Portes ouvertes sur notre pays. Guide du mai\u0302tre",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760134072,
+    "t": "Mathe\u0301matiques 2000 : exercices, activite\u0301s et re\u0301sume\u0301s de cours, re\u0301solution de proble\u0300mes, maths 116, module B",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760134232,
+    "t": "Po\u00e8mes",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760135574,
+    "t": "L'analyse d'une se\u0301rie chronologique : (document provisoire)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760137769,
+    "t": "Math\u00e9matiques de la technologie",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782760138865,
     "t": "Le franc\u0327ais au fil des saisons : 2e[-3e] anne\u0301e. Guide d'enseignement et corrige\u0301 : the\u0300mes communs pour classe multiprogramme",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760138902,
+    "t": "Croisie\u0300res mathe\u0301matiques 2. Guide pe\u0301dagogique",
     "h": 1,
     "e": 0
   },
@@ -608,6 +2744,204 @@
   {
     "i": 9782760139008,
     "t": "La grammaire, c'est mon affaire. Cahier, 3e anne\u0301e /Colette Baillargeon",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760139206,
+    "t": "Mon passage au secondaire. Guide de l'enseignant et de l'enseignante",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760631823,
+    "t": "E\u0301thique et soins infirmiers",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760632219,
+    "t": "L' Inte\u0301gration des Familles Les Enjeux Sociosanitaires et Scolaires",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760632424,
+    "t": "Le Tiers-Monde postcolonial : espoirs et de\u0301senchantements",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760633223,
+    "t": "Les grands projets urbains : territoires, acteurs et strate\u0301gies",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760633223,
+    "t": "Les grands projets urbains : territoires, acteurs et strate\u0301gies",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760634220,
+    "t": "Les excuses dans la diplomatie ame\u0301ricaine : pour une approche pluraliste des relations internationales",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760634459,
+    "t": "E\u0301crire le temps : les tableaux urbains de Louis Se\u0301bastien Mercier",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760634565,
+    "t": "Lectures nietzsche\u0301ennes : sources et re\u0301ceptions",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760634626,
+    "t": "Matie\u0300res incandescentes : proble\u0301matiques mate\u0301rialistes des Lumie\u0300res franc\u0327aises (1650-1780)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760635517,
+    "t": "Vivre en famille au coeur de la ville",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760636002,
+    "t": "La de\u0301tention avant jugement au Canada : une pratique controverse\u0301e",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760636002,
+    "t": "La de\u0301tention avant jugement au Canada : une pratique controverse\u0301e",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760636163,
+    "t": "Le devenir-juif du poe\u0300me : double envoi : Celan et Derrida",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760636736,
+    "t": "Je suis un lieu",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760636798,
+    "t": "L'e\u0301ducation aux me\u0301dias a\u0300 l'e\u0300re nume\u0301rique : entre fondations et renouvellement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760636828,
+    "t": "Les guerres de Jacques Derrida",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760636972,
+    "t": "Les MOOCs : cours en ligne et transformations des universite\u0301s",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760637306,
+    "t": "L'Afrique du Sud entre \u00e9mergence et responsabilit\u00e9",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760638501,
+    "t": "De\u0301linquance et innovation",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760638792,
+    "t": "\u00c0 contre-courant : Sylvia Ostry et Kari Polanyi Levitt",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760638853,
+    "t": "Les HIJRAS : Portrait Socioreligieux d'une Communaut\u00e9 Transgenre Sud-Asiatique",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760639171,
+    "t": "Alliances: Penser et repenser les relations entre Autochtones et non-Autochtones",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760639379,
+    "t": "La construction du contemporain : discours et pratiques du narratif au Que\u0301bec et en France depuis 1980",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760639379,
+    "t": "La construction du contemporain : discours et pratiques du narratif au Que\u0301bec et en France depuis 1980",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760639539,
+    "t": "Mesurer la science",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760639676,
+    "t": "La bohe\u0300me : une figure de l'imaginaire social",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760639676,
+    "t": "La bohe\u0300me : une figure de l'imaginaire social",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760639782,
+    "t": "Profession designer urbain",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782761631112,
+    "t": "Une nouvelle fa\u00e7on de vivre :",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782761631259,
+    "t": "GB plus : niveau textes narratifs 28",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782761631587,
+    "t": "Accent mathe\u0301matique 1. Mate\u0301riel comple\u0301mentaire accompagnant le Guide d'enseignement Accent mathe\u0301matique 1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782761632164,
+    "t": "Alize\u0301. Vent du large 1",
     "h": 1,
     "e": 1
   }

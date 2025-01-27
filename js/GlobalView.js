@@ -48,7 +48,7 @@ export class GlobalView extends View {
         //this.drawTitle(ctx, 'All Books(32,022,039)');
         // this.draw_map_thumbnail(ctx);
         this.drawLabels();
-        this.drawMapScale(ctx, "5000 📚")
+        this.drawMapScaleIndicator(ctx, "5000 📚")
         this.drawISBN();
     }
 

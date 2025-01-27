@@ -1,8 +1,1946 @@
 [
   {
+    "i": 9782550430094,
+    "t": "Adventure tourism. 3, Food services and tourism",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550430353,
+    "t": "Giving new empetus to the teaching profession : brief submitted to the Minister of Education. Abridged version",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550430438,
+    "t": "Eeyou Istchee aboriginal peoples survey 2001 : a report prepared by the Cree Board of Health and Social Services of James Bay from responses given by 906 Eeyouch to Statistics Canada in the spring of 2001",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550430513,
+    "t": "Technologie d'analyses biome\u0301dicales. 19, Sante\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550430537,
+    "t": "Youth and adult correctional intervention. 20, Social, educational and legal services",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550430544,
+    "t": "Architectural technology. 7, Buildings and public works",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550430551,
+    "t": "Building systems technology. 7, Buildings and public works",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550430551,
+    "t": "Building technology systems : technical education program, 221.C0",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550430568,
+    "t": "Civil engineering technology. 7, Buildings and public works",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550430599,
+    "t": "Techniques de me\u0301tiers d'art. 4, Arts",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550430636,
+    "t": "Abattage manuel et de\u0301bardage forestier. 12, Foresterie et papier",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550430650,
+    "t": "Programs of study leading to a semiskilled occupation : administration guide 2003-2004",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550430933,
+    "t": "Nouvelles technologies applicables a\u0300 l'inventaire ae\u0301rien de la grande faune",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550430988,
+    "t": "E\u0301tudiante et me\u0300re : un double de\u0301fi : les conditions de vie et les besoins des me\u0300res e\u0301tudiantes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550431510,
+    "t": "Search for and characterization of lake sturgeon (Acipenser fulvescens) spawning grounds in the upstream portion of the Lachine Rapids, St. Lawrence River, in 2003",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550431572,
+    "t": "Vers un nouveau contrat social pour l'e\u0301galite\u0301 entre les femmes et les hommes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550431701,
+    "t": "E\u0301ducatrices, e\u0301ducateurs a\u0300 l'enfance : une carrie\u0300re pleine de vies!",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550431855,
+    "t": "Transitions postsecondaires : rapport au Ministre de l'e\u0301ducation du Que\u0301bec",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550431862,
+    "t": "The transitions beyond secondary school : report to the Minister of Education of Que\u0301bec",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550431947,
+    "t": "Fiches sectorielles, re\u0301gion de Laval",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550432241,
+    "t": "Instructional packages and evaluation criteria : elementary and secondary education",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550432289,
+    "t": "Evaluation of the advertising aspects of instructional materials : elementary and secondary education",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550432296,
+    "t": "Evaluating the material aspects (printing) of instructional materials : elementary and secondary education",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550432517,
+    "t": "Rapport annuel de gestion 2003-04",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550433453,
+    "t": "Les services inte\u0301gre\u0301s en pe\u0301rinatalite\u0301 et pour la petite enfance a\u0300 l'intention des familles vivant en contexte de vulne\u0301rabilite\u0301 : cahier de participation, module 2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550433521,
+    "t": "Proposed forest resource protection and development objectives for the general forest management plans : 2003 public consultations report",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550433576,
+    "t": "The energy sector in Que\u0301bec : context, issues and questions",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550433774,
+    "t": "A\u0300 la recherche d'un mode de scrutin mixte compensatoire pour le Que\u0301bec : document de travail",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550434085,
+    "t": "Program development : vocational training : program design and development guide : reference document",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550434092,
+    "t": "Program development : technical training : program design and development guide : ministerial portion of the program-specific component : reference document",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550434092,
+    "t": "Program development : technical training : program design and development guide : ministerial portion of the program-specific component : reference document",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550434269,
+    "t": "Me\u0301canicienne, me\u0301canicien d'e\u0301quipement marins. 10, Entretien d'e\u0301quipement motorise\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550434283,
+    "t": "Mathe\u0301matiques : droit I : e\u0301quation, repre\u0301sentation graphique et pente",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550434306,
+    "t": "Mathe\u0301matiques : ge\u0301ome\u0301trie III : isome\u0301tries et similitudes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550434320,
+    "t": "Mathe\u0301matiques : ge\u0301ome\u0301trie II : mesure et collecte de donne\u0301es",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550434337,
+    "t": "Mathe\u0301matiques : exposants et radicaux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550434344,
+    "t": "Mathe\u0301matiques : factorisation et fractions alge\u0301briques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550434351,
+    "t": "Mathe\u0301matiques : droit II : paralle\u0300les, perpendiculaires et distance",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550434375,
+    "t": "Mathe\u0301matiques : ensembles, relations et fonctions",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550434382,
+    "t": "Mathe\u0301matiques : ope\u0301rations sur les fractions alge\u0301briques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550434399,
+    "t": "Mathe\u0301matiques : comple\u0301ment et synthe\u0300se II",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550434405,
+    "t": "Mathe\u0301matiques : optimisation I : programmation line\u0301aire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550434412,
+    "t": "Mathe\u0301matiques : statistiques III : corre\u0301lation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550434429,
+    "t": "Mathe\u0301matiques : probabilite\u0301s II",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550434436,
+    "t": "Mathe\u0301matiques : probabilite\u0301s II : graphes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550434443,
+    "t": "Mathe\u0301matiques : coniques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550434450,
+    "t": "Mathe\u0301matiques : fonctions re\u0301elles et e\u0301quations",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550434467,
+    "t": "Mathe\u0301matiques : fonctions et e\u0301quations exponentielles et logarithmiques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550434481,
+    "t": "Mathe\u0301matiques : ge\u0301ome\u0301trie IV : relations me\u0301triques dans le cercle et le triangle rectancle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550434498,
+    "t": "Mathe\u0301matiques : introduction aux vecteurs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550434672,
+    "t": "Rapport annuel 2003-2004",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550434788,
+    "t": "Food and beverage services : vocational education program, 5793",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550434795,
+    "t": "Photographie. 4, Arts",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550435341,
+    "t": "Mathematics : complement and synthesis I",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550435358,
+    "t": "Mathematics : operations on algebraic fractions",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550435389,
+    "t": "Mathe\u0301matics : equations and inequalities II : first-degree systems",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550435396,
+    "t": "Mathematics : straight lines I",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550435402,
+    "t": "Mathematics : Exponents and radical",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550435419,
+    "t": "Mathe\u0301matics : statistics II",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550435426,
+    "t": "Mathematics : trigonometry I : right triangles and any given triangles",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550435433,
+    "t": "Mathematics : quadratic function",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550435815,
+    "t": "Plan d'action governemental 2004-2009 en matie\u0300re de violence conjugale : pre\u0301vention et promotion, de\u0301pistage et identification pre\u0301coce, intervention psychosociale, intervention judiciaire et correctionelle, adaptation aux re\u0301alite\u0301s particulie\u0300res, conditions essentielles a\u0300 la re\u0301ussite des actions, mise en oeuvre, e\u0301valuation et suivi",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550436058,
+    "t": "Les ressources humaines en science et technologie au Que\u0301bec : les titulaires d'un grade universitaire et les personnes qui exercent une profession scientifique et technique : e\u0301volution au Que\u0301bec et comparaisons au sein du Canada, de 1996 a\u0300 2001",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550436126,
+    "t": "Re\u0301sultats obtenus par les e\u0301le\u0300ves que\u0301be\u0301cois aux e\u0301preuves de mathe\u0301matique et de sciences de 2003",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550436133,
+    "t": "Results achieved by Que\u0301bec students on the 2003 mathematics and science tests",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550436157,
+    "t": "The performance of Canadian youth in mathematics, reading, science and problem solving : results for Que\u0301bec students aged 15",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550436287,
+    "t": "Techniques juridiques : programme d'e\u0301tudes techniques, 310.C0",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550436287,
+    "t": "Techniques juridiques. 20, Services sociaux, e\u0301ducatifs et juridiques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550436294,
+    "t": "Technicienne, technicien juridiques : rapport d'analyse de la situation de travail",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550436317,
+    "t": "Pre\u0301pose\u0301e et pre\u0301pose\u0301 aux be\u0301ne\u0301ficiaires en e\u0301tablissement de sante\u0301 : rapport d'analyse de la situation de travail",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550436348,
+    "t": "Re\u0300gles d'allocation des subventions de fonctionnement et d'investissements pour les anne\u0301es scolaires 2004-2005 a\u0300 2008-2009 : e\u0300le\u0301ments de re\u0301fe\u0301rence aux fins de l'approbation du budget, Commission scolaire Crie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550436560,
+    "t": "Ope\u0301ratrice, ope\u0301rateur en nettoyage industriel : e\u0301tude pre\u0301liminaire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550436560,
+    "t": "Ope\u0301ratrice, ope\u0301rateur en nettoyage industriel. 6, Chimie et biologie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550436577,
+    "t": "Industrial maintenance technology. 14, Maintenance mechanics",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550436904,
+    "t": "Techniques d'ame\u0301nagement cyne\u0301ge\u0301tique et halieutique. 8, Environnement et ame\u0301nagement du territoire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550436911,
+    "t": "Techniques du milieu naturel. 8, Environnement et ame\u0301nagement du territoire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550436935,
+    "t": "Soins de la sante\u0301. 19, Sante\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550436942,
+    "t": "Soins de la sante\u0301. 19, Sante\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550436997,
+    "t": "Mathe\u0301matics : exponential and logarithmic functions",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550437000,
+    "t": "Mathematics : real functions and equations",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550437017,
+    "t": "Mathematics : conics",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550437024,
+    "t": "Mathematics : Optimization II : graphs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550437031,
+    "t": "Mathematics : probability II",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550437048,
+    "t": "Mathematics : statistics 3 : correlation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550437055,
+    "t": "Mathematics : optimization I : linear programming",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550437802,
+    "t": "Les normes du travail au Que\u0301bec et les domestiques re\u0301sidant chez l'employeur",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550437932,
+    "t": "Government action plan 2004-2009 on domestic violence : prevention and promotion detection and early identification, psychosocial intervention, judicial and correctional intervention, adaptation to special realities, essential conditions for successful action, implementation, evaluation and follw-upc",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550438083,
+    "t": "Rapport de l'enque\u0302te sur la conformite\u0301 des autobus scolaires en 2004",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550438168,
+    "t": "L'approche inte\u0301gre\u0301e pour l'e\u0301galite\u0301 : quelle place pour les femmes immigrantes? : me\u0301moire pre\u0301sente\u0301 a\u0300 la Commission des affaires sociales concernant l'avis du Conseil du statut de la femme Vers un nouveau contrat social pour l'e\u0301galite\u0301 entre les femmes et les hommes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550438175,
+    "t": "Production textile (ope\u0301rations) : tableaux d'analyse et de planification, 5243",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550438588,
+    "t": "Que\u0301bec : hot spot for diamonds",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550438588,
+    "t": "Hot spot for diamonds : Que\u0301bec diamond",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550438779,
+    "t": "Guide d'application des exigences relatives aux ve\u0301hicules et accessoires d'intervention a\u0300 l'intention des services de se\u0301curite\u0301 incendie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550438885,
+    "t": "Transportation plan of Nord-du-Que\u0301bec",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550438939,
+    "t": "Techniques d'e\u0301ducation spe\u0301cialise\u0301e. 20, Services sociaux, e\u0301ducatifs et juridiques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550439097,
+    "t": "Dessin de ba\u0302timent, 5250 : tableaux d'analyse et de planification",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550439370,
+    "t": "Rapport annuel de gestion 2004",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550439455,
+    "t": "Services d'inte\u0301gration socioprofessionnelle. ISP-P001-1, Culture du marche\u0301 du travail",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550439691,
+    "t": "Services d'inte\u0301gration socioprofessionnelle. ISP-P016-3, Stage de qualification professionnelle VI lie\u0301 a\u0300 l'exercice d'un me\u0301tier non spe\u0301cilise\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550439783,
+    "t": "Services d'inte\u0301gration socioprofessionnelle. ISP-P007-3, Connaissance et affirmation de soi",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550439936,
+    "t": "Services d'inte\u0301gration socioprofessionnelle. ISP-1016-1, Adaptabilite\u0301 au changement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550439967,
+    "t": "Services d'inte\u0301gration socioprofessionnelle : ISP-1019-1 : sens des responsabilite\u0301s : de\u0301finition du domaine d'examen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550439974,
+    "t": "Services d'inte\u0301gration socioprofessionnelle. ISP-1022-1, Travail en e\u0301quipe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782702430064,
+    "t": "Andrea H. Japp. 1, Le cycle de Gloria : La parabole du tueur ; Le sacrifice du papillon ; Dans l'oeil de l'ange ; La raison des femmes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782702430538,
+    "t": "Conan Lord : carnets secrets d'un cabrioleur ; Conan Lord : le pique-nique du crocodile ; La fille de la nuit ; Les enfants du cre\u0301puscule. 2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782707433596,
+    "t": "En cette nuit de Nice : roman ...",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782707433695,
+    "t": "J'ai toujours re\u0302ve\u0301 de toi : roman ...",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782707434500,
+    "t": "La Peur d'aimer : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782708934122,
+    "t": "Assistance et charite\u0301 [en Languedoc au Moyen A\u0302ge]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782708934214,
+    "t": "Raymond Lulle et le pays f'Oc",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782708934276,
+    "t": "Fin du monde et signes des temps : visionnaires et prophe\u0300tes en France me\u0301ridionale (fin XIIIe - debut XVe sie\u0300cle)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782708934474,
+    "t": "Moines et religieux dans la ville, XIIe-XVe sie\u0300cle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782708934559,
+    "t": "Les ordres religieux militaires dans le Midi (XIIe-XIVe si\u00e8cle)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782708937116,
+    "t": "Le cancer",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782708939127,
+    "t": "O mi\u0301tos ti\u0304s ... argane",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782714430311,
+    "t": "Peau de ve\u0301lin : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782714430328,
+    "t": "Jean-Jacques et le plaisir",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782714430335,
+    "t": "Comme des squales ; roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782714430458,
+    "t": "Le de\u0301vergondage de Clotilde : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782714431066,
+    "t": "Piaf, portrait d'un jour",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782714431295,
+    "t": "Blessures exquises : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782714431561,
+    "t": "L'Islam et la re\u0301publique : des musulmans de France contre l'inte\u0301grisme",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782721433015,
+    "t": "Us\u0323u\u0304l at-targ\u030cama : lis-sanawa\u0304t al-u\u0304la\u0304 wa-a\u0306t\u0332-t\u0332a\u0304niyya wa-a\u0306t\u0332-t\u0332a\u0304lit\u0332a min al-marh\u0323ala al-mutawassit\u0323a = Manuel de traduction : pour les classes de 6e, 5e et 4e = Andre\u0301 d'Alverny",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782721434272,
+    "t": "\u0645\u0628\u0627\u062f\u064a\u0621 \u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u0641\u064a \u0627\u0644\u0635\u0631\u0641 \u0648\u0627\u0644\u0646\u062d\u0648. 2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782721434494,
+    "t": "Maba\u0304di\u02be al-lug\u0304at\u0308 bi-al-mula\u0304h\u0323az\u0323at\u0308 wa-al-tat\u0323bi\u0304q / 3, Al-g\u030cuz\u02be al-t\u0332a\u0304lit\u0332 : qawa\u0304\u02beid wa-imla\u0304\u02be yukammilihu daftu\u0304r al-tat\u0323bi\u0304q : al-s\u0323aff al-ibtida\u0304\u02bei\u0304 al-ra\u0304bi\u02bb - al-t\u0332a\u0304min",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782721435217,
+    "t": "al-Bala\u0304ghah wa-al-tah\u0323li\u0304l li-t\u0323ulla\u0304b al-marh\u0323alah al-tha\u0304nawi\u0304yah wa-daur al-mu\u02bballimi\u0304n wa-al-mu\u02bballima\u0304t wa-al-ja\u0304mi\u02bba\u0304t wafqan li-manhaj Wiza\u0304rat al-Tarbiyah al-Wat\u0323ani\u0304yah",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782721436092,
+    "t": "Maba\u0302di\u0302 al-luga bi-l-mula\u0302haza wa-l-tatbi\u0302q. Qawa\u0302'id waimla\u0302'). al-Marhala al-mutawassita (al-saff al-mutawassit al-awwal / sa\u0302dis)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723430296,
+    "t": "Les oiseaux de nos re\u0301gions",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723430296,
+    "t": "Les oiseaux de nos re\u0301gions",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723430302,
+    "t": "L'ordinateur et ses logiciels : la micro facile",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723430302,
+    "t": "L'ordinateur et ses logiciels",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723430357,
+    "t": "Atlas des techniques de l'e\u0301quitation",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782723430449,
+    "t": "La chasse : le gibier, les chiens, les armes, les techniques de chasse",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723430494,
+    "t": "La Provence",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723430494,
+    "t": "La Provence",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723430500,
+    "t": "La Normandie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723431026,
+    "t": "Blame. 01",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723431033,
+    "t": "Blame. 02",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723431439,
+    "t": "Marie frisson : tombe la neige",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723431699,
+    "t": "Les dinosaures",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723431927,
+    "t": "Cuisine pratique : la cuisine me\u0301diterrane\u0301enne",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723432290,
+    "t": "L'atlas du chat",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723432504,
+    "t": "Guide pratique de la pe\u0302che en eau douce : mate\u0301riel et techniques de base",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723432511,
+    "t": "Guide pratique de la pe\u0302che en mer",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723432924,
+    "t": "Blame. 03",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723432931,
+    "t": "Gunnm. 01",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723433341,
+    "t": "Inte\u0301grale Les mai\u0302tres de l'orge / 1, Tome 1 a\u0300 4",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723433358,
+    "t": "One Piece. 01",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782723433365,
+    "t": "Katsuo, l'arme humaine!. 2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723433389,
+    "t": "L'histoire de l'Ise\u0300re en BD",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723433648,
+    "t": "Le myste\u0300re de l'homme gorille : pour faire aimer la musique de Mozart : un conte",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723433921,
+    "t": "Nausicaa\u0308 de la valle\u0301e du vent. 04",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782723434317,
+    "t": "One Piece. 02",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782723434805,
+    "t": "One Piece. 03",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723434812,
+    "t": "One Piece. 04",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723434911,
+    "t": "Blame. 04",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723435017,
+    "t": "HCL : hard core lyce\u0301e / 2, Amour-baston",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723435321,
+    "t": "Ca change tout![Livre]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723435550,
+    "t": "Raymond Calbuth. 01",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723435901,
+    "t": "La Grande Chartreuse au-dela\u0300 du silence : de l'histoire de l'ordre a\u0300 la vie quotidienne des moines",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723436236,
+    "t": "Je ne vais pas mourir",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782723436243,
+    "t": "One Piece / 9, Une jeune fille en pleurs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723437127,
+    "t": "Blame. 06",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723437486,
+    "t": "Le livre des lois immorales",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723437509,
+    "t": "La dialectique des visionnaires",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782723437622,
+    "t": "Louise",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723437653,
+    "t": "Le Ruistre : esquisses",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723437745,
+    "t": "Les filles d'Aphrodite. 3, Le dessous des cartes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723438278,
+    "t": "Autour du Thabor : les sentiers de e\u0301toiles",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723438278,
+    "t": "Autour du Thabor, les sentiers des e\u0301toiles : Maurienne, valle\u0301e de la Clare\u0301e, haut Val de Suse",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723438582,
+    "t": "Circuits pe\u0301destres et VTT, Val d'Oise : Pays de l'Oise",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723439343,
+    "t": "One Piece. 12, La le\u0301gende est en marche",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723439787,
+    "t": "Humour : anthologie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782728930906,
+    "t": "Maman prie : parce qu'elle le me\u0301rite bien ! Et parce que toute la famille en a besoin !",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782732430034,
+    "t": "Rudolf Noureev",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782732430041,
+    "t": "L'amour",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782732430638,
+    "t": "8 histoires de gags en se\u0301rie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782732430829,
+    "t": "Les lumie\u0300res",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782732431253,
+    "t": "Un jour, ma vie s'est arre\u0302te\u0301e",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782732432823,
+    "t": "The world of ESA",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782732433202,
+    "t": "Les cahiers de cuisine de General Strohl /Jean-Jacques Sthrohl",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782732433257,
+    "t": "Renoir-Renoir : exposition org. par la Cine\u0301mathe\u0300que franc\u0327aise et le muse\u0301e d'Orsay du 26 sept. 2005 au 9 janvier 2006",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782732433301,
+    "t": "Lucian Freud, 1996-2005",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782732433448,
+    "t": "Le livre de mon chat",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782732433561,
+    "t": "La Chine",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782732433967,
+    "t": "Une me\u0300re, comment c\u0327a marche?",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782732435497,
+    "t": "Le rugby",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782732436876,
+    "t": "Les copains, la famille et moi",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782738430274,
+    "t": "Les Mouvements sociaux en Amerique Latine",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782738431295,
+    "t": "Nouveaux horizons litteraires",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782738432001,
+    "t": "Mille ans de civilisation me\u0301soame\u0301ricaines : des Mayas aux Azte\u0300ques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782738432360,
+    "t": "Kaddish pour tous les miens : chronique d'un demi-sie\u0300cle d'antise\u0301mitisme",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782738432520,
+    "t": "L'aube de la liberte\u0301 : 1944 ; pre\u0301face de Maurice Kriegel- Valrimont",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782738432872,
+    "t": "L'Insularite\u0301 the\u0301matique et repre\u0301sentations",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782738434098,
+    "t": "L'Avenir de l'E\u0301tat-Nation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782738434500,
+    "t": "Hommage a\u0300 Alain Barre\u0300re",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782738434708,
+    "t": "Modes de vie et socie\u0301te\u0301 portugaise",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782738434777,
+    "t": "Apprenons l'E\u0301we\u0301 = Miasr[o\u0303] e[v]egbe / Vol. 8",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782738435088,
+    "t": "La construction du sens dans les politiques publiques : d\u00e9bats autour de la notion de r\u00e9f\u00e9rentiel",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782738435101,
+    "t": "Une nouvelle me\u0301thode de vulgarisation au Be\u0301nin",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782738435187,
+    "t": "La litte\u0301rature belge de langue franc\u0327aise : au-dela\u0300 du re\u0301el..",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782738435651,
+    "t": "Pratiques langagie\u0300res, pratiques sociales : de la sociolinguistique a\u0302 la sociologie du langange",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782738436634,
+    "t": "L'e\u0301tiolement du politique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782738436726,
+    "t": "L'Ajustement structurel au Maghreb : travaux re\u0301alise\u0301s dans le cadre de la recherche finance\u0301e par l'Administration ge\u0301ne\u0301rale de la coope\u0301ration au de\u0301veloppement en appui a\u0300 la politique de coope\u0301ration belge au de\u0301veloppement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782738437105,
+    "t": "Chi mai mo dang tri",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782738438140,
+    "t": "Ti Pokame = Ti Pokam : bilingue cre\u0301ole-franc\u0327ais, Antilles",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9782738438713,
     "t": "Les Anne\u0301es terribles. Tome VIII, La Victoire en chantant ... 1942-1944",
     "h": 1,
     "e": 0
+  },
+  {
+    "i": 9782738438713,
+    "t": "La victoire en chantant ... ; 1942-1944 ; pre\u0301face de Claude Bourdet",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782740430798,
+    "t": "Nume\u0301ro chasse au tre\u0301sor",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782740431146,
+    "t": "Les histoires de Bonbek",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782740431184,
+    "t": "Une anne\u0301e de labyrinthes : 15 parcours pour t'amuser",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782740432600,
+    "t": "Sticky Lab Loulou & Tummie 400 stickers d'artiste : [Autocollant]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742431175,
+    "t": "Canada",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742434138,
+    "t": "Berlin : cartoville",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742435517,
+    "t": "Helsinki",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742435845,
+    "t": "Paris en + grand",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742436330,
+    "t": "Saint-Pe\u0301tersbourg",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742436712,
+    "t": "Rennes : cartoville",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742438297,
+    "t": "Le tour des i\u0302les a\u0300 la voile : d'Aurigny a\u0300 la Maddalena, 34 i\u0302les autour de la France",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742438808,
+    "t": "Maroc : [Casablanca, Rabat, Fe\u0300s, Marrakech, Agadir]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742439089,
+    "t": "Ge\u0302nes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742439317,
+    "t": "New York",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742930067,
+    "t": "WinDVD recorder",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742930104,
+    "t": "Windows Media Player 9",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742930142,
+    "t": "Super tricot",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742931132,
+    "t": "Mai\u0302trisez votre PC tout de suite : [pratique, imme\u0301diat, cre\u0301atif",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742931132,
+    "t": "Mai\u0302trisez votre PC",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742931477,
+    "t": "20 000 lettres et courriers types",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742931507,
+    "t": "Re\u0301ussir son code de la route auto",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742931637,
+    "t": "Concours de la fonction publique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742931705,
+    "t": "Excel 2003",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742932313,
+    "t": "Cre\u0301ez votre Home Cine\u0301ma",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782742932412,
+    "t": "Devenez ge\u0301ne\u0301alogiste",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742932443,
+    "t": "Donnez vie a\u0300 vos photos nume\u0301rique",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782742932481,
+    "t": "Retouchez vos photos nume\u0301riques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742932542,
+    "t": "Cre\u0301ez vos propres CD-audio",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742932870,
+    "t": "Personnalisez votre Micro",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742932887,
+    "t": "E\u0301quipez votre PC gratuitement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742932894,
+    "t": "Re\u0301ussissez votre code de la route",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742932948,
+    "t": "Les nombres",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782742932962,
+    "t": "Les formes et les couleurs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742933259,
+    "t": "Re\u0301ussissez vos impressions",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782742934294,
+    "t": "Applications pour Access 2003",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742934300,
+    "t": "Applications pour Excel 2003",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782742937547,
+    "t": "NRJ music mix 3",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742937554,
+    "t": "Mai\u0302trisez Nero 6",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742938247,
+    "t": "Pod et iTunes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742938698,
+    "t": "Access 2003 : cre\u0301ez et ge\u0301rer des bases de donne\u0301es",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742939466,
+    "t": "Kit Usb 2. Partage et transfert / Le livre",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782743432034,
+    "t": "Les Pre\u0301cieuse ridicules : Les Femmes savantes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782743432263,
+    "t": "Les chefs-d'oeuvre des grands e\u0301crivains E\u0301mile Zola",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782743432775,
+    "t": "Contes et le\u0301gendes de France",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782743433895,
+    "t": "Tristan et Yseut : Tristan de Be\u0301roul, Tristan de Thomas, Folie Tristan de Berne, Folie Tristan d'Oxford, Che\u0300vrefeuille de Marie de France ; e\u0301dition comprenant texte, traduction nouvelle, introduction, bibliographie, documents, notes critiques et notes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782743434090,
+    "t": "Histoire de la Premie\u0300re Guerre Mondiale (1914-1918) : de l'attentat de Sarajevo aux traite\u0301s de Versailles; de Paris a\u0300 Berlin; de Londres a\u0300 Vienne; de Rome a\u0300 Moscou; des taxis de la Marne aux poilus de Verdun; des tranche\u0301es de la Somme a\u0300 la chasse aux U-Boote",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782745931269,
+    "t": "FBI : Fe\u0301de\u0301ration des bovins intre\u0301pides. 1, Ter-meuh-nator",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782745931276,
+    "t": "FBI : Fe\u0301de\u0301ration des bovins intre\u0301pides. 2, La male\u0301diction de la meuh-mie",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782745931283,
+    "t": "FBI : Fe\u0301de\u0301ration des bovins intre\u0301pides. 3, Les meuh-ste\u0300res romains",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745931290,
+    "t": "FBI : Fe\u0301de\u0301ration des bovins intre\u0301pides. 4, Les meuh-ste\u0300res de l'Ouest",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782745932600,
+    "t": "Les oiseaux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745933270,
+    "t": "Le reynard : chasseur malicieux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745933317,
+    "t": "Mini Patte: Le Crocodile",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745934758,
+    "t": "Le langage des animaux rugir, hurler, barrir ...",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782745934802,
+    "t": "Mon encyclope\u0301die du monde",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745938046,
+    "t": "Mes p'tits docs : les bateaux",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782746935297,
+    "t": "Vacances nature en France : tous les bons plans, he\u0301bergement, activite\u0301s",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746936584,
+    "t": "Japon",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782746937666,
+    "t": "La France souterraine : grottes, gouffres, catacombes, mines, carri\u00e8res..",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782749930824,
+    "t": "Le destin des Bridge. 1, A\u0300 perdre la raison",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782749931470,
+    "t": "L'e\u0301toffe d'une championne",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782749933931,
+    "t": "Un espion dans l'e\u0301quipe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782749934495,
+    "t": "Les contes de maman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782749936468,
+    "t": "Les fauves : Richard Coeur de Lion",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782749938677,
+    "t": "Tippi : mon livre d'Afrique : histoires et secrets confi\u00e9s \u00e0 Val\u00e9rie P\u00e9ronnet",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782749939094,
+    "t": "Du re\u0302ve a\u0300 la re\u0301alite\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750430016,
+    "t": "Notice sur Brouennes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750430092,
+    "t": "Les fleurs de l'a\u0302ge",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750430153,
+    "t": "Boulaur : Gers : 1140-1912 : histoire de l'ordre de Fontevrault : 1100-1908",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750430191,
+    "t": "Notice sur Auze\u0301court",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750430207,
+    "t": "Ancerville",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750430214,
+    "t": "Notice sur Amel",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750430238,
+    "t": "Notice sur Beauclair",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750430399,
+    "t": "Lot",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750430719,
+    "t": "La vie est trop belle pour e\u0302tre insignifiante : une famille en Languedoc de 1894 a\u0300 nos jours",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750431457,
+    "t": "Les noms de lieux dans Lou tresor do\u0301u felibrige de Mistral : graphie alibertine",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750432218,
+    "t": "Paysages d'apre\u0300s : nouvelles du futur",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750432294,
+    "t": "Pons des Esclane\u0300des : et autres histoires insolites a\u0300 lire au coin du feu",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750432461,
+    "t": "Sur la route des figuiers en pays audois : littoral, Minervois, Corbie\u0300res : Bages, Cascastel, Clermont-Lauquet, Durban, Greffeil, Gruissan, Embres-et-Castelmaure, Fe\u0301lines-Termene\u0300s ...",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750432553,
+    "t": "Coup de the\u0301a\u0302tre a\u0300 Estobal la Romaine",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750432683,
+    "t": "Vers les terres insoumises : re\u0301cit d'anticipation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750432775,
+    "t": "L'e\u0301te\u0301 sous le mu\u0302rier : souvenirs d'enfance",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750432874,
+    "t": "Le passeur de Leyre : automne 1839",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750432935,
+    "t": "Cuisiner avec le merveilleux gou\u0302t du fume\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750432942,
+    "t": "Benoi\u0302tevaux : Valbenoi\u0302t : Haute-Marne",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750432973,
+    "t": "Discours sur de [sic] Notre-Dame de Benoi\u0302te-Vaux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750433062,
+    "t": "Confitures, pa\u0302tes de fruits, fruits confits et friandises",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750433086,
+    "t": "L'abbe\u0301 J. Bessou : 1845-1918 : sa biographie, son oeuvre",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750433093,
+    "t": "Malte par un voyageur franc\u0327ois",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750433109,
+    "t": "\"Que ta volonte\u0301 soit faite\" : deux conceptions de l'acte volontaire divin",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750433352,
+    "t": "Le martyre de saint Baudile apotre de Nismes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750434021,
+    "t": "Couscous et semoules : un plat convivial",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750437046,
+    "t": "De Ni\u0302mes a\u0300 Lourdes : en automobile",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750437107,
+    "t": "Statuts & re\u0300glements de l'Archiconfre\u0301rie de Notre-Dame du Suffrage, canoniquement e\u0301rige\u0301e dans la chapelle de l'Ho\u0302tel-Dieu de Ni\u0302mes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750437510,
+    "t": "Joseph l'esclave se\u0301ne\u0301galais et la porte de l'enfer",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750437541,
+    "t": "Le manuscrit, la fle\u0300che et le templier : ce que l'on vous cache : la 3e\u0300me croisade revisite\u0301e",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750437800,
+    "t": "La cite\u0301 aux sept collines : myste\u0300re apocalyptique sur le the\u0300me de la prophe\u0301tie de Malachie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750437862,
+    "t": "Prisonniers de guerre en Ce\u0301vennes a\u0300 la fin de la guerre 1939-1945",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750438357,
+    "t": "L'homme gris",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750438555,
+    "t": "Cuisinons la tradition : poulets, dindes, pintades, magrets",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750438579,
+    "t": "L'e\u0301tendard noir : ave\u0300nement d'un chevalier au XIIIe\u0300me sie\u0300cle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750438630,
+    "t": "Entre\u0301es et desserts avec les cheesecakes, cupcakes, pancakes et flans",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750438784,
+    "t": "La cuisine des pochardes et des pochards",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782750439057,
+    "t": "Le parler de Ganges : et deux ou trois autres couillonades",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782757433645,
+    "t": "Des dieux dans le four enque\u0302te arche\u0301ologique sur les pratiques religieuses du monde artisanal en Gre\u0300ce ancienne",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782757434369,
+    "t": "La coupure invisible",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782757434925,
+    "t": "Les savoirs de l'\u00e9criture en Gr\u00e8ce Ancienne : Nouvelle \u00e9dition identique \u00e0 celle de 1988",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760931114,
+    "t": "A\u0300 coeur de\u0301couvert",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760931473,
+    "t": "Les confessions de Jeanne de Valois : roman",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760931527,
+    "t": "Cantique des plaines : roman",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782761933643,
+    "t": "Au c\u0153ur d'Apple : dans les coulisses de l'entreprise la plus secr\u00e8te au monde",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782761935630,
+    "t": "L'estime de soi Les psy-trucs pour les enfants de 3 a 6 ans",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782761935852,
+    "t": "Une timidite genante! Les psy-trucs pour les enfants de 6 a 9 ans",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782764433775,
+    "t": "Pulpe",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782764434178,
+    "t": "Ligne bris\u00e9e",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782764438657,
+    "t": "Temp\u00a9\u00aetes",
+    "h": 1,
+    "e": 1
   }
 ]

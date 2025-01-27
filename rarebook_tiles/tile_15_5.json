@@ -1,13 +1,385 @@
 [
   {
+    "i": 9782010150128,
+    "t": "Costa Brava",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782010150234,
+    "t": "Suisse",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782010151217,
+    "t": "Almanach Hachette, 1990",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782010151569,
+    "t": "Les nouvelles aventures de Zozo la tornade",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782010153853,
+    "t": "Nouvelle histoire des id\u00e9es politiques",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782010155277,
+    "t": "La \"nouvelle e\u0301conomie\" industrielle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782010155352,
+    "t": "Formula one 1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782010156014,
+    "t": "Grammaire du franc\u0327ais : cours de civilisation franc\u0327aise de la Sorbonne",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782010156069,
+    "t": "Du bist dran! cours d'allemand pour le colle\u0300ge",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782010156205,
+    "t": "La Sologne",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782010156519,
+    "t": "Crescendo",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782010156526,
+    "t": "A zonzo per l'Italia : grammatica italiana : 3e-4e anne\u0301es",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782010156878,
+    "t": "Le brigand Grabuche 4. Grabuche devient papa",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782010156885,
+    "t": "Le brigand Grabuche 5. Une chaumie\u0300re pour les Grabuche",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782010157189,
+    "t": "Saint Louis",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782010158759,
+    "t": "Le guide du routard 1990/91 : Afrique Noire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782010158810,
+    "t": "Turquie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782010158858,
+    "t": "Europe du Nord",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782010159466,
+    "t": "Regenbogen 1. 2, Cahier de l'e\u0301le\u0300ve, Livre du mai\u0302tre, Duplifiches, Figurines individuelles, Cassette classe, Cassette e\u0301le\u0300ve : CM",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782010159787,
+    "t": "Allemand aide-memoire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782011158406,
+    "t": "Histoire : cycle 3, niveau 1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782011158505,
+    "t": "Le vivant : fichier pe\u0301dagogique ; La matie\u0300re : fichier pe\u0301dagogique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782011158710,
+    "t": "Multilivre : histoire, ge\u0301ographie, sciences : CM1 cycle 3 ; guide pe\u0301dagogique",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782011158710,
+    "t": "Multilivre : Histoire. Ge\u0301ographie. Sciences : CM1 Cycle 3",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782011158727,
+    "t": "Multilivre : Histoire, ge\u0301ographie, sciences : CM1 cycle 3",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782011158741,
+    "t": "Exercices d'e\u0301valuation : cycle des apprentissages fondamentaux, cycle 2, grande section maternelle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782011158765,
+    "t": "A monde ouvert / [Schu\u0308lerheft]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782011159885,
+    "t": "Multilivre : Histoire. Ge\u0301ographie. Sciences : CM2 Cycle des approfondissements niveau 3",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782012157569,
+    "t": "Pe\u0300re Goriot",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012158221,
+    "t": "Ge\u0301ographie du territoire de Belfort (E\u0301d. 1882)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782014653472,
+    "t": "Richard Bosman : recent prints 1987-1991",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782019153168,
+    "t": "THEATRE EN FRANCE, HISTOIRE DE LA LITTERATURE DRAMATIQUE",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782020151481,
+    "t": "La bannie\u0300re e\u0301tiole\u0301e : voyage sur les traces de Tocqueville",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782020159050,
+    "t": "Re\u0302ve de logique : essais critiques",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782020159630,
+    "t": "Mademoiselle Mars et Marie Dorval : au the\u0301a\u0302tre et dans la vie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782035151087,
+    "t": "Le nouveau Me\u0301mo : Larousse encyclope\u0301die",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782035650269,
+    "t": "Tout autour de la Terre : [les de\u0301serts, les po\u0302les, les fore\u0302ts ..",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782035650566,
+    "t": "L'encyclope\u0301die Larousse des 6/9 ans. 7, L'histoire",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782035650832,
+    "t": "De la vie sauvage",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782035651297,
+    "t": "Mon premier Larousse des he\u0301ros",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782040150273,
+    "t": "Exercices et re\u0301fe\u0301rences litte\u0301raires 18.-19. sie\u0300cle. (Pour une nouvelle pe\u0301dagogie). Par Sylviane Nouschi, Carole Alexandre etc",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782040150280,
+    "t": "Mille neuf cent-mille neuf cent trente neuf : histoire premiere",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782040150402,
+    "t": "Histoire C.M. 1, Des origines a\u0300 1715",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782040150426,
+    "t": "L'Anne\u0301e bac. 1982. [11], E\u0301conomie : se\u0301rie B",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782040151492,
+    "t": "Chimie C E : nouveaux programmes 83-84",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782040151812,
+    "t": "Biologie. Terminale C",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782040152246,
+    "t": "L'Anne\u0301e bac. 1983. [5], Sciences physiques : se\u0301ries D et D', pre\u0301paration au bac 84",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782040152314,
+    "t": "L'Amerique latine dans la bande dessine\u0301e",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782040152499,
     "t": "Cahier de lecture silencieuse : premier livret",
     "h": 1,
     "e": 0
   },
   {
+    "i": 9782040152581,
+    "t": "Biologie humaine",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782040153908,
+    "t": "Guide touristique des bords de mer en France",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782040153908,
+    "t": "Guide touristique des bords de mer en France",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782040153953,
+    "t": "Dictionnaire des oeuvres de l'art vocal. Vol. 1, A-F",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782040154295,
+    "t": "Proble\u0300mes mathe\u0301matiques en plasticite\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782040154912,
+    "t": "Monnaie et financement dans les anne\u0301es 80 : essai de the\u0301orie dans un cadre de comptabilite\u0301 e\u0301conomique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782040154943,
+    "t": "Re\u0301cre\u0301ations mathe\u0301matiques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782040155308,
+    "t": "GEOLOGIE 6E ED",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782040155391,
+    "t": "Contro\u0302le des syste\u0300mes distribue\u0301s singuliers",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782040155483,
+    "t": "Electronique. Tome 1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782040156756,
+    "t": "Introduction \u00e0 la vie litt\u00e9raire du XIXe si\u00e8cle",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9782040157265,
     "t": "Milieux die\u0301lectriques et milieux aimante\u0301s",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782040157494,
+    "t": "<<La>> repr\u00e9sentation : essai psychanalytique de l'objet r\u00e9f\u00e9rent \u00e0 la repr\u00e9sentation symbolique",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782040157722,
+    "t": "Dictionnaire d'informatique et de micro-informatique anglais-francais",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782040158040,
+    "t": "Mathe\u0301matiques 3e\u0300me",
     "h": 1,
     "e": 0
   },
@@ -18,14 +390,236 @@
     "e": 0
   },
   {
+    "i": 9782040158477,
+    "t": "Les bouts de bois de Dieu de Sembene Ousmane",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9782040158835,
     "t": "Mathe\u0301matiques, terminales C et E",
     "h": 1,
     "e": 0
   },
   {
+    "i": 9782040158873,
+    "t": "Gaudi",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782040159603,
+    "t": "Math",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782040159818,
+    "t": "Les Parties ope\u0301ratives",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782060151700,
+    "t": "Canada. 1982",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782060151700,
+    "t": "Canada",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782060152127,
+    "t": "Spain",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782060155142,
+    "t": "New York City : tourist guide",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782060157511,
+    "t": "Scotland",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782060157917,
+    "t": "Michelin Mexico",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782060650890,
+    "t": "Michelin Great Britain & Ireland 1998 : hotels-restaurants",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782067150379,
+    "t": "Paris : plan",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782067150515,
+    "t": "Schlo\u0308sser an der Loire Strassenkarte mit touristischen Hinweisen ; Ortsverzeichnis, Radwege und autofreie Wege",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782067150522,
+    "t": "Paris",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782067150614,
+    "t": "Austria",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782067150614,
+    "t": "Argentina : index of place names, places of interest, Buenos Aires city map",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782067150768,
+    "t": "Frankreich Stra\u00dfen- und Reiseatlas : 50 Stadtpla\u0308ne ; gro\u00dfe Touren und die Umgebung von Paris ; Sehenswu\u0308rdigkeiten und malerische Strecken",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782067153349,
+    "t": "Michelin guide New York City restaurants 2011",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782067153578,
+    "t": "London : a selection of restaurants & hotels",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782067153820,
+    "t": "Suisse Schweiz Svizzera 2011",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782067153912,
+    "t": "Paris : une se\u0301lection de restaurants & d'ho\u0302tels",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782067155831,
+    "t": "Switzerland 2011",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782067156197,
+    "t": "Allemagne - Benelux - Autriche - Re\u0301p. Tche\u0300que : 2011",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782067156562,
+    "t": "France : grands itine\u0301raires : 2011",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782067157477,
+    "t": "Mexico : Index of place names, Me\u0301xico city map, distances",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782070150076,
+    "t": "Giotto : la Chapelle des Scrovegni",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782070150083,
+    "t": "Auguste Perret : la the\u0301orie et l'\u0153uvre",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782070150151,
+    "t": "Architecture roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782070150281,
+    "t": "Fe\u0301lix Duban : 1798-1870 : les couleurs de l'architecte",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782070651238,
+    "t": "Igor petit vampire : le nouveau est un fant\u00f4me",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782070653607,
+    "t": "Le Petit Nicolas : le grand livre jeu",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782070654772,
+    "t": "Ma valise de gommettes Chaplin and co : la fe\u0302te foraine",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782070655045,
+    "t": "Jeannot lapin (the tale of benjamin bunny)",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782080650351,
     "t": "Badauds de grands chemins : 19,000 kilome\u0300tres pas a\u0300 pas",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782080650375,
+    "t": "L'ascension sur la mer : d'une co\u0302te a\u0300 l'autre du Spitsberg / Christian Zuccarelli ; pre\u0301f. de Haroun Tazieff ; photos de Roger Hemon, Joe\u0308l Provansal, Christian Zuccarelli",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782081650879,
+    "t": "Un petit air de violon",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782081654129,
+    "t": "La petite sire\u0300ne",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782081657175,
+    "t": "Mes masques",
     "h": 1,
     "e": 0
   },
@@ -42,8 +636,128 @@
     "e": 0
   },
   {
+    "i": 9782110651532,
+    "t": "Inventaire communal 1988. Communoscope, 97-4, Re\u0301union",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110651716,
+    "t": "Ardennes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110652065,
+    "t": "Inventaire communal 1988 : Loire",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782110652263,
     "t": "Inventaire communal 1988 Cartovision. 62, Pas-de-Calais",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110652331,
+    "t": "Inventaire communal 1988 : Rho\u0302ne",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110652386,
+    "t": "Inventaire communal 1988. Haute-Savoie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110652683,
+    "t": "Aspects de la comptabilite\u0301 nationale : contributions franc\u0327aises a\u0300 la session de IARIW 1987",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110653185,
+    "t": "Les salaires dans l'industrie, le commerce et les services en 1987",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110653215,
+    "t": "INSEE re\u0301sultats / 8 = 20 [d. Gesamtw.] Re\u0301pertoire des ope\u0301rations de restructuration",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110653505,
+    "t": "Recensement ge\u0301ne\u0301ral de la population de 1982 : guide d'utilisation / 7, Publications et microfiches : guide de recherche des tableaux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110653536,
+    "t": "INSEE re\u0301sultats / Syste\u0300me productif / 23 = 53 [d. Gesamtw.] Re\u0301pertoire des ope\u0301rations de restructuration",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110653543,
+    "t": "Atlas des re\u0301gions de l'Europe verte",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110653840,
+    "t": "Annuaire re\u0301trospectif de la France : se\u0301ries longues 1948-1988",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110655189,
+    "t": "Recensement ge\u0301ne\u0301ral de la population de 1990. 18, Cher : population le\u0301gale, arrondissements, cantons, communes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110655288,
+    "t": "Recensement ge\u0301ne\u0301ral de la population de 1990. 28, Eure-et-Loir : population le\u0301gale, arrondissements, cantons, communes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110655295,
+    "t": "Recensement ge\u0301ne\u0301ral de la population de 1990, population le\u0301gale, 29, Finiste\u0300re",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110655363,
+    "t": "Recensement ge\u0301ne\u0301ral de la population de 1990. 36, Indre : population le\u0301gale, arrondissements, cantons, communes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110655370,
+    "t": "Recensement ge\u0301ne\u0301ral de la population de 1990. 37, Indre-et-Loire : population le\u0301gale, arrondissements, cantons, communes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110655417,
+    "t": "Recensement ge\u0301ne\u0301ral de la population de 1990. 41, Loir-et-Cher : population le\u0301gale, arrondissements, cantons, communes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110655448,
+    "t": "Recensement ge\u0301ne\u0301ral de la population de 1990 : population le\u0301gale : arrondissements, cantons, communes : 44 Loire-Atlantique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110655455,
+    "t": "Recensement ge\u0301ne\u0301ral de la population de 1990. 45, Loiret : population le\u0301gale, arrondissements, cantons, communes",
     "h": 1,
     "e": 0
   },
@@ -54,8 +768,32 @@
     "e": 0
   },
   {
+    "i": 9782110655998,
+    "t": "Recensement ge\u0301ne\u0301ral de la population de 1990. Population le\u0301gale, arrondissements, cantons, communes. 974 Re\u0301union",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110656018,
+    "t": "Recensement de la population de 1990. Ain : e\u0301volutions de\u0301mographiques 1975-1982-1990 : arrondissements, cantons, communes, unite\u0301s urbaines, zones d'emploi : re\u0301sultats provisoires",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110656070,
+    "t": "Recensement de la population de 1990. Arde\u0300che : e\u0301volutions de\u0301mographiques 1975-1982-1990 : arrondissements, cantons, communes, unite\u0301s urbaines, zones d'emploi : re\u0301sultats provisoires",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782110656117,
     "t": "Evolutions de\u0301mographiques 1975-1982-1990, arrondissements, cantons, communes, unite\u0301s urbaines, zones d'emploi ; re\u0301sultats provisoires : 11 Aude",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110656261,
+    "t": "Recensement de la population de 1990. Dro\u0302me : e\u0301volutions de\u0301mographiques 1975-1982-1990 : arrondissements, cantons, communes, unite\u0301s urbaines, zones d'emploi : re\u0301sultats provisoires",
     "h": 1,
     "e": 0
   },
@@ -72,8 +810,80 @@
     "e": 0
   },
   {
+    "i": 9782110656377,
+    "t": "Recensement ge\u0301ne\u0301ral de la population de 1990 : e\u0301volutions de\u0301mographiques 1975-1982-1990 : arrondissements, cantons, communes, unite\u0301s urbaines, zones d'emploi [re\u0301sultats provisoires] / Indre-et-Loire : 37",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110656384,
+    "t": "Recensement de la population de 1990. Ise\u0300re : e\u0301volutions de\u0301mographiques 1975-1982-1990 : arrondissements, cantons, communes, unite\u0301s urbaines, zones d'emploi : re\u0301sultats provisoires",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110656421,
+    "t": "Recensement de la population de 1990. Loire : e\u0301volutions de\u0301mographiques 1975-1982-1990 : arrondissements, cantons, communes, unite\u0301s urbaines, zones d'emploi : re\u0301sultats provisoires",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782110656667,
     "t": "Evolutions de\u0301mographiques 1975-1982-1990, arrondissements, cantons, communes, unite\u0301s urbaines, zones d'emploi ; re\u0301sultats provisoires : 66 Pyre\u0301ne\u0301es-Orientales",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110656698,
+    "t": "Recensement de la population de 1990. Rho\u0302ne : e\u0301volutions de\u0301mographiques 1975-1982-1990 : arrondissements, cantons, communes, unite\u0301s urbaines, zones d'emploi : re\u0301sultats provisoires",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110656735,
+    "t": "Recensement de la population de 1990. Savoie : e\u0301volutions de\u0301mographiques 1975-1982-1990 : arrondissements, cantons, communes, unite\u0301s urbaines, zones d'emploi : re\u0301sultats provisoires",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110656742,
+    "t": "Recensement de la population de 1990. Haute-Savoie : e\u0301volutions de\u0301mographiques 1975-1982-1990 : arrondissements, cantons, communes, unite\u0301s urbaines, zones d'emploi : re\u0301sultats provisoires",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110656995,
+    "t": "Recensement ge\u0301ne\u0301ral de la population de 1990 : e\u0301volutions de\u0301mographiques 1974-1982-1990 : arrondissements, communes, unite\u0301s urbaines : re\u0301sultats provisoires",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110657015,
+    "t": "Recensement ge\u0301ne\u0301ral de la population de 1990. Ain : logements - population - emploi : e\u0301volutions 1975-1982-1990 : arrondissements - cantons - communes - unite\u0301s urbaines - zones d'emploi",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110657077,
+    "t": "Recensement ge\u0301ne\u0301ral de la population de 1990. Arde\u0300che : logements-population-emploi : e\u0301volutions 1975-1982-1990 : arrondissements-cantons-commununes-unite\u0301s urbaines-zones d'emploi",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110657268,
+    "t": "Recensement ge\u0301ne\u0301ral de la population de 1990. Dro\u0302me : logements-population-emploi : e\u0301volutions 1975-1982-1990 : arrondissements-communes-unite\u0301s urbaines-zones d'emploi",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110657299,
+    "t": "Recensement ge\u0301ne\u0301ral de la population de 1990 : logements-population-emploi, e\u0301volutions 1975-1982-1990 : arrondissements, cantons, communes, unite\u0301s urbaines, zones d'emploi, 29 : Finiste\u0300re",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110657381,
+    "t": "Recensement ge\u0301ne\u0301ral de la population de 1990. Ise\u0300re. Logements-population-emploi : e\u0301volutions 1975-1982-1990 : Arrondissements-cantons-communes-unite\u0301s urbaines-zones d'emploi",
     "h": 1,
     "e": 0
   },
@@ -92,6 +902,24 @@
   {
     "i": 9782110657626,
     "t": "Recensement ge\u0301ne\u0301ral de la population de 1990. Logements, population, emploi, e\u0301volutions 1975-1982-1990 : arrondissements, cantons, communes, unite\u0301s urbaines, zones d'emploi : 62 Pas-de-Calais",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110657695,
+    "t": "Recensement ge\u0301ne\u0301ral de la population de 1990. Rho\u0302ne. Logements-population-emploi : e\u0301volutions 1975-1982-1990 : arrondissements-cantons-communes-unite\u0301s urbaines-zones d'emploi",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110657732,
+    "t": "Recensement ge\u0301ne\u0301ral de la population de 1990. Savoie : logements-population-emploi : e\u0301volutions 1975-1982-1990 : arrondissements-cantons-communes-unite\u0301s urbaines-zones d'emploi",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110657749,
+    "t": "Recensement ge\u0301ne\u0301ral de la population de 1990. Haute-Savoie : logements-population-emploi : e\u0301volutions 1975-1982-1990 : arrondissements-cantons-communes-unite\u0301s urbaines-zones d'emploi",
     "h": 1,
     "e": 0
   },
@@ -120,8 +948,32 @@
     "e": 0
   },
   {
+    "i": 9782110658067,
+    "t": "Recensement ge\u0301ne\u0301ral de la population de 1990 : population-activite\u0301-me\u0301nages : le de\u0301partement et ses principales communes, 06 : Alpes-Maritimes",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782110658135,
     "t": "Recensement ge\u0301ne\u0301ral de la population de 1990 : population, activite\u0301, me\u0301nages. - 13 (Bouches-du-Rhone)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110658432,
+    "t": "Recensement ge\u0301ne\u0301ral de la population de 1990 : population-activite\u0301-me\u0301nages : le de\u0301partement et ses principales communes, 43 : Haute-Loire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110658463,
+    "t": "Recensement ge\u0301ne\u0301ral de la population de 1990 : population-activite\u0301-me\u0301nages : le de\u0301partement et ses principales communes, 46 : Lot",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110658487,
+    "t": "Recensement ge\u0301ne\u0301ral de la population de 1990 : population-activite\u0301-me\u0301nages : le de\u0301partement et ses principales communes, 48 : Loze\u0300re",
     "h": 1,
     "e": 0
   },
@@ -138,6 +990,12 @@
     "e": 0
   },
   {
+    "i": 9782110658807,
+    "t": "Recensement ge\u0301ne\u0301ral de la population de 1990 : population-activite\u0301-me\u0301nages : le de\u0301partement et ses principales communes, 80 : Somme",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782110658838,
     "t": "Recensement ge\u0301ne\u0301ral de la population de 1990 : population, activite\u0301, me\u0301nages. - 83 (Var)",
     "h": 1,
@@ -150,8 +1008,980 @@
     "e": 0
   },
   {
+    "i": 9782110659101,
+    "t": "Deux sie\u0300cles de travail en France",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782110659149,
+    "t": "Place des groupes dans l'e\u0301conomie franc\u0327aise en 1986",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110659248,
+    "t": "La population de la France : regions, de\u0301partments, arrondissements, cantons, communes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110659477,
+    "t": "INSEE re\u0301sultats / 39 Les comptes des transports en 1990",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782110659514,
     "t": "Coping with global uncertainties : report on the 1990 French national accounts",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110659545,
+    "t": "INSEE re\u0301sultats / 45 Les entreprises du commerce en 1989",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110659569,
+    "t": "INSEE re\u0301sultats / 40/41 Les comptes de l'industrie en 1990",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110659583,
+    "t": "Logements-population-emploi : e\u0301volutions 1975-1982-1990 : unite\u0301s urbaines de 20 000 habitants ou plus. France me\u0301tropolitaine",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110659774,
+    "t": "The\u0301saurus 1991:SCRIB-SPHINX",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110659941,
+    "t": "Pologne-Tche\u0301coslovaquie : transition e\u0301conomique et sociale, statistique et mouvement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111150065,
+    "t": "Rapport fait au nom de la commission des affaires e\u0301trange\u0300res sur le projet de loi, adopte\u0301 par le Se\u0301nat, autorisant l'approbation d'un accord de protection et d'encouragement re\u0301ciproques des investissements entre le Gouvernement de la Re\u0301publique franc\u0327aise et le Gouvernement du Royaume du Cambodge",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111150089,
+    "t": "Une avance\u0301e de\u0301mocratique : la\u0301ssociation du Parlement au processus de transition des normes europe\u0301ennes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111150225,
+    "t": "L \u0301immigration clandestine : approche europe\u0301enne et re\u0301ponses nationales",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111150362,
+    "t": "Le Pacte de stabilite\u0301 pour lE\u0301urope du sud-est : premier bilan et perspectives",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111150621,
+    "t": "Rapport fait au nom de la Commission des affaires e\u0301trange\u0300res sur le projet de loi adopte\u0301 par le Se\u0301nat autorisant la ratification de la Convention de se\u0301curite\u0301 sociale entre la Re\u0301publique franc\u0327aise et la Re\u0301publique du Chili",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111150706,
+    "t": "Rapport fait au nom de la Commission de la production et des e\u0301changes sur le projet de loi, modifie\u0301 par le Se\u0301nat, d'orientation sur la fore\u0302t",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111150737,
+    "t": "Rapport d'information sur l'agenda pour la politique social (COM (2000) 379 final / no E 1497)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111150898,
+    "t": "Rapport fait au nom de la Commission des affaires e\u0301trange\u0300res sur le projet de loi, adopte\u0301 par le Se\u0301nat, autorisant l'approbation de l'accord entre le Gouvernement de la Re\u0301publique franc\u0327aise et le Gouvernement de la Re\u0301publique du Ghana sur l'encouragement et la protection re\u0301ciproques des investissements",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111150959,
+    "t": "Rapport d'information de\u0301pose\u0301 en application de l'article 145 du Re\u0300glement par la mission d'information commune sur les obstacles au contro\u0302le et a\u0300 la re\u0301pression de la de\u0301linquance financie\u0300re et du blanchiment des capitaux en Europe.",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111151154,
+    "t": "Rapport d'information de\u0301pose\u0301 par la De\u0301le\u0301gation de l'Assemble\u0301e nationale pour l'Union europe\u0301enne, sur des textes soumis a\u0300 l'Assemble\u0301e nationale en application de l'art. 88-4 de la Constitution du 27 juin au 11 octobre 2001 ...",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111151369,
+    "t": "Pour une Europe de se\u0301curite\u0301 et de justice",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111151413,
+    "t": "Budget communautaire pour 2003 : vers le\u0301\u0301largissement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111151604,
+    "t": "Rapport fait au nom de la Commission des affaires culturelles, familiales et sociales sur la proposition de loi de M. Jacques Rebillard, no 2983, portant ame\u0301lioration de la couverture des non-salarie\u0301s agricoles contre les accidents du travail, de la vie prive\u0301e et les maladies professionnelles",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111151734,
+    "t": "Rapport fait au nom de la Commission des lois constitutionnelles, de la le\u0301gislation et de l'administration ge\u0301ne\u0301rale de la Re\u0301publique sur la proposition de re\u0301solution, no 2915, de M. Andre\u0301 Guerin, tendant a\u0300 la cre\u0301ation d' une commission d'enque\u0302te relative aux besoins budge\u0301taires afin de traiter dans des de\u0301lais brefs les atteintes aux lois sur les financements des partis politiques, sur l'usage de l'argent public et l'usage des biens sociaux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111151796,
+    "t": "Rapport d'information de\u0301pose\u0301 par la de\u0301le\u0301gation de l'Assemble\u0301e nationale pour l'Union europe\u0301enne sur les re\u0301gions ultrape\u0301riphe\u0301riques et sur les propositions de re\u0300glement du Conseil (COM) [2000] 774 final / E 1631, COM [2000] 791 final/ E 1647)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111152052,
+    "t": "Les parlements et lO\u0301MC : une place a\u0300 conque\u0301rir : la pre\u0301pration de la rencontre parlementaire de Doha : (9-13 novembre 2001)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111152137,
+    "t": "Rapport fait au nom de la Commission des finances, de l'e\u0301conomie ge\u0301ne\u0301rale et du Plan sur le projet de loi de finances pour 2002, n\u00b0 3262 / Annexe n\u00b0 6, Ame\u0301nagement du territoire et environnement : Environnement / rapporteur spe\u0301cial, M. Michel Suchod,...",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111152182,
+    "t": "ESB : une crise de socie\u0301te\u0301?",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111152243,
+    "t": "Rapport fait au nom de la Commission des finances, de l'e\u0301conomie ge\u0301ne\u0301rale et du Plan sur le projet de loi de finances pour 2002, n\u00b0 3262 / Annexe n\u00b0 38, Premier ministre : Secre\u0301tariat ge\u0301ne\u0301ral de la de\u0301fense nationale / rapporteur spe\u0301cial M. Pierre He\u0301riaud,...",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111152458,
+    "t": "Le de\u0301veloppement durable du transport ae\u0301rien : un impe\u0301ratif majeur de la politique europe\u0301enne des transports",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111153301,
+    "t": "Projet de loi portant re\u0301forme de la politique de l'eau",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111153318,
+    "t": "Proposition de loi visant a\u0300 favoriser le de\u0301veloppement de l'emploi dans la restauration par l'extension a\u0300 l'ensemble de ce secteur du taux re\u0301duit de TVA",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111153431,
+    "t": "Proposition de loi visant a\u0300 renforcer la lutte contre le tabagisme",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111153455,
+    "t": "Proposition de loi tendant a\u0300 instituer un taux unique de TVA de 5,5 [pour cent] dans la restauration",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111153462,
+    "t": "Proposition de loi visant a\u0300 appliquer le taux re\u0301duit de TVA a \u0300l'ensemble du secteur de la restauration",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111153523,
+    "t": "Projet de loi d'orientation sur la fore\u0302t",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111153530,
+    "t": "Proposition de loi visant a\u0300 encourager les dons des particuliers au profit des associations caritatives et humanitaires",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111153547,
+    "t": "Proposition de loi modifie\u0301e par le Se\u0301nat relative aux droits du conjoint survivant et des enfants adulte\u0301rins et re\u0301formant le droit des successions",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111153677,
+    "t": "Proposition de loi visant a\u0300 modifier l'article 68 de la Constitution",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111153738,
+    "t": "Projet de loi relatif a\u0300 la bioe\u0301thique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111153936,
+    "t": "Des alliances pour une mondialisation mai\u0302trise\u0301e",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111154018,
+    "t": "Les services di\u0301nte\u0301re\u0302t ge\u0301ne\u0301ral : un pilier de la citoyennete\u0301 europe\u0301enne",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111154322,
+    "t": "Proposition de loi adopte\u0301 par le Se\u0301nat autorisant l'approbation de l'accord sous forme d'e\u0301change de notes, entre le Gouvernement de la Re\u0301publique franc\u0327aise et le Conseil fe\u0301de\u0301ral suisse concernant l'interpre\u0301tation de la convention relative au service militaire des doubles-nationaux du 16 novembre 1995, transmis par M. le Premier ministre a\u0300 M. le Pre\u0301sident de l'Assemble\u0301e nationale",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111154346,
+    "t": "Projet de loi adopte\u0301 par le Se\u0301nat autorisant l'approbation de la convention d'entraide judiciaire en matie\u0300re pe\u0301nale entre le Gouvernement de la Re\u0301publique franc\u0327aise et le Gouvernement de la Re\u0301publique argentine",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111154384,
+    "t": "Allocution",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111154391,
+    "t": "De\u0301claration du gouvernement : de\u0301bat d'orientation budge\u0301taire pour 2002",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111154551,
+    "t": "Proposition de loi portant instauration d'un contrat de location de taxi",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111154629,
+    "t": "Rapport d'information par la Mission d'information commune sur les obstacles au contro\u0302le et a\u0300 la re\u0301pression de la de\u0301linquance financie\u0300re et du blanchiment des capitaux en Europe. T 04, La Grande-Bretagne, Gibraltar et les de\u0301pendances de la Couronneg",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111154643,
+    "t": "Rapport fait au nom de la Commission des lois constitutionnelles, de la le\u0301gislation et de l'administration ge\u0301ne\u0301rale de la Re\u0301publique sur la proposition de loi (no 3189) de Franc\u0327ois Colcombet et plusieurs de ses colle\u0300gues, relative a\u0300 la re\u0301forme du divorce",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111154858,
+    "t": "Proposition de loi tendant a\u0300 comple\u0301ter certaines dispositions relatives a\u0300 l'adoption",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111155206,
+    "t": "Proposition de loi modifiant l'ordonnance no 45-174 du 2 fe\u0301vrier 1945 relative a\u0300 l'enfance de\u0301linquante",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111155510,
+    "t": "Rapport fait au nom de la Commission des finances, de l'e\u0301conomie ge\u0301ne\u0301rale et du Plan sur le projet de loi de finances pour 2002, n\u00b0 3262 / Annexe n\u00b0 5, Agriculture et pe\u0302che : Pe\u0302che / rapporteur spe\u0301cial, M. Louis Mexandeau,...",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111155619,
+    "t": "Avis pre\u0301sente\u0301 au nom de la Commission des affaires culturelles, familiales et sociales sur le projet de loi de finances pour 2002, no 3262 / Tome XIII, Jeunesse et sports / [pre\u0301sente\u0301] par M. Alain Ne\u0301ri,...",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111155701,
+    "t": "Cour des comptes europe\u0301enne et institutions nationales de contro\u0302le : de la concertation a\u0300 lh\u0301armonisation?",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111155756,
+    "t": "Mandat da\u0301rre\u0302t sans frontie\u0300re?",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111155763,
+    "t": "La Bulgarie vers lU\u0301nion europe\u0301enne : un effort continu et perse\u0301ve\u0301rant",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111155893,
+    "t": "Rapport d'information sur le suivi de l'application de la loi no 97-1027 du 10 novembre 1997 relative a\u0300 l'inscription d'office des personnes a\u0302ge\u0301es de dix-huit ans sur les listes e\u0301lectorales",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111156159,
+    "t": "Rapport fait au nom de la Commission des finances, de l'e\u0301conomie ge\u0301ne\u0301rale et du Plan sur le projet de loi de finances pour 2002, n\u00b03262 / Annexe n\u00b0 32, Inte\u0301rieur et de\u0301centralisation : Collectivite\u0301s locales / rapporteur spe\u0301cial M. Ge\u0301rard Saumade,...",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111156166,
+    "t": "Rapport d'information fait au nom de la Commission des finances, de l'e\u0301conomie ge\u0301ne\u0301rale et du plan sur le projet de loi de finances pour 2002, no 3262 / Annexe no 34, Justice / rapporteur spe\u0301cial M. Patrick Devedjian,...",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111156210,
+    "t": "Rapport fait au nom de la Commission des finances, de l'e\u0301conomie ge\u0301ne\u0301rale et du Plan sur le projet de loi de finances pour 2002, n\u00b0 3262 / Annexe n\u00b0 30, Fonction publique et re\u0301forme de l'Etat : Fonction publique / rapporteur spe\u0301cial, M. Jean Vila,...",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111156562,
+    "t": "L \u0301Euro : un passage re\u0301ussi",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111156807,
+    "t": "Rapport fait au nom de la Commission des finances, de l'e\u0301conomie ge\u0301ne\u0301rale et du Plan sur le projet de loi de finances pour 2002, n\u00b0 3262 / Annexe n\u00b0 16, E\u0301conomie, finances et industrie, Services financiers, monnaies et me\u0301dailles / rapporteur spe\u0301cial, M. Henry Chabert,...",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111156852,
+    "t": "Rapport d'information par la Mission d'information commune sur les e\u0301ve\u0301nements de Srebrenica. 2 Auditions",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111156869,
+    "t": "Rapport fait au nom de la Commission des finances, de l'e\u0301conomie ge\u0301ne\u0301rale et du Plan sur le projet de loi de finances pour 2002, n\u00b0 3262 / Annexe n\u00b0 12, E\u0301conomie, finances et industrie : commerce exte\u0301rieur / rapporteur spe\u0301cial, M. Gilles Carrez,...",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111157095,
+    "t": "Proposition de loi tendant a\u0300 proroger d'un an le de\u0301lai d'application de la loi relatve a\u0300 la solidarite\u0301 et au renouvellement urbains",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111157354,
+    "t": "Proposition de loi relative au re\u0301gime d'assurance cho\u0302mage des intermittents du spectacle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111157378,
+    "t": "Proposition de loi tendant a\u0300 baisser la TVA a\u0300 5,5 % sur les travaux d'ame\u0301nagement et d'entretien des jardins privatifs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111157781,
+    "t": "Les Lec\u0327ons de Toulouse : 90 propositions pour re\u0301duire, ensemble, les risques industriels. Tome I, Rapport",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111157941,
+    "t": "L \u0301adhe\u0301sion de l \u0301Estonie : un symbole de la re\u0301unification de l \u0301Europe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111157965,
+    "t": "La Lettonie est en mesure d \u0301adhe\u0301rer a\u0300 l \u0301Union europe\u0301enne tout en pre\u0301servant son identite\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111158047,
+    "t": "Proposition de loi constitutionnelle relative a\u0300 la protection constitutionnelle des personnes handicape\u0301es",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111158221,
+    "t": "Proposition de loi, adopte\u0301e par le Se\u0301nat, portant re\u0301forme de la loi du 1er juin 1924 mettant en vigueur la le\u0301gislation civile franc\u0327aise dans les de\u0301partements du Bas-Rhin, du Haut-Rhin et de la Moselle, dans ses dispositions relatives a\u0300 la publicite\u0301 foncie\u0300re",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111158238,
+    "t": "Rapport fait au nom de la Commission des finances, de l'e\u0301conomie ge\u0301ne\u0301rale et du Plan en vue de la lecture de\u0301finitive du projet de loi de finances rectificative pour 2001",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111158450,
+    "t": "Rapport fait au nom de la Commission des lois constitutionnelles, de la le\u0301gislation et de l'administration ge\u0301ne\u0301rale de la Re\u0301publique en vue de la lecture de\u0301finitive du projet de loi relatif a\u0300 la Corse",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111159013,
+    "t": "Rapport fait au nom de la Commission des affaires e\u0301trange\u0300res sur le projet de loi n\u00b0 2880, autorisant l'approbation de la convention pour la protection du Rhin",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111159266,
+    "t": "La re\u0301vision des traite\u0301s europe\u0301ens par le traite\u0301 de Nice : textes compare\u0301e",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782120150605,
+    "t": "Me\u0301taux non ferreux : Cuivre. 3, Essais et analyses",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782120150605,
+    "t": "Me\u0301taux non ferreux : Cuivre. 1, fascicule 2, Ge\u0301ne\u0301ralite\u0301s. Demi-produits et produits a\u0300 usages spe\u0301cifiques. Normes europe\u0301ennes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782120150605,
+    "t": "Me\u0301taux non ferreux : Cuivre. 2, Ge\u0301ne\u0301ralite\u0301s. Demi-produits et produits. Normes franc\u0327aises",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782120150605,
+    "t": "Me\u0301taux non ferreux Aluminium. Cuivre : Nuances avec disquettes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782121656212,
+    "t": "Camping-cars, caravanes et mobil-homes : recueil normes & re\u0301glementation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782121656311,
+    "t": "Camping-cars, caravanes et mobil-homes : [recueil de normes & re\u0301glementation] : [inclus les normes indispensables NF S 56-300, NF EN 1949+A1, NF EN 1645-1, NF EN 1646-1, NF EN 1648-1]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782121659114,
+    "t": "Mate\u0301riels pour salles et terrains de sport",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782122151419,
+    "t": "Qualite\u0301 et syste\u0300mes de management : recueil normes qualite\u0301 2005",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782122158210,
+    "t": "Management de l'e\u0301nergie : recueil, normes & re\u0301glementation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782124650095,
+    "t": "Certification des agents de controle non destructif",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782124653737,
+    "t": "La caisse a\u0300 outils du formateur concevoir, re\u0301aliser et animer un projet de formation, de tutorat ou de coaching",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782130650805,
+    "t": "Antonio Gramsci : dossier",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782130650966,
+    "t": "Conna\u00eetre l'Orient en Europe au XVIIe si\u00e8cle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782130650973,
+    "t": "La mort de Louis XIV",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782130650997,
+    "t": "Le jeu",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782130651253,
+    "t": "Varia",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782130651284,
+    "t": "Varia",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782130656395,
+    "t": "Histoire \u00e9conomique et sociale de la France - 4 - Volume 2. Ann\u00e9es 1914 \u00e0 1950",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782130657903,
+    "t": "La Marginalit\u00e9 sociale",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782140155956,
+    "t": "Les plantes medicinales de la Charite Des Simples pour les Simples",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782203150324,
+    "t": "Dessine avec des empreintes",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782203150362,
+    "t": "Dessine avec des ronds",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782203153370,
+    "t": "Regarde-les grandir / 1, De\u0301buts insolites",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782203153387,
+    "t": "Regarde-les grandir / 2, Envers et contre tout",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782203154933,
+    "t": "Zoe et Theo a la ferme",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210157125,
+    "t": "Le proce\u0300s du loup ; Le dernier loup",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210652170,
+    "t": "Carolus tout nu : pie\u0300ce en un acte",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210652415,
+    "t": "The\u0301a\u0302tre en sce\u0300ne. 4, 8-11 ans",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210658011,
+    "t": "Le Corps",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210659568,
+    "t": "Les Aventures de Pitchoun et Pitchounette",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782213651552,
+    "t": "L'amateur de cuisine",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782215150022,
+    "t": "La campagne a\u0300 colorier [album a\u0300 colorier]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782215150251,
+    "t": "Tampons cre\u0301atifs : 1 livre et tout le mate\u0301riel pour cre\u0301er ses motifs : 100 % facile",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782215150268,
+    "t": "Peinture textile : 1 livre et tout le mate\u0301riel pour cre\u0301er ses pochoirs : 100 % facile",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782215150312,
+    "t": "Les perles des toilettes du bureau",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782215150329,
+    "t": "Motifs a\u0300 colorier [album a\u0300 colorier]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782215151531,
+    "t": "La ville aujourd'hui",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782215154655,
+    "t": "A\u0300 la de\u0301couverte de Paris",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782215156208,
+    "t": "De\u0301calcode de\u0301file\u0301 de mode : 6 sce\u0300nes a\u0300 de\u0301corer, 100 de\u0301calcomanies : [album de jeux et d'activite\u0301s pour enfants]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782215156222,
+    "t": "Je pre\u0301pare mon anniversaire de princesse Un guide complet pour re\u0301ussir sa fe\u0302te ! : 8 cartes d'invitation, 8 enveloppes pre\u0301-plie\u0301es : pre\u0301paratifs, jeux et activite\u0301s, gou\u0302ter : [Image a\u0300 de\u0301couper]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782215157939,
+    "t": "Mes masques de princesses a\u0300 de\u0301corer [Album de jeux et d'activite\u0301s pour enfants]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782215159124,
+    "t": "La grande imagerie Le Basket-ball",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782215159308,
+    "t": "Chez les dieux grecs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782216152735,
+    "t": "Droit des socie\u0301te\u0301s et groupements d'affaires : manuel + applications + corrige\u0301s",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782216158553,
+    "t": "Diplo\u0302me infirmier licence IFSI, tout le semestre 4 & 5 : toutes les UE",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782221156117,
+    "t": "J'ai rendez-vous avec vous : int\u00e9grale des chansons, paroles et musiques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782221157800,
+    "t": "2038, les futurs du monde",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782221159637,
+    "t": "Un jour avant la fin du monde",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782226151322,
+    "t": "L'expe\u0301dition de la dernie\u0300re chance : la course he\u0301roi\u0308que en Arctique pour sauver des enfants",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782226151605,
+    "t": "Brassens : le meI\u0300c\u0302reI\u0300a\u0302nt de Dieu",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782226154989,
+    "t": "Nous, les dieux / 1, Nous, les Dieux : l'i\u0302le des sortile\u0300ges ; roman. / Bernard Werber",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782226155382,
+    "t": "Cayenne",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782226157164,
+    "t": "Il aurait du e\u0302tre bon e\u0301le\u0300ve : l'e\u0301cole et la norme",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782226158000,
+    "t": "Motomania 7. La symphonie du quatre temps / [trad.: Jacky Nonnon]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782226158017,
+    "t": "Le bal des chime\u0300res. Tome 1, Anais",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782226158246,
+    "t": "War corporate. tome 1, Cocaine",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782226159427,
+    "t": "Quand je serai grande : les me\u0301tiers re\u0302ve\u0301s de Dora!",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782228152815,
+    "t": "The\u0301orie e\u0301le\u0301mentaire. 3, Les finales",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782228153508,
+    "t": "Combinaisons et pie\u0300ges dans les de\u0301buts : avec 107 diagrammes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782228650106,
+    "t": "Les De\u0301rangeurs de l'univers",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782246659716,
+    "t": "Dire presque la me\u0302me chose : expe\u0301riences de traduccion",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782247159710,
+    "t": "Code de la s\u00e9curit\u00e9 sociale",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782253151005,
+    "t": "Le capitaine est parti de\u0301jeuner et les marins se sont empare\u0301s du navire",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782253151418,
+    "t": "Le fle\u0301au. 01",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782253152040,
+    "t": "Les patriotes. 1, L'ombre et la nuit : Suite romanesque",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782253153054,
+    "t": "Les patriotes. 4, Dans l'honneur et par la victoire : Suite romanesque",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782253153573,
+    "t": "Les the\u0301baines. 6, Les dieux inde\u0301licats : Roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782253153726,
+    "t": "VoyageshStefan Zweig. Trad. de l'allemand par He\u0301le\u0300ne Denis-Jeanroy. Pre\u0301f. de Raymond Jeanroy",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782253155270,
+    "t": "Les the\u0301baines. Tome 8, La valle\u0301e des artisans",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782257150127,
+    "t": "Identification",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782257150134,
+    "t": "Commande",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782257150479,
+    "t": "He\u0301patologie clinique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782257150615,
+    "t": "Traite\u0301 de sante\u0301 publique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782257155191,
+    "t": "La Sante\u0301 des femmes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782257155412,
+    "t": "Maladie de Creutzfeldt-Jakob et autres maladies a\u0300 prion",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782263150807,
+    "t": "Cyclisme 2017, le livre d'or",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782266158060,
+    "t": "Comprendre l'anglais parle\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782266158138,
+    "t": "Le livre de la jungle/the jungle book (extraits)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782266158596,
+    "t": "The expelled ; (suivi de) The old tune",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782266158879,
+    "t": "200 tests pour connai\u0302tre votre niveau en anglais",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782280151078,
+    "t": "Le mai?tre de Foxwell",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782280151399,
+    "t": "Entre me\u0300re et fille : 3 romans",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782280151566,
+    "t": "Pour l'amour d'un officier",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782280157155,
+    "t": "L'honneur des Galloway",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782280157285,
+    "t": "Les silences du passe\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782280158190,
+    "t": "Le lac des secrets",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782281150735,
+    "t": "Kisho Kurokawa : exposition",
     "h": 1,
     "e": 0
   },
@@ -160,5 +1990,563 @@
     "t": "1983, une anne\u0301e d'architecture",
     "h": 1,
     "e": 0
+  },
+  {
+    "i": 9782281150940,
+    "t": "Une anne\u0301e d'architecture : 1985",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782281150995,
+    "t": "Moderns and postmoderns",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782281151008,
+    "t": "Paris La De\u0301fense : me\u0301tropole europe\u0301enne des affaires",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782281151336,
+    "t": "The Futurescope : harrnessing the future at Europe's park of the image",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782286153700,
+    "t": "Au pied du lac de Charpal : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782296151611,
+    "t": "MARIE QUE M'AS-TU FAIT;SUIVI DE \"VIVE LA MARIEE!\" ET DE CLIMATS DE CONFIANCE - 3 PIECES EN 4 PERIODES (THEATRE)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782298152708,
+    "t": "Les amants de l'e\u0301te\u0301 44 : l'inte\u0301grale",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322151172,
+    "t": "Understanding Charles Dickens's \"A tale of two cities\" : the original unabridged text with illustrations, commentary, context, vocabulary, and more",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322151189,
+    "t": "Devenez leader d'une e\u0301quipe dans votre re\u0301seau de marketing : et avec le soutien des forces cosmiques, entres autres, atteignez le plus haut sommet",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322151301,
+    "t": "L'intelligence de l'inconscient humain",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322151424,
+    "t": "Un nouveau monde en he\u0301ritage : journal d'Andrei Warnovsky",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322151783,
+    "t": "Joyeux anniversaire noir d'absinthe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322151882,
+    "t": "Grave la pe\u0302che : le punch au service de la performance, du de\u0301veloppement personnel et de l'e\u0301quilibre",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322151899,
+    "t": "Piene, haute commune de Breil-sur-Roya",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322151905,
+    "t": "L'e\u0301cole des bons parents et ses 50 invitations",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322151936,
+    "t": "Fantasmagories sentimentales",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322151950,
+    "t": "Cou\u0302t de folie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322152056,
+    "t": "Nos amies les be\u0302tes : poe\u0300mes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322152070,
+    "t": "Conte de la lune, lune",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322152131,
+    "t": "Les origines de la violence",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322152315,
+    "t": "Phe\u0301nome\u0301nologie du racisme",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322152414,
+    "t": "Journal d'un homme trompe\u0301 : 1934",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322152421,
+    "t": "Ma vision, ma ve\u0301rite\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322152438,
+    "t": "Exploits et aventures du colonel Ge\u0301rard",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322152476,
+    "t": "Abeilles road",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322152483,
+    "t": "Me\u0301li-me\u0301lo de romances : recueil de nouvelles",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322152490,
+    "t": "Les aventures magiques de Kimi et Natto\u0302 : au pays famifasoldo",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322152681,
+    "t": "Awena",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322155149,
+    "t": "PETIT TRAITE DE SORCELLERIE ET D'ECOLOGIE RADICALE DE COMBAT",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322155453,
+    "t": "La Licorne en Poe\u0301sies d'Amour",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322155804,
+    "t": "NAISSANCE FEMININE : de la difficulte maternelle a ma naissance de femme",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322156054,
+    "t": "Le livre sur l'enfant inte\u0301rieur : trouver son guide inte\u0301rieur, e\u0301radiquer ses petites voix ne\u0301gatives",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322158577,
+    "t": "Cendres",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782322159093,
+    "t": "Qu'est-ce qu'une maison? : l'environnement au coeur de l'e\u0301conomie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782330154707,
+    "t": "Comme nous existons [PHYSICAL ITEM]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782330159665,
+    "t": "\u01c2Une \u01c2sortie honorable : r\u00e9cit",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782332651488,
+    "t": "La mutation ne\u0301cessaire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782332654755,
+    "t": "Les folies sont les seules choses qu'on ne regrette jamais",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782334159807,
+    "t": "I'll find you",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782342150216,
+    "t": "Sa soeur",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782342151626,
+    "t": "Changer de regard",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782342152586,
+    "t": "Histoires, poe\u0301sies : Dhaouia-Manowa",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782342153491,
+    "t": "Destin d'une criminelle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782342154627,
+    "t": "Poe\u0300mes brefs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782342156751,
+    "t": "Nicolas y Julie en la playa : el arrecife de coral",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782342157765,
+    "t": "Mo, le chien fer",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782343150383,
+    "t": "Abdelke\u0301bir Khatibi : la sensibilite\u0301 pensante a\u0300 l'oeuvre dans Le livre du sang",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782343150901,
+    "t": "Varia",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782343152561,
+    "t": "Confluences Me\u0301diterrane\u0301e",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782343152998,
+    "t": "Industrie pharmaceutique, quel avenir? : l'exemple de l'Alge\u0301rie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782343153025,
+    "t": "Les re\u0301e\u0301critures des romans de Chre\u0301tien de Troyes : du XIIIe au XVe sie\u0300cle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782350650050,
+    "t": "Sketchbook",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782351650462,
+    "t": "Dieu sera Web! : comment survivre dans le Gers gra\u0302ce a\u0300 Internet?",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782351650608,
+    "t": "Iris et l'arc-en-ciel : lettres d'amour et de voyage d'un jardinier",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782351650738,
+    "t": "Terres d'humour : Pays-basque, Be\u0301arn, Landes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782352650751,
+    "t": "Mise aux points : infractions au code de la route",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782352651406,
+    "t": "Dernie\u0300re sortie pour Thiers",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782352651604,
+    "t": "Ho\u0302tel Ispahan",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782353650729,
+    "t": "Au coeur de mon parc",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782353650750,
+    "t": "Kalika : la que\u0302te du re\u0302ve bleu",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782353650835,
+    "t": "Regards sur la ville : art, architecture et citoyennete\u0301 dans la Carai\u0308be",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782354150167,
+    "t": "Confidences d'un homard",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782355650413,
+    "t": "Actes du se\u0301minaire de Grand-Bassam, 22-24 aou\u0302t : la contribution de l'enseignement prive\u0301 lai\u0308c a\u0300 l'ame\u0301lioration de la qualite\u0301 de l'enseignement en Co\u0302te de'lvoire : Se\u0301minaire ANESPLACI",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782357650237,
+    "t": "Analyse d'arre\u0302t et Conseil de prud'hommes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782357654266,
+    "t": "Management : UE 7 du DCG : corrige\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782357656239,
+    "t": "Droit fiscal : DCG UE4 Enonce\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782358150774,
+    "t": "L' Euro sans l'Europe?. 1, La Gre\u0300ce dans tous ses e\u0301tats",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782358151580,
+    "t": "Un jour a\u0300 la fois",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782358152037,
+    "t": "Mots en m\u00e9diterran\u00e9e",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782358153010,
+    "t": "Augustin Cabane\u0300s : clinicien de l'histoire ou vulgaire anecdotier (1862-1928)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782359650020,
+    "t": "L'affaire Osmond",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782361651060,
+    "t": "Parme\u0301nide et la fille du soleil",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782363159106,
+    "t": "Comment de\u0301velopper une intelligence prodigieuse : les strate\u0301gies d'apprentissage des e\u0301le\u0300ves brillants de tous les apprenants",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782363159311,
+    "t": "Lionheart",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782363159878,
+    "t": "Plane\u0300te isole\u0301e",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782363159977,
+    "t": "Le verbe de l'e\u0301veil d'un re\u0302ve de cristal",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782367150024,
+    "t": "Les contes de mamie Colette",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782367150130,
+    "t": "Les clefs de nos portes inte\u0301rieures",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782367150192,
+    "t": "L'amour, jeu d'ange heureux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782367150208,
+    "t": "La magicienne violoniste",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782367150215,
+    "t": "La petite comtesse de Rozie\u0300res",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782367150284,
+    "t": "Sois gentille!",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782367150444,
+    "t": "Gribouille poe\u0300te",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782367150482,
+    "t": "Les ascenseurs du 7e\u0300me ciel : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782369650249,
+    "t": "La machine a\u0300 vapeur : tomes 1 et 2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782371650176,
+    "t": "Ferme Des Dinos (La)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782373651157,
+    "t": "Les princes de Serendip : l'art de trouver ce qu'on ne cherche pas : nouvelles",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782373651218,
+    "t": "Lettres a\u0300 Diane : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782375150443,
+    "t": "L'ours qui ne rentrait plus dans son slip",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782375150474,
+    "t": "Edgar",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782380150049,
+    "t": "Arcana : les myste\u0300res du monde, les civilisations oublie\u0301es",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782380150148,
+    "t": "30 jours pour devenir madame Connasse ! : mon cahier d'exercices pour assurer & assumer",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782380150155,
+    "t": "Content de vous voir ! : surmonter la maladresse sociale et apprendre a\u0300 (re)vivre avec les autres",
+    "h": 1,
+    "e": 1
   }
 ]

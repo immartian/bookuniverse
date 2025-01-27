@@ -1,7 +1,1033 @@
 [
   {
+    "i": 9782414350070,
+    "t": "Time for a maybe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782414351305,
+    "t": "Du temps ou\u0300 j'e\u0301tais poe\u0300te",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782414351541,
+    "t": "La traverse\u0301e du Cavally : contes et re\u0301alite\u0301s de mon continent",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782414352203,
+    "t": "Estimation de flux entrant et sortant du carbone du sol sous les peuplements a\u0300 Eucalyptus camaldulensis et Millettia laurentii De Wild plante\u0301s en Re\u0301publique de\u0301mocratique du Congo : cas de la ville de Kisangani",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782414352777,
+    "t": "Un jour nous partirons ensemble",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782414357987,
+    "t": "Diabe\u0300te sucre\u0301 : traitement me\u0301dicamenteux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782490357017,
+    "t": "Le plastique c'est fantastique!. 2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782490357109,
+    "t": "Tarzan : l'inte\u0301grale des newspaper strips de Russ Manning. Volume deux, 1969-1971",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782490850013,
+    "t": "Nos vies d'ailleurs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782491351403,
+    "t": "Liberty : au nom de notre survie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782491851071,
+    "t": "Le muet : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550350149,
+    "t": "Guidelines for schools on advertising and financial contributions",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550350538,
+    "t": "Rapport annuel 1998-99",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550350620,
+    "t": "Woodworking and furniture making. Furniture finishing",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550350729,
+    "t": "Imagine l'e\u0300re que j'aurai! : cahier de suggestions",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550350798,
+    "t": "Rapport annuel 1998-99",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550350996,
+    "t": "Politique de de\u0301veloppement des compe\u0301tences du personnel d'encadrement 2007-2010",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550351061,
+    "t": "Mechanical manufacturing. Moulding machine set-up and operation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550351214,
+    "t": "Renonciation et annulation des pe\u0301nalite\u0301s des inte\u0301re\u0302ts et des frais : loi sur le Ministe\u0300re du revenu, art. 94.1 : sommaire statistique, 1998-1999",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550351443,
+    "t": "Cadre de re\u0301fe\u0301rence : politique de la ruralite\u0301 : pour une occupation dynamique du territoire rural",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550351894,
+    "t": "Creative arts, literature and languages : pre-university program, 500.A0",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550352310,
+    "t": "Land use planning and the environment. Protection and development of wildlife habitats",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550352327,
+    "t": "Food services and tourism. Butchery",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550352525,
+    "t": "Rapport annuel, 1998-1999",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550352907,
+    "t": "Le processus de de\u0301veloppement en gestion a\u0300 la CSST conduisant a\u0300 la mise en oeuvre du plan personnel de se\u0301curite\u0301 du travail",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550352921,
+    "t": "The Ministe\u0300re de la recherche, de la science et de la technologie : promoting a society based on knowledge",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550353072,
+    "t": "Rapport d'activit\u00e9s 1998-99",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550353348,
+    "t": "Fabrication me\u0301canique. matric\u0327age : tableau-synthe\u0300se des e\u0301preuves, tableaux d'analyse du programme, tableaux de spe\u0301cifications, descriptions sommaires des e\u0301preuves, grilles d'e\u0301valuation de la participation, fiches d'e\u0301valuation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550353423,
+    "t": "Day centre centres : budget rules for 1999-2000",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550353508,
+    "t": "Mechanical manufacturing. Industrial machinery operation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550354161,
+    "t": "Programmation des activite\u0301s de formation pre\u0301alables a\u0300 l'application du programme que\u0301be\u0301cois de de\u0301pistage du cancer du sein (PQDCS). Module II. Sensibilisation a\u0300 l'approche a\u0300 privile\u0301gier a\u0300 l'endroit des femmes vise\u0301es par le PQDCS : formation a\u0300 l'intention des technologues en radiologie : activite\u0301 de perfectionnement portant sur l'aspect relationnel du travail a\u0300 l'e\u0301tape d'investigation : cahier de formation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550354178,
+    "t": "Programmation des activite\u0301s de formation pre\u0301alables a\u0300 l'application du programme que\u0301be\u0301cois de de\u0301pistage du cancer du sein (PQDCS). Module II. Sensibilisation a\u0300 l'approche a\u0300 privile\u0301gier a\u0300 l'endroit des femmes vise\u0301es par le PQDCS : formation a\u0300 l'intention des technologues en radiologie : activite\u0301 de perfectionnement portant sur l'aspect relationnel du travail a\u0300 l'e\u0301tape d'investigation : cahier de participation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550354277,
+    "t": "Mathe\u0301matique 526 : transitoire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550354505,
+    "t": "Enque\u0302te origine-destination, 1998 : mobilite\u0301 des personnes dans la re\u0301gion de Montre\u0301al",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550354543,
+    "t": "Infections invasives a\u0300 me\u0301ningocoque : protocole d'intervention",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550354581,
+    "t": "De l'arbre au consommateur, une journe\u0301e a\u0300 votre gou\u0302t : cahier des confe\u0301rences en ace\u0301riculture",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550354628,
+    "t": "An overview of the Tobacco Tax Act",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550354680,
+    "t": "E\u0301ducation aux droits et liberte\u0301s en milieu scolaire : les droits de l'enfant : de la protection vers l'autonomie : Universite\u0301 d'e\u0301te\u0301, Strasbourg 12-23 juillet 1999",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550354734,
+    "t": "Aboriginal development fund : briefing document",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550354826,
+    "t": "E\u0301valuation des dangers physiques pour la travailleuse enceinte : recommandations pour la grossesse, ou la travailleuse allaitante expose\u0301e aux radiations ionisantes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550355229,
+    "t": "Agriculture and fisheries. Hog production",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550356325,
+    "t": "Administration, commerce and computer technology. Secretarial studies-legal",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550356356,
+    "t": "Les prix du Me\u0301rite municipal 1999 : des gens-- tout pre\u0300s des gens",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550356394,
+    "t": "Cruising the Saint-Laurent : the St. Lawrence river, destinations and ports of call year 2000 : they do! why don't you?",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550356424,
+    "t": "Jeunes en sante\u0301 : guide a\u0300 l'intention des e\u0301le\u0300ves et du personnel scolaire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550357001,
+    "t": "Rapport sur le fonctionnement des Comite\u0301s de re\u0301vision, 1994-1999",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550357278,
+    "t": "Evaluation of an innovative project to foster cooperation between schools and communities : summary, 1999-2000",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550357285,
+    "t": "Data analysis of the compulsory measures for the supporting Montre\u0301al schools program : summary, 1999-2000",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550357476,
+    "t": "Affaires de compe\u0301tences : Emploi-Que\u0301bec au service des entreprises",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550357667,
+    "t": "Chimi, biologie. Technicienne technicien en proce\u0301de\u0301s chimiques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550358862,
+    "t": "Plan strate\u0301gique 2000-2003",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550359180,
+    "t": "Environnement et ame\u0301nagement du territoire. Protection et exploitation de territoires fauniques : tableaux-synthe\u0300se des e\u0301preuves, tableaux d'analyse du programme, tableaux de spe\u0301cifications, descriptions des e\u0301preuves, descriptions de la participation, fiches d'e\u0301valuation, fiches d'e\u0301valuation de la participation, grilles de re\u0301troactions",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550359227,
+    "t": "Re\u0301pertoire de l'industrie des services de sous-traitance en conception et fabrication de composants et de syste\u0300mes microe\u0301lectroniques, 2000",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550359579,
+    "t": "Sociovocational integration services : practicum guide",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550359586,
+    "t": "Sociovocational integration services : advice and strategies for organizing and offering",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550359623,
+    "t": "Production industrielle de ve\u0302tements. 18, Cuir, textile et habillement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550359647,
+    "t": "Fabrication me\u0301canique. Techniques de ge\u0301nie me\u0301canique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550859642,
+    "t": "Faire un signalement au DPJ, c'est d\u00e9j\u00e0 prot\u00e9ger un enfant : quand et comment signaler?",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782702859582,
+    "t": "La formation de la France",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782711850044,
+    "t": "Arts graphiques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711850082,
+    "t": "Face a\u0300 faces : visages du Christ dans l'art franc\u0327ais au XVIIe sie\u0300cle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711850303,
+    "t": "Le Douanier Rousseau : jungles a\u0300 Paris : exposition pre\u0301sente\u0301e a\u0300 Londres a\u0300 la Tate Modern du 3 novembre 2005 au 5 fe\u0301vrier 2006 ; a\u0300 Paris aux Galeries nationales du Grand Palais du 15 mars au 19 juin 2006 ; a\u0300 Washington a\u0300 la National Gallery of Art du 16 juillet au 15 octobre 2006",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711850532,
+    "t": "Maurice Denis : exposition, Paris, Muse\u0301e d'Orsay, 23 oct. 2006-21 janv. 2007",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711850716,
+    "t": "Orangerie, 1934 : les \"peintres de la re\u0301alite\u0301 : exposition pre\u0301sente\u0301e a\u0300 Paris au Muse\u0301e de l'Orangerie du 22 novembre 2006 au 5 mars 2007",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782711850761,
+    "t": "Italia nova : une aventure de l'art italien, 1900-1950 : Paris, Galeries nationales du Grand Palais, 6 avril-3 juillet 2006",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711850914,
+    "t": "Le myst?re et l'?clat : pastels du Mus?e d'Orsay",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711850952,
+    "t": "Les tre\u0301sors du Muse\u0301e de la Marine",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711851447,
+    "t": "Italia Nova : une aventure de l'art italien, 1900-1950 : [Paris, Galeries nationales du Grand Palais, 5 avril - 3 juillet 2006]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711851638,
+    "t": "Le verre dans l'Empire romain : arts et sciences : exposition pre\u0301sente\u0301e a\u0300 Florence au Museo degli argenti, Palazzo Pitti, du 27 mars au 31 octobre 2004 ; a\u0300 Paris a\u0300 la Cite\u0301 des sciences et de l'industrie du 31 janvier au 27 aou\u0302t 2006",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711852116,
+    "t": "Objets de pouvoir en Nouvelle-Guine\u0301e : 29 juin 2006-8 janvier 2007, Muse\u0301e d'Arche\u0301ologie Nationale ... Saint-Germain-en-Laye",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711852468,
+    "t": "De Vincennes a\u0300 Se\u0300vres, l'anne\u0301e 1756",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711852574,
+    "t": "Picasso / 20 septembre 2006-8 janvier 2007, [Muse\u0301e Picasso, Paris]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711852970,
+    "t": "Gustave Courbet",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711852970,
+    "t": "Gustave Courbet",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711853007,
+    "t": "Dix anne\u0301es de cre\u0301ation collections du Mobilier national 1997-2007 tapisseries, tapis, mobilier [exposition], Paris, Galerie des Gobelins, 12 mai 2007-30 septembre 2007",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711853199,
+    "t": "Muse\u0301e de l'abbaye de Sainte-Croix, Les Sables-d'Olonne",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711853465,
+    "t": "La force de l'art. 1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711854004,
+    "t": "Lovis Corinth",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782711854110,
+    "t": "Emil Nolde 1867-1956 : 25 septembre 2008-19 janvier 2009; [Paris, Galeries Nationales du Grand Palais; Muse\u0301e Fabre, Montpellier, 7 fevrier au 24 mai 2009]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711854134,
+    "t": "Konpira-san : sanctuaire de la mer; tre\u0301sors de la peinture japonaise; 15 octobre 2008-8 de\u0301cembre 2008; [Muse\u0301e National des Arts Asiatiques Guimet, Paris]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711854233,
+    "t": "Figuration narrative : Paris 1960-1972; 16 avril - 13 juillet 2008; [Paris, Galerie Nationales du Grand Palais]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711854264,
+    "t": "Premiere humanite : Gestes funeraires des neandertaliens. [Publie a l'occasion de l'exposition presentee au musee national de la prehistoire, les Eyzies-de-Tayac, 28 juin-12 octobre 2008]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711854639,
+    "t": "Je\u0301ro\u0302me Napole\u0301on : roi de Westphalie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711855254,
+    "t": "Picasso et les mai\u0302tres : 8 octobre 2008 au 2 fe\u0301vrier 2009; [Paris, Galeries Nationales du Grand Palais; Paris, Muse\u0301e du Louvre; Paris Muse\u0301e d'Orsay]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711855322,
+    "t": "Marie Antoinette : 15 mars - 30 juin 2008; [Paris, Galerie Nationales du Grand Palais]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711855452,
+    "t": "La figuration narrative : Des anne\u0301es 1960 a\u0300 nos jours. Livre publie\u0301 a\u0300 l'occasion de l'exposition, Figuration narrative, Paris, 1960-1972, pre\u0301sente\u0301e a\u0300 Paris, galeries nationales du Grand Palais, du 16 avril au 13 juillet 2008",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711855896,
+    "t": "Renoir au XXe sie\u0300cle : 23 septembre 2009-4 janvier 2010; Paris, Galeries Nationales (Grand Palais, Champs-E\u0301lyse\u0301es)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711856053,
+    "t": "Oublier Rodin? : la sculpture a\u0300 Paris, 1905-1914; 10 mars - 31 mai 2009; [exposition pre\u0301sente\u0301 au Muse\u0301e d'Orsay, Paris]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711856275,
+    "t": "De Byzance a\u0300 Istanbul : un port pour deux continents; 10 octobre 2009-25 janvier 2010; [Galeries Nationales (Grand Palais, Champs-E\u0301lyse\u0301es)]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711856367,
+    "t": "Une futile audace : exposition, Eyzies de Tayac, 16 avril-29 juin 2009",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711856381,
+    "t": "Dva\u0304rava\u0304ti\u0304 : aux sources du bouddhisme en Thai\u0308lande; 10 fe\u0301vrier 2009-25 mai 2009 ; [Muse\u0301e des Arts Asiatiques Guimet, Paris]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711856503,
+    "t": "Fastes de cour & ce\u0301re\u0301monies royales : le costume de cour en Europe, 1650-1800; 31 mars - 28 juin 2009; Cha\u0302teau de Versailles",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711856671,
+    "t": "De la sce\u0300ne au tableau : Marseille, Muse\u0301e Cantini, 6 octobre 2009-3 janvier 2010; Muse\u0301es de Marseille, direction des muse\u0301es",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711856893,
+    "t": "Monet, 1840-1926 : 22 septembre 2010-24 janvier 2011; [Paris, Galeries Nationales, Grand-Palais]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711857012,
+    "t": "France 1500 : entre Moyen Age et Renaissance; 6 octobre 2010-10 janvier 2011; [Paris, Galeries Nationales, Grand Palais, Champs-E\u0301lyse\u0301es]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711857241,
+    "t": "De terre & de feu : l'aventure de la ce\u0301ramique europe\u0301enne de Limoges.",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711858118,
+    "t": "Lucknow, une cour royale en Inde, XVIIIe-XIX sie\u0300cle : exposition, Paris, Muse\u0301e Guimet (Paris), du 6 avril au 11 juillet 2011",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711858569,
+    "t": "Odilon Redon : l'expo : prince du re\u0302ve, 1840-1916 : [exposition, Paris, galeries nationales, Grand palais, 23 mars 2011-20 juin 2011]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711858941,
+    "t": "Aime\u0301 Ce\u0301saire, Lam, Picasso : \"nous nous sommes trouve\u0301s\"",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782717850031,
+    "t": "Exclusion et liens financiers : L'exclusion bancaire des particuliers. Rapport 2004",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782717850567,
+    "t": "Les marche\u0301s mondiaux 2005 : Cyclope 2005",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782717852080,
+    "t": "Key figures on science and technology. 2006",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782717852776,
+    "t": "30 ans de saisine parlementaire du conseil constitutionnel : Colloque et publication en hommage a\u0300 Louis Favoreu, 22 octobre 2004 au conseil constitutionnel sous la pre\u0301sidence de Pierre Mazeaud",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782717853056,
+    "t": "Indicateurs de sciences et de technologies. Edition 2006 : Rapport de l'observatoire des sciences et des techniques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782717853537,
+    "t": "A la recherche d'un monde meilleur",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782717855012,
+    "t": "Strate\u0301gies navales",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782717855029,
+    "t": "L'ho\u0302pital et les re\u0301seaux de sante\u0301 : Professionnalisme des consultants",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782726850718,
+    "t": "Fiat Croma, moteurs 1600 a\u0300 2000 i.e. turbo, Croma-Croma CHT-Croma i.e.-Croma turbo i.e. : avec comple\u0301ment e\u0301tude carrosserie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782726851258,
+    "t": "Conduite et entretien des Ford \"Fiesta\" moteur a\u0300 essence et Diesel",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782726852415,
+    "t": "Volkswagen \"Passat\" depuis mars 1988, moteurs essence 8 et 16 soupapes, diesel et turbodiesel",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782726852927,
+    "t": "Jeep Cherokee : moteur essence 4.0 litre, moteur Diesel 2.1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782726855010,
+    "t": "Ford \"Escort\" et \"Orion\" essence 1.4, 1.6, 1.8 l (depuis 1991)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782726855836,
+    "t": "Renault Twingo et Twingo Easy : moteur 1239 cm\u00b3",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782726856116,
+    "t": "Renault \"Safrane\" moteurs Diesel",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782726857212,
+    "t": "Nissan Micra : tous les mode\u0300les essence depuis 1993",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782726859414,
+    "t": "BMW 525 tds depuis 1996",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782729850012,
+    "t": "\u8981\u7406\u554f\u7b54\u8fad\u6c47 : an aid for the study of the Chinese catechism of the synodical commision",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782729852900,
+    "t": "Rome et l'occident : i\u0302les de la Me\u0301diterrane\u0301e occidentale - Sicile, Sardaigne, Corse - pe\u0301ninsule ibe\u0301rique, Gaule - cisalpine exclue - Germanie, Alpes - provinces alpestres et Rhe\u0301tie - Bretagne",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782729854065,
+    "t": "Aristote",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782729854218,
+    "t": "Calcul scientifique : suites et s\u00e9ries : cours et exercices corrig\u00e9s",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782729855048,
+    "t": "Souvenirs et me\u0301moire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782729858476,
+    "t": "La Structure du comportement : \"l'ordre humain\" : cahp. III, 3",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782729859909,
+    "t": "Mai\u0302tres et valets dans la come\u0301die franc\u0327aise du XVIIIe sie\u0300cle: Lesage, Marivaux et Beaumarchais",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782732851013,
+    "t": "Constitution, dissolution, liquidation, socie\u0301te\u0301s en difficulte\u0301s",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782732851020,
+    "t": "Fonctionnement, gestion, ro\u0302le des associe\u0301s, modifications, vie financie\u0300re, socie\u0301te\u0301s particulie\u0300res",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782732856056,
     "t": "Recruter de bons vendeurs : personnalite\u0301 des vendeurs, profil de poste, plan et phases du recrutement, e\u0301valuer les re\u0301ponses, appliquer les techniques de recrutement : graphologie - test - morphopsychologie, entretiens - re\u0301unions de groupe, sketches - e\u0301tudes de cas, engager et inte\u0301grer.",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782733850671,
+    "t": "My amazing Mozart music book",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782733851234,
+    "t": "Mes 7 histoires de la semaine",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782733851739,
+    "t": "Tom O'Clock, le d\u00e9tective du temps. Le fant\u00f4me de Pomp\u00e9i",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782733853351,
+    "t": "Mes histoires a\u0300 raconter et a\u0300 mimer",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782733857793,
+    "t": "Animales de la granja",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782733859308,
+    "t": "Ma pochette de gommettes 100 poneys et chevaux : [Autocollant]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782737350030,
+    "t": "Regards sur la premie\u0300re guerre mondiale [livre album]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782737350535,
+    "t": "Je de\u0301couvre la France en coloriant",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782737351303,
+    "t": "Histoire illustre\u0301e de la Normandie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782737351365,
+    "t": "De\u0301corer avec des tampons du Moyen a\u0302ge",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782737353017,
+    "t": "Lyon et ses environs : 75 sites incontournables",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782737353918,
+    "t": "Mini manga : la re\u0301fe\u0301rence de poche pour dessiner les mangas!",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782737353994,
+    "t": "Les bords de Seine a\u0300 l'aquarelle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782737354038,
+    "t": "Je colorie les noeuds celtes [album a\u0300 colorier]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782737354458,
+    "t": "De Paris au Havre au fil de la Seine : 90 sites incontournables",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782737356148,
+    "t": "Les bonnes recettes des fermes du Val-de-Loire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782737357251,
+    "t": "Bernard Dargols : un GI franc\u0327ais a\u0300 Omaha Beach",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782737357398,
+    "t": "Carnet de recettes de Champagne-Ardenne",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782737357619,
+    "t": "Carnets de recettes de Gascogne",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782737357688,
+    "t": "Paris Breizh : adresses bretonnes en I\u0302le-de-France",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782737358999,
+    "t": "Aimer la cuisine de Vende\u0301e",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745350909,
+    "t": "Balzac et la Bible : une herm\u00e9neutique du romanesque",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745356123,
+    "t": "\"Baron\" et \"chevalier\" en fran\u00e7ais m\u00e9di\u00e9val : une \u00e9tude s\u00e9mantique de noms d'humains dans la soci\u00e9t\u00e9 f\u00e9odale",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745357243,
+    "t": "<<Le>> compagnon du Tour de France 1840",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782748353846,
+    "t": "Claire, conte \u00e9rotique et autres histoires : (ou comment une femme d\u00e9couvre son corps, Sa sexualit\u00e9 sensuelle, son \u00e9panouissement...)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782748354324,
+    "t": "She\u0301he\u0301razade Guyane : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782748355345,
+    "t": "Les e\u0301corces d'orange",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782748356113,
+    "t": "Femmes de pouvoir du Gabon",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760850088,
+    "t": "Conjugaison",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760850095,
+    "t": "Place au franc\u0327ais, niveau 6 : guide me\u0301thodologique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760850156,
+    "t": "Compre\u0301hension de textes 6",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760850187,
+    "t": "Mirabelle message\u0300re : recueil de textes : lre partie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760850194,
+    "t": "Mirabelle a\u0300 l'atelier : cahier d'activite\u0301s : 1re partie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760850200,
+    "t": "Les e\u0301tiquettes de Mirabelle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760850620,
+    "t": "Baluchon a\u0300 l'atelier : cahier d'activite\u0301s :1re partie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760850637,
+    "t": "Baluchon messager : recueil de textes : 2e partie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760850682,
+    "t": "Dro\u0302le d'oiseau",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760850712,
+    "t": "Sans blaque!",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760850736,
+    "t": "L'anniversaire de la reine Me\u0301limielle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760850804,
+    "t": "Ou\u0300 est Martin?",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760850828,
+    "t": "Message de la plane\u0300te mauve",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760851085,
+    "t": "Campanule et Filament messagers : recueil de textes : 1re partie",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760851092,
+    "t": "Campanule et Filament messagers : recueil de textes : 2e partie",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760851115,
+    "t": "Campanule et Filament a\u0300 l'atelier : cahier d'activite\u0301s : 1re partie",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760851122,
+    "t": "Campanule et Filament a\u0300 l'atelier : cahier d'activite\u0301s : 2e partie",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760851146,
+    "t": "Le sac a\u0300 mots de Mirabelle et de Baluchon : mini-dictionnaire",
     "h": 1,
     "e": 0
   },
@@ -24,8 +1050,74 @@
     "e": 0
   },
   {
+    "i": 9782760851276,
+    "t": "Franc\u0327ais 1. Mirabelle message\u0300re : [recueil de textes]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760851535,
+    "t": "J'apprends a\u0300 e\u0301crire, 2e anne\u0301e",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760851542,
+    "t": "J'apprends a\u0300 e\u0301crire, 1 : guide du mai\u0302tre et corrige\u0301",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760851559,
+    "t": "J'apprends a\u0300 e\u0301crire : mon nouveau programme d'orthographe et de grammaire : guide du mai\u0302tre et corrige\u0301 2, a b",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760851566,
+    "t": "Franc\u0327ais : adaptation pour les classes d'immersion",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9782760851597,
     "t": "Franc\u0327ais 2. Guide pe\u0301dagogique",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760851610,
+    "t": "Brioche et Camomille, messagers : recueil de textes : 2e partie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760851627,
+    "t": "Brioche et Camomille a\u0300 l'atelier : cahier d'activite\u0301s : 1re partie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760851870,
+    "t": "Baluchon 2e anne\u0301e",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760851870,
+    "t": "Baluchon : 2e anne\u0301e",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760851931,
+    "t": "J'apprends a\u0300 e\u0301crire : mon nouveau programme d'orthographe et de grammaire : guide du mai\u0302tre et corrige\u0301, 4a, b",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760851962,
+    "t": "Campanule et Filament messagers recueil de textes : 1re partie : immersion",
     "h": 1,
     "e": 1
   },
@@ -36,8 +1128,260 @@
     "e": 1
   },
   {
+    "i": 9782760852044,
+    "t": "Franc\u0327ais 4 guide pe\u0301dagogique : 2e partie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760852099,
+    "t": "J'apprends a\u0300 e\u0301crire 5e anne\u0301e : cahier A",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760852129,
+    "t": "J'apprends a\u0300 e\u0301crire 6e anne\u0301e : cahier A",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760852143,
+    "t": "J'apprends a\u0300 e\u0301crire 6 a et b : guide du mai\u0302tre et corrige\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760852204,
+    "t": "Libellule et Papillon a\u0300 l'atelier cahier d'activite\u0301s : 2e partie : immersion",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760852242,
+    "t": "Pastille et Giboule\u0301e, messagers recueil de textes : 2e partie : immersion",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782760852280,
     "t": "Franc\u0327ais 6. Guide pe\u0301dagogique. Immersion",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760852402,
+    "t": "Franc\u0327ais, langue maternelle, 3e[-5e] secondaire. Cahier d'activite\u0301s. Corrige\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760852518,
+    "t": "Le papillon, 1re ann\u00e9e : manuel d'apprentissage du fran\u00e7ais",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760852518,
+    "t": "Le papillon, 1re anne\u0301e. Guide pe\u0301dagogique pour l'enseignement du franc\u0327ais",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760852556,
+    "t": "Franc\u0327ais 2 : explorer le langage : cahier d'activite\u0301s",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760852785,
+    "t": "Destination franc\u0327ais : deuxie\u0300me secondaire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760853164,
+    "t": "Collection Le pivot franc\u0327ais, langue d'enseignement : formation ge\u0301ne\u0301rale des adultes, 1re secondaire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760853171,
+    "t": "Collection Le pivot franc\u0327ais, langue d'enseignement : formation ge\u0301ne\u0301rale des adultes, 2e secondaire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760855113,
+    "t": "Flight 514 : [Logbook]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760855199,
+    "t": "Interacting 1 : communication through cooperation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760855212,
+    "t": "Interacting 2 : communication through cooperation : teacher's guide",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760855229,
+    "t": "Interacting 2 : communication through cooperation",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760855472,
+    "t": "The spinning series, level 2. Teacher's guide",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760855656,
+    "t": "The spinning series. Evaluation component : level 1[-3]",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760855663,
+    "t": "The spinning series : level 3 : student's book",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782761354790,
+    "t": "Gestion de la TPE/PME : cours ADM9003",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782761359245,
+    "t": "Arob|s : franc\u0327ais, 6e anne\u0301e du primaire. Guide-corrige\u0301",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782763851686,
+    "t": "Caracte\u0301risation de la transmission de la lumie\u0300re en fore\u0302t bore\u0301ale : effets de la richesse, la composition et la structure d'un peuplement forestier",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782763851747,
+    "t": "Le gi\u0302te a\u0300 Zn-Cu-Co-Ag Tortigny, province du lac Supe\u0301rieur orientale, Bouclier Canadien : un amas sulfure\u0301 me\u0301tamorphise\u0301 et de\u0301forme\u0301 de l'arche\u0301en tardif encaisse\u0301 dans des basaltes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782763853000,
+    "t": "Couleur, son, mouvement : une me\u0301thode d'enseignement pour l'initiation des enfants aux couleurs dans un approche globalisante des expressions artistiques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782763853826,
+    "t": "Analyse de validite\u0301 du test F pour les effets fixes dans les mode\u0300les mixtes en pre\u0301sence d'he\u0301te\u0301rosce\u0301dasticite\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782763854083,
+    "t": "Educac\u0327a\u0304o ambiental : representac\u0327o\u0304es e pra\u0301ticas das professoras do ensino fundamental em tre\u0302s escolas pu\u0301blicas em Cuiaba\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782763855073,
+    "t": "Study of benthic foraminiferal populations in the sediments of the Saguenay Fjord",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782763855240,
+    "t": "Effets des me\u0301taux traces sur le statut me\u0301tabolique et hormonal de la perchaude (Perca flavescens)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782763855561,
+    "t": "L'effet de la phe\u0301nologie de l'e\u0301pinette de Norve\u0300ge (Picea abies (L.) Karst.) sur la performance biologique du charanc\u0327on du pin blanc (Pissodes strobi (peck) et sur les canaux re\u0301sinife\u0300res traumatiques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782763856322,
+    "t": "Les projets environnementaux scolaires : proble\u0301matique d'inte\u0301gration de la dimension environnementale dans l'e\u0301ducation formelle en Colombie : trois e\u0301tudes de cas a\u0300 Florencia, Caqueta",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782763856872,
+    "t": "E\u0301volution isotopique Sm-Nd d'un complexe magmatique arche\u0301en a\u0300 l'inte\u0301rieur de la ceinture de roches vertes de Sturgeon Lake, Ontario, Canada",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782763857961,
+    "t": "Impact des racines personnelles et culturelles sur la re\u0301ussite d'une de\u0301marche artistique, ou, Facteur rhe\u0301sus : terre et mer",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782763858524,
+    "t": "L'institution du haut savoir dans la logique technopolitaine le cas de la technopole de Laval",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782763859255,
+    "t": "Manimalia : de\u0301couvrez votre personnalite\u0301 a\u0300 la lumie\u0300re de l'Enne\u0301agramme et ses symboliques animalie\u0300res",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782763859651,
+    "t": "Vers une approche a\u0300 base de racines et de sche\u0300mes de la morphologie non-concate\u0301native",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782764359525,
+    "t": "Mickey",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782765850403,
+    "t": "Qu\u00e9bec",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782765851011,
+    "t": "Gatineau",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782765852001,
+    "t": "Islande. Les fjords de l'Ouest",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782765857594,
+    "t": "Ouest am\u00e9ricain : grandeurs et \u00e9motions",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782765858553,
+    "t": "Cr\u00e8te",
     "h": 1,
     "e": 0
   }

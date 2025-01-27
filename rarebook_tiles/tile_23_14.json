@@ -1,7 +1,457 @@
 [
   {
+    "i": 9785604232392,
+    "t": "\u0415\u0432\u0440\u0435\u0439\u0441\u043a\u0430\u044f \u0430\u0432\u0442\u043e\u043d\u043e\u043c\u043d\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c : s\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0439 \u043f\u0443\u0442\u0435\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785604232965,
+    "t": "\"Esli zavtra vojna, esli zavtra v pochod ...\" : Krasnaja armija i flot v fotografijach. 1923-1941 Tom 1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785699230082,
+    "t": "\u041f\u0440\u0430\u0437\u0434\u043d\u0438\u0447\u043d\u044b\u0439 \u0441\u0442\u043e\u043b\u0438\u043a \u0434\u043b\u044f \u0434\u0432\u043e\u0438\u0445 : \u043e\u0447\u0435\u043d\u044c \u0438\u043d\u0442\u0438\u043c\u043d\u043e",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785699230372,
+    "t": "\u041f\u0440\u043e\u0441\u0442\u044b\u0435 \u0438\u0441\u0442\u0438\u043d\u044b : \u043c\u0443\u0434\u0440\u043e\u0441\u0442\u044c \u0436\u0438\u0437\u043d\u0438 : \u0432\u0435\u043b\u0438\u043a\u0438\u0435 \u043c\u044b\u0441\u043b\u0438 \u043c\u0430\u043b\u0435\u043d\u044c\u043a\u0438\u0445 \u0444\u0438\u043b\u043e\u0441\u043e\u0444\u043e\u0432",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785699230709,
+    "t": "\u0412\u0441\u0442\u0440\u0435\u0447\u043d\u044b\u0439 \u0431\u043e\u0439 : [\u0444\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0438\u0306 \u0440\u043e\u043c\u0430\u043d]",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785699230952,
+    "t": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785699231119,
+    "t": "\u0418\u043c \u0440\u0430\u0432\u043d\u044b\u0445 \u043d\u0435\u0442",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785699231126,
+    "t": "\u041f\u0440\u043e\u0439\u0434\u044f \u0441\u043a\u0432\u043e\u0437\u044c \u0434\u044b\u043c",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785699231645,
+    "t": "\"\u041d\u043e\u0432\u0438\u043a\u0438\" : \u043b\u0443\u0447\u0448\u0438\u0435 \u044d\u0441\u043c\u0438\u043d\u0446\u044b \u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u043e\u0433\u043e \u0438\u043c\u043f\u0435\u0440\u0430\u0442\u043e\u0440\u0441\u043a\u043e\u0433\u043e \u0444\u043b\u043e\u0442\u0430",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785699231911,
+    "t": "\u041d\u0430\u043f\u043e\u043b\u0435\u043e\u043d\u043e\u0432\u0441\u043a\u0438\u0435 \u0432\u043e\u0439\u043d\u044b : \u0443\u043d\u0438\u0444\u043e\u0440\u043c\u0430 \u0435\u0432\u0440\u043e\u043f\u0435\u0439\u0441\u043a\u0438\u0445 \u0430\u0440\u043c\u0438\u0439",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785699232000,
+    "t": "S\u030copogolic i b\u0307ebi",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785699232161,
+    "t": "\u0424\u0440\u043e\u043d\u0442\u043e\u0432\u0430\u044f '\u043d\u0435\u043e\u0442\u043b\u043e\u0436\u043a\u0430'",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785699232291,
+    "t": "Nemeckij jazyk dlja juristov uc\u030cebnoe posobie = Deutsch fu\u0308r Juristen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785699232369,
+    "t": "\u0413\u043e\u0442\u043e\u0432\u0438\u043c\u0441\u044f \u043a \u043f\u0440\u0430\u0437\u0434\u043d\u0438\u043a\u0443! : \u043f\u043e\u0434\u0430\u0440\u043a\u0438 \u0441\u0432\u043e\u0438\u043c\u0438 \u0440\u0443\u043a\u0430\u043c\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785699232697,
+    "t": "\u0428\u043a\u043e\u043b\u0430 \u0413\u0430\u0441\u0442\u0440\u043e\u043d\u043e\u043c\u0430. \u0418\u0437\u044b\u0441\u043a\u0430\u043d\u043d\u044b\u0435 \u0431\u043b\u044e\u0434\u0430 : \u043f\u043e\u044d\u0442\u0430\u043f\u043d\u044b\u0435 \u0438\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u043f\u0440\u0438\u0433\u043e\u0442\u043e\u0432\u043b\u0435\u043d\u0438\u044f",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785699234240,
+    "t": "\u0412\u0440\u0435\u043c\u044f, \u0434\u043d\u0438 \u043d\u0435\u0434\u0435\u043b\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785699234318,
+    "t": "Detskai\ufe20a\ufe21 pul\u02b9monologii\ufe20a\ufe21 : print\ufe20s\ufe21ipy terapii",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785699234882,
+    "t": "\u041c\u043e\u0439 \u043b\u044e\u0431\u0438\u043c\u044b\u0439 \u0434\u0435\u0441\u0435\u0440\u0442",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785699235049,
+    "t": "\u0412\u0438\u043a\u0438\u043d\u0433\u0438 : \u043c\u043e\u0440\u0435\u043f\u043b\u0430\u0432\u0430\u0442\u0435\u043b\u0438, \u043f\u0438\u0440\u0430\u0442\u044b \u0438 \u0432\u043e\u0438\u043d\u044b",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785699235360,
+    "t": "\u0421\u0435\u043a\u0440\u0435\u0442\u043d\u044b\u0439 \u043f\u0435\u043b\u0435\u043d\u0433",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785699235636,
+    "t": "\u041f\u0435\u0441\u0435\u043d\u043a\u0438 \u0438 \u0441\u0447\u0438\u0442\u0430\u043b\u043e\u0447\u043a\u0438 : (\u043d\u0435\u043c\u0435\u0446\u043a\u0438\u0439, \u0430\u043d\u0433\u043b\u0438\u0439\u0441\u043a\u0438\u0439, \u0444\u0440\u0430\u043d\u0446\u0443\u0437\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a\u0438)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785699235728,
+    "t": "Vremena goda",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785699236046,
+    "t": "\u041f\u0440\u0430\u0437\u0434\u043d\u0438\u043a \u0441\u0432\u043e\u0438\u043c\u0438 \u0440\u0443\u043a\u0430\u043c\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785699236060,
+    "t": "\u0421\u0442\u0430\u0442\u044c \u044d\u0444\u0444\u0435\u043a\u0442\u0438\u0432\u043d\u044b\u043c--\u043a\u0430\u043a?",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785699236794,
+    "t": "Microsoft Windows Vista : shag za shagom",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785699237432,
+    "t": "Zhizn' i neobykn. prikliucheniia soldata Ivana Chonkina : Kniga 3: Peremeshchennoe litso",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785699237593,
+    "t": "\u0412\u0441\u0435 \u043e\u0431\u043e \u043c\u043d\u0435 : \u0430\u043d\u0433\u043b\u0438\u0439\u0441\u043a\u0438\u0439 \u0434\u043b\u044f \u0434\u0435\u0442\u0435\u0439",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785699237715,
+    "t": "Zdravstvui, grust : Smutnaia ulybka ; Cherez mesiats, cherez god",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785699237760,
+    "t": "Liubite li vy Bramsa? : Volshebnye odlaka",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785699237906,
+    "t": "\u0421\u0430\u043c\u043e\u0445\u043e\u0434\u043a\u0438 : \u0432 \u043e\u0434\u043d\u043e\u043c \u0441\u0442\u0440\u043e\u044e \u0441 \u0442\u0430\u043d\u043a\u0430\u043c\u0438",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785699237944,
+    "t": "Smolenskoe sraz\u030cenie : dva mesjaca krovavogo protivostojanija",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785699238088,
+    "t": "\u0420\u0430\u0441\u0441\u043c\u043e\u0442\u0440\u0435\u043d\u0438\u0435 \u0434\u0435\u043b \u043e \u043d\u0430\u0440\u0443\u0448\u0435\u043d\u0438\u044f\u0445 \u043d\u043e\u0440\u043c \u0442\u0430\u043c\u043e\u0436\u0435\u043d\u043d\u043e\u0433\u043e \u0437\u0430\u043a\u043e\u043d\u043e\u0434\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u0430 : \u0441\u0443\u0434\u0435\u0431\u043d\u0430\u044f \u043f\u0440\u0430\u043a\u0442\u0438\u043a\u0430 \u0438 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438 : \u043f\u0440\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043f\u043e\u0441\u043e\u0431\u0438\u0435",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785699239160,
+    "t": "\u041d\u0430\u0448\u0430 \u043f\u043b\u0430\u043d\u0435\u0442\u0430",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785699239597,
+    "t": "\u041a\u043e\u0440\u0430\u0431\u043b\u044c, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u0438\u0441\u043a\u0430\u043b",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785699239603,
+    "t": "\u042f\u043d\u0442\u0430\u0440\u043d\u044b\u0439 \u0431\u0430\u0440\u043e\u043d",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785699731763,
+    "t": "\u0411\u043b\u044e\u0434\u0430 \u0438\u0437 \u0431\u0430\u043a\u043b\u0430\u0436\u0430\u043d\u043e\u0432, \u043a\u0430\u0431\u0430\u0447\u043a\u043e\u0432 \u0438 \u0442\u044b\u043a\u0432\u044b : \u043f\u043e\u0434\u0440\u043e\u0431\u043d\u044b\u0435 \u043f\u043e\u0448\u0430\u0433\u043e\u0432\u044b\u0435 \u0438\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785699734474,
+    "t": "Vse liki ljubvi",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785699736270,
+    "t": "\u041d\u0430\u0441\u0442\u043e\u044f\u0449\u0438\u0435 \u0438\u043d\u0434\u0435\u0439\u0446\u044b",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785699736706,
+    "t": "Deti\u0361aiam o pitanii : neveroi\u0361atnoe puteshestvie po Nutrilandii",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785699736874,
+    "t": "\u0412 \u043c\u0438\u0440\u0435 \u0436\u0438\u0432\u043e\u0442\u043d\u044b\u0445",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785701730487,
+    "t": "\u0421\u043b\u043e\u0432\u0435\u0441\u043d\u043e\u0435 \u0438\u0441\u043a\u0443\u0441\u0441\u0442\u0432\u043e \u0421\u0435\u0440\u0435\u0431\u0440\u044f\u043d\u043e\u0433\u043e \u0432\u0435\u043a\u0430 \u0438 \u0420\u0443\u0441\u0441\u043a\u043e\u0433\u043e \u0437\u0430\u0440\u0443\u0431\u0435\u0436\u044c\u044f \u0432 \u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u0435 \u044d\u043f\u043e\u0445\u0438 (\"\u0421\u043c\u0438\u0440\u043d\u043e\u0432\u0441\u043a\u0438\u0435 \u0447\u0442\u0435\u043d\u0438\u044f\") : \u0441\u0431\u043e\u0440\u043d\u0438\u043a \u0441\u0442\u0430\u0442\u0435\u0439 \u043f\u043e \u0438\u0442\u043e\u0433\u0430\u043c III Me\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u043e\u0439 \u043d\u0430\u0443\u0447\u043d\u043e\u0439 \u043a\u043e\u043d\u0444\u0435\u0440\u0435\u043d\u0446\u0438\u0438 (\u0433. Mo\u0441\u043a\u0432\u0430, M\u0413O\u0423, 29-30 \u0438\u044e\u043d\u044f 2018 \u0433.)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785710731079,
+    "t": "Primernye programmy srednego (polnogo) obshchego obrazovanii\ufe20a\ufe21 : programmno-metodicheskie materialy",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785710731284,
+    "t": "Reshenie zadach : iz ychebnika",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785710732939,
+    "t": "\u041a\u043b\u0430\u0441\u0441\u043d\u044b\u0439 \u044e\u043c\u043e\u0440 : rasskazy, stikhi, skazki, \"shedevry\" klassnogo i\ufe20u\ufe21mora, prislannye rebi\ufe20a\ufe21tami uchiteli\ufe20u\ufe21 smekha",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785710732977,
+    "t": "Zabytyi\u0306 den\u02b9 rozhdenii\ufe20a\ufe21 : skazki, a takzhe besedy avtora s tigrom",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785710734377,
+    "t": "\u0421. \u0410. \u0415\u0441\u0435\u043d\u0438\u043d. \u0421\u0442\u0438\u0445\u043e\u0442\u0432\u043e\u0440\u0435\u043d\u0438\u044f. \u041f\u043e\u0435\u043c\u0430 : \u0410\u043d\u0430\u043b\u0438\u0437 \u0442\u0435\u043a\u0441\u0442\u0430. \u041e\u0441\u043d\u043e\u0432\u043d\u043e\u0435 \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u043d\u0438\u0435. \u0421\u043e\u0447\u0438\u043d\u0435\u043d\u0438\u044f",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785710735824,
+    "t": "Matematika : 5-11 klassi : sbornik normativnich dokumentov",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785710736326,
+    "t": "\u0421\u0447\u0430\u0441\u0442\u043b\u0438\u0432\u044b\u0439 \u0430\u043d\u0433\u043b\u0438\u0439\u0441\u043a\u0438\u0439 5-6 \u043a\u043b\u0430\u0441\u0441\u044b \u0443\u0447\u0435\u0431\u043d\u0438\u043a \u0434\u043b\u044f \u043e\u0431\u0449\u0435\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0445 \u0443\u0447\u0435\u0431\u043d\u044b\u0445 \u0437\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u0439",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785710737569,
+    "t": "Uzbekskaja model' razvitija: mir i stabil'nost' - osnova progressa",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785710737712,
+    "t": "\u0410\u043b\u0445\u0438\u043c\u0438\u043a \u041f\u0430\u0440\u0446\u0435\u043b\u0438\u0443\u0441 : \u0441\u043a\u0430\u0437\u043e\u0447\u043d\u0430\u044f \u043f\u043e\u0432\u0435\u0441\u0442\u044c",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785710737750,
+    "t": "\u0424\u0435\u044f \u0438\u0437\u0443\u043c\u0440\u0443\u0434\u043d\u043e\u0433\u043e \u0433\u043e\u0440\u043e\u0434\u0430 : \u0441\u043a\u0430\u0437\u043e\u0447\u043d\u0430\u044f \u043f\u043e\u0432\u0435\u0441\u0442\u044c",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785710737927,
+    "t": "\u0414\u0435\u0442\u0438 \u0434\u0438\u043d\u043e\u0437\u0430\u0432\u0440\u043e\u0432 ; \u0413\u043e\u0441\u0442\u044c \u0432 \u043a\u0443\u0432\u0448\u0438\u043d\u0435 : \u0444\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043f\u043e\u0432\u0435\u0441\u0442\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785742230113,
+    "t": "\u041f\u043e\u0432\u0435\u0434\u044c : \u043f\u043e\u043f\u0443\u043b\u044f\u0440\u043d\u0430\u044f \u0438\u0441\u0442\u043e\u0440\u0438\u044f \u043e\u0434\u043d\u043e\u0433\u043e \u0442\u043e\u0440\u0436\u043e\u043a\u0441\u043a\u043e\u0433\u043e \u0441\u0435\u043b\u0430 \u0438 \u0435\u0433\u043e \u043e\u043a\u0440\u0435\u0441\u0442\u043d\u043e\u0441\u0442\u0435\u0439",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766730002,
+    "t": "Zhambylgha khat : [a\u0306skeri esteli\u0304kter]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766730033,
+    "t": "1736 zhyly Ki\u0304shi\u0304 zhu\u0307z khany A\u0306bi\u0304lqai\u0306yrgha baryp qai\u0306tqan sapar turaly",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766730163,
+    "t": "O\u0307mi\u0304rdi\u0304n\ufe20g\ufe21 to\u0307rt mezgi\u0304li\u0304 : esteli\u0304kter men tolghanystar",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766730514,
+    "t": "Zhai\u0306yq mi\u0304ngen qai\u0306yq : Zhai\u0306yq Bektu\u0304rovtyn\ufe20g\ufe21 o\u0307mi\u0304r shezhi\u0304resi\u0304nen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766731009,
+    "t": "A\u0307n-z\u030ce\u0307rmen\u0307ke : qazaq halq\u0131n\u0131n\u0307 a\u0307nderi ; Russkie pesni ; Ukrajins\u02b9ki narodni pisni ...",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766731009,
+    "t": "A\u0308n-z\u030ca\u0308rmen\u0327ke : k\u0327azak chalk\u0327ynyn\u0327 a\u0308nderi [u.a.]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766731023,
+    "t": "\u0417\u0430\u043a\u043e\u043d\u043e\u0434\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0438 \u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d \u043e\u0431 \u043e\u0440\u0433\u0430\u043d\u0430\u0445 \u043e\u0431\u043e\u0440\u043e\u043d\u0443, \u043f\u0440\u0430\u0432\u043e\u0441\u0443\u0434\u0438\u044f, \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438 \u0438 \u043f\u0440\u0430\u0432\u043e\u043f\u043e\u0440\u044f\u0434\u043a\u0430 : \u0441 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f\u043c\u0438 \u0438 \u0434\u043e\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u044f\u043c\u0438 \u043d\u0430 1 \u043c\u0430\u044f 1996 \u0433.",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766731078,
+    "t": "Qazaqstan Respublikas\u0131n\u0131n\u0307 Konstituciyas\u0131 = Konstitucija Respubliki Kazachstan = The Constitution of the Republic of Kazakstan",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766731146,
+    "t": "Zan\ufe20g\ufe21 terminderi\u0308nin\ufe20g\ufe21 qazaqsha-oryssha zha\u0306ne oryssha-qazaqsha qysqasha tu\u0307si\u0304ndi\u0304rme so\u0307zdigi = Kratkii\u0306 kazakhsko-russkii\u0306 i russko-kazakhskii\u0306 tolkovyi\u0306 slovar\u02b9 i\ufe20u\ufe21ridicheskikh terminov",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766731177,
+    "t": "Osnovy teorii finansovogo prava",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766731245,
+    "t": "Gosudarstvo Kazachstan: ot chanskoj vlasti - k prezidentskoj respublike : uc\u030cebnoe posobie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766731276,
+    "t": "K\u0327azak\u0327stan Respublikasyndag\u0307y keden \u0131\u0301s\u0131\u0301 turaly = O tamoz\u030cennom dele v Respublike Kazachstan : K\u0327azak\u0327stan Respublikasy prezident\u0131\u0301n\u0131\u0301n\u0323 z\u030carlyg\u0307y zan\u0323 ku\u0308s\u030c\u0131\u0301 bar",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766731290,
+    "t": "Makhabbat pen ghadauat : zhan\ufe20g\ufe21a o\u0307len\ufe20g\ufe21der : [o\u0307len\ufe20g\ufe21der zhinaghy]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766731313,
+    "t": "Potrebiteli\ufe20u\ufe21 o ego pravakh",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9785766731320,
     "t": "\u042d\u043a\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u0437\u0430\u043a\u043e\u043d\u043e\u0434\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0438 \u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d : \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b \u0441\u043e\u0432\u0435\u0440\u0448\u0435\u043d\u0441\u0442\u0432\u043e\u0432\u0430\u043d\u0438\u044f, \u043f\u0435\u0440\u0441\u043f\u0435\u043a\u0442\u0438\u0432\u044b \u0440\u0430\u0437\u0432\u0438\u0442\u0438\u044f",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766731368,
+    "t": "Zhylaghan zhyldar shezhi\u0304resi\u0304 : tarikhi ko\u0307rkem publit\ufe20s\ufe21istika",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766731696,
+    "t": "Mezhnat\ufe20s\ufe21ional\u02b9nye otnoshenii\ufe20a\ufe21 v Kazakhstane : e\u0307tnicheskii\u0306 aspekt kadrovoi\u0306 politiki",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766732266,
+    "t": "My first dictionary = Menin\ufe20g\ufe21 alghashqy so\u0307zdi\u0304gi\u0304m = Moi\u0306 pervyi\u0306 slovarik",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785766732310,
+    "t": "Drevnii\u0306 Kazakhstan : arii, saki, gunny, ti\ufe20u\ufe21rki",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766732358,
+    "t": "Guide to Kazakhstan",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766732358,
+    "t": "Entlang der Grossen Seidenstrasse mit Shibek Sholy : Kasachstansfu\u0308hrer",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766732389,
+    "t": "Temi\u0304r zholshynyn\ufe20g\ufe21 oryssha-qazaqsha so\u0307zdi\u0304gi\u0304 = Russko-kazakhskii\u0306 slovar\u02b9 zheleznodorozhnika",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766733157,
+    "t": "Krasnai\ufe20a\ufe21 kniga Kazakhstana = The red data book of Kazakhstan. Tom 1, Zhivotnye = Volume 1: Animals. Chast\u02b9 1, Pozvonochnye = Part 1: Vertibrates",
     "h": 1,
     "e": 0
   },
@@ -18,14 +468,134 @@
     "e": 0
   },
   {
+    "i": 9785766733898,
+    "t": "Zakonodatel\u02b9stvo Respubliki Kazakhstan o vneshne\u0117konomichesko\u012d de\u012datel\u02b9nosti : [sbornik normativno-pravovykh aktov]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766733911,
+    "t": "Mechanizm pravovogo regulirovanija truda",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766734253,
+    "t": "Nalogi v Kazakhstane",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766734420,
+    "t": "Avtorl\u0131q qu\u030cq\u0131q z\u030ca\u0307ne  sabaqtas qu\u030cq\u0131qtar tural\u0131 = Ob avtorskom prave i smez\u030cnych pravach",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766734512,
+    "t": "Glazami i\ufe20u\ufe21rista : 66 voprosov i otvetov na pravovui\ufe20u\ufe21 temu",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9785766734536,
     "t": "Qazaqstan Respublikasynyn\ufe20g\ufe21 zan\ufe20g\ufe21y u\u0304zhymdyq en\ufe20g\ufe21bek daulary men ereui\u0304lder turaly = Zakon Respubliki Kazakhstan o kollektivnykh trudovykh sporakh i zabastovkakh",
     "h": 1,
     "e": 0
   },
   {
+    "i": 9785766734604,
+    "t": "Kak organizovat\u02b9 kooperativy sobstvennikov zhil\u02b9i\ufe20a\ufe21 : sbornik dokumentov s kommentarii\ufe20a\ufe21mi",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766734659,
+    "t": "Kazakstan Respublikasynyn konstitucijasynyn tu\u0308si\u0304ndi\u0304rme so\u0308zdi\u0304gi\u0304 = Tolkovyj slovar' Konstitucii Respubliki Kazachstan",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766734710,
+    "t": "Neobkhodimai\ufe20a\ufe21 oborona : samozashchita, draka, perekhod oruzhii\ufe20a\ufe21, ae\u0307rozol\u02b9nye ballonchiki, gazovye pistolety, prakticheskie rekomendat\ufe20s\ufe21ii, normativnye akty, primenenie oruzhii\ufe20a\ufe21, tonfa, ugrozy po telefonu, re\u0307ket, kvartirnai\ufe20a\ufe21 krazha, zashchita dli\ufe20a\ufe21 detei\u0306",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766735182,
+    "t": "Piramida : e\u0307sseler, tolghaular men maqalalar",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766735397,
+    "t": "Kommentarij k Ugolovno-processual\u02b9nomu kodeksu Kazachskoj SSR : obs\u030cc\u030cie poloz\u030cenija, vozbuz\u030cdenie ugolovnogo dela, doznanie i predvaritel\u02b9noe sledstvie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766735397,
+    "t": "Kommentarii\u0306 k ugolovno-prot\ufe20s\ufe21essual\u02b9nomu kodeksu Kazakhskoi\u0306 SSR : obshchie polozhenii\ufe20a\ufe21, vozbuzhdenie ugolovnogo dela, doznanie i predvaritel\u02b9noe sledstvie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766735540,
+    "t": "Shygharmalary : o\u0307len\ufe20g\ufe21der, tolghaular, audarmalar, poe\u0307malar",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766735687,
+    "t": "Pesennoe tvorchestvo Abai\ufe20a\ufe21",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766735922,
+    "t": "Vali\ufe20u\ufe21tnyi\u0306 kurs tenge i ego vozdei\u0306stvie na perekhodnui\ufe20u\ufe21 e\u0307konomiku Kazakhstana",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766737681,
+    "t": "Qazaqtyn\ufe20g\ufe21 6000 maqaly men ma\u0306teli\u0304",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766738145,
+    "t": "\u0421\u0438\u043c\u043c\u0435\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043a\u043e\u043c\u043f\u043e\u0437\u0438\u0446\u0438\u0438 \u043b\u0438\u0440\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u0441\u0442\u0438\u0445\u043e\u0442\u0432\u043e\u0440\u0435\u043d\u0438\u044f : [\u0443\u0447\u0435\u0431\u043d\u043e\u0435 \u043f\u043e\u0441\u043e\u0431\u0438\u0435 \u0434\u043b\u044f \u0444\u0438\u043b\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0444\u0430\u043a\u0443\u043b\u044c\u0442\u0435\u0442\u043e\u0432 \u0432\u044b\u0441\u0448\u0438\u0445 \u0443\u0447\u0435\u0431\u043d\u044b\u0445 \u0437\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u0439]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766739067,
+    "t": "Soqpaqty o\u0307mi\u0304r",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766739647,
+    "t": "Sravnitel\u02b9nyi\u0306 analiz partii\u0306nogo aspekta parlamentskikh vyborov 1994-1995 gg.",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785766739913,
+    "t": "Kazakhstanskai\ufe20a\ufe21 mechta : [sistema zhiznennykh t\ufe20s\ufe21ennostei\u0306 i idealov v obshchestvennom soznanii kazakhstanskogo obshchestva po resul\u02b9tatam respublikanskogo sot\ufe20s\ufe21iologicheskogo oprosa",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9785770730685,
     "t": "\u041d\u0430\u0440\u043e\u0434\u043e\u0437\u043d\u0430\u0432\u0441\u0442\u0432\u043e : \u043d\u0430\u0432\u0447\u0430\u043b\u044c\u043d\u0438\u0439 \u043f\u043e\u0441\u0456\u0431\u043d\u0438\u043a \u0434\u043b\u044f \u0443\u0447\u043d\u0456\u0432 \u0442\u0430 \u0432\u0447\u0438\u0442\u0435\u043b\u0456\u0432",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785770730722,
+    "t": "Hej, Sic\u030c ide ...! : zbirka pisen' Sic\u030covych Stril'civ",
     "h": 1,
     "e": 0
   },
@@ -42,8 +612,26 @@
     "e": 1
   },
   {
+    "i": 9785770731156,
+    "t": "Skladannja procesual\u02b9nych aktiv z kryminal\u02b9nych sprav : (teorija, metodyka, zrazky dokumentiv) : [navc\u030cal\u02b9nyj posibnyk]",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9785770731217,
     "t": "\u041a\u0440\u043e\u043a\u043e\u0434\u0438\u043b \u0438 \u0434\u0440\u0443\u0433\u0438\u0435 \u0441\u043a\u0430\u0437\u043a\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785770731651,
+    "t": "Etnic\u030ceskaja istorija rannevizantig'skogo Kryma",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785770731941,
+    "t": "Pryhody kotyka Kiki : virshovani kazky : dli\ufe20a\ufe21 ditei\u0306 molodshoho viku",
     "h": 1,
     "e": 0
   },
@@ -66,8 +654,38 @@
     "e": 0
   },
   {
+    "i": 9785770733273,
+    "t": "\u0427\u0430\u0448\u0430 \u043b\u044e\u0431\u043e\u0432\u0456 : \u043f\u043e\u0435\u0437\u0456\u0457",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785770733600,
+    "t": "Stranstvyiushchii d'iavol",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785770734522,
+    "t": "Dovidnyk dli\ufe20a\ufe21 immihrantiv ta biz\ufe20h\ufe21ent\ufe20s\ufe21iv : normatyvni akty, komentar, dovidkovi materialy",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785770734805,
+    "t": "Estestvennoe sochetanie pishchi ; Golodanie spaset vashu zhizn\u02b9 ; Mif o neobkhodimosti seksa ; Polovoe razvitie podrostkov",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9785770734874,
     "t": "\u0415\u0444\u0438\u0440\u043d\u044b\u0435 \u043c\u0430\u0441\u043b\u0430 : \u0434\u0440\u0435\u0432\u043d\u0435\u0439\u0448\u0435\u0435 \u043b\u0435\u0447\u0435\u0431\u043d\u043e\u0435 \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u043e",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785770734966,
+    "t": "Pered razgromom : li\ufe20u\ufe21bovnyi\u0306 roman XVIII veka",
     "h": 1,
     "e": 0
   },
@@ -78,6 +696,18 @@
     "e": 0
   },
   {
+    "i": 9785770735437,
+    "t": "'Poloritel zari', ili plavanie na krai sveta",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785770735727,
+    "t": "MastiRA i MINIritmy",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9785770735772,
     "t": "Divchyna u bilomu khalati : povist\u02b9",
     "h": 1,
@@ -86,6 +716,12 @@
   {
     "i": 9785770736076,
     "t": "\u041c\u0430\u0440\u0441\u0438\u0430\u043d\u0441\u043a\u0438\u0435 \u0438\u0441\u0442\u043e\u0440\u0438\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785770736533,
+    "t": "Vesela abetka",
     "h": 1,
     "e": 0
   },
@@ -102,6 +738,12 @@
     "e": 0
   },
   {
+    "i": 9785770737226,
+    "t": "Osnovy derz\u030cavy i prava : (navc\u030cal\u02b9nyj posibnyk u zapytannjach i vidpovidjach dlja vstupnykiv do jurydyc\u030cnych navc\u030cal\u02b9nych zakladiv)",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9785770737271,
     "t": "Pid muramu Ostrozk\u0301ymy : povist, \u0301 opovidanni\ufe20a\ufe21",
     "h": 1,
@@ -112,6 +754,72 @@
     "t": "\u0418\u0441\u043f\u043e\u0432\u0435\u0434\u044c \u043f\u043e\u0441\u043b\u0435 \u0441\u043c\u0435\u0440\u0442\u0438 : \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0447\u0435\u0441\u043a\u0430\u044f \u043f\u043e\u0432\u0435\u0441\u0442\u044c",
     "h": 1,
     "e": 0
+  },
+  {
+    "i": 9785770737677,
+    "t": "Kryven\u02b9ka kachechka : ukrai\u0308ns\u02b9ki narodni kazky",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785770737929,
+    "t": "T\ufe20S\ufe21ena za pravo zhit\u02b9 : lekt\ufe20s\ufe21ii\ufe20a\ufe21, prochitannai\ufe20a\ufe21 pered uchiteli\ufe20a\ufe21mi shkol g. Evpatorii v kraevedcheskom muzee na otkrytom uroke po teme: \"Golodomor 1932-1933 gg. Tragicheskai\ufe20a\ufe21 stranit\ufe20s\ufe21a v istorii Ukrainy\"",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785770737929,
+    "t": "Ushedshii\u0306 v bessmertie desant : [k 60-letii\ufe20u\ufe21 geroicheskogo podviga i gibeli Evpatorii\u0306skogo morskogo desanta]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785770737929,
+    "t": "Na zashchite i\ufe20u\ufe21zhnykh morskikh rubezhei\u0306, 1921-1941 : kniga-khronika v dokumentakh i materialakh o vozrozhdenii, razvitii i stanovlenii Chernomorskogo flota--operativno-strategicheskogo ob\u02baedinenii\ufe20a\ufe21 VMF SSSR v mezhvoennyi\u0306 (1921-1941 gody) period",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785770737929,
+    "t": "Krymskii\u0306 shtab partizanskogo dvizhenii\ufe20a\ufe21 : khronika v dokumentakh i materialakh o boevoi\u0306 dei\ufe20a\ufe21tel\u02b9nosti krymskikh partizan, ikh vklade v razgrom nemet\ufe20s\ufe21ko-fashistskikh i rumynskikh zakhvatchikov na poluostrove",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785770737929,
+    "t": "--Obrazovat\u02b9 Avtonomnui\ufe20u\ufe21 Krymskui\ufe20u\ufe21 SSR : dokumenty i materialy k 80-letii\ufe20u\ufe21 postanovlenii\ufe20a\ufe21 Vserossii\u0306skogo T\ufe20S\ufe21entral\u02b9nogo Ispolnitel\u02b9nogo Komiteta i Soveta Narodnykh Komissarov ob Avtonomnoi\u0306 Krymskoi\u0306 Sovetskoi\u0306 Sot\ufe20s\ufe21ialisticheskoi\u0306 Respubliki, prini\ufe20a\ufe21togo 8 okti\ufe20a\ufe21bri\ufe20a\ufe21 1921 goda",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785770737929,
+    "t": "Krymskii\u0306 voenkomat : istoriko-dokumental\u02b9noe issledovanie o sozdanii i dei\ufe20a\ufe21tel\u02b9nosti v Krymu mestnykh organov voennogo upravlenii\ufe20a\ufe21, prednaznachennykh dli\ufe20a\ufe21 voenno-mobilizat\ufe20s\ufe21ionnoi\u0306 i uchetno-prizyvnoi\u0306 raboty v interesakh Vooruzhennykh Sil strany Sovetov, 1919-1941",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785770737929,
+    "t": "Broshevan Vladimir Mikhai\u0306lovich : biobibliograficheskii\u0306 spravochnik",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785770737929,
+    "t": "Sevastopol\u02b9--kuznit\ufe20s\ufe21a voenno-morskikh kadrov i pechati (1921-1941) : istoriko-dokumental\u02b9nyi\u0306 spravochnik",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785770737929,
+    "t": "Dei\ufe20a\ufe21tel\u02b9nost\u02b9 kommunisticheskoi\u0306 partii po razvitii\ufe20u\ufe21 i ukreplenii\ufe20u\ufe21 voenno-stroitel\u02b9nykh chastei\u0306 v gody dovoennykh pi\ufe20a\ufe21tiletok (1928-ii\ufe20u\ufe21n\u02b9 1941 gg.) : lekt\ufe20s\ufe21ii\ufe20a\ufe21, prochitannai\ufe20a\ufe21 v SVVPSU",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785770738148,
+    "t": "\u0414\u043e\u0440\u043e\u0433\u0438 \u041d\u0435\u0441\u0442\u043e\u0440\u0430 \u041c\u0430\u0445\u043d\u043e : \u0438\u0441\u0442\u043e\u0440\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043f\u043e\u0432\u0435\u0441\u0442\u0432\u043e\u0432\u0430\u043d\u0438\u0435",
+    "h": 1,
+    "e": 1
   },
   {
     "i": 9785770738513,
@@ -144,8 +852,26 @@
     "e": 0
   },
   {
+    "i": 9785811230457,
+    "t": "\u0410\u043f\u043f\u043b\u0438\u043a\u0430\u0446\u0438\u044f : \u043f\u0440\u043e\u0441\u0442\u044b\u0435 \u043f\u043e\u0434\u0435\u043b\u043a\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785811233298,
+    "t": "Kak bystro vyuc\u030cit\u02b9 mnogo nemeckich slov dlja nac\u030cinajus\u030cc\u030cich",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9785850230142,
     "t": "\u041d\u0430\u0442 \u041f\u0438\u043d\u043a\u0435\u0440\u0442\u043e\u043d ; \u0416\u0435\u043d\u0449\u0438\u043d\u0430, \u0441\u044b\u0449\u0438\u043a ; \u041d\u0438\u043a \u041a\u0430\u0440\u0442\u0435\u0440",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785851730016,
+    "t": "\u041c\u0435\u043d\u0435\u0434\u0436\u043c\u0435\u043d\u0442",
     "h": 1,
     "e": 0
   },
@@ -158,6 +884,18 @@
   {
     "i": 9785851730429,
     "t": "\u041a\u043e\u043c\u043c\u0435\u0440\u0447\u0435\u0441\u043a\u0438\u0435 \u0431\u0430\u043d\u043a\u0438 \u0438 \u0438\u0445 \u043e\u043f\u0435\u0440\u0430\u0446\u0438\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785851730597,
+    "t": "Strategicheskii\u0306 menedzhment : iskusstvo razrabotki i realizat\ufe20s\ufe21ii strategii",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785851730948,
+    "t": "Osnovy kommercheskoi deiatel'nosti \u041f\u0440\u0430\u043a\u0442\u0438\u043a\u0443\u043c",
     "h": 1,
     "e": 0
   },
@@ -180,8 +918,62 @@
     "e": 0
   },
   {
+    "i": 9785852732552,
+    "t": "Krylo li\ufe20u\ufe21bvi, krylo udachi : stikhotvorenii\ufe20a\ufe21",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9785854230018,
     "t": "\u041f\u0440\u043e\u0439\u0434\u0435\u043d\u043d\u044b\u0439 \u043f\u0443\u0442\u044c \u043f\u043e\u0434 \u043a\u043e\u043d\u0432\u043e\u0435\u043c",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785854230087,
+    "t": "\u0417\u0438\u043c\u043d\u044f\u044f \u0440\u0430\u0434\u0443\u0433\u0430 : \u043b\u0438\u0440\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0441\u0442\u0438\u0445\u0438, 1984-1990",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785854230254,
+    "t": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u0430\u043d\u0433\u0435\u043b",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785854230278,
+    "t": "\u042f\u0434 \u0432 \u0431\u043e\u043a\u0430\u043b\u0435 \u043b\u044e\u0431\u0432\u0438 : \u043d\u043e\u0432\u0435\u043b\u043b\u044b",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785854230339,
+    "t": "Tochka kipen\u02b9i\ufe20a\ufe21 : stikhotvorenii\ufe20a\ufe21 i poe\u0307ma",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785854730013,
+    "t": "Kolumb",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785854730020,
+    "t": "\u0421\u0442\u0440\u043e\u0439\u043a\u0430 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0439 \u0432\u0430\u0436\u043d\u043e\u0441\u0442\u0438 : \u043f\u043e\u0432\u0435\u0441\u0442\u0438, \u0440\u0430\u0441\u0441\u043a\u0430\u0437\u044b, \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430\u043b\u044c\u043d\u044b\u0435 \u0438\u0441\u0442\u043e\u0440\u0438\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785855230154,
+    "t": "\u0410\u0440\u043e\u043c\u0430\u0442\u0435\u0440\u0430\u043f\u0438\u044f / \u0426\u0432\u0435\u0442\u043e\u0447\u043d\u044b\u0435 \u043d\u0430\u0441\u0442\u043e\u0438 \u0434\u043e\u043a\u0442\u043e\u0440\u0430 \u0411\u0430\u043a\u0430 / \u0410\u043b\u0435\u0448\u0430 \u0428\u0432\u0430\u0440\u0446, \u0420\u043e\u043d\u0430\u043b\u044c\u0434 \u0428\u0432\u0435\u043f\u043f\u0435 : \u0426\u0432\u0435\u0442\u043e\u043c\u0435\u0434\u0438\u0442\u0430\u0446\u0438\u044f / \u041a\u043b\u0430\u0440\u0438\u0441\u0441\u0430 \u0420\u0430\u0439",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785855230208,
+    "t": "Psichologija prodaz\u030c c\u030cto nuz\u030cno znat\u02b9, c\u030ctoby zavoevat\u02b9 klienta",
     "h": 1,
     "e": 0
   },
@@ -192,14 +984,104 @@
     "e": 0
   },
   {
+    "i": 9785855230222,
+    "t": "199 \u043b\u0443\u0447\u0448\u0438\u0445 \u0447\u0435\u043a-\u043b\u0438\u0441\u0442\u043e\u0432 \u043f\u043e \u043c\u0430\u0440\u043a\u0435\u0442\u0438\u043d\u0433\u0443 [is\u010derpyvaju\u0161\u010de, unikal\u02b9no po forme, orientirovano na praktiku]",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9785855230253,
     "t": "\u041e \u0447\u0435\u043c \u0445\u043e\u0447\u0435\u0442 \u0441\u043a\u0430\u0437\u0430\u0442\u044c \u0442\u0432\u043e\u044f \u0431\u043e\u043b\u0435\u0437\u043d\u044c : \u0438\u0430\u0437\u044b\u043a \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u043e\u0432",
     "h": 1,
     "e": 0
   },
   {
+    "i": 9785855230253,
+    "t": "Edinstvennoe, sto vse es\u030cc\u030ce mes\u030caet, e\u0307to pokupatel' uspech v obras\u030cc\u030cenii s klientami ; [zabota o kliente zamenjaet marketing i stimuliruet prodaz\u030ci]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785855230345,
+    "t": "Iskusstvo zadavat' voprosy",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785855230369,
+    "t": "\u0423\u043f\u0440\u043e\u0441\u0442\u0438 \u0441\u0432\u043e\u044e \u0436\u0438\u0437\u043d\u044c [\u017eit\u02b9 pro\u0161\u010de i s\u010dastlivee ; sem\u02b9 sposobov \u017eit\u02b9 bez problem]",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785855230376,
+    "t": "\u041c\u043e\u0442\u0438\u0432\u0430\u0446\u0438\u044f \u0443\u0441\u043f\u0435\u0445\u0430 111 \u0441\u043e\u0432\u0435\u0442\u043e\u0432 \u0434\u043b\u044f \u0434\u043e\u0441\u0442\u0438\u0436\u0435\u043d\u0438\u044f \u043b\u0443\u0447\u0448\u0438\u0445 \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u043e\u0432",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785855230390,
+    "t": "Sekrety nachodc\u030civogo sobesednika ili kak ne polezt\u02b9 za slovom v karman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785855230413,
+    "t": "\u0423\u0447\u0435\u0431\u043d\u0438\u043a \u0440\u0438\u0442\u043e\u0440\u0438\u043a\u0438 : \u0422\u0440\u0435\u043d\u0438\u0440\u043e\u0432\u043a\u0430 \u0440\u0435\u0447\u0438 \u0441 \u0443\u043f\u0440\u0430\u0436\u043d\u0435\u043d\u0438\u044f\u043c\u0438",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785855230871,
+    "t": "Sekrety uspes\u030cnogo prodavca perevod s nemeckogo",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785855230888,
+    "t": "Vlast' motivacii charizma, lic\u030cnost', uspech",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785855230949,
+    "t": "Spravoc\u030cnik po rassejannomu sklerozu dlja bol'nych i ich blizkich ; pric\u030ciny bolezni, sposoby lec\u030cenija, obraz z\u030cizni",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785855230956,
+    "t": "\u0413\u0440\u044f\u0434\u0443\u0449\u0430\u044f \u0440\u0435\u043a\u043b\u0430\u043c\u0430",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785855231021,
+    "t": "\u041f\u0440\u043e\u0434\u0430\u0436\u0438 3. \u0420\u0438\u0442\u043e\u0440\u0438\u043a\u0430 & \u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u043f\u0435\u0440\u0435\u0433\u043e\u0432\u043e\u0440\u043e\u0432 : \u0432\u0438\u0434\u044b \u0434\u0435\u043b\u043e\u0432\u044b\u0445 \u0431\u0435\u0441\u0435\u0434, \u043f\u0441\u0438\u0445\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0430\u0441\u043f\u0435\u043a\u0442\u044b \u0441\u0431\u044b\u0442\u0430, \u0442\u0435\u0445\u043d\u0438\u043a\u0430 \u0432\u0435\u0434\u0435\u043d\u0438\u044f \u0434\u0435\u043b\u043e\u0432\u043e\u0439 \u0431\u0435\u0441\u0435\u0434\u044b, \u0440\u0435\u0430\u043a\u0446\u0438\u044f \u043d\u0430 \u0432\u043e\u0437\u0440\u0430\u0436\u0435\u043d\u0438\u044f / \u0412\u0438\u043b\u044c\u0433\u0435\u043b\u044c\u043c \u041a\u044e\u043f\u043f\u0435\u0440. [Per. N. A. Vrublevskaja]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785855231069,
+    "t": "Internet dli\ufe20a\ufe21 detei\u0306",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785855231076,
+    "t": "Vlast' charizmy lic\u030cnostnye kac\u030cestva kak sredstvo dostiz\u030cenija uspecha v professional\u02b9noj i lic\u030cnoj z\u030cizni ; [liderstvo v z\u030cizni - liderstvo v uspeche]",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9785855730203,
     "t": "Sutochnye ritmy svertyvaiushchei\u0306 sistemy krovi v norme i patologii i problemy terapii",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785855730203,
+    "t": "Circadian rhythms of blood clotting in norm and pathology and therapy problems",
     "h": 1,
     "e": 0
   },
@@ -234,6 +1116,198 @@
     "e": 0
   },
   {
+    "i": 9785857230145,
+    "t": "\u0412\u043e\u0441\u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u043e \u044d\u043a\u043e\u043d\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u043f\u043e\u0442\u0435\u043d\u0446\u0438\u0430\u043b\u0430 \u0434\u043e\u0431\u044b\u0447\u0438 \u0443\u0433\u043b\u044f \u0432 \u0441\u0438\u0441\u0442\u0435\u043c\u0435 \u0422\u042d\u041a \u0420\u043e\u0441\u0441\u0438\u0438 : \u043c\u0435\u0442\u043e\u0434\u043e\u043b\u043e\u0433\u0438\u044f \u043f\u0435\u0440\u0435\u0445\u043e\u0434\u043d\u043e\u0439 \u044d\u043a\u043e\u043d\u043e\u043c\u0438\u043a\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785857231104,
+    "t": "\u0420\u0430\u0441\u0441\u043a\u0430\u0437\u044b",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785858730255,
+    "t": "\u041a\u0430\u043a \u043f\u0440\u043e\u0432\u0435\u0441\u0442\u0438 \u044d\u043c\u0438\u0441\u0441\u0438\u044e \u0430\u043a\u0446\u0438\u0439 \u0432 \u0430\u043a\u0446\u0438\u043e\u043d\u0435\u0440\u043d\u043e\u043c \u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0435 : \u0441\u043f\u0440\u0430\u0432\u043e\u0447\u043d\u043e\u0435 \u043f\u043e\u0441\u043e\u0431\u0438\u0435",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785858730255,
+    "t": "Ekonomika i sotsiologiia truda",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785858730262,
+    "t": "\u0422\u043e\u0432\u0430\u0440 \u0438 \u0435\u0433\u043e \u044d\u043a\u0441\u043f\u0435\u0440\u0442\u0438\u0437\u0430",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785858730279,
+    "t": "\u042d\u043a\u043e\u043d\u043e\u043c\u0438\u043a\u0430 \u043f\u0440\u0435\u0434\u043f\u0440\u0438\u044f\u0442\u0438\u044f",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785858730309,
+    "t": "\u0412\u0430\u043b\u044e\u0442\u0430 \u0438 \u0442\u0430\u043c\u043e\u0436\u043d\u044f : \u0442\u0430\u043c\u043e\u0436\u0435\u043d\u043d\u043e-\u0431\u0430\u043d\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u0432\u0430\u043b\u044e\u0442\u043d\u044b\u0439 \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044c, \u0432\u0432\u043e\u0437 \u0438 \u0432\u044b\u0432\u043e\u0437 \u0432\u0430\u043b\u044e\u0442\u044b",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785858730354,
+    "t": "\u0421\u0435\u0440\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f \u043f\u0440\u043e\u0434\u0443\u043a\u0446\u0438\u0438 : \u043f\u0440\u0438\u043d\u0446\u0438\u043f\u044b \u0438 \u0438\u0445 \u0440\u0435\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785858730378,
+    "t": "\u041e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u044f \u0438\u043d\u0432\u0435\u0441\u0442\u0438\u0446\u0438\u043e\u043d\u043d\u043e-\u0441\u0442\u0440\u043e\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0439 \u0434\u0435\u044f\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785858730385,
+    "t": "\u0420\u0435\u0433\u0443\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u043c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u043e\u0439 \u0442\u043e\u0440\u0433\u043e\u0432\u043b\u0438 \u0442\u043e\u0432\u0430\u0440\u0430\u043c\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785858730408,
+    "t": "\u041f\u0430\u0440\u0442\u043d\u0435\u0440\u044b \u043f\u0440\u0435\u0434\u043f\u0440\u0438\u044f\u0442\u0438\u044f : \u0441\u0431\u043e\u0440\u043d\u0438\u043a",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785858730453,
+    "t": "Normirovanie proizvodstvennykh zapasov i vlozhennykh v nikh oborotnykh sredstv",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785858730477,
+    "t": "\u041f\u0435\u0440\u0435\u043c\u0435\u0449\u0435\u043d\u0438\u0435 \u0442\u043e\u0432\u0430\u0440\u043e\u0432 \u043f\u043e\u0434 \u0442\u0430\u043c\u043e\u0436\u0435\u043d\u043d\u043d\u044b\u043c \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u0435\u043c : \u0434\u043e\u0441\u0442\u0430\u0432\u043a\u0430 \u0442\u043e\u0432\u0430\u0440\u043e\u0432 \u043f\u043e \u043f\u0440\u043e\u0446\u0435\u0434\u0443\u0440\u0435 \u0414\u041a\u0414 : \u0442\u0430\u043c\u043e\u0436\u0435\u043d\u043d\u044b\u0439 \u043f\u0435\u0440\u0435\u0432\u043e\u0437\u0447\u0438\u043a : \u043f\u0440\u043e\u0446\u0435\u0434\u0443\u0440\u0430 \u041c\u0414\u041f (\u043a\u043e\u043d\u0432\u0435\u043d\u0446\u0438\u044f \u041c\u0414\u041f)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785858730828,
+    "t": "\u041e\u0434\u043d\u0430 \u0441\u0442\u0435\u0437\u044f",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785858730866,
+    "t": "My iz MISI : 80 let MGSU / 1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785858730903,
+    "t": "Voprosy upravlenii\ufe20a\ufe21 krupnymi khozi\ufe20a\ufe21i\u0306stvui\ufe20u\ufe21shchimi sub\u02baektami v e\u0307konomike Rossii : sbornik nauchnykh trudov",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785858731085,
+    "t": "\u0418\u043d\u0432\u0435\u0441\u0442\u0438\u0446\u0438\u043e\u043d\u043d\u044b\u0435 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0438 \u044d\u043a\u043e\u043d\u043e\u043c\u0438\u043a\u0438 \u0438 \u0440\u0435\u0448\u0435\u043d\u0438\u0435 \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b \u043d\u0435\u043f\u043b\u0430\u0442\u0435\u0436\u0435\u0439",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785860730069,
+    "t": "Delovoe administrirovanie na praktike : instrumentarii\u0306 rukovoditeli\ufe20a\ufe21",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785860730083,
+    "t": "Anglii\u0306skii\u0306 i\ufe20a\ufe21zyk dli\ufe20a\ufe21 effektivnogo menedzhmenta",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785860730144,
+    "t": "Bosfor : Rossii\u0361a i Turt\u0361sii\u0361a v e\u0307pokhu pervoi\u0306 mirovoi\u0306 voi\u0306ny : po materialam russkoi\u0306 voennoi\u0306 razvedki",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785860730595,
+    "t": "\u041f\u0435\u0440\u0435\u043a\u0440\u0435\u0441\u0442\u043a\u0438 \u044d\u043f\u043e\u0445 : \u0441\u043e\u0446\u0438\u043e\u043a\u0443\u043b\u044c\u0442\u0443\u0440\u043d\u043e\u0435 \u0432\u0440\u0435\u043c\u044f",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785860730731,
+    "t": "\u0416\u0438\u0442\u0438\u044f \u043f\u0440\u0435\u043f\u043e\u0434\u043e\u0431\u043d\u044b\u0445 \u0424\u0435\u0440\u0430\u043f\u043e\u043d\u0442\u0430 \u0438 \u041c\u0430\u0440\u0442\u0438\u043d\u0438\u0430\u043d\u0430, \u0411\u0435\u043b\u043e\u0437\u0435\u0440\u0441\u043a\u0438\u0445 \u0447\u0443\u0434\u043e\u0442\u0432\u043e\u0440\u0446\u0435\u0432",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785860730892,
+    "t": "\u041f\u043e\u044d\u0437\u0438\u044f : \u041d\u0430 \u043f\u0440\u0430\u0432\u043e\u043c \u0431\u0435\u0440\u0435\u0433\u0443",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785860731127,
+    "t": "\u0417\u0432\u0443\u043a \u0430\u043d\u0433\u0435\u043b\u0443 \u0441\u043e\u0431\u0440\u0430\u0442",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785860731776,
+    "t": "\u041f\u0440\u043e\u0431\u043b\u0435\u043c\u0430 \"\u043f\u043e\u043a\u043e\u043b\u0435\u043d\u0447\u0435\u0441\u043a\u043e\u0439 \u0441\u043f\u0440\u0430\u0432\u0435\u0434\u043b\u0438\u0432\u043e\u0441\u0442\u0438\" \u0438 \u043f\u0443\u0442\u0438 \u0435\u0435 \u0440\u0435\u0448\u0435\u043d\u0438\u044f \u0432 \u0441\u0438\u0441\u0442\u0435\u043c\u0435 \u0446\u0435\u043d\u043d\u043e\u0441\u0442\u0435\u0439 \u043d\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0439 \u0441\u043e\u0446\u0438\u043e\u043a\u0443\u043b\u044c\u0442\u0443\u0440\u043d\u043e\u0439 \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0439 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u044b \"\u0418\u0441\u0442\u043e\u043a\u0438\"",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785862730104,
+    "t": "\u0416\u0435\u043b\u0435\u0437\u043d\u043e\u0434\u043e\u0440\u043e\u0436\u043d\u044b\u0435 \u0432\u043e\u0439\u0441\u043a\u0430 \u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u043e\u0439 \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u0438 : [\u0444\u043e\u0442\u043e\u0430\u043b\u044c\u0431\u043e\u043c",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785862730203,
+    "t": "\u0412\u043e \u0438\u043c\u044f \u0420\u043e\u0441\u0441\u0438\u0438 : \u0440\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u043e\u0435 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u043e, \u0430\u0440\u043c\u0438\u044f \u0438 \u0432\u043e\u0438\u043d\u0441\u043a\u043e\u0435 \u0432\u043e\u0441\u043f\u0438\u0442\u0430\u043d\u0438\u0435",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785865230090,
+    "t": "Sushchnost\u02b9 sionizma",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785865230274,
+    "t": "\u041f\u0440\u0438\u043d\u0446\u0438\u043f \u0438\u043c\u043f\u0443\u043b\u044c\u0441\u0430 \u0432 \u043d\u0435\u0440\u0430\u0432\u043d\u043e\u0432\u0435\u0441\u043d\u043e\u0439 \u0442\u0435\u0440\u043c\u043e\u0434\u0438\u043d\u0430\u043c\u0438\u043a\u0435",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785865230700,
+    "t": "SUD nad akademikom",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785865230885,
+    "t": "\u0414\u0435\u0434\u0438\u043b\u043e\u0432 : \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b \u0438 \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u044f",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785865230915,
+    "t": "Russkie protiv judokratii",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9785867730314,
     "t": "\u0421\u043b\u0430\u0434\u043a\u0430\u044f \u043c\u0435\u0441\u0442\u044c : \u0440\u043e\u043c\u0430\u043d",
     "h": 1,
@@ -242,6 +1316,42 @@
   {
     "i": 9785867730376,
     "t": "Sestrichki : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785867730499,
+    "t": "Li\ufe20u\ufe21bov\u02b9 ot kuri\ufe20u\ufe21r : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785867730673,
+    "t": "Obretenie schast\u02b9i\ufe20a\ufe21 : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785869230072,
+    "t": "Odolen\u02b9-trava : dva skaza pro bedovogo prolazu : [poe\u0307ma v stichach]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785869230089,
+    "t": "\u041c\u0435\u0445\u0430\u043d\u0438\u043a\u0430 \u0440\u0430\u0437\u0440\u0443\u0448\u0435\u043d\u0438\u044f : \u0441\u0431\u043e\u0440\u043d\u0438\u043a \u0441\u0442\u0430\u0442\u0435\u0439",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785869230096,
+    "t": "\u0414\u0438\u043d\u0430\u0441\u0442\u0438\u044f : \u0441\u043a\u0430\u0437\u0430\u043d\u0438\u0435",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785869230102,
+    "t": "Kapitan Tushin iz \"Voiny i mira\" v romane i v zhizni",
     "h": 1,
     "e": 0
   },
@@ -258,6 +1368,174 @@
     "e": 0
   },
   {
+    "i": 9785873730476,
+    "t": "Windows 3.1 i Windows 3.11 : \u0434\u043b\u0438\u0430 \u0440\u0430\u0431\u043e\u0447\u0438\u0445 \u0433\u0440\u0443\u043f\u043f",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785876230508,
+    "t": "Sbornik nauchnykh trudov",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785876230904,
+    "t": "\u041f\u0440\u043e\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0435 \u0438\u043d\u0432\u0435\u0441\u0442\u0438\u0446\u0438\u043e\u043d\u043d\u044b\u0435 \u043f\u0440\u043e\u0435\u043a\u0442\u044b : \u0442\u0435\u043e\u0440\u0438\u044f \u0438 \u043f\u0440\u0430\u043a\u0442\u0438\u043a\u0430 \u0438\u043d\u0436\u0438\u043d\u0438\u0440\u0438\u043d\u0433\u0430",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785876230911,
+    "t": "\u042d\u043a\u043e\u043b\u043e\u0433\u0438\u044f \u0438 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 : \u0442\u0435\u0440\u043c\u0438\u043d\u044b \u0438 \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u044f",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785876231055,
+    "t": "\u041f\u0435\u0442\u0440 \u0418\u0432\u0430\u043d\u043e\u0432\u0438\u0447 \u041f\u043e\u043b\u0443\u0445\u0438\u043d : 1911-1996",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785876231260,
+    "t": "\u041c\u0435\u0442\u0430\u043b\u043b\u043e\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u043b\u0438\u0442\u0435\u0439\u043d\u044b\u0445 \u0430\u043b\u044e\u043c\u0438\u043d\u0438\u0435\u0432\u044b\u0445 \u0441\u043f\u043b\u0430\u0432\u043e\u0432",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785876231307,
+    "t": "\u0414\u0438\u0444\u0444\u0443\u0437\u0438\u044f \u0430\u0442\u043e\u043c\u043e\u0432 \u0438 \u0438\u043e\u043d\u043e\u0432 \u0432 \u0442\u0432\u0435\u0440\u0434\u044b\u0445 \u0442\u0435\u043b\u0430\u0445",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785876231376,
+    "t": "\u041b\u0438\u0442\u0438\u0439",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785876231468,
+    "t": "\u0412\u044f\u0447\u0435\u0441\u043b\u0430\u0432 \u041f\u0435\u0442\u0440\u043e\u0432\u0438\u0447 \u0415\u043b\u044e\u0442\u0438\u043d : \u0443\u0447\u0435\u043d\u044b\u0439, \u043f\u0435\u0434\u0430\u0433\u043e\u0433, \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u0434\u0435\u044f\u0442\u0435\u043b\u044c (1907-1993)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785876231550,
+    "t": "\u0412\u044b\u0449\u0435\u043b\u0430\u0447\u0438\u0432\u0430\u043d\u0438\u0435 \u0438 \u0441\u043f\u043e\u0441\u043e\u0431\u044b \u0435\u0433\u043e \u0438\u043d\u0442\u0435\u043d\u0441\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u0438",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785876231567,
+    "t": "Nanodispersnye i granulirovannye materialy, poluchennye v impul\u02b9snoi\u0306 plazme",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785876231581,
+    "t": "\u041f\u0440\u043e\u0446\u0435\u0441\u0441 \u0420\u043e\u043c\u0435\u043b\u0442",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785876231611,
+    "t": "\u041f\u043e\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0438\u043d\u0441\u0442\u0438\u0442\u0443\u0442\u044b \u0438 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u044b : \u0441\u0440\u0430\u0432\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u044f",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785876231628,
+    "t": "Zvjanigin : lic\u030cnost\u02b9 i vremja",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785876231673,
+    "t": "\u0422\u0435\u043e\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043e\u0441\u043d\u043e\u0432\u044b \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u0430 \u0430\u043c\u043e\u0440\u0444\u043d\u044b\u0445 \u0438 \u043d\u0430\u043d\u043e\u043a\u0440\u0438\u0441\u0442\u0430\u043b\u043b\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0441\u043f\u043b\u0430\u0432\u043e\u0432 \u043c\u0435\u0442\u043e\u0434\u043e\u043c \u0441\u0432\u0435\u0440\u0445\u0431\u044b\u0441\u0442\u0440\u043e\u0439 \u0437\u0430\u043a\u0430\u043b\u043a\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785876232540,
+    "t": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u0411\u043e\u0433 : \u0441\u0431\u043e\u0440\u043d\u0438\u043a \u0441\u0442\u0438\u0445\u043e\u0442\u0432\u043e\u0440\u0435\u043d\u0438\u0439",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785876233233,
+    "t": "\u042d\u0442\u043d\u043e\u043f\u043e\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043e\u0442\u043d\u043e\u0448\u0435\u043d\u0438\u044f \u0438 \u043a\u043e\u043d\u0444\u043b\u0438\u043a\u0442\u044b : \u0442\u0435\u043e\u0440\u0438\u044f \u0438 \u043f\u0440\u0430\u043a\u0442\u0438\u043a\u0430",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785876233653,
+    "t": "Unsere Jahre am MISiS Erinnerungen = My iz MISiS",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785876237033,
+    "t": "Book of abstracts : FEST-VEK 2013, Frontiers in Electronic Structure Theory and Multi Scale Modeling, 21-22 October 2013, Moscow, Russia",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785878730075,
+    "t": "\u0421\u0432\u0438\u0430\u0449\u0435\u043d\u043d\u043e\u0435 \u041f\u0438\u0441\u0430\u043d\u0438\u0435 \u0412\u0435\u0442\u0445\u043e\u0433\u043e \u0417\u0430\u0432\u0435\u0442\u0430",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785878730082,
+    "t": "Prepodobnyi\u0306 David Garedzhii\u0306skii\u0306 i ego svi\ufe20a\ufe21tai\ufe20a\ufe21 lavra",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785880230013,
+    "t": "Pravovye osnovy bankrotstva i sanacii predprijatij",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785881230012,
+    "t": "\u041d\u0430 \u0441\u043a\u043b\u043e\u043d\u0435 \u0434\u0432\u0430\u0434\u0446\u0430\u0442\u043e\u0433\u043e \u0432\u0435\u043a\u0430 : \u0441\u0442\u0438\u0445\u0438 \u0440\u0430\u0437\u043d\u044b\u0445 \u043b\u0435\u0442",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785881230227,
+    "t": "Massazh i igloterapii\ufe20a\ufe21 pri ozhirenii i izbytochnom vese",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785881230326,
+    "t": "\u042f \u0441\u0435\u0440\u0434\u0446\u0435\u043c \u043c\u0443\u0437\u044b\u043a\u0435 \u0432\u043d\u0438\u043c\u0430\u044e ... : \u0441\u0442\u0438\u0445\u0438 \u0440\u0430\u0437\u043d\u044b\u0445 \u043b\u0435\u0442",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785881230425,
+    "t": "\u041e \u0441\u043e\u0432\u0435\u0440\u0448\u0435\u043d\u0441\u0442\u0432\u043e\u0432\u0430\u043d\u0438\u0438 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0431\u0435\u0437\u043d\u0430\u043b\u0438\u0447\u043d\u043e\u0433\u043e \u0434\u0435\u043d\u0435\u0436\u043d\u043e\u0433\u043e \u043e\u0431\u0440\u0430\u0449\u0435\u043d\u0438\u044f \u0432 \u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u043e\u0439 \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u0438 : \u0437\u0430\u043a\u043e\u043d\u043e\u0434\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u0438\u0435",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785881230739,
+    "t": "\u041c\u0435\u0434\u0438\u0430\u0446\u0438\u044f : \u043f\u0440\u0438\u043c\u0438\u0440\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u0443\u0440\u0435\u0433\u0443\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u043a\u043e\u043c\u043c\u0435\u0440\u0447\u0435\u0441\u043a\u0438\u0445 \u0441\u043f\u043e\u0440\u043e\u0432 \u0432 \u0420\u043e\u0441\u0441\u0438\u0438 : \u043f\u0440\u043e\u0448\u043b\u043e\u0435 \u0438 \u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0435\u0435, \u0437\u0430\u0440\u0443\u0431\u0435\u0436\u043d\u044b\u0439 \u043e\u043f\u044b\u0442",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785882730184,
+    "t": "\u041b\u044e\u0442\u044b\u0439 : \u043f\u043e\u0432\u0435\u0441\u0442\u044c",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9785883730190,
     "t": "\u0427\u0435\u0442\u0432\u0451\u0440\u0442\u0430\u044f \u0441\u0442\u043e\u0440\u043e\u043d\u0430 \u0442\u0440\u0435\u044b\u0433\u043e\u043b\u044c\u043d\u0438\u043a\u0430 : \u0441\u043e\u0431\u0440\u0430\u043d\u0438\u0435 \u0441\u043e\u0447\u0438\u043d\u0435\u043d\u0438\u0439",
     "h": 1,
@@ -270,14 +1548,332 @@
     "e": 1
   },
   {
+    "i": 9785883730251,
+    "t": "Konflikty detskoi\u0306 dushi",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785883730268,
+    "t": "\u0423\u0447\u0435\u0431\u043d\u0438\u043a \u0440\u0443\u0441\u0441\u043a\u043e\u0433\u043e \u044f\u0437\u044b\u043a\u0430 \u0434\u043b\u044f \u0434\u0438\u043f\u043b\u043e\u043c\u0430\u0442\u043e\u0432 : (\u0441\u0438\u043d\u0442\u0430\u043a\u0441\u0438\u0441 \u043d\u0430\u0443\u0447\u043d\u043e\u0439 \u0440\u0435\u0447\u0438)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785883730329,
+    "t": "\u041b\u0438\u043a \u0432 \u0431\u0435\u0437\u0434\u043d\u0435 : \u0430\u043d\u0442\u043e\u043b\u043e\u0433\u0438\u044f \u043c\u0438\u0441\u0442\u0438\u043a\u0438",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785883730404,
+    "t": "T'ma nad Diamondianoi",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785883730442,
+    "t": "\u0410\u043d\u0442\u043e\u043d\u0438 \u0424\u0430\u043b\u0430\u0442 : \u0441\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0435 \u043f\u043e\u043b\u044c\u0441\u043a\u043e\u0435 \u0438\u0441\u043a\u0443\u0441\u0441\u0442\u0432\u043e",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785883730671,
+    "t": "\u041f\u043e\u0441\u043b\u0435\u0434\u043d\u044f\u044f \u0433\u0430\u0441\u0442\u0440\u043e\u043b\u044c \u0430\u0440\u0442\u0438\u0441\u0442\u0430",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785883730886,
+    "t": "\"\u0412 \u043f\u0440\u043e\u0445\u043b\u0430\u0434\u043d\u043e\u043c \u0441\u0443\u043c\u0440\u0430\u043a\u0435 \u043f\u043e\u0437\u0434\u043d\u0435\u0433\u043e \u0432\u0440\u0435\u043c\u0435\u043d\u0438\" : \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438 \u043a \u0444\u0438\u043b\u044c\u043c\u0430\u043c \u0410. \u0421\u043e\u043a\u0443\u0440\u043e\u0432\u0430",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785883730886,
+    "t": "\"\u0412 \u043f\u0440\u043e\u0445\u043b\u0430\u0434\u043d\u043e\u043c \u0441\u0443\u043c\u0440\u0430\u043a\u0435 \u043f\u043e\u0437\u0434\u043d\u0435\u0433\u043e \u0432\u0440\u0435\u043c\u0435\u043d\u0438\" : \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438 \u043a \u0444\u0438\u043b\u044c\u043c\u0430\u043c \u0410. \u0421\u043e\u043a\u0443\u0440\u043e\u0432\u0430",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785883731050,
+    "t": "Optina pustyn' : russkaja pravoslavnaja duchovnost'",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785883731548,
+    "t": "Nacija ot zabvenija k vozroz\u030cdeniju",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785883731845,
+    "t": "\u041c\u0438\u0444 \u043d\u0430 \u0433\u0440\u0430\u043d\u044f\u0445 \u043a\u0443\u043b\u044c\u0442\u0443\u0440\u044b",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785883733320,
+    "t": "\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447 \u0417\u0438\u043d\u043e\u0432\u044c\u0435\u0432 : \u043e\u043f\u044b\u0442 \u043a\u043e\u043b\u043b\u0435\u043a\u0442\u0438\u0432\u043d\u043e\u0433\u043e \u043f\u043e\u0440\u0442\u0440\u0435\u0442\u0430",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785883733504,
+    "t": "S pesnei\u0306 v stroi\ufe20u\ufe21 : pesennik k 70-letii\ufe20u\ufe21 okonchanii\ufe20a\ufe21 Vtoroi\u0306 mirovoi\u0306 voi\u0306ny",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785883733658,
+    "t": "Problema soznanija v mezdisciplinarnoj perspektive : sbornik statej",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785883733825,
+    "t": "\u0421\u043e\u0447\u0438\u043d\u0435\u043d\u0438\u044f : \u043d\u0430 \u043d\u0435\u043c\u0435\u0446\u043a\u043e\u043c \u0438 \u0440\u0443\u0441\u0441\u043a\u043e\u043c \u044f\u0437\u044b\u043a\u0430\u0445. 5,1, \u0422., \u041c\u0435\u0442\u0430\u0444\u0438\u0437\u0438\u043a\u0430 \u043d\u0440\u0430\u0432\u043e\u0432 ; \u0447. 1, \u041c\u0435\u0442\u0430\u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043f\u0435\u0440\u0432\u043e\u043d\u0430\u0447\u0430\u043b\u0430 \u0443\u0447\u0435\u043d\u0438\u044f \u043e \u043f\u0440\u0430\u0432\u0435",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785883734013,
+    "t": "\u041e\u0441\u043d\u043e\u0432\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0433\u043e \u043f\u0440\u0430\u0432\u0430 \u0441\u043e\u0433\u043b\u0430\u0441\u043d\u043e \u043f\u0440\u0438\u043d\u0446\u0438\u043f\u0430\u043c \u043d\u0430\u0443\u043a\u043e\u0443\u0447\u0435\u043d\u0438\u044f",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785883734327,
+    "t": "\u041c.\u041c. \u0421\u043f\u0435\u0440\u0430\u043d\u0441\u043a\u0438\u0439 -- \u043f\u0430\u0442\u0440\u0438\u0430\u0440\u0445 \u043d\u0430\u0443\u043a\u0438 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0420\u043e\u0441\u0441\u0438\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785883734358,
+    "t": "\u0414\u0443\u0445\u043e\u0432\u043d\u044b\u0435 \u043e\u0441\u043d\u043e\u0432\u044b \u0442\u0432\u043e\u0440\u0447\u0435\u0441\u0442\u0432\u0430 : (\u0441\u0442\u0430\u0442\u044c\u0438 \u043e \u0440\u0443\u0441\u0441\u043a\u043e\u0439 \u043a\u0443\u043b\u044c\u0442\u0443\u0440\u0435)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785883735034,
+    "t": "\u0420\u0435\u0436\u0438\u0441\u0441\u0435\u0440\u044b \u0441\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0433\u043e \u0430\u043c\u0435\u0440\u0438\u043a\u0430\u043d\u0441\u043a\u043e\u0433\u043e \u043a\u0438\u043d\u043e : \u0421\u043f\u0440\u0430\u0432\u043e\u0447\u043d\u043e\u0435 \u0438\u0437\u0434\u0430\u043d\u0438\u0435",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785883735188,
+    "t": "Filosofii\ufe20a\ufe21 nauki : istorii\ufe20a\ufe21 i metodologii\ufe20a\ufe21 estestvennykh nauk",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785883735652,
+    "t": "100 \u043a\u0443\u043b\u044c\u0442\u043e\u0432\u044b\u0445 \u0437\u0430\u0440\u0443\u0431\u0435\u0436\u043d\u044b\u0445 \u0444\u0438\u043b\u044c\u043c\u043e\u0432 : \u043e\u0442 \"\u0410\u043d\u0434\u0435\u0433\u0440\u0430\u0443\u043d\u0434\u0430\" \u0434\u043e \"\u0428\u0435\u0440\u0431\u0443\u0440\u0441\u043a\u0438\u0445 \u0437\u043e\u043d\u0442\u0438\u043a\u043e\u0432\"",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785883735874,
+    "t": "\u0421\u043b\u0443\u0436\u0431\u0430 \u043c\u0443\u0437\u044b\u043a\u0430\u043d\u0442\u043e\u0432 \u0432 \u0440\u0443\u0441\u0441\u043a\u043e\u0438\u0306 \u0430\u0440\u043c\u0438\u0438 (\u043f\u0435\u0440\u0432\u0430\u044f \u043f\u043e\u043b\u043e\u0432\u0438\u043d\u0430 XIX \u0432\u0435\u043a\u0430) : \u043c\u043e\u043d\u043e\u0433\u0440\u0430\u0444\u0438\u044f",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785883736093,
+    "t": "\u0420\u043e\u0441\u043a\u043e\u0448\u044c \u0432 \u043a\u0443\u043b\u044c\u0442\u0443\u0440\u043d\u044b\u0445 \u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u0430\u0445 : \u0432\u0430\u0440\u0438\u0430\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u044c \u0440\u0430\u0437\u0432\u0438\u0442\u0438\u044f : \u043c\u043e\u043d\u043e\u0433\u0440\u0430\u0444\u0438\u044f",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785883736130,
+    "t": "\u042d\u0433\u043e\u0438\u0441\u0442\u0438\u0447\u043d\u044b\u0439 \u043c\u0435\u043c \u0438\u0434\u0435\u043e\u043b\u043e\u0433\u0438\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785883737083,
+    "t": "Logika i metodologiia Aleksandra Zinov'eva",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785884730236,
+    "t": "Tatarstan Respublikasnyn\ufe20g\ufe21 da\u0306u\u0307la\u0306t ba\u0306i\u0306sezlege : gazeta h\u0307a\u0306m zhurnal ma\u0306kala\u0306la\u0306renen\ufe20g\ufe21 bibliografik ku\u0307rsa\u0306tkeche, 1990-2000 ellar",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785884730281,
+    "t": "Samat Shakir : biobibliografik ku\u0307rsa\u0306tkech",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785884730410,
+    "t": "\u041a\u0438\u0442\u0430\u043f \u0440\u0435\u0434\u0430\u043a\u0442\u043e\u0440\u044b \u0438\u0436\u0430\u0442 h\u0307\u0430\u0306\u043c \u043e\u0435\u0448\u0442\u044b\u0440\u0443 \u0435\u0449\u0430\u0306\u043d\u043b\u0435\u0433\u0435 : \u0434\u0430\u0306\u0440\u0435\u0441\u043b\u0435\u043a",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785884730427,
+    "t": "Rabit Mo\u0307khlis uly Batulla",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9785886230093,
     "t": "\u0420\u0443\u0441\u0441\u043a\u0430\u044f \u043a\u0443\u043b\u044c\u0442\u0443\u0440\u0430 \u0438 \u043c\u0435\u0446\u0435\u043d\u0430\u0442\u044b \u0432 \u043a\u043e\u043d\u0446\u0435 XIX \u0438 XX \u0432\u0435\u043a\u043e\u0432 : \u0442\u0435\u0437\u0438\u0441\u044b \u043d\u0430\u0443\u0447\u043d\u044b\u0445 \u043a\u043e\u043d\u0444\u0435\u0440\u0435\u043d\u0446\u0438\u0439 \u0432\u0443\u0437\u043e\u0432",
     "h": 1,
     "e": 0
   },
   {
+    "i": 9785886730067,
+    "t": "\u0421\u043b\u043e\u0432\u043e \u043f\u043e\u0447\u0438\u0442\u0430\u0442\u0435\u043b\u044f\u043c \u0434\u0440\u0435\u0432\u043d\u0435\u0439 \u043a\u0443\u043b\u044c\u0442\u0443\u0440\u044b /\u041d.\u041d. \u0421\u043f\u0435\u0440\u0430\u043d\u0441\u043a\u0438\u0439",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785887730110,
+    "t": "\u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u0430\u044f \u0437\u0430\u0449\u0438\u0442\u0430 \u043f\u0440\u0430\u0432 \u0447\u0435\u043b\u043e\u0432\u0435\u043a\u0430 \u0441 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435\u043c \u043d\u0435\u043a\u043e\u0442\u043e\u0440\u044b\u0445 \u043c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u043e-\u043f\u0440\u0430\u0432\u043e\u0432\u044b\u0445 \u043c\u0435\u0445\u0430\u043d\u0438\u0437\u043c\u043e\u0432 : \u043d\u0430\u0443\u0447\u043d\u043e-\u043f\u0440\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u0435 \u0426\u0435\u043d\u0442\u0440\u0430 \u0441\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f \u043c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u043e\u0439 \u0437\u0430\u0449\u0438\u0442\u0435",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785889230014,
+    "t": "\u041a\u043b\u0438\u043d\u0438\u043a\u0438 : \u043b\u0435\u0442\u043e\u043f\u0438\u0441\u044c-\u043b\u0435\u0433\u0435\u043d\u0434\u0430",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785889230021,
+    "t": "Mnogotochii\ufe20a\ufe21--",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785889230533,
+    "t": "\u0421\u043e\u0437\u0432\u0435\u0437\u0434\u0438\u0435 \u043c\u0438\u0440\u0430",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785889230618,
+    "t": "\u0411\u0435\u043b\u044b\u0439 \u0445\u043e\u043b\u0441\u0442",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785889230687,
+    "t": "\u0421\u0440\u0435\u0434\u043d\u0435\u0432\u0435\u043a\u043e\u0432\u0430\u044f \u0415\u0432\u0440\u043e\u043f\u0430 : \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b \u0438\u0434\u0435\u043e\u043b\u043e\u0433\u0438\u0438 \u0438 \u043f\u043e\u043b\u0438\u0442\u0438\u043a\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785889235125,
+    "t": "Russko-Japonskaja vojna : 1904-1905 g.g.; rabota Voenno-Istoric\u030ceskoj Komissi\u0304i po opisani\u0304ju Russko-Japonskoj vojny. T. 8 Oborona Kvantuna i Port-Artura C\u030c. 1 Ot nac\u030cala vojny do te\u030csnago obloz\u030ceni\u0304ja kre\u030cposti (17 I\u0304juljla 1904 goda)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785889235279,
+    "t": "Rossi\u0304i\u0306skai\ufe20a\ufe21 rodoslovnai\ufe20a\ufe21 kniga",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785889236436,
+    "t": "Volyn\u02b9 : istoricheskii\u0361a sud\u02b9by i\u0361ugo-zapadnago krai\u0361a",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785889236450,
+    "t": "\u0411\u0463\u043b\u043e\u0440\u0443\u0441\u0441\u0456\u044f \u0438 \u041b\u0438\u0442\u0432\u0430 : \u0438\u0441\u0442\u043e\u0440\u0438\u0447\u0435\u0441\u043a\u0456\u044f \u0441\u0443\u0434\u044c\u0431\u044b \u0421\u0463\u0432\u0435\u0440\u043e-\u0437\u0430\u043f\u0430\u0434\u043d\u0430\u0433\u043e \u043a\u0440\u0430\u044f",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785889237624,
+    "t": "\u0412\u043e\u0435\u043d\u043d\u044b\u044f \u0434\u0463\u0439\u0441\u0442\u0432\u0456\u044f \u0432 \u0426\u0430\u0440\u0441\u0442\u0432\u0463 \u041f\u043e\u043b\u044c\u0441\u043a\u043e\u043c\u044a \u0432\u044a 1863 \u0433\u043e\u0434\u0443 : \u043d\u0430\u0447\u0430\u043b\u043e \u0432\u043e\u0437\u0441\u0442\u0430\u043d\u0456\u044f (\u042f\u043d\u0432\u0430\u0440\u044c, \u0424\u0435\u0432\u0440\u0430\u043b\u044c \u0438 \u043f\u0435\u0440\u0432\u0430\u044f \u043f\u043e\u043b\u043e\u0432\u0438\u043d\u0430 \u041c\u0430\u0440\u0442\u0430)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785889238102,
+    "t": "\u041a\u0440\u0435\u043f\u043e\u0441\u0442\u0438 \u0438 \u0433\u0430\u0440\u043d\u0438\u0437\u043e\u043d\u044b \u044e\u0436\u043d\u043e\u0439 \u0420\u043e\u0441\u0441\u0438\u0438 \u0432 1718 \u0433. - \u0421\u0442\u0430\u0432\u0443\u0447\u0430\u043d\u0441\u043a\u0438\u0439 \u043f\u043e\u0445\u043e\u0434. - \u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b 1739 \u0433. - \u041d\u0430\u0447\u0430\u043b\u043e \u043a\u043e\u043d\u0446\u0430 \u041f\u043e\u043b\u044c\u0448\u0438. - \u0412\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u0432 \u0438\u0441\u0442\u043e\u0440\u0438\u044e \u0431\u043e\u0440\u044c\u0431\u044b \u0437\u0430 \u043e\u0431\u044a\u0435\u0434\u0438\u043d\u0435\u043d\u0438\u0435 \u0420\u043e\u0441\u0441\u0438\u0438 \u043f\u0440\u0438 \u0438\u043c\u043f\u0435\u0440\u0430\u0442\u0440\u0438\u0446\u0435 \u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0435 II : \u0432 3 \u043a\u043d\u0438\u0433\u0430\u0445 (\u0432 1 \u043f\u0435\u0440\u0435\u043f\u043b\u0435\u0442\u0435)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785890730053,
+    "t": "Dostoevskii\u0306 v kont\u0361se XX veka",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785890730138,
+    "t": "Dostoevskii i mirovaia kul'tura : Al'manakh no. 12",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785890730206,
+    "t": "\u0410\u043b\u043c\u0430\u0437\u044b, \u0437\u043e\u043b\u043e\u0442\u043e, \u0443\u0440\u0430\u043d : \u043e\u0442 \u043c\u0430\u0441\u0442\u0435\u0440\u0430 \u0434\u043e \u0433\u0435\u043d\u0435\u0440\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0434\u0438\u0440\u0435\u043a\u0442\u043e\u0440\u0430",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785890730220,
+    "t": "Istorii\ufe20a\ufe21 Saudovskoi\u0306 Aravii (1745 g.-konet\ufe20s\ufe21 XX v.)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785890730299,
+    "t": "\u0421\u043f\u0440\u0430\u0432\u043e\u0447\u043d\u0438\u043a \u043f\u043e \u044d\u043a\u043e\u043d\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u0435 \u043f\u0440\u0435\u0434\u043f\u0440\u0438\u043d\u0438\u043c\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u0430",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785890730343,
+    "t": "\u0414\u043e\u0441\u0442\u043e\u0435\u0432\u0441\u043a\u0438\u0439 \u0438 \u043c\u0438\u0440\u043e\u0432\u0430\u044f \u043a\u0443\u043b\u0442\u0443\u0440\u0430. \u0410\u043b\u044c\u043c\u0430\u043d\u0430\u0445 \u043d\u043e. 14",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785890730343,
+    "t": "Dostoevskij i mirovaa\u0302 kul'tura, 14",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9785891230132,
     "t": "\u0416\u0438\u043b\u0438\u0449\u043d\u044b\u0435 \u043b\u044c\u0433\u043e\u0442\u044b : \u0443\u0447\u0435\u0431\u043d\u043e\u0435 \u0438 \u043c\u0435\u0442\u043e\u0434\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043f\u043e\u0441\u043e\u0431\u0438\u0435 : \u0441 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435\u043c \u0444\u0435\u0434\u0435\u0440\u0430\u043b\u044c\u043d\u044b\u0445 \u0437\u0430\u043a\u043e\u043d\u043e\u0432 \u0438 \u0438\u043d\u044b\u0445 \u043d\u043e\u0440\u043c\u0430\u0442\u0438\u0432\u043d\u044b\u0445 \u0430\u043a\u0442\u043e\u0432",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891230408,
+    "t": "Ugolovnyj kodeks Rossijskoj federacii : vvoditsja v dejstvie s 1 janvarja 1997 goda",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785891230415,
+    "t": "\u0415\u0432\u0440\u043e\u043f\u0435\u0439\u0441\u043a\u0430\u044f \u041a\u043e\u043d\u0432\u0435\u043d\u0446\u0438\u044f \u043e \u0437\u0430\u0449\u0438\u0442\u0435 \u043f\u0440\u0430\u0432 \u0447\u0435\u043b\u043e\u0432\u0435\u043a\u0430 \u0438 \u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0445 \u0441\u0432\u043e\u0431\u043e\u0434 \u0438 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u043f\u0440\u043e\u0442\u043e\u043a\u043e\u043b\u044b : \u0441 \u043d\u0430\u0443\u0447\u043d\u044b\u043c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0435\u043c",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891230606,
+    "t": "\u042e\u0440\u0438\u0441\u0442\u044b \u0441\u043c\u0435\u044e\u0446\u0438\u0430 : \u0441\u0431\u043e\u0440\u043d\u0438\u043a \u0437\u0430\u0431\u0430\u0432\u043d\u044b\u0445 \u0438\u0441\u0442\u043e\u0440\u0438\u0439, \u043f\u043e\u0443\u0447\u0435\u043d\u0438\u0439, \u0430\u043d\u0435\u043a\u0434\u043e\u0442\u043e\u0432 : \u0438\u0437 \u0434\u043e\u0441\u044c\u0435 \u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0433\u043e \u0441\u043e\u0432\u0435\u0442\u043d\u0438\u043a\u0430 \u044e\u0441\u0442\u0438\u0446\u0438\u0438 2 \u043a\u043b\u0430\u0441\u0441\u0430 \u0412.\u0414. \u0421\u044b\u0441\u043e\u0435\u0432\u0430",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891230675,
+    "t": "Kommentarii\u0306 k Zakonu Rossii\u0306skoi\u0306 Federat\ufe20s\ufe21ii Ob okhrane okruzhai\ufe20u\ufe21 shchei\u0306 i prirodnoi\u0306 sredy",
     "h": 1,
     "e": 0
   },
@@ -288,8 +1884,842 @@
     "e": 0
   },
   {
+    "i": 9785891230989,
+    "t": "Filosofii\ufe20a\ufe21 prava : uchebnik dli\ufe20a\ufe21 vuzov",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891231054,
+    "t": "\u041a\u043e\u0434\u0435\u043a\u0441 \u0420\u0421\u0424\u0421\u0420 \u043e\u0431 \u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u0438\u0432\u043d\u044b\u0445 \u043f\u0440\u0430\u0432\u043e\u043d\u0430\u0440\u0443\u0448\u0435\u043d\u0438\u044f\u0445 \u041e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u0442\u0435\u043a\u0441\u0442 \u043f\u043e \u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u044e \u043d\u0430 1 \u043c\u0430\u0440\u0442\u0430 1997 \u0433\u043e\u0434\u0430",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891231191,
+    "t": "\u041e\u0441\u043d\u043e\u0432\u044b \u0437\u043d\u0430\u043d\u0438\u0439 \u043e \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435 \u0438 \u043f\u0440\u0430\u0432\u0435 : \u043f\u043e\u0441\u043e\u0431\u0438\u0435 \u0434\u043b\u044f \u0430\u0431\u0438\u0442\u0443\u0440\u0438\u0435\u043d\u0442\u043e\u0432",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891231276,
+    "t": "Rossii\u0306skoe trudovoe pravo : uchebnik dli\ufe20a\ufe21 vuzov",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785891231511,
+    "t": "Rossija i Severnyj Kavkaz v XVI-XIX vekach",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891231740,
+    "t": "\u041a\u043e\u0440\u043f\u043e\u0440\u0430\u0442\u0438\u0432\u043d\u043e\u0435 \u043f\u0440\u0430\u0432\u043e : \u043f\u0440\u0430\u0432\u043e \u0445\u043e\u0437\u044f\u0439\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0445 \u0442\u043e\u0432\u0430\u0440\u0438\u0449\u0435\u0441\u0442\u0432 \u0438 \u043e\u0431\u0449\u0435\u0441\u0442\u0432",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891231825,
+    "t": "\u042d\u043a\u043e\u043d\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0435\u043e\u0440\u0438\u044f : \u0443\u0447\u0435\u0431\u043d\u0438\u043a \u0434\u043b\u044f \u0432\u0443\u0437\u043e\u0432",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891231863,
+    "t": "Kul\u02b9tura russkoi\u0306 rechi : uchebnik dli\ufe20a\ufe21 vuzov",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891231948,
+    "t": "Osnovy gosudarstvennoi\u0306 politiki bor'by c prestupnost'ju v Rossii : teoreticheskaja model'",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891232167,
+    "t": "\u0420\u0435\u043f\u043e\u0440\u0442\u0430\u0436 \u0438\u0437 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u043a\u043e\u0439 \u0441\u043b\u0435\u0434\u043e\u0432\u0430\u0442\u0435\u043b\u044f : \u0440\u0430\u0441\u0441\u043a\u0430\u0437\u044b \u043e \u043a\u0440\u0438\u043c\u0438\u043d\u0430\u043b\u0438\u0441\u0442\u0438\u043a\u0435",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891232273,
+    "t": "I\ufe20U\ufe21risprudent\ufe20s\ufe21ii\ufe20a\ufe21 : vvedenie v kurs obshchei\u0306 teorii prava i gosudarstva : dli\ufe20a\ufe21 i\ufe20u\ufe21ridicheskikh vuzov i fakul\u02b9tetov",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891232464,
+    "t": "Graz\u030cdanskij kodeks Rossijskoj Federacii : c\u030casti pervaja i vtoraja : oficial\u02b9nyj tekst po sostojaniju na 15 fevralja 1998 goda",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891232501,
+    "t": "\u041f\u0440\u0430\u043a\u0442\u0438\u043a\u0443\u043c \u043f\u043e \u0443\u0433\u043e\u043b\u043e\u0432\u043d\u043e\u043c\u0443 \u043f\u0440\u0430\u0432\u0443",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891232594,
+    "t": "E\u0307kologicheskoe pravo : uchebnik dli\ufe20a\ufe21 vuzov",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785891232617,
+    "t": "Citizen's rights : text for college",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891233027,
+    "t": "Kriminalistika : uchebnik dlia vuzov",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785891233188,
+    "t": "Arbitrazhnyi\u0306 prot\ufe20s\ufe21essual\u02b9nyi\u0306 kodeks Rossii\u0306skoi\u0306 Federat\ufe20s\ufe21ii. Federal\u02b9nyi\u0306 konstitut\ufe20s\ufe21ionnyi\u0306 zakon \"Ob arbitrazhnykh sudakh v Rossii\u0306skoi\u0306 Federat\ufe20s\ufe21ii\" : ofit\ufe20s\ufe21ial\u02b9nye teksty po sostoi\ufe20a\ufe21nii\ufe20u\ufe21 na 1 i\ufe20a\ufe21nvari\ufe20a\ufe21 1999 goda : s alfavitno-predmetnym ukazatelem",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891233218,
+    "t": "Nalogovyi\u0306 kodeks Rossii\u0306skoi\u0306 Federat\ufe20s\ufe21ii",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891233256,
+    "t": "Grazhdanskii\u0306 prot\ufe20s\ufe21essual\u02b9nyi\u0306 kodeks RSFSR : ofit\ufe20s\ufe21ial\u02b9nyi\u0306 tekst po sostoi\ufe20a\ufe21nii\ufe20u\ufe21 na 15 dekabri\ufe20a\ufe21 1998 goda",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891233270,
+    "t": "Sbornik osnovnych prikazov i ukazanij General'nogo prokurora Rossijskoj Federacii",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891234055,
+    "t": "\u0415\u0432\u0440\u043e\u043f\u0435\u0439\u0441\u043a\u0438\u0439 \u0441\u0443\u0434 \u043f\u043e \u043f\u0440\u0430\u0432\u0430\u043c \u0447\u0435\u043b\u043e\u0432\u0435\u043a\u0430 : \u0418\u0437\u0431\u0440\u0430\u043d\u043d\u044b\u0435 \u0440\u0435\u0448\u0435\u043d\u0438\u044f : \u0412 \u0434\u0432\u0443\u0445 \u0442\u043e\u043c\u0430\u0445 : \u0422.1.",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891234512,
+    "t": "\u042e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0441\u043f\u0440\u0430\u0432\u043e\u0447\u043d\u0438\u043a \u0437\u0435\u043c\u043b\u0435\u0434\u0435\u043b\u044c\u0446\u0430 : \u043f\u043e\u0441\u043e\u0431\u0438\u0435 \u0434\u043b\u044f \u0441\u0430\u0434\u043e\u0432\u043e\u0434\u043e\u0432-\u043e\u0433\u043e\u0440\u043e\u0434\u043d\u0438\u043a\u043e\u0432, \u0434\u0430\u0447\u043d\u0438\u043a\u043e\u0432, \u0441\u043e\u0431\u0441\u0442\u0432\u0435\u043d\u043d\u0438\u043a\u043e\u0432 \u043b\u0438\u0447\u043d\u044b\u0445 \u043f\u043e\u0434\u0441\u043e\u0431\u043d\u044b\u0445 \u0438 \u043a\u0440\u0435\u0441\u0442\u044c\u044f\u043d\u0441\u043a\u0438\u0445 (\u0444\u0435\u0440\u043c\u0435\u0440\u0441\u043a\u0438\u0445) \u0445\u043e\u0437\u044f\u0439\u0441\u0442\u0432",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891234970,
+    "t": "Kommentarij k Zakonu Rossijskoj Federacii \"O nedrach\"",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891235052,
+    "t": "Pravovye osnovy nesostojatelnosti : bankrotstva",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891235380,
+    "t": "\u0420\u043e\u0441\u0441\u0438\u044f \u0438 \u0435\u0432\u0440\u043e\u043f\u0435\u0439\u0441\u043a\u043e\u0435 \u043f\u0440\u0430\u0432\u043e : \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u043e\u0439 \u043d\u0430\u0443\u0447\u043d\u043e-\u043f\u0440\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u043a\u043e\u043d\u0444\u0435\u0440\u0435\u043d\u0446\u0438\u0438 11-12 \u043c\u0430\u044f 2000 \u0433., \u0433. \u041c\u043e\u0441\u043a\u0432\u0430",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891235656,
+    "t": "\u0422\u0432\u043e\u0440\u0435\u043c\u044b : \u0441\u0442\u0438\u0445\u0438 \u0440\u0430\u0437\u043d\u044b\u0445 \u043b\u0435\u0442",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891235854,
+    "t": "Christianskie korni sovremennogo prava",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785891235885,
+    "t": "Institut dokazyvanija v graz\u030cdanskom i arbitraz\u030cnom sudoproizvodstve",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785891236226,
+    "t": "\u041d\u044e\u0440\u043d\u0431\u0435\u0440\u0433 \u043f\u0440\u0435\u0434\u0443\u043f\u0440\u0435\u0436\u0434\u0430\u0435\u0442 : ot nat\ufe20s\ufe21izma do terrorizma : materialy mez\ufe20h\ufe21dunarodnoi\u0306 konferent\ufe20s\ufe21ii \"Ni\ufe20u\ufe21rnbergskii\u0306 prot\ufe20s\ufe21ess - istorii\ufe20a\ufe21 i sovremennost\u02b9\", 2-3 okti\ufe20a\ufe21bri\ufe20a\ufe21 2001 g., g. Moskva",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891236431,
+    "t": "Dispozitivnoe nac\u030calo v sfere graz\u030cdanskoj jurisdikcii : problemy teorii i praktiki",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891236769,
+    "t": "\u041d\u0430 \u0441\u043b\u0443\u0436\u0431\u0435 \u0437\u0430\u043a\u043e\u043d\u0443 \u0438 \u0441\u043f\u0440\u0430\u0432\u0435\u0434\u043b\u0438\u0432\u043e\u0441\u0442\u0438 : \u043e\u0447\u0435\u0440\u043a\u0438 \u043e\u0431 \u043e\u0442\u0435\u0447\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0445 \u041c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0445\u044a \u044e\u0441\u0442\u0438\u0446\u0438\u0438 1802-2002",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891236943,
+    "t": "Akcionernoe zakonodatel\u02b9stvo Anglii i Rossii : sravnitel\u02b9no-pravovoj analiz",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891236981,
+    "t": "\u041e\u0445\u0440\u0430\u043d\u0430 \u0442\u0440\u0443\u0434\u0430",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891237353,
+    "t": "Kommentari\u012d k Federal\u02b9nomu zakonu \"O finansovo\u012d arende (\u043b\u0438\u0437\u0438\u043d\u0433\u0435)\"",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891237483,
+    "t": "\u0418\u0441\u0442\u043e\u0440\u0438\u044f \u043f\u043e\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0438 \u043f\u0440\u0430\u0432\u043e\u0432\u044b\u0445 \u0443\u0447\u0435\u043d\u0438\u0439 \u0423\u0447\u0435\u0431\u043d\u0438\u043a \u0434\u043b\u044f \u0432\u0443\u0437\u043e\u0432",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785891237636,
+    "t": "Administrativno-processual\u02b9noe pravo Rossii",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891237872,
+    "t": "\u0420\u0430\u0431\u043e\u0442\u043e\u0434\u0430\u0442\u0435\u043b\u044c : \u043f\u0440\u0430\u0432\u0430 \u0438 \u043e\u0431\u044f\u0437\u0430\u043d\u043d\u043e\u0441\u0442\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891237988,
+    "t": "\u0417\u0430\u043a\u043e\u043d\u044b \u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u043e\u0439 \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u0438 \u043e \u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u043b\u0438\u0446\u0430\u0445",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891238145,
+    "t": "Tamozhennyi\u0306 kodeks Rossii\u0306skoi\u0306 Federat\ufe20s\ufe21ii : s postatei\u0306nymi materialami Mezhdunarodnoi\u0306 Konvent\ufe20s\ufe21ii ob uproshchenii i garmonizat\ufe20s\ufe21ii tamozhennykh prot\ufe20s\ufe21edur v redakt\ufe20s\ufe21ii Protokola 1999 goda",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891238220,
+    "t": "\u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0430\u044f \u044e\u0441\u0442\u0438\u0446-\u043a\u043e\u043b\u043b\u0435\u0433\u0438\u044f : (1718-1786) : \u0438\u0441\u0442\u043e\u0440\u0438\u043a\u043e-\u043f\u0440\u0430\u0432\u043e\u0432\u043e\u044b\u0435 \u043e\u0447\u0435\u0440\u043a\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891238329,
+    "t": "\u0424\u0438\u043d\u0430\u043d\u0441\u043e\u0432\u043e\u0435 \u043f\u0440\u0430\u0432\u043e \u0420\u043e\u0441\u0441\u0438\u0438 : \u0443\u0447\u0435\u0431\u043d\u0438\u043a \u0434\u043b\u044f \u0432\u0443\u0437\u043e\u0432",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891238435,
+    "t": "\u041f\u0440\u0430\u0432\u043e \u0432\u043e\u0435\u043d\u043d\u043e\u0441\u043b\u0443\u0436\u0430\u0449\u0438\u0445 \u043d\u0430 \u0436\u0438\u043b\u0438\u0449\u0435 : \u0442\u0435\u043e\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0430\u0441\u043f\u0435\u043a\u0442\u044b \u0438 \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b \u0440\u0435\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891238497,
+    "t": "\u0414\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u043d\u043e\u0440\u043c \u043f\u0440\u0430\u0432\u0430 \u0432\u043e \u0432\u0440\u0435\u043c\u0435\u043d\u0438 : \u0442\u0435\u043e\u0440\u0438\u044f, \u0437\u0430\u043a\u043e\u043d\u043e\u0434\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e, \u0441\u0443\u0434\u0435\u0431\u043d\u0430\u044f \u043f\u0440\u0430\u043a\u0442\u0438\u043a\u0430",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891238602,
+    "t": "\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u043a \u0437\u0430\u043a\u043e\u043d\u043e\u0434\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u0443 \u043e \u0441\u0443\u0434\u0435\u0431\u043d\u043e\u0439 \u044d\u043a\u0441\u043f\u0435\u0440\u0442\u0438\u0437\u0435 : \u0443\u0433\u043e\u043b\u043e\u0432\u043d\u043e\u0435, \u0433\u0440\u0430\u0436\u0434\u0430\u043d\u0441\u043a\u043e\u0435, \u0430\u0440\u0431\u0438\u0442\u0440\u0430\u0436\u043d\u043e\u0435 \u0441\u0443\u0434\u043e\u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u043e",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891238718,
+    "t": "\u041f\u0440\u0430\u0432\u0438\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e \u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u043e\u0439 \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u0438 \u0432 \u0437\u0430\u043a\u043e\u043d\u043e\u0442\u0432\u043e\u0440\u0447\u0435\u0441\u043a\u043e\u043c \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u0435",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891239074,
+    "t": "\u041a\u0440\u0438\u043c\u0438\u043d\u043e\u043b\u043e\u0433\u0438\u044f \u0438 \u0431\u0438\u043e\u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0438",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785891239081,
+    "t": "Sources of Russian law : questions of theory and history",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785891239203,
+    "t": "\u041a\u043e\u043d\u0441\u0442\u0438\u0442\u0443\u0446\u0438\u043e\u043d\u043d\u043e\u0435 (\u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435) \u043f\u0440\u0430\u0432\u043e \u0437\u0430\u0440\u0443\u0431\u0435\u0436\u043d\u044b\u0445 \u0441\u0442\u0440\u0430\u043d: \u041e\u0431\u0449\u0430\u044f \u0447\u0430\u0441\u0442\u044c \u0423\u0447\u0435\u0431\u043d\u0438\u043a \u0434\u043b\u044f \u0432\u0443\u0437\u043e\u0432",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891239401,
+    "t": "\u0412\u0430\u043b\u044e\u0442\u043d\u043e\u0435 \u043f\u0440\u0430\u0432\u043e \u0420\u043e\u0441\u0441\u0438\u0438 : \u0443\u0447\u0435\u0431\u043d\u0438\u043a \u0434\u043b\u044f \u0432\u0443\u0437\u043e\u0432",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891239722,
+    "t": "Grazhdanin, zakon i publichnai\ufe20a\ufe21 vlast\u02b9",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891239906,
+    "t": "\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u043a \u0413\u0440\u0430\u0436\u0434\u0430\u043d\u0441\u043a\u043e\u043c\u0443 \u043a\u043e\u0434\u0435\u043a\u0441\u0443 \u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u043e\u0439 \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891239968,
+    "t": "\u041f\u0440\u0430\u0432\u043e\u0442\u0432\u043e\u0440\u0447\u0435\u0441\u0442\u0432\u043e \u0432 \u043c\u0435\u0445\u0430\u043d\u0438\u0437\u043c\u0435 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u043e\u0431\u0449\u0435\u0441\u0442\u0432\u043e\u043c : \u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e\u0441\u0442\u044c \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0441\u043d\u043e\u0433\u043e \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u044f",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891730021,
+    "t": "\u041e\u0445\u043e\u0442\u043d\u0438\u0447\u044c\u0435 \u0438 \u0441\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u043e\u0435 \u0441\u0442\u0440\u0435\u043b\u043a\u043e\u0432\u043e\u0435 \u043e\u0440\u0443\u0436\u0438\u0435 : \u0438\u0441\u0442\u043e\u0440\u0438\u044f \u0440\u0430\u0437\u0432\u0438\u0442\u0438\u044f \u0437\u0430 \u043f\u0435\u0440\u0438\u043e\u0434 \u0441 1886 \u0433. \u043f\u043e 1941 \u0433.",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891730151,
+    "t": "\"Shpionskie shtuchki 2\", ili, Kak sberech\u02b9 svoi sekrety",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785891730366,
+    "t": "\u0418\u0441\u0442\u043e\u0440\u0438\u044f \u0434\u0440\u0435\u0432\u043d\u0438\u0445 \u0446\u0438\u0432\u0438\u043b\u0438\u0437\u0430\u0446\u0438\u0439",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891730434,
+    "t": "\u0412\u0441\u0435\u043c\u0438\u0440\u043d\u0430\u044f \u0438\u0441\u0442\u043e\u0440\u0438\u044f \u0432 \u0447\u0435\u0442\u044b\u0440\u0435\u0445 \u0442\u043e\u043c\u0430\u0445",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891730441,
+    "t": "Iezuit / Inkvizits\ufe20\ufe21iia / Genri Charlz Li",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785891730632,
+    "t": "50 \u0440\u0435\u0446\u0435\u043f\u0442\u043e\u0432 \u0435\u0432\u0440\u0435\u0439\u0441\u043a\u043e\u0439 \u043a\u0443\u0445\u043a\u043d\u0438",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785891730755,
+    "t": "\"Shpionskie shtuchki\" : \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0430 \u0434\u043b\u044f \u0437\u0430\u0449\u0438\u0442\u044b \u043e\u0431\u044a\u0435\u043a\u0442\u043e\u0432 \u0438 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438 : \u0441\u043f\u0440\u0430\u0432\u043e\u0447\u043d\u043e\u0435 \u043f\u043e\u0441\u043e\u0431\u0438\u0435",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891730830,
+    "t": "Tituly, chiny, nagrady",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891730861,
+    "t": "Vyborgskaja storona",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785891731035,
+    "t": "\u041e\u0441\u043d\u043e\u0432\u044b \u043a\u043e\u0440\u043f\u043e\u0440\u0430\u0442\u0438\u0432\u043d\u043e\u0439 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891731073,
+    "t": "\u0428\u043f\u0438\u043e\u043d\u0441\u043a\u0438\u0435 \u0448\u0442\u0443\u0447\u043a\u0438 : \u043d\u043e\u0432\u043e\u0435 \u0438 \u043b\u0443\u0447\u0448\u0435\u0435",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785891731288,
+    "t": "Voennai\ufe20a\ufe21 uniforma : vse strany mira : poi\ufe20a\ufe21vlenie i rasvitie voennoi\u0306 uniformy",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785891731813,
+    "t": "\u041f\u043e\u0434\u0432\u043e\u0434\u043d\u044b\u0435 \u043b\u043e\u0434\u043a\u0438",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785891731905,
+    "t": "\u0412\u0441\u0435 \u043e \u043f\u0438\u0441\u0442\u043e\u043b\u0435\u0442\u0430\u0445 \u0438 \u0440\u0435\u0432\u043e\u043b\u044c\u0432\u0435\u0440\u0430\u0445",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891732360,
+    "t": "\u042d\u043d\u0446\u0438\u043a\u043b\u043e\u043f\u0435\u0434\u0438\u044f \u0431\u0443\u0434\u0443\u0449\u0435\u0433\u043e \u0430\u0434\u043c\u0438\u0440\u0430\u043b\u0430 : \u043e \u0444\u043b\u043e\u0442\u0435 \u0438 \u043a\u043e\u0440\u0430\u0431\u043b\u044f\u0445",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785891732605,
+    "t": "\u0428\u0442\u0443\u0440\u043c\u043e\u0432\u044b\u0435 \u0432\u0438\u043d\u0442\u043e\u0432\u043a\u0438 \u043c\u0438\u0440\u0430",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891733732,
+    "t": "Sokrovis\u030cc\u0301a muzeev Rossii",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891739697,
+    "t": "\u041e\u0440\u0444\u043e\u0433\u0440\u0430\u0444\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0441\u043b\u043e\u0432\u0430\u0440\u044c : 70 000 \u0441\u043b\u043e\u0432",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891739703,
+    "t": "Tolkovyi slovar' russkogo",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785891739901,
+    "t": "Slovar\u02b9 sinoimov russkogo iazyka : Slovar\u02b9 antonimiv russkogo iazyka",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9785892230056,
     "t": "\u0418\u043d\u0444\u043e\u0440\u043c\u0430\u0442\u0438\u043a\u0430 \u0438 \u0444\u0438\u043b\u043e\u0441\u043e\u0444\u0438\u044f \u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785892230070,
+    "t": "Endobiliarnye vmeshatels\u0301tva v lechenii mekhanicheskoi\u0306 zheltykhi",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785892230148,
+    "t": "Izuchenie i primenenie lechebno-profilakticheskikh preparatov na osnove prirodnykh biologicheski aktivnykh veshchestv",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785892230216,
+    "t": "Mikroorganizmy i antibiotiki. Sepsis",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785892230230,
+    "t": "Trakheostomiia u bol'nykh s opukholiami golovy i shei",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785892230247,
+    "t": "\u041a\u043e\u043d\u0442\u0430\u043a\u0442\u043d\u0430\u044f \u043b\u0430\u0437\u0435\u0440\u043d\u0430\u044f \u0444\u043e\u043d\u043e\u0445\u0438\u0440\u0443\u0440\u0433\u0438\u044f",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785893730104,
+    "t": "\u041a\u0440\u0430\u0439 \u0442\u044b \u043c\u043e\u0439, \u0440\u043e\u0434\u0438\u043c\u044b\u0439 \u043a\u0440\u0430\u0439 : \u043a 180-\u043b\u0435\u0442\u0438\u044e \u0410.\u041a. \u0422\u043e\u043b\u0441\u0442\u043e\u0433\u043e",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785894230153,
+    "t": "\u041d\u0430\u0443\u043a\u0430 \u0432 \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0435 \u0422\u0430\u0442\u0430\u0440\u0441\u0442\u0430\u043d : \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0441\u0431\u043e\u0440\u043d\u0438\u043a",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785894230504,
+    "t": "\u041a\u043e\u043d\u0446\u0435\u043f\u0446\u0438\u044f \u0438 \u043c\u0435\u0442\u043e\u0434\u043e\u043b\u043e\u0433\u0438\u044f \u0441\u043e\u0432\u0435\u0440\u0448\u0435\u043d\u0441\u0442\u0432\u043e\u0432\u0430\u043d\u0438\u044f \u0440\u0435\u0444\u043e\u0440\u043c \u0432 \u0430\u0433\u0440\u0430\u0440\u043d\u043e\u043c \u0441\u0435\u043a\u0442\u043e\u0440\u0435 \u0440\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0438 \u0422\u0430\u0442\u0430\u0440\u0441\u0442\u0430\u043d",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785894230511,
+    "t": "\u041f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0430 \u0411\u0443\u043b\u0433\u0430\u0440\u0441\u043a\u043e\u0433\u043e \u041d\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u041a\u043e\u043d\u0433\u0440\u0435\u0441\u0441\u0430 : \u043f\u0440\u0438\u043d\u044f\u0442\u0430 \u043d\u0430 III \u0421\u044a\u0435\u0437\u0434\u0435 \u0411\u0443\u043b\u0433\u0430\u0440\u0441\u043a\u043e\u0433\u043e \u041d\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u041a\u043e\u043d\u0433\u0440\u0435\u0441\u0441\u0430 30.11.97 \u0433",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785894230559,
+    "t": "Aktual\u02b9nye problemy razvitii\ufe20a\ufe21 agrarnogo sektora v uslovii\ufe20a\ufe21kh stanovlenii\ufe20a\ufe21 rynochnykh otnoshenii\u0306 : materialy i\ufe20u\ufe21bilei\u0306noi\u0306 nauchnoi\u0306 konferent\ufe20s\ufe21ii",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785894230610,
+    "t": "\u0418.\u0410. \u041a\u0443\u0440\u0430\u0442\u043e\u0432 \u0432 \u041a\u0430\u0437\u0430\u043d\u0438 1865-1866 \u0433. \u0433.",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785894230634,
+    "t": "Fotografii",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785894230665,
+    "t": "\u0412\u0435\u0440\u044e \u0432 \u0442\u0435\u0431\u044f : \u0441\u0442\u0438\u0445\u043e\u0442\u0432\u043e\u0440\u0435\u043d\u0438\u044f",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785894230689,
+    "t": "\u041c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u0441\u0442\u0438\u043c\u0443\u043b--\u043e\u0441\u043d\u043e\u0432\u0430 \u044d\u043a\u043e\u043d\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u0440\u043e\u0441\u0442\u0430",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785894230825,
+    "t": "Tashu : sai\u0306lanma a\u0306sa\u0306rla\u0306r",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785894230986,
+    "t": "Kazan\u02b9zernoprodukt : kniga-al\u02b9bom",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785894231181,
+    "t": "Programma obuc\u030cenija igre po mez\u030cdunarodnym s\u030cas\u030ckam",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785894231204,
+    "t": "Praktic\u030ceskie kombinacii v mez\u030cdunarodnyck s\u030cas\u030ckach",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785894231242,
+    "t": "Otzvuki val'sa : dlja skripki i fortepiano",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785894231242,
+    "t": "Posvjas\u030cc\u030cenie : dlja violonc\u030celi i fortepiano",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785895230015,
+    "t": "\u041f\u0440\u043e\u0431\u043b\u0435\u043c\u044b \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0438 \u0441\u043b\u043e\u0436\u043d\u044b\u0445 \u043d\u0435\u0444\u0442\u0435\u0433\u0430\u0437\u043e\u043a\u043e\u043d\u0434\u0435\u043d\u0441\u0430\u0442\u043d\u044b\u0445 \u043c\u0435\u0441\u0442\u043e\u0440\u043e\u0436\u0434\u0435\u043d\u0438\u0439 \u0422\u0438\u043c\u0430\u043d\u043e-\u041f\u0435\u0447\u043e\u0440\u0441\u043a\u043e\u0439 \u043f\u0440\u043e\u0432\u0438\u043d\u0446\u0438\u0438 : \u0441\u0431\u043e\u0440\u043d\u0438\u043a \u043d\u0430\u0443\u0447\u043d\u044b\u0445 \u0442\u0440\u0443\u0434\u043e\u0432",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785895230022,
+    "t": "Geologii\ufe20a\ufe21 i razrabotka gazovykh mestorozhdenii : tezisy dokladov vserossii\u0306skoi\u0306 nauchno-prakticheskoi\u0306 konferent\ufe20s\ufe21ii, posvi\ufe20a\ufe21shchennoi\u0306 90-letii\ufe20u\ufe21 so dnia rozhdenii\ufe20a\ufe21 V.M. Seni\ufe20u\ufe21kova : 15-17 apreli\ufe20a\ufe21 1997, Severnipigaz",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785895230084,
+    "t": "Geologii\ufe20a\ufe21, razrabotka, e\u0307kspluatat\ufe20s\ufe21ii\ufe20a\ufe21 mestorozhdenii\u0306 Timano-Pechorskoi\u0306 provint\ufe20s\ufe21ii. Transport gaza. Problemy, reshenii\ufe20a\ufe21, perspektivy : Nauchno-tekhnicheskii\u0306 sbornik",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785895730010,
+    "t": "\u041f\u0441\u0438\u0445\u043e\u043b\u043e\u0433\u043e-\u043f\u0435\u0434\u0430\u0433\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0438 \u0444\u0438\u043b\u043e\u0441\u043e\u0444\u0441\u043a\u0438\u0435 \u0430\u0441\u043f\u0435\u043a\u0442\u044b \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b \u0441\u043c\u044b\u0441\u043b\u0430 \u0436\u0438\u0437\u043d\u0438 : \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u0418-II \u0441\u0438\u043c\u043f\u043e\u0437\u0438\u0443\u043c\u043e\u0432",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785895730041,
+    "t": "\u041e\u0431\u0440\u0430\u0437 \u0432 \u0440\u0435\u0433\u0443\u043b\u044f\u0446\u0438\u0438 \u0434\u0435\u044f\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785895730058,
+    "t": "I Mezhdunarodnai\ufe20a\ufe21 konferent\ufe20s\ufe21ii\ufe20a\ufe21 pami\ufe20a\ufe21ti A.R. Lurii : tezisy dokladov : Moskva, 24-26 senti\ufe20a\ufe21bri\ufe20a\ufe21, 1997",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785895730058,
+    "t": "\u0418 \u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u0430\u044f \u043a\u043e\u043d\u0444\u0435\u0440\u0435\u043d\u0446\u0438\u044f \u043f\u0430\u043c\u044f\u0442\u0438 \u0410.\u0420. \u041b\u0443\u0440\u0438\u044f : \u0441\u0431\u043e\u0440\u043d\u0438\u043a \u0434\u043e\u043a\u043b\u0430\u0434\u043e\u0432",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785895730225,
+    "t": "Komp\u02b9i\ufe20u\ufe21ternai\ufe20a\ufe21 e\u0307lektrofiziologii\ufe20a\ufe21 v klinicheskoi\u0306 i issledovatel\u02b9skoi\u0306 praktike",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785895730423,
+    "t": "\u041f\u0441\u0438\u0445\u043e\u043b\u043e\u0433\u0438 \u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433\u0430--1999 : \u0441\u043f\u0440\u0430\u0432\u043e\u0447\u043d\u0438\u043a",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785895730461,
+    "t": "Moskovskii\u0306 tramvai\u0306 : ego proshloe, nastoi\ufe20a\ufe21shchee i budushchee",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785895730638,
+    "t": "\u041e\u0434\u0430\u0440\u0435\u043d\u043d\u043e\u0441\u0442\u044c, \u0440\u0430\u0431\u043e\u0447\u0430\u044f \u043a\u043e\u043d\u0446\u0435\u043f\u0446\u0438\u044f : \u041c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u0418 \u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u043e\u0439 \u043a\u043e\u043d\u0444\u0435\u0440\u0435\u043d\u0446\u0438\u0438, \u0421\u0430\u043c\u0430\u0440\u0430, 1-3 \u043e\u043a\u0442\u044f\u0431\u0440\u044f 2000 \u0433.",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785896730026,
+    "t": "Svi\ufe20a\ufe21toi\u0306 rodnik : stikhotvorenii\ufe20a\ufe21",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785896730064,
+    "t": "My - egor\u02b9evt\ufe20s\ufe21y",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785896730149,
+    "t": "Gorodu i miru : povest', pis'ma",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785896730231,
+    "t": "Z\u030ciznG\u0315. F. Morozova",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785896730255,
+    "t": "Istrinskaia zemlia",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785897230013,
+    "t": "E\u0307konomicheskie problemy razvitii\ufe20a\ufe21 t\ufe20s\ufe21ementnoi\u0306 promyshlennosti na sovremennom e\u0307tape : nauchnye trudy po materialam 1-go (1X) Mezhdunarodnogo soveshchanii\ufe20a\ufe21 po tekhnologii i khimii t\ufe20s\ufe21ementa. Moskva 27-30.05. 1996., dopolnennym novymi dannymi",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785897730117,
+    "t": "\u0418\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0435 \u0437\u0430\u0434\u0430\u043d\u0438\u044f \u043f\u043e \u0441\u043f\u0435\u0446\u043a\u0443\u0440\u0441\u0443 \"\u0418\u0441\u0442\u043e\u0440\u0438\u044f \u0431\u043b\u0430\u0433\u043e\u0442\u0432\u043e\u0440\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u0438 \u0432 \u0422\u0430\u043c\u0431\u043e\u0432\u0441\u043a\u043e\u0438 \u0433\u0443\u0431\u0435\u0440\u043d\u0438\u0438\"",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785897730162,
+    "t": "\u0417\u0438\u043c\u043d\u0438\u0435 \u0440\u0430\u0434\u0443\u0433\u0438 : \u0441\u0442\u0438\u0445\u043e\u0442\u0432\u043e\u0440\u0435\u043d\u0438\u044f \u0438 \u0444\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u043f\u043e\u044d\u043c",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785897730247,
+    "t": "Okhlevinova roxhsha : \u0441\u0442\u0438\u0445\u043e\u0442\u0432\u043e\u0440\u0435\u043d\u0438\u044f \u0438 \u0444\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u043f\u043e\u044d",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785897730353,
+    "t": "\u0420\u0430\u0437\u0432\u0438\u0442\u0438\u0435 \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u0447\u0435\u0441\u0442\u0432\u0430 \u0438 \u0442\u043e\u0440\u0433\u043e\u0432\u043e-\u044d\u043a\u043e\u043d\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u043e\u0442\u043d\u043e\u0448\u0435\u043d\u0438\u0439 \u0420\u043e\u0441\u0441\u0438\u0438 \u0438 \u041a\u0438\u0442\u0430\u044f : \u043c\u043e\u043d\u043e\u0433\u0440\u0430\u0444\u0438\u044f",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785897730469,
+    "t": "\u0412 \u043b\u0430\u0431\u0438\u0440\u0438\u043d\u0442\u0435 \u0432\u0440\u0435\u043c\u0435\u043d\u0438 : \u0441\u0442\u0438\u0445\u043e\u0442\u0432\u043e\u0440\u0435\u043d\u0438\u044f \u0438 \u0444\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u043f\u043e\u044d\u043c",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785897730537,
+    "t": "Problemy izbiratel\u00b7nogo prava i izbiratel\u00b7nogo processa v Rossijskoj Federacii : (konkursnye raboty studentov Tambovskich vuzov)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785897730551,
+    "t": "\u0422\u0430\u043c\u0431\u043e\u0432\u0441\u043a\u0438\u0439 \u0432\u0435\u043d\u043e\u043a \u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u0443 \u0412\u044b\u0441\u043e\u0446\u043a\u043e\u043c\u0443",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785898230180,
+    "t": "\u041e\u043f\u0435\u0440\u0435\u0436\u0430\u044f \u0432\u0440\u0435\u043c\u044f : \u043e\u0447\u0435\u0440\u043a\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785898230227,
+    "t": "Patofiziologicheskie mekhanizmy sindroma khronicheskoi\u0306 ustalosti : novye podkhody k profilaktike i lechenii\ufe20u\ufe21",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785898230241,
+    "t": "\u041d\u0435\u0441\u0444\u043e\u0440\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u043a\u0438\u0448\u0435\u0447\u043d\u044b\u0435 \u0441\u0432\u0438\u0449\u0438 \u0438 \u0433\u043d\u043e\u0439\u043d\u044b\u0439 \u043f\u0435\u0440\u0438\u0442\u043e\u043d\u0438\u0442 : \u0445\u0438\u0440\u0443\u0440\u0433\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0435\u0447\u0435\u043d\u0438\u0435",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785898230258,
+    "t": "Detskii\u0306 al\u02b9bom : p\u02b9esy dli\ufe20a\ufe21 fortepiano",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785898230289,
+    "t": "\u041d\u0435\u0441\u043f\u0435\u0446\u0438\u0444\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u044f\u0437\u0432\u0435\u043d\u043d\u044b\u0439 \u043a\u043e\u043b\u0438\u0442 \u0443 \u0434\u0435\u0442\u0435\u0439 (\u0438 \u0432\u0437\u0440\u043e\u0441\u043b\u044b\u0445)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785898230296,
+    "t": "Istorii\ufe20a\ufe21 gumanoidnykh t\ufe20s\ufe21ivilizat\ufe20s\ufe21ii\u0306 zemli",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785898730024,
+    "t": "\u0422\u0435\u043e\u0440\u0438\u044f \u043c\u043e\u0434\u0435\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f \u0438 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u043c\u0438 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u0430\u043c\u0438 : \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0430, \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u0435, \u043f\u0440\u0438\u043c\u0435\u043d\u0435\u043d\u0438\u0435",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785898730048,
+    "t": "\u041c\u0435\u0436\u0432\u0443\u0437\u043e\u0432\u0441\u043a\u0438\u0439 \u0442\u0435\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0441\u0431\u043e\u0440\u043d\u0438\u043a \u043d\u0430\u0443\u0447\u043d\u044b\u0445 \u0442\u0440\u0443\u0434\u043e\u0432 : \u0441\u043e\u0442\u0441\u0438\u0430\u043b\u044c\u043d\u043e-\u044d\u043a\u043e\u043d\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0438 \u0433\u0443\u043c\u0430\u043d\u0438\u0442\u0430\u0440\u043d\u044b\u0435 \u043d\u0430\u0443\u043a\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785898730048,
+    "t": "Sot\ufe20s\ufe21ial\u02b9no-e\u0307konomicheskie i gumanitarnye nauki",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785898730161,
+    "t": "\u042d\u043a\u043e\u043d\u043e\u043c\u0438\u043a\u0430, \u044d\u043a\u043e\u043b\u043e\u0433\u0438\u044f, \u044d\u043d\u0435\u0440\u0433\u0435\u0442\u0438\u043a\u0430 : \u0441\u0438\u043d\u0435\u0440\u0433\u0438\u0437\u043c \u0442\u0440\u0438\u0435\u0434\u0438\u043d\u0441\u0442\u0432\u0430 : \u043c\u043e\u043d\u043e\u0433\u0440\u0430\u0444\u0438\u044f",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785898730291,
+    "t": "\u0417\u0430\u0449\u0438\u0442\u043d\u044b\u0435 \u043c\u0435\u0440\u044b \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438 \u043d\u0435\u0444\u0442\u0435\u0445\u0438\u043c\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u043f\u0440\u0435\u0434\u043f\u0440\u0438\u044f\u0442\u0438\u0439 : \u043c\u043e\u043d\u043e\u0433\u0440\u0430\u0444\u0438\u044f",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785898730307,
+    "t": "Nadezhnost\u02b9 zubchatykh peredach",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785898730369,
+    "t": "\u041d\u0435\u043e\u0440\u0433\u0430\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043f\u043e\u043b\u0438\u043c\u0435\u0440\u043d\u044b\u0435 \u0432\u0435\u0449\u0435\u0441\u0442\u0432\u0430 \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b : \u0431\u0435\u0437\u0443\u0433\u043b\u0435\u0440\u043e\u0434\u043d\u044b\u0435 \u043c\u0430\u043a\u0440\u043e\u043c\u043e\u043b\u0435\u043a\u0443\u043b\u044b \u0438 \u043f\u043e\u043b\u0438\u043c\u0435\u0440\u044b",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785898731083,
+    "t": "Kompaktnye optiko-e\u0307lektronnye ustroi\u0306stva na osnove svetodiodov l\ufe20o\ufe21kal\u02b9noi\u0306 fizioterapii",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785898731144,
+    "t": "Istorii\ufe20a\ufe21 Chernigovshchiny : s drevnei\u0306shikh vremen do serediny XIII veka",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785898731144,
+    "t": "Istorija C\u030cernigovs\u030cc\u030ciny : (s drevnejs\u030cich vremen do serediny XII v.)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785898731670,
+    "t": "\u041d\u0435\u043e\u043b\u043e\u0433\u0438\u044f \u0432 \u0441\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u043c \u0442\u0430\u0442\u0430\u0440\u0441\u043a\u043e\u043c \u044f\u0437\u044b\u043a\u0435",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785898732042,
+    "t": "Transgranichnye i\ufe20a\ufe21zykovye otnoshenii\ufe20a\ufe21: ocherki politicheskoi\u0306 lingvistiki",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785898732042,
+    "t": "\u0422\u0440\u0430\u043d\u0441\u0433\u0440\u0430\u043d\u0438\u0447\u043d\u044b\u0435 \u044f\u0437\u044b\u043a\u043e\u0432\u044b\u0435 \u043e\u0442\u043d\u043e\u0448\u0435\u043d\u0438\u044f: \u043e\u0447\u0435\u0440\u043a\u0438 \u043f\u043e\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u043b\u0438\u043d\u0433\u0432\u0438\u0441\u0442\u0438\u043a\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785899730665,
+    "t": "Velikie Prazdniki Pravoslavnoi\u0306 T\ufe20S\ufe21erkvi i Velikii\u0306 Post : uchebnoe posobie po anglii\u0306skomu iazyku = Great Feasts of the Orthodox Church and Great Lent : textbook for theological schools",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785900230238,
+    "t": "90 mil\u02b9 do raja",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785900230306,
+    "t": "\u0416\u0435\u043d\u0441\u043a\u0430\u044f \u043f\u0430\u0440\u0442\u0438\u044f : \u0440\u043e\u043c\u0430\u043d",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785900230399,
+    "t": "\u0421\u0435\u0440\u043e\u0433\u043b\u0430\u0437\u0430\u044f \u043c\u0443\u0437\u0430 : \u043f\u043e\u0432\u0435\u0441\u0442\u0438, \u0440\u0430\u0441\u0441\u043a\u0430\u0437\u044b, \u0441\u043a\u0430\u0437\u043a\u0430",
     "h": 1,
     "e": 0
   },
@@ -306,6 +2736,36 @@
     "e": 0
   },
   {
+    "i": 9785900230559,
+    "t": "Vladimir Ovchininskii\u0306, 1939-2002 : zhivopis\u02b9, grafika, illi\ufe20u\ufe21strat\ufe20s\ufe21ii",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785900231044,
+    "t": "\u0413\u043e\u0440\u043d\u044b\u0435 \u0433\u043e\u0432\u043e\u0440\u044b \u0427\u0435\u0447\u043d\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785900231419,
+    "t": "Amal : khar\u02b9zhina stikhash, poemash, gochdarsh",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785900231631,
+    "t": "Vekhi prezidenta: po materialam gazety \u00abVesti Respubliki\u00bb za 2009-i\u0306 god",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785900238012,
+    "t": "\u0415\u0434\u0438\u043d\u0430\u044f \u0438 \u043c\u043d\u043e\u0433\u043e\u043e\u0431\u0440\u0430\u0437\u043d\u0430\u044f : \u043e\u0447\u0435\u0440\u043a\u0438 \u043c\u0438\u0440\u043e\u0432\u043e\u0439 \u0438 \u043e\u0442\u0435\u0447\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0439 \u043a\u0443\u043b\u044c\u0442\u0443\u0440\u044b",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9785900238029,
     "t": "Velenie sud\u02b9by : stikhi",
     "h": 1,
@@ -314,6 +2774,18 @@
   {
     "i": 9785900238289,
     "t": "\u0422\u0435\u043d\u0434\u0435\u043d\u0446\u0438\u0438 \u043e\u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043b\u0435\u043d\u0438\u044f \u043f\u0435\u0434\u0430\u0433\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u0430 \u0432 \u0443\u0447\u0435\u0431\u043d\u043e-\u0432\u043e\u0441\u043f\u0438\u0442\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0445 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0441\u0430\u0445, \u0432 \u0441\u0432\u0435\u0442\u0435 \u043a\u043e\u043d\u0446\u0435\u043f\u0446\u0438\u0438 \u043d\u0435\u043f\u0440\u0435\u0440\u044b\u0432\u043d\u043e\u0433\u043e \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u044f",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785900238715,
+    "t": "Istorii\ufe20a\ufe21 pravoslavnoi\u0306 kul\u02b9tury zemli Smolenskoi\u0306 : uchebnoe posobie dli\ufe20a\ufe21 osnovnoi\u0306 i starshei\u0306 stupenei\u0306 obshcheobrazovatel\u02b9nykh shkol, lit\ufe20s\ufe21eev, gimnazii\u0306",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785900731032,
+    "t": "\u041a\u043e\u043b\u043b\u0438\u0437\u0438\u0438 \u0432 \u0443\u0433\u043e\u043b\u043e\u0432\u043d\u043e\u043c \u043f\u0440\u0430\u0432\u0435",
     "h": 1,
     "e": 0
   },
@@ -334,5 +2806,1277 @@
     "t": "\u041f\u0430\u0440\u0430\u0434\u0438\u0437-\u0421\u0438\u0442\u0438 : \u0434\u0435\u0442\u0435\u043a\u0442\u0438\u0432\u043d\u044b\u0435 \u0440\u043e\u043c\u0430\u043d\u044b",
     "h": 1,
     "e": 0
+  },
+  {
+    "i": 9785900732220,
+    "t": "\u0420\u0435\u0444\u0435\u0440\u0430\u0442\u044b \u0434\u043b\u044f \u0441\u0442\u0443\u0434\u0435\u043d\u0442\u043e\u0432 \u0432\u044b\u0441\u0448\u0438\u0445 \u0443\u0447\u0435\u0431\u043d\u044b\u0445 \u0437\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u0439 \u0438 \u043a\u043e\u043b\u043b\u0435\u0434\u0436\u0435\u0439. \u0418\u0441\u0442\u043e\u0440\u0438\u044f",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785900736044,
+    "t": "Nemeckij jazyk v gimnazii (kak vtoroj jazyk) ; metodic\u030ceskie rekomendacii i razrabotki urokov po kursu obuc\u030cenija metodom \"Slajding\"",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785900736167,
+    "t": "\u041c\u0438\u0440\u043e\u0437\u0434\u0430\u043d\u0438\u0435 : \u043c\u0438\u0440 \u043f\u0440\u043e\u044f\u0432\u043b\u0435\u043d\u043d\u044b\u0439 \u0438 \u043d\u0435\u043f\u0440\u043e\u044f\u0432\u043b\u0435\u043d\u043d\u044b\u0439 : \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u043e-\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0441\u0442\u0440\u043e\u0435\u043d\u0438\u0435 \u0432\u0441\u0435\u043b\u0435\u043d\u043d\u043e\u0439 \u0438 \u0437\u0430\u043a\u043e\u043d\u044b \u043d\u0435\u0439\u0440\u043e\u043a\u043e\u0441\u043c\u043e\u0433\u0435\u043d\u0435\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0432\u0437\u0430\u0438\u043c\u043e\u0441\u0432\u044f\u0437\u0438 \u0447\u0435\u043b\u043e\u0432\u0435\u043a\u0430 \u0438 \u043a\u043e\u0441\u043c\u043e\u043f\u043b\u0430\u043d\u0435\u0442\u0430\u0440\u043d\u043e\u0433\u043e \u043c\u0438\u0440\u0430 : \u043a\u043d\u0438\u0433\u0430 1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785900737010,
+    "t": "Bazy dannykh Rossii : katalog, vypusk 8 : v dvukh tomakh : sistematicheskii\u0306 ukazatel\u02b9 baz dannykh",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785900739069,
+    "t": "\u041f\u043e\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0441\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0441\u0442\u0438 : \u043f\u043e\u0441\u043e\u0431\u0438\u0435",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785901230015,
+    "t": "\u0427\u0443\u0434\u0435\u0441 \u043f\u0430\u043b\u0430\u0442\u0430 : \u0440\u0430\u0441\u0441\u043a\u0430\u0437\u044b \u043e \u041a\u0443\u043d\u0441\u0442\u043a\u0430\u043c\u0435\u0440\u0435 \u0434\u043b\u044f \u0448\u043a\u043e\u043b\u044c\u043d\u0438\u043a\u043e\u0432",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785901231128,
+    "t": "Veteranskij polk",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785901238462,
+    "t": "\u0413\u0430\u0437\u0435\u0442\u0430 \u0443\u0441\u043f\u0435\u0445\u0430 : \u043a\u0430\u043a \u043f\u043e\u0432\u044b\u0441\u0438\u0442\u044c \u044d\u0444\u0444\u0435\u043a\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u044c \u0440\u0435\u0434\u0430\u043a\u0442\u043e\u0440\u0430 \u0438 \u0436\u0443\u0440\u043d\u0430\u043b\u0438\u0441\u0442\u0430 : \u043a\u043d\u0438\u0433\u0430 \u0443\u0434\u043e\u0441\u0442\u043e\u0435\u043d\u0430 \u043f\u0440\u0435\u043c\u0438\u0438 \u0421\u043e\u044e\u0437\u0430 \u0436\u0443\u0440\u043d\u0430\u043b\u0438\u0441\u0442\u043e\u0432 \u0420\u043e\u0441\u0441\u0438\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785901238479,
+    "t": "Atlas municipal\u00b7noj pressy Rossijskoj Federacii",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785901238523,
+    "t": "Elem Klimov : nesnjatoe kino, scenarii, interv\u02b9ju, vospominanija",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785901238523,
+    "t": "Nesniatoe kino : stsenarii : Vymysly : Preobrazhenie : interviu, vospominaniia",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785901732014,
+    "t": "\u042f \u043f\u043e\u0441\u044b\u043b\u0430\u044e \u0433\u043e\u043b\u043e\u0441 \u0441\u0432\u043e\u0439",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785901737132,
+    "t": "\u0421\u043e\u0446\u0438\u0430\u043b\u044c\u043d\u0430\u044f \u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0441\u0442\u044c \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0439 ; \u042d\u0444\u0444\u0435\u043a\u0442\u0438\u0432\u043d\u044b\u0435 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0438 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0441\u043e\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u043c\u0438 \u0438\u043d\u0432\u0435\u0441\u0442\u0438\u0446\u0438\u044f\u043c\u0438 : \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u043e\u0439 \u043a\u043e\u043d\u0444\u0435\u0440\u0435\u043d\u0446\u0438\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785901739013,
+    "t": "\u041b\u0435\u0441\u043d\u043e\u0439 \u0440\u043e\u0434\u043d\u0438\u043a : \u0441\u0442\u0438\u0445\u0438 \u043b\u0435\u0441\u043d\u0438\u043a\u043e\u0432",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785901739433,
+    "t": "Unknown Title",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785902236191,
+    "t": "\"Nevki\" : e\u0307skadrennye minonost\ufe20s\ufe21y tipa \"Bui\u0306nyi\u0306\" i ego modifikat\ufe20s\ufe21ii",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785902236290,
+    "t": "\u0422\u0440\u0438 \u0441\u0435\u0441\u0442\u0440\u044b \u0411\u0435\u043b\u043e\u043c\u043e\u0440\u0441\u043a\u043e\u0439 \u0444\u043b\u043e\u0442\u0438\u043b\u0438\u0438 : \u0432\u043e\u0435\u043d\u043d\u043e-\u0438\u0441\u0442\u043e\u0440\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043e\u0447\u0435\u0440\u043a\u0438",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785902236320,
+    "t": "\u041c\u043e\u0440\u0441\u043a\u0430\u044f \u043f\u043e\u043b\u0438\u0442\u0438\u043a\u0430 \u0420\u043e\u0441\u0441\u0438\u0438 80-\u0445 \u0433\u043e\u0434\u043e\u0432 XIX \u0432\u0435\u043a\u0430",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785902236368,
+    "t": "\u041c\u043e\u0440\u0441\u043a\u0430\u044f \u043c\u0438\u043d\u043d\u0430\u044f \u0432\u043e\u0439\u043d\u0430 \u0443 \u041f\u043e\u0440\u0442\u0430-\u0410\u0440\u0442\u0443\u0440\u0430 : \u043c\u0438\u043d\u043d\u044b\u0435 \u0438 \u043f\u0440\u043e\u0442\u0438\u0432\u043e\u043c\u0438\u043d\u043d\u044b\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f \u0440\u0443\u0441\u0441\u043a\u043e\u0433\u043e \u0444\u043b\u043e\u0442\u0430 \u043f\u0440\u0438 \u043e\u0431\u043e\u0440\u043e\u043d\u0435 \u041f\u043e\u0440\u0442-\u0410\u0440\u0442\u0443\u0440\u0430 \u0432 1904 \u0433.",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785902236894,
+    "t": "\u041a\u0440\u0435\u0439\u0441\u0435\u0440 I \u0440\u0430\u043d\u0433\u0430 \"\u0420\u044e\u0440\u0438\u043a\"",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785902238027,
+    "t": "\u0418\u044e\u043b\u044c",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785902238065,
+    "t": "\u041f\u0440\u043e\u0431\u043b\u0435\u043c\u044b \u043f\u0441\u0438\u0445\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u044f \u0438 \u0430\u0434\u0430\u043f\u0442\u0430\u0446\u0438\u0438 \u043b\u0438\u0447\u043d\u043e\u0441\u0442\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785903232062,
+    "t": "\u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u0430\u044f \u0441\u043b\u0443\u0436\u0431\u0430 \u0432\u0440\u0435\u043c\u0435\u043d\u0438, \u0447\u0430\u0441\u0442\u043e\u0442\u044b \u0438 \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u044f \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u043e\u0432 \u0432\u0440\u0430\u0449\u0435\u043d\u0438\u044f \u0437\u0435\u043c\u043b\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785903233175,
+    "t": "K pol'ze i slave Rossii : Russkaia armiia v proizvedeniiakh khudozhnikov i skul'ptorov ofitserov XIX {u2013} nachala XX vv",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785903235070,
+    "t": "\u041a\u043e\u043d\u0441\u0442\u0438\u0442\u0443\u0446\u0438\u043e\u043d\u043d\u044b\u0439 \u0441\u0443\u0434 \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0438 \u0422\u0430\u0442\u0430\u0440\u0441\u0442\u0430\u043d : \u043f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f, \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u044f, 2001-2010",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785903736027,
+    "t": "\u0423\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u0438 \u043e\u0431\u0449\u0435\u0441\u0442\u0432\u043e : \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b III \u0412\u0441\u0435\u0440\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u043e\u0439 \u043d\u0430\u0443\u0447\u043d\u043e-\u043f\u0440\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u043a\u043e\u043d\u0444\u0435\u0440\u0435\u043d\u0446\u0438\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785903738205,
+    "t": "\u0423\u0441\u043f\u0435\u0442\u044c \u0443\u0432\u0438\u0434\u0435\u0442\u044c \u043f\u0440\u043e\u0448\u043b\u043e\u0435 : \u0438\u0437 \u0438\u0441\u0442\u043e\u0440\u0438\u0438 \u0437\u0434\u0440\u0430\u0432\u043e\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f \u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u0441\u043a\u043e\u0433\u043e \u043a\u0440\u0430\u044f",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785903738236,
+    "t": "Krovnai\ufe20a\ufe21 mest\u02b9: vnepravovoi\u0306 obychai\u0306 i gosudarstvenno-pravovai\ufe20a\ufe21 politika",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785903738236,
+    "t": "\u041a\u0440\u043e\u0432\u043d\u0430\u044f \u043c\u0435\u0441\u0442\u044c: \u0432\u043d\u0435\u043f\u0440\u0430\u0432\u043e\u0432\u043e\u0439 \u043e\u0431\u044b\u0447\u0430\u0439 \u0438 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e-\u043f\u0440\u0430\u0432\u043e\u0432\u0430\u044f \u043f\u043e\u043b\u0438\u0442\u0438\u043a\u0430",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785903739059,
+    "t": "\u0422\u0435\u043e\u0440\u0438\u044f \u0438 \u043f\u0440\u0430\u043a\u0442\u0438\u043a\u0430 \u0438\u043d\u0441\u0442\u0438\u0442\u0443\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u044f : \u043a\u043e\u043b\u043b\u0435\u043a\u0442\u0438\u0432\u043d\u0430\u044f \u043c\u043e\u043d\u043e\u0433\u0440\u0430\u0444\u0438\u044f",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785903739325,
+    "t": "Rimma Kamkina : perom i kisti\u0361u: al\u02b9bom /c[sostavitel\u02b9, avtor vstupitel\u02b9no\u012d stat\u02b9i, G.E. Luzi\u0361anina ; fotografii, D.A. Bulygin, V.P. Grit\u0361senko]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785904234225,
+    "t": "\u041f\u043e\u0441\u0442\u0440\u043e\u0435\u043d\u0438\u0435 \u043e\u043f\u0442\u0438\u043c\u0430\u043b\u044c\u043d\u043e\u0439 \u0441\u0435\u0440\u0438\u0438 \u043c\u043e\u0441\u0442\u043e\u0432\u044b\u0445 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0439",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785904239220,
+    "t": "Politic\u030ceskie repressii v SSSR : uc\u030cebnoe posobie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785904735173,
+    "t": "\u041b\u0435\u043a\u0441\u0438\u043a\u043e\u0433\u0440\u0430\u0444\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u0438 \u043c\u0435\u0442\u043e\u0434\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043d\u0430\u0441\u043b\u0435\u0434\u0438\u0435 \u0442\u0430\u0442\u0430\u0440\u0441\u043a\u043e\u0433\u043e \u044f\u0437\u044b\u043a\u0430 (XIX \u0432\u0435\u043a) : [u\u010deb. posobie]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785904735869,
+    "t": "I\ufe20U\ufe21galgan e\u0307zla\u0306r : Roman = Poteri\ufe20a\ufe21nnye sledy (na tatarskom i\ufe20a\ufe21zyke)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785904737467,
+    "t": "\u041a\u0442\u043e \u0442\u0430\u043a\u0438\u0435 \u0430\u043d\u0433\u0435\u043b\u044b?",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785905233067,
+    "t": "\u041c\u0435\u0431\u0435\u043b\u044c. \u0420\u0443\u0441\u0441\u043a\u0430\u044f \u043a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f : \u044d\u043d\u0446\u0438\u043a\u043b\u043e\u043f\u0435\u0434\u0438\u044f : \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u043e\u0440\u044b, \u0434\u0438\u0437\u0430\u0439\u043d\u0435\u0440\u044b, \u0445\u0443\u0434\u043e\u0436\u043d\u0438\u043a\u0438, \u043c\u0430\u0441\u0442\u0435\u0440\u0430, \u0441\u0442\u043e\u043b\u044f\u0440\u044b, \u043c\u0435\u0431\u0435\u043b\u044c, \u043f\u0440\u0435\u0434\u043c\u0435\u0442\u044b \u043e\u0431\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0438, \u0444\u0438\u0440\u043c\u044b, \u043c\u0430\u043d\u0443\u0444\u0430\u043a\u0442\u0443\u0440\u044b, \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u0430, \u0441\u0442\u043e\u043b\u044f\u0440\u043d\u044b\u0435 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u043a\u0438\u0435 \u043d\u0430 \u0432\u0441\u0435\u0439 \u0442\u0435\u0440\u0440\u0438\u0442\u043e\u0440\u0438\u0438 \u0431\u044b\u0432\u0448\u0435\u0439 \u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u043e\u0439 \u0438\u043c\u043f\u0435\u0440\u0438\u0438, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u0426\u0430\u0440\u0441\u0442\u0432\u043e \u041f\u043e\u043b\u044c\u0441\u043a\u043e\u0435 \u0438 \u0412\u0435\u043b\u0438\u043a\u043e\u0435 \u041a\u043d\u044f\u0436\u0435\u0441\u0442\u0432\u043e \u0424\u0438\u043d\u043b\u044f\u043d\u0434\u0441\u043a\u043e\u0435 ..",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785905730191,
+    "t": "\u0427\u0443\u0434\u0435\u0441\u0430 \u043d\u0435 \u043f\u043e\u043d\u0430\u0440\u043e\u0448\u043a\u0443",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785905735035,
+    "t": "\"\u0412\u0435\u043b\u0438\u043a\u043e\u0435 \u0443\u0447\u0435\u043d\u0438\u0435\" \u0438 \u0443\u0447\u0435\u043d\u0438\u044f \u0432\u0435\u043b\u0438\u043a\u0438\u0445 \u043a\u043e\u043d\u0444\u0443\u0446\u0438\u0430\u043d\u0446\u0435\u0432",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785906233844,
+    "t": "\u0414\u043e\u0440\u043e\u0433\u0438 \u0444\u0440\u043e\u043d\u0442\u043e\u0432\u044b\u0435 ... : \u0432\u043e\u0441\u043f\u043e\u043c\u0438\u043d\u0430\u043d\u0438\u044f \u043e \u0424\u0438\u043d\u0441\u043a\u043e\u0439 \u0438 \u0412\u0435\u043b\u0438\u043a\u043e\u0439 \u041e\u0442\u0435\u0447\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0439 \u0432\u043e\u0439\u043d\u0435 \u0432 \u0432\u043e\u043f\u0440\u043e\u0441\u0430\u0445 \u0438 \u043e\u0442\u0432\u0435\u0442\u0430\u0445",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785906739117,
+    "t": "\u0420\u0435\u043b\u0438\u0433\u0438\u043e\u0437\u043d\u044b\u0435 \u0432\u0435\u0440\u043e\u0432\u0430\u043d\u0438\u044f \u043d\u0430\u0440\u043e\u0434\u043e\u0432 \u042e\u0436\u043d\u043e\u0439 \u0421\u0438\u0431\u0438\u0440\u0438 \u0438 \u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u043e\u0439 \u0410\u0437\u0438\u0438 : \u0443\u0447\u0435\u0431\u043d\u043e-\u043c\u0435\u0442\u043e\u0434\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0441 \u043f\u043e \u0434\u0438\u0441\u0442\u0441\u0438\u043f\u043b\u0438\u043d\u0435 : \u043a\u0443\u0440\u0441 \u043b\u0435\u043a\u0446\u0438\u0439",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785911730222,
+    "t": "\u041c\u0430\u043b\u044c\u0447\u0438\u043a \u0431\u0435\u0437 \u0448\u043f\u0430\u0433\u0438 : [\u043f\u043e\u0432\u0435\u0441\u0442\u0438]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785913730275,
+    "t": "Les russes de Paris : le catalogue de l'exposition, le 21 mars - le 20 mai 2010, Kournikova Gallery = \"Pariz\u030cac\u030c\u02b9i\"",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785913730466,
+    "t": "Evgene Onegin : Pyotr Tchaikovsky's opera",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785914230507,
+    "t": "\u0418\u043d\u0441\u0442\u0438\u0442\u0443\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e-\u044d\u043a\u043e\u043d\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043e\u0441\u043d\u043e\u0432\u0430\u043d\u0438\u044f \u0441\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u0438 \u0440\u0430\u0437\u0432\u0438\u0442\u0438\u044f \u0420\u043e\u0441\u0441\u0438\u0438 : \u0421\u0431\u043e\u0440\u043d\u0438\u043a \u0440\u0430\u0431\u043e\u0442 X \u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u043e\u0438\u0306 \u043d\u0430\u0443\u0447\u043d\u043e-\u043f\u0440\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0438\u0306 \u0438\u043d\u0442\u0435\u0440\u043d\u0435\u0442-\u043a\u043e\u043d\u0444\u0435\u0440\u0435\u043d\u0446\u0438\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785915230018,
+    "t": "13AL Thirteenth element Encyclopedia",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785915730259,
+    "t": "Istoric\u030ceskie predposylki perestrojki v SSSR 1946-1985 gg.",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785916730142,
+    "t": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433 : 2008-2009",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785916730395,
+    "t": "\u0412\u0441\u0435\u043c\u0438\u0440\u043d\u0430\u044f \u0438\u0441\u0442\u043e\u0440\u0438\u044f \u0432 \u0442\u0430\u0431\u043b\u0438\u0446\u0430\u0445 \u0438 \u0441\u0445\u0435\u043c\u0430\u0445",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785916732573,
+    "t": "\u041f\u0430\u0448\u0430 - \u0440\u0430\u0438\u0306\u043e\u043d \u043f\u0440\u0438\u0444\u0440\u043e\u043d\u0442\u043e\u0432\u043e\u0438\u0306",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785928730475,
+    "t": "\u041f\u0440\u043e\u043c\u0430\u0445 \u0433\u0440\u0430\u0436\u0434\u0430\u043d\u0438\u043d\u0430 \u041b\u043e\u0448\u0430\u043a\u043e\u0432\u0430",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785928731755,
+    "t": "\u0415\u0445\u0430\u043b \u0434\u043e\u0436\u0434\u044c \u0432 \u043a\u043e\u043c\u0430\u043d\u0434\u0438\u0440\u043e\u0432\u043a\u0443",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785931230078,
+    "t": "Marina Allendorf : katalog : zhivopis\u02b9, grafika, teatr",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785931230092,
+    "t": "Velikie Imperatory Evropy : Napoleon I i Aleksandr I",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785932230107,
+    "t": "\u041a\u043b\u044e\u0447 \u043a \u0442\u0430\u0439\u043d\u0430\u043c \u043d\u0430\u0440\u043a\u043e\u043c\u0430\u043d\u0438\u0438",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785932730034,
+    "t": "Dokumenty sobrannye Evrei\u0306skoi\u0306 istoriko-arkheograficheskoi\u0306 komissiei\u0306 Vseukrainskoi\u0306 akademii nauk",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785932730058,
+    "t": "Evrei Leningrada : 1917-1939 : nat\ufe20\ufe21sional\u02b9nai\ufe20a\ufe21 zhizn\u02b9 i sovetizat\ufe20\ufe21si\ufe20ia\ufe21",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785932730072,
+    "t": "Puti evrei\u0306skogo samosoznani\ufe20ia\ufe21 : Vasilii\u0306 Grossman, Izrail\u02b9 Metter, Boris I\ufe20A\ufe21mpol\u02b9skii\u0306, Ruf\u02b9 Zernova",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785932730133,
+    "t": "Vvedenie v Tanakh",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785932730287,
+    "t": "Volk i semero kozljat",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785932730317,
+    "t": "C\u030cajka : komedija i ee prodolz\u030cenie : komedija v c\u030cetyrech dejstvijach. C\u030cajka : komedija v dvuch dejstvijach",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785932730485,
+    "t": "Al\u02b9bom evrei\u0306skoi\u0306 khudozhestvennoi\u0306 stariny Semena An-skogo",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785932730591,
+    "t": "Pisma Ioni : portret geroia",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785932730621,
+    "t": "Evrei\u0306skii\u0306 mir v pochtovykh otkrytkakh",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785932730720,
+    "t": "Biblija i sovremennoe literaturovedenie : metod celostnoj interpretacii",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785932730843,
+    "t": "Prostranstvo i vremja Tanacha",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785932730850,
+    "t": "Nashe nasledstvo : sinagogi SNG v proshlom i nasto\ufe20ia\ufe21shchem",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785932730935,
+    "t": "\u0410\u043d\u0442\u0440\u043e\u043f\u043e\u043b\u043e\u0433\u0438\u044f \u043d\u0430 \u043f\u043e\u0440\u043e\u0433\u0435 III \u0442\u044b\u0441\u044f\u0447\u0435\u043b\u0435\u0442\u0438\u044f : \u0438\u0442\u043e\u0433\u0438 \u0438 \u043f\u0435\u0440\u0441\u043f\u0435\u043a\u0442\u0438\u0432\u044b : \u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u0430\u044f \u043a\u043e\u043d\u0444\u0435\u0440\u0435\u043d\u0446\u0438\u044f : \u0441\u0431\u043e\u0440\u043d\u0438\u043a \u0442\u0435\u0437\u0438\u0441\u043e\u0432",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785932730935,
+    "t": "\u0410\u043d\u0442\u0440\u043e\u043f\u043e\u043b\u043e\u0433\u0438\u044f \u043d\u0430 \u043f\u043e\u0440\u043e\u0433\u0435 III \u0442\u044b\u0441\u044f\u0447\u0435\u043b\u0435\u0442\u0438\u044f : \u0438\u0442\u043e\u0433\u0438 \u0438 \u043f\u0435\u0440\u0441\u043f\u0435\u043a\u0442\u0438\u0432\u044b : \u043c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u0430\u044f \u043a\u043e\u043d\u0444\u0435\u0440\u0435\u043d\u0446\u0438\u044f : \u0441\u0431\u043e\u0440\u043d\u0438\u043a \u0442\u0435\u0437\u0438\u0441\u043e\u0432",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785932730966,
+    "t": "Numerolgii\ufe20a\ufe21 : ognennye bukvy",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785932730973,
+    "t": "Istorija rossijskich evreev",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785932731024,
+    "t": "Vyverit\u02b9 pri\ufe20t\ufe21sel : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785932731109,
+    "t": "Proroki",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785932731192,
+    "t": "Krepost\u00b7 nad bezdnoj / 1 Terezinskie dnevniki : 1942-1945",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785932731307,
+    "t": "The artists of the Kultur-Lige",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785932731338,
+    "t": "Evrei v sovremennom mire / 1",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785932731901,
+    "t": "Sholom-aleikhem : rasskazy dlia detei",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785932731963,
+    "t": "Khazary",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785932731994,
+    "t": "Pisanija",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785932732212,
+    "t": "Kniga vremen i sobytij. 5, Istorija evreev Sovetskogo Sojuza (1941-1945)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785932732229,
+    "t": "Istorija evrejskogo naroda na Vostoke : [v 3 t.]. 1 Drevnejs\u030caja istorija: ot vozniknovenija Izrailja do konca pers. vladyc\u030cestva v Iudee",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785932732229,
+    "t": "Istorija evrejskogo naroda na Vostoke : [v 3 t.] / 1 Drevnejs\u030caja istorija : ot vozniknovenija Izrailja do konca persidskogo vladyc\u030cestva v Iudee",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785932732403,
+    "t": "\u0418\u0441\u0445\u043e\u0434 \u0438\u0437 \u0433\u0435\u0442\u0442\u043e : \u0441\u043e\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442 \u044d\u043c\u0430\u043d\u0441\u0438\u043f\u0430\u0446\u0438\u0438 \u0435\u0432\u0440\u0435\u0435\u0432, 1770-1870",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785932733813,
+    "t": "Peizazhnaia zhivopis' Petra Gluzberga : razvivaia traditsii frantsuzskoi plenernoi shkoly v Izraile",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785932733875,
+    "t": "\u0412\u043f\u0435\u0447\u0430\u0442\u043b\u0435\u043d\u0438\u044f \u0445\u0443\u0434\u043e\u0436\u043d\u0438\u043a\u0430 : \u0433\u0440\u0430\u043d\u0438 \u0442\u0430\u043b\u0430\u043d\u0442\u0430 \u0436\u0438\u0432\u043e\u043f\u0438\u0441\u0446\u0430 \u0410\u0440\u043a\u0430\u0434\u0438\u044f \u041b\u0438\u0432\u0448\u0438\u0446\u0430",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785932733905,
+    "t": "Barukh El'ron - khudozhnik-filosof",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785932735152,
+    "t": "\u041a\u0440\u0430\u0441\u043d\u043e\u0435, \u0431\u0435\u043b\u043e\u0435 \u0438 \u0431\u0435\u043b\u043e-\u0433\u043e\u043b\u0443\u0431\u043e\u0435",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785933230090,
+    "t": "Kak ne proigrat\u02b9 na finansovykh rynkakh",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785936730047,
+    "t": "Novei\u0306shii\u0306 anglo-russkii\u0306 tolkovyi\u0306 slovar\u02b9 po sovremennoi\u0306 e\u0307lektronnoi\u0306 tekhnike. Okolo 8000 terminov, 5500 slovarnykh statei\u0306",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785938230019,
+    "t": "Podgotovitel\u02b9nai\ufe20a\ufe21 stadii\ufe20a\ufe21 osadochnogo margant\ufe20s\ufe21evorudnogo prot\ufe20s\ufe21essa = A pre-stage of sedimentary manganese ore process",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785940230014,
+    "t": "\u041c\u0435\u043b\u043e\u0434\u0438\u0438 \u0434\u0443\u0448\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785940230083,
+    "t": "\u0424\u043e\u0440\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0437\u0440\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0433\u043e \u043e\u0431\u0440\u0430\u0437\u0430 \u0432\u043e\u0441\u043f\u0440\u0438\u044f\u0442\u0438\u044f \u0432 \u0443\u0441\u043b\u043e\u0432\u0438\u044f\u0445 \u0440\u0438\u0441\u043a\u0430",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785940230090,
+    "t": "\u041f\u044c\u0435\u0441\u044b \u0432\u043e\u0441\u043a\u0440\u0435\u0441\u043d\u043e\u0433\u043e \u0442\u0435\u0430\u0442\u0440\u0430",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785940230113,
+    "t": "Sibirskij s\u030cc\u030cit : stanovlenie sibirskogo voinstva i voennye dejateli Sibiri",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785940230151,
+    "t": "\u041f\u043e \u0445\u043e\u0434\u0443 \u0436\u0438\u0437\u043d\u0438 : \u0440\u0430\u0441\u0441\u043a\u0430\u0437\u044b, \u0441\u0442\u0438\u0445\u0438, \u0431\u0430\u0441\u043d\u0438, \u044e\u043c\u043e\u0440\u0435\u0441\u043a\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785940230373,
+    "t": "\u041c\u043e\u0442\u0438\u0432\u0430\u0446\u0438\u044f \u0438 \u043f\u0441\u0438\u0445\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043c\u0435\u0445\u0430\u043d\u0438\u0437\u043c\u044b \u0435\u0435 \u0444\u043e\u0440\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785940230427,
+    "t": "Chernyi\u0306 chetverg nad Chernym morem chetvertogo okti\ufe20a\ufe21bri\ufe20a\ufe21 2001 goda",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785940230434,
+    "t": "\u041e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u044f \u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0441\u043a\u043e\u0439 \u043f\u043e\u043c\u043e\u0449\u0438 \u0431\u043e\u043b\u044c\u043d\u044b\u043c \u0441 \u0445\u0440\u043e\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u043c\u0438 \u0431\u043e\u043b\u0435\u0432\u044b\u043c\u0438 \u0441\u0438\u043d\u0434\u0440\u043e\u043c\u0430\u043c\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785940230571,
+    "t": "\u042d\u043f\u0438\u0434\u0435\u043c\u0438\u043e\u043b\u043e\u0433\u0438\u044f \u0442\u0443\u0431\u0435\u0440\u043a\u0443\u043b\u0435\u0437\u0430 \u0438 \u0434\u0438\u0441\u043f\u0430\u043d\u0441\u0435\u0440\u0438\u0437\u0430\u0446\u0438\u044f \u043d\u0430\u0441\u0435\u043b\u0435\u043d\u0438\u044f : \u043c\u043e\u043d\u043e\u0433\u0440\u0430\u0444\u0438\u044f",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785940230762,
+    "t": "Kliniko-morfologicheskie aspekty obshchepatologicheskikh prot\ufe20s\ufe21essov pri sot\ufe20s\ufe21ial\u02b9no-znachimykh zabolevanii\ufe20a\ufe21kh : Vserossii\u0306skai\ufe20a\ufe21 nauchno-prakticheskai\ufe20a\ufe21 konferent\ufe20s\ufe21ii\ufe20a\ufe21 s mezhdunarodnym uchastiem, posvi\ufe20a\ufe21shchennai\ufe20a\ufe21 pami\ufe20a\ufe21ti professora I\ufe20U\ufe21.G. T\ufe20s\ufe21ellariusa",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785940231110,
+    "t": "Cherez prizmu vremeni : istoriia Novosibirskogo priborostroitelnogo zavoda imeni Lenina v vospominaniikh : 65 let na sibirskoi zemle, 1941-2006 gg",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785940730026,
+    "t": "\u0421\u0435\u0431\u0435\u0441\u0442\u043e\u0438\u043c\u043e\u0441\u0442\u044c \u0432 \u0431\u0430\u043d\u043a\u0430\u0445 : \u0441\u0431\u043e\u0440\u043d\u0438\u043a \u043d\u043e\u0440\u043c\u0430\u0442\u0438\u0432\u043d\u044b\u0445 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u0432",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785940730033,
+    "t": "\u041f\u0438\u043b\u043e\u0440\u0443\u0441\u043c\u043e\u0434\u0435\u043b\u0438\u0440\u0443\u044e\u0449\u0438\u0435 \u0438 \u043f\u0438\u043b\u043e\u0440\u0443\u0441\u0441\u043e\u0445\u0440\u0430\u043d\u044f\u044e\u0449\u0438\u0435 \u0440\u0435\u0437\u0435\u043a\u0446\u0438\u0438 \u0436\u0435\u043b\u0443\u0434\u043a\u0430",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785940730071,
+    "t": "\u041f\u0440\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0444\u0438\u043b\u043e\u0441\u043e\u0444\u0438\u044f",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785940730101,
+    "t": "\u0418\u043d\u0432\u0435\u0441\u0442\u0438\u0446\u0438\u043e\u043d\u043d\u044b\u0435 \u043c\u0435\u0445\u0430\u043d\u0438\u0437\u043c\u044b \u0432 \u0440\u0435\u0430\u043b\u044c\u043d\u043e\u0439 \u044d\u043a\u043e\u043d\u043e\u043c\u0438\u043a\u0435",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785940730163,
+    "t": "Oshibki i perekosy kategorial\u02b9nogo myshlenii\ufe20a\ufe21",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785940730163,
+    "t": "Oshibki i perekosy kategorial\u02b9nogo myshlenii\ufe20a\ufe21",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785940730200,
+    "t": "Psikhologii\ufe20a\ufe21 operativno-rozysknoi\u0306 dei\ufe20a\ufe21tel\u02b9nosti",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785940730323,
+    "t": "\u041f\u0440\u0430\u0432\u043e\u0432\u044b\u0435 \u0438 \u0444\u0438\u043d\u0430\u043d\u0441\u043e\u0432\u044b\u0435 \u043e\u0441\u043d\u043e\u0432\u044b \u0441\u0430\u043c\u043e\u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u043e\u0439 \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u0438 : \u0443\u0447\u0435\u0431\u043d\u043e\u0435 \u043f\u043e\u0441\u043e\u0431\u0438\u0435",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785940730422,
+    "t": "\u0421\u0430\u043c\u043e\u0443\u0447\u0438\u0442\u0435\u043b\u044c \u043f\u043e \u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0437\u0430\u0449\u0438\u0442\u0435 \u0441\u0432\u043e\u0438\u0445 \u0438\u043d\u0442\u0435\u0440\u0435\u0441\u043e\u0432 : \u043f\u043e\u0434\u0440\u043e\u0431\u043d\u044b\u0435 \u0438\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u043d\u0435\u0441\u043f\u0435\u0446\u0438\u0430\u043b\u0438\u0441\u0442\u0430\u043c \u0434\u043b\u044f \u043f\u0440\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0440\u0430\u0431\u043e\u0442\u044b",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785940730484,
+    "t": "\u0420\u0430\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u0435 \u043f\u043e\u0445\u0438\u0449\u0435\u043d\u0438\u044f \u0447\u0435\u043b\u043e\u0432\u0435\u043a\u0430",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785940730651,
+    "t": "Uderzhivai\ufe20u\ufe21shchaa\ufe20 \ufe21t\ufe20s\ufe21istostoma",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785940730729,
+    "t": "\u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044c \u0432 \u0431\u044e\u0434\u0436\u0435\u0442\u043d\u043e\u0439 \u0441\u0444\u0435\u0440\u0435 \u0420\u043e\u0441\u0441\u0438\u0438 \u0438 \u0437\u0430\u0440\u0443\u0431\u0435\u0436\u043d\u044b\u0445 \u0441\u0442\u0440\u0430\u043d",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785940730750,
+    "t": "\u042e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043b\u0438\u0446\u0430, \u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0441\u0442\u044c \u0437\u0430 \u043d\u0430\u0440\u0443\u0448\u0435\u043d\u0438\u0435 \u043e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785940730767,
+    "t": "\u041c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043c\u043e\u0434\u0435\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0433\u0430\u0437\u043e\u0434\u0438\u043d\u0430\u043c\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0432 \u0438 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0430\u043c\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785942230081,
+    "t": "Laureaty Nobelevskoi\u0306 premii v oblasti fiziologii i medit\ufe20s\ufe21iny, 1975-2000",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785942230111,
+    "t": "\u041d\u0435\u044e\u0431\u0438\u043b\u0435\u0439\u043d\u044b\u0435 \u0440\u0430\u0437\u043c\u044b\u0448\u043b\u0435\u043d\u0438\u044f",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785942230142,
+    "t": "\u041f\u0430\u0440\u0430\u0437\u0438\u0442\u0430\u0440\u043d\u044b\u0439 \u043c\u0443\u0442\u0430\u0433\u0435\u043d\u0435\u0437",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785942230159,
+    "t": "\u0414\u0435\u0441\u044f\u0442\u044c \u043b\u0435\u0442 \u0432 \u0421\u043e\u0434\u0440\u0443\u0436\u0435\u0441\u0442\u0432\u0435 \u041d\u0435\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u044b\u0445 \u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432 : \u043a\u0440\u0430\u0442\u043a\u0438\u0439 \u0438\u0441\u0442\u043e\u0440\u0438\u043a\u043e-\u044d\u043a\u043e\u043d\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043e\u0447\u0435\u0440\u043a",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785942230166,
+    "t": "\u041f\u0440\u043e\u0446\u0435\u0441\u0441\u044b \u0440\u0435\u0444\u043e\u0440\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f \u0440\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u043e\u0439 \u044d\u043a\u043e\u043d\u043e\u043c\u0438\u043a\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785942230210,
+    "t": "\u042d\u043f\u043e\u043d\u0438\u043c\u044b \u0432 \u043e\u043d\u043a\u043e\u043b\u043e\u0433\u0438\u0438 \u0438 \u043e\u043d\u043a\u043e\u0433\u0435\u043c\u0430\u0442\u043e\u043b\u043e\u0433\u0438\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785942230241,
+    "t": "\u0420\u0430\u0441\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u0441\u0443\u0434\u044c\u0431\u044b",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785942230296,
+    "t": "Smolenskii\u0306 zavod \"Izmeritel\u02b9\"",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785942230333,
+    "t": "\u0421\u0442\u0438\u0445\u0438 \u0438 \u043f\u0435\u0441\u043d\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785942230449,
+    "t": "\u0422\u0430\u043c, \u0433\u0434\u0435-- : \u0441\u0442\u0438\u0445\u0438, \u043f\u043e\u044d\u043c\u044b",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785942230470,
+    "t": "\u042f \u0431\u0443\u0434\u0443 \u0436\u0434\u0430\u0442\u044c \u0442\u0435\u0431\u044f--",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785942231071,
+    "t": "\u041c\u0443\u0434\u0440\u043e\u0441\u0442\u044c \u043d\u0430\u0440\u043e\u0434\u043e\u0432 \u0412\u043e\u0441\u0442\u043e\u043a\u0430 : \u0441\u0442\u0430\u0440\u0438\u043d\u043d\u044b\u0435 \u043f\u043e\u0441\u043b\u043e\u0432\u0438\u0446\u044b \u0438 \u043f\u043e\u0433\u043e\u0432\u043e\u0440\u043a\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785942231439,
+    "t": "\u041f\u043e\u0431\u0435\u0434\u0438\u0442\u0435\u043b\u0438 : [\u043a\u043e\u043b\u043b\u0435\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0441\u0431\u043e\u0440\u043d\u0438\u043a",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785942231682,
+    "t": "Muzykal\u00b7nye otkrytija Michaila Pletneva : e\u0307tjudy, nabroski, interv\u00b7ju",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785942232290,
+    "t": "\"\u0414\u043e \u0441\u0432\u0438\u0434\u0430\u043d\u0438\u044f, \u0421\u043b\u043e\u0431\u043e\u0434\u0430!\" : \u043e\u0447\u0435\u0440\u043a\u0438 \u0438\u0441\u0442\u043e\u0440\u0438\u0438 \u0421\u043b\u043e\u0431\u043e\u0434\u044b-- \u043f\u043e\u0441. \u041f\u0440\u0436\u0435\u0432\u0430\u043b\u044c\u0441\u043a\u043e\u0435",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785942232306,
+    "t": "\u0417\u043d\u0430\u043a \u0438\u043c\u0435\u043d\u0438 : \u0441\u0431\u043e\u0440\u043d\u0438\u043a",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785942232320,
+    "t": "\u042d\u043a\u043e\u043d\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u044c \u043a\u043e\u0440\u043f\u043e\u0440\u0430\u0442\u0438\u0432\u043d\u044b\u0445 \u043f\u0440\u0435\u0434\u043f\u0440\u0438\u044f\u0442\u0438\u0439 : \u043c\u043e\u043d\u043e\u0433\u0440\u0430\u0444\u0438\u044f",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785942232795,
+    "t": "\u0411\u0435\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0441\u0442\u044c \u0438 \u0440\u043e\u0434\u044b \u0443 \u0436\u0435\u043d\u0449\u0438\u043d \u0441 \u0440\u0443\u0431\u0446\u043e\u043c \u043d\u0430 \u043c\u0430\u0442\u043a\u0435 \u043f\u043e\u0441\u043b\u0435 \u043a\u0435\u0441\u0430\u0440\u0435\u0432\u0430 \u0441\u0435\u0447\u0435\u043d\u0438\u044f",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785942233242,
+    "t": "\u041f\u0440\u0430\u0432\u043e \u0432\u044b\u0431\u043e\u0440\u0430 : \u043f\u043e\u0432\u0435\u0441\u0442\u044c",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785942236557,
+    "t": "\u0416\u0430\u043d\u0440 \u0438 \u043a\u043e\u043c\u043f\u043e\u0437\u0438\u0446\u0438\u044f \u043f\u0440\u043e\u0444\u0435\u0441\u0441\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e \u043e\u0440\u0438\u0435\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u043e\u0433\u043e \u0442\u0435\u043a\u0441\u0442\u0430 : \u043a\u043e\u043c\u043c\u0443\u043d\u0438\u043a\u0430\u0442\u0438\u0432\u043d\u043e-\u0441\u0435\u043c\u0430\u043d\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043c\u043e\u0434\u0435\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 : \u043c\u043e\u043d\u043e\u0433\u0440\u0430\u0444\u0438\u044f",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785942237790,
+    "t": "\u041a\u0430\u0434\u0435\u0442\u0441\u043a\u043e\u0435 \u0431\u0440\u0430\u0442\u0441\u0442\u0432\u043e \u0433\u043b\u0430\u0437\u0430\u043c\u0438 \u043e\u0447\u0435\u0432\u0438\u0434\u0446\u0430",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785942238759,
+    "t": "Cholm-z\u030cirkovskaja derevnja ot A do Ja",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785943730252,
+    "t": "Uc\u030cebnye programmy po special\u02b9nosti \"jurisprudencija\": obs\u030cc\u030cie kursy",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785943730634,
+    "t": "Federal\u02b9nye konstitut\ufe20s\ufe21ionnye zakony : teksty i pori\ufe20a\ufe21dok prini\ufe20a\ufe21tii\ufe20a\ufe21",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785943730757,
+    "t": "\u0421\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0435 \u0437\u0430\u043a\u043e\u043d\u043e\u0434\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e \u041a\u0438\u0442\u0430\u0439\u0441\u043a\u043e\u0439 \u041d\u0430\u0440\u043e\u0434\u043d\u043e\u0439 \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0438",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785943730795,
+    "t": "\u041e\u0442\u043c\u0435\u043d\u0430 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u0438 \u043a\u0430\u043d\u0434\u0438\u0434\u0430\u0442\u0430 (\u0441\u043f\u0438\u0441\u043a\u0430 \u043a\u0430\u043d\u0434\u0438\u0434\u0430\u0442\u043e\u0432) : \u0437\u0430\u043a\u043e\u043d\u043e\u0434\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e \u0438 \u0441\u0443\u0434\u0435\u0431\u043d\u0430\u044f \u043f\u0440\u0430\u043a\u0442\u0438\u043a\u0430",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785943730870,
+    "t": "\u041f\u0440\u0430\u0432\u043e\u0432\u0430\u044f \u0440\u0430\u0431\u043e\u0442\u0430 : \u0443\u0447\u0435\u0431\u043d\u0438\u043a",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785943731426,
+    "t": "Konkurentnoe pravo Rossii",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785943731495,
+    "t": "Sovremennoe mezhdunarodno-pravovoe regulirovanie vozdushnykh soobshchenii\u0306 : teorii\ufe20a\ufe21 i praktika = Present-day international legal regulation of air services theory and practice",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785943731549,
+    "t": "\u041a\u043e\u043d\u043a\u0443\u0440\u0435\u043d\u0442\u043d\u043e\u0435 \u043f\u0440\u0430\u0432\u043e \u0420\u043e\u0441\u0441\u0438\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785943733413,
+    "t": "Pravovoj status Carstva Pol\u02b9skogo v sostave Rossijskoj imperii : uc\u030cebnoe posobie",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785944230133,
+    "t": "\u0413\u043e\u043d\u0430\u0434\u043e\u0442\u0440\u043e\u043f\u043d\u044b\u0435 \u044d\u0444\u0444\u0435\u043a\u0442\u044b \u0444\u0435\u043d\u043e\u043a\u0441\u0438\u0433\u0435\u0440\u0431\u0438\u0446\u0438\u0434\u043e\u0432 \u0432 \u043c\u0443\u0436\u0441\u043a\u043e\u043c \u043e\u0440\u0433\u0430\u043d\u0438\u0437\u043c\u0435",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785944230218,
+    "t": "\u041c\u0443\u0440\u0442\u0430\u0437\u0438\u043d \u0410\u0439\u0440\u0430\u0442 \u041c\u0430\u0440\u0430\u0442\u043e\u0432\u0438\u0447 : \u0441\u0431\u043e\u0440\u043d\u0438\u043a \u043d\u0430\u0443\u0447\u043d\u044b\u0445 \u0440\u0430\u0431\u043e\u0442",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785944230287,
+    "t": "\u041e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435 \u0432 \u0432\u044b\u0441\u0448\u0435\u0439 \u0448\u043a\u043e\u043b\u0435 : \u0441\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0435 \u0442\u0435\u043d\u0434\u0435\u043d\u0446\u0438\u0438, \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b \u0438 \u043f\u0435\u0440\u0441\u043f\u0435\u043a\u0442\u0438\u0432\u044b \u0440\u0430\u0437\u0432\u0438\u0442\u0438\u044f : \u0441\u0431\u043e\u0440\u043d\u0438\u043a \u043d\u0430\u0443\u0447\u043d\u044b\u0445 \u0441\u0442\u0430\u0442\u0435\u0439 \u0440\u0435\u0433\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0439 \u043d\u0430\u0443\u0447\u043d\u043e-\u043c\u0435\u0442\u043e\u0434\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u043a\u043e\u043d\u0444\u0435\u0440\u0435\u043d\u0446\u0438\u0438, 24-25 \u0430\u043f\u0440\u0435\u043b\u044f 2003 \u0433\u043e\u0434\u0430",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785944230409,
+    "t": "Pomoshch\u02b9 pri diagnostike i lechenii besplodii\ufe20a\ufe21 : zhenskogo, muzhskogo",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785944230423,
+    "t": "\u0422\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u0438\u0440\u043e\u0432\u043a\u0430 \u043d\u0435\u0444\u0442\u0438 \u043d\u0430 \u043f\u043e\u0441\u0442\u0441\u043e\u0432\u0435\u0442\u0441\u043a\u043e\u043c \u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0441\u0442\u0432\u0435",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785944230836,
+    "t": "Sovershenstvovanie diagnostiki gryzh pishchevodnogo otverstii\ufe20a\ufe21 diafragmy v onkologicheskoi\u0306 klinike",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785944231291,
+    "t": "Bashqorttart\ufe20h\ufe21an bashlana",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785944231352,
+    "t": "\u041f\u0440\u0430\u0432\u043e\u0432\u043e\u0435 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u043e - \u0441\u0443\u0434\u0431\u0430 \u0420\u043e\u0441\u0441\u0438\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785944231680,
+    "t": "\u0413\u0435\u043e\u043b\u043e\u0433\u0438\u044f \u0438 \u0440\u0443\u0434\u043e\u043d\u043e\u0441\u043d\u043e\u0441\u0442\u044c \u041d\u044f\u0437\u0435\u043f\u0435\u0442\u0440\u043e\u0432\u0441\u043a\u043e\u0439 \u0437\u043e\u043d\u044b : \u0421\u0440\u0435\u0434\u043d\u0438\u0439 \u0423\u0440\u0430\u043b",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785944232403,
+    "t": "\u041d\u043e\u0432\u044b\u0439 \u0432\u0437\u0433\u043b\u044f\u0434 \u0438\u043d\u0442\u0435\u0440\u043d\u0438\u0441\u0442\u043e\u0432 \u043d\u0430 \u0441\u0442\u0430\u0440\u044b\u0435 \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785944232540,
+    "t": "\u042f\u0437\u044b\u043a \u0438 \u0437\u0430\u043a\u043e\u043d : \u043f\u0440\u0430\u0432\u043e\u0432\u044b\u0435 \u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0440\u0430\u0437\u0432\u0438\u0442\u0438\u044f \u0440\u043e\u0434\u043d\u044b\u0445 \u044f\u0437\u044b\u043a\u043e\u0432 : \u0441\u0431\u043e\u0440\u043d\u0438\u043a \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u0432 \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u043e\u0432",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785946230018,
+    "t": "\u0421\u043f\u043e\u0440\u0442",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785946230094,
+    "t": "\u041a\u0430\u043c\u043d\u0438 \u043c\u0438\u0440\u0430",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785946230216,
+    "t": "\u0426\u0432\u0435\u0442\u044b \u043c\u0438\u0440\u0430",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785946230414,
+    "t": "\u041f\u0430\u0440\u0443\u0441\u043d\u044b\u0435 \u043a\u043e\u0440\u0430\u0431\u043b\u0438 : \u0441\u0430\u043c\u044b\u0435 \u043a\u0440\u0430\u0441\u0438\u0431\u044b\u0435 \u0438 \u0437\u043d\u0430\u043c\u0438\u043d\u0438\u0442\u044b\u0435",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785946230469,
+    "t": "\u0423\u043d\u0438\u0432\u0435\u0440\u0441\u0430\u043b\u044c\u043d\u044b\u0439 \u0438\u043b\u043b\u044e\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0439 \u044d\u043d\u0446\u0438\u043a\u043b\u043e\u043f\u0435\u0434\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0441\u043b\u043e\u0432\u0430\u0440\u044c",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785946230650,
+    "t": "\u041a\u0430\u0440\u044c\u0435\u0440\u0430 \u0432 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0445 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u044f\u0445",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785946230735,
+    "t": "\u0412\u044b\u0431\u043e\u0440 \u043f\u0440\u043e\u0444\u0435\u0441\u0441\u0438\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785946230896,
+    "t": "\u0410\u043d\u0442\u043e\u043b\u043e\u0433\u0438\u044f \u0440\u043e\u043c\u0430\u043d\u0442\u0438\u043a\u0438 \u0438 \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0439",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785947230345,
+    "t": "\u0428\u0438\u0444\u0440\u043e\u0432\u044b\u0435 \u0444\u043e\u0442\u043e\u0430\u043f\u043f\u0430\u0440\u0430\u0442\u044b",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785947230499,
+    "t": "\u0422\u0440\u0435\u043d\u0438\u043d\u0433 \u0432 \u0440\u0435\u043a\u0440\u0443\u0438\u0442\u043c\u0435\u043d\u0442\u0435 / Managing recruiment training and Development : a Sourcebook of Activities for Trainers / Elizabeth M. Christopher, Larry E. Smith",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785947230765,
+    "t": "\u041e\u0440\u0433\u0430\u043d\u0438\u0437\u043e\u0432\u0430\u043d\u043d\u0430\u044f \u043f\u0440\u0435\u0441\u0442\u0443\u043f\u043d\u043e\u0441\u0442\u044c : \u0437\u0430\u043a\u043e\u043d\u043e\u0434\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u0443\u0433\u043e\u043b\u043e\u0432\u043d\u043e-\u043f\u0440\u043e\u0446\u0435\u0441\u0441\u0443\u0430\u043b\u044c\u043d\u044b\u0435, \u043a\u0440\u0438\u043c\u0438\u043d\u0430\u043b\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0430\u0441\u043f\u0435\u043a\u0442\u044b : \u043a\u0443\u0440\u0441 \u043b\u0435\u043a\u0446\u0438\u0439",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785947231847,
+    "t": "Kognitivnaia psikhologiia",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785947233087,
+    "t": "\u0410\u043d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u0430\u044f \u043f\u0441\u0438\u0445\u043e\u043b\u043e\u0433\u0438\u044f",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785947233445,
+    "t": "\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u043a \u0410\u0440\u0431\u0438\u0442\u0440\u0430\u0436\u043d\u043e\u043c\u0443 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u0443\u0430\u043b\u044c\u043d\u043e\u043c\u0443 \u043a\u043e\u0434\u0435\u043a\u0441\u0443 \u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u043e\u0439 \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785947233483,
+    "t": "\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u043a \u041a\u043e\u043d\u0441\u0442\u0438\u0442\u0443\u0446\u0438\u0438 \u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u043e\u0439 \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u0438 : \u043f\u043e\u0441\u0442\u0430\u0442\u0435\u0439\u043d\u044b\u0439",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785947234039,
+    "t": "\u0422\u0440\u0443\u0434\u043e\u0432\u043e\u0435 \u043f\u0440\u0430\u0432\u043e \u0420\u043e\u0441\u0441\u0438\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785947235012,
+    "t": "\u0418\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0435 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0438 \u0432 \u043c\u0435\u0434\u0438\u043a\u043e-\u0431\u0438\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u044f\u0445",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785947236002,
+    "t": "Kommentarij k Federal\u02b9nomu zakonu \"O protivodejstvii legalizacii (otmyvaniju) dochodov, poluc\u030cennych prestupnym putem, i finansirovaniju terrorizma\" : postatejnyj nauc\u030cno-praktic\u030ceskij",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785947236088,
+    "t": "Marketing-terapii\ufe20a\ufe21",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785947236798,
+    "t": "\u041a\u0430\u0446\u0443\u0434\u0437\u043e \u041d\u0438\u0448\u0438-- \u044f\u043f\u043e\u043d\u0441\u043a\u043e\u0435 \u0447\u0443\u0434\u043e-\u043f\u0438\u0442\u0430\u043d\u0438\u0435",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785947237078,
+    "t": "Professional'nye prodazhi Tekhnologiia i prakticheskie sovety",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785947237085,
+    "t": "\u0421\u0438\u0441\u0442\u0435\u043c\u0430 \u043d\u0430\u043b\u043e\u0433\u043e\u0432 \u0438 \u0441\u0431\u043e\u0440\u043e\u0432 \u0420\u043e\u0441\u0441\u0438\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785947237405,
+    "t": "Samouchitel\u02b9 Office XP",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785947237436,
+    "t": "\u041e\u0441\u043d\u043e\u0432\u044b \u043f\u0440\u0430\u0432\u0430 : \u0443\u0447\u0435\u0431\u043d\u0438\u043a \u0434\u043b\u044f \u0432\u0443\u0437\u043e\u0432",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785947237689,
+    "t": "\u0420\u044b\u043d\u043a\u0438 \u0432\u0430\u043b\u044e\u0442 \u0438 \u0446\u0435\u043d\u043d\u044b\u0445 \u0431\u0443\u043c\u0430\u0433",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785947237726,
+    "t": "\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u043a \u0422\u0430\u043c\u043e\u0436\u0435\u043d\u043d\u043e\u043c\u0443 \u043a\u043e\u0434\u0435\u043a\u0441\u0443 \u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u043e\u0439 \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785947237849,
+    "t": "\u0418\u043d\u0442\u0435\u0440\u043f\u043e\u043b : \u043c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u0430\u044f \u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u044f \u0443\u0433\u043e\u043b\u043e\u0432\u043d\u043e\u0439 \u043f\u043e\u043b\u0438\u0446\u0438\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785947238648,
+    "t": "Rabotodatel\u02b9 i rabotniki",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785947239126,
+    "t": "\u0417\u0430\u0433\u0430\u0434\u043a\u0430 \u0441\u043c\u0435\u0440\u0442\u0438 : \u043e\u0447\u0435\u0440\u043a\u0438 \u043f\u0441\u0438\u0445\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u043e\u0438\u0306 \u0442\u0430\u043d\u0430\u0442\u043e\u043b\u043e\u0433\u0438\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785947239171,
+    "t": "\u041d\u043e\u0447\u043d\u0430\u044f \u0436\u0438\u0437\u043d\u044c : \u043b\u0438\u0447\u043d\u043e\u0441\u0442\u044c \u0432 \u0441\u0432\u043e\u0438\u0445 \u0441\u043d\u043e\u0432\u0438\u0434\u0435\u043d\u0438\u044f\u0445",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785947239942,
+    "t": "\u041e\u0446\u0435\u043d\u043a\u0430 \u044d\u043a\u043e\u043d\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u044d\u0444\u0444\u0435\u043a\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u0438 \u0438\u043d\u0432\u0435\u0441\u0442\u0438\u0446\u0438\u0439",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785948730028,
+    "t": "\u0421\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0435 \u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u0435 \u0438 \u043f\u0435\u0440\u0441\u043f\u0435\u043a\u0442\u0438\u0432\u044b \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u044f \u0442\u0440\u0430\u043d\u0441\u0433\u0435\u043d\u043d\u044b\u0445 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0439 \u0432 \u0436\u0438\u0432\u043e\u0442\u043d\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u0435",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785948730080,
+    "t": "\u041f\u0440\u043e\u0431\u043b\u0435\u043c\u044b \u0442\u0435\u0445\u043d\u043e\u0433\u0435\u043d\u043d\u043e\u0433\u043e \u0432\u043e\u0437\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f \u043d\u0430 \u0430\u0433\u0440\u043e\u043f\u0440\u043e\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0441 \u0438 \u0440\u0435\u0430\u0431\u0438\u043b\u0438\u0442\u0430\u0446\u0438\u0438 \u0437\u0430\u0433\u0440\u044f\u0437\u043d\u0435\u043d\u043d\u044b\u0445 \u0442\u0435\u0440\u0440\u0438\u0442\u043e\u0440\u0438\u0439 : \u0441\u0431\u043e\u0440\u043d\u0438\u043a \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u043e\u0432 \u043d\u0430\u0443\u0447\u043d\u043e\u0439 \u0441\u0435\u0441\u0441\u0438\u0438 \u0420\u043e\u0441\u0441\u0435\u043b\u044c\u0445\u043e\u0437\u0430\u043a\u0430\u0434\u0435\u043c\u0438\u0438 (27-29 \u0438\u044e\u043d\u044f 2002 \u0433.)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785948730103,
+    "t": "\u041d\u0430\u0443\u0447\u043d\u043e-\u043c\u0435\u0442\u043e\u0434\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043e\u0441\u043d\u043e\u0432\u044b \u043e\u043f\u0442\u0438\u043c\u0438\u0437\u0430\u0446\u0438\u0438 \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u0430 \u0432 \u0437\u0435\u0440\u043d\u043e\u0432\u043e\u043c \u0445\u043e\u0437\u044f\u0439\u0441\u0442\u0432\u0435 \u0438 \u0440\u0430\u0441\u0442\u0435\u043d\u0438\u0435\u0432\u043e\u0434\u0441\u0442\u0432\u0435",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785948730288,
+    "t": "I\ufe20U\ufe21bile\u012dnai\ufe20a\ufe21 sessii\ufe20a\ufe21 Rossi\u012dsko\u012d akademii sel\u02b9skokhozi\ufe20a\ufe21\u012dstvennykh nauk, posvi\ufe20a\ufe21shchennai\ufe20a\ufe21 75-letii\ufe20u\ufe21 ee obrazovanii\ufe20a\ufe21 \"Rol\u02b9 i mesto sel\u02b9skokhozi\ufe20a\ufe21\u012dstvenno\u012d nauki v agropromyshlennom komplekse Rossii,\" gorod Moskva, 23 ii\ufe20u\ufe21ni\ufe20a\ufe21 2004 g. ; Nauchnai\ufe20a\ufe21 sessii\ufe20a\ufe21 Rossi\u012dsko\u012d akademii sel\u02b9skokhozi\ufe20a\ufe21\u012dstvennykh nauk \"Geneticheskie resursy i biotekhnologii\ufe20a\ufe21,\" goroda Moskva i Sankt-Peterburg, 24-25 ii\ufe20u\ufe21ni\ufe20a\ufe21 2004 g.",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785949230022,
+    "t": "\u0412\u0440\u0435\u043c\u0435\u043d\u0430 \u0438 \u0441\u0440\u043e\u043a\u0438",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9785949730010,
+    "t": "\u0417\u0430 \u0432\u0435\u0440\u0443, \u0446\u0430\u0440\u0438\u0446\u0443 \u0438 \u043e\u0442\u0435\u0447\u0435\u0441\u0442\u0432\u043e! : \u043a 10-\u043b\u0435\u0442\u0438\u044e \u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u043e\u0433\u043e \u0425\u0440\u0438\u0441\u0442\u0438\u0430\u043d\u0441\u043a\u043e-\u043c\u043e\u043d\u0430\u0440\u0445\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u0441\u043e\u044e\u0437\u0430 1991-2001",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785949730041,
+    "t": "\u041d\u0430\u0440\u043a\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u043f\u0440\u0435\u0432\u0435\u043d\u0442\u043e\u043b\u043e\u0433\u0438\u044f : \u0440\u0443\u043a\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u043e",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785949730041,
+    "t": "\u0417\u043b\u043e\u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u043f\u0441\u0438\u0445\u043e\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u043c\u0438 \u0432\u0435\u0449\u0435\u0441\u0442\u0432\u0430\u043c\u0438 : \u043a\u043b\u0438\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0438 \u043f\u0440\u0430\u0432\u043e\u0432\u044b\u0435 \u0430\u0441\u043f\u0435\u043a\u0442\u044b",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785976232082,
+    "t": "Crazy : \u0431\u0438\u0437\u043d\u0435\u0441 \u043d\u0430 \u043a\u0440\u043e\u0432\u0438 \u0438 \u043a\u043e\u0441\u0442\u044f\u0445 \u0447\u0435\u043b\u043e\u0432\u0435\u0447\u0435\u0441\u043a\u0438\u0445 : \u0440\u043e\u043c\u0430\u043d-\u0440\u0430\u0437\u043e\u0431\u043b\u0430\u0447\u0435\u043d\u0438\u0435",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785976234659,
+    "t": "Ispanski mini-razgovornik : tolko samye neobkhodimye slova i frazy",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785976235366,
+    "t": "E\u0307tot nepodrazhaemyi\u0306 Dzhivsa",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785976238398,
+    "t": "\u0417\u0438\u043c\u043d\u0438\u0439 \u0441\u043e\u043d",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785985230260,
+    "t": "\u0413\u043e\u0440\u043e\u0434 \u0438 \u044d\u043a\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0440\u0435\u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u044f \u0436\u0438\u043b\u0438\u0449\u043d\u043e-\u043a\u043e\u043c\u043c\u0443\u043d\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0441\u0430 XXI \u0432\u0435\u043a\u0430 : \u0447\u0435\u0442\u0432\u0435\u0440\u0442\u0430\u044f \u043c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u0430\u044f \u043d\u0430\u0443\u0447\u043d\u043e-\u043f\u0440\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u043a\u043e\u043d\u0444\u0435\u0440\u0435\u043d\u0446\u0438\u044f, 5-6 \u0430\u043f\u0440\u0435\u043b\u044f 2006 \u0433",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785985730630,
+    "t": "\u0412\u0430\u0441\u0438\u043b\u0438\u0439 \u0413\u043e\u0440\u043e\u0434\u043a\u043e\u0432 : \u043f\u0440\u043e\u0435\u043a\u0442\u044b, \u043f\u043e\u0441\u0442\u0440\u043e\u0439\u043a\u0438, \u0436\u0438\u0432\u043e\u043f\u0438\u0441\u044c, \u0433\u0440\u0430\u0444\u0438\u043a\u0430",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785985731125,
+    "t": "\u0412\u0441\u043b\u0435\u0434 \u0437\u0430 \u0410\u043b\u0435\u043a\u0441\u0435\u0435\u043c \u041a\u043e\u043d\u0441\u0442\u0430\u043d\u0442\u0438\u043d\u043e\u0432\u0438\u0447\u0435\u043c \u0422\u043e\u043b\u0441\u0442\u044b\u043c : \u0432 \u043f\u043e\u0438\u0441\u043a\u0430\u0445 \u0438\u0441\u0442\u0438\u043d\u044b \u043f\u043e\u0441\u0432\u044f\u0449\u0430\u0435\u0442\u0441\u044f 195-\u043b\u0435\u0442\u0438\u044e \u0441\u043e \u0434\u043d\u044f \u0440\u043e\u0436\u0434\u0435\u043d\u0438\u044f \u043a\u043b\u0430\u0441\u0441\u0438\u043a\u0430 \u0440\u0443\u0441\u0441\u043a\u043e\u0439 \u043b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u044b",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785986230023,
+    "t": "\u041f\u0440\u0430\u0432\u043e \u043d\u0430 \u0441\u043c\u0435\u0440\u0442\u043d\u0443\u044e \u043a\u0430\u0437\u043d\u044c : \u0441\u0431\u043e\u0440\u043d\u0438\u043a \u0441\u0442\u0430\u0442\u0435\u0439",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785986230054,
+    "t": "\u041a\u043e\u043d\u0441\u0442\u0438\u0442\u0443\u0446\u0438\u044f \u0438 \u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u0430\u044f \u043f\u0440\u0430\u043a\u0442\u0438\u043a\u0430 : \u043c\u043e\u043d\u043e\u0433\u0440\u0430\u0444\u0438\u044f",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785986230672,
+    "t": "\u0410\u0442\u043b\u0430\u0441",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785988230236,
+    "t": "\u041f\u0442\u0438\u0446\u044b \u041a\u0443\u0431\u0430\u043d\u0438",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785990239227,
+    "t": "\u0411\u0443\u0434\u043d\u0438 \u0443\u0448\u0435\u0434\u0448\u0435\u0433\u043e \u0432\u0435\u043a\u0430",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785990730342,
+    "t": "Mansijskaja literatura Chrestomatija dlja uc\u030cas\u030cc\u030cichsja 7 klassa obs\u030cc\u030ceobrazovatel\u02b9nych uc\u030crez\u030cdenij / Panc\u030cenko L.N., avtor-sostavitel\u02b9 C\u030cast\u02b9 1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785990732827,
+    "t": "\u0418\u0441\u0442\u043e\u0440\u0438\u044f \u043e\u0434\u043d\u043e\u0433\u043e \u043e\u0447\u0435\u043d\u044c \u043c\u0430\u043b\u0435\u043d\u044c\u043a\u043e\u0433\u043e \u043a\u043e\u0442\u0435\u043d\u043a\u0430 \u0441 \u043e\u0447\u0435\u043d\u044c \u0431\u043e\u043b\u044c\u0448\u0438\u043c \u0441\u0435\u0440\u0434\u0446\u0435\u043c Story of a Little Kitty with a Big Heart",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785990732841,
+    "t": "\u0416\u0438\u0440\u0430\u0444\u0430 Giraffe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9785992231090,
+    "t": "\u041c\u0438\u0440 \u041a\u0430\u0440\u0438\u043a\u0430 : \u043f\u0435\u0440\u0432\u044b\u0439 \u0438\u0433\u0440\u043e\u043a : \u0440\u043e\u043c\u0430\u043d",
+    "h": 1,
+    "e": 1
   }
 ]

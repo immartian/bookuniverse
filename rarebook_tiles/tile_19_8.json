@@ -1,7 +1,937 @@
 [
   {
+    "i": 9783211692882,
+    "t": "Hanging cemetery of Baghdad",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783211694756,
+    "t": "The evolution of 20th century architecture : a synoptic account",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783211694978,
+    "t": "Sweet Home Vienna Neue Arbeiten/Recent Work 1998-2006",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783224191051,
+    "t": "O\u0308sterreichische Zeitgeschichte, 1955-1980 : Medienkoffer 2 : Plakate + Nachdrucke",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783224191075,
+    "t": "O\u0308sterreichische Zeitgeschichte, 1955-1980 : Medienkoffer 2 : Folien",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783224191228,
+    "t": "O\u0308sterreichische Zeitgeschichte, 1918-1938 : Medienkoffer 3 : Plakate + Nachdrucke",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783224191242,
+    "t": "O\u0308sterreichische Zeitgeschichte, 1918-1938 : [Medienkoffer 3 : Folien",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783224193215,
+    "t": "Erinnerungsarbeit 1938/88",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783224193956,
+    "t": "#x98;Der#x9C; Ernst, Spa\u00df des Lebens beginnt [Schuleinstieg]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783224196582,
+    "t": "O\u0308sterreichs Wirtschaft im U\u0308berlick. Informationen, Tabellen und Grafiken fu\u0308r interessierte Staatsbu\u0308rger, Zsgest., komm. v. Josef Docekal",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783303190104,
+    "t": "Schweizerische Strafvollzugsstatistik 1995 : Insassenbewegungen und Insassenbesta\u0308nde = Statistique pe\u0301nitentiaire suisse 1995 : flux et effectifs de la population pe\u0301nitentiaire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783303190142,
+    "t": "Schweizerische Strafvollzugsstatistik 1996 : Insassenbewegungen und Insassenbesta\u0308nde = Statistique pe\u0301nitentiaire suisse 1996 : flux et effectifs de la population pe\u0301nitentiaire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783303190548,
+    "t": "Polizeiliche Kriminalstatistik (PKS) : Jahresbericht 2013",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783319190600,
+    "t": "Membrane Hydration [recurso electr\u00f3nico] The Role of Water in the Structure and Function of Biological Membranes",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783319192581,
+    "t": "Advances in Computational Intelligence 13th International Work-Conference on Artificial Neural Networks, IWANN 2015, Palma de Mallorca, Spain, June 10-12, 2015. Proceedings, Part I",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783319193632,
+    "t": "Development of Coherent Detector Technologies for Sub-Millimetre Wave Astronomy Observations",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783319193861,
+    "t": "World Congress on Medical Physics and Biomedical Engineering, June 7-12, 2015, Toronto, Canada. Volume 2 ..",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783319194493,
+    "t": "Impact of Design Research on Industrial Practice [recurso electr\u00f3nico] Tools, Technology, and Training",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783319195803,
+    "t": "Natural Language Processing and Information Systems 20th International Conference on Applications of Natural Language to Information Systems, Nldb 2015",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783319197166,
+    "t": "Stable Isotope Geochemistry",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783319198231,
+    "t": "Recent advances in soft computing : Mendel 2015 : [21st International Conference on Soft Computing, June 23-25 Brno, Czech Republic]",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783319690346,
+    "t": "Service-Oriented Computing",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783319691237,
+    "t": "The Darwinian Tradition in Context Research Programs in Evolutionary Biology",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783319694504,
+    "t": "e-Health Care in Dentistry and Oral Medicine A Clinician's Guide",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783319696553,
+    "t": "Lake Victoria Fisheries Resources",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783319696584,
+    "t": "Information Security",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783319697253,
+    "t": "Data Envelopment Analysis in the Financial Services Industry A Guide for Practitioners and Analysts Working in Operations Research Using DEA",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783319697727,
+    "t": "A Fair Share of Tax A Fiscal Anthropology of Contemporary Sweden",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783319698083,
+    "t": "Analysis in Banach Spaces Volume II: Probabilistic Methods and Operator Theory",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783319698496,
+    "t": "Unpublished Manuscripts of Lars Ho\u0308rmander",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783319699257,
+    "t": "Product-Focused Software Process Improvement",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783319699523,
+    "t": "Supercomputing Frontiers",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783346691873,
+    "t": "Der Einfluss der Brokerwahl auf das Anlageverhalten deutscher Privatanleger: Eine empirische Untersuchung",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783346692771,
+    "t": "Umgang mit sprachlicher Heterogenit\u00e4t im Deutschunterricht. Analyse der Herausforderungen und Chancen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783346693327,
+    "t": "Die Digitalkompetenz steigern. Herausforderungen des Kompetenzmanagements in der Personalentwicklung",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783347193697,
+    "t": "Liberalismus neu gefasst Fu\u0308r eine entpolitisierte Gesellschaft",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783347194496,
+    "t": "Der letzte Ra\u0308cher wachsender Zorn",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783404190065,
+    "t": "Die Schwarzarbeiter Kriminal-Roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783404190348,
+    "t": "Abgedreht Thriller",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783404190416,
+    "t": "Schlupflo\u0308cher Thriller ; [e. mitreissende Odyssee durch Londons Untergrund, in d. es nur ums nackte U\u0308berleben geht]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783404190423,
+    "t": "Letzte Umarmung Thriller",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783404190430,
+    "t": "Noch mehr: des Guten zuviel neue erot. Kriminal-Stories",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783404190430,
+    "t": "Noch mehr : des Guten zuviel : neue erotische Kriminal-Stories",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783404190829,
+    "t": "Die Nacht, in der die Go\u0308tter la\u0308chelten : Thriller",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783404190843,
+    "t": "Mord-Theater Thriller",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783404191413,
+    "t": "Wie ein Wolf [Privat-Detektiv-Roman]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783404195695,
+    "t": "Maradona Weiss von Nichts : Aktionkrimi",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406693731,
+    "t": "Bankrecht W\u00e4hrung, Bankenaufsicht, Zahlungsverkehr/Kredit, AGB ; Textausgabe mit Sachverzeichnis",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783406695445,
+    "t": "Staatsrecht III Auswa\u0308rtige Gewalt, Bezu\u0308ge des Grundgesetzes zu Vo\u0308lker- und Europarecht",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783407691088,
+    "t": "SCHULTHEORIE : GESCHICHTE, GEGENSTAND U. GRENZEN",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783409191265,
+    "t": "Personal zweitausend [2000] : Visionen u. Strategien erfolgreicher Personalarbeit",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783409191838,
+    "t": "Lobbying : Wirtschaft und Politik im Wechselspiel",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783409192019,
+    "t": "Bilanzbuchhalter Taschenbuch 1973",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783409192040,
+    "t": "Bilanzbuchhalter Taschenbuch 1974",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783409192422,
+    "t": "FEK, U\u0308berwachungssystem zur Fru\u0308herkennung von Absatzkreditrisiken / Diskette",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783409192668,
+    "t": "Immobilien-Leasing mit LOTUS 1-2-3",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783409192743,
+    "t": "Finanzierungsvergleich Kredit und Leasing mit dem PC / Diskette 1/2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783409192743,
+    "t": "Finanzierungsvergleich Kredit und Leasing mit dem PC / [Hauptbd.]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783409192804,
+    "t": "SYBILA-PLUS : systematische Bilanzanalyse mit dem PC ; Bilanzen, Kennzahlen, Controlling",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783409197618,
+    "t": "Buchfu\u0308hrung / Lo\u0308sungen. Datev-Kontenrahmen 1998",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783409197717,
+    "t": "Handelsbuchfu\u0308hrung mit EDV-Kontierung. Arbeitsh",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783409197724,
+    "t": "Handelsbuchfu\u0308hrung mit EDV-Kontierung. Lo\u0308sungsh",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783409198103,
+    "t": "Gabler Volkswirtschaftslexikon",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783409198172,
+    "t": "Gabler Kompakt-Lexikon Wirtschaft : 2200 Begriffe nachschlagen, verstehen, anwenden",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783409199131,
+    "t": "Espan\u0303ol - Alema\u0301n = Spanisch - Deutsch",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783409199940,
+    "t": "A-G",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783409199957,
+    "t": "H-R",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783409199964,
+    "t": "S-Z",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9783410195665,
     "t": "English translations of German standards catalogue 1991 : completed with December 1990 edition of DIN-Mitteilungen + elektronorm",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783423190015,
+    "t": "Die Hand voller Stunden und andere Gedichte. Ausgew., Nachw. v. Michael Kru\u0308ger. (2. Aufl.)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783426190623,
+    "t": "Eine Frau bleibt eine Frau",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783426191705,
+    "t": "Edelweissko\u0308nig : Hochlandroman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783426196830,
+    "t": "Die Mission : Roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783430195683,
+    "t": "Was za\u0308hlt : die Autobiografie des besten Managers der Welt",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783430198417,
+    "t": "Der Schlussel zur Computer : eine strukturierte Unterweisung",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783430198561,
+    "t": "Der Schlu\u0308ssel zum Computer Schlusstest A. / Entwurf: Helga Schropp ... Testkonstruktion: Helga Schropp",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783430198561,
+    "t": "Der Schlu\u0308ssel zum Computer",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783430198561,
+    "t": "Der Schlu\u0308ssel zum Computer Schlusstest C. / Entwurf: Helga Schropp ... Testkonstruktion: Helga Schropp",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783430198585,
+    "t": "Der Schlu\u0308ssel zum Computer [...] Transparentserie : im Medienverbund mit d. gedr. Buch / von Martin F. Wolters ..",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783440696620,
+    "t": "Ritter & Burgen : spannende Fragen und Antworten",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783440697009,
+    "t": "Planeten & Raumfahrt : spannende Fragen und Antworten",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783440697023,
+    "t": "Wale & Delfine : spannende Fragen und Antworten",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783440697245,
+    "t": "Richtig wild! : unglaubliche Fragen und Antworten",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783440699201,
+    "t": "Tiere auf dem Bauernhof : das spannende Memo-Lernspiel",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783443190125,
+    "t": "Meteor-Forschungsergebnisse",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783443190163,
+    "t": "Meteor-Forschungsergebnisse",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783443190217,
+    "t": "Meteor-Forschungsergebnisse",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783443190231,
+    "t": "Meteor-Forschungsergebnisse",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783443190309,
+    "t": "Meteor-Forschungsergebnisse",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783443190354,
+    "t": "Factors contributing to late glacial and holocene sedimentation on the continental shelf and slope off NW Africa, Banc d'Arguin 190",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783443690045,
+    "t": "Fungorum rariorum icones coloratae Ps. 18. / par Pierre Moenne-Loccoz et Patrick Reumaux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783443690052,
+    "t": "Fungorum rariorum icones coloratae Ps. 19. / Par Pierre Moe\u034f\u0308nne-Loccoz ..",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783446190139,
+    "t": "Access 97 fu\u0308r Datenbankentwickler",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783446190368,
+    "t": "Surfactants : theory and practice",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783446190511,
+    "t": "Im professionellen Einsatz",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783446191266,
+    "t": "Das Ho\u0308ren des Genitivs : Gedichte",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783446191969,
+    "t": "Umweltpolitik in kleinen und mittelstandischen Unternehmen : EG-Oko-audit, DIN ISO EN 14001 ff., Umwelterklarung",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783446192874,
+    "t": "Dora Bruder",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783446194182,
+    "t": "Excel 2000 fu\u0308r Anwendungsprogrammierer",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783446194748,
+    "t": "Unknown Title",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783446195691,
+    "t": "Lehr- und U\u0308bungsbuch Automatisierungs- und Prozessleittechnik : eine Einfu\u0308hrung fu\u0308r Ingenieure und Betriebswirtschaftler ; 195 U\u0308bungsbeispiele sowie 76 Testaufgaben und Lo\u0308sungen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783446196124,
+    "t": "Der Carl Hanser Verlag 1928-1998 : eine Bibliographie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783446196292,
+    "t": "Kopf unter",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783446196612,
+    "t": "Luftkrieg und Literatur",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783446197046,
+    "t": "Paddington im Waschsalon",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783446199439,
+    "t": "O\u0308konomie fu\u0308r den Menschen [Wege zur Gerechtigkeit und Solidarita\u0308t in der Marktwirtschaft]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783447192088,
+    "t": "Der deutsche Buchhandel und der Siegeszug der Kinematographie 1895-1933 Reaktionen und strategische Konsequenzen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783447194594,
+    "t": "Strukturelle Analysen des Deutschen und Khalkha-Mongolischen unter kontrastierendem Aspekt: Teil 2: Verben II",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783447195126,
+    "t": "Pythagorean Knowledge from the Ancient to the Modern World: askesis, religion, science",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783447195157,
+    "t": "Einfu\u0308hrungen in die Materiellen Kulturen des Judentums",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783447195515,
+    "t": "The Uppsala Meeting: Proceedings of the 13th International Turkish Linguistics Conference",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783447195935,
+    "t": "Dewre\u0302s\u0327e\u0302 Evdi\u0302 - Dewresh, Son of Evdi: A Kurmanji Epic as Performed by the Berazi Singer Baqi\u0302 Xido",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783447197373,
+    "t": "Zeitgeno\u0308ssische sinophone Literatur in Thailand",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783447197687,
+    "t": "Oral traditions in Ethiopian studies",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783447198219,
+    "t": "From polarization to cohabitation in the new Middle East",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783447198332,
+    "t": "The historiography of Alexander the Great",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783451190124,
+    "t": "Herder Gesamtkatalog und Preisliste",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451191503,
+    "t": "Die Gabe der Weihnacht",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451191992,
+    "t": "Evangelisation in der Dritten Welt : Anst\u00f6sse f\u00fcr Europa",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783451192227,
+    "t": "Atheismus und Gottes Verborgenheit",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783451192913,
+    "t": "Die Bibel, das Geschehen des Alten und Neuen Testaments in Zeugnissen abendla\u0308ndischer Plastik",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451193040,
+    "t": "Staats-Lexikon : Recht, Wirtschaft, Gesellschaft. . Bd. 4, Naturschutz und Landschaftspflege - Sozialhilfe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451193071,
+    "t": "Staatslexikon : Recht, Wirtschaft, Gesellschaft",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451193071,
+    "t": "Staats-Lexikon : Recht, Wirtschaft, Gesellschaft, Die Staaten der Welt. . Bd. 6, Die Staaten der Welt. . 2, Afrika - Asien, Australien - Ozeanien, Antarktis",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451193347,
+    "t": "Der diamant",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451194597,
+    "t": "Der Mond : e. Atlas d. Mondes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451194931,
+    "t": "Merkbu\u0308chlein : immerwa\u0308hrender Kalender mit einem Lexikon der Grossen Namenspatronen: Jubila\u0308umsausgabe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451195099,
+    "t": "Der unversiegbare Strom : Legenden und Geschichten aus dem heiligen Russland",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451195976,
+    "t": "Werkbuch zum Gotteslob Erga\u0308nzungsbd. 35 Messgesa\u0308nge fu\u0308r Familiengottesdienste : fu\u0308r Kinderschola, Flo\u0308te, Gitarre u. Orgel / Simon Dach (Hrsg.)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451196126,
+    "t": "Kirchentr\u00e4ume : Reden gegen den Trent",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451196560,
+    "t": "Wasser-Zeichen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451196850,
+    "t": "Friedenssignale",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451197406,
+    "t": "Licht-Zeichen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451198021,
+    "t": "Lesejahr B",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451198021,
+    "t": "Lesejahr B",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451198175,
+    "t": "Was f\u00fcr morgen lebenswichtig ist : unentdeckte Zukunftswerte",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451198212,
+    "t": "Christlicher Glaube in moderner Gesellschaft. 31, Quellenband : 1. Im Haus der Sprache",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451198793,
+    "t": "Die europa\u0308ische Keramik : Porzellan, Steingut, Fayence ; mit ausfu\u0308hrlichen Bildlegenden ; Manufakturen und Markenzeichen sowie Erkla\u0308rung der Fachbegriffe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451199547,
+    "t": "Petersdom und Vatikan eine Dokumentation u\u0308ber das Zusammenwirken von Pa\u0308psten, Malern und Bildhauern, die Petersdom und Vatikan zu einem Wahrzeichen der Christenheit und Denkmal der Kunst machten",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783452190017,
+    "t": "Kapitalwirtschaftliche Entscheidungen und Steuerbilanzpolitik : ein Beitrag zur Ermittlung steuerlicher Konsequenzen kapitalwirtschaftlicher Entscheidungen unter besonderer Beru\u0308cksichtigung der Ausu\u0308bung steuerbilanzieller Gestaltungsmassnahmen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783452190116,
+    "t": "Case of Le Compte, Van Leuven and de Meyere : 1 decision of 1 October 1980 2 judgement of 23 June 1981 3 decision of 23 June 1981",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783452190444,
+    "t": "Konig case",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783452190536,
+    "t": "Dudgeon case : 1 decision of 30 January 1981 2 judgement of 22 October 1981 3 decision of 22 October 1981",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783452191076,
+    "t": "Technische Regeln fu\u0308r Acetylenanlagen und Calciumcarbidlager : TRAC",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783452191212,
+    "t": "Winterwerp case : judgement of 27 November 1981 article 50",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783452192905,
+    "t": "Van Droogenbroeck case",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783452193193,
+    "t": "Polizei- und Ordnungsrecht des Bundes und der La\u0308nder : in Einzelausg. : Textausg. mit Einf. u. erl. Hinweisen / 4. ... des Landes Berlin. - 1984",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783452193193,
+    "t": "Polizei- und Ordnungsrecht des Bundes und der La\u0308nder : in Einzelausg. : Textausg. mit Einf. u. erl. Hinweisen / 7. ... des Landes Hessen. - 1984",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783452193285,
+    "t": "Rechtsvergleichung, Europarecht und Staatenintegration",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783452193353,
+    "t": "Marckx case",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783452194039,
+    "t": "Digest of case law of the European convention on human rights Vol. 1. (Article 1 - 5)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783452194114,
+    "t": "Digest of Strasbourg case-law relating to the European Convention on Human Rights",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783452194831,
+    "t": "Schiesser case",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783452194862,
+    "t": "Handbuch der internationalen Rechts- und Verwaltungssprache / 7,1. [7]. Bu\u0308ro- und Gescha\u0308ftsgang, Telefon- und Telegrafendienst ; [1]. Deutsch/Franzo\u0308sisch. - 1983. - 124 S",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783452194862,
+    "t": "Buero und Geschaeftsgang, Telefon- und Telegrafendienst dt./franz. = Bureau et Proc\u00e9dures administratives, services t\u00e9l\u00e9phonique et t\u00e9l\u00e9graphique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783452196040,
+    "t": "Die Perso\u0308nlichkeitsrechte : eine vergleichend-historische Studie u\u0308ber ihre Grundlagen",
     "h": 1,
     "e": 0
   },
@@ -12,8 +942,302 @@
     "e": 0
   },
   {
+    "i": 9783452196415,
+    "t": "Aufzu\u0308ge : Verordnung und technische Regeln ; Kommentar",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783452196927,
+    "t": "Deutsches Agrarrecht : ein U\u0308berblick",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9783452198037,
     "t": "Arbeitssta\u0308ttenverordnung : Verordnung u\u0308ber Arbeitssta\u0308tten (Arbeitssta\u0308ttenverordnung-ArbSta\u0308ttV) : vom 20. Ma\u0308rz 1975 (BGB1. I S. 729) gea\u0308ndert durch die Erste Verordnung zur A\u0308nderung der Arbeitssta\u0308ttenverordnung vom 2. Januar 1982 (BGB1. I S. 1) und die Verordnung zur Verbesserung der Ausbildung Jugendlicher vom 1. August 1983 (BGB1. I S. 1057) : Textausgabe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783452198495,
+    "t": "II",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783452198754,
+    "t": "Affaire van der Mussele : decisions du 29 septembre 1982 : arre\u0302t du 23 novembre 1983 = Van der Mussele case : decision of 29 September 1982 : judgment of 23 November 1983",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783452198754,
+    "t": "Van der Mussele case: decision of 29 September 1982, judgment of 23 November 1983",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783452198822,
+    "t": "Handbuch der internationalen Rechts- und Verwaltungssprache / 1,2. [2]. Deutsch/Italienisch. - 1981. - 152 S",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783452198822,
+    "t": "Handbuch der internationalen Rechts- und Verwaltungssprache / [12,2] Haushalt und Rechnungspru\u0308fung ; [2]. Deutsch/Englisch",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783452198822,
+    "t": "Verhandlungssprache Deutsch/Englisch : dt./franz. = Terminologie des re\u0301unions Allemand/Franc\u0327ais",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783452198846,
+    "t": "Affaire Pretto et autres : 1. de\u0301cision du 29 juin 1982 : 2. arre\u0302t du 8 de\u0301cembre 1993",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783452199188,
+    "t": "Vortra\u0308ge : in Mu\u0308nster vom 21. - 22. Ma\u0308rz 1983",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783453195189,
+    "t": "Das Album meiner Kindheit",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783453195790,
+    "t": "Fallende bla\u0308tter : Die ergreifende lebensgeschichte einer jungen Chinesin",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783453195844,
+    "t": "Das su\u0308\u00dfe Verma\u0308chtnis : Roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783453197923,
+    "t": "Ritual & Harmonie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783454198363,
+    "t": "[Hauptband]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783454198363,
+    "t": "Das Hirschgraben-Lesebuch / Jg.-Stufe 7. [Schu\u0308lerbuch]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783454198554,
+    "t": "Das Hirschgraben-Lesebuch",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783454198561,
+    "t": "Das Hirschgraben-Lesebuch",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783458191216,
+    "t": "Glu\u0308ckloser Engel : Dichtungen zu Walter Benjamin",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783458191476,
+    "t": "Gedichte",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783458192428,
+    "t": "Briefwechsel mit Rainer Maria Rilke : mit Bildern von Paula Modersohn-Becker",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783464695210,
+    "t": "Farandole / Cassettes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783464695227,
+    "t": "Farandole / Chansons",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783468696251,
+    "t": "Langenscheidt Verbtabellen Spanisch",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783481191016,
+    "t": "Steuerjahrbuch fu\u0308r das Baugewerbe 1975/1976",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783484190245,
+    "t": "Sprache, Dichtung und Musik : Texte zu ihrem gegenseitigen Verst\"andnis von Richard Wagner bis Theodor W. Adorno",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783484190283,
+    "t": "Vom Laienurteil zum Kunstgef\u00fchl : Texte zur deutschen Geschmacksdebatte im 18. Jahrhundert",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783484190337,
+    "t": "Ausgewahlte kritische Schriften, mit einer Einleitung",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783484190481,
+    "t": "Lieder eines kosmopolitischen Nachtwa\u0308chters",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783484190528,
+    "t": "Eine Wissenschaft etabliert sich : 1810-1870",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783486194517,
+    "t": "Roma. Bd. 1. [Hauptbd.]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783491691469,
+    "t": "Die Gnosis",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783492190442,
+    "t": "Themenheft: Natur! Dichtung?",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783492190459,
+    "t": "Literatur aus Berlin : Gedichte und Prosa",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783492190459,
+    "t": "Litfass Jg. 12. 1988 = H. 45",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783499190643,
+    "t": "Grossbritannien : ein Reisebuch in den Alltag",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783499191909,
+    "t": "Prozesse",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783499193316,
+    "t": "O\u0308ko-Test Ratgeber : Ratgeber Bauen und Renovieren",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783499193538,
+    "t": "Leben im Angesicht des Todes : Menschen mit Krebs, HIV-Infektion/Aids und Multipler Sklerose erza\u0308hlen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783499195754,
+    "t": "Wild Bill Hickok : Westernmythos und Wirklichkeit",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783499196249,
+    "t": "American Slang in letzter Minute",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783499198151,
+    "t": "Crashkurs Typo und Layout Vom Zeilenfall zum Screendesign",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783502199663,
+    "t": "Meine Lieblingsromane",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783503199624,
+    "t": "Englische Romantik : eine Einf\u00fchrung",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783503199662,
+    "t": "Englische Literatur der Fr\u00fchen Neuzeit : eine Einf\u00fchrung",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783504190019,
+    "t": "Fachanwaltsverzeichnis : Verzeichnisse der Fachanwa\u0308lte fu\u0308r Arbeitsrecht, Familienrecht, Sozialrecht ... u.v.a.m",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783504191023,
+    "t": "Anwalt und Notar verzeichnis : Rechtsanwa\u0308lte, Notare, Patentanwa\u0308lte, Rechtsbeista\u0308nde, Berufsorganisationen, Gerichte, Auslandsteil - 21. Aufl",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783504191047,
+    "t": "Anwalt- und Notarverzeichnis : nach Amtsgerichtsorten gegliedertes Verzeichnis der Rechtsanwa\u0308lte, Anwaltsnotare und Sozieta\u0308ten, Verzeichnisse der Notare, Patentanwa\u0308lte und Rechtsbeista\u0308nde : mit neuem Fachanwaltsverzeichnis, Verzeichnis der u\u0308bero\u0308rtlichen und internationalen Sozieta\u0308ten und Auswahlverzeichnissen zu den anwaltlichen Interessenschwerpunkten und Korrespondenzsprachen ... 1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783507696259,
+    "t": "Textsorte Nachricht / Erg.-H., ([1986])",
     "h": 1,
     "e": 0
   },
@@ -24,8 +1248,266 @@
     "e": 0
   },
   {
+    "i": 9783507697201,
+    "t": "Deutsche Aufkl\u00e4rung Erg.heft",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783507697652,
+    "t": "Schroedel Lektu\u0308ren/Schroedel Lektu\u0308ren Hermann Hesse: Der Steppenwolf: Module und Materialien fu\u0308r den Literaturunterricht",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783507697737,
+    "t": "Schroedel Lektu\u0308ren/Schroedel Lektu\u0308ren Franz Kafka: Der Process: Module und Materialien fu\u0308r den Literaturunterricht",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783507697799,
+    "t": "Schroedel Lektu\u0308ren/Schroedel Lektu\u0308ren Johann Wolfgang von Goethe: Die Leiden des jungen Werthers: Module und Materialien fu\u0308r den Literaturunterricht",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783507698222,
+    "t": "Deutsch, S II / [Hauptbd.]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783507698321,
+    "t": "Deutsch.ideen S II / Arbeitsheft, Schreibprozesse initiieren und begleiten",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783507698338,
+    "t": "Facharbeiten planen und verfassen : Arbeitsheft",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783507699885,
+    "t": "Schroedel Lektu\u0308ren/Schroedel Lektu\u0308ren Friedrich Schiller: Die Ra\u0308uber: Module und Materialien fu\u0308r den Literaturunterricht",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783520196163,
+    "t": "Deutsche Literaturgeschichte : von den Anfangen bis zur Gegenwart",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783524690636,
+    "t": "Hexen : damals--und heute?",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783525692011,
+    "t": "Evangelische exerzitien : anleitung - bausteineanwendung",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783527694983,
+    "t": "MAK- und BAT-Werte-Liste 2015: Sta\u0308ndige Senatskommission zur Pru\u0308fung gesundheitsscha\u0308dlicher Arbeitsstoffe. Mitteilung 51",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783527696307,
+    "t": "Stereochemistry and stereoselective synthesis : an introduction; ed. by laszlo poppe",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783527699827,
+    "t": "Nanotechnology in catalysis : applications in the chemical industry, energy development, and environment protection",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783531190181,
+    "t": "Peripheralization",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783531192017,
+    "t": "European energy security : analysing the EU-Russia energy security regime in terms of interdependence theory",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783531192017,
+    "t": "European energy security : analysing the EU-Russia energy security regime in terms of interdependence theory",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783534190959,
+    "t": "Io\u0304n ; Hippias ellatto\u0304n ; Pro\u0304tagoras ; Lache\u0304s ; Charmide\u0304s ; Euthyphro\u0304n ; Lysis ; Hippias meizo\u0304n ; Alkibiade\u0304s meizo\u0304n = Ion ; Hippias II ; Protagoras ; Laches ; Charmides ; Euthyphron ; Lysis ; Hippias I ; Alkibiades I",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783534190959,
+    "t": "Timaios ; Kritias ; Phile\u0304bos = Timaios ; Kritias ; Philebos",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783534190959,
+    "t": "Nomo\u0304n 1-6 = Gesetze, Buch I-VI",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783534190959,
+    "t": "Nomo\u0304n 7-12 ; Mino\u0304s = Gesetze, Buch VII-XII ; Minos",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783534195176,
+    "t": "Friedrich Nietzsches \"Also sprach Zarathustra\"",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783540190219,
+    "t": "Proceedings / 13th Colloquium on Trees in Algebra and Programming, Nancy, France, March 21-24, 1988",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540190219,
+    "t": "CAPP'88 : proceedings, Nancy, France, Mar. 21-24, 1988",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540190745,
+    "t": "Advances in Database Technology - EDBT '88",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9783540190967,
     "t": "Gutachtenkolloquium 3 : Thoraxverletzungen, Verletzungen der Brustorgane : Milzverletzungen, Milzverlust : Meniskusverletzungen, Berufskrankheit Nr. 2102 (\"Meniskusscha\u0308den\")",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540191070,
+    "t": "Monte-Carlo simulation in statistical physics ; introduction",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540191216,
+    "t": "Dresden, GDR, January 19-23, 1987. - 1988. - (... ; 305)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540191384,
+    "t": "HECTOR : Heterogeneous Computers Together, a joint project of IBM and the Univ. of Karlsruhe. Vol. 1 New ways in education and research",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540191940,
+    "t": "Biotechnology in agriculture and forestry. Vol. 8, Plant protoplasts and genetic engineering Pt 1",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540192237,
+    "t": "Influence of antibiotics on the host-parasite relationship : 3rd Symposium : Papers",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540192367,
+    "t": "Algebraic geometry : Conference : Selected papers",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540193388,
+    "t": "Clathrates",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540193517,
+    "t": "[Papers]",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540193685,
+    "t": "Coding Theory and Applications : 2nd Internat. Colloquium : Proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540193852,
+    "t": "Hauptthemen",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540193906,
+    "t": "Psychiatrie",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540194262,
+    "t": "Logic programming '87 : 6th Conference : Selected papers",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540194446,
+    "t": "Automata networks : 14th Spring school on theoretical computer science : Selected papers",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540194903,
+    "t": "Elliptic curves and modular forms in algebraic topology",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540195108,
+    "t": "GLOBECOM '87 : IEEE-IEICE Global Telecommunications Conference 1987 : Tokyo conference proceedings ; [Nov. 15-18, 1987, Tokyo, Japan]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783540195566,
+    "t": "Selected references in orthopaedic trauma",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540195580,
+    "t": "Fifth generation computer systems 1988 (FGCS '88) : proceedings of the International Conference on Fifth Generation Computer Systems 1988, Tokyo, Japan, November 28-December 2, 1988. Vol. 1",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540196181,
+    "t": "Revision surgery in total hip arthoplasty",
     "h": 1,
     "e": 1
   },
@@ -36,15 +1518,519 @@
     "e": 1
   },
   {
+    "i": 9783540196365,
+    "t": "The vertigo syndromes",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540196495,
+    "t": "CKBS '90 : proceedings of the international working conference on cooperating knowledge based systems,held at the University of Keele,England,October 3-5,1990",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540196617,
+    "t": "Algorithmic learning theory : 1st International workshop : Papers",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540197706,
+    "t": "Strength and safety for structural design",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540198154,
+    "t": "Dynamic models for structural plasticity",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540690511,
+    "t": "Rewriting Techniques and Applications 8th International Conference, RTA-97, Sitges, Spain, June 2-5, 1997. Proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540691006,
+    "t": "Model driven architecture foundations and applications : 4th European conference, ECMDA-FA 2008, Berlin, Germany, June 9-13, 2008 ; proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540691297,
+    "t": "Qualitative and Quantitative Practical Reasoning First International Joint Conference on Qualitative and Quantitative Practical Reasoning, ECSQARU-FAPR'97, Bad Honnef, Germany, June 9-12, 1997 Proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540691303,
+    "t": "Intelligent tutoring systems",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540691426,
+    "t": "Progress in ultrafast intense laser science",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540691631,
+    "t": "Static Analysis",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540691723,
+    "t": "Security and privacy in ad-hoc and sensor networks third European Workshop, ESAS 2006, Hamburg, Germany, Setpember 20-21, 2006 : revised selected papers",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540692232,
+    "t": "Theory and applications of relational structures as knowledge instruments II International Workshops of COST Action 274, TARSKI, 2002-2005 : selected revised papers",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540692591,
+    "t": "Motion planning in medicine : optimization and simulation algorithms for image-guided procedures",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540692713,
+    "t": "Software architecture Third European Workshop, EWSA 2006, Nantes, France, September 4-5, 2006 : revised selected papers",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540693062,
+    "t": "Robust synchronization of chaotic systems via feedback",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540693451,
+    "t": "Mathematics of Program Construction : 4th International Conference, MPC'98 Marstrand, Sweden, June 1517, 1998 Proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540694144,
+    "t": "Grundlagen der molekularen Medizin mit 28 Tabellen",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540694199,
+    "t": "Anorectal and Colonic Diseases A Practical Guide to their Management",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540694212,
+    "t": "Unknown Title",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540694663,
+    "t": "Inherited Chorioretinal Dystrophies [recurso electr\u00f3nico] A Textbook and Atlas",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540694724,
+    "t": "Glaucoma",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540694892,
+    "t": "Models in Software Engineering",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540695288,
+    "t": "Advances in Cryptology -- CRYPTO '97",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540695332,
+    "t": "Advanced Information Systems Engineering",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540695684,
+    "t": "Multimodal technologies for perception of humans : First International Evaluation Workshop on Classification of Events, Activities and Relationships, CLEAR 2006, Southampton, UK, April 6-7, 2006, revised selected papers",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540696285,
+    "t": "Information and communications security : first international conference, ICIS [i.e. ICICS]'97, Beijing, China, November 11-14, 1997 : proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540696971,
+    "t": "The Boundary-Domain Integral Method for Elliptic Systems With Application to Shells",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540697183,
+    "t": "Electronic Publishing, Artistic Imaging, and Digital Typography: 7th International Conference on Electronic Publishing, EP'98 Held Jointly with the 4th International Conference on Raster Imaging and D",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540697596,
+    "t": "Numerical data and functional relationships in science and technology. New series, Group IV, Physical chemistry : volume 11, Ternary alloy systems : phase diagrams, crystallographic and thermodynamic data : subvolume A, Light metal systems",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540698159,
+    "t": "Neuroendocrine Cells and Peptidergic Innervation in Human and Rat Prostate",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540698289,
+    "t": "Data Integration in the Life Sciences 5th International Workshop, DILS 2008, Evry, France, June 25-27, 2008, Proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540698487,
+    "t": "Computational Science and Its Applications {u2013} ICCSA 2008 International Conference, Perugia, Italy, June 30{u2013} July 3, 2008, Proceedings, Part II",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540698524,
+    "t": "Climate Change {u2014} Environment and History of the Near East",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540698708,
+    "t": "Bisphosphonates in medical practice actions, side effects, indications, strategies",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540698753,
+    "t": "Theoretical and numerical unsaturated soil mechanics",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540698760,
+    "t": "Theoretical and numerical unsaturated soil mechanics",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540698869,
+    "t": "Robotic Radiosurgery",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540699156,
+    "t": "Multiple integrals in the calculus of variations : reprint of the 1966 edition",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540699262,
+    "t": "Theory and practice of model transformations",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540699361,
+    "t": "Logic, language, information and computation",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540699941,
+    "t": "Operations research proceedings 2006 : selected papers of the annual international conference of the German Operations Research Society (GOR) : Karlsruhe, September 6-8, 2006",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783551191243,
+    "t": "Mein erstes gro\u00dfes Malbuch: Gro\u00dfe Fahrzeuge : Malen ab 3 Jahren",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783570190166,
+    "t": "Argentinien",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783570190371,
+    "t": "Intelligenz und Bewusstsein : Hirnforschung, Intelligenz-Quotient, Computer, Kreativita\u0308t",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783570190487,
+    "t": "GEO special : Hongkong",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9783570190517,
     "t": "Geo Special New York",
     "h": 1,
     "e": 0
   },
   {
+    "i": 9783570190524,
+    "t": "Nahrung + Gesundheit",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783570191675,
+    "t": "Das Bild vom Menschen : 50 Jahre Stern : die besten Fotos = The image of man : 50 years of Stern : the best photos",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783570192801,
+    "t": "A\u0308gypten : Rotes Meer: die neuen Lagunensta\u0308dte : Nilfahrt: Teatime auf dem Sonnendeck : Mubarak: die Angst des Patriarchen : Pharaos Gold: Magie und Macht am Nil : exklusiv in Geo: die Expedition des Cheops",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783570192955,
+    "t": "Horst",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783570194041,
+    "t": "<<Die>> Macht der P\u00e4pste",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783570194218,
+    "t": "Steven Meisel",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783570194485,
+    "t": "Deutschland um [neunzehnhundert] 1900 von Bismark bis Wilhelm II. : Aufstieg und Fall des Kaiserreichs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783570194485,
+    "t": "Deutschland um [neunzehnhundert] 1900 von Bismark bis Wilhelm II. : Aufstieg und Fall des Kaiserreichs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783570194485,
+    "t": "Deutschland um [neunzehnhundert] 1900 von Bismark bis Wilhelm II. : Aufstieg und Fall des Kaiserreichs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783570194485,
+    "t": "Deutschland um [neunzehnhundert] 1900 von Bismark bis Wilhelm II. : Aufstieg und Fall des Kaiserreichs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783570195550,
+    "t": "Kriegsende [neunzehnhundertf\u00fcnfundvierzig] 1945 das Finale des Weltenbrandes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783570195550,
+    "t": "Kriegsende [neunzehnhundertf\u00fcnfundvierzig] 1945 das Finale des Weltenbrandes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783570196632,
+    "t": "Tsunami der Tod aus dem Meer : 26. Dez. 2004 - Protokoll einer Jahrhundertkatastrophe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783570196694,
+    "t": "Hamburg : die Stadt, der Strom, der Aufbruch",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783570197202,
+    "t": "Der Wilde Westen : Im Land der Cowboys und Indianer",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783570197264,
+    "t": "Hamburg dancing on the water ; a city rediscovers its harbor ; with detailed city map",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783570197820,
+    "t": "Als Spanien die Welt beherrschte",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783570197820,
+    "t": "Als Spanien die Welt beherrschte",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783570197820,
+    "t": "Als Spanien die Welt beherrschte",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783570198889,
+    "t": "Die Welt im Jahr 1000",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783570198889,
+    "t": "<<Die>> Welt im Jahr 1000",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783575190512,
+    "t": "Reis- en vakantieatlas Spanje en Portugal [de ideale combinatie van reisgids an wegenatlas ; 180 blz. cartografie 1:300000 en 29 stadsplattegronden 1:20000]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783575190598,
+    "t": "Reis- en vakantieatlas Duitsland",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783581690655,
+    "t": "Multimedia-Sprachkurs Franzo\u0308sisch in 30 Tagen unterhaltsame Story in 30 Lektionen ; Dialoge in 2 Sprechgeschwindigkeiten ; U\u0308bungen, Dialoge, Wortschatz und Grammatik vertont ; integrierter Wortschatztrainer ; Tests, Videos, Internet-Links ; mit intelligenter Aussprache-Erkennung",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783581690679,
+    "t": "Spanisch in 30 Tagen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783587696033,
+    "t": "Moderne Lyrik Erg.-H",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783596190126,
+    "t": "Taschen-atlas der abgelegenen Inseln : fu\u0308nfzig Inseln, auf denen ich nie war und niemals sein werde",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783596190478,
+    "t": "Entf\u00fchrt in der D\u00e4mmerung Roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783596190829,
+    "t": "Der Fischer Weltalmanach, 1982",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9783596190966,
     "t": "Der Fischer Weltalmanach : Zahlen, Daten, Fakten '96",
     "h": 1,
     "e": 1
+  },
+  {
+    "i": 9783596190966,
+    "t": "Der neue Fischer-Weltalmanach. 1996",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783596191710,
+    "t": "Grundrechte-Report 2011 : zur Lage der Bu\u0308rger- und Menschenrechte in Deutschland : ein Projekt der Humanistischen Union, des Komitees fu\u0308r Grundrechte und Demokratie, des Bundesarbeitskreises Kritischer Juragruppen...",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783596191987,
+    "t": "Daughter Of Smoke And Bone Zwischen den Welten 1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783596196975,
+    "t": "Felsenfest : Alpenkrimi",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783596196975,
+    "t": "Felsenfest : Alpenkrimi",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783598690921,
+    "t": "Ibr Internationale Bibliographie der Rezensionen geistes und sozialwissenschaftlicher literatur = International Bibliography of Book Reviews of Scholarly literature in the Humanities and Social Sciences",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783598691317,
+    "t": "Academia Italica die Gelehrtenzeitschriften und Sitzungsberichte Italiens 1600-1800",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783598691324,
+    "t": "Academia Italica : periodici eruditi e atti academici pubblicati in Italia, 1600-1800 = Die Gelehrtenzeitschriften und Sitzungsberichte Italiens, 1600-1800",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783598691324,
+    "t": "Academia Italica : die Gelehrtenzeitschriften und Sitzungsberichte Italiens 1600-1800",
+    "h": 1,
+    "e": 0
   }
 ]

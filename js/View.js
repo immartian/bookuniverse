@@ -75,10 +75,10 @@ export class View {
 
     }
 
-    drawMapScale(ctx, text, x=null, y=null, length=100) {
+    drawMapScaleIndicator(ctx, text, x=null, y=null, length=100) {
         // default set to right bottom corner
         if (x === null)
-            x = this.overlayCanvas.width - 110;
+            x = this.overlayCanvas.width - 120;
         if (y === null)
             y = this.overlayCanvas.height - 20;
 

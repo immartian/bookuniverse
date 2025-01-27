@@ -6,14 +6,2336 @@
     "e": 0
   },
   {
+    "i": 9782012240933,
+    "t": "1, 2, 3, partez!",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012241138,
+    "t": "Poke\u0301mon : attrapez-les tous! : normal",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012241527,
+    "t": "Tiens, voila\u0300 Oui-Oui!",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012242241,
+    "t": "Monsieur Petit a\u0300 la fe\u0302te foraine",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012242753,
+    "t": "Joyeux Noe\u0308l avec Babar",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012244054,
+    "t": "Bob le bricoleur",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012244436,
+    "t": "Babar le bain",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012244443,
+    "t": "Babar les ca\u0302lins",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012245020,
+    "t": "Rolie Polie Olie. Ou\u0300 est-- Spot?",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012245594,
+    "t": "M. Nigaud",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782012246690,
+    "t": "Le guide officiel Batman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012246782,
+    "t": "Le guide officiel Batman la rele\u0300ve",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012247017,
+    "t": "Petit Lapin Blanc et Ce\u0301sar",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012248113,
+    "t": "M. grognon",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012248168,
+    "t": "Mme Machance",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012248366,
+    "t": "M. Non",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782012248397,
+    "t": "M. Rapide",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782012248434,
+    "t": "M. Chatouille",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012248540,
+    "t": "M. a\u0300 l'envers",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012248779,
+    "t": "Madame Risette",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782012249042,
+    "t": "Sauve le zoo",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012249783,
+    "t": "Les plus beaux contes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782021240023,
+    "t": "La valle\u0301e des dix mille fume\u0301es : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782035243249,
+    "t": "Journal de l'annee du 1er janvier au 31 decembre 1989",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782035243287,
+    "t": "Journal de l'anne\u0301e 1993 : du 1er janvier au 31 de\u0301cembre : dessins de Tim",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782035243300,
+    "t": "Journal de l'anne\u0301e 1994 : du 1er janvier au 31 de\u0301cembre",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9782035243874,
     "t": "Le Livre de l'anne\u0301e 1987",
     "h": 1,
     "e": 0
   },
   {
+    "i": 9782060746036,
+    "t": "Code de la route 2000 : permis ve\u0301hicule le\u0301ger",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782067241893,
+    "t": "Guide Michelin Deutschland 2020",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782067242203,
+    "t": "France : atlas routier et touristique : 2020",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782067242531,
+    "t": "Grand Est : toute la re\u0301gion en un coup d'oeil : carte routie\u0300re",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782067242548,
+    "t": "Bourgogne-Franche-Comte\u0301 : toute la re\u0301gion en un coup d'oeil : carte routie\u0300re",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782067242555,
+    "t": "Nouvelle-Aquitaine : toute la re\u0301gion en un coup d'oeil : carte routie\u0300re",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782067242562,
+    "t": "Auvergne-Rho\u0302ne-Alpes : toute la re\u0301gion en un coup d'oeil : carte routie\u0300re",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782067242579,
+    "t": "Occitanie : toute la re\u0301gion en un coup d'oeil : carte routie\u0300re",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782067242586,
+    "t": "Tanzanie : Zanzibar",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782067242630,
+    "t": "Made\u0300re",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782067242685,
+    "t": "France : Nord-Ouest : 2020",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782067242692,
+    "t": "France : Nord-Est : 2020",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782067242708,
+    "t": "France : Sud-Ouest : 2020",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782067242852,
+    "t": "France : Sud-Est : 2020",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782067242975,
+    "t": "Michelin Le Guide Vert Poitou",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782067243231,
+    "t": "Wine regions of France : (Michelin green guide)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782067244153,
+    "t": "Grande-Bretagne, Irlande : 2020",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782067249110,
+    "t": "La R\u00e9union",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782067249936,
+    "t": "Storbritannien Irland 2021 Michelin 713 Karta",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782070240371,
+    "t": "L'auteur, et autres textes = El hacedor",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782070241330,
+    "t": "Espoir, L'",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782070243051,
+    "t": "Oeuvres comple\u0300tes. 07",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782070246397,
+    "t": "Le m\u00e9chant petit jeune homme; nouvelles : nouvelles",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782070246908,
+    "t": "Philoctete, Perse\u0301phone, Ajax",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782070741663,
+    "t": "E.M. Cioran : \u00e6uvres",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782070741809,
+    "t": "Le paradis de Ce\u0301zanne",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782070742240,
+    "t": "Fatalite\u0301. [Poison, fatalite\u0301, plusieurs fac\u0327ons simples de re\u0301soudre une e\u0301nigme, le son de la cloche, le Ditan et moi, premie\u0300re personne] : Nouvelles",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782070742523,
+    "t": "Dans l'atelier du poe\u0300te",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782070742899,
+    "t": "Le preux Sodani. ; Le preux Develtchen : e\u0301pope\u0301es orales des Evenks de Sibe\u0301rie dites par N.G. Trofimov",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782070743933,
+    "t": "Carnets. 6. Rapports",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782070745128,
+    "t": "La Querelle du spectacle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782070745197,
+    "t": "Femmes au bord de la crise de me\u0300re : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782070745388,
+    "t": "Me\u0301te\u0301orologiques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782070746798,
+    "t": "Lettres a\u0300 Nelson Algren : un amour transatlantique, 1947-1964",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782070747016,
+    "t": "Le ge\u0301nocide au Cambodge 1975-1978 : race, ide\u0301ologie et pouvoir",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782070747108,
+    "t": "La France en question",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782070747146,
+    "t": "Cahiers Paul Vale\u0301ry : 1894-1914. 06",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782070747603,
+    "t": "10: Lettres e\u0301crites de Rodez : 1943-1944",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782070747887,
+    "t": "Je ne suis pas sortie de ma nuit",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782070748488,
+    "t": "Casimir me\u0300ne la grande vie",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782072742187,
+    "t": "La nuit du coeur",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782081240490,
+    "t": "Le salon d'Emilie : roman",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782081246447,
+    "t": "Plume le pirate. / 12, Le royaume des e\u0301le\u0301phants",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782081246638,
+    "t": "3 contes du Pe\u0300re castor a\u0300 e\u0301couter de\u0300s 3 ans",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782081248052,
+    "t": "Petites histoires du Pe\u0300re Castor pour endormir les petits",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782081249219,
+    "t": "Mes comptines pour gigoter",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782081249905,
+    "t": "Petites histoires du Pe\u0300re Castor pour Noe\u0308l",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782091243436,
+    "t": "Maths en ateliers : manipuler pour comprendre : cycle 3",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782091244792,
+    "t": "One... two... three ! niveau 1 : l'anglais a\u0300 l'e\u0301cole e\u0301le\u0301mentaire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782091244938,
+    "t": "Knock... knock : picture book 1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782091249759,
+    "t": "Enseignement moral et civique cycle 2 : 40 se\u0301quences cle\u0301s en main",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782091741185,
+    "t": "Audio bac sections S, ES, STI2D, STD2A, STMG, ST2S et STL : authentic audio documents",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782091745633,
+    "t": "Sciences e\u0301conomiques et sociales : e\u0301conomie et socie\u0301te\u0301 franc\u0327aises, 1e\u0301re B",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782091745671,
+    "t": "Le nouvelle donne mondiale des annees 90 : Classe de terminale",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782091747477,
+    "t": "Histoire : de 1939 a nos jours",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782091749433,
+    "t": "Tales & legends for teens",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782091749440,
+    "t": "Audio bac 2 sections S, ES, STI2D, STD2A, STMG, ST2S et STL : authentic audio documents",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782091749587,
+    "t": "\u00bfQue pasa? 4e seconde langue, 2e troisie\u0300me langue",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782100740062,
+    "t": "STRATEGIE ET MANAGEMENT DU VOYAGE D'AFFAIRES - METTRE EN PLACE UN TRAVEL MANAGEMENT PERFORMANT",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782100741281,
+    "t": "Climat, une nouvelle chance ? : RAMSES 2016",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782100742394,
+    "t": "Tout l'entrai\u0302nement intensif aux tests d'aptitude IFSI : concours infirmier",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782100742790,
+    "t": "Le petit finance 2016 : les notions cle\u0301s en 22 fiches",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110740038,
+    "t": "Observations de la Cour des comptes relatives au projet de loi portant arre\u0302t des comptes et re\u0300glement definitif du budget de l'E\u0301tat pour l'exercice 2003",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110740038,
+    "t": "Re\u0300\u0300glement inte\u0301rieur : Assemble\u0301e Nationale",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110740359,
+    "t": "Bijouterie, joaillerie, orfe\u0300vrerie : et activite\u0301s qui s'y rattachent ; convention collective nationale du 5 juin 1970 (e\u0301tendu par arre\u0302te\u0301 du 27 sept. 1973)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110740793,
+    "t": "Gardiens, concierges et employe\u0301s d'immeubles : convention collective nationale du 11 de\u0301c. 1979 (e\u0301tendu par arre\u0302te\u0301 du 15 avril 1981)",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782110740946,
     "t": "Re\u0300glement du 25 juin 1980 : Etablissements spe\u0301ciaux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110740991,
+    "t": "Convention collective re\u0301gionale, Industries me\u0301tallurgiques OETAM (re\u0301gion parisienne) : du 16 juillet 1954 (e\u0301tendue par arre\u0302te\u0301 du 11 aou\u0302t 1965)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110741264,
+    "t": "Re\u0300glement ge\u0301ne\u0301ral des industries extractives",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110741486,
+    "t": "Personnel se\u0301dentaire des entreprises de navigation libres : convention collective nationale du 20 fe\u0301vr. 1951 (e\u0301tendu par arre\u0302te\u0301 du 9 de\u0301c. 1983)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110741714,
+    "t": "Commerces de gros : convention collective nationale du 23 juin 1970 (e\u0301tendu par arre\u0302te\u0301 du 15 juin 1972)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110742018,
+    "t": "Code de la consommation : (parties le\u0301gislative et re\u0301glementaire)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110742087,
+    "t": "Industrie laitie\u0300re : convention collective nationale du 20 mai 1955 (e\u0301tendu par arre\u0302te\u0301 du 9 de\u0301c. 1977)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110742513,
+    "t": "Organismes de tourisme a\u0300 but non lucratif : convention collective nationale du 5 fe\u0301vrier 1996 (e\u0301tendu par arre\u0302te\u0301 du 6 de\u0301cembre 1996)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110742612,
+    "t": "Guide a\u0300 l'intention des mai\u0302tres d'ouvrage publics pour la ne\u0301gociation des re\u0301mune\u0301rations de mai\u0302trise d'oeuvre : juin 1994 ; loi MOP",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110742650,
+    "t": "Commerce des articles de sports et e\u0301quipements de loisirs : convention collective nationale du 26 juin 1989 (e\u0301tendu par arre\u0302te\u0301 du 11 oct. 1989)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110742896,
+    "t": "Code des postes et te\u0301le\u0301communications : Livre 1 : le service postal, livre 2 : les te\u0301le\u0301communications, livre 3 : les services financiers, livre 4 : l'organisation financie\u0300re",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110742896,
+    "t": "Code des postes et telecommunications",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110742964,
+    "t": "Programme d'enque\u0302tes et de travaux statistiques. Sante\u0301-affaires sociales ; Les ope\u0301rations de collectes d'informations pre\u0301vues pour 1997 par les Directions techniques du Ministe\u0300re de l'emploi et de la solidarite\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110743138,
+    "t": "Textes ge\u0301ne\u0301raux, nomenclature",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110743206,
+    "t": "Les pouvoirs publics : le\u0301gislation et re\u0301glementation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110743589,
+    "t": "Immobilier : (administrateurs de biens, socie\u0301te\u0301s immobilie\u0300res, agents immobiliers, etc.) ; convention collective nationale, mise a\u0300 jour le 9 sept. 1988 (e\u0301tendu par arre\u0302te\u0301 du 24 fe\u0301vr. 1989)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110743770,
+    "t": "Convention collective nationale, Entreprises de la publicite\u0301 et assimile\u0301es : 22 avril 1955, e\u0301tendue par arre\u0302te\u0301 du 29 juillet 1955",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110744784,
+    "t": "Guide de bonnes pratiques d'hygie\u0300ne. Glacier-fabricant monovalent, glaces, cre\u0300mes glace\u0301es et sorbets",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110744852,
+    "t": "Cre\u0300ches, pouponnie\u0300res, haltes-garderies, garderies et jardins d'enfants, assistant(e)s maternel(le)s",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110745828,
+    "t": "Ho\u0302tels, cafe\u0301s, restaurants : Convention collective nationale du 30 avril 1997 (e\u0301tendue par arre\u0302te\u0301 du 3 de\u0301cembre 1997)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110745941,
+    "t": "L' action des de\u0301partements dans le domaine de la voirie routie\u0300re : rapport au Pre\u0301sident de la Re\u0301publique suivi des re\u0301ponses des administrations et collectivite\u0301s ; [rapport public particulier]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110746016,
+    "t": "Rapport annuel 1997",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110747099,
+    "t": "Convention collective nationale, Gardiens, concierges et employe\u0301s d'immeubles : 11 de\u0301cembre 1979, e\u0301tendue par arre\u0302te\u0301 du 15 avril 1981",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110747198,
+    "t": "Convention collective nationale, Radiodiffusion, accord d'e\u0301tape : 11 avril 1996, e\u0301tendue par arre\u0302te\u0301 du 22 octobre 1996",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110747853,
+    "t": "Convention collective nationale, E\u0301tablissements prive\u0301s sanitaires et sociaux, UHP : 22 janvier 1992",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110747969,
+    "t": "Rapport d'activite\u0301 1999",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110748171,
+    "t": "Prothe\u0301sistes dentaires et personnels des laboratoires de prothe\u0300ses dentaires : Convention collective nationale du 18 de\u0301cembre 1978 : etendue par arre\u0302te\u0301 du 28 fe\u0301vrier 1979",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110748256,
+    "t": "Convention collective nationale du ler novembre 1976 (Etendue par arre\u0302te\u0301 du 2 fe\u0301vrier 1988) : Journalistes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110748454,
+    "t": "Agences de presse : convention collective nationale",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110748553,
+    "t": "Les citoyens et l'administration",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110748669,
+    "t": "Treizie\u0300me rapport d'activite\u0301 : anne\u0301e 1999",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110749239,
+    "t": "Se\u0301curite\u0301 contre les incendies, Immeubles de grande hauteur (IGH)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110749567,
+    "t": "Se\u0301curite\u0301 contre l'incendie dans les e\u0301tablissements recevant du public : pre\u0301vention ge\u0301ne\u0301rale des risques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110749758,
+    "t": "Code e\u0301lectoral : Parties le\u0301gislative et re\u0301glementaire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111241190,
+    "t": "Rapport d'information relatif au financement en fonds propres des PME",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111242364,
+    "t": "Le traite\u0301 de Lisbonne un traitE\u0301 indispensable et urgent",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111242524,
+    "t": "Le traite\u0301 de Lisbonne un traite\u0301 indispensable et urgent",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111243453,
+    "t": "Rapport d'information sur les enjeux strate\u0301giques et industriels du secteurs spatial",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782111248960,
+    "t": "Rapport d'information de\u0301pose\u0301 en application de l'article 145 du re\u0300glement relatif a\u0300 la crise financie\u0300re internationale",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782121740508,
+    "t": "Caoutchouc. 2, Latex et caoutchouc brut",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782121740508,
+    "t": "Caoutchouc. 3, Ingre\u0301dients",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782121740508,
+    "t": "Caoutchouc. 4, Caoutchouc vulcanise\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782121740508,
+    "t": "Caoutchouc. 5, Caoutchouc et plastiques, tubes et tuyaux souples, me\u0301thodes d'essais et spe\u0301cifications",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782130741275,
+    "t": "Les Clercs de l'islam Autorite\u0301 religieuse et pouvoir politique en Arabie Saoudite (XVIII",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782130741619,
+    "t": "Le destin de la classe ouvrie\u0300re",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782130741732,
+    "t": "Baas et Islam en Syrie La dynastie Assad face aux oule\u0301mas",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782140245992,
+    "t": "Herbert Marcuse et le \\\"\"Grand Refus\\\"\": Vers une soci\u00e9t\u00e9 non r\u00e9pressive ?",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782200242343,
+    "t": "Les relations internationales dans l'Europe moderne : conflits et e\u0301quilibres europe\u0301ens, 1453-1789",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782200248048,
+    "t": "Les the\u0301ories des cine\u0301astes",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782203244481,
+    "t": "Mes copains, mes copines et l'amour",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782207240212,
+    "t": "Black velvet",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782207240328,
+    "t": "La femme en clef de sol : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782207240618,
+    "t": "Valentin tout seul : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782207240748,
+    "t": "Ce soir, les souris sont bleues : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782207241479,
+    "t": "En marge : nouvelles",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782207244524,
+    "t": "Nouvelles. 04, 1953-1963",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782207245194,
+    "t": "Fene\u0302tres sur crimes : 9 ouvertures sur la litte\u0301rature policie\u0300re",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782207248140,
+    "t": "Fleurs de Shanghai : [roman]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210741065,
+    "t": "Carnet du jour, carnet du soir : Mathe\u0301matiques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210741584,
+    "t": "Croq'notes : 15 chansons traditionnelles 6-8 ans",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210741652,
+    "t": "Ge\u0301ographie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210742826,
+    "t": "La maison : petite visite en activite\u0301s",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210742833,
+    "t": "L'e\u0301cole : petite visite en activite\u0301s",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210742840,
+    "t": "La ville : petite visite en activite\u0301s",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210742857,
+    "t": "La ferme : petite visite en activite\u0301s",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210742864,
+    "t": "Le zoo : petite visite en activite\u0301s",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210743113,
+    "t": "Dicte\u0301es CM1 : cahier conc\u0327u par un enseignant",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210743137,
+    "t": "Dicte\u0301es CM2 : cahier conc\u0327u par un enseignant",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210743229,
+    "t": "Tout en un, 1re S",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210743250,
+    "t": "Le cha\u0302teau myste\u0301rieux : petite visite en activite\u0301s",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210744196,
+    "t": "Dictees. CE1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210744394,
+    "t": "J'apprends l'Anglais au CM2 10-11 ans",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210745193,
+    "t": "Maths 4e",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210745544,
+    "t": "Atlas : colle\u0300ges, lyce\u0301es : ge\u0301ographie, histoire, e\u0301ducation civique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210746107,
+    "t": "Franc\u0327ais 1res toutes se\u0301ries : le programme",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210746138,
+    "t": "SES : obligatoire et spe\u0301cialite\u0301, Tle ES : le programme",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210746145,
+    "t": "Maths obligatoire et spe\u0301cialite\u0301 : Tle ES : le programme",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210746152,
+    "t": "Maths obligatoire et spe\u0301cialite\u0301 : Tle S : le programme",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210746169,
+    "t": "Physique : obligatoire et spe\u0301cialite\u0301 terminale S : le programme",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782210746190,
+    "t": "Terminale L : Philo, histoire, ge\u0301o, maths spe\u0301cialite\u0301, litte\u0301rature, latin, anglais, espagnol, allemand",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210746206,
+    "t": "Terminale ES : SES, maths, histoire, ge\u0301o, philo, anglais, espagnol, allemand",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210746213,
+    "t": "Terminale S : Maths, physique, chimie, SVT, histoire, ge\u0301o, philo, anglais, espagnol, allemand",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210746282,
+    "t": "Anglais, terminales toutes se\u0301ries",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210746329,
+    "t": "Histoire ge\u0301o : 1res L, ES, S : le programme",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210746466,
+    "t": "Je de\u0301couvre l'anglais au CE1 7-8 ans",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210747913,
+    "t": "Je dessine pas a\u0300 pas avec Pointu",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210748200,
+    "t": "Cahier du jour, cahier du soir : maths, CE1 : [7-8 ans]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210748491,
+    "t": "Espagnol 4e LV2 : Cahier du jour cahier du soir",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210748668,
+    "t": "Cahier du jour, cahier du soir : dicte\u030cs CE1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210748699,
+    "t": "Cahier du jour, cahier du soir : Dicte\u0301es CM2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782217240127,
+    "t": "Le coffret des fe\u0301es",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782218741333,
+    "t": "New step in : anglais 4e, CD audio \u00e9l\u00e8ve",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782218741692,
+    "t": "Insight : anglais terminale : [fichier pe\u0301dagogique]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782218742019,
+    "t": "Bac litte\u0301rature 2003, terminale L",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782218742118,
+    "t": "Tartuffe, Molie\u0300re",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782218743733,
+    "t": "Les monstres de l'espace",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782218743740,
+    "t": "Les moutons de Panurge : un histoire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782218744464,
+    "t": "Philosophie : se\u0301ries technologiques (STT, STI, STL, SMS, STI Arts applique\u0301s, F11, F12)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782218744471,
+    "t": "Anglais : se\u0301ries L, ES, S (LV1 et LV2), se\u0301ries technologiques (LV1)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782218744495,
+    "t": "Sciences e\u0301conomiques et sociales ES",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782218744518,
+    "t": "Mathe\u0301matiques-informatique, 1re L",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782218744846,
+    "t": "Profil D'une Oeuvre",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782218744846,
+    "t": "\"L'avare\" (1668), Molie\u0300re",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782218745027,
+    "t": "La Bible : comple\u0301ments pe\u0301dagogiques : groupement de textes, l'inspiration biblique dans la litte\u0301rature",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782218745379,
+    "t": "Ralette au feu d'artiface",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782218746833,
+    "t": "Kiosk allemand, 2de, langue vivante 1 et 2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782218747717,
+    "t": "Franc\u0327ais, se\u0301ries ge\u0301ne\u0301rale, technologique, profesionnelle : sujets et corrige\u0301s",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782218748479,
+    "t": "Les 13 notions essentielles en conjugaison grammaire : des lec\u0327ons, des exercices pour venir a\u0300 bout des difficulte\u0301s : 9/10 ans, CM1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782225740411,
+    "t": "Algies pelviennes chroniques sans cause cliniquement e\u0301vidente : XXXe Assises franc\u0327aises de gyne\u0301cologie, Clermont-Ferrand, 28-29-30 mai 1981",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782226241139,
+    "t": "Superman. 3, Les mai\u0302tres des ombres",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782226245816,
+    "t": "Geronimo Stilton. Pas touche aa la pierre aa feu!",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782226245823,
+    "t": "T\u00e9a Stilton. Deux stars au coll\u00e8ge",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782226245946,
+    "t": "43, rue du Vieux-Cimetie\u0300re. 2, Il faudra me passer sur le corps",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782226247339,
+    "t": "Geronimo Stilton. 65, Le secret du karatae",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782226247346,
+    "t": "Taa Stilton. Opaeration Hawaei",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782226247827,
+    "t": "Les exploits de Babouche",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782226247933,
+    "t": "Chante avec Dora : livre d'activite\u0301s avec stickers",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782226248114,
+    "t": "Babouche fait du ve\u0301lo",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782226248220,
+    "t": "Jeannot",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782226249883,
+    "t": "Au lit, les aventuriers!",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782226249890,
+    "t": "La machine a\u0300 chiper de Chipeur",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782226249913,
+    "t": "Dora au pays des merveilles",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782226249951,
+    "t": "Barbie:Mariposa",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782227740044,
+    "t": "Vivre ensemble : les differences",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782227745018,
+    "t": "Le petit livre pour dire non a\u0300 intole\u0301rance et au racisme",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782227745025,
+    "t": "Le petit livre pour dire non a\u0300 la violence",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782227747036,
+    "t": "L'incendiaire de Rome",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782246247616,
+    "t": "L'enfant que tu \u00e9tais : roman",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782246248514,
+    "t": "Irano nox",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782246749516,
+    "t": "Une fille cousue de fil blanc : roman",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782251742045,
+    "t": "Fragments poe\u0301tiques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782253241881,
+    "t": "Les soeurs Mitford enqu\u00eatent",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782253242604,
+    "t": "Myst\u00e9rieuse Affaire De Styles(La) N. \u00c9d",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782266241687,
+    "t": "Au concours hippique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782266245746,
+    "t": "Le titre supre\u0302me",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782266246644,
+    "t": "Prophe\u0301tie Du Paladin, La T01",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782277241102,
+    "t": "Le livre d'Atrus",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782280243285,
+    "t": "Une folle proposition",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782280243698,
+    "t": "Une si myste\u0301rieuse attirance",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782280243780,
+    "t": "Le secret de Matt Brody",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782280244015,
+    "t": "Une audacieuse inge\u0301nue",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782280244459,
+    "t": "Pacte avec un se\u0301ducteur",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782280244572,
+    "t": "La fiance\u0301e des Highlands",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782280244596,
+    "t": "Le mariage d'un prince",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782280244992,
+    "t": "Un si bel e\u0301te\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782280245005,
+    "t": "Un secret pour un sheikh",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782280245180,
+    "t": "Un mariage de re\u0302ve",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782280245579,
+    "t": "Coup de foudre au Sidney Hospital",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782280245647,
+    "t": "Le re\u0302ve d'un pe\u0300re",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782280245654,
+    "t": "Pour l'amour d'un pe\u0301diatre",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782280246101,
+    "t": "L'ange du cre\u0301puscule",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782280246248,
+    "t": "L'orage des sentiments",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782280246323,
+    "t": "Promesses a\u0300 Sutherland Farm",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782280246415,
+    "t": "Une protection inattendue",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782280247405,
+    "t": "Sous le charme d'un McKettrick",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782280248471,
+    "t": "Les disparus de Shadow Falls",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782280248495,
+    "t": "L'i\u0302le de la lune noire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782280248525,
+    "t": "L'e\u0301cho de la rivie\u0300re",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782283741306,
+    "t": "L'atelier des enfants : vingt ateliers d'e\u0301veil a\u0300 la foi. Le livre de l'enfant",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782287249181,
+    "t": "Le manuel de re\u0301animation, soins intensifs et me\u0301decine d'urgence",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782294745324,
+    "t": "Me\u0301mo-fiches MCAD/TPADVF : Aide a\u0300 domicile - Assistant de vie aux familles",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782294745621,
+    "t": "Complications de la chirurgie du rachis",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782294746888,
+    "t": "CAP Esthe\u0301tique Cosme\u0301tique Parfumerie : Se pre\u0301parer a\u0300 l'e\u0301preuve EP3",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782294747274,
+    "t": "Pharmacologie et the\u0301rapeutiques : UE 2.11 - Semestres 1, 3 et 5",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782294749377,
+    "t": "AS-AP : concours 2016 : e\u0301preuve orale",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782294749728,
+    "t": "Concours AP 2016-2017 : e\u0301crit et oral : annales corrige\u0301es",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782296240025,
+    "t": "La cre\u0301ation, de\u0301finitions et de\u0301fis contemporains : [colloque, Paris, 15 et 16 novembre 2007]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782296244474,
+    "t": "Les sciences de l'information et de la communication a\u0300 la rencontre des Cultural Studies@",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782296248038,
+    "t": "SYNTAXE ET LEXICOLOGIE DU FON GBE BENIN",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322240005,
+    "t": "PRATIQUE DE FRANCAIS ORAL",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322240357,
+    "t": "PORTE SUR LE COEUR",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322241286,
+    "t": "La tortue et la panthe\u0300re",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322241484,
+    "t": "Un jour de cafard",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322242641,
+    "t": "LES BIENFAITS DE L'HYPNOSE DANS LE STRESS",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322243051,
+    "t": "JOURNAL D'UNE CANCEREUSE : voyage dans ma coquille de noix",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322243525,
+    "t": "L'infiltre\u0301 L'hypnotiseur",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322248117,
+    "t": "SANG SOLEIL",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322248537,
+    "t": "Pai\u0308erali",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322249008,
+    "t": "CHRONIQUES RELIGIEUSES : tome 2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782332741615,
+    "t": "Piazza Navona",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782332742018,
+    "t": "Peau de came\u0301le\u0301on : poe\u0301sie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782332742520,
+    "t": "L'amour en guerre",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782332742889,
+    "t": "Sueurs froides",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782332743930,
+    "t": "Des contes qui ruissellent",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782332744357,
+    "t": "Peacock",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782332744869,
+    "t": "Le circuit bleu",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782332746122,
+    "t": "A\u0300 Dieu",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782332748225,
+    "t": "Le passager de la vie : biographie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782332748287,
+    "t": "Le foyer de Charles Dickens pour les filles perdues",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782332748317,
+    "t": "Un homme en cole\u0300re",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782350241968,
+    "t": "La chouette de Noe\u0308l",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782350242095,
+    "t": "Mais ou\u0300 est l'ours?",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782350242132,
+    "t": "Un cha\u0302teau sous les projecteurs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782350242156,
+    "t": "Frayeurs dans la fore\u0302t",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782350242163,
+    "t": "Les habits neufs de l'empereur",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782350242200,
+    "t": "Histoires de chats",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782350242217,
+    "t": "De quelle couleur sont les soleils?",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782350242231,
+    "t": "Des vampires et des fanto\u0302mes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782350242248,
+    "t": "P'tit piaf",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782350242606,
+    "t": "Qui est dans l'escalier?",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782350242750,
+    "t": "Champion des moucherons",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782350242767,
+    "t": "Ma chienne est une fe\u0301e",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782350242880,
+    "t": "Le petit fanto\u0302me SDF",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782350242903,
+    "t": "Les animaux d'Afrique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782350242910,
+    "t": "La gitane et le gentilhomme",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782350244006,
+    "t": "Que j'aille a\u0300 la mer : souvenirs-fiction",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782350244556,
+    "t": "Les terribles aventures de Me\u0301lina et Rico : fille et fils de pirate",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782350244990,
+    "t": "La soupe au caillou",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782350245447,
+    "t": "Loup y es-tu ?",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782350740645,
+    "t": "Marie-Antoinette : femme re\u0301elle, femme mythique : exposition, Bibliothe\u0300que historique de Versailles, de\u0301cembre 2006-mars 2007",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782350742656,
+    "t": "Jeux de montagne, jeux d'enfants : de\u0301couvre la montagne en t'amusant",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782350742847,
+    "t": "Nouvelles d'Egypte",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782350744056,
+    "t": "4l--un tour du monde du microcre\u0301dit Re\u0301cit d'une expe\u0301dition unique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782351240014,
+    "t": "Rochepot : la vieille route",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782351240090,
+    "t": "Lotus passion",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782352740032,
+    "t": "Recettes des Pyre\u0301ne\u0301es : 45 recettes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782353740062,
+    "t": "Paroles d'initie\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782353740420,
+    "t": "Hitler T. 1. L' essor",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782353740628,
+    "t": "Le douloureux secret de la diva",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782353741861,
+    "t": "Sentinelle franc\u0327aise",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782353742905,
+    "t": "Quand e\u0301clatent les bulles",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782353744237,
+    "t": "Chroniques barbares",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782353744237,
+    "t": "Chroniques barbares",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782354240981,
+    "t": "Oeuvre comple\u0300te",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782354241001,
+    "t": "Oeuvre comple\u0300te",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782354241094,
+    "t": "Oeuvre comple\u0300te",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782354241476,
+    "t": "Oeuvre comple\u0300te",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782354741358,
+    "t": "L'Atlas de l'industrie 2012 : les sie\u0300ges sociaux : 6 500 entreprises, 22 400 dirigeants",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782355240133,
+    "t": "Miroir sombre",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782355740909,
+    "t": "Delilah Dirk et le lieutenant turc. Tome 1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782355742804,
+    "t": "Doctor Who, le douzie\u0300me docteur",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782355742958,
+    "t": "Apocalypse sur Carson city / 6, ... Sorti des te\u0301ne\u0300bres, part one",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782355743481,
+    "t": "Mal acquis",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782355743658,
+    "t": "N\u00b01 with a bullet",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782355745058,
+    "t": "Critical role : vox machina origines",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782357740037,
+    "t": "L'amour et le pardon de Dieu",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782358740081,
+    "t": "Passe et demeure : poe\u0300mes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782358740104,
+    "t": "Histoire et e\u0301conomie rurale d'un lieu-dit en ruine : Chababoudrand a\u0300 Messimy en Lyonnais (XIVe XXe sie\u0300cle)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782358740364,
+    "t": "En habits de charivari : made in blues",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782359240191,
+    "t": "Jack Ke\u0301rouac : sur la route",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782359240221,
+    "t": "Confucius : le roi sans royaume",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782359240269,
+    "t": "Euge\u0300ne-Franc\u0327ois Vidocq",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782359240450,
+    "t": "Oscar Fingal O'Flahertie Wills Wilde",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782359240610,
+    "t": "Anai\u0308s Nin : la Ve\u0301nus erotica",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782359240627,
+    "t": "Jack London : le vagabond magnifique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782359240634,
+    "t": "Tennessee Williams",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782359240641,
+    "t": "Henry Miller",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782359240658,
+    "t": "William Faulkner",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782359240672,
+    "t": "John Ernst Steinbeck",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782359240689,
+    "t": "Ernest Miller Hemingway",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782359240696,
+    "t": "Truman Capote",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782359240788,
+    "t": "Le grand tour, Venise",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782359240832,
+    "t": "Le grand tour, Naples",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782359240870,
+    "t": "Le grand tour, Rome",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782359240900,
+    "t": "Le grand tour, Florence",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782359740233,
+    "t": "100 mots en breton : que vous savez de\u0301ja\u0300",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782359740257,
+    "t": "Loeiz Roparz : Paotr ar festou-noz = Le re\u0301novateur du fest-noz",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782359740547,
+    "t": "Parcours d'un ethnologue en Bretagne",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782359740776,
+    "t": "100 noms en breton pour mon animal",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782359740820,
+    "t": "100 mots en breton : pour les fe\u0302tes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782360240227,
+    "t": "Un soir quand la lune sera pleine",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782360740840,
+    "t": "Infestation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782362240577,
+    "t": "Superman n'existe pas : La vraie vie ; Quelque chose qui cloche ; Machine arrie\u0300re ; Journal de bord",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782364240438,
+    "t": "Repenser le politique \u00e0 travers des imaginaires dispers\u00e9s",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782364242425,
+    "t": "Imaginaire et illusion",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782364749672,
+    "t": "Recettes bonnes a\u0300 croquer et a\u0300 colorier",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782366240580,
+    "t": "Les grands duels du cine\u0301ma",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782366241907,
+    "t": "Lorsque je me sens vieille",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782366242478,
+    "t": "Pedot = Animals",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782366244243,
+    "t": "Glou guide. 2, 150 nouveaux vins naturels exquis a\u0300 15 euros maxi",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782366244717,
+    "t": "Sasha et le ve\u0301lo",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782366245967,
+    "t": "Huit heures et trente-cinq minutes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782367240015,
+    "t": "Manifeste pour une Re\u0301publique humaniste et forte : de R a\u0300 A",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782369740445,
+    "t": "Descente en enfer",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782369740742,
+    "t": "Justice corrompue",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782369741343,
+    "t": "Le boxeur a\u0300 la gueule d'ange",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782369747307,
+    "t": "Duellistes : knight of flower. 3",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782369747413,
+    "t": "Les survivants",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782369747963,
+    "t": "Magical girl holy shit. 6",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782370740656,
+    "t": "Antoni Clave\u0301 : catalogue raisonne\u0301 : oeuvre grave\u0301 = printed work = obra grabada",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782370740656,
+    "t": "Antoni Clave\u0301 : catalogue raisonne\u0301 : oeuvre grave\u0301 = printed work = obra grabada",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782370740656,
+    "t": "Antoni Clave\u0301 : catalogue raisonne\u0301 : oeuvre grave\u0301 = printed work = obra grabada",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782376740247,
+    "t": "Klaus : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782376740643,
+    "t": "Envol poe\u0301tique : poe\u0301sie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782378240677,
+    "t": "De\u0301sir d'ailleurs : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782378240929,
+    "t": "Conversations entre deux vieillards : re\u0301cit",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782379241055,
+    "t": "Le Roman du signe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782379241055,
+    "t": "Le Roman du signe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782379241093,
+    "t": "Poussin pour me\u0301moire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782379241178,
+    "t": "Voyages des textes de the\u0301a\u0302tre. Italie-France-Italie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782379241222,
+    "t": "De l'art de plaire en petits morceaux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782379241246,
+    "t": "L'\u0152uvre de l'\u0153uvre",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782379241253,
+    "t": "Le Monde ve\u0301ge\u0301tal (XIIe-XVIIe sie\u0300cles)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782379241277,
+    "t": "L'Imaginaire-Melville",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782379241338,
+    "t": "Nos plus belles ide\u0301es",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782379241338,
+    "t": "Nos plus belles id\u00e9es",
     "h": 1,
     "e": 0
   }

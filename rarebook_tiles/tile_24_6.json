@@ -1,5 +1,125 @@
 [
   {
+    "i": 9782414240050,
+    "t": "Bel e\u0301be\u0300ne. Tome I",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782414240593,
+    "t": "Majestic, la mission oublie\u0301e. Tome 1 : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782414242603,
+    "t": "Les taciturnes et l'oppression",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782414243204,
+    "t": "Sans tambour ni trompette : dro\u0302les d'histoires de pays",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782414244645,
+    "t": "Majestic, la mission oublie\u0301e. Tome 2 : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782414245727,
+    "t": "Esquisse sur l'amour : la fide\u0301lite\u0301 et la confiance en amour",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782414248131,
+    "t": "Au-dela\u0300 de l'espoir",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782414249374,
+    "t": "Les corps e\u0301trangers : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782414249527,
+    "t": "PVT Canada : partez, venez tenter l'aventure",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782490243051,
+    "t": "Vampirou",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782490746149,
+    "t": "Je peux tuer qui je veux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782491242152,
+    "t": "Nina",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782491747077,
+    "t": "L'estoire de Guillaume Longue-e\u0301pe\u0301e, fils de Rollon, fondateur de la Normandie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782493244055,
+    "t": "6 jours",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550240075,
+    "t": "Anglais langue seconde, ANG-5054-6 : de\u0301finition du domaine d'examen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550240181,
+    "t": "Que\u0301bec : point de mire sur le domaine de la construction",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550240372,
+    "t": "Vers un continuum de services inte\u0301gre\u0301s a\u0300 la jeunesse : projets expe\u0301rimentaux de solutions de rechange au placement des jeunes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550241287,
+    "t": "Printing and publishing : prepress work : program of study ZZU-507, 5559",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550241300,
+    "t": "Food, hotel and restaurant services : pastry making : evaluation guide, 5539",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550241607,
+    "t": "Rapport de la Commission de l'Estrie sur l'avenir du Que\u0301bec",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782550241737,
     "t": "L'information dynamique : re\u0301pertoire",
     "h": 1,
@@ -24,6 +144,42 @@
     "e": 0
   },
   {
+    "i": 9782550242949,
+    "t": "Acquiring a residential building",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550243069,
+    "t": "Individual papers presented under the auspices of the ad hoc groups in charge of questions : XXth World Road Congress : Montreal, 3-9 September 1995",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550243083,
+    "t": "Individual papers presented under the auspices of the committees and working groups : XXth World Road Congress : Montreal, 3-9 September 1995",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550243663,
+    "t": "La me\u0301diation en environnement : une nouvelle approche au BAPE : rapport de consultation sur la me\u0301diation tenue le 26 janvier 1995",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550243786,
+    "t": "Colloque Adoption 94 : dessine-moi une famille : actes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550243847,
+    "t": "Que\u0301bec atout : sante\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782550243977,
     "t": "Les touristes ame\u0301ricains au Que\u0301bec, 1990-1993",
     "h": 1,
@@ -36,8 +192,26 @@
     "e": 0
   },
   {
+    "i": 9782550244356,
+    "t": "Seminar, final report, Committee of Experts and Information",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782550244509,
     "t": "Young adults between the ages of 16 and 25 in literacy instruction : study on current enrolment and prior schooling",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550244622,
+    "t": "Les Re\u0301gimes comple\u0301mentaires de retraite au Que\u0301bec, statistiques 1992 : les participants, les dispositions des re\u0301gimes et les donne\u0301es financie\u0300res : theme, e\u0301volution de la le\u0301gislation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550244837,
+    "t": "Tarifs d'e\u0301lectricite\u0301 1995",
     "h": 1,
     "e": 0
   },
@@ -54,8 +228,32 @@
     "e": 0
   },
   {
+    "i": 9782550245254,
+    "t": "Plan d'intervention pour la survie du suceur cuivre (Moxostoma hubbsi)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550245292,
+    "t": "Recueil de de\u0301lais de conservation a\u0300 l'intention des cours municipales du Que\u0301bec",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782550245452,
     "t": "Anglais, langue seconde, ANG-2001-6, definition of the domain",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550245834,
+    "t": "Guide de consommation du poisson de pe\u0302che sportive en eau douce 95",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550245865,
+    "t": "Montre\u0301al 1994 : la recherche en sante\u0301 au Que\u0301bec et dans le monde : bilan et prospectives, tenu a\u0300 Montre\u0301al, le 24 octobre 1994",
     "h": 1,
     "e": 0
   },
@@ -66,8 +264,38 @@
     "e": 0
   },
   {
+    "i": 9782550245933,
+    "t": "Cahier des propositions",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550245995,
+    "t": "Nos services sur UBI",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550246206,
+    "t": "Les agressions sexuelles : stop : plan d'action interministe\u0301riel",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9782550246220,
     "t": "Guide de surveillance : chantier d'infrastructures de transport",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550246237,
+    "t": "Les successions : justice en bref",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550247005,
+    "t": "Initiation aux me\u0301tiers non traditionnels : atelier d'exploration des me\u0301tiers non traditionnels : PER-4060-8 : de\u0301finition du domaine d'examen",
     "h": 1,
     "e": 0
   },
@@ -90,8 +318,62 @@
     "e": 0
   },
   {
+    "i": 9782550248309,
+    "t": "Ne pas se laisser bercer par le courant : me\u0301moire pre\u0301sente\u0301 a\u0300 l'occasion du de\u0301bat public sur l'e\u0301nergie au Que\u0301bec",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782550248316,
     "t": "Research and development at the Laboratoire des chausse\u0301es",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550248408,
+    "t": "Congress guide : XXth World Road Congress, Montre\u0301al, 1995 : September 3 to 9, 1995",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550248415,
+    "t": "Guia\u0301 del congreso : XX Congreso Mundial de la Carretera Montre\u0301al, 1995 : del 3 al 9 septiembre 1995",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550248477,
+    "t": "Profil e\u0301conomique de la re\u0301gion du Bas-Saint-Laurent (01) 1994",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550248736,
+    "t": "L'e\u0301perlan arc-en-ciel (Osmerus mordax) : facteurs influenc\u0327ant les populations et importance dans la communaute\u0301 ichtyenne",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550248910,
+    "t": "De\u0301bat public sur l'e\u0301nergie au Que\u0301bec. Phase information : compte-rendu des se\u0301ances de travail tenues du 21 avril au 1er juin 1995 [et] confe\u0301rences finales du 1er juin 1995",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550248941,
+    "t": "Electric and magnetic fields and human health",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550248965,
+    "t": "Recueil de donne\u0301es historiques sur les pe\u0302ches et l'aquiculture commerciales au Que\u0301bec, 1995",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550249139,
+    "t": "La vie e\u0301tudiante des personnes handicape\u0301es dans les e\u0301tablissements d'enseignement universitaire que\u0301be\u0301cois : un bilan des anne\u0301es 1989 a\u0300 1995",
     "h": 1,
     "e": 0
   },
@@ -104,6 +386,24 @@
   {
     "i": 9782550249160,
     "t": "Investir dans l'action, et comment!",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550249368,
+    "t": "La Corallorhize d'automne varie\u0301te\u0301 de pringle, espe\u0300ce menace\u0301e au Que\u0301bec",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550249375,
+    "t": "L'athyrie alpestre, sous-espe\u0300ce ame\u0301ricaine : espe\u0300ce menace\u0301e au Que\u0301bec",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550249375,
+    "t": "L'Athyrie alpestre sous-espe\u0300ce ame\u0301ricaine, espe\u0300ce menace\u0301e au Que\u0301bec",
     "h": 1,
     "e": 0
   },
@@ -126,6 +426,12 @@
     "e": 0
   },
   {
+    "i": 9782550249603,
+    "t": "Health and social services : home care and family and social assistance : program of study 5545",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782550249610,
     "t": "Printing and publishing. Printing and finishing",
     "h": 1,
@@ -136,5 +442,947 @@
     "t": "La recherche et le de\u0301veloppement au Laboratoire des chausse\u0301es",
     "h": 1,
     "e": 0
+  },
+  {
+    "i": 9782550249849,
+    "t": "Re\u0301pertoire que\u0301be\u0301cois des re\u0301cupe\u0301rateurs et des recycleurs : e\u0301dition 1997-1998",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550249917,
+    "t": "E\u0301quipements de production, de transport et de distribution d'e\u0301nergie e\u0301lectrique : re\u0301pertoire 1995",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550749387,
+    "t": "Vaccination contre les virus du papillome humain (VPH) des hommes ayant des relations sexuelles avec des hommes : questions et re\u0301ponses a\u0300 l'intention des intervenants",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551243211,
+    "t": "Cadre juridique de la profession dentiste = Legal framework of the profession : dentist",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551243358,
+    "t": "Regulation respecting pressure vessels : updated to 2 June 2009",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551246427,
+    "t": "Tome V : signalisation routi\u00e8re",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551247813,
+    "t": "Arbitrage des griefs",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782551247820,
+    "t": "Re\u0300glement sur la sante\u0301 et la se\u0301curite\u0301 du travail, chapitre S-2.1, r. 13, dernie\u0300re modification : 18 juin 2015 a\u0300 jour au 28 juillet 2015",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782608246066,
+    "t": "Neues Testament und Psalmen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782700243697,
+    "t": "L'anne\u0301e de Jules. Tous a\u0300 la fe\u0302te",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782700247671,
+    "t": "Bangor : l'orphelin de la lande",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782708245303,
+    "t": "Transition \u00e9cologique et \u00e9nerg\u00e9tique : comment changer les comportements ?",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782708247239,
+    "t": "Mouvements sociaux d'aujourd'hui : acteurs et analystes",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782711740208,
+    "t": "Le grenier de grand-pe\u0300re",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711740550,
+    "t": "Maths, 3e : 240 exercices pour s'entrai\u0302ner, plus explique\u0301s, plus de\u0301taille\u0301s, plus me\u0301thodologiques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711741007,
+    "t": "Cours de sciences physiques a\u0300 l'usage des e\u0301tudiants de la classe de Mathe\u0301matiques Supe\u0301rieures et du premier cycle universitaire. Me\u0301canique I",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711741021,
+    "t": "Cours de sciences physiques a\u0300 l'usage des e\u0301tudiants de la classe de Mathe\u0301matiques supe\u0301rieures et du premier cycle universitaire. Optique 1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711741458,
+    "t": "Thermodynamique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711741663,
+    "t": "E\u0301lectronique, exercices avec solutions",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711741847,
+    "t": "Optique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711742318,
+    "t": "Re\u0301actions",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711743285,
+    "t": "La Chine, premie\u0300re entreprise du monde",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711743339,
+    "t": "Objectif ze\u0301ro-sale-con : petit guide de survie face aux connards, despotes, enflures, barceleurs, trous du cul et autres personnes nuisibles que se\u0301vissent au travail",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782711744176,
+    "t": "Franc\u0327ais : se\u0301ries ge\u0301ne\u0301rales",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711744183,
+    "t": "Franc\u0327ais : se\u0301ries technologiques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711746330,
+    "t": "Franc\u0327ais 1997 : toutes se\u0301ries",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711747115,
+    "t": "Mathe\u0301matiques : se\u0301rie colle\u0300ge brevet : corrige\u0301s",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711748228,
+    "t": "Programmer objet avec Oracle concepts et pratiques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711748365,
+    "t": "Inge\u0301nierie des composants logiciels : principes et fondements",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782711748570,
+    "t": "La nouvelle science des re\u0301seaux : biologie, informatique, sociologie : l'omnipre\u0301sence des re\u0301seaux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782715244764,
+    "t": "Le parfum des sire\u0300nes : roman",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782715248502,
+    "t": "La folie Elisa : roman",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782715248670,
+    "t": "Trois enfants du tumulte : roman",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782724245424,
+    "t": "L'Egypte : le pays : de l'espace utile aux re\u0302ves d'ame\u0301nagement : a\u0300 travers le temps : 5000 ans d'histoire, de culture et de vie quotidienne : villes et re\u0301gions : les sites de l'histoire et ceux d'aujourd'hui",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782731240870,
+    "t": "Dora fe\u0302te Halloween",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731241648,
+    "t": "Autour des bonbons",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731241761,
+    "t": "Cuisine corse",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731241969,
+    "t": "Dora a\u0300 la bibliothe\u0300que",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731242430,
+    "t": "Dora photographe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731246230,
+    "t": "La poste",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731246308,
+    "t": "L'ho\u0302pital",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731246421,
+    "t": "Bocaux et conserves",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731246766,
+    "t": "Chants et choeurs de Noe\u0308l",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731247251,
+    "t": "La ma\u00eetresse",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731247350,
+    "t": "Les plus beaux chevaux sauvages",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731247381,
+    "t": "L'andalou",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731247435,
+    "t": "Le poney Shetland",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731247480,
+    "t": "Le selle franc\u0327ais",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731247510,
+    "t": "Les chevaux d'Europe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731247534,
+    "t": "Le pur-sang anglais",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731247909,
+    "t": "Anjou & Touraine",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731248067,
+    "t": "Le bord de mer",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731248074,
+    "t": "La banquise",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731248234,
+    "t": "La fore\u0302t",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731248258,
+    "t": "La campagne",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731248265,
+    "t": "Le de\u0301sert",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731248289,
+    "t": "La jungle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731248326,
+    "t": "La rivie\u0300re",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731248340,
+    "t": "Le jardin",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731248340,
+    "t": "Le village africain",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731248456,
+    "t": "Jura & Franche-Comte\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731248463,
+    "t": "Gascogne & Be\u0301arn",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731248586,
+    "t": "Camions & camionnettes de livraison en France : 1895-2011",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731248623,
+    "t": "Les ve\u0301hicules du feu : XVe sie\u0300cle-1918",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731248630,
+    "t": "Les ve\u0301hicules a\u0300 deux roues : 1817-2011",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731249057,
+    "t": "La Ford Vedette de mon pe\u0300re",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731249118,
+    "t": "Le trakehner",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731249132,
+    "t": "Les courses hippiques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731249170,
+    "t": "Les poneys du monde",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731249194,
+    "t": "L'attelage",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782731249538,
+    "t": "Passion chats : histoire, arts, cine\u0301ma",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782737240041,
+    "t": "Reve\u0302tements sols et murs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782737240508,
+    "t": "Pa\u0302te a\u0300 sel : tendance pastel",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782737241192,
+    "t": "L'e\u0301lectricite\u0301 : pas a\u0300 pas",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782737249228,
+    "t": "Un royaume pour les petits [objets a\u0300 faire soi-me\u0302me ; 32 patrons inclus]",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782742740567,
+    "t": "Lucrezia Borgia de Gaetano Donizetti : Ope\u0301ra en un prologue et deux actes",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782742740659,
+    "t": "Et vive les fabulettes!",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782742740796,
+    "t": "Ni une ni deux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742740857,
+    "t": "The\u0301a\u0302tre complet. 06",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742741458,
+    "t": "Actes",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782742741885,
+    "t": "Elektra de Richard Strauss : Ope\u0301ra en un acte. Livret de Hugo von Hofmannsthal d'apre\u0300s Sophocle. Hommage a\u0300 Le\u0301onie Rysanek par Monique Barichella",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742743377,
+    "t": "La pense\u0301e de midi. Nume\u0301ro 10, Eclats de frontie\u0300res",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742743476,
+    "t": "La sensible",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782742743667,
+    "t": "Mario Prassinos",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742743971,
+    "t": "Les Carnets du paysage. 09-10 : Jardiner",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742744060,
+    "t": "Rire(s) : a\u0300 tous les temps, sur tous les tons, surtout l'e\u0301te\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742744091,
+    "t": "Rencontres d'Arles 2006",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742744107,
+    "t": "Henri Manguin dans les collections publiques : Galerie d'art du Conseil G\u00e9n\u00e9ral des Bouches-du-Rh\u00f4ne, Aix-en-Provence, 04 juillet-05 octobre 2003",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742745173,
+    "t": "Les Carnets du paysage. 11 : Cheminements",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742745371,
+    "t": "Le tapis d'Esma [un conte tzigane]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742745463,
+    "t": "Mots fute\u0301s pour e\u0301crire sans se tromper",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742745777,
+    "t": "L'Alge\u0301rie en he\u0301ritage : art et histoire : exposition, Paris, Institut du monde arabe, 7 oct. 2003 -25 janv. 2004",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742745852,
+    "t": "Au suivant : sce\u0300nes ve\u0301cues au service des urgences me\u0301diacales : re\u0301cits",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782742745937,
+    "t": "Un sie\u0300cle de musique russe : (1830-1930) ; Glinka, Moussorgsky, Tchai\u0308kowsky, Strawinsky et autres e\u0301crits",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742746040,
+    "t": "Une liaison pornographique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742746187,
+    "t": "Roland Dubillard",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742746705,
+    "t": "Kimiko Yoshida, marry me : Les marie\u0301es intangibles. Autoportraits. [Parai\u0302t a\u0300 l'occasion de l'exposition marry me de Kimiko Yoshida organise\u0301e du 17 septembre au 9 novembre 2003 a\u0300 la maison des arts de Malakoff]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742747719,
+    "t": "L'histoire au muse\u0301e : actes du colloque \"L'histoire au muse\u0301e\", [cha\u0302teau de Versailles du 10 au 12 de\u0301cembre 1998]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742748525,
+    "t": "La pense\u0301e de midi. Nume\u0301ro 12, Egyptes litte\u0301ratures",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742748525,
+    "t": "Egypte(s) litte\u0301ratures",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742748822,
+    "t": "L'horloge magique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742749324,
+    "t": "La pense\u0301e de midi. Nume\u0301ro 13, [Ete\u0301 2004. La cuisine, un gai savoir",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742749621,
+    "t": "L'art au futur ante\u0301rieur, un autre regard : [Exposition pre\u0301sente\u0301e au muse\u0301e de Grenoble, du 10 juillet au 4 octobre 2004]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746241008,
+    "t": "Le laser et ses applications : 50 ans apre\u0300s son invention",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746241206,
+    "t": "Me\u0301thodes nume\u0301riques pour l'inge\u0301nieur",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746241343,
+    "t": "Me\u0301canismes re\u0301actionnels et cine\u0301tique chimique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746241671,
+    "t": "Les tests logiciels - Fondamentaux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746241756,
+    "t": "V\u00e9rification et mise en oeuvre des r\u00e9seaux de P\u00e9tri",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746241800,
+    "t": "Propagation guidee (Traite EGEM, serie electronique et micro-electronique)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746242395,
+    "t": "Optimisation en traitement du signal et de l'image",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746242982,
+    "t": "Th\u00e9orie des probabilit\u00e9s",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746245730,
+    "t": "Apprentissage par renforcement et planification adaptative",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746246911,
+    "t": "Traitement de l'information et prospective",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746248083,
+    "t": "Sciences, techniques et pratiques de gestion",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746248090,
+    "t": "Management alternatif",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746248205,
+    "t": "Les strat\u00e9gies low-cost",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746249219,
+    "t": "Les mutations de l'accompagnement entrepreneurial",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746249349,
+    "t": "Les me\u0301trologies citoyennes : perspectives et enjeux socio-nume\u0301riques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746741621,
+    "t": "Atlas des pays arabes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746742406,
+    "t": "Grand atlas des empires coloniaux : premi\u00e8res colonisations, empires coloniaux, d\u00e9colonisations XVe-XXIe si\u00e8cle",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782746742772,
+    "t": "Atlas des immigrations en France histoire, m\u00e9moire, h\u00e9ritage",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782749241074,
+    "t": "Entendre sa voix",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782749241180,
+    "t": "L'herbe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782754741200,
+    "t": "Gardien de proprie\u0301te\u0301 pour les plus grandes fortunes du monde : mon histoire, ma formation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782754741828,
+    "t": "L'e\u0301litisme a\u0300 la franc\u0327aise",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782754741989,
+    "t": "Plumes d'astres",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782754742528,
+    "t": "On n'a plus le temps : il faut se de\u0301pe\u0302cher, l'horloge tourne ; suivi de Poe\u0300mes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782754743068,
+    "t": "Le monde d'en bas",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782754743303,
+    "t": "Sensualite\u0301 fe\u0301minine : poe\u0301sie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782754743488,
+    "t": "Entre le ciel et la terre, il n'y a qu'un pas",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782754743600,
+    "t": "L'homme, l'Univers et au-dela\u0300 : un regard ine\u0301dit sur la cre\u0301ation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782754743846,
+    "t": "1939-1945, ils se sont tant aime\u0301s : chronique d'une survie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782754743969,
+    "t": "Une silhouette inquie\u0301tante",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782754744065,
+    "t": "Les dollars de Maria Dolores",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782754744140,
+    "t": "Un amour de voisin : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782754744188,
+    "t": "Chronique de la mondialisation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782754744225,
+    "t": "Les progressistes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782754744300,
+    "t": "Un voyage pour quatre nouvelles vies",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782754744362,
+    "t": "Castel Villerquin",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782754744386,
+    "t": "Bloc-notes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782754744409,
+    "t": "Dico des coups",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782754744966,
+    "t": "Mon moi d'apre\u0300s",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782754745109,
+    "t": "La ne\u0301grophobie dans la vie des a\u0302mes et des corps : se\u0301quelles et gue\u0301rison",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782754746601,
+    "t": "Be\u0301ton me\u0301lancolique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782754747387,
+    "t": "Une moue de\u0301voreuse de cerises",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782754748520,
+    "t": "Hoshiko et les enfants de la nuit",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782754748902,
+    "t": "La main sur le corps",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782754749923,
+    "t": "Tous des chiens galeux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782761741675,
+    "t": "Parenthe\u0300se : franc\u0327ais, langue d'enseignement, 3e secondaire. FRA-3101-1, de\u0301couvrir des personnages inte\u0301ressants. Cahier d'apprentissage",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782763740935,
+    "t": "Les the\u0301ories du travail : les classiques",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782763741536,
+    "t": "Beaute\u0301 Oblige. E\u0301cologie et Dignite\u0301. Manifeste",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782763741673,
+    "t": "Lec\u0327ons de linguistique de Gustave Guillaume / 25, Psycho-syste\u0301matique du langage, principes me\u0301thodes et applications (II) et Grammaire particulie\u0300re du franc\u0327ais et grammaire ge\u0301ne\u0301rale (V) / texte e\u0301tabli par Jean-Claude Guillamonde\u0301guy en collaboration avec Guy Cornillac ; texte e\u0301tabli par Chrystel Veyrat en collaboration avec Joseph Pattee (=1949-1950 se\u0301ries B et C)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782763742281,
+    "t": "Augmentez vos chances de gue\u0301rison. Guide d'accompagnement dans le syste\u0300me de sante\u0301",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782763743004,
+    "t": "La communaute\u0301 portugaise de Montre\u0301al. Langue et identite\u0301",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782763743264,
+    "t": "LE NOUVEAU-BRUNSWICK AVANT LE PROGRAMME D'\u00c9GALIT\u00c9 SOCIALE",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782763746067,
+    "t": "La te\u0301le\u0301vision au Que\u0301bec : miroir d'une socie\u0301te\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782763748979,
+    "t": "LA ROYAUTE BIBLIQUE. REGARDS SUR LUTILISATION DU THEME DANS LA MUSIQUE, LA LITURGIE ET LE THEATRE;LA ROYAUTE BIBLIQUE. REGARDS SUR",
+    "h": 1,
+    "e": 1
   }
 ]

@@ -1,7 +1,625 @@
 [
   {
+    "i": 9783211380291,
+    "t": "Prinz Eisenbeton 5 : 96\u00b0 13' W. 16\u00b0 33'N",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783211380291,
+    "t": "Thecho en Mexico = The Mexican roof",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783211381045,
+    "t": "Ein Essay u\u0308ber Projekte",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783211381052,
+    "t": "ABD: within the range of architecture",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783211381410,
+    "t": "Einbildungen",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783211381854,
+    "t": "Transient Sedimentation",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783211382110,
+    "t": "Performative science and beyond : involving the body in research",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783211382141,
+    "t": "Ku\u0308ba : journey against the current",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783319387758,
+    "t": "Big Data 2.0 processing systems a survey",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783319387765,
+    "t": "Big Data 2.0 Processing Systems A Survey",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783319389004,
+    "t": "Information Search. [and three others], Integration and Personalization: 9th International Workshop, ISIP 2014, Kuala Lumpur, Malaysia, October 9-10, 2014, Revised Selected Papers",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783319389394,
+    "t": "Internationalization and global citizenship : policy and practice in education",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783319884035,
+    "t": "The Life of Jos\u00e2e Mar\u00e2ia Sobral Scientist, Diarist, and Pioneer in Antarctica",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783338880209,
+    "t": "Gebrauchswertorientiertes Produktionsverfahren Hafer einschl. Anbautechnik Nackthafer",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783338880438,
+    "t": "Produktion von Edelnelken",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783338882586,
+    "t": "Schadbildkatalog Lagerung von Mo\u0308hren",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783338884023,
+    "t": "Anbau von Chicore\u0301e Empfehlungen und Richtwerte",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783347382183,
+    "t": "10316 Tage einer Mauer : ein Schicksalsroman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783347382671,
+    "t": "Die Fehde der Gezeiten above all else : Historischer Fantasy-Roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783347389571,
+    "t": "Im Visier eines Narzissten das falsche Spiel",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9783406380334,
     "t": "Zo\u0308lle und Verbrauchsteuern : EG-Zollrecht, Nationale Zollvorschriften, EG-Verbrauchsteuerrecht, Nationale Verbrauchsteuervorschriften, EG-Mehrwertsteuer-Richtlinien, Nationale Umsatzsteuervorschriften, Verfahrensrecht",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406380648,
+    "t": "Der Schwarze Tod in Europa : die grosse Pest und das Ende des Mittelalters",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406381171,
+    "t": "Rundfunk im Wandel von der Diktatur zur freiheitlichen Demokratie : neue Bundesla\u0308nder, Ungarn, Polen, Tschechische und Slowakische Republik",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406381898,
+    "t": "Handbuch des Aussensteuerrechts 1994 : Steuerinla\u0308nder mit Auslandseinku\u0308nften, Steuerausla\u0308nder mit Inlandseinku\u0308nften, DBA-Recht, EG-Recht",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406381911,
+    "t": "Schlu\u0308sselbegriffe der Soziologie eine Einfu\u0308rung mit Lehrbeispielen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406382970,
+    "t": "32 Deutscher Steuerberaterkongress : Papers and programme",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406383571,
+    "t": "Familienrechtliche Berechnungen : Unterhalt, Versorgungsausgleich, Zugewinn : Berechnungsprogramm fu\u0308r PC / [2] [Programmdiskette]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406383984,
+    "t": "Arbeitssicherheit : Arbeitssicherheitsorganisation, Arbeitssta\u0308tten, Gera\u0308te- und Anlagensicherheit, gefa\u0308hrliche Stoffe, Unfallverhu\u0308tung mit allen wichtigen Rechtsvorschriften des technischen Arbeitsschutzes einschliesslich der wichtigsten Richtlinien, Anlagen, Verwaltungsvorschriften, Listen und Tabellen ; [Textsammlung]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406384110,
+    "t": "Auszug aus dem Abschlussbericht der Kommission zur U\u0308berarbeitung des Schuldrechts",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406384141,
+    "t": "Empfiehlt es sich, das System des Rechtsschutzes und der Gerichtsbarkeit in der Europa\u0308ischen Gemeinschaft, insbesondere die Aufgaben der Gemeinschaftsgerichte und der nationalen Gerichte, weiterzuentwickeln? : Gutachten D",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406384165,
+    "t": "Sitzungsbericht, Referate und Beschlu\u0308sse",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406385803,
+    "t": "Erga\u0308nzungsband zur 3. Auflage",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406386831,
+    "t": "Palandt Bu\u0308rgerliches Gesetzbuch : mit Einfu\u0308hrungsgesetz, Gesetz zur Regelung der Rechts der Allgemeinen Gescha\u0308ftsbedingungen, Verbraucherkreditgesetz, Gesetz u\u0308ber den Widerruf von Haustu\u0308rgescha\u0308ften und a\u0308hnlichen Gescha\u0308ften, Gesetz zur Regelung der Mietho\u0308he (Art. 3 des 2. WKSchG), Produkthaftungsgesetz, Erbbaurechtsverordnung, Wohnungseigentumsgesetz, Ehegesetz, Hausratsverordnung",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406388576,
+    "t": "Uc\u030creditel\u02b9nyj dogovor o sozdanii kommerc\u030ceskich obs\u030cc\u030cestv i tovaris\u030cc\u030cestv\u02b9 : Uc\u030cebnoe i praktic\u030ceskoe posobie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406388927,
+    "t": "Wasserhaushaltsgesetz, Abwasserabgabengesetz",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406389283,
+    "t": "NATO-Truppenstatut und Zusatzvereinbarungen : NATO-Vertrag, Gesetz zum NATO-Truppenstatut und zu den Zusatzvereinbarungen mit Unterzeichnungsprotokoll zum Zusatzabkommen und erga\u0308nzenden Abkommen, Streitkra\u0308fteaufenthaltsgesetz : Stand: 1. September 1997 : Textausgabe mit Sachverzeichnis",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406389283,
+    "t": "NATO-Truppenstatut und Zusatzvereinbarungen : NATO-Vertrag, Gesetz zum NATO-Truppenstatut und zu den Zusatzvereinbarungen mit Unterzeichnungsprotokoll zum Zusatzabkommen und erga\u0308nzenden Abkommen, Streitkra\u0308fteaufenthaltsgesetz : Textausgabe mit Sachverzeichnis",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406389498,
+    "t": "Corpus vasorum antiquorum. Bd 66, Frankfurt am Main, Universita\u0308t und Liebieghaus, Bd 4",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783410380931,
+    "t": "Waagrecht-, Senkrechtstossen, Sa\u0308gen mit der Maschine [...] Lehrgang fu\u0308r die berufliche Bildung : 6 U\u0308bungen mit Lernzielen u. Kenntnisvermittlung ; 2 U\u0308bungen mit Lernzielen u. Kenntnisvermittlung ; 1 Abschlussarbeit",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783410380962,
+    "t": "Metallkleben [...] Lehrgang fu\u0308r die berufliche Bildung : 12 U\u0308bungen mit Kenntnisvermittlung",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783410380979,
+    "t": "Zuschneiden und Einrichten in der Bekleidungsindustrie [...] Lehrgang fu\u0308r die berufliche Bildung : 7 U\u0308bungen mit Lernzielen u. Kenntnisvermittlung / [Autor: Ingrid Scheres-Koch]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783410380986,
+    "t": "Zuschneiden und Einrichten in der Bekleidungsindustrie [...] Begleitheft fu\u0308r den Ausbilder : mit Lo\u0308sungen zu d. Kenntnispru\u0308fungen / [Autor: Ingrid Scheres-Koch]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783410381303,
+    "t": "Kunststoff : 17 U\u0308bungen mit Lernzielen und Kenntnisvermittlung",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783410381938,
+    "t": "Bohren Begleith. fu\u0308r den Ausbilder. Mit Lo\u0308sungen zu den Kenntnispru\u0308fungen / [Text u. Red.: Denny Glasmann]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783410381938,
+    "t": "Bohren : Lehrgnag fu\u0308r die berufliche Bildung : 16 U\u0308bungen mit Lernzielen und Kenntnisvermittlung, 2 Abschlussarbeiten",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783410382379,
+    "t": "Kippstufen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783410382997,
+    "t": "Drehen II / U\u0308bungsheft fu\u0308r den Auszubildenden",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783410383734,
+    "t": "Maschinentechnik",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783410383772,
+    "t": "Werkzeugmaschinen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783410384380,
+    "t": "Fachpraktische U\u0308bung Elektronik EF 2.6. LC-Generator (Colpitts) / Autoren- und Bearb.-Team: K. Albert ..",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783410386162,
+    "t": "Elementary metal course",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783410386193,
+    "t": "Curso elemental del trabajo de los metales [...] Soluciones, puntos de apoyo y consejos para el ca\u0301lculo te\u0301cnico",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783410386216,
+    "t": "Hydraulics Solutions to the tests of knowledge / [transl. by Ernst Meissner]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783410386223,
+    "t": "Hidra\u0301ulica [Hauptbd.]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783410386230,
+    "t": "Hidra\u0301ulica Soluciones para las comprobaciones de los conocimientos",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783410386742,
+    "t": "Oberfla\u0308chenbehandlung",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783410386896,
+    "t": "Lehrprogramm der Reihe Zeichnunglesen. 2,1, Ansichten nach der ISO-Methode E",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783410386902,
+    "t": "Lehrprogramm der Reihe Zeichnunglesen. 2,2, Grundlagen der Bema\u00dfung",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783410386926,
+    "t": "Lehrprogramm der Reihe Zeichnunglesen. 2,4, Gewindedarstellungen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783410386933,
+    "t": "Lehrprogramm der Reihe Zeichnunglesen. 2,5, Schriftfeld und Stu\u0308ckliste",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783410386940,
+    "t": "Lehrprogramm der Reihe Zeichnunglesen. 2,6, Passungs- und Toleranzangaben",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783427882114,
+    "t": "Rheinisches Jahrbuch fu\u0308r Volkskunde. 21",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783432886817,
+    "t": "Suizid und Euthanasie : als Human- und Sozialwissenschaftliches Problem : Symposium : Papers",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783432887913,
+    "t": "Der Lebenslauf als Statusbiographie : die weibliche Normalbiographie in makrosoziologischer Perspektive",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783432888910,
+    "t": "SEXUALKRIMINALITAET IM ALTER",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783442381913,
+    "t": "Onkel Humbert guckt so komisch : Roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451381836,
+    "t": "\"\u01c2Der \u01c2gro\u00dfe Niemand\" : religi\u00f6se Motive im literarischen Werk von Thomas H\u00fcrlimann",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451383687,
+    "t": "Scha\u0308tze fu\u0308r das Kita-Team Inspirationskarten fu\u0308r das Kita-Team",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451384288,
+    "t": "Das gro\u00dfe Kindergartenspielebuch",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783455381474,
+    "t": "Pollock",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783468385001,
+    "t": "Stufe 1 : ein Testbuch fu\u0308r Anfa\u0308nger",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783468385018,
+    "t": "Stufe 2 : ein Testbuch fu\u0308r Fortgeschrittene",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783468385025,
+    "t": "Stufe 3 = ein Testbuch fu\u0308r Ko\u0308nner",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783468385025,
+    "t": "Stufe 3 : ein Testbuch fu\u0308r Ko\u0308nner",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783468385254,
+    "t": "Stufe 1 : ein Testbuch fu\u0308r Anfa\u0308nger",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783468385261,
+    "t": "Stufe 2 : ein Testbuch fu\u0308r Fortgeschrittene",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783473385898,
+    "t": "#x98;Das#x9C; tollste Pony der Welt",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783473386000,
+    "t": "Als Hitler das rosa Kaninchen [stahl]",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783473387366,
+    "t": "Besuch nach Mitternacht, und neun weitere seltsame Abenteuer : Balduin Pfiff",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783473388059,
+    "t": "Nils Holgersson : die Abenteuer mit den Wildga\u0308nsen. Bd 5, Die Wetterhexe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783478385008,
+    "t": "Managementkompetenz, der Weg zum erfolgreichen Unternehmer : potenziale nutzen, Synergien schaffen, Kernkompetenzen optimieren",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783478385404,
+    "t": "Von den besten lernen : die 30 Erfolgsgeheimnisse der Fu\u0308hrungselite",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783484380226,
+    "t": "Synoptische Konkordanz zu Nikolaus Lenaus Versepen",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783486381924,
+    "t": "Mathematische Methoden fu\u0308r Digitalrechner/ 2, 2. Aufl., unvera\u0308nd. Nachdr. der 1. Aufl",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783486880816,
+    "t": "Die Welt der Zahl",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783486882087,
+    "t": "AWT aktuell: Arbeit - Wirtschaft - Technik. 8. [Schu\u0308lerband]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783486883831,
+    "t": "Grundwortschatz spielend leicht 4",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783486884500,
+    "t": "Erdkunde",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783486884692,
+    "t": "Verstehen und gestalten / 7, [Hauptbd.], 11. Schuljahr / bearb. von Roland Jost",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783486884791,
+    "t": "Unsere Erde / Baden-Wu\u0308rttemberg : Erdkunde fu\u0308r Realschulen in Baden-Wu\u0308rttemberg. [10,1], Erdkunde 9/10 ; Lehrerband mit Tafelbildern und Kopiervorlagen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783486884913,
+    "t": "Roma. 1. [Hauptbd.]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783486884920,
+    "t": "Roma / Ausgabe C : in 3 Ba\u0308nden. 2, [Hauptbd.], 1. Aufl., 3. Dr",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783486884975,
+    "t": "Roma express. 2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783486885125,
+    "t": "Accursus. 1. Teil A. Kapitel 1 bis 30",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783486885378,
+    "t": "Elemente der Zukunft: Chemie 1 9. Jahrgangsstufe Chemische Schu\u0308lerversuche [...] Anorganische Chemie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783486885620,
+    "t": "Elemente der Zukunft: Chemie 1 [9. Jahrgangsstufe] Arbeitsh",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783486886153,
+    "t": "Der Hessische Landbote - Woyzeck : Interpretation",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783486886269,
+    "t": "Bekenntnisse des Hochstaplers Felix Krull",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783486886283,
+    "t": "Christa Wolf \u00acDer geteilte Himmel Interpretation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783486886290,
+    "t": "Kurzgeschichten",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783486887471,
+    "t": "Wirtschaft - Technik - Haushalt / Schu\u0308lerbuch 7-9",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783486887662,
+    "t": "Arbeit - Wirtschaft / 2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783486887679,
+    "t": "Erdkunde",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783486887686,
+    "t": "Arbeit - Technik",
     "h": 1,
     "e": 0
   },
@@ -12,9 +630,765 @@
     "e": 0
   },
   {
+    "i": 9783491380295,
+    "t": "Narrentanz und Hexenreigen ein Vorlese-Liederbuch u\u0308ber Fru\u0308hlings- und Sommerbra\u0308uche fu\u0308r Kindergarten und Schule",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783491380301,
+    "t": "Drachenflug und Lichterspiel ein Vor-Lese-Liederbuch u\u0308ber Herbst- und Winterbra\u0308uche fu\u0308r Kindergarten und Schule ; mit Bildern von Anne Mussenbrock",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783491380301,
+    "t": "Drachenflug und Lichterspiel ein Vor-Lese-Liederbuch u\u0308ber Herbst- und Winterbra\u0308uche fu\u0308r Kindergarten und Schule",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783491380394,
+    "t": "Elefantentantentanz kreative Tanzspiele mit Musik",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783491887701,
+    "t": "\"Was mu\u0308ssen das fu\u0308r Ba\u0308ume sein -\" Kanons fu\u0308r Kinder von Mozart bis Fredrik Vahle : kinderleichte Kanons zum Singen, Sprechen und Rappen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783491887824,
+    "t": "Himmelblau, Sonnengelb und Rosenrot",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783491888067,
+    "t": "Fischbro\u0308tchen aus dem Leben einer naseweisen Schildkro\u0308te",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783491888128,
+    "t": "Zum Geburtstag viel Glu\u0308ck! Lieder fu\u0308r die Geburtstagsparty",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783491888173,
+    "t": "Lieber Nikolaus, kommst du bald? Lieder, Gedichte und Geschichten",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783504382124,
+    "t": "Die Klage im Zivilprozess mit Klageerwiderung und Replik",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783504383350,
+    "t": "Wertpapiererwerbs- und \u00dcbernahmegesetz [Kommentar]",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783504383527,
+    "t": "FamFG Kommentar mit FamGKG",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783504384401,
+    "t": "Handbuch Unternehmenskauf : Bewertung \u2022 Finanzierung \u2022 Steuern \u2022 Arbeitsrecht \u2022 Kartellrecht \u2022 Vertragsgestaltung \u2022 \u00d6ffentliche \u00dcbernahmen. Besonderheiten bei Aktiengesellschaften, Immobilien, Insolvenz und im internationalen Rechtsverkehr. Vertragsbeispiele und Checklisten",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783504384647,
+    "t": "Aktuelles Arbeitsrecht, Band 2/2015",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783504384814,
+    "t": "Rome I Regulation : commentary : 2017",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783504385965,
+    "t": "GmbH-Vertragspraxis : Gestaltung, Beratung, Muster zur GmbH und GmbH & Co. KG",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783507381506,
+    "t": "Die gesellschaftliche Funktion der Schule und das Bildungsproblem im europaeischen Gespraech der Gegenwart",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783507381803,
+    "t": "Referate des ... Symposions der Gesellschaft fu\u0308r Programmierte Instruktion. 12. Fortschritte und Ergebnisse der Bildungstechnologie. - 3.1975",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783507880474,
+    "t": "Chemie heute. 9. und 10. Klasse, Lo\u0308sungsheft ..",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783507885066,
+    "t": "Elemente der Mathematik - EdM 6. Schuljahr [Sch\u00fclerbuch]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518380093,
+    "t": "Dea alba : eine phantastisch klingenda Geschichte",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783518380246,
+    "t": "Thomas Bernhard : stu\u0308cke 1",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783518380574,
+    "t": "Gopi Krishna : Die biologische Basis der religio\u0308sen Erfahrung",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518380628,
+    "t": "T.S. Eliot : essays I, kultur und Religion Bildung und Erziehung, Gesellschaft, Literatur, Kritik",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518381052,
+    "t": "Maytas geschichte : roman aus dem Spanischen von Elke Wehr",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518381106,
+    "t": "Der D\u00e4mon und sein Bild",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518381120,
+    "t": "Dunst und andere unheimliche geschichten mit einem nachwort ...",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518381144,
+    "t": "Bohumil Hrabal Scho\u0308ntrauer",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783518381366,
+    "t": "Mehr phantastische Erza\u0308hlungen : Phantastische bibliothek Band 232",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518381380,
+    "t": "Djuna Barnes Ryder : aus dem Amerikanischen von Henriette Beese mit elf zeichnungen der autorin",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518381403,
+    "t": "Margarete Bo\u0308hme Tagebuch einer Verlorenen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518381748,
+    "t": "Phantastische Erza\u0308hlungen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518381755,
+    "t": "Phantastische erza\u0308hlungen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518381861,
+    "t": "Pariser Trilogie ...",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783518381908,
+    "t": "Ach Europa! : Wahrnehmungen aus sieben La\u0308ndern : mit einem Epilog aus dem Jahre 2006",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783518382080,
+    "t": "Das la\u0308cheln des unbeannten Matrosen: roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518382141,
+    "t": "Guillermo Cabrera Infante Drei traurige Tiger : Roman : Aus dem kubanischen Spanisch",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783518382189,
+    "t": "Russell McCormmach Nachtgedanken eines klassischen physikers : aus dem Amerikanischen u\u0308bertragen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518382387,
+    "t": "Garte, Asche : Roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518382394,
+    "t": "Das Hohe Scholss",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518382523,
+    "t": "Die besten science-fiction-Erza\u0308hlungen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518382660,
+    "t": "Das lahme Schicksal : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518382677,
+    "t": "Siegfried kracauer ginster",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518382745,
+    "t": "Wolfgang Koeppen Gesammelte Werke",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518383063,
+    "t": "Gespenstergeschichten : aus dem Amerikamischen von Andreas Vollsta\u0308dt",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783518383582,
+    "t": "Falsch verbunden : Komo\u0308die in drei Akten",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518383599,
+    "t": "Bernard Shaw pygmalion : mit dem Nachwort des autors",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518384404,
+    "t": "Was soll das Theater?",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518384473,
+    "t": "Materialien zu Hermann Hesse \"Demian\"",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783518384473,
+    "t": "Materialien zu Hermann Hesse \"Demian\". 2. Bd.",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783518384749,
+    "t": "Nichts als Worte? : ein Pl\u00e4doyer f\u00fcr Kleinsprachen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518384909,
+    "t": "Beru\u0308hmte Frauen : kalender 1990",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518385005,
+    "t": "Die Katze Erinnerung : Ein Lesebuch",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518385135,
+    "t": "Plenzdorfs 'die neuen leiden des jungen w",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783518385173,
+    "t": "Brechts \"Gewehre der Frau Carrar\"",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518385210,
+    "t": "Brechts \"Guter Mensch von Sezuan\"",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783518385357,
+    "t": "\u2078Der \u0303junge (Frankz) Kafka",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518386156,
+    "t": "Ingeborg Bachmanns \"Malina\". Hrsg. v. Andrea Stoll",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783518386736,
+    "t": "Dichter fu\u0308r die Freiheit : von der subversiven Kraft der Literatur in Osteuropa",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518386859,
+    "t": "Orte : Aufzeichnungen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518388549,
+    "t": "Drehbu\u0308cher der Folgen 1 bis 3 ; Die Serie zur Einheit ; Der erste Arbeitstag ; Der Rest der Familie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518388556,
+    "t": "Drehbu\u0308cher der Folgen 4 bis 6 ; Der empfindliche Bruder ; Stasi fu\u0308r Anfa\u0308nger ; Der zweite Sekreta\u0308r",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518388563,
+    "t": "Drehbu\u0308cher der Folgen 7 bis 9 ; Die Westparty ; Streik und andere Scherereien ; Der kurze Abschied",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9783518388631,
     "t": "Kommentierte Werkausgabe. Band I, Die Schlafwandler : eine Romantrilogie",
     "h": 1,
     "e": 1
+  },
+  {
+    "i": 9783518388747,
+    "t": "Jugend ohne Gott Roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518389102,
+    "t": "Werke Erza\u0308hlungen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518389348,
+    "t": "Elizabeth und ihr Garten Roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518389973,
+    "t": "Eiszeit ; Der verbotene Garten ; Ich, Feuerbach ; Korbes ; Karlos ; Fernando Krapp hat mir diesen Brief geschreiben ; Herr Paul : Sieben Stu\u0308cke",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783527881048,
+    "t": "Gemlins Handbuch der anorganischen Chemie : Erga\u0308nzungswerk zur achten Auflage",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783527881208,
+    "t": "Gmelins Handbuch, Perfluorhalogenorgano-Verbindungen der Hauptgruppenelemente",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783527881253,
+    "t": "Gmelin-Handbuch der anorganischen Chemie/ Erga\u0308nzungswerk. 10/11, Zirkonium-organische Verbindungen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783540380023,
+    "t": "Fortschritte der Hochpolymeren-Forschung",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540380818,
+    "t": "Security and Cryptography for Networks 5th International Conference, SCN 2006, Maiori, Italy, September 6-8, 2006, Proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540381563,
+    "t": "Progress in ultrafast intense laser science / Volume II / K. Yamanouchi ... [et al.]",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540381808,
+    "t": "New Scientific Aspects",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540382195,
+    "t": "Springer handbook of robotics",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540383116,
+    "t": "A Calculus of Communicating Systems",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540383291,
+    "t": "The semantic web- ASWC 2006 First Asian Semantic Web Conference : Beijing, China, September 3-7, 2006 : proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540383703,
+    "t": "Symposium on Non-Well-Posed Problems and Logarithmic Convexity Held in Heriot-Watt University, Edinburgh /Scotland, March 22 - 24, 1972",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540383727,
+    "t": "Phosphorus-Carbon Double Bonds",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540384069,
+    "t": "Theorie de la Descente et Algebres d'Azumaya",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540384113,
+    "t": "Mathieu Functions and Spheroidal Functions and their Mathematical Foundations Further Studies",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540384229,
+    "t": "Cabal Seminar 77 - 79 Proceedings, Caltech-UCLA Logic Seminar 1977 - 79",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540384960,
+    "t": "Seminaire de Probabilites XXV",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540385202,
+    "t": "Algebraic Topology, Aarhus 1978 Proceedings of a Symposium held at Aarhus, Denmark, August 7-12, 1978",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540387114,
+    "t": "Representations of Finite Classical Groups A Hopf Algebra Approach",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540388159,
+    "t": "Reviews of Physiology, Biochemistry and Pharmacology Volume: 99",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540388739,
+    "t": "Artificial Neural Networks {u2013} ICANN 2006 16th International Conference, Athens, Greece, September 10-14, 2006. Proceedings, Part II",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540388944,
+    "t": "Local and semi-local bifurcations in Hamiltonian dynamical systems : results and examples",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540389569,
+    "t": "Se\u0301minaire Bourbaki Vol. 1980/81. Expose\u0301s 561-578 Avec table par noms d'auteurs de 1967/68 a 1980/81",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540389903,
+    "t": "Parallel problem solving from nature-PPSN IX 9th International Conference, Reykjavik, Iceland, September 9-13, 2006 : proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540880493,
+    "t": "Knowledge Processing and Decision Making in Agent-Based Systems",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540881698,
+    "t": "Entanglement and Decoherence Foundations and Modern Trends",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540881940,
+    "t": "Formal methods and software engineering : 10th international conference on formal engineering methods, ICFEM 2008, Kitakyushu-City, Japan, October 27-31, 2008 : proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540883012,
+    "t": "High Performance Computing in Science and Engineering '08: Transactions of the High Performance Computing Center, Stuttgart (HLRS) 2008",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540883081,
+    "t": "Advances in Artificial Intelligence - IBERAMIA 2008: 11th Ibero-American Conference on AI, Lisbon, Portugal, October 14-17, 2008. Proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540886884,
+    "t": "Computer Vision {u2013} ECCV 2008 10th European Conference on Computer Vision, Marseille, France, October 12-18, 2008, Proceedings, Part II",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540886907,
+    "t": "Unknown Title",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540886938,
+    "t": "Computer Vision {u2013} ECCV 2008 10th European Conference on Computer Vision, Marseille, France, October 12-18, 2008, Proceedings, Part IV",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540886990,
+    "t": "Praxis der Schlafmedizin : Schlafsto\u0308rungen, schlafbezogene Bewegungs- und Atmungssto\u0308rungen, Schnarchen",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540888062,
+    "t": "Engineering of Stem Cells",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540888093,
+    "t": "Ernhrung und fasten als therapie",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540888123,
+    "t": "Beatmung Grundlagen und Praxis",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540889069,
+    "t": "Intelligent Data Engineering and Automated Learning {u2013} IDEAL 2008 9th International Conference Daejeon, South Korea, November 2-5, 2008 Proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540889519,
+    "t": "Coaching : angewandte psychologie fur die beratungspraxis",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783548380025,
+    "t": "Wladimir Woinowitsch",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783548380100,
+    "t": "Kontinent Magazin 14 : Forum fu\u0308r Ost-West-Fragen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783548380186,
+    "t": "Sa\u0308uberung",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783548380414,
+    "t": "Entsage der Angst : Erinnerungen eines Historikers",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783551885142,
+    "t": "Gratenau & Hesselbacher : 1874 bis 1999 ; die ersten hunderfu\u0308nfundzwanzig Jahre",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783553384025,
+    "t": "Themenheft Qualita\u0308tsmanagement effizient einfu\u0308hren",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783553385008,
+    "t": "SGB XI : Soziale Pflegeversicherung; Pflegerecht; Recht der Selbstverwaltung, Bundesebene",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783590380035,
+    "t": "Geschichtenschachtel",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783593380865,
+    "t": "Wirtschaftsfu\u0308hrer im Portra\u0308t 12 Audio-CDs mit 86 Portra\u0308ts",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783593381411,
+    "t": "Handelsblatt, Karriere und Management",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783593381558,
+    "t": "Transnational professionals and their cosmopolitan universes / Magdalena Nowicka ; foreword by Ulrich Beck",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783593381848,
+    "t": "Die \"ju\u0308dische Frage\" in der sozialistischen Frauenbewegung 1890-1914",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783593382869,
+    "t": "Malik Unternehmenspolitik und corporate governance Wie Organisationen sich selbst organisieren",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783593382876,
+    "t": "Strategie - Malik Navigieren in der Komplexit\u00e4t der Neuen Welt",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783593383231,
+    "t": "Marketinggeschichte : die Genese einer modernen Sozialtechnik",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783593383958,
+    "t": "20 perfekte Bewerbungen fu\u0308r die Ausbildungsplatzsuche von den Besten profitieren ; [mi Insider-Kommentaren]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783593383965,
+    "t": "Die erfolgreiche Initiativbewerbung fu\u0308r Um- und Aufsteiger",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783593384313,
+    "t": "Schattenseiten des Demokratischen Friedens : Zur Kritik einer Theorie liberaler Au\u00dfen- und Sicherheitspolitik",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783593384399,
+    "t": "Woran glauben : Religion und Kritik",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783593385228,
+    "t": "Professionelle Bewerbungsberatung fu\u0308r Hochschulabsolventen / Buch",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783593386522,
+    "t": "Morgen komm ich spa\u0308ter rein fu\u0308r mehr Freiheit in der Festanstellung",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783593387468,
+    "t": "Hochschule im Wandel : die Universita\u0308t als Forschungsgegenstand",
+    "h": 1,
+    "e": 0
   }
 ]

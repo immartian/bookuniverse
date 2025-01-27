@@ -1,13 +1,505 @@
 [
   {
+    "i": 9782490470013,
+    "t": "Grand tarot Atlante Arke\u0301o Mundys : [Carte a\u0300 jouer]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782490471065,
+    "t": "Loigny ou La guerre oublie\u0301e",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782490975211,
+    "t": "Vacances en famille",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782490976003,
+    "t": "\"Dites aux petits enfants de prier pour la France\"",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782490976010,
+    "t": "Petite histoire du salut : histoire sainte, 7-9 ans",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782492477126,
+    "t": "Marius Maurer : e\u0301crivain, photographe et peintre de la Grande Guerre : parcours insolite d'un soldat fore\u0301zien",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550472803,
+    "t": "What people in Iiyiyiu Aschii say about their health : results from a 2003 survey",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550473022,
+    "t": "La politica internazionales del Que\u0301bec : la forza della\u0301zione condivisa : sunto",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550474432,
+    "t": "L'ajustement re\u0301trospectif de la cotisation : fonds au be\u0301ne\u0301fice des personnes incarce\u0301re\u0301es : regroupement d'employeurs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550474463,
+    "t": "L'ajustement re\u0301trospectif de la cotisation : e\u0301tablissements publics de services de sante\u0301 et de services sociaux formant un groupe : regroupement d'employeurs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550475880,
+    "t": "Que\u0301bec Education Program : secondary cycle two : general education path, applied general education path : career development",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550475880,
+    "t": "Que\u0301bec Education Program : secondary cycle two : general education path, applied general education path : languages",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550476399,
+    "t": "Influenza pandemic guide for Que\u0301bec financial institutions",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550476887,
+    "t": "De\u0301couvertes de l'e\u0301te\u0301 2006 : une se\u0301lection personnelle de 33 oeuvres",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550478195,
+    "t": "Programme de soutien a\u0300 l'innovation agroalimentaire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550478683,
+    "t": "Update your financial position",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550479116,
+    "t": "Inte\u0301grite\u0301, compe\u0301tence",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550479888,
+    "t": "Mathematics : logic",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782700970050,
+    "t": "Gutenberg : l'invention de l'imprimerie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782700970067,
+    "t": "La vie des e\u0301toiles : de leur naissance a\u0300 leur mort",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782700970128,
+    "t": "Nos ance\u0302tre les Celtes",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782700970210,
     "t": "La Fore\u0302t vierge",
     "h": 1,
     "e": 0
   },
   {
+    "i": 9782700970371,
+    "t": "L'europe : comment est-elle nee? quel est son avenir?",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782708970113,
+    "t": "De\u0301couvrir le quartier du capitole",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782708970120,
     "t": "Toulouse decouvrir",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782708970144,
+    "t": "Le Quartier de la Daurade et l'ho\u0302tel d'Asse\u0301zat : arche\u0301ologie, histoire, monuments",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782708970199,
+    "t": "De\u0301couvrir le Faubourg Saint-Cyprien",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782708970359,
+    "t": "Aspects de la vie religieuse 17. 19. si\u00e8cle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782708970441,
+    "t": "Annales du Midi : revue arche\u0301ologique, historique et philologique de la France me\u0301ridionale. T. 113:nume\u0301ro spe\u0301cial, Tables ge\u0301ne\u0301rales 1959-2000",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782708970595,
+    "t": "Dynamiques marchandes : acteurs, r\u00e9seaux, produits (13.-14. si\u00e8cle)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782708974500,
+    "t": "La dangerosite\u0301 : approche pe\u0301nale et psychiatrique : actes des cinquie\u0300mes Journe\u0301es de psychiatrie en Arde\u0300che, Privas, 18 et 19 mai 1990",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782708974623,
+    "t": "La practique du management des entreprises sanitaires et sociales",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782714479143,
+    "t": "Le Meurtre du Commandeur, livre 1 : Une id\u00e9e appara\u00eet",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782721470157,
+    "t": "al-T\u0323as\u0323mi\u0304m",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782721470584,
+    "t": "Ta\u0304ri\u0304h\u032e al-kani\u0304sa as-surya\u0304ni\u0304ya as\u030c-s\u030carqi\u0304ya / 2 Min mag\u030ci\u0304\u00b7 al-Isla\u0304m h\u0323atta\u0304 niha\u0304yat al-\u02bbas\u0323r al-\u02bbAbba\u0304si\u0304",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782721470645,
+    "t": "Ta\u0304ri\u0304h\u032e al-kani\u0304sa as-surya\u0304ni\u0304ya as\u030c-s\u030carqi\u0304ya / 3 Min al-\u02bbahd al-Mag\u0307u\u0304li\u0304 ila\u0304 mat\u0323la\u00b7 al-qarn at-ta\u0304si\u02bb \u02bbas\u030car",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782721470836,
+    "t": "\u0627\u0644\u0647\u0648\u064a\u0629 \u0628\u064a\u0646 \u0627\u0644\u0645\u062c\u062a\u0645\u0639 \u0627\u0644\u0645\u062f\u0646\u064a \u0648\u0627\u0644\u062c\u0645\u0627\u0639\u0629 \u0627\u0644\u0637\u0627\u0626\u0641\u064a\u0629 : \u062e\u0628\u0631\u0629 \u0642\u0631\u064a\u0629 \u0645\u0633\u064a\u062d\u064a\u0629 \u0645\u0647\u062c\u0631\u0629 \u0641\u064a \u0627\u0644\u062d\u0631\u0628 \u0627\u0644\u0627\u0647\u0644\u064a\u0629 \u0627\u0644\u0644\u0628\u0646\u0627\u0646\u064a\u0629 : \u062f\u0631\u0627\u0633\u0629 \u0627\u0646\u062b\u0631\u0648\u0628\u0648\u0644\u0648\u062c\u064a\u0629",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782721479709,
+    "t": "Min Muqaddimat Ibn Khaldun",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782721479723,
+    "t": "al-Nafs al-bashariyyah inda Ibn Sina",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723470520,
+    "t": "Chime\u0300re(s) 1887. / 1, La Perle pourpre",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723470568,
+    "t": "De l'endive, de la coiffure et des mondes paralle\u0300les : entretiens de Plan et Duplan",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723472722,
+    "t": "1, 2, 3 ...",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723474948,
+    "t": "Le vrai visage de Sai\u0308",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723478755,
+    "t": "Bastard!! : le dieu de la destruction. 26, Le livre des lois immorales, chapitre final",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782723479813,
+    "t": "Me\u0301ga tcho\u0302! : hiver",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782732472584,
+    "t": "L'album de mon e\u0301cole",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782732474281,
+    "t": "Transformations : une vie de rugby",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782732476032,
+    "t": "Trash ton venin! : coloriages anti zen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782738470607,
+    "t": "\u0645\u0644\u062d\u0645\u0629 \u062c\u0644\u062c\u0627\u0645\u0634 \u061b \u0627\u0644\u0645\u0644\u062d\u0645\u0629 \u0627\u0644\u0633\u0648\u0645\u0631\u064a\u0629 \u0627\u0644\u0634\u0647\u064a\u0631\u0629\u060c \u0627\u0642\u062f\u0645 \u0645\u0644\u062d\u0645\u0629 \u0641\u064a \u0627\u0644\u062a\u0627\u0631\u064a\u062e",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782738470706,
+    "t": "[Les volcans re\u0301signe\u0301s]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782738470706,
+    "t": "al-Bara\u0304ki\u0304n al-muha\u0304dana",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782738470812,
+    "t": "Nofa petite touareg = Nu\u0304fah al-buni\u0304yah al-Ta\u0304rivi\u0304yah : conte bilingue franc\u0326ais-arabe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782738470911,
+    "t": "Clinique et contexte dans le traitement des toxicomanes : en dix textes examinant diverses questions ; certaines, venant aux praticiens du soin des toxicomanes, da\u0315utres, adresse\u0301es par ceux-la\u0300 a\u0300 des the\u0301oriciens de champs connexes et re\u0301ciproquement ; ce, dans le dessein do\u0315uvrir au lecteur quelques chemins pour y penser",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782738470942,
+    "t": "Hommage = Tribute : Djibril Diop Mambety",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782738471642,
+    "t": "Les cahiers de \"l'Ephe\u0301me\u0300re\" : 1967-1972 ; trace\u0301s interrompus. 1, L' E\u0301phe\u0301me\u0300re",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782738473530,
+    "t": "L'Afrique du Sud recompose\u0301e",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782738474582,
+    "t": "Les Contes choisis : chinois-franc\u0327ais. Xuan gu shi : han yu-fa yu",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782738475893,
+    "t": "Un prince dans le Maghreb de l'an mil : Amastan la Sahanji",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782738478849,
+    "t": "Relation me\u0300re-enfant",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782738478924,
+    "t": "Groupe d'etude des realites africaines : GERA",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782738479020,
+    "t": "Les organismes financiers internationaux, instruments de l'economie politique liberale : Vol. VI. (1999) 2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782738479969,
+    "t": "La postmodernite\u0301 : visions anglophone et francophone",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742971633,
+    "t": "Plus de 50 000 jeux & parties Gorky 17",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742973972,
+    "t": "Votre horoscope 2003 Taureau",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742973972,
+    "t": "Votre horoscope 2003 Lion",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782742975020,
+    "t": "Tout pour re\u0301ussir. Colle\u0300ge 6e : [franc\u0327ais, maths, histoire-ge\u0301ographie, anglais, SVT]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745970954,
+    "t": "1.000 ans de contes classiques",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782745971500,
+    "t": "50 de\u0301cors, 50 films a\u0300 deviner",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745971562,
+    "t": "50 festins, 50 films a\u0300 deviner",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745972613,
+    "t": "Kop Le Robot",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745972774,
+    "t": "Petites comptines du temps qu'il fait : des chansons a\u0300 e\u0301couter",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745972835,
+    "t": "Blanche-Neige et les sept nains",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745972835,
+    "t": "Blanche-Neige",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745974792,
+    "t": "La rentre\u0301e scolaire : autocollants",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745975300,
+    "t": "Lili Goth. 2, Une fe\u0302te d'enfer!",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782745975362,
+    "t": "Charlotte et son chat invisible. Panique au supermarch\u00e9",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745975508,
+    "t": "Monstres",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745975621,
+    "t": "Les docs stickers Londres : 100 autocollants repositionnables & de\u0301cors a\u0300 remplir : [autocollant]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745975638,
+    "t": "Les docs stickers Paris : 100 autocollants repositionnables & de\u0301cors a\u0300 remplir : [autocollant]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782745976734,
+    "t": "Mamie Pe\u0301tula",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746971035,
+    "t": "Marrakech, Essaouira",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746971721,
+    "t": "Israe\u0308l",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746976771,
+    "t": "Guadeloupe:2015",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746976849,
+    "t": "Petit fute\u0301 Iran 2016",
     "h": 1,
     "e": 0
   }

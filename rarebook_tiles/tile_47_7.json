@@ -1,9 +1,885 @@
 [
   {
+    "i": 9782804470234,
+    "t": "Recht van de spoorwegsector = Droit du secteur ferroviaire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782804474638,
+    "t": "Codex deontologie van de juridische beroepen, 2014-2015",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782804476793,
+    "t": "Salduz-codex, 2016",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782804477790,
+    "t": "La protection internationale et europ\u00e9enne du droit de la propri\u00e9t\u00e9 intellectuelle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782809470468,
+    "t": "Loki : agent d'Asgard",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782809470581,
+    "t": "Dark Wolverine. / 2, Punition",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782809470635,
+    "t": "What if? : civil war. [Vol. 1]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782809471168,
+    "t": "Une vision du futur",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782809473513,
+    "t": "Kuhime. 4",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782809476989,
+    "t": "Hulk. 3, Unite\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782809477146,
+    "t": "Docteur Aphra. / 3, Hie\u0301rarchisation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782809477580,
+    "t": "Venom-mania",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782809477979,
+    "t": "La fin de l'univers Marvel",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782809477993,
+    "t": "Spider-Man. 1986",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782809478013,
+    "t": "Marche\u0301 noir",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782812470059,
+    "t": "La tortue, l'\u00e9cureuil, l'escargot et les oiseaux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782812472367,
+    "t": "D'apr\u00e8s une l\u00e9gende de Banana..",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782812474095,
+    "t": "L'iguane mange l'escargot",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782812474149,
+    "t": "La grue couronn\u00e9e, la grande feuille, la liane, la tortue et le chasseur",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782812474569,
+    "t": "Origine des griots",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782818977408,
+    "t": "Sun-Ken Rock. Livre 7",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782818978399,
+    "t": "The Alexis empire chronicle. 01",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782841470037,
+    "t": "Louise Labe\u0301 (1524-1566) et les poe\u0300tes lyonnais de son temps",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782841470105,
+    "t": "Les familles Gaultier et Montellier",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782841470174,
+    "t": "Louis de Leusse",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782841470266,
+    "t": "Lyon me\u0301connu",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782841470303,
+    "t": "Les familles Millanois et Regnauld de Bellescize",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782841470310,
+    "t": "La Loire : le de\u0301partement : perspectives",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782841470327,
+    "t": "Famille Fichet",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782841470556,
+    "t": "Familles Chaix et Giraud",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782841470723,
+    "t": "Familles Chardiny et Pe\u0301ricaud",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782841470747,
+    "t": "Louis Pradel, maire de Lyon : voyage au c\u0153ur du pouvoir municipal",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782841470914,
+    "t": "Le me\u0301morial de Lyon en 1793. Index ge\u0301ne\u0301ral A. Tomes 1 a\u0300 14 : Vie, mort et famille des victimes lyonnaises de la re\u0301volution",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782841471706,
+    "t": "Made in Loire : 500 entreprises : de Saint-Etienne a\u0300 Roanne, les 500 entreprises prive\u0301es de plus de 50 salarie\u0301s vous ouvrent leurs portes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782841471720,
+    "t": "Antoine Abel Clapperon de Milieu",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782841471768,
+    "t": "La fresque des Lyonnais : un patrimoine mis en sce\u0300ne",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782841471843,
+    "t": "Guide de Lyon, cite\u0301 du patrimoine mondial",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782841472154,
+    "t": "Le monde des murs peints : Cite\u0301Cre\u0301ation: Lyon, Que\u0301bec, Berlin, Mexico, Barcelone, Je\u0301rusalem, Moscou, Shanghai",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782841473069,
+    "t": "Gastronomie lyonnaisebTexte imprime\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782841970322,
+    "t": "Les clavicules de Salomon : ve\u0301ritable secret des secrets : re\u0301ve\u0301lation des ope\u0301rations magiques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782841970346,
+    "t": "Le dragon rouge : ou l'art de commander les esprits ..",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782841970414,
+    "t": "Les fiches pratiques du Reiki : les 40 positions de base du Reiki explique\u0301es et commente\u0301es",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782841970933,
+    "t": "Solaria : les soleils sacre\u0301s du bonheur : les pantacles actifs du troisie\u0300me mille\u0301naire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782841972852,
+    "t": "Croyez aux dons qui sont en vous : avec 66 tests a\u0300 faire soi-me\u0302me",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782841972890,
+    "t": "Manuel pratique de chromothe\u0301rapie : se soigner par les couleurs, e\u0301veiller l'e\u0301nergie des chakras",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782841973194,
+    "t": "Me\u0301dailles miraculeuses : Les saints, les prie\u0300res",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782841973750,
+    "t": "S'e\u0301veiller aux vibrations positives : re\u0301ussir sa vie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782841975297,
+    "t": "66 tests pour de\u0301velopper vos capacite\u0301s paranormales",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782841976270,
+    "t": "Le coffret de l'oracle Belline : le livre + le jeu original",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782841976317,
+    "t": "Le petit Lenormand : le coffret de la cartomancie : le livre + le jeu original : l'officiel",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782841977772,
+    "t": "Le pendul'or de poche : 33 planches",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782842970246,
+    "t": "Die Stars des Cannes Filmfestivals : ein halbes Jahrhundert Filmgeschichte",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782842970512,
+    "t": "Raffael - Ein Ku\u0308nstler fu\u0308r den Vatikan",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782843470271,
+    "t": "Le guide des gosses Savoie/Haute-Savoie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782843470295,
+    "t": "Le guide des gosses : Paris Ile de France",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782843470875,
+    "t": "Le guide des gosses France",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782843473098,
+    "t": "Annales e\u0301tudes de cas pour BTS comptabilite\u0301 et gestion des organisations : e\u0301preuve E5, analyses de gestion et organisation du syste\u0300me d'information",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782843473814,
+    "t": "BTS force de vente",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782843473838,
+    "t": "BTS commerce international",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782843473975,
+    "t": "Me\u0301mento communication-ne\u0301gociation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782843473982,
+    "t": "Gestion de la client\u00e8le -Gestion de projet Tome 2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782843474118,
+    "t": "Information et gestion : Premie\u0300re STG, spe\u0301cialite\u0301 Gestion",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782843475184,
+    "t": "Annales tout en 1 pour BTS comptabilite\u0301 et gestion des organisations (CGO)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782843475528,
+    "t": "Transport logistique : 78 fiches de synthe\u0300se",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782843476129,
+    "t": "Ta me\u0300re la pub!",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782843476181,
+    "t": "Applications de MGUC pour BTS MUC 1re anne\u0301e",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782843476198,
+    "t": "Applications de MGUC pour BTS MUC 2e anne\u0301e",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782843477508,
+    "t": "Management des entreprises pour BTS 2e\u0300me anne\u0301e",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782843478000,
+    "t": "Management des organisations",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782843478192,
+    "t": "Informatique pour BTS : management de l'unite\u0301 commerciale",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782843478314,
+    "t": "Gestion de la tre\u0301sorerie et du financement : processus 6",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782843478314,
+    "t": "Processus 6 - Gestion de la tr\u00e9sorerie et du financemen BTS CGO",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782843478895,
+    "t": "Management des organisations : terminale STMG",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782843479878,
+    "t": "Annales BTS commerce international : e\u0301tudes de cas U41-U51-U61",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782843479892,
+    "t": "Pre\u0301parer le CAP de coiffure : e\u0301preuve e\u0301crite EP2 : 1ere & 2e anne\u0301es",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782843970108,
+    "t": "Une vie de flic",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782843970351,
+    "t": "Vouilly : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782844970589,
+    "t": "Itine\u0301raire d'un Gavroche lorientais / 2 Lorient a\u0300 l'heure de l'e\u0301vacuation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782844970633,
+    "t": "Itine\u0301raire d'un Gavroche lorientais / 3 Lorient sous le tir des canons",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782844970749,
+    "t": "Itine\u0301raire d'un Gavroche lorientais / 4 Lorient 1946, le grand retour",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782844971470,
+    "t": "Noces sans retour en Morbihan",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782844971968,
+    "t": "Toiles de sang a\u0300 Auray",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782844972316,
+    "t": "Charles-Adzir Trouillot, 1859-1933 : fils de ses oeuvres : biographie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782844972675,
+    "t": "Poe\u0301sie du coeur",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782844972705,
+    "t": "Conteville : d'hier et d'aujourd'hui",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782844973009,
+    "t": "Belle-I\u0302le-en-Mer",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782845470583,
+    "t": "Les cowboys de la nuit : travailleurs du sexe en Ame\u0301rique du Nord",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782845470590,
+    "t": "Le premier festin[Livre] : pour une litte\u0301rature de la diffe\u0301rence",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782845470675,
+    "t": "Les nuits africaines : re\u0301cit e\u0301rotique gay",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782845470675,
+    "t": "Les nuits africaines : re\u0301cit e\u0301rotique gay",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782845471238,
+    "t": "Furia corsica : roman e\u0301rotique gay",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782845471566,
+    "t": "L'odysse\u0301e de l'esclave : roman",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782845471733,
+    "t": "Le sceau de Kropotkine : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782845471764,
+    "t": "L'empire du barbare : roman",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782845471832,
+    "t": "L'e\u0301lixir d'oubli : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782845472716,
+    "t": "Re\u0301jouissance : porn' roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782845473423,
+    "t": "La cachette : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782845970229,
+    "t": "Contretemps. No. 1, Mai 2001 : Le retour de la critique sociale : Marx et les nouvelles sociologies",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782845970380,
+    "t": "#x98;Les#x9C; manuscrits de Brassens",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782845970687,
+    "t": "East Coast, West Coast : graphistes aux Etats-Unis : exposition, Mois du graphisme d'Echirolles, 22 novembre-15 de\u0301cembre 2002",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782845970755,
+    "t": "Contretemps. Nume\u0301ro six, Fe\u0301vrier 2003. Changer le monde sans prendre le pouvoir. Nouveaux libertaires, nouveaux communistes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782845971141,
+    "t": "Contretemps. Nume\u0301ro dix, Mai 2004. L'Ame\u0301rique latine rebelle : contre l'ordre impe\u0301rial",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782845971387,
+    "t": "A quels saints se vouer? : espaces publics et religion",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782845971646,
+    "t": "Les manuscrits de Claude Nougaro. 1929-1987 : du son qui fait sens. 1987-2004 : il faut tourner la page : Chansons, poe\u0300mes, dessins",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782845971745,
+    "t": "Facteurs en France : chroniques du petit matin : 51 facteurs en France",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782845971981,
+    "t": "Les programmes au piquet : du primaire au lyce\u0301e des maths au franc\u0327ais",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782845972001,
+    "t": "John Cage : Une anne\u0301e de\u0300s lundi : confe\u0301rences et e\u0301crits",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782845972018,
+    "t": "Facteurs en France",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782845972292,
+    "t": "La France en re\u0301volte-mouvements sociaux et cycles politiques depuis 1968",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782845972452,
+    "t": "Elina Brotherus : e\u0301tudes d'apre\u0300s mode\u0300le, danseurs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782845972469,
+    "t": "L' art des trains et des gares : 70 ans de la SNCF / 1 Brouillons de gares",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782845973060,
+    "t": "Paul Veyne sur l'antiquite\u0301 : un livre sonore",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782845973206,
+    "t": "Pierre Michon",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782845973206,
+    "t": "Pierre Michon",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782845973213,
+    "t": "Discours sur le colonialisme",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782845973213,
+    "t": "Discours sur le colonialisme",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782845973220,
+    "t": "Andre\u0301 Gorz / Buch",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782845973312,
+    "t": "Libre anthologie artistique et litte\u0301raire autour de l'eau",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782845974272,
+    "t": "Pierre Mac Orlan : e\u0301crits sur la photographi",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782845974302,
+    "t": "Notre since\u0300re de\u0301sir est votre plaisir : cartes postales de John Hinde",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782845974371,
+    "t": "Lyon la confluence",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782845974470,
+    "t": "<<Les>> manuscrits d'Arthur Rimbaud l'int\u00e9grale",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782845975682,
+    "t": "Anne-Marie Filaire : Zone de se\u0301curite\u0301 temporaire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782845978546,
+    "t": "La grande confusion : comment l'extre\u0302me-droite gagne la bataille des ide\u0301es",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782845978546,
+    "t": "La grande confusion : comment l'extre\u0302me-droite gagne la bataille des ide\u0301es",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782846470186,
+    "t": "Le Club des toujours jeunes de Montaud pre\u0301sente Montaud : la le\u0301gende du XXe sie\u0300cle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782846470544,
+    "t": "Teyran de me\u0301moire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782846970020,
+    "t": "Ces saints qui nous gue\u0301rissent et qui nous prote\u0300gent",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782847470079,
+    "t": "The metamorphosis",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782847470123,
+    "t": "Adierazpen askatasuna aurrera!",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782847470154,
+    "t": "Kalegorria argazkiak : fotografies = fotografi\u0301as = photographies",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782847970111,
+    "t": "Des femmes sans Histoire? : Enseignement en Europe ; cet ouvrage est issu d'une collaboration entre le Syndicat National des Enseignements de Second Degre\u0301 et le Groupe d'Histoire sociale ; [les textes de ce livre ont e\u0301te\u0301 re\u0301dige\u0301s pour la journe\u0301e d'e\u0301tude sur \"La place des femmes dans l'enseignement de l'histoire en Europe\" dans le cadre des VIIe Rendez-Vous de l'Histoire de Blois, en octobre 2004]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782847970197,
+    "t": "50 questions",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782847970388,
+    "t": "Du mouvement ouvrier au mouvement social : syndicalisme et salariat sous le libe\u0301ralisme triomphant : me\u0301langes autour de Rene\u0301 Mouriaux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782847970586,
+    "t": "Territoire, formation, emploi : la Bretagne, une re\u0301gion qui re\u0301ussit?",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782848470627,
+    "t": "La vie religieuse une mission d'espe\u0301rance",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782848470863,
+    "t": "Sens et non-sens des voeux religieux aujourd'hui : session fe\u0301vrier 2019, Centre Se\u0300vres-Faculte\u0301s je\u0301suites de Paris",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782848970158,
+    "t": "Pe\u0300res & fils : le petit livre des confidences",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782848970844,
+    "t": "Petit abe\u0301ce\u0301daire des plantes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782848970851,
+    "t": "Le petit livre des femmes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782848970912,
+    "t": "Le livre des activite\u0301s fe\u0301eriques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782850470004,
+    "t": "(Jacques-Louis) David",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782850470264,
     "t": "Contemporary architecture 10. 1988/1989",
     "h": 1,
     "e": 1
+  },
+  {
+    "i": 9782850470332,
+    "t": "Th\u00e9odore G\u00e9ricault : \u00e9tude critique, documents et catalogue raisonn\u00e9",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782850470448,
+    "t": "Sur mon chemin : pense\u0301es et dessins",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782850470479,
+    "t": "Architecture contemporaine = Contemporary architecture. [Vol. 5] [1983-1984]",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782850470516,
+    "t": "Miroir des arts de la Chine",
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9782850470608,
@@ -18,6 +894,354 @@
     "e": 1
   },
   {
+    "i": 9782850470905,
+    "t": "Architecture contemporaine = Contemporary architecture. [Vol. 8] [1986-1987]",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782850471018,
+    "t": "Les quatre saisons des champignons / 1. Printemps, e\u0301te\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782850471803,
+    "t": "\u0152uvre grave\u0301 de Breughel : 27 avril-26 mai 1991, Palexpo, Gene\u0300ve",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782850471896,
+    "t": "L' oeuvre grave\u0301 / 1984/1990",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782850472039,
+    "t": "Odilon Redon",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782850472275,
+    "t": "Les Femmes impressionnistes : Mary Cassatt, Eva Gonzale\u0300s, Berthe Morisot : Muse\u0301e Marmottan, Paris, du 13 octobre 1993 au 31 de\u0301cembre 1993",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782850970191,
+    "t": "L'Actualite\u0301 de Lamennais : colloque de La Tourette, 2-4 juin 1978",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782850970214,
+    "t": "Church and state : international bibliography, 1978-1980",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782850970214,
+    "t": "Church and state : international bibliography, 1978-1980 = E\u0301glise et e\u0301tat : bibliographie internationale, 1978-1980",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782850970214,
+    "t": "Church and state : international bibliography 1978-1980 = \u00c9glise et \u00e9tat : bibliographie internationale 1978-1980",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782850970245,
+    "t": "Au coeur du de\u0301bat scolaire : pouvoir et liberte\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782850970283,
+    "t": "Human rights : international bibliography, 1975-1981 = Droits de l'homme",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782850970313,
+    "t": "The woman in the church : bibliogr. internat. 1975-1982 = La femme dans l'eglise",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782850970375,
+    "t": "Church and state : international bibliography, 1980-1983 = E\u0301glise et e\u0301tat : bibliographie internationale, 1980-1983",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782850970405,
+    "t": "Penance and reconciliation : international bibliography, 1975-1983 = Penitence et reconciliation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782850970412,
+    "t": "Catechetics and education : international bibliography 1979-1983 = Catechese et e\u0301ducation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782850970450,
+    "t": "Eucharist : international bibliography 1975-1984 = Eucharistie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782851970510,
+    "t": "H.P. LOVECRAFT 2E ED",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782851970558,
+    "t": "Rene\u0301 Gue\u0301non : ce cahier a e\u0301te\u0301 dir. par Jean-Pierre Laurant ..",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782851970558,
+    "t": "Rene\u0301 Gue\u0301non",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782851970657,
+    "t": "Leon Bloy : cahier ... dirige par Michel Arveiller et Pierre Glaudes",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782851971838,
+    "t": "Cocteau : cahier",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782851973221,
+    "t": "Edgar Allen Poe : sa vie et ses ouvrages",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782851973467,
+    "t": "Le Pe\u0300re Noe\u0308l = Santa Claus",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782851975904,
+    "t": "Cahier de L'Herne n(deg) 10 : Le Grand Jeu",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782851979209,
+    "t": "\u0152dipe mime\u0301tique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782852970021,
+    "t": "Les langues sans tradition e\u0301crite : me\u0301thodes d'enque\u0302te et de description : [actes du Colloque international du CNRS] Nice 28 juin - 2 juillet 1971",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782852970045,
+    "t": "La crotte tenace et autres contes ngbaka-ma'bo de Re\u0301publique Centrafricaine / Schallplatte 1. S. 1-2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782852970045,
+    "t": "La crotte tenace et autres contes ngbaka-ma'bo de Re\u0301publique Centrafricaine / Schallplatte 2. S. 3-4",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782852970052,
+    "t": "Collecte et traduction des litte\u0301ratures orales : un exemple ne\u0301gro-africain, les contes ngbaka-ma'bo de Re\u0301publique centrafricaine : Paris : Socie\u0301te\u0301 d'e\u0301tudes linguistiques et anthropologiques de France, 1975",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782852970090,
+    "t": "L'orthographe du franc\u0327ais : essai de description the\u0301orique et pratique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782852970205,
+    "t": "Dictionnaire birman-franc\u0327ais / 1. Ka - ko?Qenna",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782852970441,
+    "t": "2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782852970618,
+    "t": "Cahiers d'e\u0301tudes et documents sur les religions du Japon. 1er fascicule",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782852970717,
+    "t": "Un village en fore\u0302t : l'essartage chez les Brou du Cambodge",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782852970830,
+    "t": "1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782852970939,
+    "t": "Questionnaire d'inventaire linguistique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782852970946,
+    "t": "Questionnaire d'inventaire linguistique : langues sans classes nominales",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782852971080,
+    "t": "Homo caudatus : les hommes a\u0300 queue d'Afrique Centrale, un avatar de l'imaginaire occidental",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782852971189,
+    "t": "Le parler de Berrien",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782852971196,
+    "t": "Atlas linguistique du Sud-Malakula : Vanuatu. 1. (1982). - 176 S. : Kt",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782852971233,
+    "t": "Marobo : une socie\u0301te\u0301 ema de Timor",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782852971417,
+    "t": "Le Lame\u0301 / 1, Vun-dze\u0300pa\u0300o\u0300, un parler zime\u0301 du Nord-Cameroun (langue tchadique) ; phonologie, grammaire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782852971431,
+    "t": "Dictionnaire kabyle-franc\u0327ais, franc\u0327ais-kabyle",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782852971639,
+    "t": "Polyphonies et polyrythmies instrumentales d'Afrique centrale : structure et methodologie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782852972070,
+    "t": "Dictionnaire birman-franc\u0327ais / 11. Phy' - mi",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782854970098,
+    "t": "Theophili : presbytery et monachi Libri III, seu Diversarum artium schedula : opera et studio = Theophile prete et moine : essai sur divers arts",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782854970296,
+    "t": "Archives de l'art franc\u0327ais publie\u0301es par la Socie\u0301te\u0301 de l'histoire de l'art franc\u0327ais : nouvelle pe\u0301riode, tome XXIX",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782854970302,
+    "t": "L'art a\u0300 l'e\u0301poque du cardinal de Richelieu",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782854970326,
+    "t": "Archives de l'art franc\u0327ais publie\u0301es par la Socie\u0301te\u0301 de l'histoire de l'art franc\u0327ais : nouvelle pe\u0301riode, tome XXVIII ... correspondances d'artistes des XVIIIe et XIXe sie\u0300cles",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782854970432,
+    "t": "Vente J.-A. Gros (1778) ; Ventes Charles Natoire et Sophie Arnould (1778)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782854970432,
+    "t": "Catalogues de ventes et livrets de salons illustre\u0301s par Gabriel de Saint-Aubin",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782854970456,
+    "t": "Livrets des salons de Lille : (1773-1788) ; pre\u0301ce\u0301de\u0301s d'une introduction et suivis d'une table de noms",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782854970470,
+    "t": "Divers salons du dix-huitie\u0300me sie\u0300cle : pour servir de comple\u0301ment a\u0300 la collection des livrets des salons du XVIIIe sie\u0300cle : le Salon de 1725 ...",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782862970509,
+    "t": "Khmer rouges!",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782862970608,
+    "t": "Hobbes, \u00c9tat et droit",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782863970041,
+    "t": "Amawal tamazi[gamma]t-tafr\u0324ansist, tafr\u0324ansist-tamazi[gamma]t = (Lexique berbe\u0300re-franc\u0327ais, franc\u0327ais-berbe\u0300re)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782864970088,
+    "t": "De grutte kleau",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782864970125,
     "t": "Asterix de roos en het zwaard",
     "h": 1,
@@ -30,8 +1254,62 @@
     "e": 1
   },
   {
+    "i": 9782864970538,
+    "t": "Une aventure d'Aste\u0301rix / [29], La rose et le glaive",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782864971412,
+    "t": "Aste\u0301rix & Obe\u0301lix contre ce\u0301sar coffret collector",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782864973164,
+    "t": "Ast\u00e9rix - Le Papyrus de C\u00e9sar - n\u00b036",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782865470525,
+    "t": "Les meilleures tartes de France. 1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782865470716,
+    "t": "Meine Wahl hei\u00dft Flexipan",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782865470846,
+    "t": "Formules sandwich : entre\u0301e, plat, dessert",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782865970148,
     "t": "Simon Boccanegra",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782865970179,
+    "t": "Der Freischu\u0308tz",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782865970308,
+    "t": "A.F.P.[Agence France Presse] : 150 ans d'agence de presse : ouvrage e\u0301d. a\u0300 l'occasion de l'exposition pre\u0301sente\u0301ea\u0300 la B P I [Bibliothe\u0300que Publique d'Information] du Centre Georges Pompidou du 25 oct. 1985 au 20 janvier 1986",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782865970438,
+    "t": "R\u00e9ouverture de La Monnaie douze novembre mille neuf cent quatre vingt six",
     "h": 1,
     "e": 0
   },
@@ -42,8 +1320,68 @@
     "e": 0
   },
   {
+    "i": 9782865970544,
+    "t": "Le TEP, direction Guy Re\u0301tore\u0301 : un the\u0301a\u0302tre dans la cite\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782865970582,
+    "t": "Le r\u00e9cit de la servante Zerline",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782865970599,
     "t": "L'Amour, l'amitie\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782865970605,
+    "t": "Catullus : drame en 2 parties",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782865970612,
+    "t": "Mede\u0301e",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782865970612,
+    "t": "Me\u0301de\u0301e",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782865970612,
+    "t": "Me\u0301de\u0301e",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782866470074,
+    "t": "John Lennon : les Beatles, Yo\u0304ko Ono, et moi",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782866470333,
+    "t": "Thierry en de\u0301lire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782866970413,
+    "t": "Livre qui sent le caca",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782866970833,
+    "t": "Johnny Focus, destination Te\u0301he\u0301ran",
     "h": 1,
     "e": 0
   },
@@ -54,8 +1392,398 @@
     "e": 0
   },
   {
+    "i": 9782867970269,
+    "t": "Les Pe\u0302ches du sandre",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782867970306,
+    "t": "Les Pre\u0301ventions du cambriolage",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868470010,
+    "t": "Langage et communication a\u0300 l'a\u0302ge pre\u0301scolaire, colloque 1982",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868470034,
+    "t": "La Bretagne pieuse a\u0300 travers le discours de la critique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868470058,
+    "t": "Notas sobre la prensa local gallega en el primer tercio del siglo XX",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868470188,
+    "t": "Flux et re\u0301seaux : industrialisaion au Moyen-Orient",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868470287,
+    "t": "Actes du 2e colloque (novembre 1987) organise\u0301 par le centre de recherche PILAR 2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868470683,
+    "t": "La re\u0301sistance en Ille-&-Vilaine, 1940-1944",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868470881,
+    "t": "Le mode\u0300le industriel breton 1950-2000",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868470935,
+    "t": "L' image des de\u0301partements : sources, e\u0301volution, enjeux : actes du colloque de Narbonne, 30 novembre - 1. de\u0301cembre 1990",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868471055,
+    "t": "Annales de Bretagne et des pays de l'Ouest. T. 101, Table des Annales de Bretagne et des Annales de Bretagne et des Pays de l'Ouest : tomes 1 a\u0300 C (1886-1993)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868471468,
+    "t": "Laboratoires : pour une expe\u0301rience du corps : Damien Hirst, Fabrice Hybert, Kiki Smith, Patrick Van Caeckenbergh",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868471574,
+    "t": "Ginguene\u0301 <1756-1818>, ide\u0301ologue et me\u0301diateur",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868471680,
+    "t": "La CGT en Bretagne : un centenaire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868471901,
+    "t": "Me\u0301moire de 93 / Buch",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868472090,
+    "t": "Re\u0301volution et contre-re\u0301volution en France 1798-1989 ; les rouages de l'histoire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868472526,
+    "t": "L'insconscient ignore-t-il le temps? : actes de la rencontre PERU, 1996",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868472915,
+    "t": "Communications organisationnelles : Objets, pratiques, dispositifs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868473196,
+    "t": "Homo Zappiens Zappiens : Angela Bulloch, Philippe Chatelain, Pascal Frament ... ; [a\u0300 l'occasion de l'Exposition Homo Zappiens Zappiens ... a\u0300 la Galerie Art & Essai de l'Universite\u0301 Rennes 2, du 29 avril au 26 juin 1998 et au Centre d'art Contemporain La Ferme du Buisson, du 13 septembre au 30 octobre 1998]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868473868,
+    "t": "La terre et les paysans en France et en Grande-Bretagne aux 17e et 18e siecles : un parcours bibliographique critique (seconde partie)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868473905,
+    "t": "Contes et le\u0301gendes de Bretagne. Les contes populaires. Tome troisie\u0300me",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868474094,
+    "t": "Expe\u0301riences du divers : Jimmie Duhram, Hanayo, Cheri Samba, Tsumeko Taniuchi : exposition, Galerie Art & Essai de l'universite\u0301 Rennes 2, 18 mai- 26 juin 1999",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868474742,
+    "t": "Histoire de vie et dynamique langagie\u0300re",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868476043,
+    "t": "Sous-titre\u0301e X : la pornographie entre image et propos : exposition pre\u0301sente\u0301e a\u0300 la galerie Art & Essai de l'Universite\u0301 Rennes 2 - Haute Bretagne, du 16 mai au 22 juin 2001",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868476432,
+    "t": "Questions de psychologie diffe\u0301rentielle : [Actes des 14e journe\u0301es de psychologie diffe\u0301rentielle, organise\u0301es par le GRAPCO. Groupe d'analyse psychome\u0301trique des conduites de l'universite\u0301 Nancy 2, abbaye des pre\u0301montre\u0301s de Pont-a\u0300 Mousson]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868477002,
+    "t": "Desre\u0300glements : Protocoles en situation. Lara Almarcegui, Marika Bu\u0308hrmann, Minerva Cuevas, Marta de Gonzalo et Publio Pe\u0301rez Prieto, Nick Gee, Christine et Irene Hohenbu\u0308chler, Devora Neumark, Abraham Poincheval. [Ouvrage publie\u0301 a\u0300 l'occasion de l'exposition pre\u0301sente\u0301e a\u0300 la galerie art et essai de l'universite\u0301 Rennes 2 - Haute-Bretagne, du 15 mai au 21 juin 2002]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868477040,
+    "t": "Dossier Histoires de vie et constructions identitaires",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868477125,
+    "t": "Pratiques. 12 : Re\u0301flexions sur l'art",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868477446,
+    "t": "Le de\u0301sir du the\u0301a\u0302tre",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868477514,
+    "t": "Femmes et justice pe\u0301nale : 19e-20e sie\u0300cle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868477569,
+    "t": "Les te\u0301moins devant la justice : Une histoire des statuts et des comportements. [Publie\u0301 a\u0300 l'occasion du colloque international tenu a\u0300 l'universite\u0301 de Bourgogne, Dijon, les 4 et 5 octobre 2001]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868477804,
+    "t": "Parole et pouvoir. I, Le pouvoir en toutes lettres : [Actes du colloque organise\u0301 par l'UFR langues de l'universite\u0301 Rennes 2, tenu les 27 et 28 septembre 2001]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868477859,
+    "t": "Pouvoir et contro\u0302le dans les petites et moyennes organisations : Re\u0301flexions novatrices",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868477866,
+    "t": "Les oeuvres de Luzel. Sainte Tryphine et le roi Arthur. Myste\u0300re breton en deux journe\u0301es et huit actes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868477934,
+    "t": "Psychanalyse et recherches universitaires, PERU. Volume 6, L'inquie\u0301tant. [Actes du colloque de mars 2000 organise\u0301 par PERU a\u0300 l'universite\u0301 de Lyon II]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868478368,
+    "t": "In media res : Information, contre-information. [Catalogue de l'exposition re\u0301alise\u0301e dans le cadre de la mai\u0302trise des sciences et techniques me\u0301tiers de l'exposition, option art contemporain, pre\u0301sente\u0301e a\u0300 la galerie art et essai a\u0300 Rennes du 14 mai au 21 juin 2003]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868478658,
+    "t": "Morphosyntaxe du lexique. 2, Cate\u0301gorisation et mise en discours. [Actes du colloque qui s'est tenu a\u0300 l'universite\u0301 Franc\u0327ois-Rabelais a\u0300 Tours les 8 et 9 juin 2002]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868478795,
+    "t": "La sibylle : Parole et repre\u0301sentation. [Actes du colloque organise\u0301 par le centre d'e\u0301tudes des litte\u0301ratures antiques et modernes qui s'est tenu a\u0300 l'universite\u0301 de Rennes 2-Haute Bretagne en octobre 2001]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868479136,
+    "t": "Le style national roumanian",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868479235,
+    "t": "L'enfermement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868479266,
+    "t": "Les manufactures de tabacs et d'allumettes : Morlaix, Nantes, Le Mans et Tre\u0301laze\u0301 (18. - 20. sie\u0300cles)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782868970022,
+    "t": "Informations sociales comparatives sur un groupe europe\u0301en : Allemagne - RFA, Angleterre, France : anne\u0301es 79 a\u0300 83",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782868970152,
+    "t": "Me\u0301thodologies fondamentales en gestion : l'implicite et le nominatif dans les mode\u0300les ; colloque des 13-14 novembre 1985",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782870470039,
+    "t": "Donne\u0301es multidimensionnelles, analyses des proximite\u0301s et des pre\u0301fe\u0301rences",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782870470084,
+    "t": "Techniques d'analyse des donne\u0301es de\u0301mographiques de\u0301ficientes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782870470220,
+    "t": "Czech and Slovak republics",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782870470381,
+    "t": "Petit atlas des animaux domestiques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782870970669,
+    "t": "Les aventures de Blake et Mortimer. 16, Les sarcophages du 6e continent",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782870970669,
+    "t": "Les sarcophages du 6e continent",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782870970669,
+    "t": "Tome 1, La menace universelle : tome 1, La menace universelle",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782871470076,
+    "t": "Le Marche du disque compact en Belgique : analyse comparative de deux enque\u0302tes mene\u0301es aupre\u0300s des membres de la Me\u0301diathe\u0300que de la Communaute\u0301 franc\u0327aise de Belgique (1987-1988)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782871470533,
+    "t": "Catalogue des vide\u0301o-films en location a\u0300 la Me\u0301diathe\u0300que",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782871470687,
+    "t": "Collection vide\u0301ographique e\u0301ducation pour la sante\u0301 : catalogue-guide 1991",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782871471455,
+    "t": "S.O.S. polluards! : guide d'accompagnement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782871473596,
+    "t": "Bruxelles avec les yeux : un catalogue analytique et subjectif des me\u0301dias relatifs a\u0300 Bruxelles",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782872970049,
+    "t": "Max London : requiem pour un Tonton president",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782872970063,
+    "t": "Last : la the\u0301orie du crabe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782876470521,
+    "t": "\u0152uvres mathe\u0301matiques, publie\u0301es en 1846 dans le Journal de Liouville.",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782876471009,
+    "t": "Arithme\u0301tique",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782876970106,
+    "t": "Maitre Gaspard Fix ; Histoire d'un sous-maitre : une campagne en kabylie",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782876970106,
+    "t": "Mai\u0302tre Gaspard Fix ; Histoire d'un sous-mai\u0302tre ; Une campagne en Kabylie ; Le bon vieux temps ; Lettre d'un e\u0301lecteur a\u0300 son de\u0301pute\u0301 ; Une veille\u0301e au village ; Le secret des re\u0301actionnaires",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782876970106,
+    "t": "Contes et romans nationaux et polpulaires. 10 Mai\u0302tre Gaspard Fix - histoire d'un sous-mai\u0302tre",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782876970120,
+    "t": "Contes populaires 4: Le grand-pe\u0300re Lebigre. Le brigadier Fre\u0301de\u0301ric. Contes vosgiens. Annette et Jean-Claude. Le re\u0301cit du pe\u0300re Je\u0301ro\u0302me. Le trompette des hussards bleus. Le vieux tailleur. Gretcher. Les papiers de Madame Jeannette. La vision de Monsieur Nicolas Poirier. Les trois amoureux de la grand-mr\ufe22e. Le pa\u0302t \ufe22de lapin. L'exile",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782877470445,
     "t": "Marco Polo",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782877470506,
+    "t": "Chansons de jadis",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782877471077,
+    "t": "Lieux insolites et secrets de toutes les Bretagne",
     "h": 1,
     "e": 0
   },
@@ -66,14 +1794,602 @@
     "e": 0
   },
   {
+    "i": 9782877471671,
+    "t": "Les m\u00e9galithes du Morbihan",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782877472043,
+    "t": "La pr\u00e9histoire de l'Europe : des origines \u00e0 l'age du fer",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782877472883,
+    "t": "Dictionnaire du rire et de l'humour",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782877473859,
+    "t": "Contes des rois de France : Henri IV",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782877473873,
+    "t": "Contes du Moyen Age",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782877474153,
+    "t": "Saint-Malo",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782877474399,
+    "t": "Le Victor Pleven : bateau muse\u0301e",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782877474573,
+    "t": "Cuisine traditionnelle des sauces",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782877475051,
+    "t": "La maison des vieux me\u0301tiers vivants, Argol, presqu'i\u0302le de Crozon",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782877475334,
+    "t": "Toutes les chasses du pigeon ramier",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782877475556,
+    "t": "Almanach Gisserot de la cuisine",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782877478113,
+    "t": "La cuisine du Pe\u0301rigord",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782877479479,
+    "t": "Les recettes bretonnes",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782877970020,
     "t": "La nuit des loups : nouvelles",
     "h": 1,
     "e": 0
   },
   {
+    "i": 9782877970037,
+    "t": "Il y en a que j'aime tant",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782878470475,
+    "t": "Le\u0301gislation du travail en UC, droit social, e\u0301valuation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782879470085,
+    "t": "Regarde ... voila\u0300 l'ours",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782879470733,
+    "t": "Mon premier vocabulaire franc\u0327ais-espagnol",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782879470757,
+    "t": "Mon premier vocabulaire",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782879471235,
+    "t": "Touche les animaux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782879471297,
+    "t": "Ne perds pas le fil",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782879471389,
+    "t": "Bonne nuit, petit ours!",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782879472232,
+    "t": "La courageuse petite souris",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782879472966,
+    "t": "A\u0301 vos marques-- pieds partez!",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782879475288,
+    "t": "Lily et Mathieu ont un secret",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782879475486,
+    "t": "De\u0301couvre et apprends les chiffres avec Fido",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782879476179,
+    "t": "Le match du sie\u0300cle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782879477459,
+    "t": "La cuisine italienne",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782879970424,
+    "t": "Dimensionering av konstruktioner i rostfritt sta\u030al",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880470173,
+    "t": "Deutsch durch Lernziele : Tests",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880470364,
+    "t": "Techniques for passing-- listening, grammar, pre\u0301cis writing, composition, interviews, reading, vocabulary English language examinations : a self-access course",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880470388,
+    "t": "Develop your reading ability ... and much more",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880470463,
+    "t": "Basic phonetic concepts",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880470487,
+    "t": "English for shop assistants",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880470982,
+    "t": "Handwriting",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880970130,
+    "t": "Histoire universelle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880970420,
+    "t": "Le chat, un animal attachant",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880970574,
+    "t": "La Cuisine orientale",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880970758,
+    "t": "Variations sur les \u0153ufs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880970864,
+    "t": "La Peau et les maladies infectieuses",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880970871,
+    "t": "Les Maladies : pre\u0301vention et diagnostic, [tome 3] : la grossesse et la naissance, l'enfant, les organes ge\u0301nitaux, la vieillesse",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782880970888,
+    "t": "La Sexualite\u0301 fe\u0301minine : grossesse et accouchement",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782880970895,
+    "t": "Les Yeux et les reins",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880970901,
+    "t": "La Digestion",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880970925,
+    "t": "La Respiration et l'oui\u0308e",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880970949,
+    "t": "Le Sang et les hormones",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880970970,
+    "t": "Les Me\u0301decines nouvelles + Index",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880970987,
+    "t": "Premiers soins",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880971021,
+    "t": "La Seconde Guerre mondiale L'agression de Pearl Harbor",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880971175,
+    "t": "La guerre dans le de\u0301sert",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880971434,
+    "t": "Imprimer ses photos en noir et blanc",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880971465,
+    "t": "Toutes les possibilite\u0301s de votre appareil",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880971588,
+    "t": "Bruxelles: tre\u0301sors et ambiance touristiques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880971595,
+    "t": "Le Grand-Duche\u0301 de Luxembourg",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880972059,
+    "t": "La grande encyclope\u0301die du 20e\u0300me sie\u0300cle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880972462,
+    "t": "Bob et Bobette. 155-158, Le Secret d'Ubasti ; Ce cher Barabas ; L'\u0152il de cristal ; Le Viking impe\u0301tueux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880972585,
+    "t": "La trompette magique ; Le dompteur de taureaux ; Le teuf-teuf-club ; L'oiseau blanc ; [sce\u0301narios et dessins de] Willy Vandersteen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880972608,
+    "t": "La pluie acide ; Le mignonne Millirem ; Le chat teigne ; Les barbus baraque\u0301s",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880972615,
+    "t": "La guerre des rafales ; Manneken pis, l'irascible ; Le prince des poires ; Les lutins de cuivre",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880972639,
+    "t": "Le glacier glissant ; Les chiens de l'enfer ; Les furax furieux ; La jeune-fille joyeuse",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880972820,
+    "t": "Amour et sexualite\u0301. [16]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880972912,
+    "t": "La Belle au bois dormant et autres contes et re\u0301cits",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880973131,
+    "t": "Asie, Grand Atlas universel. 1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880973193,
+    "t": "Ame\u0301rique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880973230,
+    "t": "Europe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880973261,
+    "t": "Les Visages de la terre",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880973261,
+    "t": "Les visages de la terre",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782880973513,
+    "t": "Sagarmatha ; SOS rhinoce\u0301ros ; Le posse\u0301dant posse\u0301de\u0301 ; La barbouilleur ; [sce\u0301narios et dessins de] Willy Vandersteen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782881471049,
+    "t": "La re\u0301conciliation sovie\u0301to-yougoslave, 1954-1958 : illusions et de\u0301sillusions de Tito",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782881970108,
+    "t": "La nouvelle loi fe\u0301de\u0301rale contre la concurrence de\u0301loyale : travaux de la journe\u0301e d'e\u0301tude ... le 10 mars 1988 ...",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782882470126,
+    "t": "Swiss research and developing countries",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782882470294,
+    "t": "Jahrbuch Schweiz - dritte Welt 1998",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782882470317,
+    "t": "Annuaire Suisse-Tiers monde, 1999",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782882470324,
+    "t": "Dossier: Die Schweiz und die humanitaire Aktion",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782882470423,
+    "t": "Du socialisme a l'economie de marche : Errances de la transition",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782882470607,
+    "t": "Economie solidaire et commerce e\u0301quitable : acteurs et actrices d'Europe et d'Ame\u0301rique latine",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782884470223,
+    "t": "AutoCAD release 12 : manuel de re\u0301fe\u0301rence",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782884470230,
+    "t": "AutoLisp release 12 : manuel de programmation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782884470261,
+    "t": "AutoCAD module de rendu 12 : manuel d'utilisation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782884470292,
+    "t": "Advanced modeling extension version 2.1 : manuel de re\u0301fe\u0301rence",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782884470858,
+    "t": "AutoCAD release 12 : reference manual",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782884471626,
+    "t": "AutoCAD release 12 : guide d'installation, d'interfaces et d'optimisation : Windows",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782884471633,
+    "t": "AutoCAD release 12 : manuel d'utilisation d'AutoCAD pour Windows",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782884471695,
+    "t": "Autocad versio\u0301n 12 : manual del usuario de Autocad para Windows",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782884475341,
+    "t": "3D Studio MAX : Lehrga\u0308nge",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782884970150,
+    "t": "Voyage",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782884970228,
+    "t": "Re\u0302ve",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890470019,
+    "t": "Math. 522 : ensembles, intervalles, logarithmes et exposants, trigonome\u0301trie, alge\u0300bre, tests pre\u0301paratoires aux examens du ministe\u0300re",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890470125,
+    "t": "Autour d'une chanson",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890470163,
+    "t": "Vers la mai\u0302trise du franc\u0327ais : Me\u0301thode d'apprentissage individualise\u0301 ; GFR 531, FR 11, Secondaire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890470170,
+    "t": "Vers la mai\u0302trise du franc\u0327ais : Me\u0301thode d'apprentissage individualise\u0301 ; GFR 532, FR 12, Secondaire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890470200,
+    "t": "Vers la mai\u0302trise du franc\u0327ais : me\u0301thode d'apprentissage individualise\u0301e : GFR 553 (FR 15) secondaire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890470224,
+    "t": "Autour d'une chanson : alpha-mots et messagier",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890470323,
+    "t": "Autour d'une chanson : primaire (6-7 ans) : mon imagier",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890470415,
+    "t": "Chante l'alphabet",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890470507,
+    "t": "Vers la mai\u0302trise du franc\u0327ais : me\u0301thode d'apprentissage individualise\u0301e : savoir orthographier : tire\u0301 a\u0300 part",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890470514,
+    "t": "Vers la mai\u0302trise du franc\u0327ais : savoir-orthographier : tire\u0301 a\u0300 part : 553",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782890470583,
     "t": "Avec une chanson",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890470583,
+    "t": "Avec une chanson",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890470620,
+    "t": "Illustrations",
     "h": 1,
     "e": 0
   },
@@ -102,6 +2418,12 @@
     "e": 0
   },
   {
+    "i": 9782890471139,
+    "t": "Vers la mai\u0302trise du franc\u0327ais : savoir-orthographier : tire\u0301 a\u0300 part : 521",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782890471153,
     "t": "Le Messagier : guide d'utilisation. [Version APPLE II]",
     "h": 1,
@@ -114,6 +2436,12 @@
     "e": 0
   },
   {
+    "i": 9782890471177,
+    "t": "Le Messagier : guide d'utilisation. [Version Comterm Max]",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782890471184,
     "t": "L'Illustrateur",
     "h": 1,
@@ -122,6 +2450,90 @@
   {
     "i": 9782890471221,
     "t": "Math the\u0301matique un logiciel qui de\u0301veloppe des strate\u0301gies de re\u0301solution de proble\u0300mes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890471221,
+    "t": "Math the\u0301matique : un logiciel qui de\u0301veloppe des strate\u0301gies de re\u0301solution de proble\u0300mes. 1 Les e\u0301chelles nume\u0301riques. La pe\u0302che aux e\u0301toiles. L'ascension du bananier",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890471238,
+    "t": "Math the\u0301matique : un logiciel qui de\u0301veloppe des strate\u0301gies de re\u0301solution de proble\u0300mes. 2 Master math. Le jeu du de\u0301tective. La juste mesure",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890471245,
+    "t": "Math the\u0301matique : un logiciel qui de\u0301veloppe des strate\u0301gies de re\u0301solution de proble\u0300mes. 3 L'as de l'espace. La pese\u0301e des fractions. Les figures jumelles",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890471252,
+    "t": "Math the\u0301matique : un logiciel qui de\u0301veloppe des strate\u0301gies de re\u0301solution de proble\u0300mes. 4 Roc-ciseau-papier. La lec\u0327on de conduite. Les coordonne\u0301es magiques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890471269,
+    "t": "Math the\u0301matique : un logiciel qui de\u0301veloppe des strate\u0301gies de re\u0301solution de proble\u0300mes. 5 Tic-tac-toc. La gigue des chiffres. La course des mille-pattes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890471276,
+    "t": "Math the\u0301matique : un logiciel qui de\u0301veloppe des strate\u0301gies de re\u0301solution de proble\u0300mes. 6 Souque-a\u0301-la-corde. L'e\u0301chiquier des fractions. Les figures baladeuses",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890471283,
+    "t": "Math the\u0301matique : un logiciel qui de\u0301veloppe des strate\u0301gies de re\u0301solution de proble\u0300mes. 7 La chasse aux diviseurs. Lettres et chiffres. A\u0300 la bonne heure",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890471290,
+    "t": "Math the\u0301matique : un logiciel qui de\u0301veloppe des strate\u0301gies de re\u0301solution de proble\u0300mes. 10 Dans le mille. L'e\u0301chelle des fractions. Croquis programme",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890471306,
+    "t": "Math the\u0301matique : un logiciel qui de\u0301veloppe des strate\u0301gies de re\u0301solution de proble\u0300mes. 11 Double e\u0301nigme. La sonate des fractions. De\u0301placements",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890471313,
+    "t": "Math the\u0301matique : un logiciel qui de\u0301veloppe des strate\u0301gies de re\u0301solution de proble\u0300mes. 9 Le jeu du labyrinthe. La chasse aux fractions. Zigzags me\u0301triques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890471320,
+    "t": "Math the\u0301matique : un logiciel qui de\u0301veloppe des strate\u0301gies de re\u0301solution de proble\u0300mes. 8 Le produit myste\u0300re. Le trio gagnant. La capture du cheval sauvage",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890471337,
+    "t": "Math the\u0301matique : un logiciel qui de\u0301veloppe des strate\u0301gies de re\u0301solution de proble\u0300mes. 12 Le puzzle masque\u0301. Le sens des pourcentages. L'enclos du fermier",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890471535,
+    "t": "Vers la mai\u0302trise du franc\u0327ais",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890471566,
+    "t": "Vers la mai\u0302trise du franc\u0327ais : savoir-orthographier : tire\u0301 a\u0300 part : 551",
     "h": 1,
     "e": 0
   },
@@ -150,14 +2562,86 @@
     "e": 0
   },
   {
+    "i": 9782890471788,
+    "t": "Vers la mai\u0302trise du franc\u0327ais : savoir-orthographier : tire\u0301 a\u0300 part : 511",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890471887,
+    "t": "Duratour et Bajounette : conte",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890471917,
+    "t": "Le Pe\u0300re Je\u0301ro\u0302me : conte",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782890471986,
     "t": "Conte",
     "h": 1,
     "e": 0
   },
   {
+    "i": 9782890471986,
+    "t": "Les re\u0302ves conte",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890471993,
+    "t": "Evaluation formative et sommative en lecture et en e\u0301criture : 4e anne\u0301e",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890472044,
+    "t": "Les Trois royaumes : conte [de Noe\u0300l]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890472044,
+    "t": "Les trois royaumes conte",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782890472150,
     "t": "Pense-- et compte!. Techniques de calcul mental",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890472181,
+    "t": "En suivant la route des rois : conte",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890472198,
+    "t": "L'E\u0301le\u0301phant Goliath : conte",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890472204,
+    "t": "Des bouteilles a\u0300 la mer : conte",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890472211,
+    "t": "Madame-Peluche : conte[de Noe\u0308l]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890472235,
+    "t": "Voyage de Piqueledindon : conte",
     "h": 1,
     "e": 0
   },
@@ -174,14 +2658,92 @@
     "e": 0
   },
   {
+    "i": 9782890472549,
+    "t": "Pense ... et compte 2 corrige\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890472556,
+    "t": "Le Monde animal. Recueil de textes",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782890472563,
     "t": "Excursions : franc\u0327ais : 1er cycle du secondaire : module I[-module V]. Cahier d'activite\u0301s",
     "h": 1,
     "e": 0
   },
   {
+    "i": 9782890472563,
+    "t": "Le Monde animal. Cahier d'activite\u0301s",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890472563,
+    "t": "Excursions franc\u0327ais : 1er cycle du secondaire - module 1 : cahier d'activite\u0301s : le monde animal",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890472570,
+    "t": "Guide pe\u0301dagogique : pre\u0301sentation ge\u0301ne\u0301rale de la collection et module 1",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782890472624,
     "t": "Interme\u0300de : accueil et francisation, secondaire. Guide d'enseignement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890472631,
+    "t": "Le Monde animal. Dossier d'e\u0301valuation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890472655,
+    "t": "Les Allophones. Recueil de textes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890472679,
+    "t": "Les Allophones. Cahier d'activite\u0301s",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890472686,
+    "t": "Les Allophones. : Dossier d'e\u0301valuation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890472792,
+    "t": "Mathe\u0301matique FM, 1re secondaire extrait",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890472945,
+    "t": "Les Adolescents. Recueil de textes, 1er cycle du secondaire, module III",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890472952,
+    "t": "Les Adolescents. Cahier d'activite\u0301s, 1er cycle du secondaire, module III",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890472969,
+    "t": "Les Adolescents. Dossier d'e\u0301valuation, 1er cycle du secondaire, module III",
     "h": 1,
     "e": 0
   },
@@ -204,8 +2766,50 @@
     "e": 0
   },
   {
+    "i": 9782890473133,
+    "t": "L'insolite, les records. Recueil de textes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890473157,
+    "t": "L'insolite, les records. Cahier d'activite\u0301s",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890473164,
+    "t": "L'insolite, les records. Dossier d'e\u0301valuation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890473171,
+    "t": "Guide pe\u0301dagogique, module V",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782890473287,
     "t": "Principes comptables. Cahier d'activite\u0301s 1[-2]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890473317,
+    "t": "Principes comptables. Corrige\u0301 1[-2]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890970014,
+    "t": "Une croissance planifie\u0301e ...",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782890970021,
+    "t": "Me\u0301thode de classement pour l'assurance",
     "h": 1,
     "e": 0
   },
@@ -240,6 +2844,12 @@
     "e": 0
   },
   {
+    "i": 9782891470919,
+    "t": "Espagnol I",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782891471831,
     "t": "La Mathe\u0301matique et l'activite\u0301 humaine",
     "h": 1,
@@ -254,6 +2864,18 @@
   {
     "i": 9782891472234,
     "t": "Ge\u0301ome\u0301trie et re\u0301alite\u0301 2, PMM 3034 : [Permama]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782891472234,
+    "t": "Ge\u0301ome\u0301trie et re\u0301alite\u0301 : solutions",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782891472388,
+    "t": "Un univers a\u0300 de\u0301couvrir : le corps humain : guide de l'e\u0301tudiant",
     "h": 1,
     "e": 0
   },
@@ -296,6 +2918,12 @@
   {
     "i": 9782891475532,
     "t": "English IV ; unit 15-[28]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782891475679,
+    "t": "Espagnol IV",
     "h": 1,
     "e": 0
   },
@@ -408,6 +3036,12 @@
     "e": 0
   },
   {
+    "i": 9782891476485,
+    "t": "COM 5010 : communication et de\u0301veloppement dans les socie\u0301te\u0301s fortement industrialise\u0301es : 400 ans de communications au Que\u0301bec : recueil de textes",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782891476546,
     "t": "Vie e\u0301conomique que\u0301be\u0301coise. Guide de l'e\u0301tudiant",
     "h": 1,
@@ -428,6 +3062,24 @@
   {
     "i": 9782891476911,
     "t": "Anglais, ANG 1001. Guide de l'e\u0301tudiant",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782891476928,
+    "t": "Espagnol, ESP 1001",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782891477413,
+    "t": "Les droits et liberte\u0301s de la personne dans le quotidien, POL 2003 : activite\u0301s : phase III",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782891477413,
+    "t": "L'avenir des droits et liberte\u0301s de la personne, POL 2004 : activite\u0301s : phase IV",
     "h": 1,
     "e": 0
   },
@@ -468,6 +3120,12 @@
     "e": 0
   },
   {
+    "i": 9782891478021,
+    "t": "Espagnol, ESP 1003",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782891478038,
     "t": "Espagnol, ESP 1003. Guide de l'e\u0301tudiant",
     "h": 1,
@@ -488,6 +3146,12 @@
   {
     "i": 9782891478076,
     "t": "Espagnol, ESP 1004 : se\u0301ries 22-28",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782891478090,
+    "t": "Espagnol, ESP 1004",
     "h": 1,
     "e": 0
   },
@@ -534,6 +3198,12 @@
     "e": 0
   },
   {
+    "i": 9782891478694,
+    "t": "Vieillissement, travail et retraite",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782891478939,
     "t": "Politique et socie\u0301te\u0301 : manuel",
     "h": 1,
@@ -542,6 +3212,12 @@
   {
     "i": 9782891478946,
     "t": "Politique et socie\u0301te\u0301, POL 3001 : cahier de l'e\u0301tudiant",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782891479004,
+    "t": "Le Bureau informatise\u0301. Le manuel de l'e\u0301tudiant",
     "h": 1,
     "e": 0
   },
@@ -636,8 +3312,80 @@
     "e": 0
   },
   {
+    "i": 9782891970242,
+    "t": "Poaemes dbechacinbes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782892471489,
+    "t": "Paroles en l'air",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782892970159,
+    "t": "De la Trinite\u0301 Divine a\u0300 l'Immacule\u0301e-Trinite\u0301 : e\u0301le\u0301ments pour servir a\u0300 la contemplation d'un myste\u0300re, I",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782892970166,
     "t": "Elements for the contemplation of a mystery",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782892970166,
+    "t": "From the Divine Trinity to the Trinity of the Immaculate",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782892970173,
+    "t": "Le Re\u0301dempteur et la Co-Re\u0301demptrice : e\u0301le\u0301ments pour servir a\u0300 la contemplation d'un myste\u0300re, II",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782893970011,
+    "t": "La Perruque de l'inspecteur Dissetret : ou Comment les circonstances firent que l'inspecteur Dissetret trouva enfin le moyen de faire tenir sa perruque bien en place, et pour fort longtemps soit dit en passant ...",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782893970028,
+    "t": "Le Message secret",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782893970035,
+    "t": "La De\u0301coration de la classe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782893970042,
+    "t": "Les Visiteurs venus d'imaginaire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782893970059,
+    "t": "L'Enque\u0302te pie\u0301tine!",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782893970066,
+    "t": "Le Manuscrit myste\u0301rieux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782893970936,
+    "t": "La soeur du pianiste : mini-roman",
     "h": 1,
     "e": 0
   },
@@ -648,8 +3396,32 @@
     "e": 0
   },
   {
+    "i": 9782894470015,
+    "t": "Organisation, coordination, contro\u0302le et suivi du dossier financier CSST : proce\u0301de\u0301s et me\u0301thodes, phase 1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782894470138,
+    "t": "Position paper on nursing progress notes concerning clients in long-term care facilities and units",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782894470343,
     "t": "Directory of health and social service organizations for the aged in Quebec",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782894470619,
+    "t": "L'e\u0301tat de la jurisprudence de la Commission d'appel en matie\u0300re de le\u0301sions professionnelles (CALP) : 1989 a\u0300 1995",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782894470626,
+    "t": "Indicateurs de qualite\u0301 CHSLD",
     "h": 1,
     "e": 0
   },
@@ -666,8 +3438,290 @@
     "e": 0
   },
   {
+    "i": 9782894471135,
+    "t": "Une expe\u0301rience que\u0301be\u0301coise concerte\u0301e d'analyse comparative de la performance",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782894471593,
+    "t": "L'utilisation judicieuse et se\u0301curitaire de la contention et de l'isolement en milieu psychiatrique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782894970263,
+    "t": "Service d'aide a\u0300 l'enfant et son milieu (SAEM) / rapport d'e\u0301valuation / Daniel Turcotte [et autres]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782894970669,
+    "t": "Actes du colloque e\u0301tudiant 2006 : la comple\u0301mentarite\u0301 de la recherche et de l'intervention : l'union fait la force!",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782895470052,
+    "t": "Re\u0301seau de services inte\u0301gre\u0301s aux personnes a\u0302ge\u0301es et autres adultes en perte d'autonomie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782895470243,
+    "t": "Programme que\u0301be\u0301cois de de\u0301pistage du cancer du sein (PQDCS) : re\u0301pertoire des ressources de la re\u0301gion des Laurentides a\u0300 l'intention des professionnels et des professionnelles de la sante\u0301 et des services sociaux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782895470366,
+    "t": "Avant-projet : inte\u0301gration de la pratique de sage-femme, de\u0303veloppement des services de sage-femme",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782895470793,
+    "t": "Plan d'action re\u0301gional en sante\u0301 publique, 2004-2007",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782895470816,
+    "t": "Les re\u0301seaux locaux de distribution de services de te\u0301le\u0301communications a\u0300 large bande : la sce\u0300ne internationale",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782895470908,
+    "t": "Bottin de ressources, agression sexuelle : re\u0301gion des Laurentides",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782895472117,
+    "t": "Cadre de gestion re\u0301gional : programme d'attribution de chaussures orthe\u0301tiques et d'appareillage de chaussures",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782895472193,
+    "t": "Plan directeur re\u0301gional en traumatologie : 2013-2015 : re\u0301gion des Laurentides",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782895970293,
+    "t": "De\u0301bris d'e\u0301pope\u0301e--",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782895975687,
+    "t": "Petites chroniques de\u0301paysantes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782895975700,
+    "t": "Pour se raconter III : amours inoubliables",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782895976387,
+    "t": "Raconter Vanier",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782895979333,
+    "t": "Deux heures avant la fin de l'\u00e9t\u00e9",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782896470174,
+    "t": "Clovis de\u0301tective",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782896470334,
+    "t": "Les affreux. 1, Le congre\u0300s des laids",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782896470549,
+    "t": "La tourmente, 1689-1694",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782896471720,
+    "t": "Chere Laurette T.03 : le retour",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782896471898,
+    "t": "Le talisman de Nergal. 6, La rev\u0301e\u0301lation du centre",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782896475353,
+    "t": "L'apprentissage",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782896475834,
+    "t": "L'embellie, 1694-1701",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782896476916,
+    "t": "Ombre D'un Doute, L'",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782896970186,
+    "t": "[Trousse Me\u0301te\u0301o inte\u0301rieure + DVD + Affiches]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782896970407,
+    "t": "[Trousse massage Came\u0301le\u0301on]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782897470418,
+    "t": "Rectificador inversor PWM trif\u00e1sico. Gu\u00eda del profesor, 220 V - 50 HZ",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782897470425,
+    "t": "Rectificador inversor PWM trif\u00e1sico. Gu\u00eda del profesor, 220 V - 60 HZ",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782897470524,
+    "t": "Software de simulaci\u00f3n de sistemas electromec\u00e1nicos. Manual del usuario, 20858-E2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782897470999,
+    "t": "Machine vision : Advanced Mechatronics System (AMS). Student manual",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782897471224,
+    "t": "AC transmission lines. Instructor guide, 20521-1A",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782897474348,
+    "t": "Aplicaciones de los controladores lo\u0301gicos programables : control de proceso de nivel. Hojas de trabajo, estudiante",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782897474447,
+    "t": "Aplicaciones de los controladores lo\u0301gicos programables : turbina eo\u0301lica. Hojas de trabajo, Profesor",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782897474911,
+    "t": "Variadores de velocidad de motores. Manual del estudiante",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782897478766,
+    "t": "Sistemas multibucle. Hojas de trabajo - Estudiante, 52669-22",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782897479169,
+    "t": "Correcci\u00f3n del factor de potencia. Gu\u00eda del professor",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782897479275,
+    "t": "Electric power technology training equipment : safety instructions and commissioning",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782897479336,
+    "t": "Grid-tied nacelle. Student manual, 595685",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782897479718,
+    "t": "Equipos dida\u0301cticos en tecnologia\u0301 de la energi\u0301a ele\u0301ctrica. instrucciones de seguridad y puesta en funcionamiento",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782900478158,
+    "t": "Au pays d'E\u0301ros : litte\u0301rature et e\u0301rotisme en Italie, de la Renaissance a\u0300 l'a\u0302ge baroque",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782900478158,
+    "t": "2e se\u0301rie ; [textes de Dominique Fratani, Paul Larivaille, Silvia Fabrizio-Costa]",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782900478219,
+    "t": "Savonarole, Jean-Franc\u0327ois Pic de la Mirandole et l'Apologe\u0301tique : un programme non ficinien",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782900973172,
+    "t": "Bernard Buffet : Les 7 pe\u0301che\u0301s capitaux, Exposition de fe\u0301vrier-mars 1995",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782902472086,
+    "t": "Parfois la nuit",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782902474561,
     "t": "Physiologie de me\u0301decin",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782902479382,
+    "t": "Me\u0301moire d'atelier : oeuvres de 1953 a\u0300 1978",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782902970568,
+    "t": "Notre Se\u0301basto ... pol : me\u0301moire d'un the\u0301a\u0302tre ; 1903-2003",
     "h": 1,
     "e": 0
   },
@@ -684,8 +3738,170 @@
     "e": 0
   },
   {
+    "i": 9782903974350,
+    "t": "Les fondements du mouvement sce\u0301nique : colloque",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782904476006,
+    "t": "Dictionnaire ge\u0301ne\u0301alogique des familles de l'Ile Bourbon (La Re\u0301union) 1665-1810 / 1. A - F",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782904476006,
+    "t": "Dictionnaire ge\u0301ne\u0301alogique des familles de l'Ile Bourbon (La Re\u0301union) 1665-1810 / 3. N - Z",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782904970016,
+    "t": "Analgesia and enkephalinases",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782904970030,
+    "t": "Pharmacodependance & neurobehavioral toxicology",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782904970047,
+    "t": "Minaprine : a new psychotropic drug active in affective disorders : International symposium : 1st European conference entitled \"Recent advances in psychiatric treatment\" : Papers",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782904970054,
+    "t": "Therapeutic agents produced by genetic engineering : the example of growth hormone and its releasing factor",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782904971020,
+    "t": "Le Monde du far-west",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782904971136,
+    "t": "Apprendre a\u0300 mener, attelage a\u0300 un et en paire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782904972447,
+    "t": "E\u0301crits et paroles / 1, 1960-1967",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782904972621,
+    "t": "Actes du Colloque \"Pour la formation et l'insertion e\u0301conomique des jeunes les plus de\u0301favorise\u0301s\" : organise\u0301 le mercredi 18 novembre 1992 a\u0300 l'Ho\u0302tel de la re\u0301gion Charpagne-Ardenne [sic]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782904974106,
+    "t": "Militaires romains en Gaule civile : actes de la table-ronde de mai 1991 organise\u0301e au Centre d'e\u0301tudes romaines et gallo-romaines de la Universite\u0301 Jean-Moulin - Lyon III",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782904975295,
+    "t": "Inventaire des the\u0300ses de doctorat soutenues devant les universite\u0301s franc\u0327aises : droit, sciences e\u0301conomiques, sciences de gestion Lettres, sciences humaines, the\u0301ologies. 1985",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782904975936,
+    "t": "Pe\u0301riodiques analyse\u0301s dans la base de donne\u0301es PASCAL, mai 1995 = serials indexed in the PASCAL database, May 1995",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782905470027,
+    "t": "Une industrie rurale : le travail de lo\u0300cre dans lA\u0300uxerrois ; 1763-1966",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782905471123,
+    "t": "Quinze lettres de Marina Tsvetaeva \u00e0 Boris Pasternak",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782905471208,
+    "t": "Neuf lettres avec une dixie\u0300me retenue et une onzie\u0300me rec\u0327u",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782905471239,
+    "t": "La Critique dans tous se e\u0301tats",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782905476081,
+    "t": "Akenaton : Le Temps immobile : performance - installation, Tarascon, 1988 ; Martigues, Muse\u0301e Ziem, 1993",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782905476128,
+    "t": "Petits et grands papiers d'art contemporain : autour de la collection de Charles-E\u0301ric Sime\u0301oni : [exposition], Muse\u0301e Ziem, Martigues, [23 novembre 1996-3 janvier 1997]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782905970510,
+    "t": "Grand large",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782905970664,
+    "t": "Jean Mabire pre\u0301sente Grands marins normands",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782905970688,
+    "t": "Jersey sous l'Occupation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782905972019,
+    "t": "Toxicologie medico-legale : Seminaire : Papers",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782905972057,
     "t": "Antiparasitaires humains, produits phytosanitaires : XXVe Congre\u0300s des centres anti-poisons, Paris, 21-23 septembre 1987",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782905972170,
+    "t": "L'intoxication chez l'enfant",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782905972354,
+    "t": "Le risque professionnel dans la fonction publique hospitalie\u0300re : pour une gestion sans risque",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782905973061,
+    "t": "Les cite\u0301s disparues",
     "h": 1,
     "e": 0
   },
@@ -702,8 +3918,218 @@
     "e": 0
   },
   {
+    "i": 9782906476004,
+    "t": "Travail de groupe en sequences longues : de\u0301marche de recherche sur proble\u0300mes ouverts",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782906972254,
+    "t": "La liberte\u0301 religieuse et la tradition catholique / Fasc. B. De\u0301nouement",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782906972261,
+    "t": "La liberte\u0301 religieuse et la tradition catholique / Fasc. A. Sources",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782906972513,
+    "t": "Prime de l'office be\u0301ne\u0301dictin",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782906975064,
+    "t": "De l'Ormeau au banc des mensonges",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782906976351,
+    "t": "Neuf jouets optiques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782907471008,
+    "t": "Les 150 psaumes : dans leurs me\u0301lodies antiques / 2 La psalmodie : e\u0301tude comparative ; psaumes 71 a\u0300 150",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782907471015,
+    "t": "Cantique des cantiques de Salomon [dans sa me\u0301lodie d'origine] = Song of songs by Solomon [in its original melody]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782907477000,
+    "t": "Vous avez dit me\u0301tro? Bordeaux 199 ...",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782907970068,
+    "t": "\u0418\u0441\u043a\u0443\u0441\u0441\u0442\u0432\u043e \u041a\u0430\u0440\u0442\u044c\u0435 : \u0444\u0440\u0430\u043d\u0446\u0443\u0437\u0441\u043a\u043e\u0435 \u044e\u0432\u0435\u043b\u0438\u0440\u043d\u043e\u0435 \u0438\u0441\u043a\u0443\u0441\u0441\u0442\u0432\u043e \u0441 1847 \u043f\u043e 1960 \u0433\u0433., \u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u0415\u0440\u043c\u0438\u0442\u0430\u0436 [sic], \u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433, \u0441 14 \u043c\u0430\u044f \u043f\u043e 20 \u0438\u044e\u043d\u044f 1992",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782907970204,
+    "t": "La rue commerc\u0327ante : Boutiques, enseignes et petits me\u0301tiers de Paris au 19e sie\u0300cle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782907970464,
+    "t": "Paris, les toits, la nuit = Paris, roofs, night",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782907970938,
+    "t": "Paris inonde\u0301 : la grande crue de 1910",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782907979023,
+    "t": "Peinture murale romaine : actes du Xe Se\u0301minaire de l'AFPMA, Vaison-la-Romaine, 1, 2 et 3 mai 1987",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782908470109,
+    "t": "Moyennes montagnes europe\u0301ennes : nouvelles fonctions, nouvelles gestions de l'espace rural : po\u0302le \"Gestions des territoires ruraux sensibles\" : 1e\u0300res Journe\u0301es Internationales",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782908471007,
+    "t": "Lettre a\u0300 celle qui n'est jamais partie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782908473018,
+    "t": "Inventaire des salmonella = Inventory of salmonella : 1988-1989",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782908473032,
+    "t": "Dix ans d'e\u0301pide\u0301miosurveillance de l'antibiore\u0301sistance des principales bacte\u0301ries pathoge\u0300nes chez les bovins, 1982-1991",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782908476026,
+    "t": "Les rois : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782908476095,
     "t": "Miroir du foutre : le Ka\u0304masu\u0304tra catalan",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782908476439,
+    "t": "La vie va vite en aou\u0302t : Polar",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782908973044,
+    "t": "Vers une substitution du tourisme au C.E.A./C.E.P.?",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782908973068,
+    "t": "La B.D.S. : la Banque de donne\u0301es statistiques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782908973204,
+    "t": "Vahine en chiffres",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782908975031,
+    "t": "Chronologie illustre\u0301e de l'histoire universelle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782908975154,
+    "t": "Les e\u0301coles de la Re\u0301publique : le livre me\u0301moire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782908976014,
+    "t": "Les manuscrits Pitpan de Montauban de la Bibliothe\u0300que municipale de Cambrai. Fascicule N\u00b0 1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782908976052,
+    "t": "Ge\u0301ne\u0301alogies des provinces du Nord / 15",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782908976243,
+    "t": "Ge\u0301ne\u0301alogies des provinces du Nord / 11",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782908976267,
+    "t": "Ge\u0301ne\u0301alogies des provinces du Nord / 18",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782908976281,
+    "t": "Retranscription et analyse du manuscrit \"Ge\u0301ne\u0301alogies bourgeoises de Mons en Hainaut\". Fasc. n \u00b0 4 : ms. 319 des Archives de l'E\u0301tat a\u0300 Mons",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782908976311,
+    "t": "Ge\u0301ne\u0301alogies des provinces du Nord : les manuscrits Pitpan de Montauban de la Bibliothe\u0300que municipal de Cambrai / 5",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782908976403,
+    "t": "Ge\u0301ne\u0301alogies des provinces du Nord : les manuscrits Pitpan de Montauban de la Bibliothe\u0300que municipal de Cambrai / 7",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782908976403,
+    "t": "Se\u0301lection de ge\u0301ne\u0301alogies extraites des manuscrits Pitpan de Montauban de la Bibliothe\u0300que municipale de Cambrai. Fasc. n\u00b0 7",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782908976489,
+    "t": "Analyse du manuscrit franc\u0327ais 32427 de la Bibliothe\u0300que Nationale de France",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782908976625,
+    "t": "Tabellion de Cambrai : table des contrats de mariages, 1726-1740",
     "h": 1,
     "e": 0
   },
@@ -714,8 +4140,878 @@
     "e": 0
   },
   {
+    "i": 9782909470344,
+    "t": "CD les classiques dynamiques : a christmas caroll",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782909470498,
     "t": "Textes & contextes : bases litte\u0301raires du XIIe au XXe sie\u0300cle sur CD-ROM",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782909470764,
+    "t": "Pleased to Meet You : professional Communication in English",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782909471051,
+    "t": "Saint-Pierre aujourd'hui, de 1970 a\u0300 nos jours",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782909473031,
+    "t": "Trente ans de jeune sculpture a\u0300 Paris avec Denys Chevalier, 1948-1978 : Arp, Avoscan, Batbedat, Boileau, Bury ... [et al.] : Couvent des Cordeliers, du 16 mai au 25 juin 1995",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782909478340,
+    "t": "A home for everyone : a poster for tomorrow project",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782909975016,
+    "t": "Pour mieux choisir une maison de retraite ou une re\u0301sidence 3e age",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782909976013,
+    "t": "Ville de Rumilly / 4. (1931-1973)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782910472009,
+    "t": "Fi\u0304 al-qaryah",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782910475581,
+    "t": "Mes mots ont la parole : des slam qui racontent la vie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782910476076,
+    "t": "Chroniques scandaleuses de Terre\u0300bre",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782910476113,
+    "t": "Pierre Louijs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782910476298,
+    "t": "En levrette : un sonnet extrait de \"La Femme",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782910476304,
+    "t": "La masturbation entre les seins : un sonnet extrait de \"la femme",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782910476311,
+    "t": "Pleines lunes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782910476328,
+    "t": "Lingerie e\u0301rotique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782910476342,
+    "t": "Soixante-neuf : 69",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782910476359,
+    "t": "L'enfer des amateurs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782910476403,
+    "t": "L'automobile et l'e\u0301rotisme",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782910478001,
+    "t": "\" ... Les Experts judiciaires et les tribunaux de commerce. Les proce\u0301dures collectives ...\"",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782910972028,
+    "t": "Un ange passe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782910972752,
+    "t": "La de\u0301liverance et l'exorcisme : actes du Colloque de l'International Association for Deliverance",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782910973070,
+    "t": "La tre\u0300s merveilleuse et insolente vie de Pulcinella a\u0300 Venise",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782910975036,
+    "t": "Le conflit en ex-Yougoslavie et les grands puissances : le point de vue",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782910975043,
+    "t": "Grande criminalite\u0301 organise\u0301e : dessous et enjeux : le point de vue",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782910975074,
+    "t": "La France, la dissuasion et l'Europe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782910975081,
+    "t": "L'Inde",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782910975159,
+    "t": "Les Balkans : deux ans apres les accords de Dayton",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782910979027,
+    "t": "Pe\u0302cheur d'e\u0301toiles",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782911470059,
+    "t": "Impact des chantiers de construction sur l'emploi : Colloque europe\u0301en de Chinon, de\u0301cembre 1995 : les actes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782911474088,
+    "t": "Le be\u0301be\u0301 et sa famille",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782911474392,
+    "t": "La folie familiale",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782911477010,
+    "t": "L'enseignement social de l'Eglise : 50 textes choisis = Ny fampianaran' ny fiangonana momba ny fiarahamonina : lahatsoratra voafantina 50",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782911477430,
+    "t": "Zon'ny ankizy : [Fifanekena iraisam-pirenena sy Dina afrikana] = Droits de l'enfant : [convention universelle et protocole africain]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782911977053,
+    "t": "Re\u0301pertoire des services spe\u0301cialise\u0301s en Rho\u0302ne-Alpes : alcool, tabac, drogues",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782912471024,
+    "t": "Poules",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782912473028,
+    "t": "Robert Guinan : dessins 1988-1998 : catalogue de l'oeuvre grave\u0301 et lithographie\u0301 1961-1998 : exposition du 25 juin au 14 juillet 1998, Centre culturel de l'Arsenal, Maubeuge",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782912473035,
+    "t": "Jacques Hartmann : Dessins, peintures 1983-1998 ; Exposition du 17 septembre au 4 octobre 1998",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782912473042,
+    "t": "Be\u0301lisaire Fauconnier : dessins 1964-1999 : catalogue de l'oeuvre grave\u0301 1983-1998 : exposition du 6 au 23 mai 1999, centre culturel de l'Arsenal, Maubeuge",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782912473134,
+    "t": "Jan Peter Thorbecke : das graphische Werk, 1969-2002 = l'oeuvre grave\u0301, 1969-2002 : catalogue raisonne\u0301 : [Ausstellung], Bruxelles, Galerie Claude Van Loock, 11. 10-21. 11. 2002, Maubeuge, Centre culturel de l'Arsenal, 22. 11-8. 12. 2002, Darmstadt, Galerie Netuschil, 2. 2-9. 3. 2003 [et autres]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782912473134,
+    "t": "Jan Peter Thorbecke / [Hauptbd.]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782912473165,
+    "t": "Jan Peter Thorbecke / Suppl",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782912476340,
+    "t": "De Gaulle a\u0300 Londres",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782912476418,
+    "t": "Aspects ve\u0301ritables de la re\u0301bellion alge\u0301rienne",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782912476586,
+    "t": "Si on faisait l'enfer",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782912476937,
+    "t": "La spiritualite de la Rose-Croix",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782912477156,
+    "t": "Deutsch ganz klar!",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782912975041,
+    "t": "Amoureux d'elles : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782912975065,
+    "t": "Une 2CV c\u0327a branche e\u0301norme\u0301ment : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782912975324,
+    "t": "Carnet de nuit : recueil illustre\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782912975898,
+    "t": "D'encre et de lumie\u0300re = De luz y de tinta",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782913471498,
+    "t": "Origine des noms de villes et villages de la Corre\u0300ze",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782913471634,
+    "t": "Elles e\u0301taient les filles de la Rochelle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782913471726,
+    "t": "Le petit traite\u0301 du Charentais ... et de la cagouille",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782913473607,
+    "t": "Le trombinoscope 2009-2010 : Union europ\u00e9enne",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782913477285,
+    "t": "Guidiplo France-Chili : le guide officiel diplomatique, e\u0301conomique et culturel",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782913479012,
+    "t": "L'arbitrage en Chine",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782913977464,
+    "t": "Les fabriques d'auteur",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782913978003,
+    "t": "Le groupe Me\u0301moires : Hastaire, Alain Kleinmann, Yuri Kuper, Martin Vaughn-James, Wang Yan Cheng",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782914472050,
+    "t": "Manuel de counseling pour les antennistes : accompagner le maintien et le retour au travail : cancer & travail, agir ensemble",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782914472067,
+    "t": "Cancer et travail : manuel d'e\u0301coute et d'accompagnement pour les entreprises",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782914473071,
+    "t": "La the\u0301orie et la pratique du jardinage : ou, L'on traite\u0301 a fond des beaux jardins appelle\u0301s commune\u0301ment les jardins de plaisance et de proprete\u0301 : avec les pratiques de ge\u0301ome\u0301trie ne\u0301cessaires pour tracer sur le terrein toutes fortes de figures : et un traite\u0301 d'hydraulique convenable aux jardins",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782914474474,
+    "t": "Arre\u0302te de faire l'a\u0302ne : Souvenirs d'un petit garc\u0327on",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782914475389,
+    "t": "Trombinoscope des e\u0301ve\u0302ques. Edition 2002",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782914475525,
+    "t": "Ma pierre qui parle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782914970211,
+    "t": "La jeunesse e\u0301ternelle de la conscience",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782914970426,
+    "t": "L'e\u0301ducation martiale consciente",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782914970501,
+    "t": "La Sadhana martiale!",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782914970761,
+    "t": "Kaya, the warrior's bodyguard!",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782914970877,
+    "t": "Le vortex martial!",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782914971003,
+    "t": "Lourdes : un peuple de toutes les nations",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782914971300,
+    "t": "Le monde rural bouge, nos paroisses se renouvellent : re\u0301flexions sur l'avenir de nos communaute\u0301s chre\u0301tiennes au coeur des territoires ruraux en Hautes-Pyre\u0301ne\u0301es",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782914971416,
+    "t": "La famille : lettre pastorale",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782914978477,
+    "t": "Le chemin de la paix",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782915471021,
+    "t": "Re\u0301pertoire des bateliers de la Re\u0301gion Nord-Pas-de-Calais",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782915471120,
+    "t": "Lesdain : histoire des familles. Tome II, 1803-1892",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782915471281,
+    "t": "Table alphabe\u0301tique des mariages de Valenciennes de 1751 a\u0300 1775 : selon les microfilms 5 Mi 55 R 12, 18, 19, 20, 22, 23, 28, 31, 32, 34, 35",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782915471380,
+    "t": "Re\u0301pertoire de\u0301taille\u0301 du tabellion de Landrecies : ge\u0301ne\u0301alogie dans les actes. Tome IV, AD du Nord, J 1428-25 a\u0300 32 : 1764, 1766 a\u0300 1768, 1770 a\u0300 1773 ...",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782915471489,
+    "t": "Re\u0301pertoire des bateliers / 7",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782915471496,
+    "t": "Landrecies, an XI - 1878 : releve\u0301 des actes de mariages",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782915471533,
+    "t": "Haveluy : naissances, mariages, de\u0301ce\u0300s de 1850 a\u0300 1874",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782915471540,
+    "t": "Villers-Pol : reconstitution des familles du XVIIe au XIXe sie\u0300cle et sources diverses",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782915471557,
+    "t": "Wallers : de\u0301ce\u0300s de 1833 a\u0300 1906",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782915471564,
+    "t": "Beaurain : reconstitution des familles, 1737-1879",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782915471571,
+    "t": "Table des actes de mariage a\u0300 Saint-Amand (Nord) : 1831-1855",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782915471588,
+    "t": "Masnie\u0300res : histoire des familles / 2 XIXe sie\u0300cle: mariages, contrats de mariage du 1er vende\u0301miaire an XI (23.9.1802) a\u0300 1905",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782915471601,
+    "t": "Brillon : classement alphabe\u0301tique des naissances, mariages et de\u0301ce\u0300s : extraits des registres communaux, 1793-1902",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782915471618,
+    "t": "Releve\u0301 des actes de bapte\u0302mes, mariages et se\u0301pultures de Fressies de 1711 a\u0300 1791 : (Lacunes de 1720 a\u0300 1732) : (actes en latin de 1711 a\u0300 1718)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782915471625,
+    "t": "Saint-Amand : naissances 1831-1855",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782915471632,
+    "t": "Saint-Amand : de\u0301ce\u0300s 1831-1855",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782915473162,
+    "t": "Poe\u0301sie 2011 : florile\u0300ge du printemps des poe\u0300tes : Hommage a\u0300 Andre\u0301e Satger Jolas",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782915474015,
+    "t": "La me\u0301tamorphose. 01",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782915474022,
+    "t": "L' insecte / 2. La socie\u0301te\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782915474022,
+    "t": "La socie\u0301te\u0301. 02",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782915475425,
+    "t": "Flammes vives : anthologie poe\u0301tique. 2008. Tome 4 : poe\u0300mes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782915475920,
+    "t": "Ramdam d'amour : poe\u0300mes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782915477337,
+    "t": "Ge\u0301ne\u0301ralite\u0301 d'Alenc\u0327on. E\u0301lection d'Alenc\u0327on",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782915477382,
+    "t": "Ge\u0301ne\u0301ralite\u0301 d'Alenc\u0327on. E\u0301lection de Falaise",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782915479195,
+    "t": "Muse\u0301e de la Bresse : Domaine des Planons",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782915973952,
+    "t": "Mathe\u0301matiques pour les e\u0301conomistes : niveau L2-L3",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782915978117,
+    "t": "B-17G : re\u0301cit",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782915978209,
+    "t": "Vincent Feuge\u0300re des Forts, Pierre et Gilles : exposition pre\u0301sente\u0301e a\u0300 Paris au Muse\u0301e d'Orsay du 20 fe\u0301vrier au 20 mai 2007",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782915978346,
+    "t": "#x98;Un#x9C; embarras de pens\u00e9e r\u00e9cits",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782916470283,
+    "t": "Il n'y a d'honne\u0302te que le bonheur",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782916471020,
+    "t": "Repenser ensemble la maladie d'Alzheimer",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782916472645,
+    "t": "Les larmes d'or",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782916472744,
+    "t": "Takou Bahon : les requins en veulent toujours aux hommes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782916472997,
+    "t": "E\u0301ducation chre\u0301tienne a\u0300 l'e\u0301cole : 6e\u0300me",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782916473031,
+    "t": "Campagnes de Prusse et de Pologne (1806-1807) / 4 Campagne de Pologne : novembre - de\u0301cembre 1806 - janvier 1807 (Pultusk et Golymin) ; t. 1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782916473048,
+    "t": "Campagnes de Prusse et de Pologne (1806-1807) / 5 Campagne de Pologne : novembre - de\u0301cembre 1806 - janvier 1807 (Pultusk et Golymin) ; t. 2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782916475073,
+    "t": "Ste\u0301phanie Nava : the Seeds of Victory insure the Fruits of Peace",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782916972008,
+    "t": "Alpes-Grenoble : initie\u0301s",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782916972015,
+    "t": "Alpes-Grenoble : experts",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782916972251,
+    "t": "Escalades a\u0300 Bavedda",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782916972312,
+    "t": "Les chemins du soleil. : Sisteron, Nice : grande traverse\u0301e des pre\u0301alpes. 03",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782916974682,
+    "t": "Feuilles d'automne",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782916974699,
+    "t": "Soif de mots. Hors se\u0301rie 33",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782916976051,
+    "t": "Sinagots : une communaute\u0301 de pe\u0302cheurs en Morbihan",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782916977003,
+    "t": "L'art des couleurs a\u0300 travers les inte\u0301rieurs chinois",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782916977126,
+    "t": "Christine & michel pe\u0301na [sic] : pour une troisie\u0300me nature : for a third nature",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782917970065,
+    "t": "Toits du monde : architecture.",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782917973479,
+    "t": "La croix : sacrifice, salut et gue\u0301rison",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782917975039,
+    "t": "Lettre aux prisonniers du monde entier",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782917976302,
+    "t": "Le coeur des arbres",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782917977163,
+    "t": "La grande guerre Cazaubon - Barbotan : te\u0301moignages de poilus",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782918472278,
+    "t": "Ve\u0301rite\u0301s bibliques pour matie\u0300res scolaires. Vol. 2, Langage & franc\u0327ais...",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782918475163,
+    "t": "Bulles et engagement : planches re\u0301alise\u0301es dans le cadre d'un projet de sensibilite\u0301 a\u0300 la lecture par le biais de la bande dessine\u0301e : Creil, mars-mai 2014",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782918475187,
+    "t": "Humour en bulles : les ateliers de Greg Blondin : planches re\u0301alise\u0301es dans le cadre d'un projet de sensibilisation a\u0300 la lecture par le biais de la bande dessine\u0301e, Creil, mars-mai 2015",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782918475194,
+    "t": "Slame ton bonheur! : ateliers : Creil, avril-juin 2015",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782918978169,
+    "t": "Du de\u0301barquement au traite\u0301 de Rome de 1944 a\u0300 1957",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782918978343,
+    "t": "Notre sie\u0300cle en musique et en images 1980-1990",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782919473014,
+    "t": "Histoire de l'e\u0301glise Sainte-Marie de Mimizan : travail collectif",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782919973088,
+    "t": "Lisette Model",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782919974016,
+    "t": "Erziehungshilfe im Umbruch sozialpa\u0308dagogische Hilfsangebote in einer sich wandelnden Gesellschaft",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782919974252,
+    "t": "Wege der Qualita\u0308tssicherung in der offenen Jugendarbeit Dokumentation der gleichnamigen Fachtagung in Walferdingen am 8. November 2002",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782919975723,
+    "t": "Een Plaimchen aus maim Diwi : Re\u0301imejer Spichten",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782919976119,
+    "t": "Me\u0301i we\u0301i honnert pa\u0308relen : fir de fe\u0308nnefasiwenzegste Gebuurtsdag vum Pir Kremer",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782919976133,
+    "t": "Rondere\u0308m d'famill = un livre autour de la famille : dessins de nos enfants, textes de nos auteurs = Ein Lese- und ein Schaubuch : von Kindern und Erwachsenen fu\u0308r Erwachene und fu\u0308r Kinder",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782919976393,
+    "t": "Epternacum : 697/8-1997/8 in Les Cahiers Luxembourgeois",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782919976867,
+    "t": "He\u0301le\u0300ne et les Max : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782919977048,
+    "t": "Bertrand Ney, sculptures et dessins, exposition du 17 mars au 16 avril 1994",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782919977055,
+    "t": "Dominique Thiolat : 1990-1994 : [exposition, Luxembourg, Galerie La Cite\u0301, 1995]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782919978007,
+    "t": "Die Luxemburger in der Welt, 1775-1995 = Le tour du monde des Luxembourgeois, 1775-1995 : ein Lesebuch der luxemburger Reiseliteratur",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782919978281,
+    "t": "Peuple europe\u0301en, peuple e\u0301tranger le Luxembourg et les Roms : Muse\u0301e national de la Re\u0301sistance, Esch-sur-Alzette, 2.2.2012 - 3.6.2012 = Europa\u0308isches Volk, fremdes Volk : Luxemburg und die Roma",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782919979110,
+    "t": "Johann der Blinde, Graf von Luxemburg, K\u00f6nig der B\u00f6hmen, 1296-1346: Tagungsband der 9es Journ\u00e9es Lotharingiennes, 22.-26. Oktober 1996",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782920472006,
+    "t": "Ensemble pour la justice / [Together for justice / Native Courtworker Services]",
     "h": 1,
     "e": 0
   },
@@ -726,8 +5022,68 @@
     "e": 0
   },
   {
+    "i": 9782920475120,
+    "t": "Mariages de Bienville (comte\u0301 de Le\u0301vis), 1896-1989",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782920476011,
+    "t": "Me\u0301tal taureau",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782920477056,
+    "t": "\"Choix d'artistes\"",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782920477117,
+    "t": "Pluralit\u00e9",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782920478022,
+    "t": "Recensements annote\u0301s de la Nouvelle-France, 1666 & 1667",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782920970014,
+    "t": "Analyse du langage publicitaire relatif aux parfums : une analyse se\u0301miologique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782920970038,
+    "t": "Strate\u0301gie de marketing : manuel de cours",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782920972001,
+    "t": "Me\u0301canique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782920972049,
+    "t": "Cahier d'exercices 1 : physiologie inte\u0301gre\u0301e : Solutionnaire",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782920972094,
     "t": "Biologie humaine I : notes de cours",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782920972100,
+    "t": "Les Fondements de l'autoperpe\u0301tuation chez l'humain",
     "h": 1,
     "e": 0
   },
@@ -762,10 +5118,88 @@
     "e": 0
   },
   {
+    "i": 9782920972230,
+    "t": "Pour apprendre Premier choix : pour IBM-PC et compatibles",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782920972254,
     "t": "Guide d'utilisation des logiciels P-CAD, version 4.02, tome 1",
     "h": 1,
     "e": 0
+  },
+  {
+    "i": 9782920972308,
+    "t": "L'e\u0302tre humain et son milieu : PHI 201-83",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782920972391,
+    "t": "Les syste\u0300mes de contro\u0302le chez l'humain",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782920972483,
+    "t": "Chimie organique 2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782920972551,
+    "t": "Biologie 301 : notes de cours",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782920972568,
+    "t": "Commerce international",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782920972582,
+    "t": "Philosophie : ensemble 001",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782920972759,
+    "t": "Informatique : cours 420-231 : fonction interne des ordinateurs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782920972827,
+    "t": "Placement et fiscalite\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782920972896,
+    "t": "Me\u0301canique : physique 101, sante\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782920972964,
+    "t": "Initiation a\u0300 la gestion financie\u0300re de l'entreprise : notes de cours",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782920972971,
+    "t": "Physique d'appoint : cahier de laboratoire, De\u0301partement de physique, Ce\u0301gep de Saint-Je\u0301ro\u0302me",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782920975002,
+    "t": "L'intelligence artificielle au service des organisations : actes du premier Colloque que\u0301be\u0301cois en informatique cognitive des organisations, 1, 2, 3 juin 1987, Universite\u0301 du Que\u0301bec a\u0300 Montre\u0301al",
+    "h": 1,
+    "e": 1
   },
   {
     "i": 9782920976009,
@@ -792,8 +5226,254 @@
     "e": 0
   },
   {
+    "i": 9782921470032,
+    "t": "Programme de de\u0301pistage nutritionnel pour les personnes a\u0302ge\u0301es en perte d'autonomie vivant dans la communaute\u0301 : utilisation du de\u0301pistage nutritionnel des ai\u0302ne\u0301s = Nutritional screening program for functionally impaired elderly : using the ENS : Elderly nutrition screening",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921470056,
+    "t": "TEMPA : manuel d'administration",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782921470087,
     "t": "TEMPA, upper extremity performance evaluation test for the elderly (Test E\u0301valuant la performance des Membres supe\u0301rieurs des Personnes A\u0302ge\u0301es)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921470308,
+    "t": "Programmation spe\u0301cifique destine\u0301e aux re\u0301sidents de soins de longue dure\u0301e ayant besoin d'exprimer leur autonomie et d'e\u0302tre reconnu dans leur compe\u0301tence d'agir. Impact sur le personnel : rapport de recherche pre\u0301sente\u0301 au Comite\u0301 des soins de longue dure\u0301e de l'Institut universitaire de ge\u0301riatrie de Sherbrooke",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921471008,
+    "t": "Your child : the parents' magazine : here I am",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921471152,
+    "t": "Votre enfant : le magazine des parents",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921471282,
+    "t": "Grandir : le magazine des parents",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921473040,
+    "t": "Le petit galacos : pas de base illustre\u0301s pour devenir l'ABC de la danse populaire en lignes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921473125,
+    "t": "Corps & graphe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921474160,
+    "t": "Notions de base en WordPerfect : version MS-DOS 5.1 franc\u0327aise",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921474269,
+    "t": "Notions de base en Excel 5.0 fr.",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921476003,
+    "t": "L'Individu, l'e\u0301quipe et le changement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921476010,
+    "t": "L'Individu et l'e\u0301quipe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921477048,
+    "t": "E\u0301valuation du programme d'intervention en groupe La Vie est difficile : activite\u0301 de pre\u0301vention en sante\u0301 mentale : sessions de janvier 91 a\u0300 avril 94",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921478021,
+    "t": "Coba 4.2R. Gestion des documents - superviseurs : manuel d'accompagnement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921478038,
+    "t": "Coba 4.2R. Gestion des documents - utilisateurs : manuel d'accompagnement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921478045,
+    "t": "PageMaker 4.0, version IBM : de\u0301butant",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921478052,
+    "t": "Paradox 3.5 de base : manuel d'accompagnement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921478083,
+    "t": "MICROSOFT Word 1.1 pour Windows avance\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921478090,
+    "t": "Introduction a\u0300 la micro-informatique sous Windows : manuel d'accompagnement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921478106,
+    "t": "Entretien et diagnostic de re\u0301seaux : manuel d'accompagnement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921478113,
+    "t": "Entretien et diagnostic du micro-ordinateur : manuel d'accompagnement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921478168,
+    "t": "Installation et expansion de re\u0301seaux Novell, version 386, v3.11 : manuel d'accompagnement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921478199,
+    "t": "Paradox 3.5 : cahier d'exercices de niveau interme\u0301diaire : manuel d'accompagnement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921478229,
+    "t": "PageMaker 4.0, version Macintosh : de\u0301butant : manuel d'accompagnement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921478243,
+    "t": "Windows 3.0 : avance\u0301 : manuel d'accompagnement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921478267,
+    "t": "Paradox 3.5 : exercices de base : manuel d'accompagnement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921478281,
+    "t": "Paradox 3.5 interme\u0301diaire : manuel d'accompagnement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921478298,
+    "t": "Excel 3.0 : les graphiques : manuel d'accompagnement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921478304,
+    "t": "Lotus 2.3 : de\u0301butant : manuel d'accompagnement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921478311,
+    "t": "Lotus 1-2-3, version 3.1, interme\u0301diaire : manuel d'accompagnement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921478373,
+    "t": "Excel 4.0 : transition 3.0 a\u0300 4.0 : manuel d'accompagnement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921478380,
+    "t": "DOS 5.0 : de\u0301butant : manuel d'accompagnement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921478397,
+    "t": "Excel 3.0 et 4.0 : base de donne\u0301es : manuel d'accompagnement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921478403,
+    "t": "WordPerfect 5.1 pour Windows : base : manuel d'accompagnement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921478410,
+    "t": "Lotus WYSIWYG : manuel d'accompagnement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921478434,
+    "t": "Windows 3.1 : de\u0301butant : manuel d'accompagnement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921478441,
+    "t": "WordPerfect 5.1 pour Windows : interme\u0301diaire : manuel d'accompagnement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921478564,
+    "t": "Windows 3.1 : utilisateur : manuel d'accompagnement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921478571,
+    "t": "Excel 4.0, interme\u0301diaire : manuel d'accompagnement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921478687,
+    "t": "FoxPro 2.0, de\u0301butant : manuel d'accompagnement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782921972031,
+    "t": "Esprits de lumie\u0300re : connaissance des esprits",
     "h": 1,
     "e": 0
   },
@@ -804,8 +5484,662 @@
     "e": 0
   },
   {
+    "i": 9782921976008,
+    "t": "Colloque sur le financement de la recherche : e\u0301volution et impact sur la formation de la rele\u0300ve et le financement e\u0301tudiant : compte rendu",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782922474091,
+    "t": "Avant que j'oublie... courtepointe de souvenirs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782922477030,
+    "t": "Premier encan d'oeuvres de la Fondation du Muse\u0301e d'art des Laurentides",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782922478402,
+    "t": "CLE\u0301 : compre\u0301hension en lecture et en e\u0301coute",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782922478419,
+    "t": "CLE\u0301 : compre\u0301hension en lecture et en e\u0301coute. Corrige\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782922478426,
+    "t": "PIF! : plan individuel de formation -- pour choisir le me\u0301tier ou la profession qui vous convient",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782922975000,
+    "t": "Victim-centered intervention. Training guide for police officers. Trainer's guide",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782922978049,
+    "t": "The Rosary : according to the apostolic letter Rosarium Virginis Mariae of the Supreme Pontiff John Paul II to the bishops, clergy and faithful on the most holy Rosary",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782922979015,
+    "t": "Poussie\u0300re : poe\u0301sie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782923479231,
+    "t": "Dictomanie : mate\u0301riel didactique reproductible : niveau pre\u0301scolaire-[primaire]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782923479248,
+    "t": "Dictomanie : mate\u0301riel didactique reproductible : niveau secondaire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782923479255,
+    "t": "Dictomania : teaching aids : reproducible teaching aids to learn French/English language : elementary",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782923479262,
+    "t": "Dictomania : teaching aids : mate\u0301riel didactique reproductible to learn French/English language : secondary",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782923479330,
+    "t": "Dictomania : reproducible : mate\u0301riel didactique reproductible for beginner",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782923479415,
+    "t": "A\u0300 de\u0301couvrir : le plaisir de re\u0301ussir. Cahier de l'e\u0301le\u0300ve",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782923479415,
+    "t": "Le plaisir de re\u0301ussir! : mon 1er livre jeux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782923479422,
+    "t": "A\u0300 de\u0301couvrir : amusant comme un jeu, savant comme un livre. Cahier de l'e\u0301le\u0300ve, primaire 3-4",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782923479439,
+    "t": "A\u0300 de\u0301couvrir : le plaisir de re\u0301ussir. Cahier de l'e\u0301le\u0300ve, primaire 5-6",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782923479682,
+    "t": "Dictomanie : amusant comme un jeu, savant comme un livre! Mate\u0301riel reproductible",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782923479880,
+    "t": "Dictomanie : mate\u0301riel reproductible : pour tous",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782923976518,
+    "t": "Rachael Pease : metamorphosis : exposition 8 octobre au 14 novembre 2015 = exhibition october 8 to november 14, 2015",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782930471457,
+    "t": "Effective ventilation in high performance buildings : proceedings",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782940476091,
+    "t": "Kiss & sell writing for advertising : redeisgned & rekissed",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782950473806,
+    "t": "Eygurande : son pays",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782950474322,
     "t": "Tre\u0301sors des muse\u0301es de Canton : exposition organise\u0301e par Chinagora : centre d'e\u0301changes e\u0301conomiques et technologiques France-Chine",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782950474704,
+    "t": "Bois-d'Amont : histoire et me\u0301moire d'un village du Haut-Jura",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782950477606,
+    "t": "Dun album de voyage : Auguste Bartholdi en Egypte : (1855-1856) : exposition Muse\u0301e Bartholdi, Colmar, (15 juin - 15 septembre 1990)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782950477620,
+    "t": "Auguste Bartholdi : desseins...dessins, esquisses pre\u0301paratoires d'un statutaire : 15 septembre - 31 de\u0301cembre 1995, Muse\u0301e Bartholdi",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782950970015,
+    "t": "D'un bout de la rue a\u0300 l'autre-- : Tre\u0300s-Cloi\u0302tres : me\u0301moire grenobloise, paroles d'habitants : Rue Tre\u0300s-Cloi\u0302tres, Rue de l'Alma, Place E. Arnaud, Rue Servan, Rue Minimes, Rue Vieux Temple, Rue Hauquelin",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782950970503,
+    "t": "ISMICK'95 : 3rd international symposium on the management of industrial and corporate knowledge, October 23-24, 1995, Compie\u0300gne, france : proceedings",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782950971708,
+    "t": "Grigny martyrise\u0301e : 1939-1945 : Chronique d'une petite ville du Rho\u0302ne",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782950971920,
+    "t": "Channel Islands : the diary of three friends in a boat",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782950972309,
+    "t": "Me\u0301moires de cartouchiers : travailler dans une cartoucherie nationale a\u0300 Bourg-le\u0300s-Valence",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782950972804,
+    "t": "Aux rames citoyens",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782950973412,
+    "t": "Me\u0301moire d'avenir : exposition, Centre Historique Minier de Lewarde, 27 septembre - 11 novembre 1996",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782950973511,
+    "t": "Vous aurez une douche",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782950974754,
+    "t": "Essai de l'histoire d'Ascq, et des environs : Annappes, Anstaing, Baisieux, Che\u0301reng, Hem, Forest, Flers, Gruson, Sainghin en Melantois, et Tressin ?",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782950975119,
+    "t": "Gueugnon et son canton",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782950977564,
+    "t": "L' eau des villes & l'eau des champs : le proble\u0300me de l'eau en Provence : actes des 10e\u0300mes Journe\u0301es d'E\u0301tudes de l'Espace Provenc\u0327al, Mouans-Sartoux, 8 & 9 mai 1999",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782951472105,
+    "t": "L'homme voile\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782951472211,
+    "t": "Itine\u0301raires naturalistes en Loze\u0300re : de\u0301couvrir et comprendre la nature",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782951473218,
+    "t": "Agde, plan-guide : la cite\u0301, le Cap, le Grau, la Tamarissie\u0300re",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782951473805,
+    "t": "Guide des phytotechnologies : utilisation des plantes dans la de\u0301pollution et la re\u0301habilitation des sites contamine\u0301s par les me\u0301taux lourds",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782951474413,
+    "t": "Les cahiers des amis de Pierre Benoit. XI, 2000",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782951479906,
+    "t": "Les Poe\u0301trous",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782951479951,
+    "t": "Paul-Armand Gette : De la diversite\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782951971325,
+    "t": "Nouvelles",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782951973947,
+    "t": "Les cons positifs : 1975-1977 : roman autobiographique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782951975606,
+    "t": "Des mots qui s'aiment",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782951976849,
+    "t": "Rousselet : peintures",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782951977310,
+    "t": "Le guide presse news 2004",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782951977327,
+    "t": "Le guide de la presse franc\u0327aise 2008",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782951979345,
+    "t": "Festival des architectures vives a\u0300 Montpellier : [in [side] out]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782951979406,
+    "t": "Les ronces qui font saigner : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782951979512,
+    "t": "Bernhard Ru\u0308diger : Locus desertus : exposition, Cha\u0302teau des Adhe\u0301mar - centre d'art contemporain, Monte\u0301limar, du 24 juin au 1er octobre 2006",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782951979635,
+    "t": "Saou\u0302 chante Mozart : Mozart & variations, juin-juillet 2006 : [programme]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782952470421,
+    "t": "Le moulin de Neufgrange : histoire d'un moulin et de ses exploitants",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782952472005,
+    "t": "40 ans de rock a\u0300 Brest",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782952473460,
+    "t": "Aude Franjou, Fibrescences : [exposition] du 1er juin au 16 septembre 2007 au Muse\u0301e du textile de Cholet ...",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782952474702,
+    "t": "Modeling and simulation dictionary : English-French-Turkish = Dictionnaire de mode\u0301lisation et simulation : franc\u0327ais-anglais-turc = Modelleme ve benzetim so\u0308zlu\u0308gu\u0308 : tu\u0308rkc\u0327e-Ingilizee-fransizca",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782952475822,
+    "t": "Ame\u0301loriez votre dogme islamique : tire du coran et de la sunna authentique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782952475846,
+    "t": "La vie du Prophe\u0300te bien-aime\u0301 Mohammed et la naissance de l'Islam",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782952475853,
+    "t": "Les signes pre\u0301curseurs de la fin du monde : Au nom d'Allah, le tout mise\u0301cordieux, le tre\u0300s mise\u0301cordieux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782952971218,
+    "t": "Les mailles de la rancune",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782952975124,
+    "t": "Une vie extraordinaire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782952975780,
+    "t": "Pierre Tal Coat : nous sommes visite\u0301s par le monde : [exposition, Paris], Galerie Berthet-Aittouare\u0300s, [5 fe\u0301vrier-12 mars 2016]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782953474442,
+    "t": "Viajes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782953477146,
+    "t": "Les pays pas sages de Denis Leenhardt : 83 dessins a\u0300 l'encre",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782953478235,
+    "t": "Comptines des mots Mardi gras",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782953972511,
+    "t": "Morderir ne veut pas se marier!",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782953975710,
+    "t": "111 billets d'humeur jolie : d'octobre 2008 a\u0300 mai 2010, dont 10 ine\u0301dits!",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782954471389,
+    "t": "Quand papy faisait du ve\u0301lo : petites histoires des anciens coureurs cyclistes alsaciens. Tome 7",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782954476223,
+    "t": "Une discussion rondement mene\u0301e",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782954476476,
+    "t": "Gil Heitor Cortesa\u0303o : second nature",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782954478425,
+    "t": "Chante l'i\u0302le sacre\u0301e : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782954479606,
+    "t": "50 ans & 500 voies : d'escalade au Verdon",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782954970813,
+    "t": "Il faut que c\u0327a change! : le parcours d'un homme de convictions, les exigences d'un homme libre",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782954971650,
+    "t": "Isis et la perle de feutrine : aventure et enque\u0302te de la de\u0301tective Rose-Marie Cassandre",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782954973425,
+    "t": "Carnet de voyage en Inde : 6 mois d'itine\u0301rance a\u0300 ve\u0301lo",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782954974415,
+    "t": "Lieux communs et aphorismes. Tome II",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782954977829,
+    "t": "Dis maman, pourquoi la guerre?",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782954978918,
+    "t": "Le paysan scarifie\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782954979502,
+    "t": "Bahamas : best addresses",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782955471005,
+    "t": "La pomme et l'oignon",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782955471302,
+    "t": "Pascal The\u0301ault : je suis ne\u0301 a\u0300 Malherbe : l'amour du foot",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782955474006,
+    "t": "Les contes de la crevette a\u0300 plumes. Tome 1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782955474204,
+    "t": "Des e\u0301toiles rouges et blanches : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782955475003,
+    "t": "Voyager a\u0300 moto : guide pratique d'Aldo Fusco",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782955476307,
+    "t": "La force des mots : re\u0301cits poe\u0301tiques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782955478400,
+    "t": "Tout est parfait!",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782955479407,
+    "t": "Le marchand d'ombre",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782955977453,
+    "t": "Phrases",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782956478270,
+    "t": "La spirale du de\u0301sir",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782956478294,
+    "t": "Les anges de l'amour",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782956975007,
+    "t": "Dessins nomades II",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782957977000,
+    "t": "Papatya et mademoiselle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782959973505,
+    "t": "La douane luxembourgeoise - hier et aujourd'hui",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782959973802,
+    "t": "Le nouveau droit du bail : [commentaire de la loi du 21 septembre 2006 sur le bail d'habition et les disposions du Code civil re\u0301gissant le bail a\u0300 loyer]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782959974076,
+    "t": "Jugendliche Risikolagen im U\u0308bergang zwischen Schule und Beruf",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782959974205,
+    "t": "Reajustement de l'enseignement des langues : Plan d'action 2007-2009 ; contribuer au changement durable du syste\u0300me e\u0301ducatif par la mise en \u0153uvre d'une politique linguistique e\u0301ducative",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782959974243,
+    "t": "Nationaler Bericht zur Umsetzung und Wirkung des gemeinschaftlichen Aktionsprogramms JUGEND in Luxemburg",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782959974915,
+    "t": "Visites d'atelier Vol. 03. / Jhemp Bastin ..",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782959974939,
+    "t": "Visites d'atelier Vol. 04. / Julius Baltazar ..",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782959976803,
+    "t": "125 joer ASTA : Administration des Services Techniques de l'Agriculture",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782959977114,
+    "t": "De Kichechef Vol. 1. Tout l'art de la cuisine : recettes de cuisine de l'e\u0301mission te\u0301le\u0301vise\u0301e \"De Kichechef\" de 1994 a\u0300 1997 / [RTL]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782959977121,
+    "t": "De Kichechef Vol. 2. Tout l'art de la cuisine : [recettes de l'e\u0301mission te\u0301le\u0301vise\u0301e \"De Kichechef\" de 1997 a\u0300 1999] / [RTL. Trad.: Liette Derrmann-Loutsch]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782959977633,
+    "t": "Intellectual property : good practice guide : 10 pragmatic recommendations for a better integration of IP in your business",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782959979224,
+    "t": "Jugendforschung im Dialog Beitra\u0308ge der INSIDE-Vortragsreihe 2007 zur Jugendforschung",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782959979262,
+    "t": "Leseverstehen fo\u0308rdern - Lesekompetenz erho\u0308hen Verbesserung der Unterrichtspraxis im 2. Schuljahr durch wissenschaftlich fundierte Lehrerfortbildung und institutionelle Vernetzung",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782959979682,
+    "t": "Unterwegs Mobilita\u0308t im besten Alter",
     "h": 1,
     "e": 0
   },
@@ -822,14 +6156,1088 @@
     "e": 0
   },
   {
+    "i": 9782980471353,
+    "t": "Xe symposium international de victimologie : cahier des re\u0301sume\u0301s = X International symposium on victimology : abstract book",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782980472619,
+    "t": "Cre\u0301ativite\u0301 1 : un jeu d'enfant!",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782980474804,
+    "t": "Synthe\u0300se psycho-cosmique : la physique de l'a\u0302me-esprit : t. 1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782980475108,
+    "t": "2e Forum que\u0301be\u0301cois sur le compostage : textes des confe\u0301rences et ple\u0301nie\u0300re, 26 et 27 avril 1995, Ho\u0302tel Des Gouverneurs, Sainte-Foy",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782980475917,
     "t": "Long live a free Quebec : making Quebec the Switzerland of North America = Vive le Que\u0301bec libre",
     "h": 1,
     "e": 0
   },
   {
+    "i": 9782980477515,
+    "t": "L'aidante et l'aidant naturel et la violence familiale : perspectives en milieu de travail : se\u0301minaire. Manuel du participant",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782980478789,
+    "t": "A cook book : a collection of favorite recipes and stories",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782980971600,
+    "t": "La nature humains en 36 e\u0301tats 1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782980973185,
+    "t": "Enjeux du m\u00e9dicament au Qu\u00e9bec - \u00e9dition 2013 : module 5 de l'audit de comp\u00e9tence en assurance collective : le guide \u00e9volutif du conseiller en assurance collective et du gestionnaire en milieu de travail",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782980974410,
+    "t": "On me recommande de me se\u0301parer de mon animal, que faire? Guide de l'intervention e\u0301ducative",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782980976414,
+    "t": "Vision du passe\u0301 entrevues re\u0301alise\u0301es dans le cadre du centenaire de Nominingue, 1883-1983",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782980977121,
+    "t": "L'eau, cette substance miraculeuse : outil de vulgarisation scientifique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782980977145,
+    "t": "La fibre optique : l'autoroute de la lumie\u0300re : outil de vulgarisation scientifique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782980977336,
+    "t": "Histoires de fins",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782980978807,
+    "t": "Les banques de donne\u0301es nume\u0301rise\u0301es dans la recherche en sciences humaines : enjeux e\u0301thiques, juridiques et patrimoniaux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782980979033,
+    "t": "Des services-conseils en agroenvironnement accessibles a\u0300 tous pour le de\u0301veloppement d'une agriculture durable : me\u0301moire de\u0301pose\u0301 par l'E\u0301quipe de coordination et les repre\u0301sentants des pre\u0301sidents des clubs-conseils en agroenvironnement pre\u0301sente\u0301 a\u0300 la Commission sur l'avenir de l'agriculture et de l'agroalimentaire que\u0301be\u0301cois",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782981475503,
+    "t": "No gender",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782981475510,
+    "t": "No gender",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782981475626,
+    "t": "Dans quels environnements grandissent les tout-petits que\u0301be\u0301cois? : portrait 2016",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782981975300,
+    "t": "Belugo le b\u00e9luga \u00e0 la recherche de sa voix",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782981976604,
+    "t": "Un matin : contes et po\u00e8mes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783000474910,
+    "t": "S\u00fcryaniler ve seyfo 1. Kitap Hayatla \u00f6l\u00fcm aras\u0131nda",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783000475870,
+    "t": "Escuela de pedal : m\u00e9todo te\u00f3rico-pr\u00e1ctico sobre el uso del pedal de resonancia : orientado a las Ense\u00f1anzas Profesionales de Piano",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783000476938,
+    "t": "Wilma - Schwarzwaldwurm : Baseldytsch",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783000476938,
+    "t": "Wilma - Schwarzwaldwurm : Freiburger Bobbeles Deutsch",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783000476952,
+    "t": "Elke Weickelt, Minna Ennulat : Wege aus einer scho\u0308nen Welt : Museum Haus Cajeth, 5. Dezember 2014-7. Ma\u0308rz 2015",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783000477010,
+    "t": "Rentenversicherung in Zeitreihen 20.2014",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783000479502,
+    "t": "Im Umfeld zweier Weltkriege : Lebensspuren der Familie von Riekhoff / Bresinsky",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783030470050,
+    "t": "Comparative Atlas of Endoscopic Ear Surgery",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783030471248,
+    "t": "Recent Developments and the New Direction in Soft-Computing Foundations and Applications",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783030472405,
+    "t": "Open Source Systems",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783030472542,
+    "t": "Ethnobotany of the Mountain Regions of Brazil",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783030473228,
+    "t": "The Fascination with Death in Contemporary French Thought A Longing for the Abyss",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783030473648,
+    "t": "The Internet of Things Entrepreneurial Ecosystems : Challenges and Opportunities",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783030474324,
+    "t": "Pluralistic Struggles in Gender, Sexuality and Coloniality Challenging Swedish Exceptionalism",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783030475451,
+    "t": "Paths [electronic resource] : Why is life filled with so many detours?",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783030475956,
+    "t": "Advances in Digital Marketing and eCommerce First International Conference, 2020",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783030972547,
+    "t": "Emerging Technology Trends in Internet of Things and Computing",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783030974053,
+    "t": "Contemporary Housing Struggles",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783030974978,
+    "t": "Oxygen Isotopes of Inorganic Phosphate in Environmental Samples",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783030974978,
+    "t": "Oxygen Isotopes of Inorganic Phosphate in Environmental Samples",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783030975319,
+    "t": "Secure knowledge management in the artificial intelligence era : 9th International Conference, SKM 2021, San Antonio, TX, USA, October 8-9, 2021, revised selected papers",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783037470831,
+    "t": "Comme-ci comme-c\u0327a : [the Auroville project]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783037970195,
+    "t": "<<Il>> convento di K\u00f6nigsfelden Canton Argovia",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783037970270,
+    "t": "Villa dei Cedri a Bellinzona",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783037970560,
+    "t": "Le Corbusier : formazione, progetti e costruzioni in Svizzera",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783037971802,
+    "t": "Le district de la Broye-Vully I",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783037971802,
+    "t": "Le district de la Broye-Vully I",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783037972816,
+    "t": "Die Kunstdenkm\u00e4ler des Kantons Urin3 Sch\u00e4chental und unteres Reusstal, Sch\u00e4chental und unteres Reusstal : die Hoheitszeichen des Kantons Uri",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783037972892,
+    "t": "Die Kunstdenkm\u00e4ler des Kantons SolothurnnBand 4 Die Stadt Solothurn, Die Stadt Solothurn III, Sakralbauten",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783037972939,
+    "t": "<<Die>> Kirche Waltensburg/Vuorz und ihre Wandmalereien",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783037973073,
+    "t": "Festungen in der Schweiz = Fortifications de Suisse",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783038971832,
+    "t": "Advances in SAR: Sensors, Methodologies, and Applications",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783038972631,
+    "t": "Emerging Role of Intelligence in the World of the Future",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783038972716,
+    "t": "Advances in Quantitative Remote Sensing in China a\u0302\u20ac\" In Memory of Prof. Xiaowen Li: Volume 1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783038972730,
+    "t": "Sponge Cities: Emerging Approaches, Challenges and Opportunities",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783038973010,
+    "t": "XoveTIC 2018",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783038974031,
+    "t": "Engineering Dielectric Liquid Applications",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783038974840,
+    "t": "Materials and Life Science Experimental Facility (MLF) at the Japan Proton Accelerator Research Complex (J-PARC)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783038974888,
+    "t": "Selected Papers from CUBANNI 2017--\"The Fourth International Workshop of Neuroimmunology\"",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783038975380,
+    "t": "Calcium Signaling in Human Health and Diseases",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783038975533,
+    "t": "Environmentally Sustainable Livestock Production",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783038975533,
+    "t": "Environmentally Sustainable Livestock Production",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783038976257,
+    "t": "Recent Advances in Water and Wastewater Treatment with Emphasis in Membrane Treatment Operations",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783038976271,
+    "t": "Micro-Resonators: The Quest for Superior Performance",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783038976677,
+    "t": "Advanced Numerical Methods in Applied Sciences",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783038977858,
+    "t": "Structural Control of Mineral Deposits. Theory and Reality",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783038978114,
+    "t": "Contested Knowledges: Water Conflicts on Large Dams and Mega-Hydraulic Development",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783038978152,
+    "t": "Towards Sustainable Global Food Systems",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783038978435,
+    "t": "Wide Bandgap Semiconductor Based Micro/Nano Devices",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783038979494,
+    "t": "Quantum Nonlocality",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783038979593,
+    "t": "Material and Process Design for Lightweight Structures",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783038979814,
+    "t": "Bioactive Compounds from Marine-Derived Aspergillus, Penicillium, Talaromyces and Trichoderma Species",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783038979852,
+    "t": "Cadmium Sources and Toxicity",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783100478191,
+    "t": "Die Go\u0308ttinnen : die drei Romane der Herzogin von Assy in einem Band ; Diana - Minerva - Venus ; Roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783100970367,
+    "t": "Brief einer Unbekannten, Die Hochzeit von Lyon, Der Amokla\u0308ufer [Teils.]",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783100970404,
+    "t": "Gesammelte Werke : in Einzelbd. / [3]. Drei Dichter ihres Lebens. - 2. Aufl. - 1982. - 317 S",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783100970404,
+    "t": "Gesammelte Werke : in Einzelbd. / [19] Tersites",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783100970404,
+    "t": "Gesammelte Werke : in Einzelbd. / [24] Auf Reisen",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783100970404,
+    "t": "Gesammelte Werke : in Einzelbd. / [30] Emile Verhaeren",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783100970473,
+    "t": "\u2078Die\u2079 Welt von gestern",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783100970480,
+    "t": "Gesammelte Werke in Einzelba\u0308nden. Drei Meister : Balzac, Dickens, Dostojewski",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783100970503,
+    "t": "Gesammelte Werke in Einzelba\u0308nden. Drei Dichter ihres Lebens : Casanova, Stendhal, Tolstoi",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783100970640,
+    "t": "Der Amokla\u0308ufer Erz",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783100970862,
+    "t": "Clarissa : ein Romanentwurf",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783103478006,
+    "t": "Mein Leben",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783103970715,
+    "t": "<<Der>> Rote Diamant Roman",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783103971903,
+    "t": "<<Der>> Anfang von morgen Roman",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783103972146,
+    "t": "Es gibt keinen b\u00f6seren Engel als die Liebe : Roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783103972740,
+    "t": "Das passende Leben : was unsere Individualit\u00e4t ausmacht und wie wir sie leben k\u00f6nnen ; mit einem Beitrag der ZEIT-Redaktion",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783103972924,
+    "t": "95 Anschla\u0308ge Thesen fu\u0308r die Zukunft",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783103974676,
+    "t": "<<Die>> Imker Roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783110470031,
+    "t": "Deutsche Demokratische Republik",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783110470468,
+    "t": "Systems, Automation, and Control 2017",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783110470529,
+    "t": "Power Electrical Systems Extended Papers from the International Conference on Power Electrical Systems, Mahdia, Tunisia, 2015",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783110470642,
+    "t": "Society, Law, and Culture in the Middle East",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783110471588,
+    "t": "Fortunatianus redivivus Bischof Fortunatian von Aquileia und sein Evangelienkommentar",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783110472219,
+    "t": "Finance",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783110475272,
+    "t": "Thinking in translation : scripture and redemption in the thought of Franz Rosenzweig",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783110476606,
+    "t": "Treasure hidden in a field early Christian reception of the Gospel of Matthew",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783110477078,
+    "t": "Ecclesiastical history the extant fragments : with an appendix containing the fragments from dogmatic writings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783110478266,
+    "t": "Sedlacekkreativitat in der medizinischen forschung e-book",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783110478549,
+    "t": "Formen und Funktionen",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783110479102,
+    "t": "Editus auctoritate et consilio academiarum quinque Germanicarum Berolinensis, Gottingensis, Lipsiensis, Monacensis, Vindobonensis",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783110970982,
+    "t": "Managing the preservation of serial literature : an international symposium : conference held at the Library of Congress, Washington, D.C., May 22-24, 1989",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783110976410,
+    "t": "Information sources in law",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783110977332,
+    "t": "Carmina cum fragmentis",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783110977349,
+    "t": "Universita\u0308t unterm Hakenkreuz",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783111473871,
+    "t": "Pro Pergamo",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783121478705,
+    "t": "Unterrichtliche Situationen aus verschiedenen Perspektiven Beih. zum Film 332828 ; Pha\u0308nomenkombination",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783121479900,
+    "t": "Verlauf non-verbaler und verbaler Lehrer-Schu\u0308ler-Kommunikation (Beispiel Spachheilschule)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783122975203,
+    "t": "Terra. Bd. 2. [Hauptbd.]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783122975401,
+    "t": "Terra. Bd. 3. [Hauptbd.]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783122975432,
+    "t": "Terra. Bd. 3. Lehrerbd",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783122975807,
+    "t": "Terra - Erdkunde",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783125470033,
+    "t": "Fo\u0308rdern! Englisch sprechen. 7/8, [Klasse 7/8 : Basisniveau] ; mit Audio-CD",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783125470088,
+    "t": "Strategien zum Sprechen und Schreiben : Gymnasialniveau 9/10",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783125470231,
+    "t": "Learning English Begleitbuch fu\u0308r den Unterricht",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783125470422,
+    "t": "Learning English / Swift : Lehrwerk fu\u0308r Englisch als 2. Fremdsprache. 4, [4], Kontrollaufgaben",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783125471085,
+    "t": "Green line 1, Vokabellernheft / [Autorin: Joanne Popp]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783125471191,
+    "t": "Green line / Zusatzmaterial Fu\u0308r Schu\u0308ler ohne Grundschulenglisch",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783125471214,
+    "t": "Green line / [Schu\u0308lerbuch]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783125471252,
+    "t": "Green line / Workbook mit Audio-CD",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783125471283,
+    "t": "Green line / Workbook mit Audio-CD und Lernsoftware",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783125471320,
+    "t": "Green line / Bildfolien",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783125471559,
+    "t": "Green line / Workbook mit Audio-CDs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783125471719,
+    "t": "Green line 6. Transition [Schu\u0308lerbuch] / von Marion Horner ..",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783125472013,
+    "t": "Green line / Arbeitsh ; mit CD. ROM Fit fu\u0308r Tests und Klassenarbeiten",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783125473775,
+    "t": "Red line/ 2, Vokabellernheft : Klasse 6",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783125474581,
+    "t": "Let's go : Unterrichtwerk fu\u0308r Hauptschulen in Bayern. 5, [4], Schu\u0308ler-CD",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783125476615,
+    "t": "Orange line 6 Fu\u0308r Klasse 10 an allen differenzierenden Schulformen Erweiterungskurs [Schu\u0308lerbuch]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783125477018,
+    "t": "Blue line/ 1, Vokabeltraining aktiv",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783125477490,
+    "t": "Trainingsheft Abschlusspru\u0308fung Englisch Klasse",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783125478053,
+    "t": "Red line 5 [...] Vokabellernheft  / Autorin: Dagmar Taylor, Utting",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783125479029,
+    "t": "Blue line 2 = Fu\u0308r Kl. 6 Vokabellernh / [Autoren: Pauline Ashworth]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783125972711,
+    "t": "Sagan, Franc\u0328oise: Certains sourires : quatre nouvelles ; analyses mode\u0300les ... 1, [Textband]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783125973305,
+    "t": "Contes ce\u0301le\u0300bres du XXe [vingtie\u0300me] sie\u0300cle / [Hauptbd. 91]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783125974715,
+    "t": "L' etranger : vocabulaire",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783125976801,
+    "t": "Provence aux multiples visages : Kursmaterial fu\u0308r Grund- und Leistungskurse",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783125977204,
+    "t": "La Re\u0301volution Franc\u031caise / [Arbeitsbuch.]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783125977211,
+    "t": "Guide du professeur",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783125977228,
+    "t": "La Re\u0301volution Franc\u031caise / Kompaktkassette",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783125978119,
+    "t": "Guide du professeur",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783127477207,
+    "t": "Gamma mathematisches Unterrichtswerk 7, [Sch\u00fclerbd.]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783127478204,
+    "t": "Gamma aktuell 7. [Hauptbd.]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783128473000,
+    "t": "Metalltechnik : Fachstufe Industrietechnik",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783129970010,
+    "t": "Learning English. Compact course. 3",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783129970195,
+    "t": "Braunkohlentagebau in der Ville",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783129971604,
+    "t": "Terra. Ku\u0308stenschutz",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783129975305,
+    "t": "Folienbuch Siedlungsformen der Erde : 85 Folienbilder fu\u0308r d. Tageslichtprojektion mit Erl. u. Arbeitsbl. fu\u0308r d. prakt. Schu\u0308lerarbeit",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783129975411,
+    "t": "Folienmappe Siedlungsformen der Erde",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783129977705,
+    "t": "Klima- und Landschaftszonen der Erde Folienbuch : Mit Erla\u0308uterungen und Arbeitsbla\u0308ttern fu\u0308r die praktische Schu\u0308lerarbeit",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783135470023,
+    "t": "Head and neck surgery",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9783137470014,
     "t": "Helicobacter pylori : Konsequenzen fu\u0308r Klinik und Praxis : 2. Mu\u0308nchner Campylobacter-Symposium 1988",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783137971054,
+    "t": "Gesichtskorrekturen : Gesichtsprofil-Korrektur - Kinnaufbau und Rhinoplastik, Gesichtskorrekturen unter Verwendung von Goretex",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783137971061,
+    "t": "Nasenkorrekturen : die Korrektur der Spannungsnase, die Korrektur der Sattelnase mit transnasal eingesetzten Rippenspa\u0308nen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783137971122,
+    "t": "Oxykardiotokographie (OCTG) ein neues Verfahren zur Messung der fetalen Sauerstoffsa\u0308ttigung wa\u0308hrend der Geburt",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783137976042,
+    "t": "Methoden der organischen Chemie (Houben-Weyl) : Erweiterungs- und Folgeba\u0308ndezur vierten Auflage. Bd E15, En, X- und In, X-Verbindungen. Teil 3",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783161470455,
+    "t": "U\u0308bersetzung des Talmud Yerushalmi / hrsg. von Hans-Ju\u0308rgen Becker [and others]. Band III/2. Sota - die des Ehebruchs verda\u0308chtigte Frau",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783161470516,
+    "t": "Fru\u0308hes Christentum im antiken Spannungsfeld",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783161471735,
+    "t": "Rechtrpflegender Rechtsschutz in Verwaltungsrecht : Zur Kontrolldichte bei ...",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783161472008,
+    "t": "La cite\u0301 de Dieu : 3. Symposium Strasbourg, Tu\u0308bingen, Uppsala, 19.-23. September 1998 in Tu\u0308bingen = Die Stadt Gottes",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783161472466,
+    "t": "Die verfassungsentwicklung der Republik Korea seit 1948",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783161472466,
+    "t": "Die Verfassung der Sozialistischen Fo\u0308derativen Republik Jugoslawien vom 7.4.1964",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783161472466,
+    "t": "Die Entwicklung des o\u0308ffentlichen Rechts in den Niederlanden seit 1930",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783161472466,
+    "t": "The constitutional powers of the American President over the conduct of foreign affairs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783161472466,
+    "t": "'Le Comite\u0301 constitutionnel' der franzo\u0308sischen Verfassung von 1946",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783161472466,
+    "t": "Der Bundestag : Verfassungsrecht und Verfassungswirklichkeit",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783161472466,
+    "t": "Ringen um ein wertgebundenes Recht : der Pra\u0308sident des Bundesverfassungsgerichts, Dr. Josef Marquard Wintrich",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783161472466,
+    "t": "Ausgestaltung und Begrenzung von Grundrechten im franzo\u0308sischen Verfassungsrecht",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783161472466,
+    "t": "Verfassungsgerichtsbarkeit und demokratischen Legitimation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783161472589,
+    "t": "Bo\u0308rsenwesen : Schriften un Reden 1893-1898",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783161473517,
+    "t": "Eigentum und Freheit : Ein betrag fur ...",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783161474811,
+    "t": "Das Buch des Lebens = Sefer ha-h\u0323ayim : Edition, U\u0308bersetzung und Studien",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783161474811,
+    "t": "Das Buch des Lebens = Sefer ha-h\u0323ayim : Edition, U\u0308bersetzung und Studien",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783161474811,
+    "t": "Das Buch des Lebens = Sefer ha-h\u0323ayim : Edition, U\u0308bersetzung und Studien",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783161476310,
+    "t": "Gesammelte Werke in deutscher Sprache. 1, Fru\u0308he Schriften",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783161477515,
+    "t": "Judaica et Hellenistica : kleine Schriften",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783161477669,
+    "t": "Europa\u0308isches Kreditsicherungsrecht",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783161478154,
+    "t": "Kommentar zur Zivilprozessordnung",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783181475072,
+    "t": "Kurzfristig durchfu\u0308hrbare Spannungsberechnung fu\u0308r geschlossene Radialverdichterra\u0308der mit Gitterrostelementen",
     "h": 1,
     "e": 0
   }

@@ -25,110 +25,115 @@ export class BookshelfView extends View {
         this.rarebooks = []; 
         this.rare_one = null;
         this.bookCovers = {}; // Cache for loaded book covers
+
+        this.virtualCanvas = document.createElement('canvas');
+        this.virtualCanvas.width = 1000;
+        this.virtualCanvas.height = 800;
+        this.virtualCtx = this.virtualCanvas.getContext('2d', { willReadFrequently: true });
     }
 
-    onEnter() {
-        console.log('Lowlevel: Entering Bookshelf View');
-        this.drawBase();
-        this.drawOverlay();
-        this.rarebookManager.loadVisibleTiles(this.offsetX, this.offsetY)
+    onEnter(data) {
+        console.log('Lowlevel: Entering Bookshelf View', 'ISBN offset:', this.isbnIndex, 'OffsetX:', this.offsetX, 'OffsetY:', this.offsetY);
+        this.offsetX = Math.floor((this.isbnIndex % (this.scaleWidth * this.scale)) / this.scale)-data.x;
+        this.offsetY = Math.floor(this.isbnIndex / this.scaleWidth/this.scale/this.scale)- data.y;
+        if (this.offsetX < 0) this.offsetX = 0;
+        if (this.offsetX > this.scaleWidth- this.baseCanvas.width) this.offsetX = this.scaleWidth - this.baseCanvas.width;
 
+        this.rarebookManager.loadVisibleTiles(this.offsetX, this.offsetY)
+        // Reload tiles for the new offset
+        this.tileManager.loadVisibleTiles(this.offsetX, this.offsetY, this.baseCanvas.width, this.baseCanvas.height)
+            .then(() => {
+                this.drawBase();
+                this.drawOverlay();
+            });
     }
 
     async drawBase() {
-
-        // still draw a black background for the base canvas
         const ctx = this.baseCtx;
+        ctx.clearRect(0, 0, this.baseCanvas.width, this.baseCanvas.height);
         ctx.fillStyle = 'black';
         ctx.fillRect(0, 0, this.baseCanvas.width, this.baseCanvas.height);
+    
+        // Load and draw tiles dynamically
+
+        // draw visible tiels on the virtual canvas based on their locations
+        this.tileManager.drawTiles(this.virtualCtx, this.offsetX, this.offsetY, this.baseCanvas.width, this.baseCanvas.height);
 
 
-        const virtualCanvas = document.createElement('canvas');
-        virtualCanvas.width = 1000;
-        virtualCanvas.height = 800;
-        const virtualCtx = virtualCanvas.getContext('2d');
-    
-        // Load only visible tiles based on current offsets
-        await this.tileManager.loadVisibleTiles(this.offsetX, this.offsetY, this.baseCanvas.width, this.baseCanvas.height);
-    
-        for (let tileX = 0; tileX < 50; tileX++) {
-            for (let tileY = 0; tileY < 50; tileY++) {
-                const tileKey = `${tileX}_${tileY}`;
-                const tileImage = this.tileManager.loadedTiles[tileKey];
-    
-                if (tileImage) {
-                    virtualCtx.drawImage(tileImage, tileX * 1000, tileY * 800);
-                }
-            }
-        }
-    
-        // Extract pixel data once
-        this.imageData = virtualCtx.getImageData(0, 0, virtualCanvas.width, virtualCanvas.height);
-    }
-    
-   
-    
-    calculateIconGrid() {
-        // Calculate number of icons fitting horizontally and vertically
-        return [
-            Math.ceil(this.overlayCanvas.width / this.iconWidth), 
-            Math.ceil(this.overlayCanvas.height / this.iconHeight)
-        ];
-    }
+        // Extract pixel data once and apply it with the current offsets
+        this.imageData = this.virtualCtx.getImageData(
+            0,
+            0,
+            this.baseCanvas.width,
+            this.baseCanvas.height
+        );        
+        const total_cols =  Math.ceil(this.overlayCanvas.width / this.iconWidth); 
+        const total_rows  = Math.ceil(this.overlayCanvas.height / this.iconHeight); 
 
-    async drawOverlay() {
-        const overlayCtx = this.overlayCtx;
-        overlayCtx.clearRect(0, 0, this.overlayCanvas.width, this.overlayCanvas.height);
-
-        const [total_cols, total_rows] = this.calculateIconGrid();
-
-        const pixels = this.imageData.data;  // Pixel data extracted from virtual canvas
-
+            const pixels = this.imageData.data;
+    
         for (let row = 0; row < total_rows; row++) {
             for (let col = 0; col < total_cols; col++) {
-                const x = col * this.iconWidth - this.offsetX;
-                const y = row * this.iconHeight - this.offsetY;
-
-                // Calculate pixel index in the image data
-                const pixelIndex = (row * 1000 + col) * 4;
+                const x = col * this.iconWidth - (this.offsetX % this.iconWidth);
+                const y = row * this.iconHeight - (this.offsetY % this.iconHeight);
+    
+                const pixelIndex = ((row + Math.floor(this.offsetY / this.iconHeight)) * 1000 + 
+                                   (col + Math.floor(this.offsetX / this.iconWidth))) * 4;
+    
                 const r = pixels[pixelIndex];
                 const g = pixels[pixelIndex + 1];
                 const b = pixels[pixelIndex + 2];
-
+    
                 let bookIcon = '';
                 if (r > 200 && g < 100 && b < 100) {
                     bookIcon = '📕';  // Red - Absent book
                 } else if (g > 200 && r < 100 && b < 100) {
                     bookIcon = '📗';  // Green - Available book
                 } else {
-                    continue;  // Black - No book to display
+                    continue;
                 }
-
-                // Draw book icon aligned with the calculated grid
-                overlayCtx.font = this.iconWidth + 'px Arial';
-                overlayCtx.fillText(bookIcon, x, y + this.iconHeight - 8);
+    
+                ctx.font = `${this.iconWidth}px Arial`;
+                ctx.fillText(bookIcon, x, y + this.iconHeight - 8);
             }
         }
-
-
-        
-        // get a new list of rare books for current view
-        this.rarebooks = this.rarebookManager.getBooksInView(this.offsetX, this.offsetY, this.baseCanvas.width, this.baseCanvas.height);
-        // get 20 of them only 
-        this.rarebooks = this.rarebooks.slice(0, 20);
-        // draw the rare books in the view
-        this.rarebooks.forEach(book => {
-            // calculate the x,y position based on isbn index
-            book.x = this.iconWidth*Math.round((((Math.floor(book.i / 10) - this.ISBN.baseISBN) % this.scaleWidth) * this.scale) - this.offsetX);           
-            book.y = this.iconHeight*Math.round((((Math.floor(book.i / 10) - this.ISBN.baseISBN) / this.scaleWidth) * this.scale) - this.offsetY);
-            // get the color of the pixel from baseCanvas
-            overlayCtx.font = '12px Arial';
-            console.log(book.x, book.y, book.e);
-            if(book.e)
-                overlayCtx.fillText ("⭐", book.x, book.y);
-        });    
+    }
     
-        // // prepare the rare book which is under the mouse
+    
+    calculateBookPosition(isbnIndex) {
+        const bookIndex = Math.floor(isbnIndex / 10) - this.ISBN.baseISBN;
+    
+        // Determine the book's column and row within the scaled grid
+        const col = (bookIndex % this.scaleWidth) / this.scale;
+        const row = Math.floor(bookIndex / this.scaleWidth) / this.scale;
+    
+        // Calculate position adjusted for offsets
+        const x = Math.floor(col * this.iconWidth) - this.offsetX;
+        const y = Math.floor(row * this.iconHeight) - this.offsetY;
+    
+        return { x, y };
+    }
+    
+    async drawOverlay() {
+        const overlayCtx = this.overlayCtx;
+        overlayCtx.clearRect(0, 0, this.overlayCanvas.width, this.overlayCanvas.height);
+    
+        // Get rare books currently visible in the viewport
+        await this.rarebookManager.loadVisibleTiles(this.offsetX, this.offsetY);
+        this.rarebooks = this.rarebookManager.getBooksInView(this.offsetX, this.offsetY, this.baseCanvas.width, this.baseCanvas.height);
+        console.log('Rare books in view:', this.rarebooks.length);
+        this.rarebooks.forEach(book => {
+            // Convert ISBN index to row and column based on full grid
+            ({x: book.x, y: book.y} = this.calculateBookPosition(book.i));
+            // Ensure the book is within the visible viewport
+            if (book.x >= 0 && book.x < this.overlayCanvas.width && book.y >= 0 && book.y < this.overlayCanvas.height) {
+            overlayCtx.font = '12px Arial';
+            overlayCtx.fillStyle = 'yellow';
+            overlayCtx.fillText("🔥", book.x + 6, book.y + 20);
+            }
+        });
+
+                // // prepare the rare book which is under the mouse
         // this.rare_one = this.rarebooks.find((book) => {
         //     const x = data.x;
         //     const y = data.y;
@@ -166,21 +171,41 @@ export class BookshelfView extends View {
         // }     
         // );
         
-        
+        this.drawISBN();
         // draw the map thumbnail and scale indicator
+        this.draw_map_thumbnail(this.overlayCtx, this.scale, this.offsetX, this.offsetY);
+        this.drawMapScaleIndicator(this.overlayCtx, '5 📚');
+    }
+    
+    
+    
 
 
+    handlePanStart(data) {
+        this.startPanX = data.x;
+        this.startPanY = data.y;
     }
 
 
     handlePanMove(data) {
-        this.offsetX = Math.max(0, this.offsetX + Math.round(data.deltaX)/this.iconWidth);
-        this.offsetY = Math.max(0, this.offsetY + Math.round(data.deltaY)/this.iconHeight);
-
-        // Redraw both base and overlay canvases
-        this.drawOverlay();
+        const stepX = Math.round(data.deltaX / this.iconWidth);
+        const stepY = Math.round(data.deltaY / this.iconHeight);
+    
+        this.offsetX = Math.max(0, this.offsetX - stepX ); //* this.iconWidth);
+        this.offsetY = Math.max(0, this.offsetY - stepY ); //* this.iconHeight);
+    
+        // Ensure offsets do not exceed the boundaries
+        this.offsetX = Math.min(this.offsetX, this.scaleWidth - this.overlayCanvas.width);
+        this.offsetY = Math.min(this.offsetY, 40000 - this.overlayCanvas.height);
+    
+        // Reload tiles for the new offset
+        this.tileManager.loadVisibleTiles(this.offsetX, this.offsetY, this.baseCanvas.width, this.baseCanvas.height)
+            .then(() => {
+                this.drawBase();
+                this.drawOverlay();
+            });
     }
-
+    
 
 
     handleDoubleClick(data) {
@@ -196,5 +221,9 @@ export class BookshelfView extends View {
 
         const searchUrl = `https://annas-archive.org/search?index=meta&q=${isbn13}`;
         window.open(searchUrl, "_blank");
+    }
+
+    handlePanEnd() {
+        console.log('Pan ended with offsets:', this.offsetX, this.offsetY);
     }
 }

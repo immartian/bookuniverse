@@ -83,7 +83,7 @@ export class ZoneView extends View {
         }
         this.drawISBN();
         this.draw_map_thumbnail(ctx, this.scale, this.offsetX, this.offsetY);
-        this.drawMapScale(ctx, "1000 📚")
+        this.drawMapScaleIndicator(ctx, "1000 📚")
     }
     handleHover(data) {
         const x = data.x + this.offsetX;

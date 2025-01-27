@@ -1,5 +1,647 @@
 [
   {
+    "i": 9782401042759,
+    "t": "Ma premie\u00bf\u00bfre mythologie - Le retour d'Ulysse adapte\u00bf\u00bf de\u00bf\u00bfs 6 ans",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782401043367,
+    "t": "Anglais A1-B1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782401045149,
+    "t": "Histoire [et histoire des arts], ge\u0301ographie, [enseignement moral et civique] CM1 : mon fichier de trace \u00e9crite",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782406040453,
+    "t": "Tranquille! je te confie \u00e0 ta tante..",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782406040927,
+    "t": "Comment Tule trompa le crocodile",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782406042112,
+    "t": "Un jour, toutes les femmes du village de Gattaga..",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782406042839,
+    "t": "Les extr\u00eames",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782406043584,
+    "t": "Le r\u00e9cit (l'histoire) de Kigalama",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782406044550,
+    "t": "La pintade et la grenouille",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782406046370,
+    "t": "Bumba",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782406046646,
+    "t": "Proverbes Judiciaires des Mongo",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782406049333,
+    "t": "Les premiers hommes Zeltner (Frantz de)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782406049562,
+    "t": "Post-texte [Contes du S\u00e9n\u00e9gal et du Niger]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782413041184,
+    "t": "A fantasy lazy life. 8",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782413041795,
+    "t": "Jojolion. 22, Satoru Akefu, directeur de l'ho\u0302pital universitaire TG",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782413041801,
+    "t": "Jojolion. 23, Je t'aimerai toujours",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782413043690,
+    "t": "La sentence des ombres (Les Legendaires : Les chroniques de Darkhell. 3)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782492047121,
+    "t": "Mon amour, mon geo\u0302lier",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782492546006,
+    "t": "De passage sur terre",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782492547089,
+    "t": "Anubis et les pilleurs de tombe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782492547195,
+    "t": "Le secret du cha\u0302teau",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782492547492,
+    "t": "Neptune et les pirates",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782493546005,
+    "t": "Gradation : ou la blessure de Calamity Monroe, le petit meurtre de Bernard et les pommes atomiques de l'espace",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782501043229,
+    "t": "Pourquoi les a\u00een\u00e9s veulent diriger le monde et les benjamins le changer",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782501043878,
+    "t": "Je parle allemand",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782501043960,
+    "t": "Je suis au potager",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782501044448,
+    "t": "Pur jus",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782501044868,
+    "t": "Cre\u0301er un aquarium tropical d'eau douce",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782501045209,
+    "t": "La cuisine d'Espagne",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782501045346,
+    "t": "Le be\u0301ne\u0301volat aujourd'hui",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782501045797,
+    "t": "Le pourquoi des pourquoi des enfants",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782501045896,
+    "t": "O\u0302 moi : grande pre\u0302tresse du sexe!",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782501045957,
+    "t": "Les magicmamans attendent un be\u0301be\u0301",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782501046077,
+    "t": "Marabout pratique : l'homeopathie de a a z",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782501046374,
+    "t": "30' chrono",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782501046763,
+    "t": "Bons plans ventre plat",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782501047159,
+    "t": "Risottos",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782501047548,
+    "t": "L'e\u0301cologie des paresseuses",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782501047623,
+    "t": "Le bricolage des paresseuses : outils, e\u0301lectricite\u0301, plomberie, chauffage, e\u0301lectrome\u0301nager",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782501047937,
+    "t": "Sushis et compagnie",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782501048224,
+    "t": "Petits papiers a\u0300 coller partout",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782501048224,
+    "t": "Petits papiers colle\u0301s",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782501048996,
+    "t": "Recettes ve\u0301ge\u0301tariennes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782501049160,
+    "t": "Amours-etc.com",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782501049238,
+    "t": "Rapide : petites recettes des paresseuses",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782501049573,
+    "t": "Jeux de logique",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782501049894,
+    "t": "Ga\u0302teaux au chocolat",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782503040417,
+    "t": "Opera omnia; 4: Dat rijcke der ghelieven",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503040516,
+    "t": "Opera omnia. 5, Van den geesteliken tabernakel, vol. 1 = [Commentaria in tabernaculum foederis, vol. 1]",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503041223,
+    "t": "21: 92-96: In civitate Maioricensi anno1300 composita",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503041315,
+    "t": "In Monte Pessvlano et Ianvae annis Mccciii-Mccciv composita, 106-113",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503041315,
+    "t": "20: 106-113: In Monte Pessulano et Ianuae annis 1303-1304 composita",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503041315,
+    "t": "Raimundi Lulli Opera Latina. 20., In Monte Pessulano et Ianuae annis 1303-1304 composita",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503041421,
+    "t": null,
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503041513,
+    "t": "23: 106-113: Ianuae et in Monte Pessulano anno 1308 composita",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503041933,
+    "t": "Vitae Sanctae Katharinae. P. 2",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503042121,
+    "t": "Bibliotheca manuscripta : prolegomena",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503042138,
+    "t": "Dionysii Cartusiensis opera selecta. T. 1, Prolegomena Bibliotheca manuscripta. A-B, Studia bibliographica",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503042145,
+    "t": "Bibliotheca manuscripta : prolegomena",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503042145,
+    "t": "Dionysii Cartusiensis opera selecta",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503042459,
+    "t": "Stephani de Borbone Tractatus de diversis materiis predicabilibus. 03",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503042459,
+    "t": "Oratio 40 (arab. 4)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503042534,
+    "t": "Cronica. Tom. 2, A.1250-1287",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503042718,
+    "t": "Quo ordine sermo fieri debeat ; De bucella Iudae data et de veritate Dominici corporis",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503042916,
+    "t": "Chronicon",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503044484,
+    "t": "Hermes Latinus. T. 4. P. 4, Hermetis Trismegisti Astrologica et divinatoria",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503045917,
+    "t": "In Matthaeum",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503046211,
+    "t": "Periphyseon. Liber Secundus : Editionem novam a suppositiciis quidem additamentis purgatam, ditatam vero appendice in qua vicissitudines operis synoptice exhibentur",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503046327,
+    "t": "Iohannis Scotti seu Eriugenaei Periphyseon",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503046914,
+    "t": "Opera omnia. Prolegomena. Indices",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503048062,
+    "t": "24-25-26: 65: Arbor scientiae : Romae in festo sancti Michaelis archangeli anno 1295 incepta in ipsa urbe kalendis aprilibus anni 1296 ad finem perducta",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503048116,
+    "t": "27: 53: Tabula generalis : in mari in portu Tunicii in medio septembris anno MCCXCIII incepta et in civitate Neapolis in octavis Epiphaniae anno MCCXCIV ad finem perducta",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503048918,
+    "t": "Glossae biblicae. P. 1",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503048932,
+    "t": "Glossae biblicae. P. 2",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503049113,
+    "t": "Petri Comestoris scolastica historia. Liber Genesis",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503049212,
+    "t": "Prolegomena ad Gerardi Magni opera omnia",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503049915,
+    "t": "Agnelli Ravennatis liber pontificalis ecclesiae Ravennatis",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503540702,
+    "t": "Ikonografija smrti = Iconography of death",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782503541402,
+    "t": "34: 61-63: Annis 1294-1295 Composita",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503541549,
+    "t": "Bessarion Scholasticus : a study of Cardinal Bessarion's Latin library",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503541877,
+    "t": "Dix pseaumes en forme de motets de Claude Le Jeune 1564",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503542195,
+    "t": "Magistri Iohannis Hus Opera omnia. T. 26 B, Dubia 1, Dicta de tempore Magistro Iohanni Hus attributa. 2",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503543994,
+    "t": "Orationes 11, 21, 42",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503544120,
+    "t": "De virtvte et ascesi",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782503545479,
+    "t": "Bibliotheque nationale de France. Hebreu 704 a 733, Manuscrits de theologie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782503546353,
+    "t": "Les femmes, la culture et les arts en Europe entre Moyen A\u0302ge et Renaissance = Women, art and culture in Medieval and Early Renaissance Europe : [colloque, Maison Europe\u0301enne des Sciences de l'Homme et de la Socie\u0301te\u0301 (MESHS) de Lille, du 28 au 30 mars 2012]",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503546889,
+    "t": "Negotiating the political in northern European urban society, c.1400-c.1600",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782503547428,
+    "t": "Crisis in the later middle ages : beyond the Postan{u2013}Duby paradigm",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503547657,
+    "t": "Expositio paraenetica in regvlam Carmelitarvm",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782503548104,
+    "t": "Paul Vignaux, citoyen et philosophe (1904-1987)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503548166,
+    "t": "International medieval bibliography CD 18 (2013) : covering publications of 1967-2012",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782503548395,
+    "t": "The tree : symbol, allegory, and mnemonic device in medieval art and thought",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503548517,
+    "t": "New medieval literatures",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782503548951,
+    "t": "A catalogue of Byzantine manuscripts in their liturgical context. Challenges and perspectives. Collected papers resulting from the expert meeting of the Catalogue of Byzantine Manuscripts programme held at the PThU in Kampen, the Netherlands on 6th-7th November 2009",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503549408,
+    "t": "The Medieval Low Countries. Vol. 1/2014",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782503549552,
+    "t": "Enerrationes in psalmos",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782503549576,
+    "t": "Lexicon Latinitatis Medii Aevi - Le Vocabulaire Latin Des Principaux Themes Liturgiques",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782503549880,
+    "t": "Arcane Interregional (ARCANE-IR)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782508040825,
+    "t": "Avec mes stickers en 3D je de\u0301core et je colorie Disney La Garde du Roi Lion : [Autocollant]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782508041389,
+    "t": "Super stickers Mes animaux mignons : Des coloriages et + de 500 stickers : [Album a\u0300 colorier]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782508043871,
+    "t": "Mes cartes ge\u0301antes : les animaux autour du monde!",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782508044649,
+    "t": "Mon coffret 100% stickers ! Avec Toy Story 4 1 bloc de jeux et de coloriages + 1000 stickers : [Autocollant]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782508045240,
+    "t": "Princesses du monde Un carnet cre\u0301atif, des stickers paillete\u0301s, des strass, 6 crayons, des bijoux tatoos ! : [Album a\u0300 colorier]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782508045387,
+    "t": "Coloriage avec stickers [Ours] : [Album a\u0300 colorier]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782508045950,
+    "t": "Mon premier bloc de coloriages [Princesse et licorne] : [Album a\u0300 colorier]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782508046193,
+    "t": "Les animaux je colorie la nature : 2-4 ans : [Album a\u0300 colorier]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782508046551,
+    "t": "Ma pochette 400 gommettes : [blanc] : Disney Baby",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782550040064,
     "t": "E\u0301laboration des e\u0301le\u0301ments de connaissance : fonction-type, fourreur : secteur, textile : champ, confection",
     "h": 1,
@@ -8,6 +650,12 @@
   {
     "i": 9782550040200,
     "t": "Synthe\u0300se de la consultation externe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550040248,
+    "t": "Entente intervenue entre d'une part : la Commission re\u0301gional Pascal-Tache\u0301, la Commission scolaire de Montmagny, la Commission scolaire Trois-Saumons, la Commission scolaire de La Pocatie\u0300re, la Commission scolaire L'Islet-Sud et d'autre part : le Syndicat de l'enseignement de Pascal-Tache\u0301",
     "h": 1,
     "e": 0
   },
@@ -26,6 +674,18 @@
   {
     "i": 9782550040439,
     "t": "Musique (instrument) : tuba",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550040507,
+    "t": "Entente intervenue entre d'une part : la Commission scolaire re\u0301gionale Eastern Que\u0301bec, la Commission scolaire Greater Que\u0301bec, la Commission scolaire protestante St-Maurice, la Commission scolaire Saguenay \"P\" et d'autre part : le Syndicat des enseignants d'Eastern Que\u0301bec",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550040590,
+    "t": "Re\u0301pertoire des me\u0301dias, re\u0301gion 01 : Bas St-Laurent Gaspe\u0301sie",
     "h": 1,
     "e": 0
   },
@@ -54,8 +714,92 @@
     "e": 0
   },
   {
+    "i": 9782550040811,
+    "t": "Plan de classification, [des emplois de soutien technique, des emplois de soutien administratif, des emplois de soutien manuel] : [colle\u0300ges d'enseignement ge\u0301ne\u0301ral et professionnel]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550040866,
+    "t": "Service du de\u0301veloppement de la technologie e\u0301ducative",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550040873,
+    "t": "THESEE : Syste\u0300me collectif de confection d'horaires",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550040958,
+    "t": "L'Ecole protestante : extrait",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550040958,
+    "t": "L'Education des adultes : extrait",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550040958,
+    "t": "L'Ecole catholique : extrait",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550041009,
+    "t": "Entente intervenue entre d'une part : la Commission scolaire de Saint-Hyacinthe et d'autre part : le Syndicat des enseignants Richelieu-Yamaska",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782550041245,
     "t": "Examens de musique, juin 1981",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550041245,
+    "t": "Antonio Lotti : trio en LA majeur ; examens de musique - Juin 1981",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550041290,
+    "t": "Jim Webb : Macarthur Park",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550041290,
+    "t": "Jim Webb : Macarthur Park ; examens de musique - Juin 1981",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550041306,
+    "t": "P.I. Tchaikovsky : symphonie no. 2, 4e mouvement ; examens de musique - Juin 1981",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550041320,
+    "t": "Guide d'interpre\u0301tation des ententes nationales, 1979-1982 : enseignants",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550041344,
+    "t": "Entente intervenue entre d'une part : la Commission scolaire re\u0301gionale Eastern Townships, la Commission scolaire du district de Lennoxville, la Commission scolaire protestante St-Francis et d'autre part : l'Association des enseignants des Cantons de l'Est",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550041351,
+    "t": "Entente intervenue entre d'une part : l'Association des commissions scolaires du dioce\u0300se de Sherbrooke et d'autre part : le Syndicat des enseignants de l'Estrie",
     "h": 1,
     "e": 0
   },
@@ -66,8 +810,98 @@
     "e": 0
   },
   {
+    "i": 9782550041542,
+    "t": "La formation et le perfectionnement des maitres en moyens d enseignement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550041566,
+    "t": "Guide d'interpre\u0301tation des ententes nationales, 1979-1982 : professionnels non enseignants",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550041573,
+    "t": "Guide d'interpre\u0301tation des ententes nationales 1979-1982 : personnel de soutien",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550041801,
+    "t": "The School's educational project",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782550041818,
     "t": "Guide pe\u0301dagogique, 1980 : e\u0301lectrotechnique : 243",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550041894,
+    "t": "Entente intervenue entre d'une part : le Bureau des e\u0301coles protestantes du Grand Montre\u0301al et d'autre part : l'Association des enseignants de Montre\u0301al",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550041894,
+    "t": "Entente intervenue entre d'une part: P.S.B.B.M., et d'autre part: M.T.A., 1979-82",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550041917,
+    "t": "Entente intervenue entre d'une part : la Commission scolaire du Sault-Saint-Louis et d'autre part : le Syndicat de l'enseignement de l'ouest de Montre\u0301al",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550042303,
+    "t": "Guide pour assurer les services sociaux aux e\u0301le\u0300ves des commissions scolaires",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550042310,
+    "t": "Guide pour assurer les services de sante\u0301 aux e\u0301le\u0300ves des commissions scolaires et aux e\u0301tudiants des colle\u0300ges d'enseignement ge\u0301ne\u0301ral et professionnel",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550042372,
+    "t": "Les enseignantes et enseignants du Que\u0301bec : une e\u0301tude socio-pe\u0301dagogique / Vol. 5, Le ve\u0301cu professionnel : ta\u0302che et milieu de travail / Louis Taupin [et autres]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550042396,
+    "t": "Entente intervenue entre d'une part : la Commission scolaire Ancienne-Lorette et d'autre part : le Syndicat des travailleurs de l'enseignement Chauveau-Charlesbourg",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550042402,
+    "t": "Entente intervenue entre d'une part : les syndics d'e\u0301coles pour la municipalite\u0301 de Baie Comeau et d'autre part : l'Association des enseignants de Baie Comeau",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550042471,
+    "t": "Correspondance entre les e\u0301tudes faites par les diplo\u0302me\u0301s de l'enseignement professionnel (secondaire et colle\u0301gial) et les emplois qu'ils occupent : faits saillants de cette e\u0301tude",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550042488,
+    "t": "Une analyse des d\u00e9penses des CEGEP de 1972-1973 \u00e0 1978-1979",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550042525,
+    "t": "Le Programme de franc\u0327ais au secondaire",
     "h": 1,
     "e": 0
   },
@@ -84,6 +918,18 @@
     "e": 0
   },
   {
+    "i": 9782550042815,
+    "t": "Releve\u0301 de la population d'a\u0302ge scolaire, octobre 1980",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550043140,
+    "t": "Technologie forestie\u0300re, 190",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782550043232,
     "t": "Programme de mathe\u0301matique du primaire, 1981 : sche\u0301ma d'apprentissage",
     "h": 1,
@@ -96,14 +942,38 @@
     "e": 0
   },
   {
+    "i": 9782550043454,
+    "t": "Devis d'implantation : programme mathe\u0301matique, secondaire professionnel court",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550043461,
+    "t": "Devis d'implantation du programme de danse au secondaire",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782550043621,
     "t": "La calculatrice, fascicule A, connaissance des caracte\u0301ristiques de fonctionnement d'une calculatrice",
     "h": 1,
     "e": 0
   },
   {
+    "i": 9782550043683,
+    "t": "Entente intervenue entre d'une part : la Commissions scolaire re\u0301gionale de Tilly et les commissions scolaires Chaudie\u0300re-Etchemin, Lotbinie\u0300re et Marie-Victorin et d'autre part : le Syndicats des enseignants de la banlieue de Que\u0301bec",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782550043843,
     "t": "Les heuristiques, fascicule A, the\u0301orie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550043959,
+    "t": "Programme d'e\u0301tudes secondaire: danse",
     "h": 1,
     "e": 0
   },
@@ -120,8 +990,20 @@
     "e": 0
   },
   {
+    "i": 9782550044062,
+    "t": "Entente intervenue entre d'une part : la Commission scolaire re\u0301gionale Gaspesia et d'autre part : l'Association des enseignants de la Gaspe\u0301sie",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782550044352,
     "t": "Music examinations, June 1981",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550044352,
+    "t": "Antonio Lotti : Trio in a major",
     "h": 1,
     "e": 0
   },
@@ -132,8 +1014,38 @@
     "e": 0
   },
   {
+    "i": 9782550044420,
+    "t": "Atelier de pre\u0301sentation du programme de franc\u0327ais au primaire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550044482,
+    "t": "Re\u0300glement concernant le re\u0301gime pe\u0301dagogique du secondaire : Loi sur le Conseil supe\u0301rieur de l'e\u0301ducation (L.R.Q., c. C-60, a.30) ; Loi sur l'instruction publique (L.R.Q., c.I-14, a.16 par. 1 et 7) : version commente\u0301e et annote\u0301e",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550044567,
+    "t": "Re\u0300glement concernant le re\u0301gime pe\u0301dagogique du primaire et l'e\u0301ducation pre\u0301scolaire : Loi sur le Conseil supe\u0301rieur de l'e\u0301ducation (L.R.Q., c. C-60, a.30) ; Loi sur l'instruction publique (L.R.Q., c.I-14, a.16 par. 1 et 7) : version commente\u0301e et annote\u0301e",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550044581,
+    "t": "Guide pour l'e\u0301laboration d'un programme e\u0301labore\u0301 localement",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782550044604,
     "t": "Guide pe\u0301dagogique : formation auditive : 551-(101-102-103-104)-76 (document temporaire), 1980-1981",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550044628,
+    "t": "Regulation respecting the basis of elementary school and preschool organization : Act Respecting the Conseil supe\u0301rieur de l'e\u0301ducation (R.S.Q., c. C-60, s.30) ; Education Act (R.S.Q., c.I-14, s.16 subpars. 1 and 7) : an annotated version with commentary",
     "h": 1,
     "e": 0
   },
@@ -144,14 +1056,50 @@
     "e": 0
   },
   {
+    "i": 9782550044765,
+    "t": "Implantation des programmes de mathe\u0301matique : document 07 : le ve\u0301cu de l'e\u0301le\u0300ve",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550044789,
+    "t": "Regulation respecting the basis of secondary school organization : Act Respecting the Conseil supe\u0301rieur de l'e\u0301ducation (R.S.Q., c. C-60, s.30) ; Education Act (R.S.Q., c.I-14, s.16 subpars. 1 and 7) : an annotated version with commentary)",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782550044802,
     "t": "Guide pe\u0301dagogique : creation cinematographique : 530-950-77",
     "h": 1,
     "e": 0
   },
   {
+    "i": 9782550044949,
+    "t": "Joaquin Rodrigo : Concierto de Aranjuez, 2nd movement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550044963,
+    "t": "P.I. Tchaikovsky : Symphony no 2, 4th mouvement [sic]",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782550044970,
     "t": "Les cahiers du COPIE",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550044994,
+    "t": "Renseignements concernant le mode de gestion pour 1981-1982 : des tests relatifs au de\u0301veloppement ge\u0301ne\u0301ral des e\u0301le\u0300ves : des tests pour la mesure de la qualite\u0301 des apprentissages scolaires et parascolaires",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550045045,
+    "t": "Chant choral",
     "h": 1,
     "e": 0
   },
@@ -168,14 +1116,104 @@
     "e": 0
   },
   {
+    "i": 9782550045540,
+    "t": "Atelier III, l'oral (atelier de re\u0301flexion) : qu'est-ce que communiquer oralement?",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550045564,
+    "t": "Gestion des me\u0301canismes ope\u0301rationnels de la se\u0301curite\u0301 d'emploi pour les personnels des commissions scolaires 1981-1982 : plan d'action re\u0301gional -03",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550045632,
+    "t": "Entente intervenue entre d'une part : la Commission scolaire Champlain et d'autre part : l'Outaouais English Teachers' Association",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550045656,
+    "t": "Entente intervenue entre d'une part : la Commission scolaire Deux-Montagnes et d'autre part : the Laval English Catholic Teachers' Association",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550045762,
+    "t": "Entente intervenue entre d'une part : la Commission des e\u0301coles catholiques de Montre\u0301al et d'autre part : the Federation of English Speaking Catholic Teachers",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550045809,
+    "t": "Entente intervenue entre d'une part : la Commission scolaire du Sault-Saint-Louis et d'autre part : le West Island Teachers' Association",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550045823,
+    "t": "Entente intervenue entre d'une part : la Commission des e\u0301coles catholiques de Verdun et d'autre part : le West Island Teachers' Association",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550045908,
+    "t": "La Planification de l'enseignement du franc\u0327ais au cours secondaire : troisie\u0300me secondaire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550046066,
+    "t": "Programme d'e\u0301tudes primaire, mathe\u0301matique V : document de travail",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782550046332,
     "t": "Guide pe\u0301dagogique (expe\u0301rimental) : franc\u0327ais : 601-106-81, franc\u0327ais I, 601-206-81, [franc\u0327ais] II, 601-306-81, [franc\u0327ais] III, 601-406-81, [franc\u0327ais] IV : cours expe\u0301rimentaux",
     "h": 1,
     "e": 0
   },
   {
+    "i": 9782550046462,
+    "t": "Franc\u0327ais, langue maternelle : fiche descriptive et grille d'analyse du mate\u0301riel litte\u0301raire : discours narratif et descriptif",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550046769,
+    "t": "Je pre\u0301pare mon avenir guide d'activite\u0301s",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782550046790,
     "t": "Cliente\u0300le de la commission scolaire : donne\u0301es comple\u0301mentaires relatives aux e\u0301le\u0300ves de l'e\u0301cole : guide pour 62-1024",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550047339,
+    "t": "Monographie sur une expe\u0301rience de lecture a\u0300 l'E\u0301cole Albert-Ouellet",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550047421,
+    "t": "Informations sur la politique en adaptation scolaire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550047445,
+    "t": "Mate\u0301riel de soutien a\u0300 l'implantation des programmes du primaire : anglais - langue seconde : textes explicatifs document de travail",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550047445,
+    "t": "Anglais, langue seconde. Document 1, Le message et la forme dans l'approche communicative",
     "h": 1,
     "e": 0
   },
@@ -188,6 +1226,30 @@
   {
     "i": 9782550047568,
     "t": "Sciences humaines : le monde des cartes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550047575,
+    "t": "Re\u0300glement concernant le re\u0301gime pe\u0301dagogique du primaire et l'e\u0301ducation pre\u0301scolaire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550047582,
+    "t": "Re\u0300glement concernant le re\u0301gime pe\u0301dagogique du secondaire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550047803,
+    "t": "Guide pe\u0301dagogique primaire, 1re anne\u0301e : franc\u0327ais",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550047889,
+    "t": "La Pre\u0301vention des difficulte\u0301s mineures d'adaptation et d'apprentissage",
     "h": 1,
     "e": 0
   },
@@ -222,6 +1284,18 @@
     "e": 0
   },
   {
+    "i": 9782550048053,
+    "t": "Materiel de soutien a l'implantation des programmes du primaire : integration des objectifs des programmes : document 2 : decoupage des objectifs des programmes : fascicule D : quatrieme annee : (document de travail)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550048077,
+    "t": "Inte\u0301gration des objectifs des programmes. Document 2. De\u0301coupage des objectifs des programmes, fascicule F, sixie\u0300me anne\u0301e",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782550048084,
     "t": "Inte\u0301gration des objectifs des programmes. Document 2. De\u0301coupage des objectifs des programmes, fascicule G, premie\u0300re et deuxie\u0300me anne\u0301es",
     "h": 1,
@@ -240,14 +1314,38 @@
     "e": 0
   },
   {
+    "i": 9782550048114,
+    "t": "Mate\u0301riel de soutien a\u0300 l'implantation des programmes du primaire : inte\u0301gration des objectifs des programmes : document 2 : de\u0301coupage des objectifs des programmes: fascicule J: cinquie\u0300me et sixie\u0300me anne\u0301es : document de travail",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782550048312,
     "t": "Re\u0301seaux de chemins",
     "h": 1,
     "e": 0
   },
   {
+    "i": 9782550048312,
+    "t": "Implantation des programmes de mathe\u0301matique : document 13 : re\u0301seaux de chemins",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782550048398,
     "t": "Les heuristiques, fascicule B, pratique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550048428,
+    "t": "Collecte d'information : nombre de minutes d'enseignement, services comple\u0301mentaires offerts aux e\u0301le\u0300ves du pre\u0301scolaire et du primaire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550048435,
+    "t": "Collecte d'information : nombre de minutes d'enseignement, services comple\u0301mentaires offerts aux e\u0301le\u0300ves du secondaire",
     "h": 1,
     "e": 0
   },
@@ -306,6 +1404,24 @@
     "e": 0
   },
   {
+    "i": 9782550048855,
+    "t": "Les Difficulte\u0301s mineures d'apprentissage en mathe\u0301matique au primaire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550048862,
+    "t": "Statistiques financie\u0300res des organismes d'enseignement : commission scolaires, ce\u0301geps, universite\u0301s, institutions prive\u0301es",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550048947,
+    "t": "Initiation a\u0300 la technologie : notions : de sche\u0301matisation, de me\u0301chanique, d'e\u0301lectricite\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782550049012,
     "t": "Formation morale pour les exemplte\u0301s [sic] de l'enseignement religieux catholique. Document 1, L'e\u0301ducateur(trice) moral(e) : de\u0301fis et perspectives",
     "h": 1,
@@ -324,14 +1440,56 @@
     "e": 0
   },
   {
+    "i": 9782550049043,
+    "t": "Citoyen, ton e\u0301ducation t'appartient : anne\u0301e de l'e\u0301ducation, 1982",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550049074,
+    "t": "Regards sur les mots qui servent a\u0300 dire l'e\u0301ducation chre\u0301tienne",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782550049319,
     "t": "E\u0301laboration des e\u0301le\u0301ments de connaissance : fonction-type, technicien en production de la mode : champ, textile",
     "h": 1,
     "e": 0
   },
   {
+    "i": 9782550049692,
+    "t": "Cahier d'information du Comite\u0301 de liaison enseignement supe\u0301rieur - enseignement colle\u0301gial (C.L.E.S.E.C.)",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782550049746,
     "t": "Sciences de la nature, atelier 1. Document 1, A\u0300 la de\u0301couverte du programme (session de pre\u0301paration des enseignants)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550049746,
+    "t": "Mate\u0301riel de soutien a\u0300 l'implantation des programmes du primaire : sciences de la nature : document de travail",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550049777,
+    "t": "La recherche subventionne\u0301e et commandite\u0301e dans les universite\u0301s du Que\u0301bec : rapport statistique, 1978-79",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550049791,
+    "t": "Les Difficulte\u0301s mineures d'apprentissage en franc\u0327ais au primaire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550049845,
+    "t": "Guide pe\u0301dagogique pre\u0301scolaire : bibliographie sur l'e\u0301ducation pre\u0301scolaire",
     "h": 1,
     "e": 0
   },
@@ -366,14 +1524,164 @@
     "e": 0
   },
   {
+    "i": 9782550540410,
+    "t": "Diabetes clinical management in liyiyiu Aschii (2006)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550544463,
+    "t": "Enque\u0302te sur les besoins de main-d'oeuvre et de compe\u0301tences des e\u0301tablissements de l'Abitibi-Te\u0301miscamingue 2008 : re\u0301gion de l'Abitibi-Te\u0301miscamingue : rapport",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550544470,
+    "t": "Enque\u0302te sur les besoins de main-d'oeuvre et de compe\u0301tences des e\u0301tablissements de l'Abitibi-Te\u0301miscamingue 2008 : MRC de La Valle\u0301e-de-l'Or : rapport",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550544487,
+    "t": "Enque\u0302te sur les besoins de main-d'oeuvre et de compe\u0301tences des e\u0301tablissements de l'Abitibi-Te\u0301miscamingue 2008 : MRC d'Abitibi : rapport",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550544494,
+    "t": "Enque\u0302te sur les besoins de main-d'oeuvre et de compe\u0301tences des e\u0301tablissements de l'Abitibi-Te\u0301miscamingue 2008 : MRC d'Abitibi-Ouest : rapport",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550544500,
+    "t": "Enque\u0302te sur les besoins de main-d'oeuvre et de compe\u0301tences des e\u0301tablissements de l'Abitibi-Te\u0301miscamingue 2008 : MRC de Te\u0301miscamingue : rapport",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550544517,
+    "t": "Enque\u0302te sur les besoins de main-d'oeuvre et de compe\u0301tences des e\u0301tablissements de l'Abitibi-Te\u0301miscamingue 2008 : Ville de Rouyn-Noranda : rapport",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550544531,
+    "t": "Enque\u0302te sur les besoins de main-d'oeuvre et de compe\u0301tences des e\u0301tablissements de l'Abitibi-Te\u0301miscamingue 2008 : agroalimentaire : rapport pre\u0301pare\u0301 pour Emploi-Que\u0301bec, Direction re\u0301gionale de l'Abitibi-Te\u0301miscamingue",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550546597,
+    "t": "Programme de formation en de\u0301pendances pour les centres de sante\u0301 et de services sociaux (CSSS) : cahier du formateur",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550546610,
+    "t": "Programme de formation en de\u0301pendances pour les centres de sante\u0301 et de services sociaux (CSSS) : cahier du participant",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550546634,
+    "t": "Programme de formation en de\u0301pendances pour les centres de sante\u0301 et de services sociaux (CSSS)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550547143,
+    "t": "Te\u0301le\u0301pathologie : lignes directrices et normes technologiques : revue de litte\u0301rature",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550547860,
+    "t": "[Conservatoire de musique et d'art dramatique du Que\u0301bec]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550548782,
+    "t": "Student recruitment in the Que\u0301bec Public Service : we want your talent",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550548812,
+    "t": "Recruitment in the Que\u0301bec Public Service : we want your talent",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550548966,
+    "t": "Guide d'inscription d'une MRC pour la tenue de la soire\u0301e des grands prix de la ruralite\u0301: formulaire d'inscription a\u0300 l'inte\u0301rieur",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782550549024,
+    "t": "Plan d'action 2008-2011 politique relative aux relations exte\u0301rieures : pour le de\u0301veloppement des collaborations de recherche sur la sce\u0300ne canadienne et au niveau international",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551040346,
+    "t": "Principles of civil and criminial procedure",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551040780,
+    "t": "Paul-Sauve\u0301 Park",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551040803,
+    "t": "Mont-Sainte-Anne Park",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551041213,
+    "t": "Travaux de terminologie et de linguistique / 1",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782551041305,
     "t": "Re\u0300glement concernant le classement des fonctionnaires : A.M. (Fonction publique) 3-79 (1979), G.O. II, 2421",
     "h": 1,
     "e": 0
   },
   {
+    "i": 9782551042234,
+    "t": "Seabirds of Perce\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551042449,
+    "t": "Le Pe\u0301rime\u0300tre et l'aire des quadrilate\u0300res",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782551042562,
     "t": "Regulation respecting the Taxation Act and regulation respecting the application of the Taxation Act",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551042609,
+    "t": "Se\u0301rie : bien manger a\u0300 la garderie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551042913,
+    "t": "Loi sur les services de sante\u0301 et les services sociaux L.R.Q., c.S-5 : modifie\u0301e 1979, c.63, a.325 ; 1979, c.85, aa. 82 a\u0300 86 ; 1980, c.11, a.88 ; 1980, c.33, a.13",
     "h": 1,
     "e": 0
   },
@@ -402,8 +1710,116 @@
     "e": 0
   },
   {
+    "i": 9782551043606,
+    "t": "Bibliographie des guides SI : document re\u0301alise\u0301 dans le cadre du \"Programme d'assistance pour la conversion au Syste\u0300me international d'unite\u0301s (SI)\"",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551044412,
+    "t": "Conscience linguistique des juenes Que\u0301be\u0301cois. II. Influence de l'environnement linguistique chez les e\u0301tudiants francophones de niveau colle\u0301gial I et II",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551044740,
+    "t": "Re\u0300glement de la Re\u0301gie des entreprises de construction du Que\u0301bec : [5 de\u0301cembre 1979]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551044894,
+    "t": "Essais comparatifs de pre\u0301paration du sol",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782551044900,
     "t": "Loi sur la qualification professionnelle des entrepreneurs de construction",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551045778,
+    "t": "Annexe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551045785,
+    "t": "Apprendre : une action volontaire et responsable : e\u0301nonce\u0301 d'une politique globale de l'e\u0301ducation des adultes dans une perspective d'e\u0301ducation permanente : annexe 1 : l'e\u0301ducation des adultes au Que\u0301bec depuis 1850 : points de repe\u0300re",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551045792,
+    "t": "Apprendre : une action volontaire et responsable : e\u0301nonce\u0301 d'une politique globale de l'e\u0301ducation des adutles dans une perspective d'e\u0301ducation permanente : annexe 2 : sondage sur les adultes que\u0301be\u0301cois et leurs activite\u0301s e\u0301ducatives",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551045815,
+    "t": "Apprendre : une action volontaire et responsable : e\u0301nonce\u0301 d'une politique globale de l'e\u0301ducation des adultes dans une perspective d'e\u0301ducation permanente : annexe 4 : recherches connexes de la Commission",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551045822,
+    "t": "Apprendre : une action volontaire et responsable : e\u0301nonce\u0301 d'une politique globale de l'e\u0301ducation des adultes dans une perspective d'e\u0301ducation permanente : annexe 5 : bibliographie annote\u0301e sur l'e\u0301ducation des adultes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551046362,
+    "t": "Re\u0301pertoire des e\u0301tablissements de sante\u0301 et de services sociaux : 1986",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551046386,
+    "t": "Guide de protection du jardin domestique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551046485,
+    "t": "Communication",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551047024,
+    "t": "Les Choix de l'oeil : la photographie dupuis 1940 /une exposition organise\u0301e par le Service des expositions itine\u0301rantes du Muse\u0301e d'art contemporain, Montre\u0301al",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551047345,
+    "t": "La Comptabilite\u0301 agricole",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551047376,
+    "t": "Symposium sur les bovins laitiers : de nouveaux horizons, Centre municipal des congre\u0300s de Que\u0301bec, 24 septembre 1981",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551047437,
+    "t": "Travaux que\u0301be\u0301cois de linguistique : inventaire des travaux linguistiques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551047444,
+    "t": "Geographical names and the United Nations : papers = Les noms ge\u0301ographiques et les Nations Unies",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551047444,
+    "t": "La toponymie au gouvernement du Que\u0301bec depuis 1977 : [contributions de la Commission de toponymie du Que\u0301bec aux travaux de la 4e confe\u0301rence des Nations-Unies sur la normalisation des noms ge\u0301ographiques, Gene\u0300ve, 24 aou\u0302t-14 septembre 1982]",
     "h": 1,
     "e": 0
   },
@@ -432,6 +1848,12 @@
     "e": 0
   },
   {
+    "i": 9782551047758,
+    "t": "Re\u0300glements adopte\u0301s en vertu de la Loi sur l'acquisition de terres agricoles par des non-re\u0301sidents, 21 septembre 1982",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782551047772,
     "t": "Re\u0300glement sur les contrats de construction du gouvernement, 21 septembre 1982",
     "h": 1,
@@ -440,6 +1862,12 @@
   {
     "i": 9782551047789,
     "t": "Re\u0300glement sur le paiement d'inte\u0301re\u0302ts aux fournisseurs du gouvernement, 21 septembre 1982",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551047796,
+    "t": "Re\u0300glement sur les subventions a\u0300 des fins de construction, 21 septembre 1982",
     "h": 1,
     "e": 0
   },
@@ -618,6 +2046,12 @@
     "e": 0
   },
   {
+    "i": 9782551048175,
+    "t": "Re\u0300glement d'application de la Loi sur les droits successoraux, 21 septembre 1982",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782551048182,
     "t": "Re\u0300glements adopte\u0301s en vertu de la Loi sur l'enseignement prive\u0301, 21 septembre 1982",
     "h": 1,
@@ -642,6 +2076,12 @@
     "e": 0
   },
   {
+    "i": 9782551048236,
+    "t": "Code de de\u0301ontologie des infirmie\u0300res et infirmiers : 21 septembre 1982",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782551048250,
     "t": "Tarif d'honoraires des inge\u0301nieurs : 21 septembre 1982",
     "h": 1,
@@ -660,6 +2100,12 @@
     "e": 0
   },
   {
+    "i": 9782551048304,
+    "t": "Code de de\u0301ontologie des me\u0301decins : a\u0300 jour au 30 aou\u0302t 1983",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782551048311,
     "t": "Re\u0300glements adopte\u0301s en vertu de la Loi sur le Ministe\u0300re des communaute\u0301s culturelles et de l'immigration, 19 octobre 1982",
     "h": 1,
@@ -668,6 +2114,12 @@
   {
     "i": 9782551048359,
     "t": "Tarif d'honoraires des notaires : 21 septembre 1982",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782551048366,
+    "t": "Re\u0300glement sur la promotion de la vente et la publicite\u0301 des boissons alcooliques, 21 septembre 1982",
     "h": 1,
     "e": 0
   },
@@ -834,6 +2286,12 @@
     "e": 0
   },
   {
+    "i": 9782551048731,
+    "t": "Re\u0300glements adopte\u0301s en vertu de la Loi sur le re\u0301gime de retraite des fonctionnaires, 21 septembre 1982",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782551048748,
     "t": "Re\u0300glement ge\u0301ne\u0301ral sur les re\u0301gimes supple\u0301mentaires de rentes, 21 septembre 1982",
     "h": 1,
@@ -978,6 +2436,12 @@
     "e": 0
   },
   {
+    "i": 9782551049097,
+    "t": "Re\u0300gles de pratique du Tribunal de la jeunesse en matie\u0300re criminelle et pe\u0301nale, 21 septembre 1982",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782551049110,
     "t": "Tarif des frais judiciaires en matie\u0300re civile et des droits de greffe : De\u0301cret 77-82 (1982) G.O. II, p. 270, 1er aou\u0302t 1982",
     "h": 1,
@@ -1074,8 +2538,50 @@
     "e": 0
   },
   {
+    "i": 9782551049837,
+    "t": "General regulation respecting supplemental pension plans : 21 September 1982",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782551049868,
     "t": "Construction Decree, 1 August 1982",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782600040556,
+    "t": "La liberte\u0301 e\u0301conomique et les e\u0301ve\u0301nements d'Italie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782600041560,
+    "t": "E\u0301crits politiques. Volume 2, Reazione, Liberta\u0300, Fascismo, 1896-1923",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782600047234,
+    "t": "Ioanis Calvini Scripta didactica et polemica. ; Pro G. Farello et Collegis ejus adversus Petri Caroli theologastri calumnias, defensio Nicolai Gallasii. Refutatio blasphemiae farellistarum in Sacrosanctam Trinitatem / Serie IV. Volumen VI",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782700040647,
+    "t": "La bibliothe\u0300que magique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782700040685,
+    "t": "Je decouvre les nombres",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782700040692,
+    "t": "Jeux de logique",
     "h": 1,
     "e": 0
   },
@@ -1086,8 +2592,50 @@
     "e": 0
   },
   {
+    "i": 9782700041507,
+    "t": "Les voitures : livres anime\u0301s",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782700041866,
+    "t": "Charlie, le voyage fantastique",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782700041880,
+    "t": "Charlie a\u0300 Hollywood",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782700041965,
+    "t": "Premier Atlas en images",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782700042320,
+    "t": "La ronde des fe\u0301es",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782700042603,
     "t": "Mon premier atlas ge\u0301ant : de grandes cartes faciles a\u0300 lire au mur ou sur le sol",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782700042733,
+    "t": "L'extraordinaire voyage du baron de Mu\u0308nchhausen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782700042931,
+    "t": "Altas du monde",
     "h": 1,
     "e": 0
   },
@@ -1116,8 +2664,140 @@
     "e": 0
   },
   {
+    "i": 9782700046007,
+    "t": "Une semaine dans un nid",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782700046915,
     "t": "Cendrillon.",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782700047837,
+    "t": "Le canard",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782700048605,
+    "t": "Plane\u0300te Terre : un livre globe en 3-D",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782700049824,
+    "t": "Le journal de Geoffroy, un page au moyen age",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782700540024,
+    "t": "Kit de conversation japonais",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782700540109,
+    "t": "L'Arabe marocain : kit de conversation : un livre + un CD audio",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782700540123,
+    "t": "Kit de conversation grec",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782700540147,
+    "t": "Kit de conversation polonais",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782700540154,
+    "t": "Kit de conversation kabyle",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782700540185,
+    "t": "Kit de conversation arabe tunisien",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782700540192,
+    "t": "Kit de conversation malgache",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782700540208,
+    "t": "Kit de conversation Wolof. CD. Le Wolof",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782700540208,
+    "t": "Kit de conversation Wolof",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782700540284,
+    "t": "Kit de conversation arabe e\u0301gyptien",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782700540383,
+    "t": "Kit de conversation serbe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782700540420,
+    "t": "Kit de conversation sue\u0301dois",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782700540437,
+    "t": "Kit de conversation core\u0301en",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782701540054,
+    "t": "Les 12 [Douze] meilleurs contes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782701545530,
+    "t": "Alice au pays des merveilles",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782701547039,
+    "t": "Mon album de chanson",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782729548162,
+    "t": "Jean-Baptiste Stuck (1680-1755) et la re\u0301union des gou\u0302ts en France au seuil du XVIIIe\u0300me sie\u0300cle. Bd. 1 ..",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782729548285,
+    "t": "Francisco de Quevedo : Ja\u0301caras (edition critique)",
     "h": 1,
     "e": 0
   },
@@ -1128,8 +2808,1154 @@
     "e": 0
   },
   {
+    "i": 9782744040054,
+    "t": "Python",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782744040092,
+    "t": "Mac OS X Leopard",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782744040122,
+    "t": "Visibilite\u0301 sur le Web ou Comment optimiser le re\u0301fe\u0301rencement naturel de votre site",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782744040146,
+    "t": "Access 2007 et VBA",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782744040153,
+    "t": "Windows\u00ae PowerShell",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782744040153,
+    "t": "Windows PowerShell Administration de postes clients Windows",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782744040160,
+    "t": "Mac OS X Leopard version 10.5",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782744040252,
+    "t": "Chai\u0302nes d'exploits sce\u0301narios de hacking avance\u0301s et pre\u0301vention",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782744040283,
+    "t": "Formules et fonctions d'Excel versions 2007 et ante\u0301rieures",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782744040290,
+    "t": "Rootkits BSD mieux les comprendre pour mieux s'en prote\u0301ger",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782744040313,
+    "t": "Menaces sur le re\u0301seau guide pratique des attaques passives et indirectes",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782744040320,
+    "t": "FreeBSD 7.0 le guide complet du FreeBSD",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782744040481,
+    "t": "Microsoft\u00ae Windows\u00ae Vista",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782744040603,
+    "t": "Mac OS X Leopard",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782744040740,
+    "t": "Optimisez vos ta\u0302ches sous Mac OS X avec AppleScript, Automator, Schell, Tcl",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782744040757,
+    "t": "Analyse de donne\u0301es avec SPSS",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782744040795,
+    "t": "Cre\u0301er un site e-commerce avec Dreamweaver CS3 et PHP-MySQL",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782744040870,
+    "t": "Le PC [architecture, maintenance et mise a\u0300 niveau]",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782744040887,
+    "t": "Linux installation, configuration et administration des syste\u0300mes Linux",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782744040917,
+    "t": "Site web priorite\u0301 a\u0300 la simplicite\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782744040924,
+    "t": "Qt 4 et C++ programmation d'interfaces GUI",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782744040993,
+    "t": "Mac Os X Snow Leopard la vie nume\u0301rique 100% Mac",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782744041013,
+    "t": "Cre\u0301er un site e-commerce avec Dreamweaver CS4 et PHP-MySQL",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782744041020,
+    "t": "Au coeur de Python. Volume 2, Notions avance\u0301es",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782744041037,
+    "t": "PHP & MySQL",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782744041136,
+    "t": "Aux commandes de Microsoft Flight Simulator X",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782744041211,
+    "t": "Word 2007",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782744041228,
+    "t": "Microsoft Excel 2007",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782744041242,
+    "t": "Microsoft PowerPoint 2007",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782744041280,
+    "t": "ActionScript 3 et le motion design",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782744041556,
+    "t": "Bonnes pratiques des standards du Web",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782744041617,
+    "t": "Google AdWords",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782744041631,
+    "t": "C#",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782744041679,
+    "t": "SAS introduction au de\u0301cisionnel : me\u0301thode et mai\u0302trise du langage",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782744042331,
+    "t": "Processing le code informatique comme outil de cre\u0301ation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782744044113,
+    "t": "Introduction a\u0300 HTML 5",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782744045165,
+    "t": "Audacity 2 enregistrez, montez, mixez",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782744045301,
+    "t": "L'art de la supercherie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782744045561,
+    "t": "Pourquoi les femmes gagnent-elles moins que les hommes? : les me\u0301canismes psychosociaux du plafond de verre",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782744045691,
+    "t": "Java",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782744045745,
+    "t": "ActionScript 3.0 [l'essentiel du code et des commandes]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782744045769,
+    "t": "La pre\u0301sentation mise a\u0300 nu pour des pre\u0301sentations percutantes, avec ou sans diaporama",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782744045783,
+    "t": "Cre\u0301ez des jeux Flash avec ActionScript 3.0",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782744045806,
+    "t": "Linux embarque\u0301 comprendre, de\u0301velopper, re\u0301ussir",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746040144,
+    "t": "Word 2007 : longs documents",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746040403,
+    "t": "Word 2007",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746041202,
+    "t": "ITIL (version 3) : les meilleures pratiques de gestion d'un service informatique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746042940,
+    "t": "Microsoft Office 2008 pour Mac : [Word, Excel, PowerPoint, Entourage]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746043732,
+    "t": "Illustrator CS3 : para PC/MAC",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746045712,
+    "t": "MS Excel 2007 : Nederlandse versie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746045729,
+    "t": "MS Word 2007 : Nederlandse versie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782746048621,
+    "t": "Initiation aux logiciels libres : OpenOffice.org 3, Firefox 3 et Thunderbird 3",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782747040235,
+    "t": "Enfant Des Glaces, L'",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782747042994,
+    "t": "L'Abbe\u0301 Pierre : le roman de sa vie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782747044233,
+    "t": "Les ruses du Libre Peuple",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782747046602,
+    "t": "7 chansons de Noe\u0308l",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782747046633,
+    "t": "Mes cartes de communion : kit de cartes a\u0300 personnaliser et offrir",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782747049030,
+    "t": "Activit\u00e9s autour d'un album : Le feuilleton d'Ulysse : CP-CE1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782747049467,
+    "t": "Tout pour fe\u0302ter Noe\u0308l! : recettes, bricos, de\u0301fis jeux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782747049924,
+    "t": "Les aventures de Victor BigBoum. Gare au Ze\u0301broce\u0301ros! : une histoire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782747540193,
+    "t": "Socie\u0301te\u0301s, consommation et consommateurs : Marketing et sciences sociales a\u0300 la rencontre de la consommation. Se\u0301lection d'articles issus des 1e\u0300res journe\u0301es normandes de recherche sur la consommation, socie\u0301te\u0301s et consommation, Rouen, 26 et 27 mars 2002",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782747540698,
+    "t": "Victimes, de l'image a\u0300 la re\u0301alite\u0301 : [Actes du colloque organise\u0301 par l'APEV au palais des congre\u0300s d'Issy-les-Moulineaux, le 19 octobre 2001]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782747541107,
+    "t": "Eduquer. No. 4, Former. 1er trimestre 2003 : Psychologies, sciences de l'e\u0301ducation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782747541602,
+    "t": "Question agraire et mondialisation : Vol. IX. (2002) 4",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782747541664,
+    "t": "Les recompositions locales des formes de l'action publique : [Actes du colloque organise\u0301 par le centre de recherche sur l'action locale de l'universite\u0301 de Paris 13-nord en mai 2001]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782747542395,
+    "t": "Arirang ou Nos terres sont notre vie / Vol. 10 / trad. du core\u0301en par Georges Ziegelmeyer",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782747542418,
+    "t": "Dans l'ivresse : Suivi de rue de l'Alboni et de jet de l'e\u0301ponge",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782747542593,
+    "t": "Filmer le passe\u0301. Les traces et la me\u0301moire : entretiens et contributions. [Suivi de] No pasaran! album souvenir",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782747542609,
+    "t": "Le libe\u0301ralisme, l'innovation et la question des limites : [Actes de deux se\u0301minaires et de deux colloques organise\u0301s dans le cadre du colle\u0300ge international de philosophie sur le the\u0300me ge\u0301ne\u0301ral : philosophie, entreprise et management, les nouveaux lieux de la philosophie de l'action]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782747542982,
+    "t": "On a vole\u0301 la coupe d'Afrique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782747543941,
+    "t": "Re\u0301formistes cubains en France et en Espagne au milieu du XIXe sie\u0300cle = Reformistas cubanos en Francia y en Espan\u0303a a mediados del siglo XIX : [Actes du colloque pre\u0301pare\u0301 par le centre HAH, histoire des Antilles hispaniques de l'universite\u0301 Paris VIII les 11 et 12 de\u0301cembre 1995 tenu a\u0300 la Casa de Velazquez, Madrid]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782747544528,
+    "t": "Histoire de l'entreprise et des chefs d'entreprise en France / 3 Le temps des pionniers (1830-1880) ; [Vol. 3], Des jalons d'existence",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782747546126,
+    "t": "ADN",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782747546461,
+    "t": "Tazankadt la gazelle : Conte bilingue franc\u0327ais-tamashea",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782747546867,
+    "t": "Arirang ou Nos terres sont notre vie / Vol. 12 / trad. du core\u0301en par Georges Ziegelmeyer",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782747546980,
+    "t": "Invite\u0301s a\u0300 vivre",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782747547215,
+    "t": "La me\u0301decine arabe aux sie\u0300cles d'or : VIII e\u0300me - XII e\u0300me sie\u0300cles",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782747548533,
+    "t": "L'Afrique des grands lacs. 2002-2003 : Annuaire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782747548878,
+    "t": "Prostitution : Marche\u0301s, organisation, mobilisations",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782747549271,
+    "t": "Les maladies orphelines : un enjeu de sante\u0301 publique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782747549295,
+    "t": "La revue des deux-rives. No. 3, L'enseignement du franc\u0327ais langue e\u0301trange\u0300re dans les pays me\u0301diterrane\u0301ens : Europe-Maghreb",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782748040029,
+    "t": "Poussie\u0300re bleue : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782748040036,
+    "t": "Regards sur la vie : recueil",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782748040081,
+    "t": "Un peu de moi",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782748040234,
+    "t": "L'e\u0301cluse de mes vicissitudes : poe\u0301sies",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782748040388,
+    "t": "L'arrie\u0300re-boutique des petits mensonges : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782748040647,
+    "t": "Suivez le guide : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782748040708,
+    "t": "Rien n'est hasard : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782748040883,
+    "t": "Le feu de la Guaroupe : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782748040920,
+    "t": "Racaille & voyoucratie : dans les quartiers de se\u0301gre\u0301gation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782748040951,
+    "t": "God in live : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782748041767,
+    "t": "Manus Dei : l'e\u0301pe\u0301e du seigneur de Carrouges",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782748041835,
+    "t": "Les myste\u0300res de la be\u0302te du Ge\u0301vaudan",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782748042078,
+    "t": "Ge\u0301nocide arme\u0301nien, et si on nous avait menti? : essais",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782748042269,
+    "t": "Blues des anges",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782748044386,
+    "t": "Messager de l'impensable : le pic de production de pe\u0301trole et le futur de l'humanite\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782748045062,
+    "t": "En route pour Ixtrakan : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782753047815,
+    "t": "Dans la savane : un livre de Clover Robin",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782753047907,
+    "t": "Les Ve\u0301hicules",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782753048249,
+    "t": "Le Chantier",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782753049123,
+    "t": "Dans la jungle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782753541801,
+    "t": "Pouvoirs anciens, pouvoirs modernes dans l'Afrique d'aujourd'hui",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782753541801,
+    "t": "Pouvoirs anciens, pouvoirs modernes dans l'Afrique d'aujourd'hui",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782753545687,
+    "t": "F\u00e9minin/masculin",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782753545977,
+    "t": "La mer, miroir d'infini",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782753546073,
+    "t": "Edith Wharton",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782753546547,
+    "t": "Baudelaire, poe\u0300te comique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782753546554,
+    "t": "Gilbert Sorrentino",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782753546608,
+    "t": "L'art de la pr\u00e9face au si\u00e8cle des Lumi\u00e8res",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782753546707,
+    "t": "La me\u0301tamorphose dans la litte\u0301rature franc\u0327aise des XIIe et XIIIe sie\u0300cles",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782753546707,
+    "t": "La me\u0301tamorphose dans la litte\u0301rature franc\u0327aise des XIIe et XIIIe sie\u0300cles",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782753546820,
+    "t": "La revue Transition (1927-1938), le modernisme historique en devenir",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782753547254,
+    "t": "Roman et politique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782753548701,
+    "t": "\"La dame de c\u0153ur\" patronage et m\u00e9c\u00e9nat religieux des femmes de pouvoir dans l'Europe des 14e-17e si\u00e8cles",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782754041638,
+    "t": "La vie secre\u0300te des grands personnages de l'histoire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782756040004,
+    "t": "Bellino",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782756040264,
+    "t": "Otomen. Volume 18",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782756040981,
+    "t": "Les 30 deniers. 3, Vouloir",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758540007,
+    "t": "Top 25 : [France] ; la carte de randonn\u00e9e ; [teilweise] compatible GPSn3430,OT, Mont Sal\u00e8ve : Saint-Julien-en-Genevois, Annemasse",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758540021,
+    "t": "Top 25 : [France] ; la carte de randonn\u00e9e ; [teilweise] compatible GPSn3432,OT, Massif des Bauges",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758540052,
+    "t": "Top 25 : [France] ; la carte de randonn\u00e9e ; [teilweise] compatible GPSn3528,ET, Morzine : Massif du Chablais, les Portes du Soleil",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758540076,
+    "t": "Top 25 : [France] ; la carte de randonn\u00e9e ; [teilweise] compatible GPSn3531,OT, Meg\u00e8ve : Col des Aravis",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758540656,
+    "t": "Se\u0301rie bleue <1:25000> : Randonne\u0301e et plein air ; compatible avec le syste\u0300me GPS ; courbes de niveau ; informations touristiques ; itine\u0301raires de Grande Randonne\u0301en3009,SB, Charleville-Me\u0301zie\u0300res : Sedan",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758540700,
+    "t": "Top 25 : [France] ; la carte de randonn\u00e9e ; [teilweise] compatible GPSn3315,ET, Nancy, Toul : For\u00eat de Haye",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758540953,
+    "t": "Se\u0301rie bleue <1:25000> : Randonne\u0301e et plein air ; compatible avec le syste\u0300me GPS ; courbes de niveau ; informations touristiques ; itine\u0301raires de Grande Randonne\u0301en1640,SB, Losse : Bourriot-Bergonce",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758540960,
+    "t": "Top 25 : [France] ; la carte de randonn\u00e9e ; [teilweise] compatible GPSn1512,OT, Bayreux : Arromanches-les-Bains, Plages du D\u00e9barquement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541028,
+    "t": "Top 25 : [France] ; la carte de randonn\u00e9e ; [teilweise] compatible GPSn0714,OT, Lannion, Perros Guirec : les Sept \u00celes, C\u00f4te de Granit Rose",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541035,
+    "t": "S\u00e9rie bleue <1:25000> : Randonn\u00e9e et plein air ; compatible avec le syst\u00e8me GPS ; courbes de niveau ; informations touristiques ; itin\u00e9raires de Grande Randonn\u00e9en0715,SB, Lannion : B\u00e9gard",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541073,
+    "t": "Top 25 : [France] ; la carte de randonn\u00e9e ; [teilweise] compatible GPSn1329,OT, \u00cele de R\u00e9",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541080,
+    "t": "Top 25 : [France] ; la carte de randonn\u00e9e ; [teilweise] compatible GPSn1330,OT, \u00cele d'Ol\u00e9ron : \u00cele d'Aix",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541134,
+    "t": "Top 25 : [France] ; la carte de randonn\u00e9e ; [teilweise] compatible GPSn1430,OT, Rochefort : Marennes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541202,
+    "t": "S\u00e9rie bleue <1:25000> : Randonn\u00e9e et plein air ; compatible avec le syst\u00e8me GPS ; courbes de niveau ; informations touristiques ; itin\u00e9raires de Grande Randonn\u00e9en1529,SB, Frontenay-Rohan-Rohan : For\u00eat de Chiz\u00e9, Mauz\u00e9-sur-le-Mignon",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541226,
+    "t": "S\u00e9rie bleue <1:25000> : Randonn\u00e9e et plein air ; compatible avec le syst\u00e8me GPS ; courbes de niveau ; informations touristiques ; itin\u00e9raires de Grande Randonn\u00e9en1531,SB, Saintes : Burie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541356,
+    "t": "Top 25 : [France] ; la carte de randonn\u00e9e ; [teilweise] compatible GPSn1710,ET, Le Havre, \u00c9tretat : PNR des Boucles de la Seine Normandie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541387,
+    "t": "S\u00e9rie bleue <1:25000> : Randonn\u00e9e et plein air ; compatible avec le syst\u00e8me GPS ; courbes de niveau ; informations touristiques ; itin\u00e9raires de Grande Randonn\u00e9en1744,SB, Vic-en-Bigorre : Mi\u00e9lan",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541424,
+    "t": "S\u00e9rie bleue <1:25000> : Randonn\u00e9e et plein air ; compatible avec le syst\u00e8me GPS ; courbes de niveau ; informations touristiques ; itin\u00e9raires de Grande Randonn\u00e9en1844,SB, Mirande : Masseube",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541509,
+    "t": "S\u00e9rie bleue <1:25000> : Randonn\u00e9e et plein air ; compatible avec le syst\u00e8me GPS ; courbes de niveau ; informations touristiques ; itin\u00e9raires de Grande Randonn\u00e9en2045,SB, Caz\u00e8res : L\u00e9zat-sur-L\u00e9ze",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541578,
+    "t": "S\u00e9rie bleue <1:25000> : Randonn\u00e9e et plein air ; compatible avec le syst\u00e8me GPS ; courbes de niveau ; informations touristiques ; itin\u00e9raires de Grande Randonn\u00e9en2628,SB, Saint-Pour\u00e7ain-sur-Sioule : Jaligny-sur-Besbre",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541585,
+    "t": "S\u00e9rie bleue <1:25000> : Randonn\u00e9e et plein air ; compatible avec le syst\u00e8me GPS ; courbes de niveau ; informations touristiques ; itin\u00e9raires de Grande Randonn\u00e9en2630,SB, Maringues : Saint-Yorre",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541592,
+    "t": "S\u00e9rie bleue <1:25000> : Randonn\u00e9e et plein air ; compatible avec le syst\u00e8me GPS ; courbes de niveau ; informations touristiques ; itin\u00e9raires de Grande Randonn\u00e9en2631,SB, Thiers : Pont-du-Ch\u00e2teau",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541608,
+    "t": "S\u00e9rie bleue <1:25000> : Randonn\u00e9e et plein air ; compatible avec le syst\u00e8me GPS ; courbes de niveau ; informations touristiques ; itin\u00e9raires de Grande Randonn\u00e9en2717,SB, Estissac : Marigny-le-Ch\u00e2tel",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541615,
+    "t": "S\u00e9rie bleue <1:25000> : Randonn\u00e9e et plein air ; compatible avec le syst\u00e8me GPS ; courbes de niveau ; informations touristiques ; itin\u00e9raires de Grande Randonn\u00e9en2727,SB, Dompierre-sur-Besbre : Molinet",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541622,
+    "t": "S\u00e9rie bleue <1:25000> : Randonn\u00e9e et plein air ; compatible avec le syst\u00e8me GPS ; courbes de niveau ; informations touristiques ; itin\u00e9raires de Grande Randonn\u00e9en2728,SB, Le Donjon : Saint-L\u00e9on",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541639,
+    "t": "S\u00e9rie bleue <1:25000> : Randonn\u00e9e et plein air ; compatible avec le syst\u00e8me GPS ; courbes de niveau ; informations touristiques ; itin\u00e9raires de Grande Randonn\u00e9en2731,SB, Noir\u00e9table : Saint-Martin-la-Sauvet\u00e9",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541646,
+    "t": "S\u00e9rie bleue <1:25000> : Randonn\u00e9e et plein air ; compatible avec le syst\u00e8me GPS ; courbes de niveau ; informations touristiques ; itin\u00e9raires de Grande Randonn\u00e9en2827,SB, Paray-le-Monial : Palinges",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541653,
+    "t": "S\u00e9rie bleue <1:25000> : Randonn\u00e9e et plein air ; compatible avec le syst\u00e8me GPS ; courbes de niveau ; informations touristiques ; itin\u00e9raires de Grande Randonn\u00e9en2828,SB, Charolles : Marcigny",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541660,
+    "t": "Top 25 : [France] ; la carte de randonn\u00e9e ; [teilweise] compatible GPSn2944,OT, Saintes-Maries-de-la-Mer : PNR de Camargue",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541677,
+    "t": "S\u00e9rie bleue <1:25000> : Randonn\u00e9e et plein air ; compatible avec le syst\u00e8me GPS ; courbes de niveau ; informations touristiques ; itin\u00e9raires de Grande Randonn\u00e9en3010,SB, Le Chesne : Raucourt-et-Flaba",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541684,
+    "t": "S\u00e9rie bleue <1:25000> : Randonn\u00e9e et plein air ; compatible avec le syst\u00e8me GPS ; courbes de niveau ; informations touristiques ; itin\u00e9raires de Grande Randonn\u00e9en3013,SB, Ste-Menehould : Valmy",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541707,
+    "t": "S\u00e9rie bleue <1:25000> : Randonn\u00e9e et plein air ; compatible avec le syst\u00e8me GPS ; courbes de niveau ; informations touristiques ; itin\u00e9raires de Grande Randonn\u00e9en3110,SB, Carignan : Mouzon",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541714,
+    "t": "S\u00e9rie bleue <1:25000> : Randonn\u00e9e et plein air ; compatible avec le syst\u00e8me GPS ; courbes de niveau ; informations touristiques ; itin\u00e9raires de Grande Randonn\u00e9en3113,SB, Clermont-en-Argonne : Dugny-sur-Meuse",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541738,
+    "t": "S\u00e9rie bleue <1:25000> : Randonn\u00e9e et plein air ; compatible avec le syst\u00e8me GPS ; courbes de niveau ; informations touristiques ; itin\u00e9raires de Grande Randonn\u00e9en3128,SB, Montrevel-en-Bresse : Marboz",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541745,
+    "t": "S\u00e9rie bleue <1:25000> : Randonn\u00e9e et plein air ; compatible avec le syst\u00e8me GPS ; courbes de niveau ; informations touristiques ; itin\u00e9raires de Grande Randonn\u00e9en3130,SB, Amb\u00e9rieu-en-Bugey : Meximieux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541752,
+    "t": "S\u00e9rie bleue <1:25000> : Randonn\u00e9e et plein air ; compatible avec le syst\u00e8me GPS ; courbes de niveau ; informations touristiques ; itin\u00e9raires de Grande Randonn\u00e9en3131,SB, Meyzieu : Cr\u00e9mieu, Montluel",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541769,
+    "t": "Top 25 : [France] ; la carte de randonn\u00e9e ; [teilweise] compatible GPSn3143,OT, Aix-en-Provence : Vitrolles, Lambesc",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541783,
+    "t": "S\u00e9rie bleue <1:25000> : Randonn\u00e9e et plein air ; compatible avec le syst\u00e8me GPS ; courbes de niveau ; informations touristiques ; itin\u00e9raires de Grande Randonn\u00e9en3214,SB, St-Mihiel : Apremont-la-For\u00eat",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541790,
+    "t": "Top 25 : [France] ; la carte de randonn\u00e9e ; [teilweise] compatible GPSn3231,OT, Amb\u00e9rieu-en-Bugey : Champagne-en-Valromey, Massif du Bugey",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541813,
+    "t": "S\u00e9rie bleue <1:25000> : Randonn\u00e9e et plein air ; compatible avec le syst\u00e8me GPS ; courbes de niveau ; informations touristiques ; itin\u00e9raires de Grande Randonn\u00e9en3232,SB, La Tour-du-Pin : Morestel",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541820,
+    "t": "Top 25 : [France] ; la carte de randonn\u00e9e ; [teilweise] compatible GPSn3242,OT, Apt : PNR du Luberon",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541851,
+    "t": "S\u00e9rie bleue <1:25000> : Randonn\u00e9e et plein air ; compatible avec le syst\u00e8me GPS ; courbes de niveau ; informations touristiques ; itin\u00e9raires de Grande Randonn\u00e9en3316,SB, V\u00e9zelise : Colombey-les-Belles",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541868,
+    "t": "S\u00e9rie bleue <1:25000> : Randonn\u00e9e et plein air ; compatible avec le syst\u00e8me GPS ; courbes de niveau ; informations touristiques ; itin\u00e9raires de Grande Randonn\u00e9en3317,SB, Ch\u00e2tenois : Rouvres-en-Xaintois",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541875,
+    "t": "Top 25 : [France] ; la carte de randonn\u00e9e ; [teilweise] compatible GPSn3332,OT, Chamb\u00e9ry, Aix-les-Bains : Lac du Bourget",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541882,
+    "t": "Top 25 : [France] ; la carte de randonn\u00e9e ; [teilweise] compatible GPSn3339,OT, Sisteron : Laragne-Mont\u00e9gkin, Montagne de Chabre",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541905,
+    "t": "S\u00e9rie bleue <1:25000> : Randonn\u00e9e et plein air ; compatible avec le syst\u00e8me GPS ; courbes de niveau ; informations touristiques ; itin\u00e9raires de Grande Randonn\u00e9en3412,SB, Woippy : Uckange, Vigy",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758541936,
+    "t": "Top 25 : [France] ; la carte de randonn\u00e9e ; [teilweise] compatible GPSn3531,ET, Saint-Gervais-les-Bains : Massif du Mont Blanc",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758542018,
+    "t": "S\u00e9rie bleue <1:25000> : Randonn\u00e9e et plein air ; compatible avec le syst\u00e8me GPS ; courbes de niveau ; informations touristiques ; itin\u00e9raires de Grande Randonn\u00e9en1734,SB, Rib\u00e9rac : Chalais",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758542018,
+    "t": "Se\u0301rie bleue 1:25 000 : randonne\u0301e et plein air. 1734 SB, Riberac, Chalais",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758543756,
+    "t": "Top 100. 140, Montluc\u0327on, Gue\u0301ret",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758543770,
+    "t": "Top 100. 144, Annecy, Albertville, Chamonix-Mont-Blanc : Massif du Mont Blanc",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758544982,
+    "t": "Cha\u0302teauneuf-la-Fore\u0302t : Chamberet",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758546092,
+    "t": "Se\u0301rie bleue 1:25 000 : randonne\u0301e et plein air. 2042 SB, Grenade, Verdun-sur-Garonne",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758547853,
+    "t": "Ajaccio - Porto-Vecchio : Aiguilles de Bavella - Monte Renoso",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758548720,
+    "t": "St-Chinian, L'E\u0301tang de Montady",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758548874,
+    "t": "S\u00e9rie bleue : Randonn\u00e9e et plein air ; compatible avec le syst\u00e8me GPS ; courbes de niveau ; informations touristiques ; itin\u00e9raires de Grande Randonn\u00e9e 2737,SB, Langogne : Grandrieu",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758549420,
+    "t": "S\u00e9rie bleue 1:25 000 : Randonn\u00e9e et plein air ; compatible avec le syst\u00e8me GPS ; courbes de niveau ; informations touristiques ; itin\u00e9raires de Grande Randonn\u00e9e 2506,SB, Douai : Rouvroy, Vitry-en-Artois",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758549840,
+    "t": "S\u00e9rie bleue 1:25 000 : Randonn\u00e9e et plein air ; compatible avec le syst\u00e8me GPS ; courbes de niveau ; informations touristiques ; itin\u00e9raires de Grande Randonn\u00e9e 4704,SB, Acarouany",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782758549857,
+    "t": "S\u00e9rie bleue 1:25 000 : Randonn\u00e9e et plein air ; compatible avec le syst\u00e8me GPS ; courbes de niveau ; informations touristiques ; itin\u00e9raires de Grande Randonn\u00e9e 4705,SB, Organabo",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782759042463,
+    "t": "Histoire ge\u0301ographie, tronc commun, terminale",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782759049974,
+    "t": "Concours d'entre\u0301e de l'e\u0301cole du Louvre : panorama de l'histoire des arts, description d'oeuvre d'art, composition d'histoire de l'art : concours 2023, annales + sujet 2022",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760540491,
+    "t": "Quand travailler enferme dans la pauvret\u00e9 et la pr\u00e9carit\u00e9 travailleuses et travailleurs pauvres au Qu\u00e9bec et dans le monde",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760542815,
+    "t": "L' agir Entrepreneurial : Repenser l'action des Entrepreneurs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782760543041,
+    "t": "Entre le mil et le franc : un sie\u0300cle de migrations circulaires en Afrique de l'Ouest : le cas du Burkina Faso",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760544116,
+    "t": "La de\u0301pense",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782760548121,
+    "t": "Construire l'expertise pA\u0303\u00a9dagogique et curriculaire en enseignement supA\u0303\u00a9rieur",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762542943,
+    "t": "A\u0300 la caserne des pompiers",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762542950,
+    "t": "A\u0300 l'e\u0301cole",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762543551,
+    "t": "Au zoo",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762543568,
+    "t": "A la ferme",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762543575,
+    "t": "Au cirque",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762543582,
+    "t": "En vancances",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782762543599,
     "t": "Animaux copains",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762543650,
+    "t": "Hercule Patate",
     "h": 1,
     "e": 0
   },
@@ -1140,8 +3966,56 @@
     "e": 0
   },
   {
+    "i": 9782762543766,
+    "t": "Le cirque : choisis ta propre aventure : 1",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782762544527,
+    "t": "Pour lire avec toi",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782762544633,
+    "t": "Un cochon dans la maison : l'auberge des animaux : tome 6",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762546125,
+    "t": "Une Journe\u0301e bien remplie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762546132,
+    "t": "Comptines",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762546149,
+    "t": "Les Amis",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762546156,
+    "t": "Les Saisons",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782762546163,
     "t": "Les Chouchoux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762546170,
+    "t": "Les Jouets",
     "h": 1,
     "e": 0
   },
@@ -1152,8 +4026,62 @@
     "e": 0
   },
   {
+    "i": 9782762546231,
+    "t": "Nounours et la grenouille",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762546262,
+    "t": "Tous ensemble",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782762546262,
+    "t": "Tous ensemble",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782762546279,
+    "t": "Essaie toi aussi",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782762546286,
+    "t": "Je partage",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782762546316,
+    "t": "Merci mon Dieu",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782762546330,
     "t": "Premie\u0300res prie\u0300res",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762546354,
+    "t": "Le Pe\u0300re Noe\u0308l",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762546569,
+    "t": "Chants de Noe\u0308l : livre musical",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762546590,
+    "t": "Jeu d'histoires",
     "h": 1,
     "e": 0
   },
@@ -1166,6 +4094,48 @@
   {
     "i": 9782762546651,
     "t": "Mini mousse",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762546729,
+    "t": "Simples objets : dis ce que tu vois",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762546736,
+    "t": "Nomme chaque chose : dis ce que tu vois",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762546743,
+    "t": "Couleurs : dis ce que tu vois",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762546750,
+    "t": "Objets familiers : dis ce que tu vois",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762546781,
+    "t": "Objets : dis ce que tu vois",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762546804,
+    "t": "Chiffres : dis ce que tu vois",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762546828,
+    "t": "Nounours et moi apprenons a\u0300 compter",
     "h": 1,
     "e": 0
   },
@@ -1188,8 +4158,92 @@
     "e": 0
   },
   {
+    "i": 9782762546965,
+    "t": "Additions et soustractions",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762546972,
+    "t": "Lecture et compre\u0301hension",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762546989,
+    "t": "Lettres et mots",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762546996,
+    "t": "Jeux et casse-te\u0302te",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762547337,
+    "t": "Les Couleurs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762547344,
+    "t": "Objets familiers",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762547351,
+    "t": "Les Contraires",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762547368,
+    "t": "Les Formes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762547375,
+    "t": "Animaux familiers",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762547382,
+    "t": "Comptines",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762547429,
+    "t": "Petits animaux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762547498,
+    "t": "C'est moi!",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762547504,
+    "t": "Ce que j'aime",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782762547511,
     "t": "Petit monde : 1-3 ans",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762547535,
+    "t": "Ou\u0300 est ma maison?",
     "h": 1,
     "e": 0
   },
@@ -1200,8 +4254,56 @@
     "e": 0
   },
   {
+    "i": 9782762547542,
+    "t": "Nounours chez lui",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762547559,
+    "t": "Fe\u0302te chez les animaux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762547566,
+    "t": "Jouets-- levez-vous!",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762547573,
+    "t": "J'apprends",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762547580,
+    "t": "Je m'amuse",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762547597,
+    "t": "J'observe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762547603,
+    "t": "J'ai du plaisir",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782762547627,
     "t": "Se\u0301rie Mon meilleur livre : 1-3 ans",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762547641,
+    "t": "Mon meilleur jour",
     "h": 1,
     "e": 0
   },
@@ -1212,8 +4314,44 @@
     "e": 0
   },
   {
+    "i": 9782762547719,
+    "t": "Le petit chaperon rouge : des illustrations a\u0300 comple\u0301ter",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762547726,
+    "t": "Blanche-Neige et les sept nains : des illustrations a\u0300 comple\u0301ter",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762547733,
+    "t": "La belle au bois dormant : des illustrations a\u0300 comple\u0301ter",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782762547740,
     "t": "Mosai\u0308que : des illustrations a\u0300 comple\u0301ter",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762547740,
+    "t": "Cendrillon : des illustrations a\u0300 comple\u0301ter",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762548167,
+    "t": "Be\u0301be\u0301s animaux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762548174,
+    "t": "Mon premier jour d'e\u0301cole",
     "h": 1,
     "e": 0
   },
@@ -1224,8 +4362,20 @@
     "e": 0
   },
   {
+    "i": 9782762548198,
+    "t": "Animaux de la ferme",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782762548204,
     "t": "Collection Petite abeille",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762548228,
+    "t": "Pa\u0302te a\u0300 ga\u0302teau, pa\u0302te a\u0300 ga\u0302teau",
     "h": 1,
     "e": 0
   },
@@ -1242,14 +4392,44 @@
     "e": 0
   },
   {
+    "i": 9782762548563,
+    "t": "Port-au-Fantome : choisis ta propre aventure : 9",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9782762548938,
     "t": "Collection Beaux yeux",
     "h": 1,
     "e": 1
   },
   {
+    "i": 9782762548938,
+    "t": "Les Amis de chaton",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782762548945,
+    "t": "Les Jouets en fe\u0302te",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9782762548976,
     "t": "Collection Comment font les animaux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762548983,
+    "t": "La Toilette des animaux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762548990,
+    "t": "Les Repas des animaux",
     "h": 1,
     "e": 0
   },
@@ -1266,14 +4446,134 @@
     "e": 0
   },
   {
+    "i": 9782762549096,
+    "t": "Les couleurs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762549102,
+    "t": "1-2-3",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762549119,
+    "t": "Be\u0301be\u0301 animaux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762549126,
+    "t": "Gros et petit",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762549256,
+    "t": "Nounours et moi nous jouons",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762549263,
+    "t": "Nounours et moi en promenade",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782762549393,
     "t": "Mes petits favoris",
     "h": 1,
     "e": 0
   },
   {
+    "i": 9782762549393,
+    "t": "Be\u0301be\u0301s animaux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762549409,
+    "t": "Couleurs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762549416,
+    "t": "Jouets",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762549423,
+    "t": "Les Mots",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762549447,
+    "t": "La Chatte vaniteuse",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782762549454,
     "t": "Petits coquins--",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762549454,
+    "t": "Le Faon peureux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762549461,
+    "t": "Le Chien curieux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782762549966,
+    "t": "Un cha\u0302teau fort",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782765040101,
+    "t": "Intersection mathe\u0301matiques Nouveau-Brunswick, 10e anne\u0301e : parcoursB et C",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782765044895,
+    "t": "Approche globale de la sante\u0301. Guide d'apprentissage de l'e\u0301le\u0300ve. Compe\u0301tence 2",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782765045434,
+    "t": "REAL : real English authentic learning. Grammar reference and practice 3. Teacher's edition",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782765046615,
+    "t": "Jeux pour mieux e\u0301crire les mots",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782765540960,
+    "t": "Mol\u00e9cules. Guide d'enseignement num\u00e9rique. [1er cycle du secondaire]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782766041800,
+    "t": "Simulation comptable : Auto Mirifique enr. : hiver 2019 ; 108",
     "h": 1,
     "e": 0
   }

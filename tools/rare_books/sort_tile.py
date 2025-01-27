@@ -134,6 +134,10 @@ def existence_check():
                     with rarebook_tile_path.open("w") as f:
                         json.dump(tile_data, f, indent=2)
                     logging.info(f"Tile {i}, {j} done")
+            else: 
+                #create an empty tile file
+                with rarebook_tile_path.open("w") as f:
+                    json.dump([], f, indent=2)
 
 
 if __name__ == "__main__":

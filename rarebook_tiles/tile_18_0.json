@@ -1,13 +1,445 @@
 [
   {
+    "i": 9780002180481,
+    "t": "French country wines",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780002180566,
+    "t": "The new Times cook book",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780002180634,
+    "t": "The Olympic Games 1984",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780002181273,
+    "t": "Wickets, catches and the odd run",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780002181587,
+    "t": "Square knits : over 30 easy-to-knit, classic styles",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780002181655,
+    "t": "Taking stock : over 75 years of the oxo cube : issued by Brooke Bond Oxo Ltd to commemorate the diamond jubilee of the oxo cube",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780002181785,
+    "t": "Out of the wilderness.",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780002182454,
+    "t": "Japan",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780002182478,
+    "t": "United States",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780002182492,
+    "t": "The football grounds of Great Britain",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780002182515,
+    "t": "The runner's guide",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780002183116,
+    "t": "World of tennis 1989",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9780002184007,
     "t": "Rules of the world",
     "h": 1,
     "e": 1
   },
   {
+    "i": 9780002184588,
+    "t": "The illustrated encyclopedia of golf.",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780002184618,
+    "t": "Golf companion",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780002184618,
+    "t": "Golf rules",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780002184618,
+    "t": "Golf games",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780002185158,
+    "t": "The complete book of game fishing.",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780002187022,
+    "t": "100 per cent golf",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780002188562,
+    "t": "Sky fantasy football handbook 1998/99",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780002189033,
+    "t": "Cricket World Cup 1999",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780002189125,
+    "t": "St. Andrews Open Championship, 1873-2000",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780002189163,
+    "t": "European Club football 1999/2000 pocket annual",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780002189408,
+    "t": "Off the record : my autobiography",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9780003187359,
     "t": "Practice in the basic skills : calculator mathematics",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780003187724,
+    "t": "Mathematics. 4 Answer book",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780007180899,
+    "t": "Caroline County, Maryland wills. Liber RJ #8, 1902-1907",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780007181056,
+    "t": "Little white lies",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780007181094,
+    "t": "California dreams",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780007181209,
+    "t": "KS1 times tables",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780007181391,
+    "t": "Collins English dictionary & thesaurus",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780007181506,
+    "t": "Lighthousekeeping",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780007181551,
+    "t": "Greater London street atlas",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780007181551,
+    "t": "Greater London : comprehensive edition",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780007181599,
+    "t": "Untitled",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780007181742,
+    "t": "In this house",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780007181940,
+    "t": "Street atlas London",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780007182022,
+    "t": "Collins desktop thesaurus A-Z",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780007182060,
+    "t": "Britain & Ireland",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780007182473,
+    "t": "Mia's world : the extraordinary power that changed two women's lives",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780007183234,
+    "t": "Look and learn play box",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780007183418,
+    "t": "In the jungle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780007183418,
+    "t": "In the jungle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780007183432,
+    "t": "On the go!",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780007183555,
+    "t": "Storybook",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780007183586,
+    "t": "The return of Zeebad : sticker scene book",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780007183784,
+    "t": "Collins express French dictionary",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780007184170,
+    "t": "Libra : 23 September - 23 October",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780007184194,
+    "t": "Teri King's astrological horoscopes for 2005. Aquarius",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780007184200,
+    "t": "Teri King's astrological horoscopes for 2005. Aries",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780007184217,
+    "t": "Teri King's astrological horoscopes for 2005. Cancer",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780007184248,
+    "t": "Teri King's astrological horoscopes for 2005. Pisces",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780007184255,
+    "t": "Teri King's astrological horoscopes for 2005. Sagittarius",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780007184347,
+    "t": "2005 RAC road atlas Britain",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780007184354,
+    "t": "London : the photographic atlas : with an introduction by Peter Ackroyd",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780007185276,
+    "t": "Witch-in-training : the last task",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780007186143,
+    "t": "Big cat : purple-unusul traditions",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780007189045,
+    "t": "My Tractor Tom Playbook : Find and fit the shapes to help Tractor Tom on the farm",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780007189632,
+    "t": "Noddy first words",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780007189663,
+    "t": "Starting to write and count with Noddy 2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780007189823,
+    "t": "How to get what you want without trying, Barefoot doctor",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780008180102,
+    "t": "Darkdawn ePub edition",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780008180997,
+    "t": "Christmas cheer : Willow Cottage Series, Book 2",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780008181383,
+    "t": "Italian grammar",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780008181390,
+    "t": "French grammar",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780008181444,
+    "t": "Italian verbs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780008183455,
+    "t": "Twirlywoos : in and out",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780008183639,
+    "t": "Collins German dictionary : pocket edition",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780008185107,
+    "t": "Ruby set - level 27-28/ruby/band 12",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780008682194,
+    "t": "\u0423\u0433\u043b\u0438\u0447 : [putevoditel\u02b9]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780009686801,
+    "t": "D-Day : the story of the longest day",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780015686055,
+    "t": "Proceedings 2001 : Amsterdam RAI Congress Centre, the Netherlands, 20-22 April, 2001 : Voorjaarsdagen : International Veterinary Congress",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780015686055,
+    "t": "Scientific proceedings, Voorjaarsdagen 2004",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780020180760,
+    "t": "\u5927\u660e\u7687\u5983\u2027\u5b6b\u82e5\u5fae\u50b3",
     "h": 1,
     "e": 0
   },
@@ -30,14 +462,56 @@
     "e": 0
   },
   {
+    "i": 9780024180100,
+    "t": "Introduction to organic chemistry",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9780024182722,
     "t": "Student's solutions manual to accompany Michael Sullivan's Trigonometry, third edition",
     "h": 1,
     "e": 0
   },
   {
+    "i": 9780024183064,
+    "t": "College algebra and trigonometry : binstructor's solutions manual to accompany Michael Sullivan's",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9780024183323,
     "t": "Student's solutions manual to accompany Michael Sullivan's college algebra",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780024185679,
+    "t": "Instructor's manual to accompany Quality : answers to selected chapter problems and cases",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780024187710,
+    "t": "Computers and information systems. Instructor's resource manual",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780024680402,
+    "t": "Consumer protection guide 1977",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780024681300,
+    "t": "ERIC : thesaurus of ERIC descriptors",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780026185011,
+    "t": "Design for safety",
     "h": 1,
     "e": 0
   },
@@ -54,16 +528,1342 @@
     "e": 1
   },
   {
+    "i": 9780027188608,
+    "t": "Dwellers in the wood : two poems",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780028180274,
+    "t": "Study guide for Night by Elie Wiesel",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028180397,
+    "t": "Study guide for ... And the Earth did not devour him by Toma\u0301s Rivera",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028180755,
+    "t": "Shanabu : daughter of the wind with related readings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028182308,
+    "t": "Answer key for mathematics for electricity/electronics",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9780028182704,
     "t": "Instructor's manual and key for Basic electronics : components, devices, circuits",
     "h": 1,
     "e": 0
   },
   {
+    "i": 9780028182971,
+    "t": "Grammar and language workbook. Annotated teacher's edition, Grade 10",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028183015,
+    "t": "Grammar and language workbook. Annotated teacher's edition, Grade 11",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028680064,
+    "t": "Children's literature review. excerpts from reviews, criticism, and commentary on books for children and young people",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780028680132,
+    "t": "Children's literature review. excerpts from reviews, criticism, and commentary on books for children and young people",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780028680156,
+    "t": "Children's Literature Review Volume 109",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780028680422,
+    "t": "Nineteenth-Century literature criticism. Volume 11",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028680446,
+    "t": "Nineteenth-Century literature criticism. Volume 13",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028680477,
+    "t": "Nineteenth-Century literature criticism. Volume 16",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028680484,
+    "t": "Nineteenth-Century Literature Criticism Volume 17",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028680569,
+    "t": "Nineteenth-Century literature criticism. Volume 25",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028680583,
+    "t": "Nineteenth-Century literature criticism. Volume 27",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028680620,
+    "t": "Nineteenth-Century literature criticism. Volume 31",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028680637,
+    "t": "Nineteenth-Century Literature Criticism Volume 32",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028680651,
+    "t": "Nineteenth-Century literature criticism. Volume 34",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028680675,
+    "t": "Nineteenth-Century literature criticism. Volume 36",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028680729,
+    "t": "Nineteenth-Century literature criticism. Volume 41",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028680750,
+    "t": "Nineteenth-Century literature criticism. Volume 44",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028680873,
+    "t": "Nineteenth-Century literature criticism. Volume 163",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028680873,
+    "t": "Nineteenth-Century literature criticism. Volume 163",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028680996,
+    "t": "Nineteenth-Century literature criticism. Volume 175",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780028681085,
+    "t": "Poetry criticism. Volume 1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780028681160,
+    "t": "Poetry criticism. Volume 9",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028681306,
+    "t": "Literature criticism from 1400 to 1800. Volume 2",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028681313,
+    "t": "Literature criticism from 1400 to 1800. Volume 3",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028681368,
+    "t": "Literature criticism from 1400 to 1800. Volume 8",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028681375,
+    "t": "Literature Criticism from 1400 to 1800 Volume 9",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028681429,
+    "t": "Literature Criticism from 1400 to 1800 Volume 14",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780028681474,
+    "t": "Literature criticism from 1400 to 1800. Volume 19",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028681498,
+    "t": "Literature criticism from 1400 to 1800. Volume 21",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028681498,
+    "t": "Literature Criticism from 1400 to 1800 Volume 21",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028681573,
+    "t": "Unknown Title",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028681672,
+    "t": "Literature criticism from 1400 to 1800. Volume 126",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028681740,
+    "t": "Shakespearean criticism. Volume 2",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028681788,
+    "t": "Shakespearean criticism. Volume 6",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780028681849,
+    "t": "Shakespearean Criticism Volume 12",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780028681948,
+    "t": "Shakespearean criticism. Volume 22",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780028681962,
+    "t": "Shakespearean Criticism Volume 24",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780028682006,
+    "t": "Shakespearean criticism. Volume 94",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028682044,
+    "t": "Shakespearean criticism. Volume 98",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028682150,
+    "t": "Short story criticism. Volume 8",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780028682167,
+    "t": "Short story criticism. Volume 9",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780028682211,
+    "t": "Short story criticism. Volume 14",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780028682235,
+    "t": "Short Story Criticism Volume 16",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028682273,
+    "t": "Short Story Criticism Volume 85",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028682303,
+    "t": "Short story criticism. Volume 88",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028682341,
+    "t": "Short story criticism. Volume 92",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028682365,
+    "t": "Short story criticism. Volume 94",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780028682402,
+    "t": "Twentieth-Century literary criticism. Volume 1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780028682419,
+    "t": "Twentieth-Century literary criticism. Volume 2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780028682501,
+    "t": "Twentieth-Century Literary Criticism Volume 11",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028682600,
+    "t": "Twentieth-Century Literary Criticism Volume 21",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028682662,
+    "t": "Twentieth-Century literary criticism. Volume 27",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028682778,
+    "t": "Twentieth-Century literary criticism. Volume 38",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780028682785,
+    "t": "Twentieth-Century literary criticism. Volume 39",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780028682822,
+    "t": "Twentieth-Century literary criticism. Volume 43",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780028683034,
+    "t": "Twentieth-Century literary criticism. Volume 173",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780029180709,
+    "t": "Diplomacy : new approaches in history, theory, and policy",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780029183410,
+    "t": "The politics of inclusion",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780029183809,
+    "t": "Teaching social studies in the secondary school",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780029184400,
+    "t": "The writings of Melanie Klein. . Volume III. : Envy and gratitude and other works, 1946-1963",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780029184905,
+    "t": "Tough change : growing up on your own in America",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780029184905,
+    "t": "Tough change : growing up on your own in America",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780029184905,
+    "t": "Tough change : growing up on your own in America",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780030180071,
+    "t": "Management : video series",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780030180088,
+    "t": "Management : including Daft instructor's manual and PowerPoint presentation slides",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780030180491,
+    "t": "Exercise workbook SD2000",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780030181948,
+    "t": "Instructor's manual and test bank to accompany Managerial accounting : an introduction to concepts, methods, and uses",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780030182518,
+    "t": "Agatha Christie : first lady of crime / edited by H. R. F. Keating",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9780030183782,
     "t": "Introduction to statistics : a companion approach : with selected chapters from Introductory statistics to the behavioral sciences, fourth edition",
     "h": 1,
     "e": 0
+  },
+  {
+    "i": 9780030681431,
+    "t": "Oxidation, reduction, and electrochemistry. Chapter resource file 17",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780030683312,
+    "t": "Holt qui\u0301mica. Study guide",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780030683329,
+    "t": "Holt qui\u0301mica. Assessments",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780030683442,
+    "t": "Ciencias del medio ambiente : assessments",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780030685286,
+    "t": "Holt chemistry. Audio CD summaries",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780030687129,
+    "t": "Elements of language. fifth course",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780043680032,
+    "t": "<<The>> economics of unemployment insurance",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780046680015,
+    "t": "Introduction to plastics",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780060182175,
+    "t": "Atticus",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780060182564,
+    "t": "Underboss : Sammy the Bull Gravano's story of life in the Mafia",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780060182625,
+    "t": "The abduction : a novel",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780060182687,
+    "t": "Power of a woman",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780060182946,
+    "t": "Mara and Dann : an adventure",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780060183455,
+    "t": "The Carpenters : the untold story : an authorized biography",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780060183615,
+    "t": "Growing up Republican : Christie Whitman, the politics of character",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780060184957,
+    "t": "Pride, prejudice and Jasmin Field",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780060184964,
+    "t": "Give me your heart : the John Fante reader",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780060185077,
+    "t": "The vendetta defense : Rosato & Associates Series, Book 6",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780060185077,
+    "t": "The vendetta defense : Rosato & Associates Series, Book 6",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780060185251,
+    "t": "Faithless tales of transgression",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780060185527,
+    "t": "To cut a long story short",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780060185596,
+    "t": "The Vendetta defence (LP)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780060185701,
+    "t": "The Reluctant Suitor",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780060185824,
+    "t": "365 : Aiga year in design. Vol. 21",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780060186364,
+    "t": "The highly selective dictionary of golden adjectives",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780060187095,
+    "t": "When a parent has cancer : a guide to caring for your children ; includes the children's book: Becky and the worry cup",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780060187460,
+    "t": "Rough justice : Rosato and associates, book 3",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780060187460,
+    "t": "Rough justice : Rosato and associates, book 3",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780060187460,
+    "t": "Rough justice : Rosato and associates, book 3",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780060187460,
+    "t": "Rough justice : Rosato and associates, book 3",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780060187477,
+    "t": "Mistaken identity : Rosato & Associates Series, Book 4",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780060187477,
+    "t": "Mistaken identity : Rosato & Associates Series, Book 4",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780060188764,
+    "t": "Pound for Pound",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780060188863,
+    "t": "Minutes to burn",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780060188887,
+    "t": "The Promise in a Kiss #1 : Cynster Family",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780060688264,
+    "t": "The presence of other worlds; the psychological/spiritual findings of Emanuel Swedenborg",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780060688318,
+    "t": "The meaning of Christmas",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780061180040,
+    "t": "The coast of summer : sailing New England waters from Shelter Island to Cape Cod",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780061180194,
+    "t": "Diaries. 2 : the sixties : 1960-1969",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780061189548,
+    "t": "Superalimentos Rx : catorce alimentos que le cambiara\u0301n la vida",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780061684128,
+    "t": "Transactional analysis after Eric Berne : teachings and practices of three TA schools",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780061684340,
+    "t": "In the cockpit II : inside 50 history-making aircraft of World War II",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780061684357,
+    "t": "Damage control / 9 Discs a novel of suspense",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780061685354,
+    "t": "Ramona and her father. Bk. 4",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780061686214,
+    "t": "The big time. (Football genius, vol. 4.)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780061689475,
+    "t": "Vampire kisses 8 : cryptic cravings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780061689581,
+    "t": "All we know",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780061689772,
+    "t": "Ice Age : dawn of the dinosaurs : All in the family (Level 3)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780061689789,
+    "t": "Ice age: dawn of the dinosaurs : Momma Mix-Up",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780061689840,
+    "t": "2008 : Figures in silk",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062183903,
+    "t": "The Temptation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780062184061,
+    "t": "It worked for me in life and leadership",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062188045,
+    "t": "Fancy Nancy's Fabulously Fancy Treasury",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780062188878,
+    "t": "Ride like the wind Berenstain Bears Chapter Book",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062189752,
+    "t": "Flat Stanley : show-and-tell, Flat Stanley! : Level 2",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062189868,
+    "t": "Framed in France [eBook - NC Kids Digital Library] : Flat Stanley's Worldwide Adventures Series, Book 11",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062189875,
+    "t": "Flat Stanley's: Showdown at the Alamo",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062189875,
+    "t": "Flat Stanley's: Showdown at the Alamo",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062189912,
+    "t": "Escape to California. #12",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062189912,
+    "t": "Escape to California. #12",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062189912,
+    "t": "Escape to California",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062680174,
+    "t": "Beneath the mountain : a novel",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062680174,
+    "t": "Beneath the mountain : a novel",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062680174,
+    "t": "Beneath the Mountain",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062680341,
+    "t": "Evangeline of the bayou",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062680341,
+    "t": "Evangeline of the bayou",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062682796,
+    "t": "The shadow cipher",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780062683526,
+    "t": "The long-lost home",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780062684073,
+    "t": "Own the day, own your life : optimized practices for waking, working, learning, eating, training, playing, sleeping, and sex",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062684134,
+    "t": "What should be wild : a novel",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062684196,
+    "t": "Peculiar ground : a novel",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062684226,
+    "t": "The home for unwanted girls : a novel",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062684400,
+    "t": "Hiddensee [eBook - NC Digital Library] : A novel",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062684448,
+    "t": "Play by play : calling the wildest games in sports-- from SEC football to college basketball, the Masters, and more",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062684455,
+    "t": "Don't skip out on me : a novel",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062684516,
+    "t": "Overkill. 13 / Alex Hawke",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062684516,
+    "t": "Overkill. 13 / Alex Hawke",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062684929,
+    "t": "Unbelievable : my front-row seat to the craziest campaign in American history",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062685278,
+    "t": "Suggested reading",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062685315,
+    "t": "Nobody Knows but You",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062686145,
+    "t": "Two dark reigns. bk. 3 : Three dark crowns series",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062686145,
+    "t": "Two Dark Reigns / Bk. 3 / Three Dark Crowns",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062686145,
+    "t": "Two dark reigns",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062686145,
+    "t": "Two dark reigns",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062686145,
+    "t": "Two dark crowns",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062686442,
+    "t": "The best seat in the first grade",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062686459,
+    "t": "The best seat in the first grade",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062688033,
+    "t": "One Dark Throne",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780062688071,
+    "t": "The body in the casket",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062688071,
+    "t": "The body in the casket A Faith Fairchild Mystery",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062688071,
+    "t": "The body in the casket (Faith Fairchild mystery, #24)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062688071,
+    "t": "The body in the casket : (Faith Fairchild #24)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062688071,
+    "t": "The body in the casket",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062688071,
+    "t": "The body in the casket (Faith Fairchild mystery, #24)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062688170,
+    "t": "Proof of life : a J. P. Beaumont novel",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062688170,
+    "t": "Proof of life : a J. P. Beaumont novel",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062688170,
+    "t": "Proof of Life",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062688590,
+    "t": "Timeless. bk. 1 : Drizzt series",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062688774,
+    "t": "Your Duck Is My Duck : Stories",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062689177,
+    "t": "The betrothed",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780062689320,
+    "t": "On a mission for her majesty",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780062689443,
+    "t": "What Matters Most : The Get Your Shit Together Guide to Wills, Money, Insurance, and Life's What-ifs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780062689528,
+    "t": "Paddington's finest hour",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780062689801,
+    "t": "Eventown",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780062689856,
+    "t": "One Jar of Magic",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780063180031,
+    "t": "World markets of tomorrow : economic growth, population trends, electricity and energy, quality of life",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780063180130,
+    "t": "Regional analysis and development",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780063180383,
+    "t": "Theory and practice of education : an introduction",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780063180420,
+    "t": "The chemistry of phosphorus : environmental, organic, inorganic, biochemical and spectroscopic aspects",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780063181199,
+    "t": "Children learning geometry : foundation activities in shape (5-9) : a handbook for teachers",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780063182080,
+    "t": "Lippincott manual of medical-surgical nursing. Vol.2",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780063182462,
+    "t": "Caring for mentally handicapped people in the community",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780063182509,
+    "t": "Issues in education : a comparative analysis",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780063182554,
+    "t": "The patient with a locomotor disorder",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780063182660,
+    "t": "School-based curriculum development",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780063182745,
+    "t": "The patient with a psychiatric disorder",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780063182813,
+    "t": "Southern Europe transformed : political and economic change in Greece, Italy, Portugal and Spain",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780063182868,
+    "t": "Pain : a handbook for nurses",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780063183018,
+    "t": "Current issues in auditing",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780063183247,
+    "t": "Teaching and learning primary science",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780063183254,
+    "t": "Primary education : a sourcebook for teachers",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780063183353,
+    "t": "Global shift : industrial change in a turbulent world",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780063183452,
+    "t": "Primary education : structure and context",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780063183469,
+    "t": "Cognitive-behavioural approaches to psychotherapy",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780063183650,
+    "t": "Disruptive behaviour : a sourcebook for teachers",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780067181256,
+    "t": "A beggar in Jerusalem",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780067181256,
+    "t": "A beggar in Jerusalem",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780070180048,
+    "t": "Three weeks to better kids : \"making rules that stick\" and \"discipline with a smile\"",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780070181977,
+    "t": "PHAR1821 Social pharmacy",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780070182288,
+    "t": "Guide to pension and profit sharing plans taxation, selection, and design",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780070182387,
+    "t": "Solutions manual to accompany Dunham and Young's contracts, specifications, and law for engineers",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780070182677,
+    "t": "The shock of the new; seven historic exhibitions of modern art",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780070183124,
+    "t": "Quality assurance for computer software",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780070183124,
+    "t": "Quality assurance for computer software",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780070183308,
+    "t": "Probability, signals, noise. (Probabilite\u0301s, signaux, bruits. Rev., upd.)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780070183919,
+    "t": "Data administration : a practical guide to successful data management",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780070184077,
+    "t": "The ceaseless wind : an introduction to the theory of atmospheric motion",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780070184190,
+    "t": "Ice cubes / Teacher's guide",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780070185203,
+    "t": "Geo blocks",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780070185265,
+    "t": "Peas and particles : large numbers and estimations",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780070185289,
+    "t": "Elementary science study",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780070185579,
+    "t": "Solutions manual to accompany Solid mechanics : a variational approach",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780070188648,
+    "t": "The understanding of the brain",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780070680128,
+    "t": "Railway Track Engineering, Fourth Edition",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780070680128,
+    "t": "Railway Track Engineering, Fourth Edition",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780070681514,
+    "t": "Workbook to accompany introduction to linguistics",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780070681538,
+    "t": "Structural materials for harbor and coastal construction",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780070683051,
+    "t": "Thermodynamics",
+    "h": 1,
+    "e": 1
   },
   {
     "i": 9780070683112,
@@ -78,10 +1878,40 @@
     "e": 0
   },
   {
+    "i": 9780070683150,
+    "t": "New profits for old buildings ...",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780070683150,
+    "t": "New profits from old buildings : private enterprise approaches to making preservation pay",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780070684430,
+    "t": "The wondrous mushroom : mycolatry in Mesoamerica",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780070685710,
+    "t": "Learning with Apple Logo",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9780070686649,
     "t": "Modular mathematics for TASP",
     "h": 1,
     "e": 0
+  },
+  {
+    "i": 9780070689008,
+    "t": "Accounting 10/12",
+    "h": 1,
+    "e": 1
   },
   {
     "i": 9780070689237,
@@ -90,14 +1920,368 @@
     "e": 0
   },
   {
+    "i": 9780071180771,
+    "t": "Integrated principles of zoology",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780076186143,
+    "t": "SRA math skillbuilder",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780076188956,
+    "t": "SRA Earth science laboratory : Grade 5-8",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780076188956,
+    "t": "SRA Physical science laboratory : Grade 5-8",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780076681082,
+    "t": "United States Government : Our Democracy",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780078681523,
+    "t": "Journey Across Time",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780078684197,
+    "t": "Pre-algebra. Noteables interactive study notebook with foldables",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780078686603,
+    "t": "Muse\u0301e de l'art",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780078686641,
+    "t": "Museo de arte",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780078688294,
+    "t": "Glencoe accounting : first year course",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780080180007,
+    "t": "The 'read about it' series by O.B. Gregory. Books 1-24 : Geography topics. Book 21. Firemen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780080180090,
+    "t": "The neural basis of brain-stimulation reward",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780080180212,
+    "t": "Visual geographies / Unit 5., Asia (excluding the USSR) / maps and diagrams by David Cox / line drawings by Tony Williams",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780080180359,
+    "t": "Mammals of long ago",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780080180489,
+    "t": "Wheaton cookery cards. Basic methods",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780080180502,
+    "t": "A dictionary of literature in the English language from 1940 to 1970. Comp., ed. by Robin Myers",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780080180793,
+    "t": "Fission fusion and the energy crisis : [by] S.E. Hunt. [1st ed.]",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780080180809,
+    "t": "The fundamentals of corrosion",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780080180816,
+    "t": "The fundamentals of corrosion",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780080180878,
+    "t": "Job's illness : loss, grief, and integration : a psychological interpretation",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780080180885,
+    "t": "Tormento",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780080180885,
+    "t": "Tormento",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780080181004,
+    "t": "Microchemical analysis of nervous tissue",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780080181202,
+    "t": "Government in the economy",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780080181356,
+    "t": "The psychology of learning; an introduction for students of education",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780080181561,
+    "t": "Aeration of activated sludge in sewage treatment",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780080181707,
+    "t": "Reproductive endocrinology; hormone relations and the physiopathology of pregnancy, hormone investigations, hypothalamic - hypophyseal relations; proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780080182339,
+    "t": "Protides of the biological fluids 22. 1974. Brugge 1974",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780080182360,
+    "t": "Australia yesterday",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780080182605,
+    "t": "The 'read about it' series by O.B. Gregory. Books 25-48 : Historical topics. Book 41. Motor cars",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780080182612,
+    "t": "The 'read about it' series by O.B. Gregory. Books 25-48 : Historical topics. Book 42. Aeroplanes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780080182681,
+    "t": "Thinking about retirement",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780080182759,
+    "t": "Evolution of the bioenergetic processes",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780080182759,
+    "t": "The evolution of the bioenergetic processes",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780080187563,
+    "t": "Interpersonal communication",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780080187679,
+    "t": "Perspectives in experimental biology : Proceedings. 1 Zoology",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9780080189482,
     "t": "The argon ion laser",
     "h": 1,
     "e": 0
   },
   {
+    "i": 9780080189581,
+    "t": "The ultrastructure of the animal cell. 2. ed",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780080189659,
+    "t": "The germination of seeds. 2. ed",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780091181604,
+    "t": "Tackle bridge",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780091185701,
+    "t": "The money motive : a study of an obsession",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780091686710,
+    "t": "The monocled mutineer : [the BB-TV script] ; adapted from the book by William Allison and John Fairley ; [director: Jim O'Brien]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780092181405,
+    "t": "Bristol colour map",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780092181504,
+    "t": "Bristol & Bath",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780092182204,
+    "t": "Manchester with Altrincham, Ashton-under-Lyne, Bolton, Bury, Eccles, Oldham, Rochdale, Stockport atlas",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780094680807,
+    "t": "The last of England",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780094681408,
+    "t": "George Blake : superspy",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780094682801,
+    "t": "Pigeon holes of memory : the life and times of Dr. John Mackenzie (1803-1886)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780094688902,
+    "t": "The spoils of time",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780099180500,
+    "t": "Playground",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780099182207,
+    "t": "Carry on Emmannuelle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780099182702,
+    "t": "Salaparane teenija",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780099684312,
+    "t": "The Wexford collection",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780099685807,
+    "t": "Michael Collins : a biography / Tim Pat Coogan : a biography",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780101180122,
+    "t": "Exchange of notes between the Government of the United Kingdom of Great Britain and Northern Ireland and the Government of the Kingdom of the Netherlands concerning the implementation of the Treaty for the mutual surrender of fugitive criminals, signed at London on 26 September 1898, with respect to Hong Kong",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780101184328,
+    "t": "Accounts of the Northern Ireland Housing Executive : for the year ended 31 March 1991, together with the report of the Comptroller and Auditor General thereon",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780101184823,
+    "t": "Report on the effect of death on damages : report submitted under section 3(1)(e) of the Law Commissioners Act 1965",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780101186223,
+    "t": "Review body for nursing staff, midwives, health visitors and professions allied to medicine: report on senior nurses and midwives 1992: chairman : Michael Bett",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9780101680004,
     "t": "Review body on doctors' and dentists' remuneration : seventh report, 1977",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780101680004,
+    "t": "Seventh report, 1977",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780101680301,
+    "t": "Public boards : list of members of public boards of a commercial character : with salaries, together with a list of those holding more than one appointment",
     "h": 1,
     "e": 0
   },
@@ -114,14 +2298,44 @@
     "e": 0
   },
   {
+    "i": 9780101682824,
+    "t": "Annual report 2006 : Department for Culture, Media and Sport Departmental annual report 2006",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780101683104,
+    "t": "Liability for defective products : report on a reference under section 3(1) (e) of the Law Commissions act 1965",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9780101683203,
     "t": "Resolution of the Twenty-sixth World Health Assembly amending articles 34 and 55 of the constitution of the World Health Organization adopted on 22 May, 1973, Geneva, 24 May 1973",
     "h": 1,
     "e": 0
   },
   {
+    "i": 9780101683708,
+    "t": "Statement on the non-statutory inquiry by the Baroness Sharp into the continued use of Dartmoor for military training : presented to parliament ... June 1977",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780101684309,
+    "t": "Exchange of notes between the Government of the United Kingdom of Great Britain and Northern Ireland and the Government of the Republic of Finland further extending the extradition treaty, signed at London on 29 October 1975, to the Solomon Islands",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9780101685702,
     "t": "Exchange of notes between the Government of the United Kingdom of Great Britain and Northern Ireland and the Provisional Military Government of Socialist Ethiopia for the avoidance of double taxation on profits derived from air transport, Addis Ababa, 1 February 1977",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780101687706,
+    "t": "Report on the work of the Prison Department . 1976",
     "h": 1,
     "e": 0
   },
@@ -162,8 +2376,44 @@
     "e": 0
   },
   {
+    "i": 9780102182002,
+    "t": "Complaint against Mr Stephen Timms : sixth report",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780102182866,
+    "t": "Lord Chancellor's Department : provision of legal aid in England and Wales",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780102182958,
+    "t": "Votes A . 1995-96 for the year ending 31st March 1996",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780102182989,
+    "t": "Sixteenth report, Session 1997-98, together with the Proceedings of the Committee on 11 February 1998 ...",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780102183009,
+    "t": "Tenth report, together with the proceedings of the Committee on 1 March 2000 ...",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9780102183948,
     "t": "Insolvency Act 1986 accounts, 1992-93 : statements ... of the sums received and paid by the Secretary of State for Trade and Industry ... and of the sums credited and debited to the Investment Account by the National Debt Commissioners for the year ended 31 March 1993, together with the report of the Comptroller and Auditor General thereon ..",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780102184006,
+    "t": "Work permits for overseas footballers : minutes of evidence, Wednesday 2 February 2000 ...",
     "h": 1,
     "e": 0
   },
@@ -180,8 +2430,56 @@
     "e": 0
   },
   {
+    "i": 9780102186000,
+    "t": "Business, enterprise and the Budget : seventh report",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780102186765,
+    "t": "Special report from the Select Committee on Science and Technology, session 1975-76. 1st",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9780102186949,
     "t": "Minutes of proceedings on the Sunday Trading Bill : (except Clauses Nos. 1 and 2 and Schedule No. 4) and new Clauses and new Schedules relating to the employment of shop workers",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780102187984,
+    "t": "Government reply to the third report from the Home Affairs Committee, Session 1996-97 : Freemasonry in the police and the judiciary : first special report",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780102188011,
+    "t": "Wales in the world ; the role of the UK government in promoting Wales abroad : First report, Welsh Affairs Committee, session 2000-01. Report together with the proceedings of the Committee, minutes of evidence and appendices",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780102188936,
+    "t": "United Kingdom peacekeeping and intervention forces : fourth report [from the] Defence Committee, session 1992-93 : report, together with the proceedings of the Committee relating to the report, minutes of evidence and memoranda",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780102188936,
+    "t": "4th report [session 1992-93] : United Kingdom peacekeeping and intervention forces : report, together with the proceedings of the committee relating to the report, minutes of evidence and memoranda",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780102188950,
+    "t": "14th report [session 1994-95] : Ministry of Defence : management of telephones : together with the proceedings of the Committee relating to the report, and the minutes of evidence",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780102189001,
+    "t": "Current problems relating to the livestock industry in Northern Ireland : second report",
     "h": 1,
     "e": 0
   },
@@ -192,8 +2490,26 @@
     "e": 0
   },
   {
+    "i": 9780102189841,
+    "t": "Seventh report and statement of accounts of the Fair Employment Agency for Northern Ireland : 1 April 1982 to 31 March 1983 : together with the report of the Comptroller and Auditor General : presented to Parliament pursuant to section 1(2) of, and paragraphs 13 and 14 of Schedule 1 to the Fair Employment (Northern Ireland) Act 1976",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780102189865,
+    "t": "Property Services Agency : court accommodation programme for the Lord Chancellor's Department",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9780102189940,
     "t": "British Museum Account 1992-93 : account of the British Museum for the year ended 31 March 1993, together with the report of the Comptroller and Auditor general thereon ..",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780102189957,
+    "t": "Mental incapacity : Item 9 of the Fourth Programme of Law Reform : Mentally Incapacitated Adults",
     "h": 1,
     "e": 0
   },
@@ -288,6 +2604,12 @@
     "e": 0
   },
   {
+    "i": 9780102687804,
+    "t": "Economic, social and health implications for the United Kingdom of the Common Agricultural Policy on milk and dairy products : first report from the Agriculture Committee, session 1979-80, together with the proceedings of the Committee, minutes of evidence and appendices. Vol. 3, Appendices",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9780102688931,
     "t": "Inland Revenue, inheritance tax : sixtieth report",
     "h": 1,
@@ -300,8 +2622,26 @@
     "e": 0
   },
   {
+    "i": 9780102689884,
+    "t": "Department of the Environment : Derelict Land Grant",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9780103184937,
     "t": "A Bill to amend sections 1 and 29 of the Criminal Justice Act 1991 to enable the Courts to take account of relevant factors when dealing with custodial sentences and related matters",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780103185811,
+    "t": "Iron and steel bill : Lords amendments",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780103185903,
+    "t": "Gaming Machines (Prohibition on Use by Persons Under Eighteen) Bill",
     "h": 1,
     "e": 0
   },
@@ -318,8 +2658,44 @@
     "e": 0
   },
   {
+    "i": 9780104180853,
+    "t": "Transport Bill",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9780104185766,
     "t": "Public lending right bill (H.L.) : (as amended on report)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780104188804,
+    "t": "Genetic manipulation (DNA). With minutes of evidence",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780104684801,
+    "t": "Report of the Select Committee on the Laboratory Animals Protection Bill (H.L.). Volume II-- minutes of evidence and appendices",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780110186313,
+    "t": "The British Indian Ocean territory (amendment) order, 1981 (Nov 24, 1981)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780110186764,
+    "t": "The Genetically Modified Organisms (Contained Use) Regulations 2000",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780110186900,
+    "t": "Town and Country Planning (Environmental Impact Assessment) (England and Wales) (Amendment) Regulations 2000",
     "h": 1,
     "e": 0
   },
@@ -332,6 +2708,12 @@
   {
     "i": 9780110682914,
     "t": "The Children's Hearings (Scotland) Rules 1986 : 1986 No. 2291 (S. 167)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780110685182,
+    "t": "Victoria letters patent passed under the Great Seal of the Realm ... making new provision for the office of Governor of the State of Victoria",
     "h": 1,
     "e": 0
   },
@@ -354,10 +2736,310 @@
     "e": 0
   },
   {
+    "i": 9780120181490,
+    "t": "Madame de Stae\u0308l et les e\u0301tudes fe\u0301minines ; and, Autour de Madame Necker",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780120181506,
+    "t": "Annales Benjamin Constant. 30",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780120188253,
+    "t": "Theory of climate : Proceedings of a symposium commemorating the 200. anniversary of the Academy of Sciences of Lisbon, October 12-14, 1981, Lisbon",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780120188291,
+    "t": "Advances in geophysics. V.29",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780120188406,
+    "t": "Long-Range Persistence in Geophysical Time Series. Vol. 40",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780121185039,
+    "t": "Processing",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780122689604,
+    "t": "Algebraic number fields (L-functions and Galois properties) : proceedings of a symposium held from 2 to 12 September 1975 in the University of Durham",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780123183507,
+    "t": "Statistical theory of sampling inspection by attributes",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780123188618,
+    "t": "Quantifying sustainable development : the future of tropical economies",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780123688453,
+    "t": "Local quantum theory : Proceedings of the International School of Physics \"Enrico Fermi\" ; Varenna on Lake Como, Villa Monastero, 12th -24th August 1968 = Teoria quantistica locale",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780123688484,
+    "t": "Physics of high energy density : proceedings of the International School of Physics 'Enrico Fermi', course XLVIII, Varenna on Lake Como, 14th-26th July 1969",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780123688491,
+    "t": "Foundations of quantum mechanics : proceedings=fondamenti di meccanica quantistica / Edited by B. D'Espagnat",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780123688491,
+    "t": "Rendiconti della Scuola Internazionale di Fisica \"Enrico Fermi\". 49. Corso. Varenna sul Lago di Como, 29 giugno - 11 luglio 1970. Fondamenti di meccanica quantistica. A cura di B. d Espagnat. - Foundations of quantum mechanics",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780124186774,
+    "t": "Imaging of the human brain in health and disease",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780124186828,
+    "t": "The Synapse",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780125180511,
+    "t": "Aging with HIV : psychological, social, and health issues",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780125184014,
+    "t": "Nitrogen in the environment",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780125186506,
+    "t": "Virus-transformed cell membranes",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780125681506,
+    "t": "Dynamic Programming and its Applications : International Symposium : Papers",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780125683005,
+    "t": "Handbook of animal science. Ed. by Paul A. Putnam",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780125684019,
+    "t": "The plasma proteins. Structure, function, and genetic control. 2. ed. Vol. 1. Ed. by Frank W. Putnam",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780125684026,
+    "t": "The plasma proteins. Structure, function, and genetic control. 2. ed. Vol. 2. Ed. by Frank W. Putnam",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780125684033,
+    "t": "The plasma proteins. Structure, function, and genetic control. 2. ed. Vol. 3. Ed. by Frank W. Putnam",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780126181500,
+    "t": "Linguistic style and persuasion",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780126186017,
+    "t": "Organic functional group preparations",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780126186208,
+    "t": "Dynamic NMR spectroscopy",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780126189407,
+    "t": "Horizons of bioenergetics : proceedings of a symposium held at Bloomington, Indiana, October 12-15, 1970",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780126189803,
+    "t": "Biochemical and photosynthetic aspects of energy production",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780126686098,
+    "t": "Plant physiology : a treatise / 6,3=6C. From seeds to sexuality. 1972",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780126686098,
+    "t": "Plant physiology, V.1X",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780127187501,
+    "t": "Social incentives : a life-span developmental approach",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780128180082,
+    "t": "Automotive Plastics and Composites",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780128180136,
+    "t": "Community mental health engagement with racially diverse populations",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780128180297,
+    "t": "Automation and its macroeconomic consequences : theory, evidence, and social impact",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780128181461,
+    "t": "Big Data Analytics for Intelligent Healthcare Management",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780128181744,
+    "t": "Weed Science",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780128182758,
+    "t": "Design and Optimization of Innovative Food Processing Techniques Assisted by Ultrasound",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780128183397,
+    "t": "Water Conservation and Wastewater Treatment in BRICS Nations",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780128183878,
+    "t": "Emerging 2D Materials and Devices for the Internet of Things Information, Sensing and Energy Applications : Information, Sensing and Energy Applications",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780128184608,
+    "t": "Present Knowledge in Nutrition (Eleventh Edition)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780128185032,
+    "t": "Heat Transfer Engineering",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780128185612,
+    "t": "Tissue Barriers in Disease, Injury and Regeneration",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780128185612,
+    "t": "Tissue Barriers in Disease, Injury and Regeneration",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780128186718,
+    "t": "Tumor immunology and immunotherapy - molecular methods",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780128186732,
+    "t": "Tumor immunology and immunotherapy : cellular methods",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780128187791,
+    "t": "Management of IOT Open Data Projects in Smart Cities",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780128188552,
+    "t": "Progress in molecular biology and translational science",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780128189399,
+    "t": "Data democracy : at the nexus of artificial intelligence, software development, and knowledge engineering",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780128189580,
+    "t": "Atlas of the Pig Gut",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9780130180452,
     "t": "Otto Kleppner's Advertising procedure. Instructor's manual with tests, Canadian eighth edition",
     "h": 1,
     "e": 0
+  },
+  {
+    "i": 9780130181961,
+    "t": "North Star : focus on listening and speaking, introductory, tearcher\u03bcs manual and archievement tests",
+    "h": 1,
+    "e": 1
   },
   {
     "i": 9780130182845,
@@ -372,6 +3054,12 @@
     "e": 0
   },
   {
+    "i": 9780130183286,
+    "t": "Managing projects in business and technology",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9780130183347,
     "t": "Macroeconomics. Study guide",
     "h": 1,
@@ -382,6 +3070,120 @@
     "t": "Modern management in Canada, quality, ethics and the global environment, fourth edition, Samuel C. Certo, Steven H. Appelbaum and Barbara Shapiro. Instructor's manual",
     "h": 1,
     "e": 0
+  },
+  {
+    "i": 9780130184337,
+    "t": "International business : environments and operations",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780130185075,
+    "t": "Introductory sociology. Volume XIII",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780130185099,
+    "t": "Introductory sociology. Volume XIV",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780130186102,
+    "t": "Management, 1/C/e. Chapters 1-15",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780130186188,
+    "t": "Management : leading people and organizations in the 21st century, Canadian edition. Instructor's resource manual",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780130186218,
+    "t": "Management leading people and organizations in the 21st century, Canadian edition. Colour acetates",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780130186232,
+    "t": "Management : leading people and organizations in the 21st century, Canadian edition.",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780130186232,
+    "t": "Management : leading people and organizations in the 21st century, Canadian edition. Electronic transparencies PowerPoint",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780130186263,
+    "t": "The law and business administration in Canada, ninth edition. Instructor's resource manual",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780130186270,
+    "t": "The law and business administration in Canada, ninth edition. Test item file",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780130186287,
+    "t": "The law and business administration in Canada, 9/e. Chapters 1-34",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780130682512,
+    "t": "Prentice Hall Literature Silver : [selecciones en espan\u0303ol]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780130684059,
+    "t": "Biology of microorganisms : text item file",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780130684202,
+    "t": "Bed & breakfast guide : East Coast",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780130686299,
+    "t": "Practice & assess. Teacher's guide : test preparation : algebra 1, geometry & algebra 2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780130686398,
+    "t": "Geometry. Reading and math literacy masters",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780130686466,
+    "t": "Geometri\u0301a. Recursos para la evaluacio\u0301n",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780130686473,
+    "t": "Geometri\u0301a. Cuaderno de pra\u0301ctica",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780130686480,
+    "t": "Algebra 2. Reading and math literacy masters",
+    "h": 1,
+    "e": 1
   },
   {
     "i": 9780130689252,
@@ -420,8 +3222,50 @@
     "e": 0
   },
   {
+    "i": 9780131184237,
+    "t": "New revised Cambridge GED program. Teachers guide for Social studies",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780131184756,
+    "t": "HIPAA health : the privacy rule and health care practice",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780131186101,
+    "t": "The convergence of race, ethnicity, and gender : multiple identities in counseling",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780131188273,
+    "t": "Fundamentals of material science",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9780131188365,
     "t": "Instructor's guide to Cases in marketing",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780131189270,
+    "t": "Cases in marketing research",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780131189287,
+    "t": "Research methods for criminal justice and criminology",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780131681156,
+    "t": "Business Communication Today and One Key Course-compass",
     "h": 1,
     "e": 0
   },
@@ -432,16 +3276,124 @@
     "e": 0
   },
   {
+    "i": 9780131687424,
+    "t": "Game design and development : fundamentals of math and physics for game programmers",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780131687424,
+    "t": "Fundamentals of math and physics for game programmers",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780131687448,
+    "t": "Producing excellence : a guide in how to be a successful video game producer",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780131688650,
+    "t": "Politics in Canada, culture, institutions, behaviour and public policy, sixth edition [by] Robert L. Jackson, Doreen Jackson. Instructor's resource CD-ROM",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9780132185462,
     "t": "Domains for denotational semantics",
     "h": 1,
     "e": 0
   },
   {
+    "i": 9780132187503,
+    "t": "Don't ride the bus on Monday: the Rosa Parks story",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780132681520,
+    "t": "Introduction to computing unsing C++ and object technology",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780132681520,
+    "t": "Introduction to computing unsing C++ and object technology / CD-ROM",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780132681780,
+    "t": "The innovation war",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780132683838,
+    "t": "Elements of physics for students of science and engineering",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780132684538,
+    "t": "The top 10 things you must know to gain (and keep) personal credibility",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780133183870,
+    "t": "Smalltalk : an introduction to application development",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780133183948,
+    "t": "A first course in differential equations",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780133185959,
+    "t": "Geometry common core : student companion, teacher's guide",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780133189247,
+    "t": "Dolph's Florence, South Carolina citymap",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780133684407,
+    "t": "Animal watch",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780133684834,
+    "t": "Science and technology",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780133686074,
+    "t": "High school math : games and puzzles",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9780133687057,
     "t": "The Canadian polity, a comparative introduction, fourth edition, Ronald G. Landes. Instructor's resource manual",
     "h": 1,
     "e": 0
+  },
+  {
+    "i": 9780133687149,
+    "t": "Miller & levine biology : laboratory manual b",
+    "h": 1,
+    "e": 1
   },
   {
     "i": 9780133687392,
@@ -462,6 +3414,108 @@
     "e": 1
   },
   {
+    "i": 9780134180724,
+    "t": "The Learning Guide for Intermediate Algebra for College Students",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780134181592,
+    "t": "Transport Processes and Separation Process Principles, Fifth Edition",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780134184814,
+    "t": "Foundations of earth science",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780134189253,
+    "t": "Algorithms in Java",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780134680705,
+    "t": "Unreal Engine 4 for design visualization : developing stunning interactive visualizations, animations, and renderings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780134680705,
+    "t": "Unreal Engine 4 for design visualization : developing stunning interactive visualizations, animations, and renderings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780134683416,
+    "t": "Elementary Statistics: picturing the world",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780134683416,
+    "t": "Elementary Statistics: Picturing the World",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780134683713,
+    "t": "Thinking Mathematically",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780134683713,
+    "t": "Thinking Mathematically",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780134684901,
+    "t": "Elementary statistics + mylab statistics with pearson etext access card",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780134686974,
+    "t": "Precalculus: concepts through functions",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780134689760,
+    "t": "An Integrated Approach to Logistics Management",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780135180617,
+    "t": "Network Programmability with YANG : Data Modeling-driven Management with YANG",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780135181010,
+    "t": "Beginning jazz improvisation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780135183748,
+    "t": "The Scarlet letter in high school English",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780135189535,
+    "t": "Precalculus - 11th ed",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9780135687833,
     "t": "Forms of writing, second edition. Workbook",
     "h": 1,
@@ -474,8 +3528,104 @@
     "e": 0
   },
   {
+    "i": 9780136188858,
+    "t": "SYSTAT for Windows",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780136682516,
+    "t": "Physical education instructional techniques: an individualized humanistic approach",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780136682516,
+    "t": "Physical education instructional techniques: an individualized humanistic approach",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780136682516,
+    "t": "Physical education instructional techniques: an individualized humanistic approach",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780136682516,
+    "t": "Physical education instructional techniques: an individualized humanistic approach",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780136684763,
+    "t": "Technically-write!, fifth edition. Instructor's manual with transparency masters",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780136687313,
+    "t": "Physical education and sport philosophy",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780136688648,
+    "t": "Physical fitness : a wellness approach : teacher's manual and laboratory activities",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780136688808,
+    "t": "Instructor's resource guide",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780138186418,
+    "t": "Social stratification in the United States",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780138186425,
+    "t": "Instructor's resource manual : Marriages and families : diversity and change",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9780138189075,
     "t": "Study guide : Marriages and families : diversity and change",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780139180538,
+    "t": "Dave Sperling's internet guide. CD-ROM",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780139181030,
+    "t": "Introduction to management science",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780139181931,
+    "t": "Thin-shell structures : theory, experiment and design",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780139186738,
+    "t": "General chemistry. [Gr. 11-12] : an integrated approach",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780139681233,
+    "t": "The world to 1500 : a global history",
     "h": 1,
     "e": 0
   },
@@ -486,10 +3636,328 @@
     "e": 0
   },
   {
+    "i": 9780140180909,
+    "t": "Heart of darkness. [Novel]. Ed., intr. by Paul O'Prey. (Repr.)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780140180923,
+    "t": "Lord Jim",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780140181470,
+    "t": "Collected stories: Katherine Mansfield",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780140181739,
+    "t": "Cry, the beloved country : a story of comfort in desolation",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780140181814,
+    "t": "In camers and other plays : the respectable prostitute Lucifer and the Lord in camera",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9780140182033,
     "t": "Ruth Fox Course for Physicians, April 29, 1993, Los Angeles, California",
     "h": 1,
     "e": 1
+  },
+  {
+    "i": 9780140182040,
+    "t": "Thevirgin and the gipsy",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780140182361,
+    "t": "The Penguin complete novels of George Orwell : animal farm / Burmese days / A clergyman's daughter / Coming up for air / Keep the aspidistra flying / Nineteen eighty-four",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780140182507,
+    "t": "The ordeal of Gilbert Pinfold and others",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780140182613,
+    "t": "Journals, 1189-1949",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780140182712,
+    "t": "Collected poems and selected prose",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780140182743,
+    "t": "The good soldier Svejk : and his fortunes in the World War",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780140183672,
+    "t": "The Penguin book of First World War poetry : Edited and with an introduction by Jon Silkin",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780140183856,
+    "t": "A streetcar named desire and other plays : Sweet bird of youth ; A streetcar named desire ; The glass menageire",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780140184358,
+    "t": "The state and revolution",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780140184402,
+    "t": "Riders of the purple sage",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780140184662,
+    "t": "Selected poems",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780140185300,
+    "t": "The man within",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780140186413,
+    "t": "In dubious battle",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780140186420,
+    "t": "Of mice and men",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780140187786,
+    "t": "The white peacock",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780140187854,
+    "t": "The certificate",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780140188325,
+    "t": "Sons and lovers",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780140189094,
+    "t": "The war commentaries",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780140189377,
+    "t": "Seize the day",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780141182421,
+    "t": "Wild analysis",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780141182759,
+    "t": "Anne Frank : the Diary of a Young Girl",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780141184913,
+    "t": "Maggie Cassidy",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780141185071,
+    "t": "East of Eden",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780141185224,
+    "t": "The heart Is a lonely hunter : with an introduction and notes by Kasia Boddy",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780141185439,
+    "t": "THE AUTOBIOGRAPHY OF MALCOLM X",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780141185460,
+    "t": "All My Sons",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780141186412,
+    "t": "New and collected poems 1931-2001",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780141186801,
+    "t": "Ian Fleming",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780141186832,
+    "t": "The Forsyte Saga : The White Monkey; The Silver Spoon; Swan Song",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780141188041,
+    "t": "Shah of shahs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780141188195,
+    "t": "Simone Weil : an anthology",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780141188195,
+    "t": "Simone Weil : an anthology",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780142181225,
+    "t": "Perfecting Your Pitch : How to Succeed in Business and in Life by Finding Words That Work",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780142181904,
+    "t": "Tiger, meet my sister... : ...and other things I probably shouldn't have said",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780151185139,
+    "t": "Colette : a taste for life",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780153180019,
+    "t": "Harcourt science. Grade 1, Demonstration package",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780153180040,
+    "t": "Harcourt science. Grade 4, Demonstration package",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780153180705,
+    "t": "Science, Grade 2 Big Book Unit C Harcourt School Publishers Science",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780153180798,
+    "t": "Science, Grade 2 Big Book Unit D Harcourt School Publishers Science",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780153180804,
+    "t": "Science, Grade 2 Big Book Unit E Harcourt School Publishers Science",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780153180811,
+    "t": "Science, Grade 2 Big Book Unit F Harcourt School Publishers Science",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780153183225,
+    "t": "FCAT practice book for Harcourt science. Grade 3",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780153183232,
+    "t": "FCAT practice book for Harcourt science. Grade 4",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780153184710,
+    "t": "Phonics express Espan\u0303ol. Nivel B",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780153187308,
+    "t": "[Making contact] : a time to speak",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780153189210,
+    "t": "Collections. 2 : a Harcourt reading/language arts program",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780153684005,
+    "t": "Storytown, ell proficiency assessment intermediate : harcourt school publishers storytown",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780153686955,
+    "t": "United states, grade 5 : harcourt school publishers social studies illinois",
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9780153688270,
@@ -498,10 +3966,106 @@
     "e": 0
   },
   {
+    "i": 9780154686213,
+    "t": "Unknown Title",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780154686237,
+    "t": "Les \"Advanced Progressive Matrices\" : manuel des Raven : section 4, e\u0301dition 1998",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780154686237,
+    "t": "Raven's APM kit",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780155184732,
+    "t": "The Dutch in the seventeenth century",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780155188150,
+    "t": "Test booklet to accompany Economics: the way we choose by Paul W. Barkley",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780155188280,
+    "t": "Test booklet to accompany: Introduction to microeconomics by Paul W. Barkley",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9780155188310,
     "t": "Study guide to accompany Clark and Veseth's Economics, cost and choice",
     "h": 1,
     "e": 0
+  },
+  {
+    "i": 9780155188464,
+    "t": "Transparency masters for economics: principles and policy",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780155188518,
+    "t": "Economics : principles and policy. 1, [Hauptband]",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780156180351,
+    "t": "The city in history : its origins, its transformations, and its prospects",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780156180351,
+    "t": "The city in history : its origins, its transformations, and its prospects",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780156181051,
+    "t": "Climbing Jacob's ladder : the arrival of Negroes in Southern politics",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780156181051,
+    "t": "Climbing Jacob's ladder : the arrival of Negroes in Southern politics",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780156687416,
+    "t": "On aggression",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780156687416,
+    "t": "On aggression",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780156687416,
+    "t": "On aggression",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780156687416,
+    "t": "On aggression",
+    "h": 1,
+    "e": 1
   },
   {
     "i": 9780157180015,
@@ -582,8 +4146,704 @@
     "e": 0
   },
   {
+    "i": 9780158680606,
+    "t": "Manual : technical information and normative data",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780160680656,
+    "t": "Home field advantage: A century of partnership between Wight-Patterson Air Force base and Dayton, Ohio, in the persuit of excellence",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780160680960,
+    "t": "Congressional record",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780160681400,
+    "t": "Congressional record",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780160683992,
+    "t": "Nominations of John E. Robson, Peter R. Fisher, James J. Jochum, Alphonso R. Jackson, Richard A. Hauser, John Charles Weicher, and Romolo A. Bernardi : hearings before the Committee on Banking, Housing, and Urban Affairs, United States Senate, One Hundred Seventh Congress, first session on nominations of ... May 10 and 15, 2001",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780160686313,
+    "t": "Predictability and control twin reasons for restoring budget disciplines : hearing before the Committee on the Budget, House of Representatives, One Hundred Seventh Congress, second session, hearing held in Washington, DC, April 25, 2002",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780160686313,
+    "t": "Predictability and control : twin reasons for restoring budget disciplines : hearing before the Committee on the Budget, House of Representatives, One Hundred Seventh Congress, second session, hearing held in Washington, DC, April 25, 2002",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780160686559,
+    "t": "Promoting rule of law in China roundtable before the Congressional-Executive Commission on China, One Hundred Seventh Congress, second session, May 24, 2002",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780160686931,
+    "t": "The local role in homeland security : hearing before the Committee on Governmental Affairs, United States Senate, One Hundred Seventh Congress, first session, December 11, 2001",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780160688911,
+    "t": "Various presidential nominations for the Department of Veterans Affairs hearing before the Committee on Veterans' Affairs, United States Senate, One Hundred Seventh Congress, first session, May 16, 2001",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780160689451,
+    "t": "Nomination of Paul A. Quander, Jr. : hearing before the Committee on Governmental Affairs, United States Senate, One Hundred Seventh Congress, second session on the nomination of Paul A. Quander, Jr. to be Director, District of Columbia Court Services and Offender Supervision Agency, April 11, 2002",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780170180276,
+    "t": "BBE100 : introduction to brain, behaviour and evolution for Macquarie University",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780170180528,
+    "t": "ECON8503 : economic management and strategies",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780170180627,
+    "t": "Psychology exam : VCE units 1 & 2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780170182386,
+    "t": "PM writing 4",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780170182478,
+    "t": "PM writing. grade 4. Humpback whales",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780170182607,
+    "t": "PM writing. Level 30, Sapphire",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780170182676,
+    "t": "The English book 2009 virtual resource centre a practical approach to achieving outcomes in VCE English units 3 & 4",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780170184168,
+    "t": "At the fun park",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780170188197,
+    "t": "Business and the law",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780170189408,
+    "t": "Physics. Vol. 2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780176186197,
+    "t": "Nelson language arts 4",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780176186203,
+    "t": "Nelson language arts 5",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780176186401,
+    "t": "Nelson language arts chapter books 3. Teaacher's guide",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780176186470,
+    "t": "Nelson language arts, [levels F-H], grade 2. Activity book blackline masters",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780176186562,
+    "t": "Nelson language arts chapter books 2. Teacher's guide",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780176186586,
+    "t": "Jump in",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780176684709,
+    "t": "Psychopharmacology of legal psychoactive foods",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780176685331,
+    "t": "Introduction to sociology : social institutions and processes",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780190681913,
+    "t": "Violent rituals of the Hebrew Bible",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780190685348,
+    "t": "Straight talk about professional ethics",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780190685744,
+    "t": "Cross-cultural social work practice : purpose and meaning",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780190686475,
+    "t": "Colonial Lahore : a history of the city and beyond",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780190686635,
+    "t": "The recording, mixing, and mastering reference handbook",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780191185878,
+    "t": "The Holy Bible. Containing the Old and New Testaments. - (The Oxford Bible reader s dictionary and concordance.",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780191681660,
+    "t": "Due process and fair procedures : a study of administrative procedures",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780191682483,
+    "t": "God and history : aspects of British theology, 1875-1914",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780191683367,
+    "t": "Workers, establishment, and services in the European Union",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780191683466,
+    "t": "Random justice : on lotteries and legal decision-making",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780191685231,
+    "t": "Inside the communication revolution : evolving patterns of social and technical interaction",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780192181749,
+    "t": "Immigration and race relations in Britain, 1960-1967",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780192181817,
+    "t": "The anti-slavery movement and reconstruction: a study in Anglo-American co-operation, 1833-77",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780192183040,
+    "t": "The United States and West Germany, 1945-1973 : a study in alliance politics",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780192184115,
+    "t": "Black slaves in Britain",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780192683083,
+    "t": "Oxford Spanish dictionary",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780192683083,
+    "t": "Oxford spanish dictionary on CD-ROM",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780192683120,
+    "t": "Dictionary of national biography on CD-ROM",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780192683687,
+    "t": "Practical approach on CD-ROM : for the IBM PC",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780192684004,
+    "t": "Concise Oxford dictionary",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780192685018,
+    "t": "Practical approach on CD-ROM/2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780192685018,
+    "t": "The practical approach series on CD-ROM",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780192685308,
+    "t": "Microfit 4.0 : interactive econometric analysis",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780192685889,
+    "t": "Index Kewensis : version 2.0 on CD-ROM",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780192685919,
+    "t": "Index Kewensis on CD-Rom : version 2.0 for the IBM PC",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780192686381,
+    "t": "Artwork CD-ROM : for biochemistry and molecular biology",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780192686381,
+    "t": "Artwork CD-RoM for Biochemistry and molecular biology",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780192686534,
+    "t": "Mentor plus",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780192686596,
+    "t": "London dysmorphology database ; &, London neurogenetics database",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780192687647,
+    "t": "Margaret Thatcher : complete public statements 1945-1990",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780192689306,
+    "t": "Universities As Transformative Social Spaces : Mobilities and Mobilizations from South Asian Perspectives",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780193183049,
+    "t": "Cobbet's cyclopaedic survey of chamber music",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780193184206,
+    "t": "The young pianist : a new approach for teachers and students",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780193185067,
+    "t": "The origins of bowing and the development of bowed instruments up to the thirteenth century /.",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780193185142,
+    "t": "Playing the viola : conversations with William Primrose",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780193186095,
+    "t": "Flute technique",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780193682368,
+    "t": "Two pieces for strings from the film music Henry V",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780193684539,
+    "t": "Varii capricci",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780193684539,
+    "t": "Varii capricci",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780193684706,
+    "t": "Concerto for violin and orchestra",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780193684706,
+    "t": "Concerto for violin and orchestra",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780195180558,
+    "t": "The Great War and the language of modernism",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780195180688,
+    "t": "Hillbilly a cultural history of an American icon",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780195181135,
+    "t": "Manhood in America : a cultural history",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780195181135,
+    "t": "Manhood in America : a cultural history",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780195181524,
+    "t": "If your adolescent has an eating disorder : an essential resource for parents",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780195182125,
+    "t": "If Your Child Has Schizophrenia",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780195182125,
+    "t": "An essential resource for parents",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780195182217,
+    "t": "Rebellious nuns : the troubled history of a Mexican convent, 1752-1863",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780195182941,
+    "t": "Lincolnites and rebels : a divided town in the American Civil War",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780195182941,
+    "t": "Lincolnites and rebels : a divided town in the American Civil War",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780195183016,
+    "t": "Why geography matters : three challenges facing America : climate change, the rise of China, and global terrorism",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780195183191,
+    "t": "From duck and cover to duct tape : the myth of civil defense in the nuclear age",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780195183696,
+    "t": "Roger Williams",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780195183931,
+    "t": "Thinking it through an introduction to contemporary philosophy",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780195184044,
+    "t": "Pot pourri whistlings of an idler : a novel",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780195184273,
+    "t": "A modern history of Japan from Tokugawa times to the present",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780195187601,
+    "t": "Encyclopedia of Evolution",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780195188356,
+    "t": "Religion in global civil society",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780195188431,
+    "t": "The Oxford encyclopedia of Mesoamerican cultures",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780195189179,
+    "t": "Mastering your fears and phobias / Therapist guide",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780195189674,
+    "t": "Democracy in Iran : history and the quest for liberty",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780195682489,
+    "t": "A dictionary of science",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780195684506,
+    "t": "Selected works. 2,37, 22 February - 30 April 1957",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780198181477,
+    "t": "Shakespeare quarto facsimiles. No. 16, Othello, 1622",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780198181507,
+    "t": "A new introduction to bibliography. (Repr. with corr.)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780198181620,
+    "t": "Vol. 2: Abbotsford - Keele",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780198181880,
+    "t": "A bibliography of Ronald Firbank",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780198181958,
+    "t": "Vol. 3: Lampeter - Oxford",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780198181965,
+    "t": "Medieval manuscripts in British libraries. 4, Paisley - York ; by N.R. Ker and A.J. Piper",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780198182245,
+    "t": "English Caroline minuscule",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780198182733,
+    "t": "The complete Oxford Shakespeare / 2. Comedies",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780198182962,
+    "t": "Poems of William Cowper/Vol 3",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780198184652,
+    "t": "W. B. Yeats : a life : Vol. 2 : The arch-poet 1915-1939",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780198184836,
+    "t": "Nineteenth-century women poets : an Oxford anthology",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780198184843,
+    "t": "New national and post-colonial literatures : an introduction",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780198185826,
+    "t": "Gerard Manley Hopkins : selected letters",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780198186434,
+    "t": "Index to British literary bibliography",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780198186953,
+    "t": "Christopher Marlowe : poet & spy",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780198187219,
+    "t": "Slavery and the English cultural imagination 1780-1860",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780198187295,
+    "t": "Glorious causes : the grand theatre of political change, 1789-1833",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780199180011,
+    "t": "Bones",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780199180202,
+    "t": "Oxford middle school mathematics : a course for the middle years of schooling (8-13). 1 teacher's book with answers",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780199180394,
+    "t": "Rocks and soil",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780199180493,
+    "t": "Assess & progress. Teacher's handbook. YR/P1, Oxford reading tree stages 1-2. Book bands pink-yellow",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780199180509,
+    "t": "Assess & progress. Teacher's handbook. Y1/P2, Oxford reading tree stages 3-5. Book bands yellow-green",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9780199181292,
     "t": "Myths and legends. 2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780199181292,
+    "t": "Oxford junior readers. 2. Red series",
     "h": 1,
     "e": 0
   },
@@ -600,8 +4860,224 @@
     "e": 0
   },
   {
+    "i": 9780199181711,
+    "t": "Course book 1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780199181711,
+    "t": "Course book 1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780199181759,
+    "t": "Comprehension plus. Book 3",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780199181858,
+    "t": "Teacher's manual. Teacher's manual",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780199182411,
+    "t": "Finding out about wild cats",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780199182527,
+    "t": "Time",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780199183128,
+    "t": "Sound. Book 6 Pupils' Pack B. Sound",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780199185641,
+    "t": "Oxford reading tree",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780199185870,
+    "t": "Treetops teacher's guide, 3",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780199186211,
+    "t": "Oxford reading tree. Rhyme and analogy. First story rhymes. Pack A",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780199186280,
+    "t": "Oxford reading tree rhyme and analogy",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780199187676,
+    "t": "Oxford reading tree rhyme and analogy evaluation pack",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780199188215,
+    "t": "Oxford reading tree / Stage 1 Biff and Chip storybooks big books: \"The Hedgehog.\"",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780199188963,
+    "t": "Oxford reading tree rhyme and analogy",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780199189274,
+    "t": "Oxford reading tree fact finders",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780199189472,
+    "t": "Rhyme and analogy : activity software. Vols. A and B",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780199680092,
+    "t": "Pocket Oxford Spanish dictionary / Diccionario Oxford compact / Direccio\u0301n editorial: Carol Styles Carvajal, Jan Horwood",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780199680559,
+    "t": "Road policing 2014 / monograph",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780199680610,
+    "t": "After Go\u0308del : Platonism and rationalism in mathematics and logic",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780199681693,
+    "t": "#x98;The#x9C; European Union a very short introduction",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780199682010,
+    "t": "1517 : Martin Luther and the invention of the Reformation",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780199683796,
+    "t": "Macroeconomics of the arab states of the gulf",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780199685493,
+    "t": "Compact Oxford Russian dictionary : Russian-English, English-Russian",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780199685585,
+    "t": "<<The>> law and practice of international banking",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780199685936,
+    "t": "Political leadership : themes, contexts, and critiques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780199686476,
+    "t": "\u01c2The \u01c2Oxford handbook of zooarchaeology",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780199686636,
+    "t": "Sentimental education : the story of a young man; trans. by helen constantine",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780199687169,
+    "t": "OXFORD HANDBOOK OF SHAKESPEARE AND PERFORMANCE",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780199687817,
+    "t": "Concise medical dictionary / editor, Elizabeth Martin",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780199688463,
+    "t": "Public health : a very short introduction",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780199689828,
+    "t": "The Oxford companion to fairy tales",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780199689880,
+    "t": "English Lexicogenesis",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9780201182460,
     "t": "Master grapher",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780201183481,
+    "t": "The Computing neuron",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780201184839,
+    "t": "Comparative programming languages",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780201185379,
+    "t": "MFC FAQs : practical solutions for effective programming",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780201185508,
+    "t": "Chemistry practicals : black-line masters",
     "h": 1,
     "e": 0
   },
@@ -618,16 +5094,52 @@
     "e": 0
   },
   {
+    "i": 9780201186734,
+    "t": "Vive le franc\u0327ais! : promenades",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9780201186796,
     "t": "VLF promenades : posters",
     "h": 1,
     "e": 0
   },
   {
+    "i": 9780201186864,
+    "t": "Promenades 2. Cahier masters",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780201186888,
+    "t": "Promenades 2. Flashcard masters",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780201186895,
+    "t": "Vive le franc\u0327ais! promenades 1[-2] : posters",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780201187304,
+    "t": "True colors basic. Student's book : an EFL course for real communication",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9780201187786,
     "t": "Responding to reading, level C. The writing activity book",
     "h": 1,
     "e": 1
+  },
+  {
+    "i": 9780201187847,
+    "t": "Ecouter et chanter",
+    "h": 1,
+    "e": 0
   },
   {
     "i": 9780201187892,
@@ -642,10 +5154,166 @@
     "e": 0
   },
   {
+    "i": 9780201680232,
+    "t": "Developing management skills. The Suffolk University MBA program",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780201680393,
+    "t": "Instructor's manual to accompany Ekelund/Tollison Economics: private markets and public choice, sixth edition",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780201684872,
+    "t": "Addison-Wesley applied mathematics Technology kit",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780201684889,
+    "t": "Addison-Wesley Foundations of mathematics 10, Ontario. Test manager",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780201684926,
+    "t": "Addison-Wesley Principles of mathematics 10, Ontario. Test manager",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780201687057,
+    "t": "Focus on grammar : a basic course for reference and practice",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780201688405,
+    "t": "Avatars! : exploring and building virtual worlds on the Internet",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780201689006,
+    "t": "The official guide to authorware 4 / CD-ROM",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780203180341,
+    "t": "Evidence-Based Productivity Improvement A Practical Guide to the Productivity Measurement and Enhancement System (ProMES)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780203180440,
+    "t": "The crisis in economics the post-autistic economics movement : the first 600 days",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780203180440,
+    "t": "The crisis in economics : the post-autistic economics movement : the first 600 days",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780203183229,
+    "t": "Competition policy analysis",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780203183441,
+    "t": "Working Time Research and Development. A Review of Literature Commissioned by the European Commission and the European Foundation for the Improvement of Living and Working Conditions",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780203184646,
+    "t": "Action research in organisations",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780203184646,
+    "t": "Action research in organisations",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780203185124,
+    "t": "The researcher's toolkit : the complete guide to practitioner research",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780203186008,
+    "t": "Fredric Jameson",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780203186008,
+    "t": "Fredric Jameson",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780203186091,
+    "t": "Issues in transnational policing",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780203186206,
+    "t": "Reading series fiction : from Arthur Ransome to Gene Kemp",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780203187845,
+    "t": "Monarchy in South East Asia The Faces of Tradition in Transition",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780203188002,
+    "t": "Television drama agency, audience, and myth",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780203189504,
+    "t": "Ethics for journalists",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780203189795,
+    "t": "Women and politics in France 1958-2000",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780203189955,
+    "t": "Planning in postmodern times",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9780205183142,
     "t": "Educational psychology in the Canadian classroom, second edition. Study guide and workbook",
     "h": 1,
     "e": 0
+  },
+  {
+    "i": 9780205184668,
+    "t": "Literature and ourselves (includes 2009 MLA guidelines)",
+    "h": 1,
+    "e": 1
   },
   {
     "i": 9780205185689,
@@ -660,14 +5328,110 @@
     "e": 0
   },
   {
+    "i": 9780205684885,
+    "t": "Invitation to psychology : mypsychlab edition",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780205685745,
+    "t": "Master reader + myreadinglab student access code card",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780205688890,
+    "t": "Developing child + mydevelopmentlab pegasus pearson etext student access code card",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780205688906,
+    "t": "Developing child, mydevelopmentlab student access code card",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780205689576,
+    "t": "Ethics and the conduct of business",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780205689576,
+    "t": "Ethics and the conduct of business",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780205689576,
+    "t": "Ethics and the conduct of business",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780207180903,
+    "t": "Ten of the best : Australian children's authors and illustrators. Kit three",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780207180903,
+    "t": "Ten of the best",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780207180972,
+    "t": "Ida Rentoul Outhwaite pocket diary, 1994",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9780207181238,
     "t": "Plane : see how it works",
     "h": 1,
     "e": 0
   },
   {
+    "i": 9780207181344,
+    "t": "Crossing the gap : a novelist's essays",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780207181658,
+    "t": "Lloyd Rees calender 1995",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780207181764,
+    "t": "My little yellow book",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780207181788,
+    "t": "My little green book",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9780207185731,
     "t": "1994 World soccer Cup guide : the official FIFA book",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780207186301,
+    "t": "RePublica 3 : scarred for life",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780207186707,
+    "t": "The five foot road in search of vanished China",
     "h": 1,
     "e": 0
   },
@@ -684,8 +5448,242 @@
     "e": 0
   },
   {
+    "i": 9780207188282,
+    "t": "Our wedding : a journal",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780207189456,
+    "t": "Secrets of happy children",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780207189944,
+    "t": "In our house",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780209188679,
+    "t": "30 sie\u0300cles d'ivoires du Muse\u0301e des arts asiatiques Guimet : exposition du 16 juin au 30 septembre 2012, cha\u0302teau-muse\u0301e de Dieppe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780222689474,
+    "t": "Bible for children. Vol. 2, The New Testament with songs and plays",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780226182001,
+    "t": "Awake in the dark : the best of Roger Ebert : forty years of reviews, essays, and interviews",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780226183190,
+    "t": "Whales, dolphins and porpoises",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780226188386,
+    "t": "Intelligence and cultural differences; a study of cultural learning and problem-solving",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780226684710,
+    "t": "Judging credentials : nonlawyer judges and the politics of professionalism",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780226685342,
+    "t": "The Great Eskimo Vocabulary Hoax and Other Irreverent Essays on",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780226687964,
+    "t": "French drawings and sketchbooks of the nineteenth century",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780226689043,
+    "t": "The Rockhampton city art collection",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780227680285,
+    "t": "'All shall be well' : explorations in Universalism and Christian theology from Origen to Moltmann",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780227680315,
+    "t": "The Lord is the Spirit : the Holy Spirit and the divine attributes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780231180986,
+    "t": "Weird dinosaurs : the strange new fossils challenging everything we thought we knew",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780231181679,
+    "t": "ARTAUD THE MOMA: INTERJECTIONS OF APPEAL",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780231183529,
+    "t": "Hidden atrocities : Japanese germ warfare and American obstruction of Jjstice at the Tokyo trial",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780231184540,
+    "t": "Social media and the public interest : media regulation in the disinformation age",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780231184861,
+    "t": "\u00abThe\u00bb fracking debate",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780231185332,
+    "t": "Nonbinary : memoirs of gender and identity",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780231188401,
+    "t": "The Great Flowing River",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780241180020,
+    "t": "Sense of Style: The Thinking Person's Guide to Writing in the 21st Century The",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780241183441,
+    "t": "Lego (r) friends ultimate factivity collection",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780241183847,
+    "t": "English made easy. Ages 5-7. 10 minutes a day spelling fun",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780241184110,
+    "t": "Mary I (Penguin Monarchs) : the Daughter of Time",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780241184189,
+    "t": "World War II : the definitive visual history from Blitzkrieg to Hiroshima",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780241184714,
+    "t": "Number skills",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780241185995,
+    "t": "Bond by Design: The Art of the James Bond Films",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780241186701,
+    "t": "Rough Guide to New Zealand (Rough Guides)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780241188064,
+    "t": "Science Book, the",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780243686575,
+    "t": "Golden Treatise of Mental Prayer With Divers Spiritual Rules and Directions, No Less Profitable, Than Necessary, for All Sorts of People",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780244183837,
+    "t": "Sheldrake Shift A Critical Evaluation of Morphic Resonance",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780244188238,
+    "t": "Kintsugi",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780253180643,
+    "t": "Sex and marriage in utopian communities; 19th century America",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780253180711,
+    "t": "Sexuality in the movies",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780253188779,
+    "t": "Native North American music and oral data : catalogue of sound recordings, 1893-1976",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780254682313,
+    "t": "Huff, the hed3hog",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780254682917,
+    "t": "Eezy steps with culor-factor : discuvery book",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9780256181449,
     "t": "Recrafting America",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780256186666,
+    "t": "Transparency masters to accompanny Consumer behavior implications for marketing strategy.",
     "h": 1,
     "e": 0
   },
@@ -696,8 +5694,296 @@
     "e": 0
   },
   {
+    "i": 9780256188851,
+    "t": "International business : competing in the global marketplace : videos",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780256189414,
+    "t": "Case enrichment portfolio",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780256189827,
+    "t": "Learning aid for use with essentials of marketing",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780256189940,
+    "t": "Solutions manual to accompany Financial accounting and reporting",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780259681700,
+    "t": "Proceedings of the 47th Annual Encampment Department of Pennsylvania, Grand Army of the Republic, Gettysburg, June 27th and 28th, 1913",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780262180412,
+    "t": "Mind and brain : a philosopy [sic] of science",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780262181181,
+    "t": "Getting computers to talk like you and me : discourse context, focus, and semantics (an ATN model)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780262181204,
+    "t": "Foundations",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780262182058,
+    "t": "The Deleuze connections",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780262182287,
+    "t": "The color of credit : mortgage discrimination, research methodology, and fair-lending enforcement",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780262182638,
+    "t": "Applying cognitive science to education : thinking and learning in scientific and other complex domains",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780262681063,
+    "t": "Inverted odysseys : Claude Cahun, Maya Deren, Cindy Sherman : [exhibition], Grey Art Gallery, New York University, New York, [16.11.1999-20.01.2000 ... etc.]",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780262681216,
+    "t": "The virtual community : homesteading on the electric frontier",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780263180589,
+    "t": "A Surprise Christmas Proposal",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780263182330,
+    "t": "The Greek doctor's children",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780263184631,
+    "t": "Assignment : Christmas",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780263186666,
+    "t": "The Sicilian duke's mistress",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780265687628,
+    "t": "GRUNDZA1/4GE DER LAUTPHYSIOLOGIE ZUR EINFA1/4HRUNG IN DAS STUDIUM DER LAUTLEHRE DER... INDOGERMANISCHEN SPRACHEN (CLASSIC REPRINT)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780270687491,
+    "t": "Controverse sur la religion chre\u0301tienne et celle des Mahome\u0301tans, entre trois docteurs musulmans, & un religieux de la nation maronite",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780273680291,
+    "t": "Kuai ji xue",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780273680314,
+    "t": "Zhan lue gui hua",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780273680338,
+    "t": "Jing zheng zhan lue",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780273680383,
+    "t": "Xiang mu guan li",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780273680406,
+    "t": "Tan pan",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780273683063,
+    "t": "Exchange rates and international finance",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780273688846,
+    "t": "Managing marketing payback : tools and techniques to evaluate marketing performance",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780273689409,
+    "t": "Cai wu guan li",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780299181833,
+    "t": "A summer up North Henry Aaron and the legend of Eau Claire baseball",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780299183202,
+    "t": "Voices from the Federal Theater / Buch",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780299183639,
+    "t": "Witnessing the Disaster Essays on Representation and the Holocaust",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780299186005,
+    "t": "Schubert's Winterreise CD",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780300180527,
+    "t": "Growing up with the country : family, race, and nation after the civil war",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780300182019,
+    "t": "Berthe Morisot (Editions Hazan)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780300182910,
+    "t": "AGAINST THE GRAIN: A DEEP HISTORY OF THE EARLIEST STATES",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780300183276,
+    "t": "Sex and the office a history of gender, power, and desire",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780300185065,
+    "t": "Kent : North-east and east",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780300186383,
+    "t": "History in the making",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780300186802,
+    "t": "The server : a media history from the present to the Baroque",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780300187335,
+    "t": "The Civil War and American art",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780300187441,
+    "t": "Bruma campaign : disaster into triumph, 1942-45",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780300188493,
+    "t": "The New Testament : A Translation",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780300188769,
+    "t": "\u0098The\u009c letters of C",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780300189636,
+    "t": "Sodom and Gomorrah: In Search of Lost Time, Volume 4",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780306181122,
+    "t": "Growth of crystals.v.12",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780306181177,
+    "t": "Growth of crystals",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780306184055,
+    "t": "Spectral theory.",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9780306684074,
     "t": "Patent intelligence and technology report 1979",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780306684128,
+    "t": "Patent intelligence and technology report 1982",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780306684609,
+    "t": "Lasers. . v. 1, U.S. Patents 1978-1981",
     "h": 1,
     "e": 0
   },
@@ -708,8 +5994,278 @@
     "e": 0
   },
   {
+    "i": 9780306684807,
+    "t": "Isocyanate polymers. . Vol. 1, U.S. Patents 1979-1981",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780309187527,
+    "t": "Renewable fuel standard potential economic and environmental effects of U.S. biofuel policy",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780309680332,
+    "t": "Advancing nutrition and food science : 80th anniversary of the food and nutrition board ; proceedings of a symposium",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780309683104,
+    "t": "Environmental Neuroscience",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780309685610,
+    "t": "Assessing NASA's University Leadership Initiative",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780312180362,
+    "t": "Alexander Solzhenitsyn : a century in his life",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780312180584,
+    "t": "The book of secrets",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780312180799,
+    "t": "The d'Aligres de la Rivi\u00e8re : servants of the Bourbon state in the seventeenth century",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780312181451,
+    "t": "Nietzsche in Turin : an intimate biography",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780312185428,
+    "t": "Dear Sammy",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780312185770,
+    "t": "Faithful unto death : a Chief Inspector Barnaby mystery, book 5",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780312185862,
+    "t": "Four to score (Stephanie Plum Novels, #4)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780312186593,
+    "t": "Restoration London : from poverty to pets, from medicine to magic, from slang to sex, from wallpaper to women's rights",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780312186685,
+    "t": "Stately pursuits",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780312187095,
+    "t": "The country book of music",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780312187149,
+    "t": "Enemy of God. 2 : Warlord Chronicles : a novel of Arthur",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780312189303,
+    "t": "What was progressivism?",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780312681944,
+    "t": "Tag man. 22 : Joe Gunther",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780312684648,
+    "t": "Rita Wolff, watercolours, 1974-1985",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780312686055,
+    "t": "History of western society 9th ed vol 1 + atlas of western civilization",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780312686079,
+    "t": "History of western society 9th ed vol c + atlas of western civilization",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780312686116,
+    "t": "History of western society 9th ed vol b + atlas of western civilization +",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780312686178,
+    "t": "History of western society + atlas of western civilization",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780312686215,
+    "t": "Unknown Title",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780312686291,
+    "t": "History of western society 9th ed vol a + atlas of western civilization",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780312686437,
+    "t": "History of western society 9th ed vol 2 + atlas of western civilization +",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9780312687540,
     "t": "Robert Stern : an architectural monograph",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780312689810,
+    "t": "Roman forts of the 1st and 2nd centuries AD in Britain and the German Provinces",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780314180612,
+    "t": "Conflict of laws",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780314180711,
+    "t": "High court case summaries. Criminal procedure : keyed to Dressler and Thomas' Casebook on criminal procedure, 3rd edition",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780314184344,
+    "t": "Legalines on income taxation, keyed to freeland",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780314184764,
+    "t": "Health law : cases, materials, and problems",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780314187871,
+    "t": "High court case summaries on criminal procedure",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780314189431,
+    "t": "Treatise on the law of securities regulation / 5. Chs. 16-23",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780314680976,
+    "t": "Massachusetts rules of court, keyRules 2016. v. 1A, State",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780314681072,
+    "t": "Minnesota rules of court",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780314686817,
+    "t": "Texas rules of court: State",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780314686831,
+    "t": "Texas Rules of Court: Federal KeyRules",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780314686855,
+    "t": "Texas Rules of Court: Local (KeyRules)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780314688002,
+    "t": "Oran's Dictionary of the law",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780314688880,
+    "t": "Texas business statutes annotated : with related Delaware and federal statutes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780314688910,
+    "t": "Texas civil practice statutes & rules annotated",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780314688996,
+    "t": "Johanson's Texas Estates Code annotated : with related statutes, including the Texas Trust Code, summary of 2017 legislative changes, significant recent case decisions, and disposition and derivation tables",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780314689009,
+    "t": "Texas Family Code : with tables and index, 2018 edition",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780314689085,
+    "t": "Elliott & Morris' Texas tax code annotated",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780314689092,
+    "t": "Anderson, Bartlett & East's Texas uniform commercial code annotated : with related business statutes",
     "h": 1,
     "e": 0
   },
@@ -1076,6 +6632,12 @@
   {
     "i": 9780315182691,
     "t": "4.3-u[mu]m TE CO@ laser dynamics",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780315183469,
+    "t": "Intestinal anaphylaxis effect of IgE-mediated reactions on gut function",
     "h": 1,
     "e": 0
   },
@@ -1524,8 +7086,854 @@
     "e": 0
   },
   {
+    "i": 9780316181945,
+    "t": "Make your own calendar 1998",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780316182690,
+    "t": "Dr. Bernstein's Diabetes Solution",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780316182836,
+    "t": "Cirque Du Freak.. Volume 12, / Son of destiny /",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780316185882,
+    "t": "The game the secret power players of major league baseball",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780316185912,
+    "t": "The lifeboat : [regular print book discussion kit] : a novel",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780316186414,
+    "t": "Kaleidoscope",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780316187671,
+    "t": "Are You Smart Enough to Work at GOOGLE?: Trick Questions",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780316188715,
+    "t": "Transformers : meet Team Prime",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780316189293,
+    "t": "I, Michael Bennett (Michael Bennett mysteries, #5)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780316688468,
+    "t": "Manual of rheumatology and outpatient orthopedic disorders : diagnosis and therapy",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780316689991,
+    "t": "1992 Supplement",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780321180414,
+    "t": "Principles of managerial finance, first Canadian edition. Instructor's resources CD-ROM",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780321180421,
+    "t": "Principles of managerial finance, first Canadian edition. Test item file",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780321180995,
+    "t": "Mac OS X hands-on training",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780321186140,
+    "t": "Preview of AP stats",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780321186386,
+    "t": "Study guide to accompany Nash-Jeffrey-Howe-Frederick-Davis-Winkler The American people, creating a nation and a society, 6th ed.",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780321186478,
+    "t": "Poser 5 for Windows",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780321186485,
+    "t": "PHP and MySQL for dynamic Web sites",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780321186485,
+    "t": "PHP and MySQL for dynamic Web sites",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780321188106,
+    "t": "The West : encounters and transformations. Vol. 2",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780321188588,
+    "t": "Financial markets and institutions, Canadian edition. Test item file",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780321189202,
+    "t": "Financial markets and institutions, Canadian edition. Instructor's resource CD-ROM",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780321189738,
+    "t": "C\u0327a marche! 1",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780321682536,
+    "t": "Masteringbiology + pearson etext student access kit for biology : a guide to the natural world",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780321683533,
+    "t": "College physics : masteringphysics student access kit",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780321684493,
+    "t": "Apple Training Series Mac OS X Server Essentials v10.6: A Guide to Using and Supporting Mac OS X Server v10.6",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780321688651,
+    "t": "The elements of user experience user-centered design for the Web and beyond",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780323185882,
+    "t": "Cohen's Pathways of the Pulp Expert Consult - Pageburst E-book on Vitalsource Retail Access Card",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780323186049,
+    "t": "Clinics in geriatric medicine. 29.3, Updates in geriatric nephrology",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780323186209,
+    "t": "Catheter Interventions for Structural Heart Disease, An Issue of Cardiology Clinics, E-Book",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780323186599,
+    "t": "Saunders Q & A Review Cards for the NCLEX-RN\u00ae Exam - E-Book",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780324180466,
+    "t": "Finance",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780324180923,
+    "t": "Instructor's manual, Cost accounting : traditions and innovations",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780324182200,
+    "t": "Study guide to accompany survey of economics",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780324185102,
+    "t": "Contemporary marketing",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780324686449,
+    "t": "Marketing intelligence & information technology : University of Massachusetts Dartmouth, Charlton College of Business",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780327181330,
+    "t": "Intellectual property in bankruptcy : a Collier monograph",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780327183143,
+    "t": "Professional responsibilities of insurance defense counsel",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780327183235,
+    "t": "Illinois jurisprudence Volume 12, Personal injury and torts",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780328184606,
+    "t": "Reading street. 2, Leveled readers",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780328184668,
+    "t": "Reading street. 4, Leveled readers",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780328184699,
+    "t": "Reading street. 5, Leveled readers",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780328185702,
+    "t": "Reading street. Grade 2, ELL readers",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780328185702,
+    "t": "Reading street. Grade 4, ELL readers",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780328185702,
+    "t": "Reading street. Grade 5, ELL readers",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780328188079,
+    "t": "Scott Foresman decodable readers. Grade 3",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780328687701,
+    "t": "Chief Joseph : I will fight no more forever",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780328687732,
+    "t": "Scott Foresman-Addison Wesley EnVisionMATH common core. [Grade K], Measurement and data : teacher's resource masters",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780328687763,
+    "t": "Scott Foresman-Addison Wesley EnVisionMATH common core. [Grade 1], Geometry : teacher's resource masters",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780329189907,
+    "t": "The tragedy of Antony and Cleopatra : with new and updated critical essays and a revised bibliography",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780333180235,
+    "t": "Animalia",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780333180303,
+    "t": "An introduction to Buddhist psychology",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780333180747,
+    "t": "When the moon was high : memoirs of peace and war, 1897-1942",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780333181041,
+    "t": "DISSENSION IN THE HOUSE OF COMMONS : INTRA-PARTY DISSENT IN THE HOUSE OF COMMONS' DIVISION LOBBIES, 1945-1974. COMPILED AND EDITED BY PHILIP NORTON",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780333181270,
+    "t": "Lectures. Vol.8 : 1973-74. Nature and conduct",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780333181300,
+    "t": "Economic integration worldwide, regional, sectoral : proceedings of the 4. congress of the Internat. Economic Association held in Budapest, Hungary",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780333181720,
+    "t": "Mathematics for chemists and engineers",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780333181911,
+    "t": "Language in action, level 0, core",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780333182857,
+    "t": "Modern microeconomics",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780333183175,
+    "t": "Slavery in ancient Rome",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780333183359,
+    "t": "English through reading. Vol. 1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780333183519,
+    "t": "Biomechanics IV : proceedings of the Fourth International Seminar on Biomechanics, University Park, Pennsylvania",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780333184172,
+    "t": "Doors",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780333184271,
+    "t": "The witch's egg",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780333185384,
+    "t": "Par-ci, par-la\u0300",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780333185575,
+    "t": "Mrs Bridges' upstairs, downstairs cookery book",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780333185926,
+    "t": "Fascism. (Repr.)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780333186084,
+    "t": "The Bluebell Railway",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780333187036,
+    "t": "Microscopy of materials : modern imaging methods using electron, x-ray and ion beams",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780333187241,
+    "t": "Trollope",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780333187357,
+    "t": "The Brandenburg Hotel",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780333187692,
+    "t": "The living and the dying",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780333187937,
+    "t": "Act it out : a basic drama pack",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780333188026,
+    "t": "Transport",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780333188330,
+    "t": "Matter and mind : two essays in epistemology",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780333189313,
+    "t": "A guide to soil mechanics",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780333189917,
+    "t": "Words for topics. [Set 2]. Early animals and people",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780333189924,
+    "t": "Words for topics : set 2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780333680827,
+    "t": "Proceedings of the 5th European conference on advances in wound management",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780333681558,
+    "t": "Surreal lives : the surrealists, 1947-1945",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780333682043,
+    "t": "You can do it!",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780333683217,
+    "t": "Let's play!",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780333683224,
+    "t": "Let's eat!",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780333683828,
+    "t": "Re: Joyce : text, culture, politics /ed. by John Brannigan ..",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780333683873,
+    "t": "Trade unions, the state and sociological theory",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780333684252,
+    "t": "Babies in art",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780333684269,
+    "t": "Babies",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780333684450,
+    "t": "Stephen W. Hawking : a brief history of time",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780333684450,
+    "t": "A brief history in time",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780333685211,
+    "t": "European refugee policy : problems and prospects",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780333686607,
+    "t": "Realtime Italian",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780333686638,
+    "t": "Realtime German",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780333686843,
+    "t": "Let's go: the Budget guide to Ecuador & the Galapagos Islands, 1997",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780333686850,
+    "t": "Paris 1997",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780333686898,
+    "t": "Washington DC 1997",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780333687208,
+    "t": "My food",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780333687871,
+    "t": "The new biotechnology directory 1997",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780333688090,
+    "t": "Building Procurement",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780333688380,
+    "t": "Commonality and particularity in ethics",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780333688397,
+    "t": "Iris murdoch : the restrospective fiction",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780340180204,
+    "t": "Fodor's Ireland 1974",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780340180242,
+    "t": "Fodor's Portugal 1974",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780340180266,
+    "t": "Fodor's Spain",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780340180792,
+    "t": "L'Embarras du choix : multiple-choice tests in French. Pupil's book",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780340181027,
+    "t": "Baden-Powell : the man who lived twice",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780340181140,
+    "t": "Montaigne's deceits : the art of persuasion in the 'Essais'",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780340182147,
+    "t": "The gold in the river : a journey in the jungles of Peru",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780340182215,
+    "t": "Introduction to jig and tool design",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780340182246,
+    "t": "Daniel's shed",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780340182321,
+    "t": "Introduction to animal parasitology",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9780340182475,
     "t": "Transistors in circuits ; Transistors in action ; Post-transistor projects",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780340182871,
+    "t": "Take a bow, B.C.",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780340183014,
+    "t": "Dangerous masquerade",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780340183106,
+    "t": "Quest mathematics : (the whole-number stage). 1-3",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780340183144,
+    "t": "Man on a short leash",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780340183205,
+    "t": "Asterix the gladiator",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780340183472,
+    "t": "Wagonload",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780340183533,
+    "t": "The population factor in African studies : the proceedings of a conference organised by the African Studies Association of the United Kingdom, September 1972",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780340183564,
+    "t": "Knight's Acre",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780340183663,
+    "t": "Life",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780340183816,
+    "t": "The Baron - King-maker",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780340184271,
+    "t": "Black Beauty's Clan",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780340184790,
+    "t": "Of many mouths and eyes : a study of the many forms of religious expression",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780340184929,
+    "t": "Top of the form bumper quiz book",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780340185193,
+    "t": "Dark corridor",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780340185285,
+    "t": "Fodor's Vienna. Eugene Fodor, Robert Fisher, editors",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780340185339,
+    "t": "Jaes",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780340185537,
+    "t": "They left their nets : a vision for community ministry",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780340185551,
+    "t": "He leadeth me",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780340185667,
+    "t": "'Reverend sirs, ladies and gentlemen' : Humour-stories, anecdotes, and sayings associated with the clergy ...",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780340185728,
+    "t": "Stepping stone books",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780340186169,
+    "t": "Elsewhere x 3 : three novellas",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780340186220,
+    "t": "The wrong Plantagenet",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780340186404,
+    "t": "Miro",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780340186657,
+    "t": "Map reading and local studies in colour",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780340187203,
+    "t": "Why Christians crack up",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780340189474,
+    "t": "The land and people of Britain",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780340189955,
+    "t": "Dear elector : the truth about MPs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780340680940,
+    "t": "Secret Seven on the trail",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780340681022,
+    "t": "Good old Secret Seven",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780340681084,
+    "t": "Five run away together. 3",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780340681152,
+    "t": "Five on a hike together. Book 10, Famous Five",
     "h": 1,
     "e": 1
   },
@@ -1536,8 +7944,344 @@
     "e": 1
   },
   {
+    "i": 9780340683774,
+    "t": "Finance",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780340687314,
+    "t": "Pony parade",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780340687352,
+    "t": "Jackie : two pony tales",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780340687734,
+    "t": "Telecommunications, film and video : Lifetime Careers Wiltshire",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780340688076,
+    "t": "The music maker; Screaming tarn",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780340688137,
+    "t": "Working with parents",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780340688168,
+    "t": "Germany, 1918-1945",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780340688236,
+    "t": "L' essentiel",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780340688762,
+    "t": "Spanish : a complete course in understanding, speaking, and writing",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780351187049,
+    "t": "All the Queen's men : Elizabeth I and her courtiers",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780355187953,
+    "t": "Attachment as a Moderator Between Smartphone Interference and Relationship Satisfaction in Adult Couples",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780355189889,
+    "t": "Our Dance Journey",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780355680676,
+    "t": "A Study of the 1496 'Cancionero' of Juan Del Encina",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780359684786,
+    "t": "Raw Reckoning",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780359684816,
+    "t": "Infinitum",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780364182918,
+    "t": "HOMEWORKER AND THE OUTLOOK : a descriptive study of tailoresses and boxmakers (classic reprint)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780364182963,
+    "t": "LANDHAUSLEBEN : erzahlungen (classic reprint)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780367182854,
+    "t": "The Zhenzheng lun by Xuanyi : a Buddhist apologetic scripture of Tang China",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780373180028,
+    "t": "Harlequin pink. [Volume] 3, A prince needs a princess",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780373180042,
+    "t": "Harlequin pink. Vol. 5, Three wishes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780373180561,
+    "t": "Beyond the Threshold: There and Now. 1",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780373180585,
+    "t": "Beyond the Threshold: Here and then. 2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780373180677,
+    "t": "Quinn's woman",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780373181971,
+    "t": "Pregnant : father needed (LP)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780373182145,
+    "t": "Strictly business",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780373185870,
+    "t": "Seal under Siege (A Harlequin Love Inspired Suspense Novel)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780373680313,
+    "t": "Amanecer al amor",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780373682263,
+    "t": "Cr\u00f3nicas de amor",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780374180980,
+    "t": "Kay Boyle : author of herself",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780374183233,
+    "t": "The land of Ulro",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780374184230,
+    "t": "Kindle County: The laws of our fathers",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780374184230,
+    "t": "Kindle County: The laws of our fathers",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780374185060,
+    "t": "A wild perfection : the selected letters of James Wright",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780374185138,
+    "t": "LET THE RECORD SHOW: A POLITICAL HISTORY OF ACT UP NEW YORK, 1987-1993",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780374185305,
+    "t": "Letters",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780374186968,
+    "t": "The life of Emily Dickinson",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780374186968,
+    "t": "The life of Emily Dickinson",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780374187613,
+    "t": "Gilead: Lila. 3",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780374188092,
+    "t": "Literary terms : A dictionary by Karl Beckson and Arthur Ganz",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9780380188123,
     "t": "Tumulto",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780382182631,
+    "t": "World of music 6 : a program for the 90's",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780382182891,
+    "t": "World of music. [Level 3]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780384687288,
+    "t": "Corpus of the anatomical studies in the collection of Her Majesty, the Queen, at Windsor Castle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780385180740,
+    "t": "Planning your career",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780385180757,
+    "t": "Careers and occupations",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780385181013,
+    "t": "Dictionary of geological terms. Eds. Robert L. Bates, Julia A. Jackson. 3. ed",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780385182003,
+    "t": "Ezekiel 21-37 : a new translation with introduction and commentary",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780385182508,
+    "t": "Children of war",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780385184236,
+    "t": "Women volunteering : the pleasure, pain, and politics of unpaid work from 1830 to the present",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780385184489,
+    "t": "Ballet technique for the male dancer",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780385187152,
+    "t": "Anne Frank's Tales from the Secret Annex",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780385187152,
+    "t": "Anne Frank's Tales from the Secret Annex",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780385189613,
+    "t": "Disclosing the past",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780385189910,
+    "t": "The new Jerusalem Bible",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780385683593,
+    "t": "The readers of Broken Wheel recommend",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780385686068,
+    "t": "Solitude : a singular life in a crowded world",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780387180618,
+    "t": "Quantum Monte Carlo methods : in equilibrium and nonequilibrium systems : 9th International symposium : Papers",
     "h": 1,
     "e": 0
   },
@@ -1548,8 +8292,224 @@
     "e": 1
   },
   {
+    "i": 9780387180816,
+    "t": "Analogical and inductive inference : proceedings ... Wendisch-Rietz, GDR, October 6-10, 1986",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780387180847,
+    "t": "Ulkusalmanach. 2, Mit 142 Tabellen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780387181646,
+    "t": "The long-wave debate : selected papers from an IIASA international meeting on long-term fluctuations in economic growth : their causes and consequences, held in Weimar 1985",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780387181790,
+    "t": "Analysis I and II",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780387181943,
+    "t": "Input-output modeling : 6th Task force meeting : Papers",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780387183503,
+    "t": "Magnetic properties of free radicals. Subvolume f, Radicals centered on heteroatoms with Z> 7 and selected anion radicals II",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780387184258,
+    "t": "The theory of magnetism",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9780387184357,
     "t": "Numerical data and functional relationships in science and technology. New series, Group III, Crystal and solid state physics : volume 19, Magnetic properties of metals : subvolume g, Thin films",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780387184432,
+    "t": "Geometric topology and shape theory : Conference : Papers",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780387184623,
+    "t": "Stochastic approaches in earthquake engineering : U.S.-Japan Joint Seminar, May 6-7, 1987, Boca Raton, Florida, USA",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780387184654,
+    "t": "Proceedings des Workshops \"Computer in der Chemie\" : Hochfilzen/Tirol, 19.-21. November 1986",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780387184722,
+    "t": "Trocknungstechnik. Dritter Band, Trocknen und Trockner in der Produktion",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780387184821,
+    "t": "Qualita\u0308tssicherung und Standardisierung : Handbuch",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780387184906,
+    "t": "Crystal and solid state physics. Volume 20, Nuclear quadrupole resonance spectroscopy data, subvolume c / O. Madelung ; Editors : K.-H. Hellwege and A.M. Hellwege ; [volume authors] : H. Chihara, N. Nakamura",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780387185798,
+    "t": "Uncertainty in knowledge-based systems : International Conference on Information Processing and Management of Uncertainty in Knowledge-Based Systems, Paris, France, June 30 {u2013} July 4, 1986 : selected and extended contributions",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780387186542,
+    "t": "Constitutive law in thermoplasticity",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780387186726,
+    "t": "Mathematics and computer science in medical imaging : Advanced study institute : Papers and abstracts",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780387186962,
+    "t": "Proceedings des 2. Workshops \"Computer in der Chemie\" : Hochfilzen/Tirol, 18.-20. November 1987",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780387187105,
+    "t": "Beilstein handbook of organic chemistry. 5th supplementary series. Vol. 19. Part 5",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780387187143,
+    "t": "Automation in warehousing : 8th International conference : Papers",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780387187310,
+    "t": "Inverse problems in quantum scattering theory. 2. ed., rev., exp",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780387187518,
+    "t": "Crystal and solid state physics. volume 27, Magnetic properties of non-metallic inorganic compounds based on transition elements, Subvol. a : Pnictides and chalcogenides I",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780387187822,
+    "t": "Poceedings of the 5th international topical meeting [International Topical Meeting on Photoacoustic and Photothermal Phenomena], Heidelberg, Fed. Rep. of Germany, July 27-30, 1987",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780387188416,
+    "t": "Rock and soil rheology : proceedings of the Euromech Colloquium 196, September 10-13, 1985, Bucharest, Romania",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780387189680,
+    "t": "Kunststoffe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780387681139,
+    "t": "Surgery Basic Science and Clinical Evidence",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780387683249,
+    "t": "An Introduction to Homological Algebra",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780387683706,
+    "t": "Chassin's Operative Strategy in Colon and Rectal Surgery",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780387684369,
+    "t": "Introduction to boolean algebras",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780387684697,
+    "t": "Aurora Observing and Recording Nature{u2019}s Spectacular Light Show",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780387684697,
+    "t": "Aurora observing and recording nature's spectacular light show",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780387689043,
+    "t": "Complications of Regional Anesthesia",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780387689098,
+    "t": "Physics of Societal Issues Calculations on National Security, Environment, and Energy",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780387689531,
+    "t": "Closing the power gap between ASIC & custom tools and techniques for low power design",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780393680386,
+    "t": "Essential Cell Biology//81/RUSH",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780393680638,
+    "t": "Frederick Douglass, Slavery, and the Constitution, 1845 (Reacting to the Past)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780393689693,
+    "t": "AMERICA: A NARRATIVE HISTORY",
     "h": 1,
     "e": 1
   },
@@ -1566,15 +8526,399 @@
     "e": 0
   },
   {
+    "i": 9780395181577,
+    "t": "The house on East 88th Street",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780395182796,
+    "t": "The partners",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780395183229,
+    "t": "A field guide to Pacific coast shells, including shells of Hawaii and the Gulf of California",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780395183229,
+    "t": "A field guide to Pacific coast shells, including shells of Hawaii and the Gulf of California",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780395183229,
+    "t": "A field guide to Pacific coast shells, including shells of Hawaii and the Gulf of California",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780395183236,
+    "t": "A field guide to animal tracks",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780395183236,
+    "t": "A field guide to animal tracks",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780395183236,
+    "t": "A field guide to animal tracks",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780395184073,
+    "t": "Engineers at work : a casebook",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780395184530,
+    "t": "A destroying angel; the conquest of smallpox in colonial Boston",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780395184721,
+    "t": "The Pinkish, Purplish, Bluish Egg",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780395184851,
+    "t": "Poetical Works of Robert Browning, The",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780395185230,
+    "t": "A field guide to the insects of America north of Mexico",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780395185230,
+    "t": "A field guide to the insects of America north of Mexico",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780395185230,
+    "t": "A field guide to the insects of America north of Mexico",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780395186046,
+    "t": "The helping interview",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780395186053,
+    "t": "How does a poem mean?",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780395186053,
+    "t": "How does a poem mean?",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780395186053,
+    "t": "How does a poem mean?",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780395186053,
+    "t": "How does a poem mean?",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780395186053,
+    "t": "How does a poem mean?",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780395186053,
+    "t": "How does a poem mean?",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780395186497,
+    "t": "Curious George takes a job : Curious George Series",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780395186497,
+    "t": "Curious George takes a job",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9780395188361,
     "t": "Instructor's manual, Physics : a modern perspective",
     "h": 1,
     "e": 0
   },
   {
+    "i": 9780395189160,
+    "t": "Engineering materials and their applications",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780395189412,
+    "t": "Economic problems of Latin America",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9780395189849,
     "t": "Practice set II : accounting fundamentals",
     "h": 1,
     "e": 0
+  },
+  {
+    "i": 9780395685747,
+    "t": "Cognitive psychology. Instructor's resource manual and test bank",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780395688366,
+    "t": "Fuentes Conversacion Y Gramatica",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780399180958,
+    "t": "Would You Rather? : Growing up, Coming Out, and (Occasionally) Getting It Right",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780399181207,
+    "t": "Any dream will do New beginnings series, book 4",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780399181252,
+    "t": "Cottage by the sea : a novel",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780399181283,
+    "t": "Alaskan holiday (on order-Oct 2018)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780399181535,
+    "t": "The bad daughter [eBook - NC Digital Library] : a novel",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780399181559,
+    "t": "All the wrong places : A Novel",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780399181771,
+    "t": "Minecraft: The Island: An Official Minecraft Novel",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780399182013,
+    "t": "Minecraft: Guide to Exploration (2017 Edition)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780399182297,
+    "t": "The Children's Blizzard",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780399183737,
+    "t": "To be where you are (on order-Sept 2017)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780399183737,
+    "t": "Mitford Years: To be where you are",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780399183805,
+    "t": "Get smart! How to think and act like the most successful and highest-paid people in every field",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780399183973,
+    "t": "Pirate : #8 - Fargo",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780399183997,
+    "t": "Pirate",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780399184017,
+    "t": "Nighthawk : a novel from the NUMA Files: a Kurt Austin adventure, book 14",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780399184352,
+    "t": "THE KNOWLEDGE ILLUSION: WHY WE NEVER THINK ALONE",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780399184529,
+    "t": "Book club discussion kit. The mothers : a novel",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780399184574,
+    "t": "Golden prey : a novel: a Lucas Davenport novel, book 27",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780399184574,
+    "t": "Golden prey : a novel: a Lucas Davenport novel, book 27",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780399184574,
+    "t": "Lucas Davenport: Golden prey. 27",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780399184574,
+    "t": "Golden prey",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780399184772,
+    "t": "The Wahls protocol cooking for life : the revolutionary modern Paleo plan to treat all chronic autoimmune conditions",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780399184772,
+    "t": "WAHLS PROTOCOL COOKING FOR LIFE",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780399185069,
+    "t": "The book of joy [eBook - NC Digital Library] : Lasting happiness in a changing world",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780399185229,
+    "t": "The gangster",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780399185229,
+    "t": "The gangster",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9780399185267,
+    "t": "Smooth operator : a Teddy Fay novel",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780399185267,
+    "t": "Smooth operator : a Teddy Fay novel",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780399185267,
+    "t": "Smooth operator",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780399185304,
+    "t": "The midnight bell : Sean Dillon, book 22",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780399185410,
+    "t": "The man in the crooked hat [eBook - NC Digital Library]",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780399185465,
+    "t": "Reckless Creed 3",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780399186523,
+    "t": "Giant Trouble #4 : Hamster Princess: Book 4",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780399186523,
+    "t": "Giant trouble Hamster Princess Series, Book 4",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780399186660,
+    "t": "Bear Is Awake! : An Alphabet Story",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9780399187377,
+    "t": "My Life As an Ice Cream Sandwich",
+    "h": 1,
+    "e": 1
   }
 ]

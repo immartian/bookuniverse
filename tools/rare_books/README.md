@@ -44,6 +44,8 @@ python amend_isbn.py
 - **normalize_isbn(isbn)**: Normalizes ISBNs to 13-digit integers.
 - **process_zst_file(number_of_lines=None)**: Scans the `.zst` file and matches ISBNs to OCLC records, updating the database.
 
+After looking up ISBN for each rare book, we can pick some ISBN numbers to search in WorldCat category to verify them, e.g. https://search.worldcat.org/title/919089853?oclcNum=921349891. With such confidence, we can search any rare books under a threshold with copies less than 11(as we skimmed with that boundary for step 1). The queryable ccapability enables us to do further processings. 
+
 ### Step 3: Create Tiles
 
 The `sort_tile.py` script reads the records from the database, calculates the tile positions based on ISBNs, and creates JSON files for each tile. This step organizes the data spatially for visualization or further analysis.

@@ -1,7 +1,955 @@
 [
   {
+    "i": 9783203841014,
+    "t": "Absolute Giganten ein Film von Sebastian Schipper",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783203841045,
+    "t": "Zwo\u0308lf Uhr mittags : Mythos und Geschichte eines Filmklassikers",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783211848197,
+    "t": "Practical Handbook of Neurosurgery",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783225344852,
+    "t": "Unknown Title",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783264840957,
+    "t": "C\u0327a bouge 5. [...] Livret d'accompagnement / Autorin Danielle Rosenbaum",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783264840964,
+    "t": "C\u0327a bouge 5. [...] E\u0301valuations / Autorin Susanne Zbinden",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783264841077,
+    "t": "New world 3. Coursebook E. / Autorenteam Silvia Frank Schmid ..",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783264841763,
+    "t": "Young world 1 = cl. 3. [...] Word cards / [Autor: Michael Wirrer]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783264841770,
+    "t": "Young world 2 = cl. 4. [...] Word cards / [Autor: Michael Wirrer]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783264841787,
+    "t": "Young world 3 = cl. 5. [...] Word cards / [Autor: Michael Wirrer]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783264841800,
+    "t": "Young world 4 = cl. 6. [...] Word cards / [Autor: Michael Wirrer]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783264842111,
+    "t": "Open world 2+. Units 9-15 [...] Workbook + [...] Digitale Ausgabe fu\u0308r Lehrpersonen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783264846126,
+    "t": "C\u0327a roule 4. Franc\u0327ais, quatrie\u0300me anne\u0301e primaire [...] Cartes de vocabulaire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783264846133,
+    "t": "C\u0327a roule 4. Franc\u0327ais, quatrie\u0300me anne\u0301e primaire [...] Audio / Autorinnen Be\u0301atrice Boog [und weitere]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783264846164,
+    "t": "C\u0327a roule 4. Franc\u0327ais, quatrie\u0300me anne\u0301e primaire [...] E\u0301valuations / Autorin Nadine Widmer",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783264846416,
+    "t": "C'est c\u0327a 7.2. [...] Cahier [...] Erweiterte Anforderungen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783264846430,
+    "t": "C'est c\u0327a 7.2. [...] Cahier [...] Grundanforderungen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783264846478,
+    "t": "C'est c\u0327a 7. [...] Livre d'accompagnement Unite\u0301s 1-6 / Autorin Olivia Wismer Hoffmann",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783264846492,
+    "t": "C'est c\u0327a 7. [...] E\u0301valuations Unite\u0301s 1-6 / Autorin Alessandra Coiro",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783264847161,
+    "t": "Schweizer Zahlenbuch 2. [...] Heilpa\u0308dagogischer Kommentar : mit digitalen Inhalten auf meinklett.ch / von Michael Link, Susanne Kuratli Geeler",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783264847208,
+    "t": "Schweizer Zahlenbuch 3. [...] Schulbuch / Bearbeitung fu\u0308r die Schweiz Katrin Kocher, Rita Krummenacher, Lis Reusser und Johanna Wehrlin Reidy",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783264847574,
+    "t": "Deutsch im Detail 2 Digital Book mit Lo\u0308sungen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783286340749,
+    "t": "Finanz- und Handelsgescha\u0308ft",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783286340848,
+    "t": "Kreditgescha\u0308ft",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783286341821,
+    "t": "Swiss GAAP FER Erl\u00e4uterungen, Illustrationen und Beispiele",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783286344013,
+    "t": "AssicurIdea",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783286344419,
+    "t": "Persone: assicurazioni private e sociali",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783286344518,
+    "t": "Assicurazioni connesse",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783286344624,
+    "t": "Finanzbuchhaltung 3. Ho\u0308here Finanzbuchhaltung Lo\u0308sungen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783286346109,
+    "t": "W & G - anwenden und verstehen Profil B. Semester 2. Kontrollfragen und Zusatzaufgaben",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783286346307,
+    "t": "W & G - anwenden und verstehen Profil B. Semester 4. [Hauptbd.]. Theorie und Aufgaben",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783286346307,
+    "t": "W & G - anwenden und verstehen Profil B. Semester 4. Kontrollfragen und Zusatzaufgaben",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783286346703,
+    "t": "W & G - anwenden und verstehen Profil E. Semester 2. Kontrollfragen und Zusatzaufgaben",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783286346901,
+    "t": "W & G - anwenden und verstehen Profil E. Semester 4. Kontrollfragen und Zusatzaufgaben",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783286347595,
+    "t": "W & G - anwenden und verstehen [...] E-Profil 6. Semester. [...] Theorie und Aufgaben",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783286347670,
+    "t": "W & G - anwenden und verstehen [...] E-Profil 3. Semester. [...] Theorie und Aufgaben",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783319341446,
+    "t": "Churches in the Ukrainian crisis",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783347346284,
+    "t": "GEGEN DIE LAUFRICHTUNG;FUBALLGESCHICHTEN",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783347348905,
+    "t": "Meine Studienu\u0308bersetzung - Konfessionsunabha\u0308ngige U\u0308bersetzung 2021 Die Schriften des 'Neuen Bundes'",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783401840291,
+    "t": "\u0098Der\u009c Pakt der Wo\u0308lfe Legacy ; 3 ; Roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406340529,
+    "t": "1492, die Welt zur Zeit des Kolumbus : ein Lesebuch",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406340789,
+    "t": "Jahrbuch Dritte Welt 1993 : Daten, U\u0308bersichten, Analysen",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783406340796,
+    "t": "Kleines Lexikon untergegangener Wo\u0308rter : Wortuntergang seit dem Ende des 18. Jahrhunderts",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783406340864,
+    "t": "Nation und Nationalismus in Deutschland, 1770-1990",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9783406341168,
     "t": "Zeller/Sto\u0308ber Zwangsversteigerungsgesetz : Kommentar zum ZVG der Bundesrepublik Deutschland mit einem Anhang einschla\u0308giger Texte und Tabellen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406341427,
+    "t": "Handelsrecht : ein Studienbuch",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406343445,
+    "t": "Bayerische Bauordnung",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406343902,
+    "t": "Corpus vasorum antiquorum. Bd 59, Bonn, Akademisches Kunstmuseum, Bd 3",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406345654,
+    "t": "Besonderer Teil/1 : Straftaten gegen die Person, gegen die Sittenordnung und gegen das Vermo\u0308gen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406345944,
+    "t": "Mu\u0308nchener Vertragshandbuch. Bd. 3. Wirtschaftsrecht. Hrsg. v. Rolf A. Schu\u0308tze, Lutz Weipert. 3., neubearb. Aufl",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406346163,
+    "t": "Allgemeines Schuldrecht",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406346897,
+    "t": "Corpus vasorum antiquorum. Bd 60, Karlsruhe, Badisches Landesmuseum, Bd 3",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406346972,
+    "t": "Handelsgesetzbuch Nachtr. [zur 28. Aufl.]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406347399,
+    "t": "Wider die Natur? : Homosexualita\u0308t und Evolution",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406347641,
+    "t": "Bu\u0308rgerliches Gesetzbuch / [Hauptbd.]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406348013,
+    "t": "Machtstaat vor der Demokratie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406348013,
+    "t": "Deutsche Geschichte 1866-1918.",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406348341,
+    "t": "Familienrechtliche Berechnungen - Kopierfreie Demoversion",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406348945,
+    "t": "Gewerbeordnung und erga\u0308nzende Vorschriften",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406348945,
+    "t": "Gewerbeordnung und erga\u0308nzende Vorschriften : GewO ; Kommentar. [Grundwerk]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406349850,
+    "t": "Stilkunst : ein Lehrbuch deutscher Prosa",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783406349980,
+    "t": "DDR-Scho\u0308nfelder: Zivil-, Wirtschafts- und Justizgesetze fu\u0308r das Gebiet der ehemaligen DDR",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783407340528,
+    "t": "Auf der Seite der Kinder welche Reform braucht die Schule?",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783409840002,
+    "t": "Marktforschung im Marketing Studienwerk in 12 Lehrbriefen fu\u0308r d. Ausbildung als Marktforschungs-Assistent",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783410840657,
+    "t": "Standardleistungsbuch fu\u0308r das Bauwesen Leistungsbereich 046. Wa\u0308rmeda\u0308mmungsarbeiten",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783410841166,
+    "t": "Standardleistungsbuch fu\u0308r das Bauwesen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783412345051,
+    "t": "Hochschule im Sozialismus : Studien zur Geschichte der Friedrich-Schiller-Universita\u0308t Jena, 1945-1990",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783412840730,
+    "t": "JOHANNES HECKEL LEX CHARITATIS",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783423345095,
+    "t": "Die demografische Zukunft Europas : wie sich die Regionen ver\u00e4ndern",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783423346528,
+    "t": "Kulturgeschichte des Klimas von der Eiszeit bis zur globalen Erwa\u0308rmung",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783423347969,
+    "t": "BE : Filmemachen ist eine Sache auf Leben und Tod",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783423348447,
+    "t": "#x98;Die#x9C; Nonnen von Sant' Ambrogio eine wahre Geschichte",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783423348560,
+    "t": "#x98;Die#x9C; Geschichte der legend\u00e4ren L\u00e4nder und St\u00e4dte",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783428846436,
+    "t": "#x98;Das#x9C; IT-Grundrecht Schnittfelder und Auswirkungen",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783442340033,
+    "t": "Carmen in d. Orig.-Sprache (franz. mit dt. U\u0308bers.) ; [Cassette mit Erl. sowie Musikausz. aus d. Repertoire d. Dt. Grammophon]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451340451,
+    "t": "Grundlagen der \"Metaphysik\" : eine Auswahl aus den Bu\u0308chern I-V : arabisch, lateinisch, deutsch ; Ub\u0308ersetzt und eingeleitet von Jens Schmitt",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451340451,
+    "t": "Grundlagen der Metaphysik",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451340451,
+    "t": "Grundlagen der Metaphysik",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451340475,
+    "t": "Texte zur Gotteslehre Pugio fiedi I-III, 1-6 : Lateinisch, Hebra\u0308isch/Arama\u0308isch, Deutsch",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451348112,
+    "t": "Engel beru\u0308hren dein Herz",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783456840499,
+    "t": "Pflegewissenschaft / 2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783456841304,
+    "t": "Leitlinien zur Behandlung der Borderline Perso\u0308nlichkeitssto\u0308rungen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783456841403,
+    "t": "Querschnittsbereiche Bd. 3. Gesundheitso\u0308konomie, Gesundheitssystem, o\u0308ffentliche Gesundheitspflege : Grundwissen / Ju\u0308rgen von Troschke ; Axel Mu\u0308hlbacher",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783456841519,
+    "t": "Notfa\u0308lle - was man nicht verpassen darf",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783456841823,
+    "t": "Querschnittsbereiche / 6. Grundwissen klinische Umweltmedizin",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783456841823,
+    "t": "Querschnittsbereiche 6. Grundwissen klinische Umweltmedizin / Hans Drexler ; Peter Elsner Hrsg",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783456841847,
+    "t": "Querschnittsbereiche Bd. 9. Grundwissen klinische Pharmakologie, Pharmakotherapie / Isabel Hach ; Wilhelm Kirch",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783456841854,
+    "t": "Querschnittsbereiche 10. Grundwissen Pra\u0308vention, Gesundheitsfo\u0308rderung / Ju\u0308rgen von Troschke",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783456842028,
+    "t": "Riskanter Alkoholkonsum - Fru\u0308herkennung, Kurzintervention und Behandlung ein Manual fu\u0308r Hausa\u0308rzte",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783456842264,
+    "t": "Querschnittsbereiche / Bd. 7. Grundwissen Medizin des Alterns und des alten Menschen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783456842264,
+    "t": "Querschnittsbereiche Bd. 7. Grundwissen Medizin des Alterns und des alten Menschen / Ulrich Wedding ... (Hrsg.)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783456843001,
+    "t": "Krankengeschichten [Grundbd.]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783456843100,
+    "t": "Staatsbu\u0308rger-, Gesetzes- und Berufskunde : Jo\u0308rg Bussmann",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783456843902,
+    "t": "Gewalt in der Schule : was Lehrer und Eltern wissen sollten - und tun ko\u0308nnen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783456844060,
+    "t": "Perso\u0308nlichkeitssto\u0308rungen Ursachen und Behandlung ; mit fu\u0308nf Fallbeispielen",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783456844114,
+    "t": "Leben mit chronischen und unheilbaren Krankheiten / [Hauptbd.]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783456844398,
+    "t": "Klinische Epidemiologie - Wissenswertes fu\u0308r den praktischen Arzt",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783456844497,
+    "t": "Lehrbuch Pflegeassistenz",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783456845074,
+    "t": "Nursing English essentials / CD",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783456845715,
+    "t": "Assessments in der Rehabilitation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783456846279,
+    "t": "Blue Book Botulinumtoxin 2. Rehabilitation / Jo\u0308rg Wissel ..",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783456846279,
+    "t": "Blue Book Botulinumtoxin 3. Dystonie / Andres Ceballos-Baumann ; Urban M. Fietzek",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783456849799,
+    "t": "<<Das>> grosse Handbuch f\u00fcr Erwachsene mit ADHS",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783458341147,
+    "t": "Max und Moritz ; suivi de : Die fromme Helene ; suivi de : Hans Huckebein : drei Bildergeschichten",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783458342212,
+    "t": "Alexander von Humboldt : \u00fcber die Freiheit des Menschen : auf der Suche nach Wahrheit",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783458342281,
+    "t": "Vela\u0301zquez, Las meninas : der Essay : mit einer Kurzbiographie des Malers und farbigen Abbildungen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783458343066,
+    "t": "Vom Gesellschaftsvertrag oder Grundlagen des politischen Rechts",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783458343615,
+    "t": "Kierkegaard fu\u0308r Gestresste",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783458345466,
+    "t": "Hermann Hesse Insel-Kalendar fu\u0308r das Jahr 2003",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783458345688,
+    "t": "\"Ich sehne mich sehr nach Deinen blauen Briefen\"; Rainer Maria Rilke, Claire Goll : Briefwechsel",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783458348566,
+    "t": "Die Bru\u0308der Grimm : das Buch zum Film von Terry Gilliam = Brothers Grimm",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783464344064,
+    "t": "New highlight / [Schu\u0308lerbuch]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783464344644,
+    "t": "New highlight / Handreichungen fu\u0308r den Unterricht + Kopiervorlagen + role-play cards",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783464344927,
+    "t": "New highlight / Lehrersoftware. Toolbox",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783464345153,
+    "t": "Ikuru Unterrichtswerk fu\u0308r den fru\u0308hbeginnenden Englischunterricht 2, Picture making set Spring, autumn",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783464345689,
+    "t": "The Groovy Granny Show",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783464345795,
+    "t": "Ginger : Class 3. 1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783464345856,
+    "t": "Making the grade with Ginger 1. Buch. Leistungsermittlungsheft",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783464345856,
+    "t": "Making the grade with Ginger 1. Audio-CD",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783464345917,
+    "t": "Making the grade with Ginger 2. Buch. Leistungsermittlungsheft",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783464345917,
+    "t": "Making the grade with Ginger 2. Audio-CD",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783464346112,
+    "t": "Sunshine. 1 = Klasse 3 Handreichungen fu\u0308r den Unterricht Mit Kopiervorlagen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783464346136,
+    "t": "Sunshine Lehrwerk fu\u0308r den fru\u0308h beginnenden Englischunterricht. 1 Class 3 Pupil's book",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783464346259,
+    "t": "Sunshine - Early start edition. Handreichungen fu\u0308r den Unterricht Mit Kopiervorlagen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783464346266,
+    "t": "Sunshine - Early start edition. Activity book",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783464346341,
+    "t": "Sunshine - Early start edition. Bildkarten",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783464346457,
+    "t": "Sunshine - Early start edition. Bild- und Wortkarten",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783464346914,
+    "t": "Sunshine - Early start edition. Pupil's book",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783464347102,
+    "t": "Sunshine - Early start edition. Leistungsermittlung",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783464840405,
+    "t": "Kiras Lernwelt",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783466340941,
+    "t": "Psychologie fu\u0308r die Schulpraxis ein handlungsorientiertes Lehrbuch fu\u0308r Lehrer",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783466340958,
+    "t": "Atmen und Singen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783466341276,
+    "t": "Geburt mit Leboyer 3 Video-Filme",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783466341337,
+    "t": "Erlo\u0308sungsmotive im Ma\u0308rchen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783466341412,
+    "t": "Tief und erholsam schlafen : Entspannung und Selbsthilfe durch Stereo-Tiefensuggestion",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783466343393,
+    "t": "So finden Sie Schlaf! Das Selbsthilfe-Programm mit CD",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783466344710,
+    "t": "Craniosacral-Selbstbehandlung : Wohlbefinden und Entspannung duch sanfte Beru\u0308hrung",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783468340543,
+    "t": "Langenscheidt Deutsch in 30 Tagen der kompakte Sprachkurs = Langenscheidt German in 30 days",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783468341069,
+    "t": "Die neue deutsche Rechtschreibung : die wichtigsten A\u0308nderungen im U\u0308berblick : diese Schreibtischauflage entspricht den ab August 2005 amtlich verbindlichen Regeln",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783468341106,
+    "t": "Langenscheidts Verb-Tabellen Deutsch",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783468349690,
+    "t": "Deutsch-Flip : grammatik",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783468842054,
+    "t": "Avanti! Avanti! 1 : Italienisch - Sprachkurs f\u00fcr Anf\u00e4nger : Komplettpaket: Videokassette, Audiocassette, Buch",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783468842702,
+    "t": "Parlate con noi : italienisches Lehrwerk. Cassette 1 Dialoge und Strukturen des Lehrbuches 1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783468843037,
+    "t": "Ame\u0301rica Latina / Kompaktkassette",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783468843037,
+    "t": "Ame\u0301rica Latina [Cassette] Dialoge und Interviews",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783468844546,
+    "t": "Deutsch aktiv 1 ein Lehrwerk fu\u0308r Erwachsene",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783468844546,
+    "t": "Deutsch aktiv 1. Diapositive",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783468844713,
+    "t": "Deutsch aktiv : ein Lehrwerk fu\u0308r Erwachsene. 3 Materialien fu\u0308r die Mittelstufe Teil 2, Cassette Ho\u0308rtexte",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783468845185,
+    "t": "Mein Gespra\u0308ch, meine Lieder : Liedermacher im Deutschunterricht",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783468845192,
+    "t": "Heute hier, morgen dort : Lieder, Chansons und Rockmusik im Deutschunterricht",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783468845192,
+    "t": "Heute hier, morgen dort : Lieder, Chansons und Rockmusik im Deutschunterricht",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783468845307,
+    "t": "Deutsch konkret 2A ein Lehrwerk fu\u0308r Jugendliche in 3 Lernstufen : Dialoge und Ho\u0308rtexte Kapitel 1-10",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783473346301,
+    "t": "Ravensburger Kinderjahr : Geschichten, Bilder, Ra\u0308tsel, Spiele, Basteleien und vieles mehr - fu\u0308rs ganze Jahr. 1 1991",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783473347384,
+    "t": "Das hochgeheime Hexenrezept",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783473347544,
+    "t": "Heartland Farm - Paradies fu\u0308r Pferde",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783473349050,
+    "t": "Grosse Vera\u0308nderung",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783473349128,
+    "t": "Zauber der Freundschaft",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783473349173,
+    "t": "Rose Hill. Bd. 6, Alles oder nichts",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783478348140,
+    "t": "Markotint",
     "h": 1,
     "e": 0
   },
@@ -12,14 +960,1088 @@
     "e": 0
   },
   {
+    "i": 9783481347314,
+    "t": "Prozessdatenverarbeitung : Anwendungen / Friedrich Klose",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783484340336,
+    "t": "Medienkultur im nationalen Vergleich : Inszenierungsstrategien von Fernsehnachrichten am Beispiel der Bundesrepublik Deutschland und Frankreichs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783484841048,
+    "t": "Salzburg - Halle - Nordamerika : ein zweisprachiges Find- und Lesebuch zum Georgia-Archiv der Franckeschen Stiftungen = Salzburg - Halle - North America ...",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783486342017,
+    "t": "Entscheidungs Tabellen, neueste und wirkungsvollste technik zur problemlosung und automatischen programmierung",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783486347814,
+    "t": "Physik II : Elektrodynamik : Mit 184 Bildern und 9 Tabellen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783486840520,
+    "t": "Legere",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783486840889,
+    "t": "Automatisierungstechnik",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783486842289,
+    "t": "Politique de la grandeur\" versus \"Made in Germany\" : politische Kulturgeschichte der Technik am Beispiel der PAL-SECAM-Kontroverse",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783486845617,
+    "t": "English H. Bd. 2. [Hauptw.]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783486845716,
+    "t": "English H. Bd. 2. Pru\u0308fexemplar fu\u0308r Lehrer",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783486846119,
+    "t": "English H. Bd. 2. Workbook Lehrerexemplat mit Lo\u0308sungen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783486847147,
+    "t": "Musik u\u0308berall. 3-4. Unterrichtswerk fu\u0308r Musik in der 3. und 4. Klasse",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783499340031,
+    "t": "Preussen : Versuch einer Bilanz ; eine Ausstellung der Berliner Festspiele GmbH, 15. August - 15. November 1981, Gropius-Bau (ehemaliges Kunstgewerbemuseum) Berlin ; Katalog in fu\u0308nf Ba\u0308nden. Bd. 3 Preussen",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783499340031,
+    "t": "Preussen - Versuch einer Bilanz : eine Ausstellung der Berliner Festspiele GmbH 15. August-15. November 1981, Gropius Bau (ehemaliges Kunstgewerbemuseum) Berlin. Bd 3, Preussen - zur Sozialgeschichte eines Staates : eine Darstellung in Quellen",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783499340093,
+    "t": "Autobiographische Schriften, Briefe, Tagebu\u0308cher",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783499340116,
+    "t": "Geschlossene Gesellschaft : Stu\u0308ck in einem Akt ; Tote ohne Begra\u0308bnis : Stu\u0308ck in vier Akten",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783506346124,
+    "t": "Zeiten und Menschen. [Hauptbd.]",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783506346223,
+    "t": "Zeiten und Menschen. [Hauptbd.]",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783506346414,
+    "t": "Zeitgeschichte (1917 bis zur Gegenwart)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783506346421,
+    "t": "Zeiten und Menschen [Hauptband]",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783506347121,
+    "t": "Zeiten und Menschen. Teil 2. Von 1945 bis zur Gegenwart",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783506840745,
+    "t": "Pathognostische Interventionen V Triebabko\u0308mmling Arbeit? Zur psychoanalytisch vernachla\u0308ssigten Polito\u0308konomie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783506840936,
+    "t": "Nous-Logik der Idee Die empirisch apriorische dialektische Vermittlung von Hegels Logik und ihre Bedeutung im Holistischen Idealismus",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783507344129,
+    "t": "Lehrerbuch",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783507344228,
+    "t": "Lehrerbuch",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783507344327,
+    "t": "Lehrerbuch",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783507344426,
+    "t": "Lehrerbuch",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783507346420,
+    "t": "Schu\u0308lerband",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783507347144,
+    "t": "Politik, Gesellschaft, Wirtschaft von 800 bis 1776",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783507347175,
+    "t": "Politik, Gesellschaft, Wirtschaft von 19945 bis zur Gegenwart",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783507347359,
+    "t": "Das Mittelalter : Quellen zur deutschen und europa\u0308ischen Geschichte vom 8. - 15. Jahrhundert",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783507840829,
+    "t": "Faktor / 6. [Schuljahr] [Schu\u0308lerbd.]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783507840836,
+    "t": "Faktor / 7. [Schuljahr] [Schu\u0308lerbd.]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783507840843,
+    "t": "Faktor / 8. [Schuljahr] [Schu\u0308lerbd.]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783507841185,
+    "t": "Ma\u00dfstab : Mathematik. 4, Materialien fu\u0308r Lehrerinnen und Lehrer",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783507841260,
+    "t": "Ma\u00dfstab : Mathematik. 2, Lo\u0308sungen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783507844032,
+    "t": "Ma\u00dfstab / 7, [Schu\u0308lerband], Dr. A,3",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783507844841,
+    "t": "Massstab - Mathematik / 9. Materialien fu\u0308r Lehrerinnen und Lehrer",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783507845503,
+    "t": "Massstab / 7. [Lehrermaterialien]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783507845879,
+    "t": "Faktor - Mathematik / 9. Materialien fu\u0308r Lehrerinnen und Lehrer",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783507847552,
+    "t": "Denkstark - Mathematik / 5. Schu\u0308lerband",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783507848252,
+    "t": "Denkstark - Mathematik Baden-Wu\u0308rttemberg / 1. Kommentare, Lo\u0308sungen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783520340016,
+    "t": "Der Eid des Hippokrates : Geschichte und Aktualita\u0308t",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783525340257,
+    "t": "Witzkultur in der DDR : ein Beitrag zur Sprachkritik",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783525340332,
+    "t": "Unternehmen und Unternehmer in der Marktwirtschaft",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783527340873,
+    "t": "The Gene and its Engineering",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783527343584,
+    "t": "Advanced nanoelectronics post-silicon materials and devices",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783527347766,
+    "t": "FUNDING ATLAS 2018 : key indicators for publicly funded research in germany",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783527847211,
+    "t": "Gmelin handbook of inorganic and organometallic chemistry System Nr. 47. Pb: Blei, Teil B, 2 Elektrochemisches Verhalten",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783527849086,
+    "t": "Niob",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783528340285,
+    "t": "Maschinenelemente",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783528340759,
+    "t": "Technologie, Technik / Lehrbuch, 4., Unter Mitarb. von Gert Bo\u0308ge",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540340218,
+    "t": "Theory and applications of models of computation Third International Conference, TAMC 2006 : Beijing, China, May 15-20, 2006 : proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540340232,
+    "t": "Wired wireless Internet communications 4th International Conference, WWIC 2006, Bern, Switzerland, May 10-12, 2006 : proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540340638,
+    "t": "Rapid integration of software engineering techniques Second International Workshop, RISE 2005 : Heraklion, Crete, Greece, September 8-9, 2005 : revised selected papers",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540340645,
+    "t": "Rapid integration of software engineering techniques second international workshop, RISE 2005, Heraklion, Crete, Greece, September 8-9, 2005 ; revised selected papers",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540340676,
+    "t": "The Flow Equation Approach to Many-Particle Systems",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540341369,
+    "t": "Chemical Abundances and Mixing in Stars in the Milky Way and its Satellites Proceedings of the ESO-Arcetri Workshop held in Castiglione della Pescaia, Italy, 13\u0301\u0452\u062317 September, 2004",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540341451,
+    "t": "Interactive systems design, specification, and verification",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540341567,
+    "t": "Supersymmetric Mechanics - Vol. 2 The Attractor Mechanism and Space Time Singularities",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540341574,
+    "t": "Supersymmetric mechanics - vol. 2 : the attractor mechanism and space time singularities",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540341680,
+    "t": "Computer Science {u2013} Theory and Applications First International Computer Science Symposium in Russia, CSR 2006, St. Petersburg, Russia, June 8-12. 2006. Proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540341994,
+    "t": "Software process change International Software Process Workshop and International Workshop on Software Process Simulation and Modeling, SPW/ProSim 2006 : Shanghai, China, May 20-21, 2006 : proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540342151,
+    "t": "Recent advances in constraints Joint ERCIM-CoLognet International Workshop on Constraint Solving and Constraint Logic Programming, CSCLP 2005 : Uppsala, Sweden, June 20-22, 2005 : revised selected and invited papers",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540342618,
+    "t": "Thermo-dynamics of plates and shells",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540342663,
+    "t": "Combinatorial Stochastic Processes Ecole d{u2019}Ete\u0301 de Probabilite\u0301s de Saint-Flour XXXII {u2013} 2002",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540342885,
+    "t": "Numerical Mathematics and Advanced Applications Proceedings of ENUMATH 2005 the 6th European Conference on Numerical Mathematics and Advanced Applications, Santiago de Compostela, Spain, July 2005",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540343165,
+    "t": "Inbetriebnahme verfahrenstechnischer Anlagen Praxishandbuch mit Checklisten und Beispielen ; mit 71 Tabellen",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540343370,
+    "t": "Schlanker Materialfluss mit Lean Production, Kanban und Innovationen mit 16 Tabellen",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540343530,
+    "t": "Chance discoveries in real world decision making : data-based interaction of human intelligence and artificial intelligence",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540343929,
+    "t": "E\u0301le\u0301ments de mathe\u0301matique / Ch. 9",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540343943,
+    "t": "E\u0301le\u0301ments de mathe\u0301matique / Ch. 10",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540343981,
+    "t": "E\u0301le\u0301ments de mathe\u0301matique / Ch. 4 a\u0300 7",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540343998,
+    "t": "E\u0301le\u0301ments de mathe\u0301matique / Ch. 5 a\u0300 10",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540344384,
+    "t": "Advances in Neural Networks - ISNN 2006 Third International Symposium on Neural Networks, ISNN 2006, Chengdu, China, May 28 - June 1, 2006, Proceedings, Part II",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540344698,
+    "t": "Domain Decomposition Methods in Science and Engineering XVI",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540344902,
+    "t": "E\u0301le\u0301ments de mathe\u0301matique / Ch. 4 a\u0300 6",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540344971,
+    "t": "E\u0301le\u0301ments de mathe\u0301matique / Espaces vectoriels topologiques, Ch. 1 a\u0300 5",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540344988,
+    "t": "Espaces vectoriels topologiques. Chapitres 1-5",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540345060,
+    "t": "Hematologic malignancies : myeloproliferative disorders",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540345145,
+    "t": "Measure Theory",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540345282,
+    "t": "Pers\u00f6nlichkeitsst\u00f6rungen im Jugendalter",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540345442,
+    "t": "The semantic web research and applications : 3rd European Semantic Web Conference, ESWC 2006, Budva, Montenegro, June 11-14, 2006 : proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540345756,
+    "t": "Serre{u2019}s Problem on Projective Modules",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540346043,
+    "t": "Interest Rate Models {u2014} Theory and Practice With Smile, Inflation and Credit",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540346630,
+    "t": "Reliable software technologies- Ada-Europe 2006 11th Ada-Europe International Conference on Reliable Software Technologies : Porto, Portugal, June 5-9, 2006 : proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540346821,
+    "t": "Product-focused software process improvement 7th International Conference, PROFES 2006, Amsterdam, the Netherlands June 12-14, 2006 : proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540347132,
+    "t": "Emissive Materials Nanomaterials",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540347439,
+    "t": "Perception and interactive technologies International Tutorial and Research Workshop, PIT 2006 : Kloster Irsee, Germany, June 19-21, 2006 : proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540347729,
+    "t": "Advances in Biochemical Engineering, Volume 14",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540347743,
+    "t": "Positive Systems",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783540348115,
+    "t": "Neodymium Based Ziegler Catalysts {u2013} Fundamental Chemistry",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540348566,
+    "t": "Finite Element Approximation of the Navier-Stokes Equations",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783545340138,
+    "t": "<<Der>> Kanton Schwyz",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783545340343,
+    "t": "Felszeichnungen in den Alpen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783545340718,
+    "t": "Alexandre Yersin der Mann, der die Pest besiegte",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783545341142,
+    "t": "Rosa Luxemburg",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783548341408,
+    "t": "Geschichte der Arbeit : vom alten A\u0308gypten bis zur Gegenwart",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783548342283,
+    "t": "Wenn die Geister wiederkehren : Weltdeutung und religio\u0308ses Bewusstsein in primitiven Kulturen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783548343259,
+    "t": "Fritz der Ko\u0308nig : Leben und Abenteuer Friedrichs des Gro\u03b2en",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783548344454,
+    "t": "Glaube, Ideologie und Wahn : das Ich zwischen Realit\u00e4t und Illusion",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783548344928,
+    "t": "Ein Lesebuch",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783548345376,
+    "t": "Fliegen - main Leben",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783548345444,
+    "t": "Gut Lehfelde : eine deutsche Geschichte, 1932-1950 (Wie konnte das geschehen?)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783548346502,
+    "t": "New Age und Feminismus : die neue Spiritualit\u00e4t",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783548347202,
+    "t": "Lasst sie selber sprechen : Berichte russlanddeutscher Aussiedler",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783548347714,
+    "t": "Sigmund Freud und das Geheimnis der Seele. Die Biographie. (Vorw. Friedrich Hacker)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783548348131,
+    "t": "Bibliographie der Kriminalliteratur 1985-1990 im deutschen Sprachraum",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783548348568,
+    "t": "Die scho\u0308nsten Weinstrassen der Welt : der Kulturreisefu\u0308hrer zu Winzern und Wirten",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783548348827,
+    "t": "Caesar : Weltwirtschaft des alten Rom",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783548349817,
+    "t": "Credo : Wege zum Christentum in der modernen Gesellschaft",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9783548349961,
     "t": "Tischgespra\u0308che mit Prominenten",
     "h": 1,
     "e": 0
   },
   {
+    "i": 9783559342098,
+    "t": "Textes franc\u0327ais Lehrerbuch",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783559342388,
+    "t": "Maupassant: le vagabond : dossier pre\u0301paratoire, texte inte\u0301gral de la nouvelle, textes supple\u0301mentaires",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783559342401,
+    "t": "L'attaque du moulin : texte pre\u0301paratoire, texte inte\u0301gral de la nouvelle, textes supple\u0301mentaires",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783582347121,
+    "t": "Arbeitsbla\u0308tter Holztechnik - Grundstufe : Technologie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783582347619,
+    "t": "Arbeitsbla\u0308tter Holztechnik - Grundstufe : Konstruktion und Arbeitsplanung",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783590342002,
+    "t": "RHEINISCHE GESCHICHTE. VOL 1",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783590342019,
+    "t": "RHEINISCHE GESCHICHTE BD 1,2 TEIL",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783590342033,
+    "t": "RHEINISCHE GESCHICHTE. VOL 3",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783590342118,
+    "t": "Westfalische Geschichte. V.1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783590342118,
+    "t": "von den Anfa\u0308ngen bis zum Ende des alten Reiches",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783590342125,
+    "t": "Westfalische Geschichte. V.2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783590342156,
+    "t": "Geschichte in Karten: historische Ansichten aus den Rheinlanden und Westfalen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783592341119,
+    "t": "Encounters Confidence [Hauptbd.]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783592349191,
+    "t": "Technik. Technikunterricht im 9./10. Schuljahr, Sekundarstufe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783593340449,
+    "t": "Forschungsprojekt: Wandel des politischen Bewusstseins von Arbeitnehmern",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783593340463,
+    "t": "Forschungsprojekt: Wandel des politischen Bewusstseins von Arbeitnehmern",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783593340470,
+    "t": "Forschungsprojekt: Wandel des politischen Bewusstseins von Arbeitnehmern",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783593341927,
+    "t": "Universalgeschichte der Zahlen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783593343259,
+    "t": "Konfliktmanagement wirksame Strategien fu\u0308r den sachgerechten Interessenausgleich",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783593344089,
+    "t": "Unknown Title",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783593344126,
+    "t": "Empirische Sozialforschung Eine Dokumentation 1989",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783593344829,
+    "t": "Technology and labor in the automotive industry : papers of the Seoul international symposium (1989)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783593345475,
+    "t": "Evangelische Ethik und Biotechnologie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783593346113,
+    "t": "New technology at the outset : social forces in the shaping of technological innovations",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783593346700,
+    "t": "Frauengeschichte -- Geschlectergeschichte",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783593346816,
+    "t": "Horizontale Politikverflechtung : zur Theorie von Verhandlungssystemen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783593347530,
+    "t": "Lebensverha\u0308ltnisse in Deutschland, Ungleichheit und Angleichung",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783593348254,
+    "t": "Die Sprachenwelt Europas : Geschichte und Zukunft der Sprachnationen zwischen Atlantik und Ural",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783593348797,
+    "t": "Aufsa\u0308ssige To\u0308chter Gottes : Frauen im Bauernkrieg und in den Ta\u0308uferbewegungen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783593349008,
+    "t": "Unternehmenswert. (Valuation). Methoden und Strategien fu\u0308r eine wertorientierte Unternehmensfu\u0308hrung",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9783593349657,
     "t": "Lebensverha\u0308ltnisse und soziale Konflikte im neuen Europa. [Band 1]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783593349657,
+    "t": "Lebensverha\u0308ltnisse und soziale Konflikte im neuen Europa",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783598340086,
+    "t": "Japanese biographical archive : (JaBA) / 7 Ki - Kyu\u0302zo\u0302 : fiche no. 146-182",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783598340123,
+    "t": "Japanese biographical archive : (JaBA) / 11 Setsuan - Takabatake, Teizo\u0302 : fiche no. 306-341",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783598340307,
+    "t": "Archivo biogra\u0301fico de Espan\u0303a, Portugal e Iberoame\u0301rica 1960-1995 (ABEPI III) = Arquivo biogra\u0301fico de Espanha, Portugal e Ibero-Ame\u0301rica 1960-1995 (ABEPI III) = Spanisches, portugiesisches und iberoamerikanisches biographisches Archiv 1960-1995 (ABEPI III)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783598340710,
+    "t": "Russian biographical archive. 10, Ostrogradskaja, M.K. - Sapunov, P.N.",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783598340741,
+    "t": "Russian biographical archive / 1 Fiche No. 1-24",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783598340772,
+    "t": "Russian biographical archive / 4 Fiche No. 94-135",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783598340796,
+    "t": "Russian biographical archive / 6 Fiche No. 178-213",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783598340802,
+    "t": "Russian biographical archive / 7 Fiche No. 214-249",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783598340970,
+    "t": "Indian biographical archive / 6 Jepa Ram - Lal, Rajkumar, Fiche 209-252",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783598340994,
+    "t": "Indian biographical archive / 8 Mohammed Hassan Azad - Oz, Fiche 297-337",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783598341007,
+    "t": "Indian biographical archive / 9 P - Ram Mehar, Fiche 338-381",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783598341397,
+    "t": "Su\u0308dosteuropa\u0308isches biographisches Archiv : SOBA / 6 Ivanis\u030cevic\u0301, Drago - Kolobaric\u0301, Mladen, Fiche 187-221",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783598341465,
+    "t": "Su\u0308dosteuropa\u0308ischer biographischer Index",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783598341632,
+    "t": "Deutsches biographisches Archiv / 3 / 12 Spindler, F. - Z ; Nachtrag",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783598341687,
+    "t": "Deutsches biographisches Archiv / 3 / 5 Fleischmann - Griess",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783598341977,
+    "t": "Griechisches Biographisches Archiv : (GBA) / 4 Buafer - Dexios, Fiche 91-119",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783598342172,
+    "t": "South-east Asian biographical archive / 6 La Aw Hutangkura - Lyttelton, Fiche 192-224",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783598342516,
+    "t": "Korean biographical archive : KBA / 10 Sa-a Kun - Tan-gun : fiche no. 212-235",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783598342523,
+    "t": "Korean biographical archive : KBA / 11 Tan-gye - Yi, Kyo\u0306ng-so\u0306ng : fiche no. 236-268",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783598343834,
+    "t": "General catalogue of printed books. 1995-1996. vol. 1 a\u0300 13, A-Kink",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783598344206,
+    "t": "Musikhandschriften der Staatsbibliothek zu Berlin - Preu\u00dfischer Kulturbesitz / [Hauptteil]",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783598344367,
+    "t": "Die Georg Philipp Telemann-Sammlung",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783598344657,
+    "t": "Musikhandschriften aus der Staatsbibliothek zu Berlin, Preussischer Kulturbesitz und aus der Jagiellonischen Bibliothek in Krakau. Teil IV, Lieferung 4. Die Mozart-Sammlung",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783598344671,
+    "t": "Musikhandschriften der Staatsbibliothek zu Berlin - Preu\u00dfischer Kulturbesitz. 4, [3,1], Die Mozart-Sammlung ; Lfg. 3/1",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783598345456,
+    "t": "Internationale Bibliographien zur Kunstliteratur zwischen 1500 und 1850 International bibliographies of art literature between 1500 and 1850",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783598345487,
+    "t": "Deutsche Architekturbu\u0308cher zur Zivilbaukunst aus dem 16. und 17. Jahrhundert / Lfg. 1(2000)-",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783598345562,
+    "t": "International encyclopedias of artists from 17th to early 19th century = Internationale Ku\u0308nstlerlexika aus dem 17. bis fru\u0308hen 19. Jahrhundert",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783598345586,
+    "t": "Deutsche Architekturbu\u0308cher zur Zivilbaukunst des 18. Jahrhunderts / Lfg. 3 Fiche 175-265",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783598345913,
+    "t": "Ku\u0308nstlermonographien des 16. bis 18. Jahrhunderts = Biographies of artists from the 16th to 18th century",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783598345951,
+    "t": "Biographies of artists from the 16th to 18th century / Lfg. 2. Fiche 37-79",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783598345951,
+    "t": "Biographies of artists from the 16th to 18th century / Lfg. 1. Fiche 1-36",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783598346002,
+    "t": "Indice biogra\u0301fico de Espan\u0303a, Portugal e Iberoame\u0301rica. 1-10",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783598348839,
+    "t": "Ju\u0308disches biographisches Archiv / Mikrofiches",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783598348952,
+    "t": "Jewish biographical archive Series II",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783598349003,
+    "t": "Italien-Index : neue Folge",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783598349034,
+    "t": "Italien-Index : Neue Folge : Bilddokumentation zur Kunst in Italien",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783598349232,
+    "t": "Index photographique de l'art en France : 2. Folge",
     "h": 1,
     "e": 0
   }

@@ -108,7 +108,7 @@ export class SocietalView extends View {
 
     this.drawISBN();
     this.draw_map_thumbnail(ctx, this.scale, this.offsetX, this.offsetY);
-    this.drawMapScale(ctx, '100 📚');
+    this.drawMapScaleIndicator(ctx, '100 📚');
 }
 
 

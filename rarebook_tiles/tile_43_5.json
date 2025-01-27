@@ -1,7 +1,847 @@
 [
   {
+    "i": 9782012431317,
+    "t": "Inde du Nord : Le guide du routard 2000-2001",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012431454,
+    "t": "Barcelone et Catalogne : Le guide du routard 2000-2001",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012431744,
+    "t": "Martinique, 2000-2001 : Dominique, Sainte-Lucie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012431997,
+    "t": "Californie et Seattle : le guide du routard 2000-2001",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782012432024,
+    "t": "Amsterdam et ses environs : Le guide du routard 2000-2001",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012432079,
+    "t": "Malaisie, Singapour : 2000/2001",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012432215,
+    "t": "Corse : Le guide du routard 2000-2001",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012432222,
+    "t": "Poitou-Charentes : Le guide du routard 2000-2001",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012432284,
+    "t": "Languedoc-Roussillon : Le guide du routard 2000-2001",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782012432345,
+    "t": "Restos & bistrots de Paris : Le guide du routard 2000-2001",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012432444,
+    "t": "Allemagne : 2000-2001",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012432451,
+    "t": "Argentine, Chili et Ile de Paques : Le guide du routard 2000-2001",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012432567,
+    "t": "Finlande, Islande : 2000-2001",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012432567,
+    "t": "Finlande, Islande : 2000-2001",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012432710,
+    "t": "Le guide du routard humanitaire : 2000-2001",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012432772,
+    "t": "Le baroud andalou",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012432987,
+    "t": "Egypte",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012433052,
+    "t": "K-O final au Se\u0301ne\u0301gal",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012433298,
+    "t": "Tables & chambres a\u0300 la campagne : Les bonnes adresses du Guide du routard, 2001",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012433373,
+    "t": "Bretagne nord : 2001/2002",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782012433380,
+    "t": "Bretagne Sud. 2001-2002",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782012433458,
+    "t": "Midi-Pyre\u0301ne\u0301es : Le guide du routard 2001-2002",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012433465,
+    "t": "Nord, Pas-de-Calais : 2001/2002",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012433656,
+    "t": "Birmanie, Myanmar. 2001-2002",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012433694,
+    "t": "Le guide du routard : Cuba, 2001",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782012433717,
+    "t": "Egypte : Le guide du routard 2001",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012433717,
+    "t": "Egypte : 2001",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012433823,
+    "t": "Inde du Sud : 2001",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012433847,
+    "t": "Irlande : Le guide du routard 2001-2002",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012433953,
+    "t": "Maroc : Le guide du routard 2001-2002",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012434004,
+    "t": "Norve\u0300ge, Sue\u0300de, Danemark : 2001/2002",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012434066,
+    "t": "Que\u0301bec & Provinces maritimes. 2001-2002",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012434103,
+    "t": "Sicile : Le guide du routard 2001-2002",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012434172,
+    "t": "Venise : Le guide du routard 2001",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012434196,
+    "t": "Que\u0301bec",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012434233,
+    "t": "Floride",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012434356,
+    "t": "Un grand week-end a\u0300 Budapest",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012434929,
+    "t": "Un grand week-end a\u0300 Se\u0301ville",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012434967,
+    "t": "Irlanda",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782012435001,
+    "t": "Ne\u0301pal, Tibet. 2002-2003",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782012435025,
+    "t": "Re\u0301publique dominicaine (Saint-Domingue)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782012435049,
+    "t": "I\u0302le Maurice, i\u0302le Rodrigues. 2002",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782012435056,
+    "t": "Inde du sud. 2002-2003",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012435094,
+    "t": "Se\u0301ne\u0301gal, Gambie. 2002",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012435117,
+    "t": "Vietnam. 2002-2003",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012435155,
+    "t": "Inde du nord. 2002-2003",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012435179,
+    "t": "Venise. 2002",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012435209,
+    "t": "Sri Lanka, Ceylan. 2002-2003",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012435230,
+    "t": "Paris. 2002",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782012435278,
+    "t": "Alpes. 2002-2003",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012435445,
+    "t": "Poitou-Charentes. 2002-2003",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012435483,
+    "t": "Paris balades. 2002-2003",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782012435544,
+    "t": "Le Guide de l'expatrie\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012435674,
+    "t": "New York. 2002",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782012435698,
+    "t": "Pe\u0301rou, Bolivie : 2002/2003",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012435728,
+    "t": "Chine. 2002-2003",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012435803,
+    "t": "Angleterre, pays de Galles. 2002-2003",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782012435858,
+    "t": "Espagne du centre. 2002-2003",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012435902,
+    "t": "Irlande. 2002-2003",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012435957,
+    "t": "Pologne, re\u0301p tche\u0300que, Slovaquie. 2002-2003",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012436039,
+    "t": "Maroc. 2002-2003",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012436145,
+    "t": "Malte",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782012436282,
+    "t": "Corse",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782012436336,
+    "t": "Istanbul",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012436435,
+    "t": "Chine : de Pe\u0301kin a\u0300 Hong Kong",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782012436497,
+    "t": "Portugal",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012436787,
+    "t": "Pays de la Loire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012436794,
+    "t": "Picardie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012437104,
+    "t": "Amsterdam",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782012437234,
+    "t": "Angleterre, pays de Galles. 2003",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012437302,
+    "t": "Californie : 2003-2004",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012437326,
+    "t": "Irlande. 2003",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012437418,
+    "t": "Parcs nationaux de l'ouest ame\u0301rican et Las Vegas : 2003",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012437500,
+    "t": "Etats-Unis, co\u0302te est : 2003-2004",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782012437586,
+    "t": "Cre\u0300te. 2003-2004",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012437661,
+    "t": "Junior a\u0300 Paris et ses environs : 2003-2004",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012437715,
+    "t": "Aquitaine : 2003-2004",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012437722,
+    "t": "Poitou-Charentes",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782012437890,
+    "t": "Nord, Pas-de-Calais : 2003/2004",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012438118,
+    "t": "Partir en Normandie : des ide\u0301es de se\u0301jours",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012438149,
+    "t": "Corse : [Balades, produits re\u0301gionaux, sports, activite\u0301s, art de vivre]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012438170,
+    "t": "Aquitaine",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012438316,
+    "t": "Prague",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782012438446,
+    "t": "Languedoc-Roussillon",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012438453,
+    "t": "Pe\u0301rigord, Quercy",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012438491,
+    "t": "Amsterdam",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012438576,
+    "t": "Toulouse",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012438750,
+    "t": "Un grand week-end a\u0300 Disneyland Paris",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012438910,
+    "t": "Norve\u0300ge",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012438972,
+    "t": "Pie\u0301mont : 2004",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012439177,
+    "t": "Paris balades",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012439184,
+    "t": "Le routard des amoureux a\u0300 Paris. 2004-2005",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012439214,
+    "t": "Junior a\u0300 Paris et ses environs : 2004",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012439290,
+    "t": "Languedoc-Roussillon. 2004-2005",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012439399,
+    "t": "Week-ends autour de Paris 2004-2005",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012439498,
+    "t": "Guadeloupe, Les Saintes, Marie-Galante, La De\u0301sirade, Saint-Martin, Saint-Barthe\u0301lemy : randonne\u0301es et plonge\u0301es : 2004",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012439542,
+    "t": "Belgique. 2004",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012439559,
+    "t": "Inde du sud. 2004",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782012439559,
+    "t": "Inde du Sud : 2004",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782012439597,
+    "t": "Thai\u0308lande : 2004",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012439658,
+    "t": "Inde du nord. 2004",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782012439719,
+    "t": "Londres : 2004",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782012439825,
+    "t": "Italie du Sud : 2004",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012439832,
+    "t": "New York : 2004",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782012439849,
+    "t": "Irlande : 2004",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782012439962,
+    "t": "Barcelone : 2004-2005",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782012439986,
+    "t": "Pologne, Re\u0301publique tche\u0300que, Slovaquie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782013934572,
+    "t": "Mes plus belles princesses au fil des saisons Tout pour cre\u0301er tes princesse, sans aide, de\u0300s 5 ans ... : [autocollant, album a\u0300 colorier]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782013934589,
+    "t": "Je cre\u0301e mes mandalas",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782013935982,
+    "t": "Poneys et chevaux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782013936750,
+    "t": "La jungle (TP)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782013937108,
+    "t": "Pompiers",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782013937689,
+    "t": "Le petit camion",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782013937825,
+    "t": "Petit Lapin blanc : joyeux anniversaire!",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782013938679,
+    "t": "Mini-Loup : 200 jeux et activite\u0301s",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782014433739,
+    "t": "BIBLIOTHEQUE HIPPOLYTE RODRIGUES. MARS 1889",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782014433999,
+    "t": "LE BIGOTISME : satire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782021436846,
+    "t": "Folie, mariage et mort : pratiques chre\u0301tiennes de la folie en Europe occidentale",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782035930248,
+    "t": "Les meilleures recettes vite fait, bien fait!",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782035931221,
+    "t": "Mes jolis oeufs de Pa\u0302ques a\u0300 de\u0301corer Avec 60 autocollants / 15 sce\u0300nes a\u0300 dessiner, colorier ou comple\u0301ter ! : [Album a\u0300 colorier]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782035931238,
+    "t": "Ma jolie montagne a\u0300 de\u0301corer 15 sce\u0300nes a\u0300 dessiner, colorier ou comple\u0301ter : avec 50 autocollants : [Album de jeux et d'activite\u0301s pour enfants]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782035933522,
+    "t": "Renne des neiges : 28 recettes cocooning pour passer l'hiver en douceur",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782035933539,
+    "t": "No prob lama : 28 recettes douceur spe\u0301cial bonne humeur",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782035933546,
+    "t": "Une anne\u0301e toute dou(r)ce : 28 recettes pour cocooner au chaud",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782035934758,
+    "t": "Mes premiers labyrinthes : les contes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782035935045,
+    "t": "Mes plus belles chansons en anglais",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782035935335,
+    "t": "Zou S'amuse Dans La Neige",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782035935342,
+    "t": "Zou Fait La Classe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782035935724,
+    "t": "N'aie pas peur, Bill !",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782037430708,
+    "t": "Le chat qui jouait a\u0300 cache-cache.",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782037431200,
+    "t": "Une toute petite chose.",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782060930053,
+    "t": "USA, places of interest, national parks, motoring & tourist map : 1999, index of places = USA, lieux touristiques, parcs nationaux : 1999, index des localite\u0301s",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782060930053,
+    "t": "USA : touristisch interessanter Ort, Nationalpark; Ortsverzeichnis",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782070433261,
+    "t": "Tu crois pas si bien dire",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782070433322,
     "t": "Le Jade du mandarin",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782070438648,
+    "t": "Poemes a Apprend Coeur",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782070439683,
+    "t": "Le voyage amoureux : Angleterre, Russie, Autriche, Inde, Japon, Nouvelle-Ze\u0301lande, France, Espagne, Italie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782070439805,
+    "t": "Robespierre : [ine\u0301dit]",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782081437838,
+    "t": "Monsieur Pingouin : le tre\u0301sor perdu",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782091932293,
+    "t": "Mila et Noe\u0301 / Robi, le petit robot",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782091935072,
+    "t": "Mila et Noe\u0301 / Cache-cache sardine",
     "h": 1,
     "e": 0
   },
@@ -12,8 +852,332 @@
     "e": 0
   },
   {
+    "i": 9782110930040,
+    "t": "Les finances des communes de moins de 10000 habitants. 1999",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110930101,
+    "t": "Les collectivite\u0301s locales en chiffres. 2001",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110930118,
+    "t": "Les finances des communes de moins de 10.000 habitants en 2000",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110930156,
+    "t": "Guide du travail aupre\u0300s des mineurs en de\u0301tention",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110930545,
+    "t": "1940 : combats et re\u0301sistances",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110931054,
+    "t": "Plans de de\u0301placements urbains : e\u0301valuation de l'impact sur la qualite\u0301 de l'air de sce\u0301narios de de\u0301placements urbains, PDU, DVA, mesures d'urgence : e\u0301tude pilote de Saint-E\u0301tienne 2002",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110931092,
+    "t": "Ame\u0301nager des rivie\u0300res en ville : Exemples et repe\u0300res pour le montage d'ope\u0301rations",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110931139,
+    "t": "E\u0301valuation des transports en commun en site propre : recommendations pour l'e\u0301valuation socio-e\u0301conomique des projets de TCSP",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110931207,
+    "t": "La desserte des ae\u0301roports de province : La place des transports en commun",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110931429,
+    "t": "Connaitre la vitesse pour agir sur la se\u0301curite\u0301 de la circulation en agglome\u0301ration",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110931641,
+    "t": "Me\u0301diasig. 2002 : Les 7000 noms de la presse et de la communication : les services de presse et de communication ; les agences de presse ; l'audiovisuel ; la presse e\u0301crite nationale et re\u0301gionale, les groupes de presse ; les organismes syndicaux et professionnels de presse et d'information ; l'international en France",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110931641,
+    "t": "Me\u0301diasig 2002 : les 7 000 noms de la presse et de la communication",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110931771,
+    "t": "Carte forestie\u0300re de la France par de\u0301partements. 44, Carte forestie\u0300re du de\u0301partement de la Loire-Atlantique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110932686,
+    "t": "Evolution de l'incidence et de la mortalite\u0301 par cancer en France de 1978 a\u0300 2000",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110932778,
+    "t": "Surveillance des infections du site ope\u0301ratoire en France en 1999 et 2000 : re\u0301sultats",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110933591,
+    "t": "Programmes territoriaux du Service public de l'emploi. Loire, juin 2003 : synthe\u0300se de\u0301partementale, diagnostics et plans d'action locaux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110934550,
+    "t": "Repe\u0300res & re\u0301fe\u0301rences statistiques sur les enseignements, la formation et la recherche",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110934604,
+    "t": "Atlas re\u0301gional : effectifs d'e\u0301tudiants en 2002-2003",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110934994,
+    "t": "Cou\u0302ts et be\u0301ne\u0301fices e\u0301conomiques des drogues",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110935342,
+    "t": "L'approche \"me\u0301tier\" dans le respect d'une fonction publique de carrie\u0300re : comptes rendus de journe\u0301es d'e\u0301tude, 26 mars 2003",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110935502,
+    "t": "Centres de recherche franc\u0327ais a\u0300 l'e\u0301tranger",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110935571,
+    "t": "France, a partner of NEPAD : an action plan for Africa = La France, partenaire du NEPAD: plan d'action pour l'Afrique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110936233,
+    "t": "Ame\u0301lioration des conditions d'exercice des professionnels de sante\u0301 dans les quartiers de la politique de la ville",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110936639,
+    "t": "Unite\u0301s de la compagnie de gendarmerie de\u0301partementale des Hautes-Alpes, 1887-1946 : re\u0301pertoire nume\u0301rique de\u0301taille\u0301 de la sous-se\u0301rie 5 E",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110936707,
+    "t": "Un sie\u0300cle de Gendarmerie en photographies",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110936929,
+    "t": "La situation de\u0301mographique a\u0300 La Re\u0301union en 2002 : naissances, de\u0301ce\u0300s, mariages",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110937377,
+    "t": "Observatoire statistique transfrontalier des accords bilate\u0301raux : Ain, Haute-Savoie, Gene\u0300ve, Vaud",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110937599,
+    "t": "Les e\u0301lections aux comite\u0301s d'entreprise en Rho\u0302ne-Alpes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110937803,
+    "t": "Ports de France",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110937995,
+    "t": "Stations radiome\u0301te\u0301orologiques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110938169,
+    "t": "Europe occidentale, Me\u0301diterrane\u0301e : vol. 2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110938404,
+    "t": "Me\u0301diterrane\u0301e occidentale (parties sud et est) ; Adriatique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110938435,
+    "t": "Me\u0301diterrane\u0301e occidentale (partie nord)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110938572,
+    "t": "Radiocommunications pour la surveillance du trafic et le pilotage. Volume 4, Ame\u0301riques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110938664,
+    "t": "Radiocommunications pour la surveillance du trafic et le pilotage. Volume 1, Groenland - Europe du Nord",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110938848,
+    "t": "Observatoire statistique transfrontalier des accords bilate\u0301raux : les accords bilate\u0301raux de\u0301ploient leurs effets sur l'agglome\u0301ration transfrontalie\u0300re : synthe\u0300se 2006",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110938886,
+    "t": "Le prix des logements dans l'agglome\u0301ration transfrontalie\u0300re franco-valdo-genevoise : sources, me\u0301thodologie et re\u0301sultats",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110938930,
+    "t": "Re\u0301gion parisienne : espace ae\u0301rien couvert SFC - FL 195",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110939067,
+    "t": "Conse\u0301quences sanitaires de l'explosion survenue a\u0300 l'usine \"AZF\" de Toulouse le 21 septembre 2001 : conse\u0301quences des expositions environnementales",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110939081,
+    "t": "Enque\u0302te de pre\u0301valence nationale 2001 : re\u0301sultats",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110939098,
+    "t": "Morbidite\u0301 et mortalite\u0301 dues aux maladies infectieuses d'origine alimentaire en France",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110939104,
+    "t": "Toxi-infection alimentaire collective a\u0300 Escherichia coli O148:H8 producteur de shigatoxines : Gironde, juin 2002 : rapport d'investigation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110939173,
+    "t": "Incine\u0301rateurs et sante\u0301 : exposition aux dioxines de la population vivant a\u0300 proximite\u0301 des UIOM : e\u0301tat des connaissances et protocole d'une e\u0301tude d'exposition",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110939180,
+    "t": "Evaluation du syste\u0300me de surveillance pilote de l'he\u0301patite A : France 2001",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110939517,
+    "t": "L'Industrie dans les re\u0301gions : Edition 2003-2004",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110939524,
+    "t": "Projet de loi de finances pour 2004 : rapport e\u0301conomique, social et financier. 1, Perspectives e\u0301conomiques 2003-2004 et e\u0301volution des finances publiques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782110939579,
+    "t": "Me\u0301diasig. 2003 : Les 7000 noms de la presse et de la communication : les services de presse et de communication ; les agences de presse ; l'audiovisuel ; la presse e\u0301crite nationale et re\u0301gionale, les groupes de presse ; les organismes professionnels, les associations, les syndicats ; l'international en France",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782120435108,
+    "t": "Appareils de chauffage",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782122434116,
+    "t": "Biocombustibles solides : recueil normes",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782130430841,
     "t": "L'anne\u0301e balzacienne, nouv. se\u0301rie, 11; 1990",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782130430841,
+    "t": "L'anne\u0301e Balzacienne, 1990 : Balzac et la re\u0301volution",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782130430896,
+    "t": "Contributions a\u0300 une sociologie des politiques publiques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782130430957,
+    "t": "Que\u0301bec : e\u0301tudes sur l'enfant",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782130431114,
+    "t": "Le ministe\u0300re des finances",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782130431565,
+    "t": "Politique compare\u0301e",
     "h": 1,
     "e": 0
   },
@@ -24,8 +1188,74 @@
     "e": 0
   },
   {
+    "i": 9782130431954,
+    "t": "Indochine : nume\u0301ro spe\u0301cial de la revue Approches Asie (10)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782130432111,
+    "t": "Dynamique des groupes : connaissance du proble\u0300me, applications pratiques",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782130432470,
+    "t": "Le choix de l'homme : une pense\u0301e mac\u0327onnique au quotidien",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782130433163,
+    "t": "La se\u0301mantqiue",
+    "h": 1,
+    "e": 1
+  },
+  {
     "i": 9782130433422,
     "t": "Droit et sciences humaines : 1990",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782130433606,
+    "t": "No\u00e9 de Giono, ou, Le bateau-livre",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782130433934,
+    "t": "L'enseignement professional en France : des ouvriers aux techniciens",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782130434023,
+    "t": "Heidegger",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782130434412,
+    "t": "La logistique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782130435563,
+    "t": "L'ethnom\u00e9thodologie",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782130436737,
+    "t": "La Cour supre\u0302me des Etats-Unis",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782130436935,
+    "t": "Droits : revue franc\u0327aise de the\u0301orie juridique. Vol. 14, L'Europe et le droit",
     "h": 1,
     "e": 0
   },
@@ -36,8 +1266,908 @@
     "e": 0
   },
   {
+    "i": 9782130437536,
+    "t": "Le savoir re\u0301el de l'homme moderne : essais introductifs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782130437574,
+    "t": "La civilisation ame\u0301ricaine",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782130437604,
+    "t": "La stylistique. 2. e\u0301d. corr",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782130438045,
+    "t": "<<Les>> costitutions de la France",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782130438670,
+    "t": "Raymond Radiguet : la nostalgie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782130438809,
+    "t": "L'Occident aux XIVe\u0300 et XVe\u0300 sie\u0300cles : les e\u0301tats",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782130438878,
+    "t": "Figures de la pense\u0301e philosophique : e\u0301crits, 1931-1968",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782130439134,
+    "t": "Rome et la conque\u0302te du monde me\u0301diterrane\u0301en, 264-27 avant J.-C.T. 2, Gene\u0300se d'un empire",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782130439318,
+    "t": "Les grandes dates de l'histoire de la musique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782130439417,
+    "t": "Le chatolicisme entre Luther et Voltaire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782130439622,
+    "t": "L'art grec",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782130439769,
+    "t": "La psycho-p\u00e9dagogie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782130439998,
+    "t": "Des origines au XVIIIe siecle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782200930325,
+    "t": "E\u0301conomie de l'Afrique contemporaine",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782200931414,
+    "t": "Le sens du social",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782200931902,
+    "t": "E\u0301critures re\u0301gionalistes (1800-1914) nouvelles e\u0301chelles, nouveaux enjeux critiques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210438071,
+    "t": "Pingpong. 3, Cahier d'activite\u0301s (Allemand 3e LV 2)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782210930117,
+    "t": "Album Magnum-Magnard : bricoloriage",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782218930232,
+    "t": "Bescherelle poche",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782218930355,
+    "t": "Les cahiers effac\u0327ables, CE2, 8-9 ans : l'essentiel en franc\u0327ais, maths, histoire, ge\u0301ographie, sciences",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782218930881,
+    "t": "Francais methodique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782218932106,
+    "t": "Toute la premie\u0300re S",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782218935435,
+    "t": "Espagnol : terminale toutes se\u0301ries",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782218935572,
+    "t": "Franc\u0327ais. CE2, cycle 3 : lecture/e\u0301criture, grammaire, conjugaison, orthographe, vocabulaire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782218936005,
+    "t": "Sciences de la vie et de la terre : 2de",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782218938283,
+    "t": "Welcome : anglais 6e : palier 1 niveaux A1/A1+ : DVD vide\u0301o",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782218938290,
+    "t": "Welcome anglais 6e : palier 1 niveaux A1/A1+ : 3 CD audio-classe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782218938481,
+    "t": "Italien : 4e 13/14 ans : Niveau A1/A1+ du CECR",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782225432309,
+    "t": "Congre\u0300s franc\u0327ais de me\u0301decine, XXXXe [session], Dakar, 1-4 de\u0301cembre 1975",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782225432309,
+    "t": "Les polyarthrites rhumatoi\u0308des, Rapports au 40 : Congress Francaise de Medecine, Dakar, December 1975, Proc",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782225435829,
+    "t": "Ge\u0301ne\u0301ralites, se\u0301rie acyclique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782226436641,
+    "t": "American elsewhere : roman",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782226436733,
+    "t": "Quatre-vingt-dix secondes : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782226437341,
+    "t": "Les pre\u0301noms e\u0301pice\u0300nes : roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782227430174,
+    "t": "Faut-il maintenir la peine de mort en France?",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782227430211,
+    "t": "Le redempteur de l'homme Lettre encyclique redemptor hominis (Mar 1979)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782227430464,
+    "t": "Coope\u0301rer au de\u0301veloppement aujourd'hui : e\u0301le\u0301ments de re\u0301flexions",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9782227430716,
     "t": "Lettre aux families",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782227430853,
+    "t": "Tourisme et loisirs, une question sociale",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782227439092,
+    "t": "Vivre le christianisme. 1, Une vie selon l'E\u0301vangile",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782244436029,
+    "t": "Chocottons d'avoir si trouille! : texte: Marie-Sabine Roger ; illustrations: Sylvie Albert.",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782253932987,
+    "t": "Nouvelles em trois lignes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782253932987,
+    "t": "Nouvelles en trois lignes et autres textes courts",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782279437206,
+    "t": "Cou\u0302ts d'approche et d'implantation en Turquie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782280431897,
+    "t": "Un gentleman a\u0300 son gou\u0302t",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782280432870,
+    "t": "L'envol des convenances",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782280433266,
+    "t": "Se\u0301duite par un noble italien",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782280433556,
+    "t": "Un cow-boy pour papa",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782280433709,
+    "t": "Milliardaires grecs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782280436687,
+    "t": "L'i\u0302le du Ragnaro\u0308k",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322432233,
+    "t": "Un long voyage ou L'empreinte d'une vie - tome 29 Tome 29 - La Grande vie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322436422,
+    "t": "Le re\u0300gne terrestre des parfaits E\u0301crits akkle\u0301siastiques - Tome 2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322436682,
+    "t": "La racine du mal se\u0301rie Gabriel Beauregard",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322437863,
+    "t": "Petites histoires a\u0300 faire fre\u0301mir - II L'autre - Lucien ou Luciano",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322438303,
+    "t": "Espe\u0301rya",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322438310,
+    "t": "De la me\u0301chancete\u0301 ordinaire a\u0300 l'extermination La maltraitance entre professionnels dans le monde de la sante\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322438563,
+    "t": "La puissance de la naissance entre nos mains",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322439041,
+    "t": "LES DOUZE TRAVAUX D'HERAKLES",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322439188,
+    "t": "Le Destin des Runes Livre 1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322439232,
+    "t": "Les foudres d'E\u0301ros",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322439584,
+    "t": "Le monde de Fysche Jack",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322439607,
+    "t": "La harpe\u0301opathie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782322439621,
+    "t": "Valse",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782329435671,
+    "t": "GUIDE DE L'ACTIONNAIRE EN CHEMINS DE FER OU MANUEL DU SPECULATEUR A LA BOURSE DE PARIS",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782332930149,
+    "t": "Les gens de bien",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782332934109,
+    "t": "Slameries et autres monologues pour matuvu",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782332934222,
+    "t": "Printemps arabe et paroles croise\u0301es",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782332934345,
+    "t": "A\u0302mes amies : recueil de poe\u0301sie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782332934499,
+    "t": "Les contes cruels de l'Arabe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782332935212,
+    "t": "Rowan Oak",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782332935847,
+    "t": "Cancer ascendant chimio ou La fureur d'en rire",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782332936141,
+    "t": "Croc' et prim'",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782332937254,
+    "t": "Diffe\u0301rence et re\u0301pe\u0301tition en psychanalyse",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782332938398,
+    "t": "E\u0301te\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782332938602,
+    "t": "E\u0301nie\u0300me entretien : les de\u0301boires d'une jeune diplo\u0302me\u0301e",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782332939050,
+    "t": "Les tribulations de Malika Leroux au Sahel",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782351430026,
+    "t": "L'atelier d'Antoine Bourdelle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782351930090,
+    "t": "Les strate\u0301gies de croissance et de distribution en e\u0301pargne retraite",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782351930144,
+    "t": "Le rede\u0301ploiement des groupes pharmaceutiques mondiaux",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782351930182,
+    "t": "Les nouvelles strate\u0301gies d'avantages concurrentiels sur le marche\u0301 franc\u0327ais du me\u0301dicament",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782351930588,
+    "t": "Me\u0301dias et e-me\u0301dias : le grand tournant : les me\u0301dias traditionnels face a\u0300 l'Internet a\u0300 l'horizon 2010",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782351930786,
+    "t": "Les socie\u0301te\u0301s de biotechnologie en France : quels mode\u0300les e\u0301conomiques de re\u0301fe\u0301rence",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782351931431,
+    "t": "Les cabinets d'audit et d'expertise comptable : de\u0301fis et strate\u0301gies a\u0300 l'heure du basculement vers une logique de marche\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782351931714,
+    "t": "Les centres commerciaux a\u0300 l'horizon 2015 : internet, renouveau des concepts et de l'offre, fide\u0301lisation des clients, quelles strate\u0301gies face a\u0300 la crise?",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782351932063,
+    "t": "Les services a\u0300 la personne a\u0300 l'horizon 2015 : repositionner et le\u0301gitimer son offre sur un marche\u0301 complexe mais porteur",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782351932087,
+    "t": "L'industrie des fruits et le\u0301gumes e\u0301labore\u0301s a\u0300 l'horizon 2015 (surgele\u0301s, conserves, 4e\u0300me et 5e\u0300me gammes) : innover pour e\u0301chapper a\u0300 la banalisation et valoriser l'offre",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782351932094,
+    "t": "La distribution d'articles de bricolage et de jardinage : les enseignes face au de\u0301fi d'internet et de la consommation collaborative",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782351932117,
+    "t": "Le marche\u0301 de la publicite\u0301 locale a\u0300 l'horizon 2017 : quelles strate\u0301gies de croissance a\u0300 l'heure de la digitalisation de l'information et de la communication?",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782351932131,
+    "t": "Le marche\u0301 des seniors dans la banque et l'assurance : rede\u0301finir son mix-marketing pour conque\u0301rir et fide\u0301liser une cliente\u0300le a\u0300 fort potentiel",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782351932810,
+    "t": "Les marche\u0301s de la cession-transmission d'entreprises : miser sur les e\u0301cosyste\u0300mes pour repenser la promesse de valeur",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782351932827,
+    "t": "L'affacturage et l'assurance cre\u0301dit : reprendre l'initiative pour tirer parti des gisements de croissance",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782351932889,
+    "t": "Le marche\u0301 du me\u0301dicament hospitalier en France : biosimilaires, services, coope\u0301rations ... quels nouveaux leviers pour enrayer les pressions de\u0301flationnistes?",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782351933039,
+    "t": "Le marche\u0301 du recyclage et de l'e\u0301conomie circulaire : des opportunite\u0301s et des mode\u0300les innovants",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782351933046,
+    "t": "Les micro-entreprises, TPE et PME dans l'assurance : acce\u0301lerer la transition servicielle pour se diffe\u0301rencier",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782351933053,
+    "t": "Les strate\u0301gies dans les services a\u0300 la personne : conforter les strate\u0301gies gagnantes et saisir les opportunite\u0301s lie\u0301es au nume\u0301rique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782351933343,
+    "t": "Le renouveau de la distribution alimentaire : quels leviers strate\u0301giques pour se diffe\u0301rencier durablement?",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782352930181,
+    "t": "Isabelle Le\u0301ve\u0301nez : portraits fragmente\u0301s",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782352930402,
+    "t": "Dixie\u0300me triennale internationale des mini-textiles : too web or not to web, trop de toile ou pas",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782352930471,
+    "t": "Comas : Genevie\u0300ve de toutes les couleurs : du 26 Avil au 25 Juillet 2014, Grand The\u0301a\u0302tre d'Angers",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782353430000,
+    "t": "Chroniques de Feyzin. 01, Vie publique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782353430017,
+    "t": "Un corps ou les septs merveilles",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782353430031,
+    "t": "Grand Maman raconte",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782353430048,
+    "t": "La the\u0301orie des cinq grands archetypes",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782353430055,
+    "t": "Sos civilisation : les tribulations d'un Paria",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782354930158,
+    "t": "J'ai peur des mouches texte inte\u0301gral",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782355430237,
+    "t": "Training ZBrush 3. Number 2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782355430312,
+    "t": "Formation Flash CS4, ActionScript 3",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782355930102,
+    "t": "L'amour en 100 proverbes du monde entier",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782355931727,
+    "t": "Le chant de l'Irlande",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782355932717,
+    "t": "Le changement c'est maintenant. Saison 1, Le redressement enfin de\u0301voile\u0301 en toute transparence",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782355932915,
+    "t": "L'enrage\u0301",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782357430358,
+    "t": "Histoire des marins franc\u0327ais. [5], 1946-1954 : a\u0300 Madagascar, 1947-1948, et en Indochine, 1946-1954",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782360430000,
+    "t": "Virelai : poe\u0301sie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782360930913,
+    "t": "Rien ne sera plus comme avant",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782361430313,
+    "t": "Les indulgences dans la vie de l'E\u0301glise et leur destruction par le pape Paul VI",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782361430757,
+    "t": "Du protestantisme a\u0300 l'E\u0301glise du Christ : le te\u0301moignage des convertis",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782361430788,
+    "t": "La passion et la re\u0301surrection selon saint Matthieu",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782361430801,
+    "t": "Le porche d'entre\u0301e du psautier : commentaire des psaumes 1 & 2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782361932640,
+    "t": "Costumes a\u0300 colorier [album a\u0300 colorier]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782361935474,
+    "t": "Cahier de jardin imagine, conc\u0327ois et dessine le jardin ide\u0301al : [Album a\u0300 colorier]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782362430077,
+    "t": "Guerre secre\u0300te au Sahara occidental",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782363439901,
+    "t": "L'affouragement en vert en e\u0301levage caprin",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782364930124,
+    "t": "Comple\u0301ment aux formations PPL(A) dispense\u0301es en Belgique",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782364932807,
+    "t": "Comprendre l'avion. Tome 3 L'avion en vol : propulsuion",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782364932814,
+    "t": "Comprendre l'avion. Tome 2 L'avion en vol : me\u0301canique du vol",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782364932821,
+    "t": "Comprendre l'avion. Tome 1 L'air et l'avion",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782364934276,
+    "t": "Cours et exercices d'analyse : topologie, analyse fonctionnelle et matricielle : math\u00e9matiques sp\u00e9ciales MP-MP*-PSI*, CAPES-agr\u00e9gation",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782364934658,
+    "t": "Cybers\u00e9curit\u00e9 des installations industrielles. Chapitre III Cybers\u00e9curit\u00e9 des syst\u00e8mes num\u00e9riques industriels : sp\u00e9cificit\u00e9s et d\u00e9fis associ\u00e9s",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782364934702,
+    "t": "Cybers\u00e9curit\u00e9 des installations industrielles. Chapitre VIII Cybers\u00e9curit\u00e9 des acc\u00e8s tiers",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782364937574,
+    "t": "Convergences entre la the\u0301orie de la mode\u0301lisation et de la simulation et les syste\u0300mes multi-agents : workshop du re\u0301seau DEVS (RED) : IES de Carge\u0300se, Corse, 13 au 18 avril 2020",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782365930048,
+    "t": "Lija",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782365930086,
+    "t": "De la ce\u0301citude",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782368931127,
+    "t": "Me\u0301mento Patrimoine 2015-2016 : Juridique, fiscal, financier",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782368931158,
+    "t": "Comptes consolide\u0301s 2015 : re\u0300gles franc\u0327aises",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782368931813,
+    "t": "Droit commercial 2016",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782368931813,
+    "t": "Me\u0301mento Droit commercial 2016",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782368932506,
+    "t": "M\u00e9mento cessions de parts et actions 2017-2018",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782368932544,
+    "t": "M\u00e9mento Fiscal, 2017",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782369930075,
+    "t": "Grasse : histoire d'un quartier : le domaine Alice de Rothschild",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782369930150,
+    "t": "Re\u0301veillons la France! : avec les valeurs de l'e\u0301cologie universelle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782369930686,
+    "t": "Fune\u0301riales : poe\u0301tique du bout de la vie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782371430037,
+    "t": "Le cadeau de Noe\u0308l",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782371430051,
+    "t": "Le secret de Chlorophylle",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782374930312,
+    "t": "Lego Star wars. Les missions secre\u0300tes de Yoda",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782375430422,
+    "t": "[Doux voodoo]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782376430025,
+    "t": "Introduction a\u0300 la psychopathologie : the\u0301orie et exemples cliniques",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782378430061,
+    "t": "Hydroceutical revolution in Niger Republic : the hydroceutical approach to disease control (HAT-DISC) : revolutionary tool for healthcare, economic, theonomic and social development",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782379930393,
+    "t": "Manipulations",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782379930973,
+    "t": "A\u0300 nos a\u0302mes lie\u0301es",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9782379931314,
+    "t": "Love memories. #2",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9782381430089,
+    "t": "Cimetie\u0300res, ope\u0301rations fune\u0301raires : le\u0301gislation et aspects pratiques : mise a\u0300 jour au 2 avril 2021 et dispositions spe\u0301ciales Covid-19",
     "h": 1,
     "e": 0
   }

@@ -1,9 +1,1329 @@
 [
   {
+    "i": 9783203795355,
+    "t": "Der Balkan : Stabilita\u0308t oder Chaos in Europa",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783205790501,
+    "t": "Das Pressburger Protocollum Testamentorum : Teil, 1410-1487",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783205791584,
+    "t": "Arnold schonberg in seinen schriften",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783205793052,
+    "t": "Visualisierungen von Kult",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783205793663,
+    "t": "De\u0301j a-vu",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783205793922,
+    "t": "Statten des wissens",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783205794974,
+    "t": "Anna Freud : Gedichte - Prosa - U\u0308bersetzungen",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783205794974,
+    "t": "Gedichte, Prosa, U\u0308bersetzungen",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783205795124,
+    "t": "Kerne, Kooperation und Konkurrenz : Kernforschung in O\u0308sterreich im internationalen Kontext (1900-1950)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783205795124,
+    "t": "Kerne, Kooperation und Konkurrenz : Kernforschung in O\u0308sterreich im internationalen Kontext (1900-1950)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783205795452,
+    "t": "Erica Tietze-Conrat : Tagebu\u0308cher",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783205795452,
+    "t": "Tageb\u8d63her",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783205795513,
+    "t": "\"Das Scho\u0308nste ist scheu\u00dflich\"",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783205795919,
+    "t": "Die Korrespondenz Ferdinands I. Familienkorrespondenz",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783205796305,
+    "t": "Geschichte der venezianischen Malerei. Band 4, Tizian und sein Umkreis",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783205796398,
+    "t": "Spital als Lebensform Bd. 2",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783205796596,
+    "t": "Hans Sima, ein politisches Leben : Ka\u0308rntner Landeshauptmann (1965-1974)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783205796985,
+    "t": "Der Franziszeische Kataster im Kronland Bukowina. Czernowitzer Kreis (1817-1865)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783211295595,
+    "t": "Gedichte Bd. 2",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783211791943,
+    "t": "Modern Alternatives: H\u00f6ller & Klotzner Architecture",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783211795927,
+    "t": "Fashionable technology : the intersection of design, fashion, science, and technology",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783211799048,
+    "t": "Kognitive Aktivierung mit SimA\u02bc-P Selbsta\u0308ndig im Alter",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783221790011,
+    "t": "Ao3 : among others 3 ; audio-visual documents ; [published as documentation of a project which took place at the Kunsthalle Exnergasse from April 28 to May 29, 1999 in Vienna, Austria]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783257293050,
+    "t": "Der Mitmacher ein Komplex : Text der Komo\u0308die, Daramturgie, Erfahrungen, Berichte, Erza\u0308hlungen",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783257790047,
+    "t": "Die Diogenes-Mini-Bibliothek der Weltliteratur 25 Mini-detebes aus 25 Jahren",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783257790047,
+    "t": "Die Diogenes-Mini-Bibliothek der Weltliteratur 19",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783257794014,
+    "t": "Odyssee im Weltraum",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783257794052,
+    "t": "Der dritte Mann",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783257794090,
+    "t": "Ein Amerikaner in Paris",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783257795356,
+    "t": "Das Schatzka\u0308stlein der scho\u0308nsten deutschen Gedichte von Martin Luther bis Wilhelm Busch",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783297295007,
+    "t": "Modelli di contratti per tutte le operazioni commerciali : un manuale d'attualita\u0300 per il professionista, contenente esempi giuridicamente corretti, schede di controllo, supporti di lavoro et un commentario adattato alla piu\u0300 recente giurisprudenza",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783319290034,
+    "t": "Mobile Computing, Applications, and Services 7th International Conference, MobiCASE 2015, Berlin, Germany, November 12-13, 2015, Revised Selected Papers",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783319292663,
+    "t": "Enacting Research Methods in Information Systems: Volume 1",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783319292724,
+    "t": "Enacting Research Methods in Information Systems: Volume 3",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783319293776,
+    "t": "CT Colonography for Radiographers A Guide to Performance and Image Interpretation",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783319295480,
+    "t": "China in the Xi Jinping era",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783319295688,
+    "t": "Cartilage Volume 1: Physiology and Development",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783319296081,
+    "t": "Models, Algorithms and Technologies for Network Analysis NET 2014, Nizhny Novgorod, Russia, May 2014",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783319296746,
+    "t": "The Physics of the Mind and Brain Disorders : Integrated Neural Circuits Supporting the Emergence of Mind",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783319296791,
+    "t": "Stochastic Models with Power-Law Tails The Equation X = AX + B",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783319298870,
+    "t": "Trends in Cerebrovascular Surgery",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783319299013,
+    "t": "Epigenetics and neuroendocrinology 2 Clinical focus on psychiatry",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783319299655,
+    "t": "Computer-Assisted and Robotic Endoscopy [recurso electr\u00f3nico] Second International Workshop, CARE 2015, Held in Conjunction with MICCAI 2015, Munich, Germany, October 5, 2015, Revised Selected Papers",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783319299860,
+    "t": "Evolutionary Perspectives on Child Development and Education [recurso electr\u00f3nico]",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783347292208,
+    "t": "Sagenhafte Geschichten Was Sagen sind, bestimmen wir!",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783401297798,
+    "t": "O du fro\u0308hliche! Weihnachtsgeschichten fu\u0308r 3 Minuten ; ab 4 Jahren",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783407293671,
+    "t": "Circle: Die Kraft des Kreises : Gespr\u00e4che und Meetings inspirierend, sch\u00f6pferisch und effektiv gestalten",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783407791894,
+    "t": "Traumboot : Gute-Nacht-Geschichten",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783407792266,
+    "t": "Hugo der Hamster",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783407793379,
+    "t": "Rosi in der Geisterbahn / Bilderbuch",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783407794109,
+    "t": "Frederick. Ho\u0308rspiel-CD. Ho\u0308rspiel mit Songs und Musik : fu\u0308r Kinder ab 3 Jahren / von Fredrik Vahle nach dem gleichnamigen Bilderbuch von Leo Lionni",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783407796080,
+    "t": "Der rote Nepomuk : Roman",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783407798640,
+    "t": "Romane fu\u0308r Kinder : Alter John ; Jakob hinter den blauen Tu\u0308r ; Kru\u0308cke",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783407798657,
+    "t": "Romane fu\u0308r Kinder : Fra\u0308nze ; Mit Clara sind wir sechs ; Lena auf dem Dach",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783409299053,
+    "t": "Wirtschaftswo\u0308rterbuch Franzo\u0308sisch. Dictionnaire e\u0301conomique",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783409299060,
+    "t": "Wirtschafts-Wo\u0308rterbuch. Dicitionnaire e\u0301conomique",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783409299138,
+    "t": "Gabler Wirtschaftswo\u0308rterbuch Spanisch",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783409797825,
+    "t": "Buchfu\u0308hrung / [Hauptbd.] DATEV-Kontenrahmen 1999",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783409798013,
+    "t": "Buchfu\u0308hrung : mit EDV-Kontierung ; nach dem Bilanzrichtlinien-Gesetz. 2, [2], DATEV-Kontenrahmen 2002 ; Lo\u0308sungen : Abschlu\u0308sse nach Handels- und Steuerrecht, betriebswirtschaftliche Auswertung, Vergleich mit IAS ; mit den Grundlagen zu den IAS",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783423790123,
+    "t": "Bettina und Achim : die Geschichte einer Liebe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783432298719,
+    "t": "IXth International Conference on Production Diseases in Farm Animas, Berlin, Sept. 11-14th, 1995 : proceedings",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783437299827,
+    "t": "Atlas der Anatomie : Deutsche U\u0308bersetzung von Christian Hammer - mit Zugang zum Elsevier-Portal",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783439795020,
+    "t": "Meine Entfu\u0308hrung beginnt Punkt 10",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451290657,
+    "t": "Von Herzen : danke",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451290664,
+    "t": "Fu\u0308r einen lieben Menschen : herzliche Gru\u0308sse",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451290671,
+    "t": "In Tagen der Krankheit : gute Besserung",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451290688,
+    "t": "Zum Geburtstag : sieben gute Wu\u0308nsche",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451290831,
+    "t": "Die Weihnachtsgeschichte : Ausmalheft",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451291203,
+    "t": "Tag- und Nachtgedanken",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451291210,
+    "t": "Atempausen : Notiz & Buch",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451291999,
+    "t": "Zwergenmatz und der Riesenschatz das Materialpaket zur Fo\u0308rderung der phonologischen Bewusstheit",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451293726,
+    "t": "Mittelalter",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783451293726,
+    "t": "<<Die>> Geschichte des Christentums Religion, Politik, Kultur Mittelalter",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783451295683,
+    "t": "Wer glaubt, ist nie allein : Worte der Ermutigung",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783451296956,
+    "t": "Fu\u0308r den liebsten Papa : Fotoalbum",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451298981,
+    "t": "Dezemberzauber : Adventskalender",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451299346,
+    "t": "Neues theologisches Wo\u0308rterbuch",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783451299438,
+    "t": "Versta\u0308ndigungen und Differenzen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451299667,
+    "t": "Die dritte Enzyklika : O\u0308kumenisch kommentiert. (Arbeitstitel)",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783451299988,
+    "t": "<<\"Das>> Alte stu\u0308rzt, es a\u0308ndert sich die Zeit\" ein Tag im Leben des Friedrich Schiller : ein biographisches Portra\u0308t",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783452290977,
+    "t": "Verfahrenspraxis EP\u00dc und PCT \u00dcbersichten, Entscheidungspfade, Musterformulierungen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783452292445,
+    "t": "Festschrift f\u00fcr Paul Str\u00f6bele : zum 75. Geburtstag",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783454290708,
+    "t": "Die Liederkutsche e. Liederbuch fu\u0308r d. Schule, zum Singen, Spielen u. Tanzen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783454291200,
+    "t": "Musik-Kontakte. Bd. 1. Ho\u0308rbeispiele",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783454292207,
+    "t": "Musik-Kontakte / Lehrerhandbuch",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783454790208,
+    "t": "Lucius Annaeus Seneca: Auswahl aus seinen Prosaschriften : Kommentar",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783454796552,
+    "t": "Plinius der Ju\u0308ngere, ausgewa\u0308hlte Briefe / Lehrerh",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783454797207,
+    "t": "Phaedrus : Unterhaltung und Weisheit",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783455290035,
+    "t": "Merian: Madrid",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783455290073,
+    "t": "Kuba",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783455290127,
+    "t": "Andalusien : [ein Land im Aufbruch]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783455291124,
+    "t": "Thailand",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783455292077,
+    "t": "Kopenhagen und D\u00e4nemark",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783455292077,
+    "t": "Kopenhagen und D\u00e4nemark",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783455292121,
+    "t": "Tokio und Japan",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783455293036,
+    "t": "<<Los>> Angeles",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783455293074,
+    "t": "Schleswig-Holstein",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783455293081,
+    "t": "Norwegen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783455293104,
+    "t": "Ruhrgebiet",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783455293111,
+    "t": "\u00c4gypten",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783455293128,
+    "t": "New York",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783455294040,
+    "t": "Weimar",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783455294040,
+    "t": "Weimar",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783455295016,
+    "t": "Dresden",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783455295016,
+    "t": "Dresden",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783455295016,
+    "t": "Dresden",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783455295023,
+    "t": "Washington, Virginia, Maryland",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783455295030,
+    "t": "Florenz",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783455295047,
+    "t": "Franken",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783455295047,
+    "t": "Franken",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783455295054,
+    "t": "Griechische Inseln Kykladen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783455295061,
+    "t": "Tunesien",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783455295061,
+    "t": "Tunesien",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783455295061,
+    "t": "Tunesien",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783455295092,
+    "t": "Australien",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783455295177,
+    "t": "Sylt, Amrum, Fo\u0308hr",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783455295344,
+    "t": "Best of Merian : Land und Leute erleben",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783455296013,
+    "t": "Salzburg und Salzburger Land",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783455296013,
+    "t": "Salzburg und Salzburger Land",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783455298093,
+    "t": "Hamburg",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783455298109,
+    "t": "Prag",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783455298123,
+    "t": "Florida",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783455299120,
+    "t": "Dresden",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783460291713,
+    "t": "Lebenslinien : Unterrichtswerk fu\u0308r katholische Religionslehre an Hauptschulen in Baden-Wu\u0308rttemberg. 7/8[,1], [Schu\u0308lerbuch]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783460291911,
+    "t": "Lebenslinien / 9, Schu\u0308lerb",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783468298301,
+    "t": "Langenscheidt Bildwo\u0308rterbuch Chinesisch : Chinesisch-Deutsch",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783468298530,
+    "t": "Ha\u0308 ?? Unplugged Jugendsprache : Deutsch, Englisch, Spanisch, Franzo\u0308sisch, Italienisch : [2008]",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783468299018,
+    "t": "Langenscheidt Englisch - typische Fehler vermeiden : ein unterhaltsamer Ratgeber zur richtigen Wortwahl",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783468299032,
+    "t": "Langenscheidt Englisch in 30 Tagen / Hauptbd",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783468299124,
+    "t": "Langenscheidt Englisch in 30 Tagen / CD",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783468299162,
+    "t": "Deutsch in 30 Tagen German in 30 days",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783468299230,
+    "t": "Langenscheidt Business English - fit fu\u0308r den Job. Buch. Wortschatz-Set",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783468299247,
+    "t": "Business-Spanisch in 30 Tagen : der kompakte Sprachkurs",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783468299551,
+    "t": "Langenscheidt Sprachtraining ohne Buch : Spanisch",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783468791444,
+    "t": "Berlitz Starterkurs Spanisch / 2. Begleitheft",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783468791444,
+    "t": "Berlitz Starterkurs Spanisch : der einfache Selbstlernkurs : Lehrbuch, 3 Audio-CDs, CD-Textbuch, Begleitheft",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783468791611,
+    "t": "Berlitz, Vorsicht Spanisch! / Schimpfen, La\u0308stern & Jammern",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783468792328,
+    "t": "Berlitz Englisch lernen mit Ian Rankin : Just ask inspector Rebus",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783471791530,
+    "t": "Mein Leben 1813-1868",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783471793961,
+    "t": "Oskar Maria Graf",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9783482795213,
     "t": "Umsatzsteuer",
     "h": 1,
     "e": 0
+  },
+  {
+    "i": 9783482795817,
+    "t": "Steuerfachkurs Steuerberater-Pru\u0308fungsklausuren 1981 : mit 3 U\u0308bungsklausuren",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783486299816,
+    "t": "Terminalbuch dBase III",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783486791747,
+    "t": "Betriebswirtschaftslehre",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783486792003,
+    "t": "Internationaler Handel",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783486799927,
+    "t": "Software-ergonomie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783487290478,
+    "t": "A narrative of Lord Byron's last journey to Greece",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783487291673,
+    "t": "Lettres sur la Corse : ouvrage destine\u0301 a\u0300 faire connai\u0302tre la ve\u0301ritable situation de ce pays, et a\u0300 rectifier les ide\u0301es de ceux qui le jugent d'apre\u0300s le me\u0301moire de M. Re\u0301alier-Dumas, conseiller a\u0300 la cour royale de Riom",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783487292687,
+    "t": "Reise durch Italien : vom Freiherrn von Hallberg-Broich",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783487298818,
+    "t": "Uebersicht der Aufsa\u0308tze, Miscellen und Karten, welche in den Monatsberichten u\u0308ber die Verhandlungen der Gesellschaft fu\u0308r Erdkunde zu Berlin (Jahrg. 1-4 und Neue Folge: Jahrg. 1-10. 1840-1853) sowie in der Zeitschrift fu\u0308r allgemeine Erdkunde (Bd. 1-6 und Neue Folge: Bd. 1-14. 1853-1853) enthalten sind",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783487299020,
+    "t": "The monthly mirror : reflecting men and manners ; with strictures on their epitome, the stage",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783489792277,
+    "t": "Vertebrata",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783489794264,
+    "t": "Wirtschaftliche Bedeutung und die Aufgabe des Pflanzenschutzes>",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783489796268,
+    "t": "Biologische Scha\u0308dlingsbeka\u0308mpfung",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783490292155,
+    "t": "Biologisch-technische Fortschritte in der Milchproduktion und Proteingewinnung : Dokumentation des Forschungsvorhabens \"Die Verbesserung der Leistungsf\u00e4higkeit der Agrar- und Ern\u00e4hrungswirtschaft durch eine neue Technologie der Milchgewinnung, Abstimmung des Futteraufwands auf Tierleistung und Einsatz mikrobiellen Proteins aus Abfallprodukten in der F\u00fctterung\"",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783491791152,
+    "t": "Geschichten zum Kirchenjahr",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783491794023,
+    "t": "Leuchte, Stern von Bethlehem d. Weihnachtsgeschichte",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783491794139,
+    "t": "Wach' auf, mein Ba\u0308rchen Lieder und Gebete fu\u0308r einen guten Morgen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783499290114,
+    "t": "Gesammelte Werke : in 10 Ba\u0308nden",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783499291395,
+    "t": "<<Ein>> ganz neues Leben Roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783502790259,
+    "t": "Die Vo\u0308gel : stories",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783506290939,
+    "t": "Die Ra\u0308uber : ein Schauspiel : in Tyranos",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783506290991,
+    "t": "Der Blick in die Zukunft : Science-Fiction stories fu\u0308r der Deutschunterricht",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783506790026,
+    "t": "Actes du colloque international, 2e symposium nazianzenum, louvain 1981",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783506790040,
+    "t": "Die handschriftliche Uberlieferung der Gedichte Gregors von Nazianz",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783506790088,
+    "t": "Gegen den Zorn (Carmen 1,2,25)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783506790149,
+    "t": "Forschungen zu Gregor von Nazianz. Heft 1-",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783506790521,
+    "t": "Goten in Konstantinopel Untersuchungen zur ostr\u00f6mischen Geschichte um das Jahr 400 n. Chr",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783506790569,
+    "t": "Die U\u0308berlieferung",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783506790590,
+    "t": "Das Motiv der \"Tagesspanne\" : ein Beitrag zur A\u0308sthetik der Zeitgestaltung im griechisch-ro\u0308mischen Drama",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783506793720,
+    "t": "Edition griechischer Papyri aus der Ko\u0308lner Papyrussammlung : ein fru\u0308hhellenistisches Lexikon poetischer und dialektaler Wo\u0308rter (P. Ko\u0308ln Lexikon)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783506794161,
+    "t": "Die Trinita\u0308tslehre in de Quodlibeta und Quaestiones disputatae des Johannes von Neapel O.P. ([gestorben] 1336)",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783506795823,
+    "t": "Vereine in Westfalen 1840-1855 : Strukturwandel, soziale Spannungen, kulturelle Entfaltung",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783506798046,
+    "t": "Dekrete der o\u0308kumenischen Konzilien",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783506798893,
+    "t": "Akten Kardinal Michael von Faulhabers : 1917-1952",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783518290101,
+    "t": "Kollektive Identit\u00e4t",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783518290118,
+    "t": "Muslimische Identita\u0308t zwischen Tradition und Moderne",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518290118,
+    "t": "Zur gebrochenen Identita\u0308t des abendla\u0308ndischen Christentums",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518290118,
+    "t": "Religio\u0308se Identita\u0308t : Fallbeispiel Japan",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518290118,
+    "t": "Israels Identita\u0308t als Volk des einen Gottes : Identita\u0308t im Alten Testament",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518290118,
+    "t": "Weibliche Identita\u0308t aus der Sicht feministischer Theologie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518290118,
+    "t": "Kulturelle Identita\u0308t und interkulturelle Begegnung : Beobachtungen am Beispiel Indiens",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518290118,
+    "t": "Codes kollektiver Identita\u0308t",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518290118,
+    "t": "Zur Bedeutung der Religionen fu\u0308r die Identita\u0308tsbildung",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518290118,
+    "t": "Chinesischer Buddhismus im Spannungsfeld von religio\u0308ser und nationaler Identita\u0308t",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518290118,
+    "t": "Gedankensplitter zur Beschreibung Ju\u0308discher Identita\u0308t",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518290118,
+    "t": "Identita\u0308t in dialogischer Struktur und in monologischem Fundamentalismus",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518290118,
+    "t": "Identita\u0308t, Kultur und Neurowissenschaften",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518290385,
+    "t": "Gessellschaftsstruktur und Semantik : Studien zur Wissenssociologie der modernen Gesellschaft",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783518290477,
+    "t": "Zeichen und Interpretation. V. Zeichen-Kunst",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783518290750,
+    "t": "Hegels Philosophie : Kommentare zu den Hauptwerken. Band 1. Der Weg der \"Pha\u0308nomenologie des Geistes\" : ein einfu\u0308hrender Kommentar zu Hegels \"Differenzschrift\" und zur Pha\u0308nomenologie des Geistes\"",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518290767,
+    "t": "Hegels Philosophie : Kommentare zu den Hauptwerken. Band 2. Hegels praktische Philosophie : ein Kommentar der Texte in der Reihenfolge ihrer Entstehung",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518290774,
+    "t": "Hegels Philosophie : Kommentare zu den Hauptwerken. Band 3. Hegels \"Enzyklopa\u0308die der philosophischen Wissenschaften\" (1830) : ein Kommentar zum Systemgrundriss",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518290811,
+    "t": "Semiotische Schriften : Band 2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518292198,
+    "t": "Diskursethik : moralische Vernunft in der Praxis",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518292792,
+    "t": "Soziologie der Marke",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518293010,
+    "t": "Konstruktion des A\u0308sthetischen",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783518293010,
+    "t": "Reflexionen aus dem bescha\u0308digten Leben",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783518293775,
+    "t": "Deutsch-franzo\u0308sische Gedankenga\u0308nge",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518293775,
+    "t": "Deutsch-franzo\u0308sische Gedankenga\u0308nge",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518294970,
+    "t": "Pseudowissenschaft : Konzeptionen von Nichtwissenschaftlichkeit in der Wissenschaftsgeschichte",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518295908,
+    "t": "<<Die>> Macht der Erkenntnis",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518295946,
+    "t": "<<Die>> Praxis des Vertrauens",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783518296158,
+    "t": "<<Die>> Ziele von Erziehung und Bildung und andere Essays",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783518297971,
+    "t": "Selbstbewusstes Leben : Texte zu einer transformativen Theorie der menschlichen Subjektivita\u0308t",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783523291209,
+    "t": "Ethik in der Grundschule",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783523295498,
+    "t": "Biologie 5",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783523295627,
+    "t": "Musik 5 = 5. Jg.-Stufe. Musik in der Hauptschule Toncassetten mit Ho\u0308rbeispielen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783523295689,
+    "t": "Musik erleben. 5",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783523296617,
+    "t": "Wolf-Toncassetten / Musik. 6, [2], Toncassetten mit Ho\u0308rbeispielen zum Wolf-Schu\u0308lerbuch und zu den Wolf-Arbeitsbla\u0308ttern fu\u0308r den Musikunterricht in der 6. Jahrgangsstufe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783523296648,
+    "t": "Musik erleben. 6",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783523298499,
+    "t": "Wolf-Lernplanung / Arbeitslehre : praxixgerechte Anregungen fu\u0308r die Unterrichtsgestaltung. 8, [3], Lehrerhandbuch mit Arbeitshilfen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783527290390,
+    "t": "Chaos & complexity : discovering the surprising patterns of science and technology",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783527290574,
+    "t": "Nomenklatur der Anorganischen Chemie",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783527290826,
+    "t": "Quanten. (Quanta). Begriffe und Konzepte fu\u0308r Chemiker",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783527292004,
+    "t": "Organic synthesis highlights",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783527292028,
+    "t": "Index to volumes 4-6",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783527292042,
+    "t": "Allgemeine und anorganische Chemie",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783527292332,
+    "t": "Au-B-Co to Au-Ga-Si",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783527292363,
+    "t": "10: Nuclear materials",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783527292615,
+    "t": "Quantum processes and dissipation",
+    "h": 1,
+    "e": 1
   },
   {
     "i": 9783527292660,
@@ -12,9 +1332,723 @@
     "e": 0
   },
   {
+    "i": 9783527292707,
+    "t": "Fundamentals",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783527293001,
+    "t": "Encyclopedia of applied physics",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783527293025,
+    "t": "Index to volumes 1-12",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783527293674,
+    "t": "Ag-Al-Li to Ge-Li-Nd = binary: Ag-Li to Li-Zr",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783527293681,
+    "t": "Ge-Li-Ni to Li-V-Zr = quaternary: Ag-AL-Li-Mg to Li-S-Sb-Se",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783527294329,
+    "t": "Sensors update. . Volume 2",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783527294695,
+    "t": "Handbook of battery materials",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783527294763,
+    "t": "Encyclopedia of applied physics",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783527294879,
+    "t": "Azoles - antifungal active substances - syntheses and users",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783527295012,
+    "t": "Transition metals for organic synthesis / A. Alexakis and others]",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783527295111,
+    "t": "Carbohydrates in chemistry and biology",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783527295586,
+    "t": "Sensors in manufacturing : sensors applications, volume 1",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783527295708,
+    "t": "Chemistry",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783527296002,
+    "t": "Solid/liquid separation equipment",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783527296149,
+    "t": "Comprehensive mass determination",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783527296620,
+    "t": "Mechanisms in catalysis : a computational introduction",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783527297955,
+    "t": "Fuel cell systems : PEMFC for mobile and SOFC for stationary application",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783527298211,
+    "t": "RF and microwave sensing of moist materials, food and other dielectrics",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783527298495,
+    "t": "Industrial inorganic chemistry, 2nd completely revised edition",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783527298631,
+    "t": "Wo\u0308rterbuch der Schmierungstechnik = Dictionary of lubrication technology : Deutsch-Englisch/English-German",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783527299393,
+    "t": "Werkstoffwoche '98. . Bd. II, Werkstoffe fur die Verkehrstechnik",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783527299454,
+    "t": "Werkstoffwoche '98. Band VIII. Symposium 10: Polymere. Symposium 14 : Simulation Polymere",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783527299461,
+    "t": "Werkstoffwoche '98. Band 9, Symposium 11: Oberfla\u0308chentechnik",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783527299478,
+    "t": "Werkstoffwoche '98. Band 10, Symposium 13: Werkstoffpru\u0308fung",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783527299911,
+    "t": "Wo\u0308rterbuch zum gewerblichen Rechtsschutz",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783530296020,
+    "t": "Albanien",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783531292809,
+    "t": "Trivialliteratur",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540290018,
+    "t": "Information securityy 8th International Conference, ISC 2005, Singapore, September 20-23, 2005 : proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540290032,
+    "t": "Elementary Physics of Complex Plasmas",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540290070,
+    "t": "Galaxy formation and evolution",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540290131,
+    "t": "Integrated circuit and systems design power and timing modeling, optimization and simulation : 15th International Workshop, PATMOS 2005, Leuven, Belguium, September 21-23, 2005 : proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540290322,
+    "t": "Advanced concepts for intelligent vision systems 7th International Conference, ACIVS 2005 : Antwerp, Belgium, September 20-23, 2005 : proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540290469,
+    "t": "Multi-agent systems and applications IV 4th International Central and Eastern European Conference on Multi-Agent Systems, CEEMAS 2005 : Budapest, Hungary, September, 15-17, 2005 : proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540290667,
+    "t": "Orthopedic Traumatology {u2014} A Resident{u2019}s Guide",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540290681,
+    "t": "Peer-to-peer systems IV 4th international workshop, IPTPS 2005 : Ithaca, NY, USA, February 24-25, 2005 : revised selected papers",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540291008,
+    "t": "Unconventional computation 4th International Conference, UC 2005 : Sevilla, Spain, October 3-7, 2005 : proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540291053,
+    "t": "Correct Hardware Design and Verification Methods",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540291060,
+    "t": "Theoretical computer science 9th Italian Conference, ICTCS 2005, Siena, Italy, October 12-14, 2005 : proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540291282,
+    "t": "Free convection film flows and heat transfer",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540291763,
+    "t": "Elementary particles, nuclei and atoms. Volume 19, Nuclear states from charged particle reactions, subvolume B, Tables of excitations from reactions with charged particles, part 1, Z=3-36",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540291787,
+    "t": "Numerical data and functional relationships in science and technology. N.s. / Ed.-in-chief: W. Martienssen Group 3, Condensed matter Vol. 27. Magnetic properties of non-metallic inorganic compounds based on transition elements Subvol. I. / ed.: H.P.J. Wijn 4. Inosilicates / author: E. Burzo Buch",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540291787,
+    "t": "Magnetic properties of non-metallic inorganic compounds based on transition elements",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540291794,
+    "t": "Ferroelectrics and related substances",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540292869,
+    "t": "Analytische Informationssysteme : Data Warehouse, On-Line Analytical Processing, Data Mining",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540293248,
+    "t": "Semantic Web : die vernetzte Wissensgesellschaft",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540293262,
+    "t": "Medical image computing and computer-assisted intervention - MICCAI 2005 8th International Conference, Palm Springs, CA, USA, October 26-29, 2005 : proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540294016,
+    "t": "Transactions on Computational Systems Biology II",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540294351,
+    "t": "Menschen pflegen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783540294597,
+    "t": "Chemiedidaktik Diagnose und Korrektur von Schu\u0308lervorstellungen",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540295136,
+    "t": "Advances in polymer science. Vol. 195, Conformation-dependent design of sequences in copolymers I",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540295327,
+    "t": "Handbuch der gefa\u0308hrlichen Gu\u0308ter / 2. Merkbla\u0308tter 415-802 2009, Austauschmerkbl",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783540296201,
+    "t": "Computer vision in human-computer interaction ECCV 2005 Workshop on HCI : Beijing, China, October 21, 2005 : proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540296461,
+    "t": "VDI-Wa\u0308rmeatlas 3.0",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783540296645,
+    "t": "Elektroenergiesysteme Erzeugung, Transport, U\u0308bertragung und Verteilung elektrischer Energie",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540297321,
+    "t": "Nuclear magnetic resonance (NMR) data",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540297383,
+    "t": "On the move to meaningful internet systems 2005 CoopIS, DOA, and ODBASE : OTM Confederated International Conferences, CoopIS, DOA, and ODBASE 2005, Agia Napa, Cyprus, October 31- November 4, 2005 : proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540297406,
+    "t": "String processing and information retrievall 12th International Conference, SPIRE 2005, Buenos Aires, Argentina, November 2-4, 2005 : proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540297543,
+    "t": "The semantic web-ISWC 2005 4th International Semantic Web Conference, ISWC 2005 : Galway, Ireland, November 6-10, 2005 : proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540297550,
+    "t": "Agents and Peer-to-Peer Computing Third International Workshop, AP2PC 2004, New York, NY, USA, July 19, 2004, Revised and Invited Papers",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540297697,
+    "t": "Parallel and distributed processing and applications Third International Symposium, ISPA 2005 : Nanjing, China, November 2-5, 2005 : proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540297703,
+    "t": "Parallel and distributed processing and applications, ISPA 2005 Workshops ISPA 2005 International Workshops, AEPP, ASTD, BIOS, GCIC, IADS, MASN, SGCA, and WISA : Nanjing, China, November 2-5, 2005 : proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540298106,
+    "t": "Network and parallel computing IFIP International Conference, NPC 2005 : Beijing, China, November 30- December 3, 2005 : proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540298144,
+    "t": "Self-stabilizing systems 7th International Symposium, SSS 2005 : Barcelona, Spain, October 26-27, 2005 : proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540299264,
+    "t": "Analysis II Differential and Integral Calculus, Fourier Series, Holomorphic Functions",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540299660,
+    "t": "Knowledge Representation and the Semantics of Natural Language",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540792413,
+    "t": "Regional Climate Studies of China",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540792857,
+    "t": "Simulation und aufladung von verbrennungsmotoren",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783540792918,
+    "t": "Wetter und Klima : das Spiel der Elemente - atmospha\u0308rische Prozesse verstehen und deuten",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540793472,
+    "t": "Managing Skin Cancer",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540794011,
+    "t": "Fluorescence Angiography in Ophthalmology",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540794097,
+    "t": "Modeling, Simulation and Optimization of Complex Processes Proceedings of the Third International Conference on High Performance Scientific Computing, March 6{u2013}10, 2006, Hanoi, Vietnam",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540794431,
+    "t": "Satellitennavigation",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540794875,
+    "t": "Revised selected papers / AOSE 2007 : 8th international workshop, Honolulu, HI, USA, May 14, 2007",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540795179,
+    "t": "Wertanalyse - das Tool im Value Management",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540795711,
+    "t": "Ultraviolet and Soft X-Ray Free-Electron Lasers Introduction to Physical Principles, Experimental Results, Technological Challenges",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540797098,
+    "t": "Computer Science {u2013} Theory and Applications Third International Computer Science Symposium in Russia, CSR 2008 Moscow, Russia, June 7-12, 2008 Proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540797197,
+    "t": "Theory and Applications of Satisfiability Testing {u2013} SAT 2008 11th International Conference, SAT 2008, Guangzhou, China, May 12-15, 2008. Proceedings",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783540799931,
+    "t": "Meshfree methods for partial differential equations. No. 4",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783543799709,
+    "t": "Jahressteuergesetz 1997 : mit Neubewertung Grundbesitz, Neuregelung der Erbschaftsteuer, Umsatzsteuer-A\u0308nderungsgesetz 1997 : umfangreicher Stichwo\u0308rterteil mit Tabellen und Grafiken, Belastungs-, Entlastungsvergleich ; aktuelles Steuerrecht ; in einem Band alle wichtigen Steuergesetze und Steuerrechtsa\u0308nderungen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783548290928,
+    "t": "Nie wieder Amore! : Roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783551790224,
+    "t": "Natascha und der Maharadscha",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783551790248,
+    "t": "Gaston [...] Genie ohne Grenzen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783551790279,
+    "t": "Storm [...] Die Welt in der Tiefe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783551790361,
+    "t": "Gaston [...] Arbeit macht das Leben su\u0308ss",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783551790729,
+    "t": "Peanuts Werkausgabe, Band 12: 1973-1974",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783551790828,
+    "t": "Die Peanuts-WerkausgabenBand 22, 1993 bis 1994",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783551791658,
+    "t": "Attack on Titan, Ba\u0308nde 6-10 im Sammelschuber mit Extra",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783551792037,
+    "t": "Julius, Band 3: Die Offenbarung - Teil 2",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783551793577,
+    "t": "Der Schweinehund 1: Isabel",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783551793607,
+    "t": "Die Bombe - 75 Jahre Hiroshima Die Entwicklung der Atombombe",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783551794208,
+    "t": "Attack on Titan, Band 30 im Sammelschuber mit Extra",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783551796813,
+    "t": "Buster Keel! Kenshiro Sakamoto. 1. 1",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783551796868,
+    "t": "Buster Keel! Kenshiro Sakamoto. 6. 6",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783551799142,
+    "t": "Marsupilami 14. Sternenherz 14. Sternenherz / Zeichnungen: Batem ; Szenario: Colman ; das Marsupilami wurde geschaffen von Franquin ; aus dem Franzo\u0308sischen von Marcel Le Comte",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783551799173,
+    "t": "Marsupilami 18. Baby Prinz 18. Baby Prinz / Zeichnungen: Batem ; Szenario: Yann ; das Marsupilami wurde geschaffen von Franquin ; aus dem Franzo\u0308sischen von Marcel Le Comte",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783570299128,
+    "t": "Mandalas malen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783575797179,
+    "t": "Centraal-Europa Euro-Autoatlo\u0308as 1:300000 ; Belgie\u034f\u0308, Nederland, Luxemburg, Frankrijk, Duisland, Ostenrijk, Zwitserland = Europe Centrale",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783575799012,
+    "t": "Barcelona",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783590290280,
+    "t": "Die Jesuitenkirche St. Mariae Himmelfahrt in Ko\u0308ln",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783592792201,
+    "t": "Gotteslob katholisches Gebet- und Gesangbuch",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783596290017,
+    "t": "Neue Rundschau",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783596290086,
+    "t": "Neue Rundschau",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783596290109,
+    "t": "Neue Rundschau",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783596290116,
+    "t": "Neue Rundschau",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783596290123,
+    "t": "Neue Rundschau",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783596290147,
+    "t": "Neue Rundschau",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783596290154,
+    "t": "Neue Rundschau",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783596290314,
+    "t": "Neue Rundschau Jg. 99. H. 3",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783596290369,
+    "t": "Spiegel und Geda\u0308chtnis",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783596291205,
+    "t": "Orpheus : fu\u0308nf Erza\u0308hlungen",
+    "h": 1,
+    "e": 0
+  },
+  {
     "i": 9783596291465,
     "t": "Shikasta : perso\u0308nliche, psychologische und historische Dokumente zum Besuch von JOHOR (George Sherban)",
     "h": 1,
     "e": 1
+  },
+  {
+    "i": 9783596291724,
+    "t": "Der Traum hat offene Augen : Gedichte, 1965-1978",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783596292073,
+    "t": "Gedichte II",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783596292127,
+    "t": "Werkausgabe Bd. 12 = Kritische Poesie ; 4. Die Farben der Erinnerung / aus d. Franz. u\u0308bers. von Reinhard Schmidt",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783596292417,
+    "t": "Amerigo : die Geschichte eines historischen Irrtums",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783596293353,
+    "t": "Die Wasserfallfinsternis von Badgastein und andere Erza\u0308hlungen",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783596294046,
+    "t": "Das erza\u0308hlerische Werk. Vol. 4",
+    "h": 1,
+    "e": 1
+  },
+  {
+    "i": 9783596295128,
+    "t": "Teddy Flesh : Roman",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783596295746,
+    "t": "Hausmusik : ein deutsches Familienalbum",
+    "h": 1,
+    "e": 0
+  },
+  {
+    "i": 9783596295968,
+    "t": "Bella Germania : Roman",
+    "h": 1,
+    "e": 0
   }
 ]
