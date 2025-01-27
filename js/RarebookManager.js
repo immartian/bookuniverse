@@ -52,7 +52,7 @@ export class RarebookManager {
         await Promise.all(promises);
     }
 
-    getBooksInView(offsetX, offsetY, viewWidth = 1000, viewHeight = 800) {
+    getRareBooksInView(offsetX, offsetY, viewWidth = 1000, viewHeight = 800) {
         const startX = Math.floor(offsetX / this.tileWidth);
         const startY = Math.floor(offsetY / this.tileHeight);
         const endX = Math.min(Math.ceil((offsetX + viewWidth) / this.tileWidth), this.gridSize - 1);
@@ -62,20 +62,23 @@ export class RarebookManager {
         for (let x = startX; x <= endX; x++) {
             for (let y = startY; y <= endY; y++) {
                 const key = `${x}_${y}`;
+                console.log(`Checking tile ${key}`);
                 if (this.cache.has(key)) {
                     const tileData = this.cache.get(key);
-                    booksInView = booksInView.concat(this.filterBooksByOffset(tileData, offsetX, offsetY, viewWidth, viewHeight));
+                    booksInView = booksInView.concat(this.filterBooksByView(tileData, offsetX, offsetY, viewWidth, viewHeight));
                 }
             }
         }
         return booksInView;
     }
 
-    filterBooksByOffset(tileData, offsetX, offsetY, viewWidth, viewHeight) {
-        return tileData.filter(book => 
-            // book.x >= offsetX && book.x < offsetX + viewWidth &&
-            // book.y >= offsetY && book.y < offsetY + viewHeight
-            true
-        );
+    filterBooksByView(tileData, offsetX, offsetY, viewWidth, viewHeight) {
+        return tileData.filter(book => {
+            // we only need a small range  of isbn to be visible within the viewport
+            book.x = (Math.floor(book.i/10) - 978000000000) % 50000;
+            book.y = Math.floor((book.i/10- 978000000000) / 50000);
+
+            return book.x >= offsetX && book.x <= offsetX + viewWidth && book.y >= offsetY && book.y <= offsetY + viewHeight;
+        });
     }
 }

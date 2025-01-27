@@ -120,16 +120,21 @@ export class BookshelfView extends View {
     
         // Get rare books currently visible in the viewport
         await this.rarebookManager.loadVisibleTiles(this.offsetX, this.offsetY);
-        this.rarebooks = this.rarebookManager.getBooksInView(this.offsetX, this.offsetY, this.baseCanvas.width, this.baseCanvas.height);
-        console.log('Rare books in view:', this.rarebooks.length);
+        this.rarebooks = this.rarebookManager.getRareBooksInView(this.offsetX, this.offsetY, this.baseCanvas.width, this.baseCanvas.height);
+        const iconX = (this.rarebooks[0].x- this.offsetX)*this.iconWidth; 
+        const iconY = (this.rarebooks[0].y - this.offsetY)*this.iconHeight;
+        console.log('Rare books in view:', this.rarebooks[0], iconX, iconY);
+            
         this.rarebooks.forEach(book => {
-            // Convert ISBN index to row and column based on full grid
-            ({x: book.x, y: book.y} = this.calculateBookPosition(book.i));
-            // Ensure the book is within the visible viewport
-            if (book.x >= 0 && book.x < this.overlayCanvas.width && book.y >= 0 && book.y < this.overlayCanvas.height) {
-            overlayCtx.font = '12px Arial';
+            // // Convert ISBN index to row and column based on full grid
+            // ({x: book.x, y: book.y} = this.calculateBookPosition(book.i));
+            const iconX = (book.x- this.offsetX)*this.iconWidth - (this.offsetX % this.iconWidth); 
+            const iconY = (book.y - this.offsetY)*this.iconHeight - (this.offsetY % this.iconHeight);
+            // // Ensure the book is within the visible viewport
+            if (iconX >= 0 && iconX < this.overlayCanvas.width && iconY >= 0 && iconY < this.overlayCanvas.height) {
+            overlayCtx.font = '14px Arial';
             overlayCtx.fillStyle = 'yellow';
-            overlayCtx.fillText("🔥", book.x + 6, book.y + 20);
+            overlayCtx.fillText("🔥", iconX+6 , iconY + 20);
             }
         });
 
