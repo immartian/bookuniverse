@@ -70,7 +70,7 @@ export class BookshelfView extends View {
         const total_cols =  Math.ceil(this.overlayCanvas.width / this.iconWidth); 
         const total_rows  = Math.ceil(this.overlayCanvas.height / this.iconHeight); 
 
-            const pixels = this.imageData.data;
+        const pixels = this.imageData.data;
     
         for (let row = 0; row < total_rows; row++) {
             for (let col = 0; col < total_cols; col++) {
@@ -121,10 +121,7 @@ export class BookshelfView extends View {
         // Get rare books currently visible in the viewport
         await this.rarebookManager.loadVisibleTiles(this.offsetX, this.offsetY);
         this.rarebooks = this.rarebookManager.getRareBooksInView(this.offsetX, this.offsetY, this.baseCanvas.width, this.baseCanvas.height);
-        const iconX = (this.rarebooks[0].x- this.offsetX)*this.iconWidth; 
-        const iconY = (this.rarebooks[0].y - this.offsetY)*this.iconHeight;
-        console.log('Rare books in view:', this.rarebooks[0], iconX, iconY);
-            
+           
         this.rarebooks.forEach(book => {
             // // Convert ISBN index to row and column based on full grid
             // ({x: book.x, y: book.y} = this.calculateBookPosition(book.i));
@@ -137,44 +134,6 @@ export class BookshelfView extends View {
             overlayCtx.fillText("🔥", iconX+6 , iconY + 20);
             }
         });
-
-                // // prepare the rare book which is under the mouse
-        // this.rare_one = this.rarebooks.find((book) => {
-        //     const x = data.x;
-        //     const y = data.y;
-        //     const title = book["t"];
-        //     const holdings = book["h"];
-        //     const rare_touch = x >= book["x"] && x <= book["x"] + 20 && y >= book["y"] - 20 && y <= book["y"];
-        //     if(rare_touch){
-        //                 // Show the ISBN number in the tooltip
-        //         this.tooltip.x = data.clientX;
-        //         this.tooltip.y = data.clientY;
-        //         // show the isbn cover image in tooltip
-        //         const isbn13 = book["i"];  //this.ISBN.calculateISBN(this.isbnIndex, true);
-        //         const part1 = String(isbn13).slice(-4, -2);
-        //         const part2 = String(isbn13).slice(-2);
-        //                         // Image URL pattern
-        //         const imageUrl = `https://images.isbndb.com/covers/${part1}/${part2}/${isbn13}.jpg`;
-
-        //         // make a tooltip with the bookcard style
-        //         const innerHTML = "<div class='book-card'><img src='"+imageUrl+"' alt='Book Cover' class='book-cover'>"+
-        //         "<div class='book-details'>"+
-        //         "<div class='book-title'>"+title+"</div>"+
-        //         "<div class='book-isbn'>"+isbn13+"</div>"+
-        //         "<div class='book-copies'>"+
-        //         "<span class='rare-icon'> Copies: "+( holdings + (book.e ? '<br>📗 In Annas-Archive' : '<br>📕 Not in Annas-Archive') )+"</span>"+ 
-        //         // (exist ? 'Rare' : 'Not Rare')+
-        //         "</div>"+
-        //         "</div>";
-        //         this.tooltip.show(innerHTML);
-
-        //     }
-        //     else
-        //         this.tooltip.hide();
-            
-        //     return rare_touch
-        // }     
-        // );
         
         this.drawISBN();
         // draw the map thumbnail and scale indicator
@@ -184,7 +143,57 @@ export class BookshelfView extends View {
     
     
     
+    handleHover(data) {
+        const x = Math.floor((data.x + this.offsetX)/this.iconWidth);
+        const y = Math.floor((data.y + this.offsetY)/this.iconHeight);
+        this.isbnIndex = (x + (y * this.scaleWidth*this.scale))* this.scale;
+        // prepare the zone if the mouse is over a country
+        const isbn = this.ISBN.calculateISBN(this.isbnIndex, true);
+ 
+        // find a rare book matching current isbn under mouse
+        const found_book = this.rarebooks.find(book => {
+            if (book.i === isbn) 
+                return book;
+            else 
+                return null;
+        }
+        );     
 
+        // Show the ISBN number in the tooltip
+        this.tooltip.x = data.clientX;
+        this.tooltip.y = data.clientY;
+
+        if (found_book) {
+                // Show the book's title and number of holdings in the tooltip
+                
+                const title = found_book.t;
+                const holdings = found_book.h;
+            
+
+                    // show the isbn cover image in tooltip
+                    const isbn13 = found_book.i;  //this.ISBN.calculateISBN(this.isbnIndex, true);
+                    const part1 = String(isbn13).slice(-4, -2);
+                    const part2 = String(isbn13).slice(-2);
+                                    // Image URL pattern
+                    const imageUrl = `https://images.isbndb.com/covers/${part1}/${part2}/${isbn13}.jpg`;
+    
+                    // make a tooltip with the bookcard style
+                    const innerHTML = "<div class='book-card'><img src='"+imageUrl+"' alt='Book Cover' class='book-cover'>"+
+                    "<div class='book-details'>"+
+                    "<div class='book-title'>"+title+"</div>"+
+                    "<div class='book-isbn'>"+isbn13+"</div>"+
+                    "<div class='book-copies'>"+
+                    "<span class='rare-icon'> Copies: "+( holdings + (found_book.e ? '<br>📗 In Annas-Archive' : '<br>📕 Not in Annas-Archive') )+"</span>"+ 
+                    // (exist ? 'Rare' : 'Not Rare')+
+                    "</div>"+
+                    "</div>";
+                    this.tooltip.show(innerHTML);
+    
+            }
+            else
+                this.tooltip.show(isbn);
+    }
+        
 
     handlePanStart(data) {
         this.startPanX = data.x;
@@ -211,16 +220,12 @@ export class BookshelfView extends View {
             });
     }
     
-
-
     handleDoubleClick(data) {
-        console.log('Double click at:', data.x, data.y);
         const col = Math.floor(data.x / this.iconWidth);
         const row = Math.floor(data.y / this.iconHeight);
-
         //get the ISBN number
-        const tileIndex = this.offsetY*50000 + this.offsetX + row*this.gridWidth + col;
-        const isbn12 = this.baseISBN + tileIndex;
+        const isbnIndex = (this.offsetY+row)*50000 + this.offsetX  + col;
+        const isbn12 = this.ISBN.baseISBN + isbnIndex;
         const isbn13 = ISBN.addChecksum(isbn12.toString());
         // jump to Annas-archive
 

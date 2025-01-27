@@ -62,7 +62,6 @@ export class RarebookManager {
         for (let x = startX; x <= endX; x++) {
             for (let y = startY; y <= endY; y++) {
                 const key = `${x}_${y}`;
-                console.log(`Checking tile ${key}`);
                 if (this.cache.has(key)) {
                     const tileData = this.cache.get(key);
                     booksInView = booksInView.concat(this.filterBooksByView(tileData, offsetX, offsetY, viewWidth, viewHeight));

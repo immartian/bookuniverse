@@ -146,16 +146,6 @@ export class SocietalView extends View {
         
     }
 
-    handleDoubleClick(data) {
-        //get the isbn with 13 digits
-        const x = data.x + this.offsetX;
-        const y = data.y + this.offsetY;
-        this.isbnIndex = (x + (y * this.scaleWidth*this.scale))* this.scale;
-        const isbn = this.ISBN.calculateISBN(this.isbnIndex, true);
-        // open annas-archive page to search it
-        const searchUrl = `https://annas-archive.org/isbndb/${isbn}`;
-        window.open(searchUrl, "_blank");
-    }
 
     handlePanStart(data) {
         this.startPanX = data.x;
