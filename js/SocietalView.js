@@ -52,10 +52,12 @@ export class SocietalView extends View {
             const height = clampedEndRow - clampedStartRow;
 
             if (height < this.overlayCanvas.height-20) {
-                ctx.globalAlpha = 0.2;
+                ctx.globalAlpha = 0.8;
                 if (height <= 2)     ctx.globalAlpha = 0.8;
-                ctx.fillStyle = 'yellow';
-                ctx.fillRect(clampedStartCol, clampedStartRow, clampedEndCol - clampedStartCol, height > 0 ? height : 1);
+                ctx.strokeStyle = 'lightblue';
+                // line width
+                ctx.lineWidth = 1;
+                ctx.strokeRect(clampedStartCol, clampedStartRow, clampedEndCol - clampedStartCol, height > 0 ? height : 1);
                 ctx.globalAlpha = 1;
             }
         }
@@ -130,6 +132,8 @@ export class SocietalView extends View {
             this.highlightedZone = { startRow, endRow, startCol, endCol, country };
             this.drawOverlay();
         }
+        else
+            this.highlightedZone = null;
 
                 
         // get the color under the mouse from baseCanvas
