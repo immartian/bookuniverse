@@ -230,10 +230,10 @@ export class View {
                 if (countryData) {
                     countriesInView.push({
                         country: countryData,
-                        startRow,
-                        endRow,
-                        startCol,
-                        endCol,
+                        startRow: startRow,
+                        endRow: endRow ,
+                        startCol: startCol,
+                        endCol: endCol,
                     });
                 }
             }

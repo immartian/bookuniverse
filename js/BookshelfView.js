@@ -12,8 +12,8 @@ export class BookshelfView extends View {
         this.gridWidth = tiles_meta.gridWidth; // Number of columns in the grid
         this.gridHeight = tiles_meta.gridHeight; // Number of rows in the grid
 
-        this.iconWidth = 20;  // Visual width of each icon
-        this.iconHeight = 30; // Visual height of each icon
+        this.iconWidth = 16;  // Visual width of each icon
+        this.iconHeight = 24; // Visual height of each icon
         
         this.scale = 1;
         this.scaleWidth = 50000/this.scale;
@@ -34,8 +34,9 @@ export class BookshelfView extends View {
 
     onEnter(data) {
         console.log('Lowlevel: Entering Bookshelf View', 'ISBN offset:', this.isbnIndex, 'OffsetX:', this.offsetX, 'OffsetY:', this.offsetY);
-        this.offsetX = Math.floor((this.isbnIndex % (this.scaleWidth * this.scale)) / this.scale)-data.x;
-        this.offsetY = Math.floor(this.isbnIndex / this.scaleWidth/this.scale/this.scale)- data.y;
+        this.offsetX = Math.floor((this.isbnIndex % (this.scaleWidth * this.scale)) / this.scale)-Math.floor(data.x/this.iconWidth);
+        this.offsetY = Math.floor(this.isbnIndex / this.scaleWidth/this.scale/this.scale)- Math.floor(data.y/this.iconHeight);
+        
         if (this.offsetX < 0) this.offsetX = 0;
         if (this.offsetX > this.scaleWidth- this.baseCanvas.width) this.offsetX = this.scaleWidth - this.baseCanvas.width;
 
@@ -54,12 +55,53 @@ export class BookshelfView extends View {
         ctx.fillStyle = 'black';
         ctx.fillRect(0, 0, this.baseCanvas.width, this.baseCanvas.height);
     
-        // Load and draw tiles dynamically
+        const countries = this.getCountriesInView();
+        // const drawnPositions = new Set();
+
+        let small_countries = [];
+        for (const [index, { startRow, endRow, startCol, endCol, country }] of countries.entries()) {
+            //consider the zoom level in this view with iconWidth and iconHeight
+            const endRow_ajusted = startRow + (endRow - this.offsetX) * this.iconHeight;
+            const clampedStartRow = Math.max(0, (startRow - this.offsetY)*this.iconHeight);
+            const clampedStartCol = Math.max(0, startCol - this.offsetX);
+            const clampedEndRow = Math.min(this.overlayCanvas.height, (endRow - this.offsetY)*this.iconHeight);
+            const height = clampedEndRow - clampedStartRow;
+            // just draw the country name at the center of the zone
+            ctx.fillStyle = 'lightgray';
+            const centerX = this.overlayCanvas.width / 2;
+
+            let fontSize;     
+            // make the text in the center of canvas
+            if (height <= 2) {
+                small_countries.push({clampedStartRow, clampedStartCol, country});
+                continue;
+            } else if (height <= 500) {
+                fontSize = '30px Arial';  // Smaller font for smaller areas
+            } else {
+                fontSize = '60px Arial';  // Larger font for bigger areas
+            }
+            
+            ctx.font = fontSize;       
+            let adjustedX = this.overlayCanvas.width / 2 - ctx.measureText(country).width / 2;
+            ctx.globalAlpha = 0.2;     
+            // show in the middle of the view
+            ctx.fillText(country, adjustedX, (clampedStartRow + clampedEndRow) / 2);
+        }    
+
+        // draw the small countries separately
+        for (const [index, { clampedStartRow, clampedStartCol, country }] of small_countries.entries()) {
+            
+            ctx.fillStyle = 'lightgray';
+            const width = ctx.measureText(country).width;
+            const adjustedX = (index % 13)* 83 + clampedStartCol;
+            ctx.font = '18px Arial';            
+            ctx.fillText(country, adjustedX, clampedStartRow);
+        }
+        ctx.globalAlpha = 1;   
+
 
         // draw visible tiels on the virtual canvas based on their locations
         this.tileManager.drawTiles(this.virtualCtx, this.offsetX, this.offsetY, this.baseCanvas.width, this.baseCanvas.height);
-
-
         // Extract pixel data once and apply it with the current offsets
         this.imageData = this.virtualCtx.getImageData(
             0,
@@ -77,8 +119,8 @@ export class BookshelfView extends View {
                 const x = col * this.iconWidth - (this.offsetX % this.iconWidth);
                 const y = row * this.iconHeight - (this.offsetY % this.iconHeight);
     
-                const pixelIndex = ((row + Math.floor(this.offsetY / this.iconHeight)) * 1000 + 
-                                   (col + Math.floor(this.offsetX / this.iconWidth))) * 4;
+                const pixelIndex = (row * this.baseCanvas.width + col) * 4;
+
     
                 const r = pixels[pixelIndex];
                 const g = pixels[pixelIndex + 1];
@@ -94,7 +136,7 @@ export class BookshelfView extends View {
                 }
     
                 ctx.font = `${this.iconWidth}px Arial`;
-                ctx.fillText(bookIcon, x, y + this.iconHeight - 8);
+                ctx.fillText(bookIcon, x, y + this.iconHeight);
             }
         }
     }
@@ -115,8 +157,8 @@ export class BookshelfView extends View {
     }
     
     async drawOverlay() {
-        const overlayCtx = this.overlayCtx;
-        overlayCtx.clearRect(0, 0, this.overlayCanvas.width, this.overlayCanvas.height);
+        const ctx = this.overlayCtx;
+        ctx.clearRect(0, 0, this.overlayCanvas.width, this.overlayCanvas.height);
     
         // Get rare books currently visible in the viewport
         await this.rarebookManager.loadVisibleTiles(this.offsetX, this.offsetY);
@@ -129,11 +171,14 @@ export class BookshelfView extends View {
             const iconY = (book.y - this.offsetY)*this.iconHeight - (this.offsetY % this.iconHeight);
             // // Ensure the book is within the visible viewport
             if (iconX >= 0 && iconX < this.overlayCanvas.width && iconY >= 0 && iconY < this.overlayCanvas.height) {
-            overlayCtx.font = '14px Arial';
-            overlayCtx.fillStyle = 'yellow';
-            overlayCtx.fillText("🔥", iconX+6 , iconY + 20);
+            ctx.font = '14px Arial';
+            ctx.fillStyle = 'yellow';
+            ctx.fillText("🔥", iconX+6 , iconY + 20);
             }
         });
+
+
+        
         
         this.drawISBN();
         // draw the map thumbnail and scale indicator
@@ -144,8 +189,8 @@ export class BookshelfView extends View {
     
     
     handleHover(data) {
-        const x = Math.floor((data.x + this.offsetX)/this.iconWidth);
-        const y = Math.floor((data.y + this.offsetY)/this.iconHeight);
+        const x = Math.floor((data.x/this.iconWidth) + this.offsetX);
+        const y = Math.floor((data.y/this.iconHeight)+ this.offsetY);
         this.isbnIndex = (x + (y * this.scaleWidth*this.scale))* this.scale;
         // prepare the zone if the mouse is over a country
         const isbn = this.ISBN.calculateISBN(this.isbnIndex, true);
