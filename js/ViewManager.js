@@ -38,10 +38,7 @@ export class ViewManager {
                 this.switchView('Bookshelf', data);
             }
         } else if (data.delta > 0) {
-            // if (this.currentView?.name === 'Bookshelf') {
-            // console.log('Switching to Societal View');
-            // this.switchView('Societal');
-            // } else 
+
             if (this.currentView?.name === 'Societal') {
                 //await this.currentView.zoom_effect(data, 1/5);  
                 this.switchView('Zone', data);

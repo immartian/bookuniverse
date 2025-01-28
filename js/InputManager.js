@@ -9,22 +9,32 @@ export class InputManager {
         this.throttleTimeout = null; // Throttle interval for panMove
         this.throttleInterval = 16;  // ~60fps for panMove
 
+
+        this.zoomDelta = 0; // Accumulator for zoom delta
+        this.zoomThreshold = 220; // Threshold for triggering zoom
+
         this.initEvents();
     }
 
     initEvents() {
         this.canvas.addEventListener('wheel', (event) => {
             event.preventDefault(); // Prevent the page from scrolling
-
-            const delta = Math.sign(event.deltaY);
-            // try to peiceive larger scroll as zoom
-            // console.log(event.deltaY);
-            if (Math.abs(event.deltaY) > 100) {
-                this.callback('zoom', { delta: delta * 10, x: event.offsetX, y: event.offsetY });
-                return;            
+    
+            // Accumulate the deltaY value
+            this.zoomDelta += event.deltaY;
+    
+            // Trigger zoom if the threshold is exceeded
+            if (Math.abs(this.zoomDelta) > this.zoomThreshold) {
+                const delta = Math.sign(this.zoomDelta); // Determine zoom direction
+                this.callback('zoom', {
+                    delta: delta, // Pass the direction (1 for zoom in, -1 for zoom out)
+                    x: event.offsetX,
+                    y: event.offsetY,
+                });
+    
+                this.zoomDelta = 0; // Reset the accumulator after triggering zoom
             }
         });
-
         this.canvas.addEventListener('mousemove', (event) => {
             if (this.dragging) {
                 // Throttled panning callback
