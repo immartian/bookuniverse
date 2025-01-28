@@ -1,16 +1,15 @@
 import { View } from './View.js';
 import { ISBN } from './ISBN.js';
-import { TileManager } from './TileManager.js';
 import { RarebookManager } from './RarebookManager.js';
 
 
 export class BookshelfView extends View {
-    constructor(baseCanvas, overlayCanvas, tiles_meta) {
+    constructor(baseCanvas, overlayCanvas, tile_manager) {
         super('Bookshelf', baseCanvas, overlayCanvas);
 
-        this.tileManager = new TileManager(tiles_meta);
-        this.gridWidth = tiles_meta.gridWidth; // Number of columns in the grid
-        this.gridHeight = tiles_meta.gridHeight; // Number of rows in the grid
+        this.tileManager = tile_manager;
+        this.gridWidth = tile_manager.tileMetadata.gridWidth; // Number of columns in the grid
+        this.gridHeight = tile_manager.tileMetadata.gridHeight; // Number of rows in the grid
 
         this.iconWidth = 16;  // Visual width of each icon
         this.iconHeight = 24; // Visual height of each icon
@@ -75,7 +74,7 @@ export class BookshelfView extends View {
             if (height <= 2) {
                 small_countries.push({clampedStartRow, clampedStartCol, country});
                 continue;
-            } else if (height <= 500) {
+            } else if (height <= 300) {
                 fontSize = '30px Arial';  // Smaller font for smaller areas
             } else {
                 fontSize = '60px Arial';  // Larger font for bigger areas
@@ -179,8 +178,6 @@ export class BookshelfView extends View {
 
 
         
-        
-        this.drawISBN();
         // draw the map thumbnail and scale indicator
         this.draw_map_thumbnail(this.overlayCtx, this.scale, this.offsetX, this.offsetY);
         this.drawMapScaleIndicator(this.overlayCtx, '5 📚');
@@ -228,7 +225,7 @@ export class BookshelfView extends View {
                     "<div class='book-title'>"+title+"</div>"+
                     "<div class='book-isbn'>"+isbn13+"</div>"+
                     "<div class='book-copies'>"+
-                    "<span class='rare-icon'> Copies: "+( holdings + (found_book.e ? '<br>📗 In Annas-Archive' : '<br>📕 Not in Annas-Archive') )+"</span>"+ 
+                    "<span> Copies: "+( holdings + (found_book.e ? '<br>📗 In Annas-Archive' : '<br>📕 Not in Annas-Archive') )+"</span>"+ 
                     // (exist ? 'Rare' : 'Not Rare')+
                     "</div>"+
                     "</div>";
@@ -236,7 +233,7 @@ export class BookshelfView extends View {
     
             }
             else
-                this.tooltip.show(isbn);
+                this.tooltip.show("ISBN: "+ isbn);
     }
         
 

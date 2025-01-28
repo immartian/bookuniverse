@@ -2,10 +2,10 @@ import { View } from './View.js';
 import { TileManager } from './TileManager.js';
 
 export class SocietalView extends View {
-    constructor(baseCanvas, overlayCanvas, tileMetadata) {
+    constructor(baseCanvas, overlayCanvas, tile_manager) {
         super('Societal', baseCanvas, overlayCanvas);
 
-        this.tileManager = new TileManager(tileMetadata);
+        this.tileManager = tile_manager;
         this.offsetX = 0;
         this.offsetY = 0;
         this.scale = 1
