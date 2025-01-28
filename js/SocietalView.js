@@ -10,7 +10,7 @@ export class SocietalView extends View {
         this.offsetY = 0;
         this.scale = 1
         this.scaleWidth = 50000/this.scale;
-
+        this.image = new Image();
         
     }
  
@@ -32,6 +32,8 @@ export class SocietalView extends View {
 
         await this.tileManager.loadVisibleTiles(this.offsetX, this.offsetY, this.baseCanvas.width, this.baseCanvas.height);
         this.tileManager.drawTiles(this.baseCtx, this.offsetX, this.offsetY, this.baseCanvas.width, this.baseCanvas.height);
+        // save the image data
+        this.image.src = this.baseCanvas.toDataURL();
     }
 
     drawOverlay() {

@@ -233,7 +233,7 @@ export class BookshelfView extends View {
     
             }
             else
-                this.tooltip.show("ISBN: "+ isbn);
+                this.tooltip.show("ISBN: "+ isbn + "<br> Double click to search in Annas-Archive");
     }
         
 
