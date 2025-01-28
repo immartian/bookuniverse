@@ -8,19 +8,19 @@
 </head>
 <body>
     <div class="content">
-        <h1>Welcome to the ISBN Universe</h1>
+        <h1>ISBN Map --- Global books in one visualization</h1>
         <p>
-            This project offers an interactive visualization of the entire ISBN universe. Each pixel on the canvas
-            represents a range of ISBNs, providing a comprehensive view of global book metadata collections.
+            This project offers an interactive visualization of the entire ISBN universe. Several different views are available, starting from a global map and zooming into more details down to each individual book. Use the mouse wheel to zoom in and out, and click and drag to move around the map. Currently, it is optimized for desktop use. Rare books (with fewer than 2 copies) are indicated with a fire icon 🔥, while red dot/book 📕 icons represent books not in Anna's Archive and green dot/book 📗 icons represent books collected by Anna's Archive. Please note that there may be data anomalies.
         </p>
-        <p>
-            Hover over the collection options to explore how different datasets contribute to the ISBN universe.
-            Our visualization demonstrates the scope of book metadata across sources such as Anna's Archive, Google Books, and more.
-        </p>
+
         <div class="canvas-container">
             <canvas id="mainCanvas" width="1000" height="800"></canvas>
             <canvas id="overlayCanvas" width="1000" height="800"></canvas>
         </div>
+        <p>
+            Hover over the collection options to explore how different datasets contribute to the ISBN universe.
+            Our visualization demonstrates the scope of book metadata across sources such as Anna's Archive, Google Books, and more.
+        </p>
     </div>
     <script type="module" src="js/main.js"></script>
 </body>

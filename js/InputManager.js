@@ -7,7 +7,7 @@ export class InputManager {
         this.lastX = 0;        // Last recorded x-position of the mouse
         this.lastY = 0;        // Last recorded y-position of the mouse
         this.throttleTimeout = null; // Throttle interval for panMove
-        this.throttleInterval = 16;  // ~60fps for panMove
+        this.throttleInterval = 30;  // ~60fps for panMove
 
 
         this.zoomDelta = 0; // Accumulator for zoom delta

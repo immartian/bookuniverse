@@ -150,7 +150,7 @@ export class View {
             this.zooming = true;
     
             let { x, y } = data;  // Mouse position
-            const targetZoom = 4;  // Target zoom level for next view
+            const targetZoom = 5;  // Target zoom level for next view
             const smoothFactor = 0.999;  // Controls the speed of zooming
     
             // Convert mouse position to global ISBN position
