@@ -11,7 +11,7 @@ export class InputManager {
 
 
         this.zoomDelta = 0; // Accumulator for zoom delta
-        this.zoomThreshold = 220; // Threshold for triggering zoom
+        this.zoomThreshold = 120; // Threshold for triggering zoom
 
         this.initEvents();
     }

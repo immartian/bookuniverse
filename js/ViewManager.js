@@ -4,6 +4,8 @@ export class ViewManager {
         this.overlayCanvas = overlayCanvas;
         this.currentView = null;
         this.views = {};
+    
+        this.handleZoom = ViewManager.debounce(this.handleZoom.bind(this), 300);
     }
 
     registerView(view) {
@@ -21,6 +23,15 @@ export class ViewManager {
         this.currentView = this.views[viewName];
         this.currentView.isbnIndex = currentISBN; // Pass the current ISBN index to the new view
         this.currentView.onEnter(data);
+    }
+  
+
+    static debounce(func, delay) {
+        let timeout;
+        return function (...args) {
+            clearTimeout(timeout);
+            timeout = setTimeout(() => func.apply(this, args), delay);
+        };
     }
     
 
