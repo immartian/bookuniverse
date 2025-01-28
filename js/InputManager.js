@@ -37,15 +37,18 @@ export class InputManager {
         });
         this.canvas.addEventListener('mousemove', (event) => {
             if (this.dragging) {
-                // Throttled panning callback
+                const rect = this.canvas.getBoundingClientRect();
+                const mouseX = event.clientX - rect.left; // Normalize x
+                const mouseY = event.clientY - rect.top;  // Normalize y
+        
                 if (!this.throttleTimeout) {
                     this.throttleTimeout = setTimeout(() => {
                         this.callback('panMove', {
-                            deltaX: event.offsetX - this.lastX,
-                            deltaY: event.offsetY - this.lastY,
+                            deltaX: mouseX - this.lastX,
+                            deltaY: mouseY - this.lastY,
                         });
-                        this.lastX = event.offsetX;
-                        this.lastY = event.offsetY;
+                        this.lastX = mouseX;
+                        this.lastY = mouseY;
                         this.throttleTimeout = null;
                     }, this.throttleInterval);
                 }
