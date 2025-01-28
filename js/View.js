@@ -121,8 +121,7 @@ export class View {
     clearCanvas() {
         this.baseCtx.setTransform(1, 0, 0, 1, 0, 0); // reset transformation
         this.baseCtx.scale(1, 1);  // reset scale
-        this.baseCtx.clearRect(0, 0, this.baseCanvas.width, this.baseCanvas.height);
-        this.overlayCtx.clearRect(0, 0, this.overlayCanvas.width, this.overlayCanvas.height);
+
     }
 
     startRendering() {
