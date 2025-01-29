@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISBN Visualization</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        canvas {
+            border: 1px solid #ccc;
+            display: block;
+            margin: 20px auto;
+        }
+        .tooltip {
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 5px;
+            border-radius: 3px;
+            pointer-events: none;
+            font-size: 12px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>ISBN Visualization</h1>
+    <canvas id="visualization" width="1000" height="800"></canvas>
+    <div class="tooltip" id="tooltip"></div>
+
+    <script>
+        const canvas = document.getElementById("visualization");
+        const ctx = canvas.getContext("2d");
+        const tooltip = document.getElementById("tooltip");
+
+        let currentView = "global"; // Tracks the current view
+        let gridData, clusterData, detailData; // Stores data for each view
+
+        // Event listener for zooming (mouse wheel scroll)
+        canvas.addEventListener("dblclick", (event) => {
+            event.preventDefault();
+
+            // Calculate base ISBN from mouse position (example logic)
+            const rect = canvas.getBoundingClientRect();
+            const mouseX = event.clientX - rect.left;
+            const mouseY = event.clientY - rect.top;
+
+            if (currentView === "global" && gridData) {
+                const cellWidth = canvas.width / gridData[0].length;
+                const cellHeight = canvas.height / gridData.length;
+
+                const col = Math.floor(mouseX / cellWidth);
+                const row = Math.floor(mouseY / cellHeight);
+                const basePosition = row * gridData[0].length + col;
+                const baseIsbn = (basePosition * 2500 + 978000000000).toString();
+
+                // if (event.deltaY < 0) { // Zooming in
+                    zoomToClusterView(baseIsbn);
+                // }
+            } else if (currentView === "cluster" && clusterData) {
+                const rectWidth = 16;
+                const rectHeight = 24;
+
+                const col = Math.floor(mouseX / rectWidth);
+                const row = Math.floor(mouseY / rectHeight);
+                const baseIndex = row * 50 + col;
+                const baseIsbn = clusterData[baseIndex]?.isbn;
+
+                if (event.deltaY < 0) { // Zooming in
+                    zoomToDetailView(baseIsbn);
+                } else if (event.deltaY > 0) { // Zooming out
+                    drawGlobalView();
+                }
+            } else if (currentView === "detail" && detailData) {
+
+                const rectWidth = 80;
+                const rectHeight = 120;
+
+                // Calculate which rectangle the user clicked
+                const rect = canvas.getBoundingClientRect();
+                const mouseX = event.clientX - rect.left;
+                const mouseY = event.clientY - rect.top;
+
+                const col = Math.floor(mouseX / rectWidth);
+                const row = Math.floor(mouseY / rectHeight);
+                const index = row * 10 + col;
+
+                // Get the ISBN of the clicked rectangle
+                const clickedItem = detailData[index];
+                if (clickedItem) {
+                    const searchUrl = `https://annas-archive.org/search?index=meta&q=${clickedItem.isbn}`;
+                    window.open(searchUrl, "_blank"); // Open the search page in a new tab
+                }
+
+            }
+        });
+
+
+        // Mouse move event for showing tooltips
+        canvas.addEventListener("mousemove", (event) => {
+                const rect = canvas.getBoundingClientRect();
+                const mouseX = event.clientX - rect.left;
+                const mouseY = event.clientY - rect.top;
+
+                if (currentView === "global" && gridData) {
+                    showGlobalTooltip(mouseX, mouseY);
+                } else if (currentView === "cluster" && clusterData) {
+                    showClusterTooltip(mouseX, mouseY);
+                } else if (currentView === "detail" && detailData) {
+                    showDetailTooltip(mouseX, mouseY);
+                }
+            });
+
+        // Hide tooltip when the mouse leaves the canvas
+        canvas.addEventListener("mouseleave", () => {
+            tooltip.style.display = "none";
+        });
+
+
+
+        // Fetch and render the global view
+        fetch('/api/global_view')
+            .then(response => response.json())
+            .then(data => {
+                gridData = data;
+                drawGlobalView();
+            });
+
+        // Draw the global view
+        function drawGlobalView() {
+            currentView = "global";
+            const cellWidth = canvas.width / gridData[0].length;
+            const cellHeight = canvas.height / gridData.length;
+
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            gridData.forEach((row, y) => {
+                row.forEach((color, x) => {
+                    ctx.fillStyle = `rgb(${color[0]}, ${color[1]}, ${color[2]})`;
+                    ctx.fillRect(x * cellWidth, y * cellHeight, cellWidth, cellHeight);
+                });
+            });
+        }
+
+        // Fetch and render the cluster view
+        function zoomToClusterView(baseIsbn = null) {
+            const url = baseIsbn ? `/api/cluster_view?base_isbn=${baseIsbn}` : "/api/cluster_view";
+            fetch(url)
+                .then(response => response.json())
+                .then(data => {
+                    clusterData = data;
+                    drawClusterView();
+                });
+        }
+
+
+        // Draw the cluster view
+        function drawClusterView() {
+            currentView = "cluster";
+
+            const canvasWidth = 1000; // Canvas width
+            const canvasHeight = 800; // Canvas height
+
+            if (!clusterData || clusterData.length !== canvasWidth * canvasHeight) {
+                console.error("Cluster data is invalid or mismatched with canvas size.");
+                return;
+            }
+
+            // Create an ImageData object
+            const imageData = ctx.createImageData(canvasWidth, canvasHeight);
+            const data = imageData.data; // Pixel data array
+
+            // Populate the ImageData with colors based on `clusterData`
+            clusterData.forEach((value, index) => {
+                const pixelIndex = index * 4; // Each pixel uses 4 array elements (R, G, B, A)
+                if (value === 1) { // ISBN exists
+                    data[pixelIndex] = 255;       // Red
+                    data[pixelIndex + 1] = 255; // Green
+                    data[pixelIndex + 2] = 255;   // Blue
+                    data[pixelIndex + 3] = 255; // Alpha (fully opaque)
+                } else { // ISBN does not exist
+                    data[pixelIndex] = 0;       // Red
+                    data[pixelIndex + 1] = 0;   // Green
+                    data[pixelIndex + 2] = 0;   // Blue
+                    data[pixelIndex + 3] = 255; // Alpha (fully opaque)
+                }
+            });
+
+            // Draw the ImageData on the canvas
+            ctx.putImageData(imageData, 0, 0);
+        }
+
+
+        // Fetch and render the detail view
+        function zoomToDetailView(baseIsbn = null) {
+            const url = baseIsbn ? `/api/detail_view?base_isbn=${baseIsbn}` : "/api/detail_view";
+            fetch(url)
+                .then(response => response.json())
+                .then(data => {
+                    detailData = data;
+                    drawDetailView();
+                });
+        }
+
+
+        // Draw the detail view
+        function drawDetailView() {
+            currentView = "detail";
+            const rectWidth = 80;
+            const rectHeight = 120;
+
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            detailData.forEach((item, index) => {
+                const x = (index % 10) * rectWidth;
+                const y = Math.floor(index / 10) * rectHeight;
+
+                if (item.exists) {
+                    // Extract parts of the ISBN for the image path
+                    const isbn = item.isbn;
+                    const part1 = isbn.slice(-4, -2); // Last 4th and 3rd digits
+                    const part2 = isbn.slice(-2, ); // Last 2nd and 1st digits
+
+                    // Image URL pattern
+                    const imageUrl = `https://images.isbndb.com/covers/${part1}/${part2}/${isbn}.jpg`;
+                    // Load and draw the image
+                    const img = new Image();
+                    img.onload = () => {
+                        ctx.drawImage(img, x, y, rectWidth, rectHeight);
+                    };
+                    img.onerror = () => {
+                        // If the image fails to load, use a fallback color
+                        ctx.fillStyle = "green";
+                        ctx.fillRect(x, y, rectWidth, rectHeight);
+                    };
+                    img.src = imageUrl;
+                } else {
+                    // Draw a placeholder rectangle for non-existent ISBNs
+                    ctx.fillStyle = "black";
+                    ctx.fillRect(x, y, rectWidth, rectHeight);
+                }
+
+                // Add ISBN text
+                ctx.fillStyle = "black";
+                ctx.font = "10px Arial";
+                ctx.fillText(item.isbn, x + 5, y + rectHeight - 10);
+            });
+        }
+
+        // Tooltip for global view
+        function showGlobalTooltip(mouseX, mouseY) {
+            const cellWidth = canvas.width / gridData[0].length;
+            const cellHeight = canvas.height / gridData.length;
+
+            const col = Math.floor(mouseX / cellWidth);
+            const row = Math.floor(mouseY / cellHeight);
+
+            if (gridData[row] && gridData[row][col]) {
+                const rangeStart = (row * gridData[0].length + col) * 2500 + 978000000000;
+                const rangeEnd = rangeStart + 2500 - 1;
+
+                tooltip.innerText = `ISBNs: ${rangeStart}x - ${rangeEnd}x`;
+                tooltip.style.left = `${mouseX + 10}px`;
+                tooltip.style.top = `${mouseY + 10}px`;
+                tooltip.style.backgroundColor = `rgb(${gridData[row][col][0]}, ${gridData[row][col][1]}, ${gridData[row][col][2]})`;
+                tooltip.style.display = "block";
+            } else {
+                tooltip.style.display = "none";
+            }
+        }
+
+        // Tooltip for cluster view
+        function showClusterTooltip(mouseX, mouseY) {
+            const rectWidth = 16;
+            const rectHeight = 24;
+
+            const col = Math.floor(mouseX / rectWidth);
+            const row = Math.floor(mouseY / rectHeight);
+            const index = row * 50 + col;
+
+            if (clusterData[index]) {
+                tooltip.innerText = `ISBN: ${clusterData[index].isbn}`;
+                tooltip.style.left = `${mouseX + 10}px`;
+                tooltip.style.top = `${mouseY + 10}px`;
+                tooltip.style.backgroundColor = clusterData[index].exists ? "green" : "black";
+                tooltip.style.display = "block";
+            } else {
+                tooltip.style.display = "none";
+            }
+        }
+
+        // Tooltip for detail view
+        function showDetailTooltip(mouseX, mouseY) {
+            const rectWidth = 80;
+            const rectHeight = 120;
+
+            const col = Math.floor(mouseX / rectWidth);
+            const row = Math.floor(mouseY / rectHeight);
+            const index = row * 10 + col;
+
+            if (detailData[index]) {
+                tooltip.innerText = `ISBN: ${detailData[index].isbn}\nExists: ${detailData[index].exists}`;
+                tooltip.style.left = `${mouseX + 10}px`;
+                tooltip.style.top = `${mouseY + 10}px`;
+                tooltip.style.backgroundColor = detailData[index].exists ? "green" : "black";
+                tooltip.style.display = "block";
+            } else {
+                tooltip.style.display = "none";
+            }
+        }
+
+        let isDragging = false;
+let startX, startY;
+let dragOffsetX = 0, dragOffsetY = 0;
+
+canvas.addEventListener("mousedown", (event) => {
+    if (currentView === "detail") {
+        isDragging = true;
+        const rect = canvas.getBoundingClientRect();
+        startX = event.clientX - rect.left;
+        startY = event.clientY - rect.top;
+    }
+});
+
+canvas.addEventListener("mousemove", (event) => {
+    if (isDragging && currentView === "detail") {
+        const rect = canvas.getBoundingClientRect();
+        const mouseX = event.clientX - rect.left;
+        const mouseY = event.clientY - rect.top;
+
+        // Calculate drag offset
+        dragOffsetX = mouseX - startX;
+        dragOffsetY = mouseY - startY;
+
+        // Redraw with temporary offset for smooth feedback
+        drawDetailViewWithOffset(dragOffsetX, dragOffsetY);
+    }
+});
+
+canvas.addEventListener("mouseup", () => {
+    if (isDragging && currentView === "detail") {
+        isDragging = false;
+
+        // Determine the shift in grid rows and columns
+        const rectWidth = 80;
+        const rectHeight = 120;
+        const shiftCols = Math.round(dragOffsetX / rectWidth);
+        const shiftRows = Math.round(dragOffsetY / rectHeight);
+
+        // Calculate new base ISBN position
+        const currentBaseIndex = parseInt(detailData[0].isbn.slice(-6), 10); // Extract numeric part
+        const newBaseIndex = currentBaseIndex - shiftRows * 10 - shiftCols; // Adjust for opposite direction
+
+        const newBaseIsbn = `978${String(newBaseIndex).padStart(10, "0")}`;
+
+
+        // Fetch new data
+        zoomToDetailView(newBaseIsbn);
+
+        // Reset drag offset
+        dragOffsetX = 0;
+        dragOffsetY = 0;
+    }
+});
+
+// // Optional: Handle mouse leave to cancel dragging
+// canvas.addEventListener("mouseleave", () => {
+//     if (isDragging && currentView === "detail") {
+//         isDragging = false;
+//         dragOffsetX = 0;
+//         dragOffsetY = 0;
+//         drawDetailView(); // Reset to original view
+//     }
+// });
+
+// Temporary redraw with offset during drag
+function drawDetailViewWithOffset(offsetX, offsetY) {
+    const rectWidth = 80;
+    const rectHeight = 100;
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    detailData.forEach((item, index) => {
+        const x = (index % 10) * rectWidth + offsetX;
+        const y = Math.floor(index / 10) * rectHeight + offsetY;
+
+        if (item.exists) {
+            // Image URL logic
+            const isbn = item.isbn;
+            const part1 = isbn.slice(-6, -4);
+            const part2 = isbn.slice(-4, -2);
+            const imageUrl = `https://images.isbndb.com/covers/${part1}/${part2}/${isbn}.jpg`;
+
+            const img = new Image();
+            img.onload = () => {
+                ctx.drawImage(img, x, y, rectWidth, rectHeight);
+            };
+            img.onerror = () => {
+                ctx.fillStyle = "green";
+                ctx.fillRect(x, y, rectWidth, rectHeight);
+            };
+            img.src = imageUrl;
+        } else {
+            ctx.fillStyle = "red";
+            ctx.fillRect(x, y, rectWidth, rectHeight);
+        }
+
+        // Add ISBN text
+        ctx.fillStyle = "black";
+        ctx.font = "10px Arial";
+        ctx.fillText(item.isbn, x + 5, y + rectHeight - 10);
+    });
+}
+
+    </script>
+</body>
+</html>
