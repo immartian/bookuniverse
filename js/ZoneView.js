@@ -16,7 +16,7 @@ export class ZoneView extends View {
             this.drawBase(); // Draw the image once it is loaded
         };
     }
-    onEnter(data) {
+    async onEnter(data) {
         console.log('Entering Zone View');
         // calculate the offset based on the current isbnIndex
         this.offsetX = Math.floor((this.isbnIndex % (this.scaleWidth * this.scale)) / this.scale);-data.x
@@ -25,7 +25,10 @@ export class ZoneView extends View {
         this.offsetY = Math.floor(this.isbnIndex / this.scaleWidth/this.scale/this.scale)- data.y;
         console.log('offsetX', this.offsetX, 'offsetY', this.offsetY, this.isbnIndex);
 
-        this.startRendering(); // Start the new view's animation
+        this.drawBase();
+        // await this.showZoomIndicator();
+        this.drawOverlay();
+        // this.startRendering(); // Start the new view's animation
     }
 
     onExit() {

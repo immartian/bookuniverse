@@ -36,31 +36,20 @@ export class ViewManager {
     
 
     async handleZoom(data) {
-        if (data.delta < 0) {
-            if (this.currentView?.name === 'Global') {
-                await this.currentView.zoom_effect(data, 5);  // Wait for zoom to complete
-                this.switchView('Zone', data);
-            } else if (this.currentView?.name === 'Zone') {
-                await this.currentView.zoom_effect(data, 10);  // Wait for zoom to complete
-                this.switchView('Societal', data);
-            } 
-            else if (this.currentView?.name === 'Societal') {
-                await this.currentView.zoom_effect(data, 3);
-                this.switchView('Bookshelf', data);
-            }
-        } else if (data.delta > 0) {
+        let nextView = null;
+        if (data.delta < 0) { // Zoom In
+            if (this.currentView?.name === 'Global') nextView = 'Zone';
+            else if (this.currentView?.name === 'Zone') nextView = 'Societal';
+            else if (this.currentView?.name === 'Societal') nextView = 'Bookshelf';
+        } else if (data.delta > 0) { // Zoom Out
+            if (this.currentView?.name === 'Bookshelf') nextView = 'Societal';
+            else if (this.currentView?.name === 'Societal') nextView = 'Zone';
+            else if (this.currentView?.name === 'Zone') nextView = 'Global';
+        }
 
-            if (this.currentView?.name === 'Societal') {
-                //await this.currentView.zoom_effect(data, 1/5);  
-                this.switchView('Zone', data);
-            } else if (this.currentView?.name === 'Zone') {
-                //await this.currentView.zoom_effect(data, 1/10);  
-                this.switchView('Global', data);
-            } else if (this.currentView?.name === 'Bookshelf') {
-                this.switchView('Societal', data);
-                //await this.currentView.zoom_effect(data, 1/10);
-            }
-        
+        if (nextView) {
+            //await this.currentView.zoom_effect(data, 5); // Wait for zoom animation
+            this.switchView(nextView, data);
         }
     }
 

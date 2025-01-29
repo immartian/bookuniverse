@@ -9,7 +9,7 @@ export class GlobalView extends View {
         this.tooltipX = this.tooltipY = 0;
         this.highlighted = "md5";
         this.all_books = [];
-        fetch('./all_books.json')
+        fetch('/static/data/all_books.json')
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok ' + response.statusText);
@@ -25,14 +25,16 @@ export class GlobalView extends View {
             this.drawBase();
         };
     }
-    onEnter() {
+    async onEnter() {
         console.log('Entering Global View');
+        // await this.showZoomIndicator();
         this.startRendering(); // Start the new view's animation
     }
 
-    drawBase() {
+    drawBase(scale=1) {
         const ctx = this.baseCtx;
         this.image.onload = () => {
+
             ctx.drawImage(this.image, 0, 0, this.baseCanvas.width, this.baseCanvas.height);
         };
     

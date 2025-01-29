@@ -21,7 +21,9 @@ export class SocietalView extends View {
         if (this.offsetX < 0) this.offsetX = 0;
         if (this.offsetX > this.scaleWidth- this.baseCanvas.width) this.offsetX = this.scaleWidth - this.baseCanvas.width;
         //await this.tileManager.loadVisibleTiles(this.offsetX, this.offsetY, this.baseCanvas.width, this.baseCanvas.height);
-        this.startRendering(); // Start the new view's animation
+        this.drawBase();
+        // await this.showZoomIndicator("20:1");
+        this.drawOverlay();
     }
 
     async drawBase() {

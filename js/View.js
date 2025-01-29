@@ -22,6 +22,38 @@ export class View {
         console.log(`${this.name} view entered`, options);
     }
 
+    showZoomIndicator(text) {
+        return new Promise((resolve) => {
+            const ctx = this.overlayCtx;
+            ctx.clearRect(0, 0, this.overlayCanvas.width, this.overlayCanvas.height);
+
+            let alpha = 0.8;
+            const fadeOut = () => {
+                ctx.clearRect(0, 0, this.overlayCanvas.width, this.overlayCanvas.height);
+                ctx.globalAlpha = alpha;
+                ctx.font = '60px Arial';
+                ctx.fillStyle = 'white';
+                let banner;
+                if (text) {
+                    banner = text;
+                } else {
+                    banner = "1 : "+this.scale
+                }
+                ctx.fillText(banner, this.overlayCanvas.width / 2, this.overlayCanvas.height / 2);
+
+                alpha -= 0.02;
+                if (alpha > 0) {
+                    requestAnimationFrame(fadeOut);
+                } else {
+                    ctx.clearRect(0, 0, this.overlayCanvas.width, this.overlayCanvas.height);
+                    resolve();  // Continue rendering after fade-out
+                }
+            };
+
+            fadeOut();
+        });
+    }
+
     onExit() {
         console.log(`highlevel: Exiting ${this.name} View`);
         this.stopRendering(); 

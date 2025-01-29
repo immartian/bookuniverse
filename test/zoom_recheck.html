@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Zoom on Scroll</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: #222;
+        }
+        canvas {
+            border: 1px solid white;
+            background: black;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas" width="1000" height="800"></canvas>
+    <script>
+        const canvas = document.getElementById("canvas");
+        const ctx = canvas.getContext("2d");
+
+        let image = new Image();
+        image.src = "/images/all_isbns_1_50.png"; // Sample image
+        let scale = 1;
+        let originX = 0;
+        let originY = 0;
+
+        image.onload = () => {
+            draw();
+        };
+
+        function draw() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.save();
+            ctx.translate(originX, originY);
+            ctx.scale(scale, scale);
+            ctx.drawImage(image, 0, 0, image.width, image.height);
+            ctx.restore();
+        }
+
+        canvas.addEventListener("wheel", (event) => {
+            event.preventDefault();
+            const mouseX = event.offsetX;
+            const mouseY = event.offsetY;
+            const scaleFactor = 1.1;
+
+            let zoom = event.deltaY < 0 ? scaleFactor : 1 / scaleFactor;
+            let newScale = scale * zoom;
+
+            if (newScale < 0.5 || newScale > 5) return;
+
+            originX = mouseX - (mouseX - originX) * zoom;
+            originY = mouseY - (mouseY - originY) * zoom;
+            scale = newScale;
+
+            draw();
+        });
+    </script>
+</body>
+</html>

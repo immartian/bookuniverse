@@ -31,7 +31,7 @@ export class BookshelfView extends View {
         this.virtualCtx = this.virtualCanvas.getContext('2d', { willReadFrequently: true });
     }
 
-    onEnter(data) {
+    async onEnter(data) {
         console.log('Lowlevel: Entering Bookshelf View', 'ISBN offset:', this.isbnIndex, 'OffsetX:', this.offsetX, 'OffsetY:', this.offsetY);
         this.offsetX = Math.floor((this.isbnIndex % (this.scaleWidth * this.scale)) / this.scale)-Math.floor(data.x/this.iconWidth);
         this.offsetY = Math.floor(this.isbnIndex / this.scaleWidth/this.scale/this.scale)- Math.floor(data.y/this.iconHeight);
@@ -42,8 +42,9 @@ export class BookshelfView extends View {
         this.rarebookManager.loadVisibleTiles(this.offsetX, this.offsetY)
         // Reload tiles for the new offset
         this.tileManager.loadVisibleTiles(this.offsetX, this.offsetY, this.baseCanvas.width, this.baseCanvas.height)
-            .then(() => {
+        .then(() => {
                 this.drawBase();
+            // this.showZoomIndicator("20 : 1");
                 this.drawOverlay();
             });
     }
