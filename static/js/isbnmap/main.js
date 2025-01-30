@@ -1,13 +1,13 @@
 
 // main.js
-import { ViewManager } from './ViewManager.js';
-import { InputManager } from './InputManager.js';
-import { GlobalView } from './GlobalView.js';
-import { ZoneView } from './ZoneView.js';
-import { SocietalView } from './SocietalView.js';
-import { BookshelfView } from './BookshelfView.js';
-import { Tooltip } from './Tooltip.js';
-import { TileManager } from './TileManager.js';
+import { ViewManager } from '/static/js/isbnmap/ViewManager.js';
+import { InputManager } from '/static/js/isbnmap/InputManager.js';
+import { GlobalView } from '/static/js/isbnmap/GlobalView.js';
+import { ZoneView } from '/static/js/isbnmap/ZoneView.js';
+import { SocietalView } from '/static/js/isbnmap/SocietalView.js';
+import { BookshelfView } from '/static/js/isbnmap/BookshelfView.js';
+import { Tooltip } from '/static/js/isbnmap/Tooltip.js';
+import { TileManager } from '/static/js/isbnmap/TileManager.js';
 
 
 const baseCanvas = document.getElementById('mainCanvas');

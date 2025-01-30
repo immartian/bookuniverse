@@ -1,5 +1,4 @@
-import { View } from './View.js';
-import { TileManager } from './TileManager.js';
+import { View } from '/static/js/isbnmap/View.js';
 
 export class SocietalView extends View {
     constructor(baseCanvas, overlayCanvas, tile_manager) {
