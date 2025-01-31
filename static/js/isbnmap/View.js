@@ -1,91 +1,90 @@
-import { ISBN } from "./static/js/isbnmap/ISBN.js";
-import { Tooltip } from "./static/js/isbnmap/Tooltip.js";
+import { TileManager } from './TileManager.js';
+import { ISBN } from './ISBN.js';
+
 export class View {
-    constructor(name, baseCanvas, overlayCanvas, scale) {
-        this.name = name;
+    constructor(baseCanvas, overlayCanvas, tileMetadata) {
+        this.baseCanvas = baseCanvas;
+        this.baseCtx = baseCanvas.getContext('2d');
+
+        this.zoom = 1;
+        this.minZoom = 0.02;
+        this.maxZoom = 1000;
+        this.scaleFactor = 1.1;
+        this.offsetX = 0;
+        this.offsetY = 0;
+        this.snapThreshold = 50;
+        this.tileManager = new TileManager(tileMetadata);
+
         this.ISBN = new ISBN();
         this.isbnIndex = 0;
-        this.isbn_color = 'black';
-        this.scale = scale; 
-        this.scaleWidth = 50000/this.scale;
-        this.zoom = 1; 
-        this.baseCanvas = baseCanvas;
-        this.overlayCanvas = overlayCanvas;
-        this.baseCtx = baseCanvas.getContext('2d');
-        this.overlayCtx = overlayCanvas.getContext('2d');
-        this.tooltip = new Tooltip(); this.tooltipX = this.tooltipY = 0;
 
-        this.animationFrameId = null; // To track the requestAnimationFrame ID
+        this.addEventListeners();
+        this.resetView();
     }
 
-    onEnter(options = {}) {
-        console.log(`${this.name} view entered`, options);
+    async resetView() {
+        this.zoom = 1;
+        this.offsetX = 0;
+        this.offsetY = 0;
+        await this.tileManager.loadVisibleTiles(this.offsetX, this.offsetY, this.baseCanvas.width, this.baseCanvas.height, this.zoom);
+        this.draw();
     }
 
-    showZoomIndicator(text) {
-        return new Promise((resolve) => {
-            const ctx = this.overlayCtx;
-            ctx.clearRect(0, 0, this.overlayCanvas.width, this.overlayCanvas.height);
+    async draw() {
+        const ctx = this.baseCtx;
+        ctx.imageSmoothingEnabled = false;
+        await this.tileManager.draw(ctx, this.offsetX, this.offsetY, this.baseCanvas.width, this.baseCanvas.height, this.zoom);
+        ctx.setTransform(1, 0, 0, 1, 0, 0);
 
-            let alpha = 0.8;
-            const fadeOut = () => {
-                ctx.clearRect(0, 0, this.overlayCanvas.width, this.overlayCanvas.height);
-                ctx.globalAlpha = alpha;
-                ctx.font = '60px Arial';
-                ctx.fillStyle = 'white';
-                let banner;
-                if (text) {
-                    banner = text;
-                } else {
-                    banner = "1 : "+this.scale
-                }
-                ctx.fillText(banner, this.overlayCanvas.width / 2, this.overlayCanvas.height / 2);
+        // draw countries 
+        const countriesInView = this.getCountriesInView();
+        console.log("countriesInView: ", countriesInView);
+        countriesInView.forEach(({ country, startRow, endRow, startCol, endCol }) => {
+            // const clampedStartRow = Math.max(0, startRow + this.offsetY);
+            // const clampedEndRow = Math.min(this.baseCanvas.height, endRow + this.offsetY);
+            // const clampedStartCol = Math.max(0, startCol + this.offsetX);
+            // const clampedEndCol = Math.min(this.baseCanvas.width, endCol + this.offsetX);
+            const height = endRow - startRow;
+            // const width = clampedEndCol - clampedStartCol;
+            if (height > 16) {          //ignore small countries for now
+                ctx.globalAlpha = 0.6;
+                ctx.fillStyle = 'lightgray';
+                // center the text
+                ctx.textAlign = 'center';
+                ctx.font = `${Math.log10(this.zoom*2+1)*height/2}px Arial`;
+                ctx.fillText(country, Math.max(this.baseCanvas.width/3,(this.baseCanvas.width+this.offsetX)/2), (endRow+startRow)/2+ this.offsetY);
+            }
+            ctx.textAlign = 'start';
+            ctx.globalAlpha = 1;
+                
+            });
+        
+        // draw debug 
+        this.drawDebug(ctx, this.zoom.toFixed(2) + ' ' + this.offsetX + ' ' + this.offsetY);
+        this.drawISBN(ctx);
+        this.drawMapScaleIndicator(ctx);
 
-                alpha -= 0.02;
-                if (alpha > 0) {
-                    requestAnimationFrame(fadeOut);
-                } else {
-                    ctx.clearRect(0, 0, this.overlayCanvas.width, this.overlayCanvas.height);
-                    resolve();  // Continue rendering after fade-out
-                }
-            };
-
-            fadeOut();
-        });
+        // if (this.zoom <= this.minZoom) { if (!this.e) this.e = this.de(ctx); } else if (this.e) { this.e(); this.e = null; }    
     }
 
-    onExit() {
-        console.log(`highlevel: Exiting ${this.name} View`);
-        this.stopRendering(); 
-        this.clearCanvas();
-        this.tooltip.hide();
-    }
-
-    drawBase() {
-        console.warn(`${this.name} view: drawBase not implemented`);
-    }
-
-    drawOverlay() {
-        console.warn(`${this.name} view: drawOverlay not implemented`);
-    }
-
-    drawTitle(ctx, text, x=50, y=50) {
+    drawDebug(ctx, anything) {
         ctx.fillStyle = 'white';
         ctx.font = '20px Arial';
-        ctx.fontWeight = 'bold';
-        ctx.fillText(text, x, y);
+        ctx.fillText(`Zoom: ${anything}`, 10, 30 );   
     }
 
-    drawISBN() {
+    de(ctx) { let w = this.baseCanvas.width, h = this.baseCanvas.height, x = this.offsetX, y = this.offsetY, vx = (Math.random() - 0.5) * 5, vy = (Math.random() - 0.5) * 5, e = '📕', r = true, c = () => e = Math.random() > 0.5 ? '📕' : '📗', a = () => { if (!r) {return}; this.offsetX=x+20; this.offsetY=y-40;  x += vx; y += vy; (x <= 0 || x >= w - 24) && (vx *= -1, c()); (y <= 0 || y >= h - 24) && (vy *= -1, c()); ctx.font = '48px Arial'; ctx.fillText(e, x, y); requestAnimationFrame(a); }; a(); return () => r = false; }
+
+
+    drawISBN(ctx) {
         // draw current isbn on screen at the right bottom corner
-        const ctx = this.overlayCtx;
-        ctx.fillStyle = this.isbn_color;
-        ctx.globalAlpha = 0.5;
-        ctx.fillRect(this.overlayCanvas.width - 400, this.overlayCanvas.height - 40, 190, 30);
+        // // ctx.fillStyle = this.isbn_color;
+        // // ctx.globalAlpha = 0.5;
+        // ctx.fillRect(this.baseCanvas.width - 400, this.baseCanvas.height - 40, 190, 30);
         ctx.globalAlpha = 1;
         ctx.fillStyle = 'white';
         ctx.font = '16px Arial';
-        ctx.fillText(`ISBN: ${this.ISBN.calculateISBN(this.isbnIndex, true)}`, this.overlayCanvas.width - 380, this.overlayCanvas.height - 20);
+        ctx.fillText(`ISBN: ${this.ISBN.calculateISBN(this.isbnIndex, true)}`, this.baseCanvas.width - 380, this.baseCanvas.height - 20);
         ctx.globalAlpha = 1;
     }
     draw_map_thumbnail(ctx, scale, offsetX, offsetY) {
@@ -107,12 +106,12 @@ export class View {
 
     }
 
-    drawMapScaleIndicator(ctx, text, x=null, y=null, length=100) {
+    drawMapScaleIndicator(ctx, x=null, y=null, length=100) {
         // default set to right bottom corner
         if (x === null)
-            x = this.overlayCanvas.width - 120;
+            x = this.baseCanvas.width - 120;
         if (y === null)
-            y = this.overlayCanvas.height - 20;
+            y = this.baseCanvas.height - 20;
 
 
         // draw a background with half-transparency
@@ -146,82 +145,13 @@ export class View {
         ctx.stroke();
         
         // Add text marker
+        const text = `${Math.round(50*100/this.zoom)} 📚`;
         const textWidth = ctx.measureText(text).width;
         ctx.fillText(text, x + (length - textWidth) / 2, y - 8);
     }
 
-    clearCanvas() {
-        this.baseCtx.setTransform(1, 0, 0, 1, 0, 0); // reset transformation
-        this.baseCtx.scale(1, 1);  // reset scale
 
-    }
-
-    startRendering() {
-        if (!this.animationFrameId) {
-            const render = () => {
-                this.drawBase();
-                this.drawOverlay();
-                this.animationFrameId = requestAnimationFrame(render); // Save the ID
-            };
-            render();
-        }
-    }
-
-    stopRendering() {
-        if (this.animationFrameId) {
-            cancelAnimationFrame(this.animationFrameId); // Cancel the animation frame
-            this.animationFrameId = null; // Clear the ID
-        }
-    }
-
-    zoom_effect(data) {
-        return new Promise((resolve) => {
-            if (this.zooming) {
-                return;
-            }
-            this.zooming = true;
-    
-            let { x, y } = data;  // Mouse position
-            const targetZoom = 5;  // Target zoom level for next view
-            const smoothFactor = 0.999;  // Controls the speed of zooming
-    
-            // Convert mouse position to global ISBN position
-            const globalX = x  ;
-            const globalY = y ;
-    
-            // Calculate the initial and target offsets to ensure smooth zooming centered on the cursor
-            let targetOffsetX = globalX - (this.baseCanvas.width / 2 / targetZoom);
-            let targetOffsetY = globalY - (this.baseCanvas.height / 2 / targetZoom);
-    
-            const animateZoom = () => {
-                if (Math.abs(this.zoom - targetZoom) > 0.01) {
-                    this.zoom +=  smoothFactor;
-                    this.clearCanvas();
-    
-                    // // Smooth transition of offsets
-                    // let currentOffsetX = startOffsetX + (targetOffsetX - startOffsetX) * (this.zoom / targetZoom);
-                    // let currentOffsetY = startOffsetY + (targetOffsetY - startOffsetY) * (this.zoom / targetZoom);
-    
-                    // Apply transformation to zoom into the cursor position
-                    this.baseCtx.setTransform(this.zoom, 0, 0, this.zoom, -targetOffsetX * this.zoom, -targetOffsetY * this.zoom);
-                    
-                    this.baseCtx.drawImage(this.image, 0, 0, this.baseCanvas.width, this.baseCanvas.height);
-    
-                    requestAnimationFrame(animateZoom);
-                } else {
-                    this.zoom = 1;  // Lock final zoom level
-                    this.zooming = false;  // Reset flag
-                    resolve();  // Resolve the promise after completion
-                }
-            };
-    
-            animateZoom();
-        });
-    }
-    
-    
-
-    // Get the countries that are currently in view
+    // country related functions
     getZoneRange(prefix) {
         const startISBN = this.ISBN.padToISBN(prefix, "0");
         const endISBN = this.ISBN.padToISBN(prefix, "9");
@@ -230,19 +160,20 @@ export class View {
 
         let startRow, endRow;  
         let startCol = 0, endCol = this.baseCanvas.width
+        const global_scale = 50000*50/this.zoom;
         /// special case for 978-0 and 978-1 
         if (prefix === "9780" || prefix === "9781") {
-            startRow = Math.floor((this.ISBN.padToISBN("978-0", "0") - this.ISBN.baseISBN) / (50000*this.scale));
-            endRow = Math.floor((this.ISBN.padToISBN("978-1", "9") - this.ISBN.baseISBN) / (50000*this.scale));
+            startRow = Math.floor((this.ISBN.padToISBN("978-0", "0") - this.ISBN.baseISBN) / global_scale);
+            endRow = Math.floor((this.ISBN.padToISBN("978-1", "9") - this.ISBN.baseISBN) /global_scale);
         }
         else
         {
-            startRow = Math.floor((startISBN - this.ISBN.baseISBN) / (50000*this.scale));
-            endRow = Math.floor((endISBN - this.ISBN.baseISBN) / (50000*this.scale));
+            startRow = Math.floor((startISBN - this.ISBN.baseISBN) / global_scale);
+            endRow = Math.floor((endISBN - this.ISBN.baseISBN) / global_scale);
             // there are some small countries that won't cover a full row
             // so we need to adjust the start and end columns
-            startCol = Math.floor((startISBN - this.ISBN.baseISBN) % (50000*this.scale));
-            endCol = Math.floor((endISBN - this.ISBN.baseISBN) % (50000*this.scale));
+            startCol = Math.floor((startISBN - this.ISBN.baseISBN) % global_scale);
+            endCol = Math.floor((endISBN - this.ISBN.baseISBN) % global_scale);
         }
         return { startRow, endRow, startCol, endCol };
     }
@@ -250,9 +181,12 @@ export class View {
     // Get the countries that are currently in view
     getCountriesInView() {
         const countriesInView = [];
-        const visibleStartRow = this.offsetY;
-        const visibleEndRow = this.offsetY + this.baseCanvas.height;
+        // const adjustedOffsetX = Math.max(0, (- offsetX)/scaleFactor);
+        // const adjustedOffsetY = Math.max(0, (- offsetY)/scaleFactor);
+        const visibleStartRow = -this.offsetY;
+        const visibleEndRow = -this.offsetY + this.baseCanvas.height;
         
+        console.log ("visibleStartRow: ", visibleStartRow, "visibleEndRow: ", visibleEndRow);
         for (const prefix of this.ISBN.getAllPrefixes()) {
             const cleanPrefix = prefix.replace("-", "");
             const { startRow, endRow, startCol, endCol } = this.getZoneRange(cleanPrefix);
@@ -273,4 +207,153 @@ export class View {
         return countriesInView;
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // Add event listeners for zooming and panning
+    handleWheel(event) {
+        event.preventDefault();
+        const { offsetX, offsetY, deltaY } = event;
+        const zoomDirection = deltaY < 0 ? this.scaleFactor : 1 / this.scaleFactor;
+        const newZoom = Math.min(this.maxZoom, Math.max(this.minZoom, this.zoom * zoomDirection));
+
+        // Adjust origin to keep zoom centered on mouse position
+        this.offsetX = Math.floor(offsetX - (offsetX - this.offsetX) * (newZoom / this.zoom));
+        this.offsetY = Math.floor(offsetY - (offsetY - this.offsetY) * (newZoom / this.zoom));
+        this.zoom = newZoom;
+
+        this.draw();
+    }
+
+    handleMouseDown(event) {
+        this.isPanning = true;
+        this.lastX = event.clientX;
+        this.lastY = event.clientY;
+    }
+
+    handleMouseMove(event) {
+        if (!this.isPanning) return;
+
+        const deltaX = event.clientX - this.lastX;
+        const deltaY = event.clientY - this.lastY;
+
+        this.offsetX += deltaX;
+        this.offsetY += deltaY;
+        this.lastX = event.clientX;
+        this.lastY = event.clientY;
+
+        // Snap to edges if close to borders
+        this.snapToBounds();
+
+        this.draw();
+    }
+
+    handleMouseUp() {
+        this.isPanning = false;
+    }
+
+    handleTouchStart(event) {
+        if (event.touches.length === 2) {
+            this.isPinching = true;
+            this.startDistance = this.getTouchDistance(event.touches);
+            this.startZoom = this.zoom;
+        } else if (event.touches.length === 1) {
+            this.isPanning = true;
+            this.lastX = event.touches[0].clientX;
+            this.lastY = event.touches[0].clientY;
+        }
+    }
+
+    handleTouchMove(event) {
+        if (this.isPinching && event.touches.length === 2) {
+            event.preventDefault();
+            const newDistance = this.getTouchDistance(event.touches);
+            const zoomRatio = newDistance / this.startDistance;
+            const newZoom = Math.min(this.maxZoom, Math.max(this.minZoom, this.startZoom * zoomRatio));
+
+            // Adjust origin to zoom at midpoint of pinch
+            const midX = (event.touches[0].clientX + event.touches[1].clientX) / 2;
+            const midY = (event.touches[0].clientY + event.touches[1].clientY) / 2;
+            this.offsetX = midX - (midX - this.offsetX) * (newZoom / this.zoom);
+            this.offsetY = midY - (midY - this.offsetY) * (newZoom / this.zoom);
+            this.zoom = newZoom;
+
+            this.draw();
+        } else if (this.isPanning && event.touches.length === 1) {
+            event.preventDefault();
+            const deltaX = event.touches[0].clientX - this.lastX;
+            const deltaY = event.touches[0].clientY - this.lastY;
+            this.offsetX += deltaX;
+            this.offsetY += deltaY;
+            this.lastX = event.touches[0].clientX;
+            this.lastY = event.touches[0].clientY;
+
+            // Snap to edges
+            this.snapToBounds();
+            this.draw();
+        }
+    }
+
+    handleTouchEnd() {
+        this.isPinching = false;
+        this.isPanning = false;
+    }
+
+    getTouchDistance(touches) {
+        const dx = touches[0].clientX - touches[1].clientX;
+        const dy = touches[0].clientY - touches[1].clientY;
+        return Math.sqrt(dx * dx + dy * dy);
+    }
+
+    snapToBounds() {
+
+    }
+
+    addEventListeners() {
+        this.baseCanvas.addEventListener('wheel', (event) => this.handleWheel(event));
+        this.baseCanvas.addEventListener('mousedown', (event) => this.handleMouseDown(event));
+        this.baseCanvas.addEventListener('mousemove', (event) => this.handleMouseMove(event));
+        this.baseCanvas.addEventListener('mouseup', () => this.handleMouseUp());
+        this.baseCanvas.addEventListener('mouseleave', () => this.handleMouseUp());
+
+        this.baseCanvas.addEventListener('touchstart', (event) => this.handleTouchStart(event));
+        this.baseCanvas.addEventListener('touchmove', (event) => this.handleTouchMove(event));
+        this.baseCanvas.addEventListener('touchend', () => this.handleTouchEnd());
+    }
 }
