@@ -17,6 +17,7 @@ export class View {
 
         this.ISBN = new ISBN();
         this.isbnIndex = 0;
+        this.countriesInView = [];
 
         this.addEventListeners();
         this.resetView();
@@ -57,23 +58,46 @@ export class View {
 
     drawCountry(ctx) {
         // draw countries 
-        const countriesInView = this.getCountriesInView();
+        this.countriesInView = this.getCountriesInView();
         // console.log("countriesInView: ", countriesInView);
-        countriesInView.forEach(({ country, startRow, endRow, startCol, endCol }) => {
+        this.countriesInView.forEach(({ country, startRow, endRow, startCol, endCol }) => {
             const height = endRow - startRow;
             // const width = clampedEndCol - clampedStartCol;
-            if (height > 8) {          //ignore small countries for now
+            if (height > 7) {          //ignore small countries for now
                 ctx.globalAlpha = 0.6;
                 ctx.fillStyle = 'lightgray';
+                if (country === this.highlightedZone?.country) {
+                    ctx.fillStyle = 'yellow';
+                    ctx.globalAlpha = 1;
+                }
                 // center the text
                 ctx.textAlign = 'center';
-                ctx.font = `${Math.log10(this.zoom*2+1)*height/2}px Arial`;
+                const font_size = Math.min(60, Math.log10(this.zoom*2+1)*height/2);
+                ctx.font = `${font_size}px Arial`;
                 ctx.fillText(country, Math.max(this.baseCanvas.width/3,(this.baseCanvas.width+this.offsetX)/2), (endRow+startRow)/2+ this.offsetY );
             }
             ctx.textAlign = 'start';
             ctx.globalAlpha = 1;
                 
         });
+
+        if (this.highlightedZone && this.countriesInView.length > 1) {
+            // draw a rectange mask over the region
+            const { startRow, endRow, startCol, endCol, country } = this.highlightedZone;
+            const clampedStartRow = Math.max(0, startRow - this.offsetY);
+            const clampedEndRow = Math.min(this.baseCanvas.height, endRow - this.offsetY);
+            const height = endRow - startRow;
+            if (height>2){
+                ctx.globalAlpha = 0.4;
+                ctx.fillStyle = 'gray';
+            } else {
+                ctx.globalAlpha = 0.5;
+                ctx.fillStyle = 'yellow';
+            }
+            ctx.fillRect(0, startRow+ this.offsetY, this.baseCanvas.width, height);
+            ctx.globalAlpha = 1;
+        }
+
     }
 
     drawISBN(ctx) {
@@ -269,12 +293,20 @@ export class View {
         // get the mouse position related to the canvas
         const rect = this.baseCanvas.getBoundingClientRect();
 
-        const x = Math.floor(event.clientX - rect.left) - this.offsetX;
-        const y = Math.floor(event.clientY - rect.top) - this.offsetY;        
+        let x = Math.floor(event.clientX - rect.left) - this.offsetX;
+        let y = Math.floor(event.clientY - rect.top) - this.offsetY;        
 
         if (!this.isPanning){
             // get the proper isbn index with considering the offset and zoom
-            this.isbnIndex = Math.floor((x*50/this.zoom) + (y*50/this.zoom) * 50000);
+            this.isbnIndex = Math.floor(x*50/this.zoom) + (Math.floor(y*50/this.zoom)) * 50000;
+            // detect if mouse in the region of a country in view
+            this.highlightedZone = null;
+            // x += this.offsetX; y += this.offsetY;
+            for (const { startRow, endRow, startCol, endCol, country } of this.countriesInView) {
+                if (y > startRow && y < endRow) {
+                    this.highlightedZone = { startRow, endRow, startCol, endCol, country };
+                }
+            }
         } 
         else{
             this.offsetX += deltaX;
