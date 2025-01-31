@@ -7,7 +7,7 @@ export class View {
         this.baseCtx = baseCanvas.getContext('2d');
 
         this.zoom = 1;
-        this.minZoom = 0.02;
+        this.minZoom = 0.1;
         this.maxZoom = 1000;
         this.scaleFactor = 1.1;
         this.offsetX = 0;
@@ -36,29 +36,8 @@ export class View {
         await this.tileManager.draw(ctx, this.offsetX, this.offsetY, this.baseCanvas.width, this.baseCanvas.height, this.zoom);
         ctx.setTransform(1, 0, 0, 1, 0, 0);
 
-        // draw countries 
-        const countriesInView = this.getCountriesInView();
-        console.log("countriesInView: ", countriesInView);
-        countriesInView.forEach(({ country, startRow, endRow, startCol, endCol }) => {
-            // const clampedStartRow = Math.max(0, startRow + this.offsetY);
-            // const clampedEndRow = Math.min(this.baseCanvas.height, endRow + this.offsetY);
-            // const clampedStartCol = Math.max(0, startCol + this.offsetX);
-            // const clampedEndCol = Math.min(this.baseCanvas.width, endCol + this.offsetX);
-            const height = endRow - startRow;
-            // const width = clampedEndCol - clampedStartCol;
-            if (height > 16) {          //ignore small countries for now
-                ctx.globalAlpha = 0.6;
-                ctx.fillStyle = 'lightgray';
-                // center the text
-                ctx.textAlign = 'center';
-                ctx.font = `${Math.log10(this.zoom*2+1)*height/2}px Arial`;
-                ctx.fillText(country, Math.max(this.baseCanvas.width/3,(this.baseCanvas.width+this.offsetX)/2), (endRow+startRow)/2+ this.offsetY);
-            }
-            ctx.textAlign = 'start';
-            ctx.globalAlpha = 1;
-                
-            });
-        
+        // draw countries
+        this.drawCountry(ctx);
         // draw debug 
         this.drawDebug(ctx, this.zoom.toFixed(2) + ' ' + this.offsetX + ' ' + this.offsetY);
         this.drawISBN(ctx);
@@ -70,11 +49,32 @@ export class View {
     drawDebug(ctx, anything) {
         ctx.fillStyle = 'white';
         ctx.font = '20px Arial';
-        ctx.fillText(`Zoom: ${anything}`, 10, 30 );   
+        ctx.fillText(`Zoom: ${anything}`, 10, this.baseCanvas.height- 30 );   
     }
 
     de(ctx) { let w = this.baseCanvas.width, h = this.baseCanvas.height, x = this.offsetX, y = this.offsetY, vx = (Math.random() - 0.5) * 5, vy = (Math.random() - 0.5) * 5, e = '📕', r = true, c = () => e = Math.random() > 0.5 ? '📕' : '📗', a = () => { if (!r) {return}; this.offsetX=x+20; this.offsetY=y-40;  x += vx; y += vy; (x <= 0 || x >= w - 24) && (vx *= -1, c()); (y <= 0 || y >= h - 24) && (vy *= -1, c()); ctx.font = '48px Arial'; ctx.fillText(e, x, y); requestAnimationFrame(a); }; a(); return () => r = false; }
 
+
+    drawCountry(ctx) {
+        // draw countries 
+        const countriesInView = this.getCountriesInView();
+        // console.log("countriesInView: ", countriesInView);
+        countriesInView.forEach(({ country, startRow, endRow, startCol, endCol }) => {
+            const height = endRow - startRow;
+            // const width = clampedEndCol - clampedStartCol;
+            if (height > 8) {          //ignore small countries for now
+                ctx.globalAlpha = 0.6;
+                ctx.fillStyle = 'lightgray';
+                // center the text
+                ctx.textAlign = 'center';
+                ctx.font = `${Math.log10(this.zoom*2+1)*height/2}px Arial`;
+                ctx.fillText(country, Math.max(this.baseCanvas.width/3,(this.baseCanvas.width+this.offsetX)/2), (endRow+startRow)/2+ this.offsetY );
+            }
+            ctx.textAlign = 'start';
+            ctx.globalAlpha = 1;
+                
+        });
+    }
 
     drawISBN(ctx) {
         // draw current isbn on screen at the right bottom corner
@@ -84,7 +84,7 @@ export class View {
         ctx.globalAlpha = 1;
         ctx.fillStyle = 'white';
         ctx.font = '16px Arial';
-        ctx.fillText(`ISBN: ${this.ISBN.calculateISBN(this.isbnIndex, true)}`, this.baseCanvas.width - 380, this.baseCanvas.height - 20);
+        ctx.fillText(`ISBN: ${this.ISBN.calculateISBN(this.isbnIndex, true)}`,this.baseCanvas.width-200, 30);
         ctx.globalAlpha = 1;
     }
     draw_map_thumbnail(ctx, scale, offsetX, offsetY) {
@@ -107,42 +107,29 @@ export class View {
     }
 
     drawMapScaleIndicator(ctx, x=null, y=null, length=100) {
-        // default set to right bottom corner
+        // default set to top left corner
         if (x === null)
-            x = this.baseCanvas.width - 120;
+            x = 10;
         if (y === null)
-            y = this.baseCanvas.height - 20;
+            y = 30;
 
 
         // draw a background with half-transparency
         ctx.fillStyle = 'black';
         ctx.globalAlpha = 0.8;
-        ctx.fillRect(x-5, y - 20, length+10, 20);
+        ctx.fillRect(x-5, y - 20, length+10, 40);
         ctx.globalAlpha = 1;
         
         // Set up basic styling
-        ctx.strokeStyle = 'lightgray';
-        ctx.fillStyle = 'lightgray';
-        ctx.lineWidth = 2;
-        ctx.font = '12px Arial';
-        
+        ctx.strokeStyle = 'lightgray'; ctx.fillStyle = 'white'; ctx.lineWidth = 2;
+        ctx.font = '14px Arial';
+
         // Draw horizontal line
-        ctx.beginPath();
-        ctx.moveTo(x, y);
-        ctx.lineTo(x + length, y);
-        ctx.stroke();
-        
+        ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(x + length, y); ctx.stroke();
         // Draw left vertical bar
-        ctx.beginPath();
-        ctx.moveTo(x, y - 5);
-        ctx.lineTo(x, y + 5);
-        ctx.stroke();
-        
+        ctx.beginPath(); ctx.moveTo(x, y - 5); ctx.lineTo(x, y + 5);  ctx.stroke();
         // Draw right vertical bar
-        ctx.beginPath();
-        ctx.moveTo(x + length, y - 5);
-        ctx.lineTo(x + length, y + 5);
-        ctx.stroke();
+        ctx.beginPath();        ctx.moveTo(x + length, y - 5);        ctx.lineTo(x + length, y + 5);        ctx.stroke();
         
         // Add text marker
         const text = `${Math.round(50*100/this.zoom)} 📚`;
@@ -186,7 +173,7 @@ export class View {
         const visibleStartRow = -this.offsetY;
         const visibleEndRow = -this.offsetY + this.baseCanvas.height;
         
-        console.log ("visibleStartRow: ", visibleStartRow, "visibleEndRow: ", visibleEndRow);
+        // console.log ("visibleStartRow: ", visibleStartRow, "visibleEndRow: ", visibleEndRow);
         for (const prefix of this.ISBN.getAllPrefixes()) {
             const cleanPrefix = prefix.replace("-", "");
             const { startRow, endRow, startCol, endCol } = this.getZoneRange(cleanPrefix);
@@ -258,6 +245,11 @@ export class View {
         this.offsetY = Math.floor(offsetY - (offsetY - this.offsetY) * (newZoom / this.zoom));
         this.zoom = newZoom;
 
+        // just if the zoom is very close to 1, reset the view
+        if (Math.abs(this.zoom - 1) < 0.05) {
+            this.resetView();
+            return ;
+        }
         this.draw();
     }
 
@@ -268,24 +260,40 @@ export class View {
     }
 
     handleMouseMove(event) {
-        if (!this.isPanning) return;
-
         const deltaX = event.clientX - this.lastX;
         const deltaY = event.clientY - this.lastY;
 
-        this.offsetX += deltaX;
-        this.offsetY += deltaY;
         this.lastX = event.clientX;
         this.lastY = event.clientY;
+        
+        // get the mouse position related to the canvas
+        const rect = this.baseCanvas.getBoundingClientRect();
 
-        // Snap to edges if close to borders
-        this.snapToBounds();
+        const x = Math.floor(event.clientX - rect.left) - this.offsetX;
+        const y = Math.floor(event.clientY - rect.top) - this.offsetY;        
 
+        if (!this.isPanning){
+            // get the proper isbn index with considering the offset and zoom
+            this.isbnIndex = Math.floor((x*50/this.zoom) + (y*50/this.zoom) * 50000);
+        } 
+        else{
+            this.offsetX += deltaX;
+            this.offsetY += deltaY;
+        }
         this.draw();
     }
 
     handleMouseUp() {
         this.isPanning = false;
+    }
+
+    handleDoubleClick(event) {
+        event.preventDefault();
+        const isbn13 = this.ISBN.calculateISBN(this.isbnIndex, true);
+        console.log("isbn: ", isbn13);
+        // search in Anna's Archive 
+        const searchUrl = `https://annas-archive.org/search?index=meta&q=${isbn13}`;
+        window.open(searchUrl, "_blank");
     }
 
     handleTouchStart(event) {
@@ -351,6 +359,7 @@ export class View {
         this.baseCanvas.addEventListener('mousemove', (event) => this.handleMouseMove(event));
         this.baseCanvas.addEventListener('mouseup', () => this.handleMouseUp());
         this.baseCanvas.addEventListener('mouseleave', () => this.handleMouseUp());
+        this.baseCanvas.addEventListener('dblclick', (event) => this.handleDoubleClick(event));
 
         this.baseCanvas.addEventListener('touchstart', (event) => this.handleTouchStart(event));
         this.baseCanvas.addEventListener('touchmove', (event) => this.handleTouchMove(event));

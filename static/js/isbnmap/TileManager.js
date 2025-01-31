@@ -38,7 +38,6 @@ export class TileManager {
         const endTileX = Math.ceil((offsetX + canvasWidth) / tileWidth);
         const endTileY = Math.ceil((offsetY + canvasHeight) / tileHeight);
 
-        console.log("startTileX: ", startTileX, "startTileY: ", startTileY, "endTileX: ", endTileX, "endTileY: ", endTileY);
         const visibleTiles = [];
         for (let x = startTileX; x <= endTileX; x++) {
             for (let y = startTileY; y <= endTileY; y++) {
@@ -62,14 +61,9 @@ export class TileManager {
         const tileData = this.tileMetadata[selectedResolution];
         ctx.imageSmoothingEnabled = false;
     
-        console.log("Drawing with zoomFactor:", zoomFactor, "offsetX:", offsetX, "offsetY:", offsetY, "selectedResolution:", selectedResolution);
-   
-        if (offsetX === 0 && offsetY === 0 && zoomFactor === 1) {
-            offsetX = 0;
-            offsetY = 0;
-        }
+        if (offsetX === 0 && offsetY === 0 && zoomFactor === 1) { offsetX = 0; offsetY = 0; }
     
- 
+        // draw image or tiles
         if (!tileData.grid) {
             if (!this.loadedTiles[selectedResolution]) {
                 const img = new Image();
@@ -81,23 +75,23 @@ export class TileManager {
                     };
                 });
             }
-    
             const img = this.loadedTiles[selectedResolution];
             if (img) {
                 ctx.clearRect(0, 0, canvasWidth, canvasHeight);
                 ctx.setTransform(zoomFactor, 0, 0, zoomFactor, offsetX, offsetY);
                 ctx.drawImage(img, 0, 0, canvasWidth, canvasHeight);
             }
-        } else {
+        } 
+        else {   /// draw tiles
             const { scale, tileWidth, tileHeight } = tileData;
             //calcuate required tiles from offset, scale and canvas size
             const scaleFactor = zoomFactor/scale;
-            console.log("scaleFactor: ", scaleFactor);
+            // console.log("scaleFactor: ", scaleFactor);
             const adjustedOffsetX = Math.max(0, (- offsetX)/scaleFactor);
             const adjustedOffsetY = Math.max(0, (- offsetY)/scaleFactor);
             await this.loadVisibleTiles(tileData, adjustedOffsetX, adjustedOffsetY, canvasWidth, canvasHeight);
             
-            console.log("adjustedOffsetX: ", adjustedOffsetX, "adjustedOffsetY: ", adjustedOffsetY);
+            // console.log("adjustedOffsetX: ", adjustedOffsetX, "adjustedOffsetY: ", adjustedOffsetY);
 
             const tilesReady = this.getVisibleTiles(tileData, adjustedOffsetX, adjustedOffsetY, canvasWidth, canvasHeight)
                 .every(([x, y]) => this.loadedTiles[`${x}_${y}`]);
@@ -111,19 +105,14 @@ export class TileManager {
             this.getVisibleTiles(tileData, adjustedOffsetX, adjustedOffsetY, canvasWidth, canvasHeight).forEach(([x, y]) => {
                 const tileKey = `${x}_${y}`;
                 const img = this.loadedTiles[tileKey];
-    
                 if (img) {
-                    // **Fix tile scaling issue for scale:10**
                     const tileCanvasX = x * tileWidth;
                     const tileCanvasY = y * tileHeight;
-    
-                    console.log(`Drawing tile ${tileKey} at (${tileCanvasX}, ${tileCanvasY}) with scale ${scaleFactor}`);
-    
                     ctx.drawImage(img, tileCanvasX,tileCanvasY, tileWidth, tileHeight);
                 }
             });
         }
-    
+        // reset transformation matrix
         ctx.setTransform(1, 0, 0, 1, 0, 0);
     }
     
