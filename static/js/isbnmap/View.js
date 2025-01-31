@@ -1,5 +1,5 @@
-import { ISBN } from "/static/js/isbnmap/ISBN.js";
-import { Tooltip } from "/static/js/isbnmap/Tooltip.js";
+import { ISBN } from "./static/js/isbnmap/ISBN.js";
+import { Tooltip } from "./static/js/isbnmap/Tooltip.js";
 export class View {
     constructor(name, baseCanvas, overlayCanvas, scale) {
         this.name = name;

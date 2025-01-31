@@ -1,5 +1,5 @@
-import { View } from './View.js';
-import { ISBN } from './ISBN.js';
+import { View } from './static/js/isbnmap/View.js';
+import { ISBN } from './static/js/isbnmap/ISBN.js';
 import { RarebookManager } from './RarebookManager.js';
 
 

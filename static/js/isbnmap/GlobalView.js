@@ -1,4 +1,4 @@
-import { View } from './View.js';
+import { View } from './static/js/isbnmap/View.js';
 export class GlobalView extends View {
     constructor(baseCanvas, overlayCanvas) {
         super('Global', baseCanvas, overlayCanvas);

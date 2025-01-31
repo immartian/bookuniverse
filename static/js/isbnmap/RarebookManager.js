@@ -1,5 +1,5 @@
 export class RarebookManager {
-    constructor(tilePath = '/static/data/rarebooks/', gridSize = 50, tileWidth = 1000, tileHeight = 800) {
+    constructor(tilePath = './static/data/rarebooks/', gridSize = 50, tileWidth = 1000, tileHeight = 800) {
         this.tilePath = tilePath;
         this.gridSize = gridSize;
         this.tileWidth = tileWidth;

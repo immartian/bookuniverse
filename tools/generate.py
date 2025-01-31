@@ -42,73 +42,73 @@ def calculate_titles():
 # print(f"Total dataset positions: {len(bitmap_manager.packed_isbns_ints)}")
 
 
-def generate_aspect_ratio_tile(dataset=b'gbooks', color = [255, 0, 0],  grid_width=50000, tile_width=1000, tile_height=800, tile_x=0, tile_y=0, cache_dir="static/tiles"):
-    """
-    Generate and save a single tile with mapped used ISBNs.
+# def generate_aspect_ratio_tile(dataset=b'gbooks', color = [255, 0, 0],  grid_width=50000, tile_width=1000, tile_height=800, tile_x=0, tile_y=0, cache_dir="static/tiles"):
+#     """
+#     Generate and save a single tile with mapped used ISBNs.
 
-    Args:
-        bitmap_manager (BitmapManager): Manager for bitmap data.
-        grid_width (int): Width of the global grid.
-        tile_width (int): Width of the tile.
-        tile_height (int): Height of the tile.
-        tile_x (int): X-coordinate of the tile.
-        tile_y (int): Y-coordinate of the tile.
-        cache_dir (str): Directory to save the generated tile.
-    """
-    os.makedirs(cache_dir, exist_ok=True)
+#     Args:
+#         bitmap_manager (BitmapManager): Manager for bitmap data.
+#         grid_width (int): Width of the global grid.
+#         tile_width (int): Width of the tile.
+#         tile_height (int): Height of the tile.
+#         tile_x (int): X-coordinate of the tile.
+#         tile_y (int): Y-coordinate of the tile.
+#         cache_dir (str): Directory to save the generated tile.
+#     """
+#     os.makedirs(cache_dir, exist_ok=True)
 
-    # Calculate global start and end positions for the tile
-    start_row = tile_y * tile_height
-    end_row = start_row + tile_height
-    start_col = tile_x * tile_width
-    end_col = start_col + tile_width
+#     # Calculate global start and end positions for the tile
+#     start_row = tile_y * tile_height
+#     end_row = start_row + tile_height
+#     start_col = tile_x * tile_width
+#     end_col = start_col + tile_width
 
-    # Initialize the tile as a blank image, with RGB channels
-    # tile_data = np.zeros((tile_height, tile_width), dtype=np.uint8)
-    tile_data = np.zeros((tile_height, tile_width, 3), dtype=np.uint8)
+#     # Initialize the tile as a blank image, with RGB channels
+#     # tile_data = np.zeros((tile_height, tile_width), dtype=np.uint8)
+#     tile_data = np.zeros((tile_height, tile_width, 3), dtype=np.uint8)
 
-    # Iterate through used ISBN positions
-    position = 0
-    isbn_streak = True
-    data_points_added = 0
+#     # Iterate through used ISBN positions
+#     position = 0
+#     isbn_streak = True
+#     data_points_added = 0
 
-    packed_isbns_binary = isbn_data[dataset]  # Use the 'gbooks' dataset
-    packed_isbns_ints = struct.unpack(f'{len(packed_isbns_binary) // 4}I', packed_isbns_binary)
+#     packed_isbns_binary = isbn_data[dataset]  # Use the 'gbooks' dataset
+#     packed_isbns_ints = struct.unpack(f'{len(packed_isbns_binary) // 4}I', packed_isbns_binary)
 
-    for value in packed_isbns_ints:
-        if isbn_streak:
-            # Process streaks (used ISBNs)
-            for _ in range(value):
-                global_row = position // grid_width
-                global_col = position % grid_width
+#     for value in packed_isbns_ints:
+#         if isbn_streak:
+#             # Process streaks (used ISBNs)
+#             for _ in range(value):
+#                 global_row = position // grid_width
+#                 global_col = position % grid_width
 
-                # Check if the position falls within the current tile
-                if start_row <= global_row < end_row and start_col <= global_col < end_col:
-                    local_row = global_row - start_row
-                    local_col = global_col - start_col
-                    tile_data[local_row, local_col] = color  # Mark existing ISBNs as red
-                    data_points_added += 1
+#                 # Check if the position falls within the current tile
+#                 if start_row <= global_row < end_row and start_col <= global_col < end_col:
+#                     local_row = global_row - start_row
+#                     local_col = global_col - start_col
+#                     tile_data[local_row, local_col] = color  # Mark existing ISBNs as red
+#                     data_points_added += 1
 
-                position += 1
-        else:
-            # Skip gaps
-            position += value
+#                 position += 1
+#         else:
+#             # Skip gaps
+#             position += value
 
-        isbn_streak = not isbn_streak
+#         isbn_streak = not isbn_streak
 
-    print(f"Data points added to tile ({tile_x}, {tile_y}): {data_points_added}")
+#     print(f"Data points added to tile ({tile_x}, {tile_y}): {data_points_added}")
 
-    # Save the tile as an image
-    img = Image.fromarray(tile_data, mode="RGB")
-    tile_path = os.path.join(cache_dir, f"tile_{tile_x}_{tile_y}.png")
-    img.save(tile_path)
-    print(f"Tile ({tile_x}, {tile_y}) saved at: {tile_path}")
+#     # Save the tile as an image
+#     img = Image.fromarray(tile_data, mode="RGB")
+#     tile_path = os.path.join(cache_dir, f"tile_{tile_x}_{tile_y}.png")
+#     img.save(tile_path)
+#     print(f"Tile ({tile_x}, {tile_y}) saved at: {tile_path}")
 
-    return {
-        "tile_data": tile_data,
-        "data_points_added": data_points_added,
-        "tile_path": tile_path,
-    }
+#     return {
+#         "tile_data": tile_data,
+#         "data_points_added": data_points_added,
+#         "tile_path": tile_path,
+#     }
 
 
 
