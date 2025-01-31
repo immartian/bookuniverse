@@ -29,11 +29,11 @@
         const overlayCanvas = document.getElementById('overlayCanvas');
         
         const tileMetadata = {
-            1: { src: "/static/images/isbnmap/1_50/all_isbns_1_50.png", scale: 1, grid: false },
-            2: { src: "/static/images/isbnmap/1_25/all_isbns_1_25.png", scale: 2, grid: false },
-            5: { src: "/static/images/isbnmap/1_10/all_isbns_1_10.png", scale: 5, grid: false},
-            10: { tileDir: "/static/images/isbnmap/1_5", scale: 10, grid: true, tileWidth: 1000, tileHeight: 800, gridWidth: 10, gridHeight: 10  },
-            50: { tileDir: "/static/images/isbnmap/1_1", scale: 50, grid: true, tileWidth: 1000, tileHeight: 800, gridWidth: 50, gridHeight: 50  }
+            1: { src: "./static/images/isbnmap/1_50/all_isbns_1_50.png", scale: 1, grid: false },
+            2: { src: "./static/images/isbnmap/1_25/all_isbns_1_25.png", scale: 2, grid: false },
+            5: { src: "./static/images/isbnmap/1_10/all_isbns_1_10.png", scale: 5, grid: false},
+            10: { tileDir: "./static/images/isbnmap/1_5", scale: 10, grid: true, tileWidth: 1000, tileHeight: 800, gridWidth: 10, gridHeight: 10  },
+            50: { tileDir: "./static/images/isbnmap/1_1", scale: 50, grid: true, tileWidth: 1000, tileHeight: 800, gridWidth: 50, gridHeight: 50  }
         };
 
         new View(baseCanvas, overlayCanvas, tileMetadata); // Test image
