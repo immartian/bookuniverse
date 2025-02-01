@@ -59,7 +59,7 @@ export class View {
         this.drawRarebooksInView(ctx);
         // this.drawDebug(ctx, this.zoom.toFixed(2) + ' ' + this.offsetX + ' ' + this.offsetY);
         // draw countries
-        this.drawCountry(ctx); this.highlightCountry(ctx);
+        this.drawCountries(ctx);  
         this.drawISBN(ctx);
         this.drawMapScaleIndicator(ctx);
     }
@@ -76,26 +76,46 @@ export class View {
 
     de(ctx) { let w = this.baseCanvas.width, h = this.baseCanvas.height, x = this.offsetX, y = this.offsetY, vx = (Math.random() - 0.5) * 5, vy = (Math.random() - 0.5) * 5, e = '📕', r = true, c = () => e = Math.random() > 0.5 ? '📕' : '📗', a = () => { if (!r) {return}; this.offsetX=x+20; this.offsetY=y-40;  x += vx; y += vy; (x <= 0 || x >= w - 24) && (vx *= -1, c()); (y <= 0 || y >= h - 24) && (vy *= -1, c()); ctx.font = '48px Arial'; ctx.fillText(e, x, y); requestAnimationFrame(a); }; a(); return () => r = false; }
 
-    drawCountry(ctx) {
+    drawCountries(ctx) {
         // draw countries 
         this.countriesInView = this.getCountriesInView();
         // console.log("countriesInView: ", countriesInView);
         this.countriesInView.forEach(({ country, startRow, endRow, startCol, endCol }) => {
+            const clampedStartRow = Math.max(0, startRow + this.offsetY);
+            const clampedStartCol = Math.max(0, startCol + this.offsetX);
+            const clampedEndRow = Math.min(this.overlayCanvas.height, endRow + this.offsetY);
+            const clampedEndCol = Math.min(this.overlayCanvas.width, endCol + this.offsetX);
+            // console.log("Debug: ", country,  startRow, endRow, startCol, endCol);
+            // if (country === "English language 🇬🇧🇺🇸🇨🇦🇦🇺🇳🇿🇿🇦" ) console.log("Debug: clampedStartRow:", clampedStartRow, "clampedEndRow:", clampedEndRow, "clampedStartCol:", clampedStartCol, "clampedEndCol:", clampedEndCol, "startRow:", startRow, "endRow:", endRow, "startCol:", startCol, "endCol:", endCol);            
+            // if (country === "Japan 🇯🇵") console.log("Debug: clampedStartRow:", clampedStartRow, "clampedEndRow:", clampedEndRow, "clampedStartCol:", clampedStartCol, "clampedEndCol:", clampedEndCol, "startRow:", startRow, "endRow:", endRow, "startCol:", startCol, "endCol:", endCol);
             const height = endRow - startRow;
             // const width = clampedEndCol - clampedStartCol;
-            if (height > 7) {          //ignore small countries for now
+            if (height > 2) {          //ignore small countries for now
                 ctx.globalAlpha = 0.6;
                 ctx.fillStyle = 'lightgray';
                 let font_size = Math.min(40, Math.log10(this.zoom*2+1)*height/2);
-                if (country === this.highlightedZone?.country) {
+
+                // draw a rectange mask over the region
+                if (country === this.highlightedZone?.country && this.countriesInView.length > 1) {
+                    if (height>2){
+                        ctx.globalAlpha = 0.3;
+                        ctx.fillStyle = 'gray';
+                    } else {
+                        ctx.globalAlpha = 0.5;
+                        ctx.fillStyle = 'yellow';
+                    }
+                    // here's a bug, the width should be the min of canvas width and right border of view
+                    ctx.fillRect(clampedStartCol, clampedStartRow, clampedEndCol-clampedStartCol, height);
+                    
                     ctx.fillStyle = 'yellow';
                     ctx.globalAlpha = 1;
-                    font_size *= 1.5; 
+                    font_size *= 1.2; 
                 }
                 // center the text
                 ctx.textAlign = 'center';
                 ctx.font = `${font_size}px Arial`;
-                ctx.fillText(country, Math.max(this.baseCanvas.width/3,(this.baseCanvas.width+this.offsetX)/2), (endRow+startRow)/2+ this.offsetY );
+                //Math.max(this.baseCanvas.width/3,(this.baseCanvas.width+this.offsetX)/2)   //optimal x position
+                ctx.fillText(country, (clampedStartCol +clampedEndCol)/2, (clampedEndRow+clampedStartRow)/2);
             }
             ctx.textAlign = 'start';
             ctx.globalAlpha = 1;
@@ -104,26 +124,6 @@ export class View {
 
     }
 
-    highlightCountry(ctx) {
-        
-        if (this.highlightedZone && this.countriesInView.length > 1) {
-            // draw a rectange mask over the region
-            const { startRow, endRow, startCol, endCol, country } = this.highlightedZone;
-            const clampedStartRow = Math.max(0, startRow - this.offsetY);
-            const clampedEndRow = Math.min(this.baseCanvas.height, endRow - this.offsetY);
-            const height = endRow - startRow;
-            if (height>2){
-                ctx.globalAlpha = 0.3;
-                ctx.fillStyle = 'gray';
-            } else {
-                ctx.globalAlpha = 0.5;
-                ctx.fillStyle = 'yellow';
-            }
-            // here's a bug, the width should be the min of canvas width and right border of view
-            ctx.fillRect(Math.max(0, this.offsetX), startRow+ this.offsetY, this.baseCanvas.width, height);
-            ctx.globalAlpha = 1;
-        }
-    }
 
     drawISBN(ctx) {
         // draw current isbn on screen at the right bottom corner
@@ -262,11 +262,16 @@ export class View {
 
         let startRow, endRow;  
         let startCol = 0, endCol = this.baseCanvas.width
-        const global_scale = 50000*50/this.zoom;
+        const ratio = this.zoom/50;
+        const global_scale = 50000/ratio;
         /// special case for 978-0 and 978-1 
         if (prefix === "9780" || prefix === "9781") {
-            startRow = Math.floor((this.ISBN.padToISBN("978-0", "0") - this.ISBN.baseISBN) / global_scale);
-            endRow = Math.floor((this.ISBN.padToISBN("978-1", "9") - this.ISBN.baseISBN) /global_scale);
+            const startISBN = this.ISBN.padToISBN("978-0", "0");
+            const endISBN = this.ISBN.padToISBN("978-1", "9");
+            startRow = Math.floor((startISBN - this.ISBN.baseISBN) / global_scale);
+            endRow = Math.floor((endISBN - this.ISBN.baseISBN) /global_scale);
+            startCol = Math.floor(startISBN % 50000*ratio);
+            endCol =  Math.floor(endISBN  %  50000*ratio);
         }
         else
         {
@@ -274,9 +279,12 @@ export class View {
             endRow = Math.floor((endISBN - this.ISBN.baseISBN) / global_scale);
             // there are some small countries that won't cover a full row
             // so we need to adjust the start and end columns
-            startCol = Math.floor((startISBN - this.ISBN.baseISBN) % global_scale);
-            endCol = Math.floor((endISBN - this.ISBN.baseISBN) % global_scale);
+            startCol = Math.floor(startISBN % 50000*ratio);
+            endCol =  Math.floor(endISBN  %  50000*ratio);
         }
+        // if (prefix === "97899923") {
+        //     console.log("Debug: ", startISBN, endISBN, startRow, endRow, startCol, endCol, this.zoom, this.ISBN.baseISBN);
+        // }
         return { startRow, endRow, startCol, endCol };
     }
 
@@ -364,10 +372,10 @@ export class View {
         this.zoom = newZoom;
 
         // just if the zoom is very close to 1, reset the view
-        if (Math.abs(this.zoom - 1) < 0.05) {
-            this.resetView();
-            return ;
-        }
+        // if (Math.abs(this.zoom - 1) < 0.05) {
+        //     this.resetView();
+        //     return ;
+        // }   // not a good experience, just double click at smaller view would be good enough
         this.draw();
     }
 
@@ -407,7 +415,6 @@ export class View {
      
             // find a rare book matching current isbn under mouse
             const found_book = this.rarebooks.find(function(book) {
-                console.log ("book: ", book);
                 return book.i === isbn;
               });
                           
