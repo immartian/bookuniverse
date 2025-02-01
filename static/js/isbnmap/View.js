@@ -86,13 +86,14 @@ export class View {
             if (height > 7) {          //ignore small countries for now
                 ctx.globalAlpha = 0.6;
                 ctx.fillStyle = 'lightgray';
+                let font_size = Math.min(40, Math.log10(this.zoom*2+1)*height/2);
                 if (country === this.highlightedZone?.country) {
                     ctx.fillStyle = 'yellow';
                     ctx.globalAlpha = 1;
+                    font_size *= 1.5; 
                 }
                 // center the text
                 ctx.textAlign = 'center';
-                const font_size = Math.min(40, Math.log10(this.zoom*2+1)*height/2);
                 ctx.font = `${font_size}px Arial`;
                 ctx.fillText(country, Math.max(this.baseCanvas.width/3,(this.baseCanvas.width+this.offsetX)/2), (endRow+startRow)/2+ this.offsetY );
             }
@@ -191,7 +192,7 @@ export class View {
             // try to draw books
         ctx.clearRect(0, 0, this.baseCanvas.width, this.baseCanvas.height);
 
-        if (this.zoom > 900) {
+        if (this.zoom > 800) {
         //     this.imageData = ctx.getImageData(
         //         0,
         //         0,
@@ -459,11 +460,17 @@ export class View {
 
     handleDoubleClick(event) {
         event.preventDefault();
-        const isbn13 = this.ISBN.calculateISBN(this.isbnIndex, true);
-        console.log("isbn: ", isbn13);
-        // search in Anna's Archive 
-        const searchUrl = `https://annas-archive.org/search?index=meta&q=${isbn13}`;
-        window.open(searchUrl, "_blank");
+        // open the search page for the current isbn under mouse, or just zoom to the 1:1 view
+        if (this.zoom <1){   
+            this.resetView();
+        }
+        else{
+            const isbn13 = this.ISBN.calculateISBN(this.isbnIndex, true);
+            console.log("isbn: ", isbn13);
+            // search in Anna's Archive 
+            const searchUrl = `https://annas-archive.org/search?index=meta&q=${isbn13}`;
+            window.open(searchUrl, "_blank");
+        }
     }
 
     handleTouchStart(event) {
