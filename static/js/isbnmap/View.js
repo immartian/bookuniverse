@@ -93,23 +93,26 @@ export class View {
             if (height > 2) {          //ignore small countries for now
                 ctx.globalAlpha = 0.6;
                 ctx.fillStyle = 'lightgray';
-                let font_size = Math.min(40, Math.log10(this.zoom*2+1)*height/2);
-
+                let font_size = Math.min(32, Math.log10(this.zoom*4+1)*height/2);
+                if (this.zoom >900 && height < 4) font_size = Math.max(20, font_size);
                 // draw a rectange mask over the region
                 if (country === this.highlightedZone?.country && this.countriesInView.length > 1) {
-                    if (height>2){
-                        ctx.globalAlpha = 0.3;
-                        ctx.fillStyle = 'gray';
-                    } else {
-                        ctx.globalAlpha = 0.5;
+                    if (! (this.countriesInView.length === 2 && country === "English language 🇬🇧🇺🇸🇨🇦🇦🇺🇳🇿🇿🇦")) {
+                    //skip this case 
+                        if (height>2){
+                            ctx.globalAlpha = 0.3;
+                            ctx.fillStyle = 'gray';
+                        } else {
+                            ctx.globalAlpha = 0.5;
+                            ctx.fillStyle = 'yellow';
+                        }
+                        // here's a bug, the width should be the min of canvas width and right border of view
+                        ctx.fillRect(clampedStartCol, clampedStartRow, clampedEndCol-clampedStartCol, clampedEndRow-clampedStartRow);
+                        
                         ctx.fillStyle = 'yellow';
+                        ctx.globalAlpha = 1;
+                        font_size *= 1.1; 
                     }
-                    // here's a bug, the width should be the min of canvas width and right border of view
-                    ctx.fillRect(clampedStartCol, clampedStartRow, clampedEndCol-clampedStartCol, height);
-                    
-                    ctx.fillStyle = 'yellow';
-                    ctx.globalAlpha = 1;
-                    font_size *= 1.2; 
                 }
                 // center the text
                 ctx.textAlign = 'center';
