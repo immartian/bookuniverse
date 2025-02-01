@@ -34,7 +34,6 @@ canvas {
 #overlayCanvas {
     background-color: transparent;
     z-index: 3;
-    pointer-events: none; /* Prevent the overlay from blocking interactions */
 }
 #tileCanvas {
     z-index: 2;

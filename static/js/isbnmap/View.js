@@ -1,10 +1,15 @@
 import { TileManager } from './TileManager.js';
 import { ISBN } from './ISBN.js';
+import { Tooltip } from './Tooltip.js';
+import { RarebookManager } from './RarebookManager.js';
+
 
 export class View {
     constructor(baseCanvas, overlayCanvas, tileMetadata) {
         this.baseCanvas = baseCanvas;
         this.baseCtx = baseCanvas.getContext('2d');
+        this.overlayCanvas = overlayCanvas;
+        this.overlayCtx = overlayCanvas.getContext('2d');
 
         this.zoom = 1;
         this.minZoom = 0.1;
@@ -19,7 +24,13 @@ export class View {
         this.isbnIndex = 0;
         this.countriesInView = [];
 
-        this.addEventListeners();
+        this.tooltip = new Tooltip();
+        this.iconWidth = 20;
+        this.iconHeight = 20;
+        this.rarebooks = []; 
+        this.rarebookManager = new RarebookManager();
+
+        this.addEventListeners(this.overlayCanvas);   // we can swtich to overlayCanvas
         this.resetView();
     }
 
@@ -33,19 +44,29 @@ export class View {
 
     async draw() {
         const ctx = this.baseCtx;
+
+        
         ctx.imageSmoothingEnabled = false;
         await this.tileManager.draw(ctx, this.offsetX, this.offsetY, this.baseCanvas.width, this.baseCanvas.height, this.zoom);
         ctx.setTransform(1, 0, 0, 1, 0, 0);
+        
+        this.drawOverlay();
+       // if (this.zoom <= this.minZoom) { if (!this.e) this.e = this.de(ctx); } else if (this.e) { this.e(); this.e = null; }    
+    }
 
-        // draw countries
-        this.drawCountry(ctx);
-        // draw debug 
+    drawOverlay() {
+        const ctx = this.overlayCtx;
+        this.drawRarebooksInView(ctx);
         this.drawDebug(ctx, this.zoom.toFixed(2) + ' ' + this.offsetX + ' ' + this.offsetY);
+        // draw countries
+        this.drawCountry(ctx); this.highlightCountry(ctx);
         this.drawISBN(ctx);
         this.drawMapScaleIndicator(ctx);
-
-        // if (this.zoom <= this.minZoom) { if (!this.e) this.e = this.de(ctx); } else if (this.e) { this.e(); this.e = null; }    
     }
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+                                // Sub-Drawing functions //
+/////////////////////////////////////////////////////////////////////////////////////////////////
 
     drawDebug(ctx, anything) {
         ctx.fillStyle = 'white';
@@ -54,7 +75,6 @@ export class View {
     }
 
     de(ctx) { let w = this.baseCanvas.width, h = this.baseCanvas.height, x = this.offsetX, y = this.offsetY, vx = (Math.random() - 0.5) * 5, vy = (Math.random() - 0.5) * 5, e = '📕', r = true, c = () => e = Math.random() > 0.5 ? '📕' : '📗', a = () => { if (!r) {return}; this.offsetX=x+20; this.offsetY=y-40;  x += vx; y += vy; (x <= 0 || x >= w - 24) && (vx *= -1, c()); (y <= 0 || y >= h - 24) && (vy *= -1, c()); ctx.font = '48px Arial'; ctx.fillText(e, x, y); requestAnimationFrame(a); }; a(); return () => r = false; }
-
 
     drawCountry(ctx) {
         // draw countries 
@@ -72,7 +92,7 @@ export class View {
                 }
                 // center the text
                 ctx.textAlign = 'center';
-                const font_size = Math.min(60, Math.log10(this.zoom*2+1)*height/2);
+                const font_size = Math.min(40, Math.log10(this.zoom*2+1)*height/2);
                 ctx.font = `${font_size}px Arial`;
                 ctx.fillText(country, Math.max(this.baseCanvas.width/3,(this.baseCanvas.width+this.offsetX)/2), (endRow+startRow)/2+ this.offsetY );
             }
@@ -81,6 +101,10 @@ export class View {
                 
         });
 
+    }
+
+    highlightCountry(ctx) {
+        
         if (this.highlightedZone && this.countriesInView.length > 1) {
             // draw a rectange mask over the region
             const { startRow, endRow, startCol, endCol, country } = this.highlightedZone;
@@ -88,16 +112,16 @@ export class View {
             const clampedEndRow = Math.min(this.baseCanvas.height, endRow - this.offsetY);
             const height = endRow - startRow;
             if (height>2){
-                ctx.globalAlpha = 0.4;
+                ctx.globalAlpha = 0.3;
                 ctx.fillStyle = 'gray';
             } else {
                 ctx.globalAlpha = 0.5;
                 ctx.fillStyle = 'yellow';
             }
-            ctx.fillRect(0, startRow+ this.offsetY, this.baseCanvas.width, height);
+            // here's a bug, the width should be the min of canvas width and right border of view
+            ctx.fillRect(Math.max(0, this.offsetX), startRow+ this.offsetY, this.baseCanvas.width, height);
             ctx.globalAlpha = 1;
         }
-
     }
 
     drawISBN(ctx) {
@@ -162,8 +186,74 @@ export class View {
     }
 
 
+
+    drawRarebooksInView(ctx) {
+            // try to draw books
+        ctx.clearRect(0, 0, this.baseCanvas.width, this.baseCanvas.height);
+
+        if (this.zoom > 900) {
+        //     this.imageData = ctx.getImageData(
+        //         0,
+        //         0,
+        //         this.baseCanvas.width,
+        //         this.baseCanvas.height
+        //     );        
+        //     const total_cols =  Math.ceil(this.baseCanvas.width / this.iconWidth); 
+        //     const total_rows  = Math.ceil(this.baseCanvas.height / this.iconHeight); 
+
+        //     const pixels = this.imageData.data;
+        
+        //     for (let row = 0; row < total_rows; row++) {
+        //         for (let col = 0; col < total_cols; col++) {
+        //             const x = col * this.iconWidth - (this.offsetX % this.iconWidth);
+        //             const y = row * this.iconHeight - (this.offsetY % this.iconHeight);
+        
+        //             const pixelIndex = (row * this.baseCanvas.width + col) * 4;
+
+        
+        //             const r = pixels[pixelIndex];
+        //             const g = pixels[pixelIndex + 1];
+        //             const b = pixels[pixelIndex + 2];
+        
+        //             let bookIcon = '';
+        //             if (r > 200 && g < 100 && b < 100) {
+        //                 bookIcon = '📕';  // Red - Absent book
+        //             } else if (g > 200 && r < 100 && b < 100) {
+        //                 bookIcon = '📗';  // Green - Available book
+        //             } else {
+        //                 continue;
+        //             }
+        
+        //             ctx.font = `${this.iconWidth}px Arial`;
+        //             ctx.fillText(bookIcon, x, y + this.iconHeight);
+        //         }
+        //     }
+
+        // }
+        const scaleFactor = this.zoom/50;
+
+        const adjustedOffsetX = Math.floor(Math.max(0, (- this.offsetX))/scaleFactor);
+        const adjustedOffsetY = Math.floor(Math.max(0, (- this.offsetY))/scaleFactor);    
+        this.rarebookManager.loadVisibleTiles(adjustedOffsetX, adjustedOffsetY, this.baseCanvas.width, this.baseCanvas.height);
+        this.rarebooks = this.rarebookManager.getRareBooksInView(adjustedOffsetX, adjustedOffsetY, this.baseCanvas.width, this.baseCanvas.height);
+        this.rarebooks.forEach(book => {
+            // // Convert ISBN index to row and column based on the current zoom level(default 1000
+            const iconX = (book.x*this.iconWidth +this.offsetX) ;
+            const iconY = (book.y*this.iconHeight + this.offsetY);
+            // ({x: book.x, y: book.y} = this.calculateBookPosition(book.i));
+            // const iconX =  (book.x- adjustedOffsetX)/scaleFactor*this.iconWidth/// (book.x- adjustedOffsetX)/scaleFactor*this.iconWidth - (adjustedOffsetX/scaleFactor % this.iconWidth); 
+            // const iconY = (book.y - adjustedOffsetY)/scaleFactor*this.iconHeight  //- (adjustedOffsetY/scaleFactor % this.iconHeight);;
+            //   // // Ensure the book is within the visible viewport
+            if (iconX >= 0 && iconX < this.baseCanvas.width && iconY >= 0 && iconY < this.baseCanvas.height) {
+            ctx.font = '20px Arial';
+            ctx.fillText(book.e ? "⭐" : "⭐", iconX , iconY + 15);
+            }
+        });
+        }
+    }
+
     // country related functions
-    getZoneRange(prefix) {
+    getZoneRange(prefix) { 
         const startISBN = this.ISBN.padToISBN(prefix, "0");
         const endISBN = this.ISBN.padToISBN(prefix, "9");
         // const startRow = Math.floor((startISBN - this.baseISBN) / 50000;
@@ -218,7 +308,41 @@ export class View {
         return countriesInView;
     }
 
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /////////////////////////////////////////////////////////////////////////////////
                             //interactions//
@@ -276,6 +400,51 @@ export class View {
                     this.highlightedZone = { startRow, endRow, startCol, endCol, country };
                 }
             }
+
+            // check rare books in view
+            const isbn = this.ISBN.calculateISBN(this.isbnIndex, true);
+     
+            // find a rare book matching current isbn under mouse
+            const found_book = this.rarebooks.find(function(book) {
+                console.log ("book: ", book);
+                return book.i === isbn;
+              });
+                          
+             // Show the ISBN number in the tooltip
+            this.tooltip.x = event.clientX;
+            this.tooltip.y = event.clientY;
+    
+            if (found_book) {
+                    // Show the book's title and number of holdings in the tooltip
+                    
+                    const title = found_book.t;
+                    const holdings = found_book.h;
+                
+    
+                        // show the isbn cover image in tooltip
+                        const isbn13 = found_book.i;  //this.ISBN.calculateISBN(this.isbnIndex, true);
+                        const part1 = String(isbn13).slice(-4, -2);
+                        const part2 = String(isbn13).slice(-2);
+                                        // Image URL pattern
+                        const imageUrl = `https://images.isbndb.com/covers/${part1}/${part2}/${isbn13}.jpg`;
+        
+                        // make a tooltip with the bookcard style
+                        const innerHTML = "<div class='book-card'><img src='"+imageUrl+"' alt='Book Cover' class='book-cover'>"+
+                        "<div class='book-details'>"+
+                        "<div class='book-title'>"+title+"</div>"+
+                        "<div class='book-isbn'>"+isbn13+"</div>"+
+                        "<div class='book-copies'>"+
+                        "<span> Copies: "+( holdings + (found_book.e ? '<br>📗 In Annas-Archive' : '<br>📕 Not in Annas-Archive') )+"</span>"+ 
+                        // (exist ? 'Rare' : 'Not Rare')+
+                        "</div>"+
+                        "</div>";
+                        this.tooltip.show(innerHTML);
+        
+                }
+                else
+                this.tooltip.hide(); 
+                //     this.tooltip.show("ISBN: "+ isbn + "<br> Double click to search in Annas-Archive");
+
         } 
         else{
             this.offsetX += deltaX;
@@ -354,16 +523,16 @@ export class View {
 
     }
 
-    addEventListeners() {
-        this.baseCanvas.addEventListener('wheel', (event) => this.handleWheel(event));
-        this.baseCanvas.addEventListener('mousedown', (event) => this.handleMouseDown(event));
-        this.baseCanvas.addEventListener('mousemove', (event) => this.handleMouseMove(event));
-        this.baseCanvas.addEventListener('mouseup', () => this.handleMouseUp());
-        this.baseCanvas.addEventListener('mouseleave', () => this.handleMouseUp());
-        this.baseCanvas.addEventListener('dblclick', (event) => this.handleDoubleClick(event));
+    addEventListeners(canvas) {
+        canvas.addEventListener('wheel', (event) => this.handleWheel(event));
+        canvas.addEventListener('mousedown', (event) => this.handleMouseDown(event));
+        canvas.addEventListener('mousemove', (event) => this.handleMouseMove(event));
+        canvas.addEventListener('mouseup', () => this.handleMouseUp());
+        canvas.addEventListener('mouseleave', () => this.handleMouseUp());
+        canvas.addEventListener('dblclick', (event) => this.handleDoubleClick(event));
 
-        this.baseCanvas.addEventListener('touchstart', (event) => this.handleTouchStart(event));
-        this.baseCanvas.addEventListener('touchmove', (event) => this.handleTouchMove(event));
-        this.baseCanvas.addEventListener('touchend', () => this.handleTouchEnd());
+        canvas.addEventListener('touchstart', (event) => this.handleTouchStart(event));
+        canvas.addEventListener('touchmove', (event) => this.handleTouchMove(event));
+        canvas.addEventListener('touchend', () => this.handleTouchEnd()); 
     }
 }
