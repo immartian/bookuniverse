@@ -57,7 +57,7 @@ export class View {
     drawOverlay() {
         const ctx = this.overlayCtx;
         this.drawRarebooksInView(ctx);
-        this.drawDebug(ctx, this.zoom.toFixed(2) + ' ' + this.offsetX + ' ' + this.offsetY);
+        // this.drawDebug(ctx, this.zoom.toFixed(2) + ' ' + this.offsetX + ' ' + this.offsetY);
         // draw countries
         this.drawCountry(ctx); this.highlightCountry(ctx);
         this.drawISBN(ctx);
