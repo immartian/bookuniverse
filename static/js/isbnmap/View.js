@@ -27,12 +27,14 @@ export class View {
         this.tooltip = new Tooltip();
         this.iconWidth = 20;
         this.iconHeight = 20;
-        this.rarebooks = []; 
+        this.rarebooks = [];
+        this.tooltipX = 0;
+        this.tooltipY = 0;
         this.rarebookManager = new RarebookManager();
 
         this.addEventListeners(this.overlayCanvas);   // we can swtich to overlayCanvas
         this.resetView();
-    }
+    };
 
     async resetView() {
         this.zoom = 1;
@@ -56,6 +58,7 @@ export class View {
 
     drawOverlay() {
         const ctx = this.overlayCtx;
+        this.drawOverview();
         this.drawRarebooksInView(ctx);
         // this.drawDebug(ctx, this.zoom.toFixed(2) + ' ' + this.offsetX + ' ' + this.offsetY);
         // draw countries
@@ -125,6 +128,68 @@ export class View {
                 
         });
 
+    }
+
+    drawOverview() {
+
+        if (Math.abs(this.zoom -1) > 0.1) return;
+        const ctx = this.baseCtx;
+        const startX = 20 + this.offsetX, startY = 560 + this.offsetY;
+        const linespace = 40;
+        ctx.font = "16px Arial";
+        const height = 16;
+        const maxWidth = this.overlayCanvas.width - 40; // Maximum width for labels in a line
+
+        // Compute the position of each label
+        let x, y;
+        fetch('./static/data/all_books.json')
+            .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok ' + response.statusText);
+            }
+            return response.json();
+            })
+            .then(data => {
+            this.all_books = data;
+            })
+        if (!this.all_books) return;
+
+        this.all_books.forEach((dataset, index) => {
+            if (index >= 2) return;
+            x = index < 2 ? (index === 0 ? startX : this.all_books[index - 1].x + this.all_books[index - 1].width + 20) : (index === 2 ? startX : this.all_books[index - 1].x + this.all_books[index - 1].width + 20);
+
+            if (index < 2) {
+            y = startY;
+            } else if (index === 2) {
+            y = this.all_books[0].y + linespace;
+            } else {
+            y = this.all_books[index - 1].y;
+            }
+            // get count in thousands comma separated
+            const count = dataset.count.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            let text = index < 2 ? dataset.name + " (" + count + " 📚)" : dataset.name;
+            const width = this.baseCtx.measureText(text).width;
+
+            // Check if the label overflows the canvas width
+            if (x + width > maxWidth) {
+            y = this.all_books[index - 1].y + linespace; // Move to the next line
+            x = startX; // Reset startX for the new line
+            }
+
+            dataset.x = x;
+            dataset.y = y;
+            dataset.width = width;
+            dataset.height = height;
+
+            ctx.fillStyle = index < 2 ? dataset.color : "rgb(40, 40, 40)";  // Set background color
+
+            ctx.fillRect(dataset.x, dataset.y - 16, dataset.width + 10, dataset.height + 5);
+
+            ctx.fillStyle = "gray";
+            if (index < 2) ctx.fillStyle = "lightgray";
+
+            ctx.fillText(text, dataset.x + 5, dataset.y);
+        });
     }
 
 
