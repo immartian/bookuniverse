@@ -70,13 +70,13 @@ export class View {
 
     drawOverlay() {
         const ctx = this.overlayCtx;
-        this.drawOverview();
         this.drawRarebooksInView(ctx);
         // this.drawDebug(ctx, this.zoom.toFixed(2) + ' ' + this.offsetX + ' ' + this.offsetY);
         // draw countries
         this.drawCountries(ctx);  
         this.drawISBN(ctx);
         this.drawMapScaleIndicator(ctx);
+        this.drawOverview();
     }
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
@@ -103,12 +103,12 @@ export class View {
             // console.log("Debug: ", country,  startRow, endRow, startCol, endCol);
             // if (country === "English language 🇬🇧🇺🇸🇨🇦🇦🇺🇳🇿🇿🇦" ) console.log("Debug: clampedStartRow:", clampedStartRow, "clampedEndRow:", clampedEndRow, "clampedStartCol:", clampedStartCol, "clampedEndCol:", clampedEndCol, "startRow:", startRow, "endRow:", endRow, "startCol:", startCol, "endCol:", endCol);            
             // if (country === "Japan 🇯🇵") console.log("Debug: clampedStartRow:", clampedStartRow, "clampedEndRow:", clampedEndRow, "clampedStartCol:", clampedStartCol, "clampedEndCol:", clampedEndCol, "startRow:", startRow, "endRow:", endRow, "startCol:", startCol, "endCol:", endCol);
-            const height = endRow - startRow;
+            const height = clampedEndRow-clampedStartRow;
             // const width = clampedEndCol - clampedStartCol;
             if (height > 2) {          //ignore small countries for now
                 ctx.globalAlpha = 0.6;
                 ctx.fillStyle = 'lightgray';
-                let font_size = Math.min(32, Math.log10(this.zoom*4+1)*height/2);
+                let font_size = Math.min(40, Math.log10(this.zoom*4+1)*height/2);
                 if (this.zoom >900 && height < 4) font_size = Math.max(20, font_size);
                 // draw a rectange mask over the region
                 if (country === this.highlightedZone?.country && this.countriesInView.length > 1) {
@@ -148,7 +148,7 @@ export class View {
         if (this.zoom < 1)  ctx.globalAlpha = Math.log10(this);
         let font_size = Math.log(this.zoom*4 + 1)*10;
         ctx.font = `${font_size}px Arial`;
-        if (this.zoom < 1.2) return ;
+        if (this.zoom < 0.9) return ;
         // make height a dynamic value like font size
         const height = font_size;
         // redefine startX and startY based on the zoom and offsets
@@ -156,7 +156,7 @@ export class View {
         const startY = 500 * this.zoom + this.offsetY;
         
         const linespace = font_size *2 ; // Space between lines
-        const maxWidth = this.baseCanvas.width - 40; // Maximum width for labels in a line
+        const maxWidth = this.baseCanvas.width +this.offsetX- 40; // Maximum width for labels in a line
 
         // Compute the position of each label
         let x, y;
