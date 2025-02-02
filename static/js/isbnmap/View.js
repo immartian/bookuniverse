@@ -32,6 +32,18 @@ export class View {
         this.tooltipY = 0;
         this.rarebookManager = new RarebookManager();
 
+        this.all_books = [];
+        fetch('./static/data/all_books.json')
+            .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok ' + response.statusText);
+            }
+            return response.json();
+            })
+            .then(data => {
+            this.all_books = data;
+            })
+
         this.addEventListeners(this.overlayCanvas);   // we can swtich to overlayCanvas
         this.resetView();
     };
@@ -131,43 +143,37 @@ export class View {
     }
 
     drawOverview() {
-
-        if (Math.abs(this.zoom -1) > 0.1) return;
+        
         const ctx = this.baseCtx;
-        const startX = 20 + this.offsetX, startY = 560 + this.offsetY;
-        const linespace = 40;
-        ctx.font = "16px Arial";
-        const height = 16;
-        const maxWidth = this.overlayCanvas.width - 40; // Maximum width for labels in a line
+        if (this.zoom < 1)  ctx.globalAlpha = Math.log10(this);
+        let font_size = Math.log(this.zoom*4 + 1)*10;
+        ctx.font = `${font_size}px Arial`;
+        if (this.zoom < 1.2) return ;
+        // make height a dynamic value like font size
+        const height = font_size;
+        // redefine startX and startY based on the zoom and offsets
+        const startX = 150 *  this.zoom + this.offsetX;
+        const startY = 500 * this.zoom + this.offsetY;
+        
+        const linespace = font_size *2 ; // Space between lines
+        const maxWidth = this.baseCanvas.width - 40; // Maximum width for labels in a line
 
         // Compute the position of each label
         let x, y;
-        fetch('./static/data/all_books.json')
-            .then(response => {
-            if (!response.ok) {
-                throw new Error('Network response was not ok ' + response.statusText);
-            }
-            return response.json();
-            })
-            .then(data => {
-            this.all_books = data;
-            })
-        if (!this.all_books) return;
 
         this.all_books.forEach((dataset, index) => {
-            if (index >= 2) return;
             x = index < 2 ? (index === 0 ? startX : this.all_books[index - 1].x + this.all_books[index - 1].width + 20) : (index === 2 ? startX : this.all_books[index - 1].x + this.all_books[index - 1].width + 20);
 
             if (index < 2) {
             y = startY;
             } else if (index === 2) {
-            y = this.all_books[0].y + linespace;
+            y = this.all_books[0].y + 2* linespace;
             } else {
             y = this.all_books[index - 1].y;
             }
             // get count in thousands comma separated
             const count = dataset.count.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-            let text = index < 2 ? dataset.name + " (" + count + " 📚)" : dataset.name;
+            let text = dataset.name + " (" + count + " 📚)" ;
             const width = this.baseCtx.measureText(text).width;
 
             // Check if the label overflows the canvas width
@@ -190,6 +196,7 @@ export class View {
 
             ctx.fillText(text, dataset.x + 5, dataset.y);
         });
+        ctx.globalAlpha= 1;
     }
 
 

@@ -10,17 +10,55 @@
     <div class="content">
         <h1>ISBN Map --- Global books in one visualization</h1>
         <p>
-            This project offers an interactive visualization of the entire ISBN universe. Several different views are available, starting from a global map and zooming into more details down to each individual book. Use the mouse wheel to zoom in and out, and click and drag to move around the map. Currently, it is optimized for desktop use. Rare books (with fewer than 2 copies) are indicated with a fire icon 🔥, while red dot/book 📕 icons represent books not in Anna's Archive and green dot/book 📗 icons represent books collected by Anna's Archive. Please note that there may be data anomalies.
-        </p>
+            The ISBN Map project offers an intuitive window into the global world of books by transforming the linear ISBN spaces—from the 978- to 979- prefixes (with the 13th digit as checksum)—into a two-dimensional map. The goal is to convey the vastness of book data in a clear, accessible way, while avoiding user overwhelm.
+          </p>
 
         <div class="canvas-container">
             <canvas id="baseCanvas" width="1000" height="800"></canvas>
             <canvas id="overlayCanvas" width="1000" height="800"></canvas>
         </div>
-        <p>
-            Hover over the collection options to explore how different datasets contribute to the ISBN universe.
-            Our visualization demonstrates the scope of book metadata across sources such as Anna's Archive, Google Books, and more.
-        </p>
+        <div style="font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; background-color: #f9f9f9; border: 1px solid #ddd;">
+            <p>
+              The ISBN Map project offers an intuitive window into the global world of books by transforming the linear ISBN spaces—from the 978- to 979- prefixes (with the 13th digit as checksum)—into a two-dimensional map. The goal is to convey the vastness of book data in a clear, accessible way, while avoiding user overwhelm.
+            </p>
+            
+            <h3>Data Sources and Focus</h3>
+            <p>
+              The project aggregates data from multiple sources such as Google Books, OCLC/Worldcat, CADAL, CERLALC, DuXiu, EBSCOhost, Goodreads, Internet Archive, ISBN Global Register, Libby, Nexus/STC, OpenLibrary, Russian State Library, and Imperial Library of Trantor. However, the current focus is on <strong>Anna's Archive</strong> (prefix: <code>md5</code>, approximately 16 million books).
+            </p>
+            
+            <h3>Technical Approach and Implementation</h3>
+            <ul>
+              <li>
+                <strong>Mapping the ISBN Space:</strong> Converting the linear ISBN space into a two-dimensional format while incorporating the checksum digit.
+              </li>
+              <li>
+                <strong>Flask Integration:</strong> Embedded within an existing Flask framework via a simple route, the application runs on the client side using pre-generated static data.
+              </li>
+              <li>
+                <strong>Interactive Design:</strong> Inspired by Google Maps, the interface includes features like zooming and panning to explore the ISBN space without overwhelming the user.
+              </li>
+            </ul>
+            
+            <h3>Challenges and Future Directions</h3>
+            <p>
+              A key challenge is the inherent imperfection of the ISBN system, where publisher reuse of ISBNs means multiple books may share the same identifier. While these inconsistencies are not addressed in the current version, they represent important areas for future work—potentially involving advanced data science techniques and AI.
+            </p>
+            
+            <h3>Outcomes</h3>
+            <ul>
+              <li>
+                <strong>Effective Visualization:</strong> Successfully maps the vast, linear ISBN space into an accessible two-dimensional interactive format.
+              </li>
+              <li>
+                <strong>User-Friendly Interface:</strong> A minimalistic design that emphasizes clarity and ease of navigation without over-engineering.
+              </li>
+              <li>
+                <strong>Foundation for Future Enhancements:</strong> Sets the stage for addressing data anomalies and integrating advanced analytical methods, and AI.
+              </li>
+            </ul>
+          </div>
+          
     </div>
     <script type="module">
         
@@ -37,6 +75,7 @@
         };
 
         new View(baseCanvas, overlayCanvas, tileMetadata); // Test image
+        
     </script>
 </body>
 </html>`;
