@@ -149,7 +149,7 @@ export class View {
         const ctx = this.baseCtx;
 
         // redefine startX and startY based on the zoom and offsets
-        const virtual_country = this.getZoneRange("979-244552")
+        const virtual_country = this.getZoneRange("979-355952")
         const startX = virtual_country.startCol + this.offsetX;
         const startY = virtual_country.startRow + this.offsetY;
         
@@ -164,7 +164,7 @@ export class View {
         ctx.font = `${font_size}px Arial`;
         const height = font_size;
         // make height a dynamic value like font size
-        const linespace = font_size *2 ; // Space between lines
+        const linespace = font_size *1.5 ; // Space between lines
         
         this.all_books.forEach((dataset, index) => {
             x = index < 2 ? (index === 0 ? startX : this.all_books[index - 1].x + this.all_books[index - 1].width + 20) : (index === 2 ? startX : this.all_books[index - 1].x + this.all_books[index - 1].width + 20);
@@ -192,13 +192,12 @@ export class View {
             dataset.width = width;
             dataset.height = height;
             
-            ctx.fillStyle = index < 2 ? dataset.color : "rgb(40, 40, 40)";  // Set background color
-
-            ctx.fillRect(dataset.x, dataset.y - 16, dataset.width + 10, dataset.height + 5);
-
-            ctx.fillStyle = "gray";
+            if (index <2){
+                ctx.fillStyle = index < 2 ? dataset.color : "rgb(40, 40, 40)";  // Set background color
+                ctx.fillRect(dataset.x, dataset.y - 16, dataset.width + 10, dataset.height + 5);
+            }
+            ctx.fillStyle = "darkgray";
             if (index < 2) ctx.fillStyle = "lightgray";
-
             ctx.fillText(text, dataset.x + 5, dataset.y);
         });
         ctx.globalAlpha= 1;
