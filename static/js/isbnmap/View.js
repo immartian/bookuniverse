@@ -103,7 +103,7 @@ export class View {
             // console.log("Debug: ", country,  startRow, endRow, startCol, endCol);
             // if (country === "English language 🇬🇧🇺🇸🇨🇦🇦🇺🇳🇿🇿🇦" ) console.log("Debug: clampedStartRow:", clampedStartRow, "clampedEndRow:", clampedEndRow, "clampedStartCol:", clampedStartCol, "clampedEndCol:", clampedEndCol, "startRow:", startRow, "endRow:", endRow, "startCol:", startCol, "endCol:", endCol);            
             // if (country === "Japan 🇯🇵") console.log("Debug: clampedStartRow:", clampedStartRow, "clampedEndRow:", clampedEndRow, "clampedStartCol:", clampedStartCol, "clampedEndCol:", clampedEndCol, "startRow:", startRow, "endRow:", endRow, "startCol:", startCol, "endCol:", endCol);
-            const height = clampedEndRow-clampedStartRow;
+            let height = clampedEndRow-clampedStartRow;
             // const width = clampedEndCol - clampedStartCol;
             if (height > 2) {          //ignore small countries for now
                 ctx.globalAlpha = 0.6;
@@ -118,15 +118,16 @@ export class View {
                             ctx.globalAlpha = 0.3;
                             ctx.fillStyle = 'gray';
                         } else {
+                            height = height*5;
                             ctx.globalAlpha = 0.5;
                             ctx.fillStyle = 'yellow';
                         }
                         // here's a bug, the width should be the min of canvas width and right border of view
-                        ctx.fillRect(clampedStartCol, clampedStartRow, clampedEndCol-clampedStartCol, clampedEndRow-clampedStartRow);
+                        ctx.fillRect(clampedStartCol, clampedStartRow, clampedEndCol-clampedStartCol, height);
                         
                         ctx.fillStyle = 'yellow';
                         ctx.globalAlpha = 1;
-                        font_size *= 1.1; 
+                        //font_size *= 1.1; 
                     }
                 }
                 // center the text
@@ -144,26 +145,31 @@ export class View {
 
     drawOverview() {
         
-        const ctx = this.baseCtx;
-        if (this.zoom < 1)  ctx.globalAlpha = Math.log10(this);
-        let font_size = Math.log(this.zoom*4 + 1)*10;
-        ctx.font = `${font_size}px Arial`;
         if (this.zoom < 0.9) return ;
-        // make height a dynamic value like font size
-        const height = font_size;
-        // redefine startX and startY based on the zoom and offsets
-        const startX = 150 *  this.zoom + this.offsetX;
-        const startY = 500 * this.zoom + this.offsetY;
-        
-        const linespace = font_size *2 ; // Space between lines
-        const maxWidth = this.baseCanvas.width +this.offsetX- 40; // Maximum width for labels in a line
+        const ctx = this.baseCtx;
 
+        // redefine startX and startY based on the zoom and offsets
+        const virtual_country = this.getZoneRange("979-244554")
+        console.log("Debug: ", virtual_country);
+        const startX = virtual_country.startCol + this.offsetX;
+        const startY = virtual_country.startRow + this.offsetY;
+        
+        // const startX = 150 *  this.zoom + this.offsetX;
+        // const startY = 500 * this.zoom + this.offsetY;
+        
         // Compute the position of each label
         let x, y;
-
+        
+        const maxWidth = this.baseCanvas.width + this.offsetX; // Maximum width for labels in a line
+        let font_size = Math.log(this.zoom*10 + 1)*6;
+        ctx.font = `${font_size}px Arial`;
+        const height = font_size;
+        // make height a dynamic value like font size
+        const linespace = font_size *2 ; // Space between lines
+        
         this.all_books.forEach((dataset, index) => {
             x = index < 2 ? (index === 0 ? startX : this.all_books[index - 1].x + this.all_books[index - 1].width + 20) : (index === 2 ? startX : this.all_books[index - 1].x + this.all_books[index - 1].width + 20);
-
+            
             if (index < 2) {
             y = startY;
             } else if (index === 2) {
@@ -175,18 +181,18 @@ export class View {
             const count = dataset.count.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
             let text = dataset.name + " (" + count + " 📚)" ;
             const width = this.baseCtx.measureText(text).width;
-
+            
             // Check if the label overflows the canvas width
             if (x + width > maxWidth) {
-            y = this.all_books[index - 1].y + linespace; // Move to the next line
-            x = startX; // Reset startX for the new line
+                y = this.all_books[index - 1].y + linespace; // Move to the next line
+                x = startX; // Reset startX for the new line
             }
-
+            
             dataset.x = x;
             dataset.y = y;
             dataset.width = width;
             dataset.height = height;
-
+            
             ctx.fillStyle = index < 2 ? dataset.color : "rgb(40, 40, 40)";  // Set background color
 
             ctx.fillRect(dataset.x, dataset.y - 16, dataset.width + 10, dataset.height + 5);
@@ -334,7 +340,6 @@ export class View {
         const endISBN = this.ISBN.padToISBN(prefix, "9");
         // const startRow = Math.floor((startISBN - this.baseISBN) / 50000;
         // const endRow = Math.floor((endISBN - this.baseISBN) / 50000;
-
         let startRow, endRow;  
         let startCol = 0, endCol = this.baseCanvas.width
         const ratio = this.zoom/50;
