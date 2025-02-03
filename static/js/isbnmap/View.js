@@ -150,7 +150,6 @@ export class View {
 
         // redefine startX and startY based on the zoom and offsets
         const virtual_country = this.getZoneRange("979-244554")
-        console.log("Debug: ", virtual_country);
         const startX = virtual_country.startCol + this.offsetX;
         const startY = virtual_country.startRow + this.offsetY;
         
