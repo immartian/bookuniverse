@@ -149,7 +149,7 @@ export class View {
         const ctx = this.baseCtx;
 
         // redefine startX and startY based on the zoom and offsets
-        const virtual_country = this.getZoneRange("979-244554")
+        const virtual_country = this.getZoneRange("979-244552")
         const startX = virtual_country.startCol + this.offsetX;
         const startY = virtual_country.startRow + this.offsetY;
         
@@ -182,7 +182,7 @@ export class View {
             const width = this.baseCtx.measureText(text).width;
             
             // Check if the label overflows the canvas width
-            if (x + width > maxWidth) {
+            if (x + width > maxWidth && index> 1) {
                 y = this.all_books[index - 1].y + linespace; // Move to the next line
                 x = startX; // Reset startX for the new line
             }
@@ -492,10 +492,16 @@ export class View {
             // check rare books in view
             const isbn = this.ISBN.calculateISBN(this.isbnIndex, true);
      
-            // find a rare book matching current isbn under mouse
-            const found_book = this.rarebooks.find(function(book) {
+            // find a rare book matching current isbn under mouse, there could be several of them to deal with later
+            const found_books = this.rarebooks.filter(function(book) {
                 return book.i === isbn;
-              });
+            });
+
+            let found_book = null;
+            if (found_books.length > 0) {
+                found_book = found_books[0]; // Just take the first one for now
+                console.log("Found books: ", found_books);
+            }
                           
              // Show the ISBN number in the tooltip
             this.tooltip.x = event.clientX;
