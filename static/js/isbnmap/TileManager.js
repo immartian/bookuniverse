@@ -109,6 +109,11 @@ export class TileManager {
                     const tileCanvasX = x * tileWidth;
                     const tileCanvasY = y * tileHeight;
                     ctx.drawImage(img, tileCanvasX,tileCanvasY, tileWidth, tileHeight);
+                    // debug, draw the text of the tileKey in the center of this tile
+                    // ctx.fillStyle = 'white';
+                    // ctx.font = '20px Arial';
+                    // ctx.fillText(tileKey, tileCanvasX + tileWidth / 2, tileCanvasY + tileHeight / 2);
+
                 }
             });
         }
