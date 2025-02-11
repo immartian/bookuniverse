@@ -1,16 +1,17 @@
 export class TileManager {
     constructor(tileMetadata) {
         this.tileMetadata = tileMetadata;
-        this.loadedTiles = {}; // Cache for individual tiles
+        this.cachedTiles = {}; // Cache for individual tiles
     }
 
     async loadTile(x, y, tileData) {
         return new Promise((resolve, reject) => {
             const tileKey = `${x}_${y}`;
+            const cacheKey = `${tileData.scale}_${tileKey}`;
             const img = new Image();
             img.src = `${tileData.tileDir}/tile_${tileKey}.png`;
             img.onload = () => {
-                this.loadedTiles[tileKey] = img;
+                this.cachedTiles[cacheKey] = img;
                 resolve();
             };
             img.onerror = () => reject(`Failed to load tile at (${x}, ${y})`);
@@ -20,8 +21,8 @@ export class TileManager {
     async loadVisibleTiles(tileData, offsetX, offsetY, canvasWidth, canvasHeight) {
         const visibleTiles = this.getVisibleTiles(tileData, offsetX, offsetY, canvasWidth, canvasHeight);
         const loadPromises = visibleTiles.map(([x, y]) => {
-            const tileKey = `${x}_${y}`;
-            if (!this.loadedTiles[tileKey]) {
+            const cacheKey = `${tileData.scale}_${x}_${y}`;
+            if (!this.cachedTiles[cacheKey]) {
                 return this.loadTile(x, y, tileData);
             }
             return Promise.resolve();
@@ -65,17 +66,17 @@ export class TileManager {
     
         // draw image or tiles
         if (!tileData.grid) {
-            if (!this.loadedTiles[selectedResolution]) {
+            if (!this.cachedTiles[selectedResolution]) {
                 const img = new Image();
                 img.src = tileData.src;
                 await new Promise((resolve) => {
                     img.onload = () => {
-                        this.loadedTiles[selectedResolution] = img;
+                        this.cachedTiles[selectedResolution] = img;
                         resolve();
                     };
                 });
             }
-            const img = this.loadedTiles[selectedResolution];
+            const img = this.cachedTiles[selectedResolution];
             if (img) {
                 ctx.clearRect(0, 0, canvasWidth, canvasHeight);
                 ctx.setTransform(zoomFactor, 0, 0, zoomFactor, offsetX, offsetY);
@@ -94,7 +95,7 @@ export class TileManager {
             // console.log("adjustedOffsetX: ", adjustedOffsetX, "adjustedOffsetY: ", adjustedOffsetY);
 
             const tilesReady = this.getVisibleTiles(tileData, adjustedOffsetX, adjustedOffsetY, canvasWidth, canvasHeight)
-                .every(([x, y]) => this.loadedTiles[`${x}_${y}`]);
+                .every(([x, y]) => this.cachedTiles[`${tileData.scale}_${x}_${y}`]);
     
             if (tilesReady) {
                 ctx.clearRect(0, 0, canvasWidth, canvasHeight);
@@ -103,8 +104,8 @@ export class TileManager {
             ctx.setTransform(scaleFactor, 0, 0, scaleFactor, offsetX, offsetY);
     
             this.getVisibleTiles(tileData, adjustedOffsetX, adjustedOffsetY, canvasWidth, canvasHeight).forEach(([x, y]) => {
-                const tileKey = `${x}_${y}`;
-                const img = this.loadedTiles[tileKey];
+                const tileKey = `${tileData.scale}_${x}_${y}`;
+                const img = this.cachedTiles[tileKey];
                 if (img) {
                     const tileCanvasX = x * tileWidth;
                     const tileCanvasY = y * tileHeight;
@@ -112,7 +113,7 @@ export class TileManager {
                     // debug, draw the text of the tileKey in the center of this tile
                     // ctx.fillStyle = 'white';
                     // ctx.font = '20px Arial';
-                    // ctx.fillText(tileKey, tileCanvasX + tileWidth / 2, tileCanvasY + tileHeight / 2);
+                    // ctx.fillText(String(scale) + "_"+tileKey, tileCanvasX + tileWidth / 2, tileCanvasY + tileHeight / 2);
 
                 }
             });
