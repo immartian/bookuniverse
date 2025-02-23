@@ -326,7 +326,7 @@ export class View {
             //   // // Ensure the book is within the visible viewport
             if (iconX >= 0 && iconX < this.baseCanvas.width && iconY >= 0 && iconY < this.baseCanvas.height) {
             ctx.font = '20px Arial';
-            ctx.fillText(book.e ? "⭐" : "⭐", iconX , iconY + 15);
+            ctx.fillText(book.e ? "🎗️" : "🎗️", iconX , iconY + 15);
             }
         });
         }
